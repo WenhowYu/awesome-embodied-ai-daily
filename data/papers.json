@@ -1,0 +1,1285 @@
+{
+  "schema_version": 1,
+  "latest_covered_announcement": "2026-10-22",
+  "results_note": "All numerical results are author-reported; summaries are not independent reproductions.",
+  "editions": {
+    "2026-10-19": {
+      "new": 9,
+      "revised": 0,
+      "supplemental": 0
+    },
+    "2026-10-20": {
+      "new": 12,
+      "revised": 0,
+      "supplemental": 0
+    },
+    "2026-10-21": {
+      "new": 14,
+      "revised": 3,
+      "supplemental": 1
+    },
+    "2026-10-22": {
+      "new": 20,
+      "revised": 5,
+      "supplemental": 0
+    }
+  },
+  "papers": [
+    {
+      "id": "2610.22496",
+      "title": "Scaling Online Exploration for Robot Agents",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "summary_en": "A frozen coding agent explores through robot APIs and turns perception, planning, and control into executable programs. Persistent notes and validated skills support reuse across episodes and tasks.",
+      "summary_zh": "冻结编码代理通过机器人接口探索，将感知、规划与控制沉淀为可执行程序；以持久笔记和已验证技能支持跨回合、跨任务复用。",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-19"
+        }
+      ],
+      "latest_covered": "2026-10-19"
+    },
+    {
+      "id": "2610.22556",
+      "title": "When Plans Change, Remember: Replanning-Guided Visual Memory for Vision-Language-Action Models",
+      "topics": [
+        "vla",
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "Disagreement between adjacent action chunks about the same future time supplies a memory-write signal. A bounded visual memory stores key frames and filters duplicates. Memory is cleared at the start of each episode, so this is within-episode memory.",
+      "summary_zh": "把相邻动作块对同一未来时刻的预测分歧作为记忆写入信号，用有限视觉槽位保存关键帧，并过滤重复画面。",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-19"
+        }
+      ],
+      "latest_covered": "2026-10-19"
+    },
+    {
+      "id": "2610.22576",
+      "title": "Embodiment-Classifier Guidance: Transferring Frozen VLAs Across Robot Dynamics without Demonstrations",
+      "topics": [
+        "vla",
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "An embodiment classifier is trained using successful rollouts from a small set of calibration tasks. Its gradients guide each π0 denoising step while the VLA stays frozen, connecting test-time action guidance with dynamics adaptation.",
+      "summary_zh": "以少量校准任务的成功 rollout 训练具身分类器，在 π0 每一步去噪时用分类器梯度引导动作，保持 VLA 参数冻结。",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-19"
+        }
+      ],
+      "latest_covered": "2026-10-19"
+    },
+    {
+      "id": "2610.22736",
+      "title": "Spatial Memory by Agents, for Agents",
+      "topics": [
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "A Designer Agent iterates memory construction and retrieval programs using feedback from a fixed Query Agent, then freezes the implementation for held-out observation histories. The tasks concern spatial/temporal questions, localization, and navigation queries, rather than continual manipulation-skill learning.",
+      "summary_zh": "Designer Agent 根据固定 Query Agent 的反馈迭代记忆构建和检索程序，再冻结实现，在留出的观测历史上评估。",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-19"
+        }
+      ],
+      "latest_covered": "2026-10-19"
+    },
+    {
+      "id": "2610.23334",
+      "title": "LAW: Unifying Language, Action, and World Modeling for Agentic Physical Intelligence",
+      "topics": [
+        "vla",
+        "world-models",
+        "memory-skills"
+      ],
+      "summary_en": "Semantic subtask progress connects VLM planning, state assessment, and world-action-model action generation, with hierarchical visual memory and subtask value learning.",
+      "summary_zh": "以语义子任务进度连接 VLM 规划、状态判断与 WAM 动作生成，加入分层视觉记忆和子任务价值学习。",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-19"
+        }
+      ],
+      "latest_covered": "2026-10-19"
+    },
+    {
+      "id": "2610.22852",
+      "title": "AnchorQ: Sample-Efficient Reinforcement Learning for Policy Improvement via Flow-Reversed Action Anchors",
+      "topics": [
+        "vla",
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Flow reversal maps rough reference actions to state-dependent noise anchors. Local particles and an online critic guide exploration while the base VLA remains frozen.",
+      "summary_zh": "将粗参考动作通过 flow reversal 转成状态相关的噪声锚点，再以局部粒子和在线 critic 探索，保持基础 VLA 冻结。",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-19"
+        }
+      ],
+      "latest_covered": "2026-10-19"
+    },
+    {
+      "id": "2610.23271",
+      "title": "NestedVLA: Learning to Consolidate and Generate Skills for Vision-Language-Action Models",
+      "topics": [
+        "vla",
+        "memory-skills"
+      ],
+      "summary_en": "Skills are trained separately and then a task-conditioned hypernetwork generates action-expert parameters, reducing conflicts from directly merging weights. This is a parameterized skill-consolidation approach.",
+      "summary_zh": "先分别训练技能，再用任务条件超网络生成 action expert 参数，减少直接合并权重的冲突。",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-19"
+        }
+      ],
+      "latest_covered": "2026-10-19"
+    },
+    {
+      "id": "2610.23156",
+      "title": "ORD-WM: Learning Object-Centric Rigid Dynamics for 3D World Modeling in Robotic Manipulation",
+      "topics": [
+        "world-models",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Rotation-equivariant latents encode object shape; predicted SE(3) transformations are applied analytically to preserve rigid geometry over multistep world-model rollouts.",
+      "summary_zh": "用旋转等变潜变量编码物体形状，预测并解析施加 SE(3) 变化，使多步世界模型保持刚体几何。",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-19"
+        }
+      ],
+      "latest_covered": "2026-10-19"
+    },
+    {
+      "id": "2610.23372",
+      "title": "Beyond Success Rate: Interventional Evaluation of Memory in Vision-Language-Action Systems",
+      "topics": [
+        "vla",
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "Key-fact replacement, fact-preserving replacement, and numerical perturbation controls test whether robot systems causally use memory content, separating memory effects from general system sensitivity.",
+      "summary_zh": "以关键事实替换、保事实替换和数值扰动对照，因果检验机器人是否真正使用记忆内容。",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-19"
+        }
+      ],
+      "latest_covered": "2026-10-19"
+    },
+    {
+      "id": "2610.25114",
+      "title": "Compile Once, Run Cheap: Frozen, Portable Skills for Embodied Agents, and What Recursive Self-Improvement Adds",
+      "topics": [
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "A strong model writes, repairs, and freezes skills offline for execution by code or a cheaper model. The work studies executable experience, validation, inheritance, and deployment cost.",
+      "summary_zh": "强模型离线编写、修补并冻结技能，再由纯代码或廉价模型执行。重点是可执行经验的积累、验证、继承与部署成本。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.26848",
+      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+      "topics": [
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "The study measures initial capability, improvement rate, success, and recovery separately over 18 RoboDojo tasks and up to 17 interaction rounds. History and workspace ablations probe which retained experience supports improvement.",
+      "summary_zh": "18 个 RoboDojo 任务、最多 17 轮交互，将起始能力、改进速度、成功和恢复分开衡量；通过历史与工作区剥离对照分析经验积累来源。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.24804",
+      "title": "SARAM: Sparse Adapter Allocation with Reuse and Merging for Lifelong Robot Learning",
+      "topics": [
+        "vla",
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "summary_en": "SARAM reuses old LoRA adapters, sparsely allocates new ones, and penalizes redundancy. It identifies the task at each episode start and merges the selected adapter into the backbone, providing a parameterized lifelong-learning approach.",
+      "summary_zh": "复用旧 LoRA、稀疏分配新适配器并惩罚重复；每回合先识别任务，再合并到骨干。为跨任务经验的参数化积累提供与显式技能库不同的对照。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.26846",
+      "title": "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "summary_en": "Tactile RGB images are supplied through a visual interface for contact-rich manipulation, together with few-shot demonstrations and interaction memory.",
+      "summary_zh": "触觉 RGB 图像接入视觉接口，结合少样本演示与交互记忆做接触操作。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.25632",
+      "title": "SteerAct: Unlocking Action Models through Few-Shot Temporal Steering",
+      "topics": [
+        "vla",
+        "world-models",
+        "rl-adaptation"
+      ],
+      "summary_en": "A per-task bank of 24 success/failure-labeled rollouts supplies temporal feature references. Online steering chooses intervention timing, direction, and strength while π0.5/Fast-WAM stay frozen. It does not update the main model weights at test time.",
+      "summary_zh": "用每任务 24 条带成败标签的 rollout 建立时序特征参考库，在线选择干预时机、方向和强度，冻结 π0.5／Fast-WAM。连接经验参考与测试时适应，不更新主模型权重。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.26813",
+      "title": "PICA-WAM: Visual Perturbation Invariance via Cross-Appearance Self-Alignment in World Action Models",
+      "topics": [
+        "world-models",
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "An EMA teacher under normal appearance aligns shallow/deep action representations with a student receiving perturbed observations. No extra model is needed at inference.",
+      "summary_zh": "正常外观的 EMA teacher 与扰动观测 student 对齐浅/深层动作表征，推理无额外模型，面向 WAM 后训练与真实环境外观鲁棒性。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.24177",
+      "title": "Self-Improving Video-to-Action Models",
+      "topics": [
+        "world-models",
+        "rl-adaptation",
+        "memory-skills"
+      ],
+      "summary_en": "A video planner proposes goal videos, and a video-to-action model generates video/action training pairs through its own interactions and improves iteratively.",
+      "summary_zh": "视频规划器提出目标视频，V2A 模型以自身交互生成视频—动作训练对并反复改进。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.25763",
+      "title": "TrajWAM: An Efficient Trajectory-Guided World Action Model for Dynamic Robotic Manipulation",
+      "topics": [
+        "world-models",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Historical object masks predict trajectories; a Trajectory ControlNet guides future vision. Video distillation, adapter realignment, and action-rollout distillation preserve a one-step future-conditioned interface for dynamic manipulation.",
+      "summary_zh": "由历史物体 mask 预测轨迹，用 Trajectory ControlNet 引导未来视觉，再通过视频蒸馏、适配器重对齐、动作 rollout 蒸馏保留一步未来条件接口，面向动态操作。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.24587",
+      "title": "LIBERO-Pro2.0: A Benchmark for Evaluating the Robustness of Embodied Foundation Models",
+      "topics": [
+        "vla",
+        "world-models",
+        "evaluation"
+      ],
+      "summary_en": "The benchmark evaluates 17 policies, including VLAs and WAMs, using 22 static perturbation types, 20 runtime interventions, and 1,648 valid task variants. It probes feedback use, recovery, and combined perturbations.",
+      "summary_zh": "22 类静态扰动、20 类运行时干预、1,648 个有效变体任务；17 种 VLA/WAM 等策略统一评估，覆盖反馈利用、失败恢复和组合扰动。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.24579",
+      "title": "LIBERO-Dynamic: Benchmarking Robotic Manipulation in Dynamic Environments",
+      "topics": [
+        "vla",
+        "world-models",
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Forty LIBERO tasks receive three trajectory types at three speed levels, with physics advancing during inference according to measured latency. Six policies each face 1,800 dynamic conditions, supported by 9,000 dynamic demonstrations.",
+      "summary_zh": "40 个 LIBERO 任务加入 3 类轨迹×3 档速度，推理期间按实测延迟推进物理；6 个策略每配置 1,800 个动态条件，9,000 条动态示范，面向预测、实时性与重规划的公平比较。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.24767",
+      "title": "DialogMem: Evaluating Dialogue-Grounded Embodied Memory in 3D Environments",
+      "topics": [
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "RGB-D, poses, and human dialogue are written to memory for instance navigation and question answering across 142 episodes, 27 scanned scenes, and nine memory representations. The diagnostic separates grounding, retrieval, and action localization.",
+      "summary_zh": "将 RGB-D／位姿／人类对话写入记忆，测试实例导航和问答；142 回合、27 个扫描场景、9 类记忆表征，分层诊断对象扎根、检索与行动定位。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.26663",
+      "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
+      "topics": [
+        "evaluation",
+        "memory-skills"
+      ],
+      "summary_en": "RoboValue evaluates robotic value models on task state, progress, failure recovery, and value consistency using 15 simulated and 20 real tasks, beyond binary success/failure classification.",
+      "summary_zh": "15 个模拟和 20 个真实任务，从任务状态、进度、失败恢复和价值一致性评估 value model，超出成功/失败二分类。",
+      "history": [
+        {
+          "date": "2026-10-20",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-20"
+    },
+    {
+      "id": "2610.28589",
+      "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+      "topics": [
+        "vla",
+        "memory-skills",
+        "rl-adaptation"
+      ],
+      "summary_en": "A 9B robotic planner improves through successful-trajectory SFT and multi-turn RL with a frozen executor. LIBERO-PRO reaches 71.0%, but tasks overlap between training and testing and no real-robot result is reported.",
+      "summary_zh": "以成功轨迹 SFT 和多轮 RL 训练 9B 机器人规划器，保持执行器冻结；LIBERO-PRO 达 71.0%，但训练测试共享任务，且无真机结果。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.28626",
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "topics": [
+        "vla",
+        "world-models",
+        "memory-skills"
+      ],
+      "summary_en": "Joint video, action, and language denoising feeds textual working memory back into control. Gains on memory tasks and 18 real-robot trials do not isolate memory from other components or establish cross-episode retrieval.",
+      "summary_zh": "联合去噪视频、动作与语言，并将文字工作记忆反馈到控制；记忆任务和 18 次真机测试的提升未单独隔离记忆贡献，也未验证跨回合检索。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.27917",
+      "title": "EventSync: Event-Driven Memory Updates for History-Dependent Manipulation",
+      "topics": [
+        "vla",
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "summary_en": "An event monitor commits task history only after visual and motion evidence confirms completion. RoboMME reaches 64.5%, but the monitor needs event supervision and the comparisons reuse published baselines.",
+      "summary_zh": "事件监控器在视觉和运动证据确认完成后才写入任务历史；RoboMME 达 64.5%，但需要事件监督，且对照沿用已发表基线。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.28431",
+      "title": "Plausible Future, Wrong Choice: Steering World-Action Models toward Intended Future",
+      "topics": [
+        "world-models",
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Task and causal-state tokens steer world-action predictions through visually ambiguous stages. StageBench rises from 40.9% to 69.4%; real-robot gains require task demonstrations and have small trial counts.",
+      "summary_zh": "任务与因果状态 token 引导世界—动作预测，处理视觉相似阶段；StageBench 从 40.9% 升至 69.4%，真机提升仍依赖任务示范且测试样本较小。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.28613",
+      "title": "Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning",
+      "topics": [
+        "world-models",
+        "rl-adaptation",
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "A vision-tactile world model supports evaluation and policy post-training. Mean real-robot success reaches 70.8% from a 59.1% SFT baseline on four ARX tasks, with one task below SFT.",
+      "summary_zh": "视触觉世界模型支持评测与策略后训练；四项 ARX 任务真机均值从 SFT 的 59.1% 升至 70.8%，但其中一项任务低于 SFT。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.28122",
+      "title": "De-Diffusing WAMs: Action-Sufficient Direct Prediction for Robot Control",
+      "topics": [
+        "world-models",
+        "vla",
+        "manipulation-transfer"
+      ],
+      "summary_en": "A frozen one-step action expert supervises direct future prediction through action error. DirectWAM achieves 97.1% on LIBERO and 85.4% on RoboTwin; the 28× speedup is model-side and teacher superiority is not established.",
+      "summary_zh": "冻结单步动作专家，以动作误差监督直接未来预测；LIBERO 为 97.1%、RoboTwin 为 85.4%，28 倍为模型侧加速，未证明普遍超越 teacher。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.28019",
+      "title": "PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations",
+      "topics": [
+        "vla",
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Newer pre-commit observations verify speculative action chunks from a frozen flow policy. Real-robot success rises from 60% to 82%, with added latency and no calibrated safety guarantee.",
+      "summary_zh": "用较新的提交前观测验证冻结 flow 策略的候选动作块；真机成功率从 60% 升至 82%，同时增加延迟，且不提供校准的安全保证。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.27387",
+      "title": "Training Controllable World Models via Action Influence Maximization",
+      "topics": [
+        "world-models",
+        "rl-adaptation",
+        "evaluation"
+      ],
+      "summary_en": "Action-influence objectives guide active data collection for controllable world models. A Push-T controllability result yields an 85× data-volume ratio, with evidence limited to two simulated environments.",
+      "summary_zh": "动作影响力目标引导可控世界模型的主动数据采集；Push-T 特定可控性指标对应 85 倍数据量比，证据仅覆盖两个仿真环境。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.27736",
+      "title": "AWLS: Advantage-Weighted Latent Steering for One-Step Generative Robotic Manipulation Policies",
+      "topics": [
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Advantage-weighted latent steering improves a frozen one-step decoder without post-training robot rollouts. AWLS achieves 65/100 real-robot successes; only its aggregate gain over MeanFlow survives multiple-comparison correction.",
+      "summary_zh": "优势加权潜在引导在不进行后训练真机 rollout 的条件下改进冻结单步 decoder；真机成功 65/100，只有相对 MeanFlow 的总体提升通过多重比较校正。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.27714",
+      "title": "When Does Experience Memory Help Closed-Loop LLM Driving Agents? A Controlled Evaluation with Resampled Warmup Pools, Token-Matched Fillers, and Audited Baselines",
+      "topics": [
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "Resampled experience pools and token-matched controls reveal fragile memory gains in a driving agent. Conclusions are limited to HighwayEnv, gpt-4o-mini, and 1 Hz, rather than all long-term memory.",
+      "summary_zh": "重采样经验池与等 token 控制揭示驾驶 agent 的记忆收益不稳；结论限于 HighwayEnv、gpt-4o-mini 和 1 Hz，不能泛化到所有长期记忆。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.27698",
+      "title": "VLA-Retain: Benchmarking Cross-Dimension Effects of Vision Tuning in VLAs",
+      "topics": [
+        "vla",
+        "rl-adaptation",
+        "evaluation"
+      ],
+      "summary_en": "A paired benchmark measures target gains and cross-dimension retention after VLA vision tuning. Non-target averages decline in 8 of 10 settings; the study concerns targeted fine-tuning rather than online continual learning.",
+      "summary_zh": "成对评测 VLA 视觉调优的目标收益与跨维度保留；10 个设置中 8 个非目标均值下降，研究干预是定向微调而非在线持续学习。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.27851",
+      "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+      "topics": [
+        "world-models",
+        "vla",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Natural-language action representations unify latent world-model pretraining and joint action/future prediction. LIBERO reaches 97.7%; DROID action-prediction scores are not real-robot success rates.",
+      "summary_zh": "自然语言动作表征统一潜在世界模型预训练及动作／未来联合预测；LIBERO 达 97.7%，DROID 动作预测评分不等于真机成功率。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.26995",
+      "title": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+      "topics": [
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "Skill-DAG memory and state-conditioned Skill-GNN selection reuse successful skill compositions. ALFWorld reaches 87.1%, but the work does not establish new motor-skill acquisition or real-robot transfer.",
+      "summary_zh": "Skill-DAG 记忆与按状态选择的 Skill-GNN 复用成功技能组合；ALFWorld 达 87.1%，未验证新运动技能获取或真机迁移。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.27406",
+      "title": "More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents",
+      "topics": [
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "Rebuilding and discarding task abstractions can reduce error reproduction while preserving raw experience. Three-seed ALFWorld gains are agent-specific and do not establish that all persistent memory is harmful.",
+      "summary_zh": "保留原始经验、重建并丢弃任务抽象可减少错误复现；三种子的 ALFWorld 提升限于特定 agent，不能说明所有持久记忆有害。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.23479",
+      "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "summary_en": "A substantive revision adds official hidden-seed evaluation on 42 RoboDojo tasks. The 46.9% success rate uses a different protocol from v1; released tools do not include the entire evaluation system.",
+      "summary_zh": "实质修订新增 42 项 RoboDojo 任务的官方隐藏 seed 评测；46.9% 成功率与 v1 协议不同，公开工具不包含完整评测系统。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v2",
+          "status": "substantive-revision",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2605.19294",
+      "title": "DEFLECT: Temporal Counterfactual Preference Learning for Delay-Robust Asynchronous VLAs",
+      "topics": [
+        "vla",
+        "rl-adaptation",
+        "evaluation"
+      ],
+      "summary_en": "The revision adds cross-backbone and continued-training controls for delay-robust VLA preference learning. GR00T reaches 73.10% at four-step delay, but protocol changes prevent direct headline comparisons to earlier versions.",
+      "summary_zh": "修订为抗延迟 VLA 偏好学习补充跨骨干及继续训练对照；GR00T 在四步延迟下达 73.10%，协议变化使新旧版 headline 数字不可直接比较。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v3",
+          "status": "substantive-revision",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2607.18840",
+      "title": "WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory and In-Context Learning",
+      "topics": [
+        "world-models",
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "Corrected C2R ablations reduce the marginal long-term-memory gain from 3.42 to 0.67 percentage points. Architecture, main results, and real-robot results are unchanged, and the correction is unexplained.",
+      "summary_zh": "更正后的 C2R 消融将长期记忆边际收益从 3.42 缩至 0.67 个百分点；架构、主表及真机结果未变，修改原因未说明。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v3",
+          "status": "numerical-revision",
+          "announcement_date": "2026-10-21"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.26564",
+      "title": "PrismWAM: Decoupling State Representations in World Action Models",
+      "topics": [
+        "world-models",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "summary_en": "Supplemental review of a 2026-10-20 announcement: RGB goals, depth futures, and actions are decoupled. Base RoboTwin C2R reaches 70.57%; real deployment requires RGB-D, and the 15B result uses additional pretraining.",
+      "summary_zh": "补核 2026-10-20 公告：解耦 RGB 目标、深度未来与动作；基础版 RoboTwin C2R 为 70.57%，真机使用 RGB-D，15B 结果另有预训练。",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "version": "v1",
+          "status": "supplemental-previous-batch",
+          "announcement_date": "2026-10-20"
+        }
+      ],
+      "latest_covered": "2026-10-21"
+    },
+    {
+      "id": "2610.29329",
+      "title": "Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control",
+      "topics": [
+        "vla",
+        "memory-skills"
+      ],
+      "summary_en": "Executable, episode-local memory improves RoboMME performance, but unequal seeds and frame sampling limit the Astra+VLA comparison; cross-task skill growth is unproven.",
+      "summary_zh": "可执行回合内记忆提高了 RoboMME 成绩，但与 Astra+VLA 的种子数和抽帧不同，尚无跨任务技能扩展证据。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.29560",
+      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+      "topics": [
+        "vla",
+        "memory-skills",
+        "evaluation"
+      ],
+      "summary_en": "Offline harness revision raises RoboMME success from 44.38% to 51.38%; runtime context resets, and the reported repair does not establish new skill discovery.",
+      "summary_zh": "离线修订 harness 将 RoboMME 成功率从 44.38% 提高到 51.38%；运行上下文重置，所述修复不构成新技能发现。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.29702",
+      "title": "CausGround: Causal Interaction Grounding for Adaptive Embodied Planning",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "summary_en": "An offline causal knowledge base improves planning, but RoboCasa uses replay-based high-level evaluation and the knowledge base does not grow during deployment.",
+      "summary_zh": "离线因果知识库改善规划，但 RoboCasa 采用回放式高层评估，部署时知识库不增长。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.30105",
+      "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
+      "topics": [
+        "memory-skills",
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Privileged on-policy distillation learns exploration across episodes sharing hidden conditions; real-robot samples are limited and context is not a permanent skill library.",
+      "summary_zh": "特权专家的 on-policy 蒸馏支持共享隐变量下的跨回合探索，但真机样本有限，上下文并非永久技能库。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.28882",
+      "title": "inr2action: Encoding Robot Episodes as Neural Implicit Representations for Recall and Action",
+      "topics": [
+        "memory-skills",
+        "vla"
+      ],
+      "summary_en": "Episode videos are stored as INR weight deltas; QA improves over chance, but offline action regression does not establish closed-loop control or scalable retrieval.",
+      "summary_zh": "用 INR 权重差存储回合视频，问答优于随机水平；离线动作回归尚不能证明闭环控制或可扩展检索。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.30051",
+      "title": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "A tool-based LIBERO-10 benchmark measures frontier models without manipulation pretraining; a 44/100 versus 43/100 result is too close for a robust ranking.",
+      "summary_zh": "LIBERO-10 工具控制基准评估无操作预训练的前沿模型；44/100 与 43/100 的差距不足以形成可靠排名。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.30136",
+      "title": "Agentic World Action Models",
+      "topics": [
+        "world-models",
+        "memory-skills",
+        "vla"
+      ],
+      "summary_en": "Joint code–video–action denoising connects agent planning and control, but random-domain performance is weaker than π0.5 and the skill library remains frozen.",
+      "summary_zh": "代码、视频与动作联合去噪连接 agent 规划和控制，但随机域成绩低于 π0.5，技能库仍冻结。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.30125",
+      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+      "topics": [
+        "world-models",
+        "rl-adaptation"
+      ],
+      "summary_en": "A compact interaction-derived physics token improves several planning results without gradient updates, but simulation-only gains do not consistently beat all context or supervised baselines.",
+      "summary_zh": "交互提取的紧凑物理 token 无需梯度更新即可改善部分规划结果，但仅有仿真证据，且并非始终优于上下文或有监督基线。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.30117",
+      "title": "CW-WAM: A Structured Contact-Wrench World Action Model for Force-Sensitive Manipulation",
+      "topics": [
+        "world-models",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Contact-wrench history improves force-sensitive manipulation under matched ablations, but hand-set gains and larger contact forces prevent a general safety claim.",
+      "summary_zh": "匹配消融支持接触力历史对力敏感操作的作用，但增益手设且部分接触力更大，不能概括为更安全。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.29866",
+      "title": "GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models",
+      "topics": [
+        "vla",
+        "memory-skills",
+        "world-models"
+      ],
+      "summary_en": "Training-only geometry supervision and temporal memory improve a shared VLA backbone; benchmark-specific adaptation and episode resets bound the generalization and memory claims.",
+      "summary_zh": "仅训练时使用的几何监督与时序记忆改善了同底座 VLA；各基准专门适配且记忆逐回合清空，限制了泛化与记忆结论。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.29282",
+      "title": "Relational Geometry Forcing for World Action Models",
+      "topics": [
+        "world-models",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Training-only relational geometry supervision improves WAM generalization, although LIBERO gains are small and the temporal term alone is harmful.",
+      "summary_zh": "训练时关系几何监督改善 WAM 泛化，但 LIBERO 增益较小，时间项单独使用反而有害。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.29168",
+      "title": "How Representational Priors Shape Generalization in World Action Models",
+      "topics": [
+        "world-models",
+        "evaluation"
+      ],
+      "summary_en": "Representation geometry correlates with WAM robustness across backbones, but unmatched pretraining and architectures prevent a causal interpretation.",
+      "summary_zh": "跨骨干的表征几何与 WAM 鲁棒性相关，但预训练和架构未完全匹配，不能作因果解释。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.29246",
+      "title": "DepState-JEPA: Learning Depth-Grounded State Representation for Visual Perception and Manipulation",
+      "topics": [
+        "world-models",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Depth-grounded predictive representations transfer to matched real scenes, but fixed calibration, embodiment-specific training, and excluded search time limit transfer and speed claims.",
+      "summary_zh": "深度约束预测表征可迁移到匹配的实机场景，但固定标定、本体专用训练及未计入的搜索时间限制了迁移与速度结论。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.28814",
+      "title": "T-WLA: Bridging Slow Vision and Fast Touch",
+      "topics": [
+        "vla",
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "summary_en": "A fast tactile editor corrects pending actions, but the no-touch variant nearly matches full performance, limiting how much gain can be attributed to touch.",
+      "summary_zh": "快速触觉编辑器修正待执行动作，但无触觉版本已接近完整模型表现，限制了可归因于触觉的增益。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.29117",
+      "title": "Learning to Absorb Corrections: Critic-Weighted Residual Flow for Vision-Based Insertion",
+      "topics": [
+        "rl-adaptation",
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Critic-weighted residual learning is absorbed into ACT: residual-off success improves from 16% to 76%; cross-task forgetting and VLA transfer remain untested.",
+      "summary_zh": "critic 加权残差学习被 ACT 吸收：关闭残差后的成功率从 16% 提高到 76%，但跨任务遗忘和 VLA 迁移尚未验证。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.29264",
+      "title": "Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation",
+      "topics": [
+        "world-models",
+        "rl-adaptation"
+      ],
+      "summary_en": "Human-in-the-loop deployment updates WAM checkpoints within a session; final performance is close to a budget-matched fixed policy and cross-task continual learning is untested.",
+      "summary_zh": "人类参与部署使 WAM 能在会话内更新，但最终成绩接近预算匹配的固定策略，尚无跨任务持续学习证据。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.29161",
+      "title": "SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training",
+      "topics": [
+        "vla",
+        "rl-adaptation",
+        "evaluation"
+      ],
+      "summary_en": "Automated intervention collection enables controlled VLA post-training comparisons; real-robot gains transfer an algorithmic change, not a simulation policy zero-shot.",
+      "summary_zh": "自动干预采集支持控变量的 VLA 后训练比较；真机提升体现算法改动迁移，并非仿真策略零样本转真机。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.28880",
+      "title": "Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration",
+      "topics": [
+        "vla",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Semantic 3D augmentation turns one human video into robot data with strong controlled gains, but teleoperation comparisons are unmatched and setup remains manual.",
+      "summary_zh": "三维语义扩增将单个人类视频转为机器人数据，控变量实验增益明显，但与遥操作的比较不匹配，仍需人工设置。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.28948",
+      "title": "COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "summary_en": "Local grasping experts support contextual whole-body manipulation, with strong real-robot results; compute is unmatched and the system does not learn continually in deployment.",
+      "summary_zh": "局部抓取专家支持情境化全身操作，真机成绩较强；但算力未匹配，部署时不进行持续学习。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2610.30097",
+      "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
+      "topics": [
+        "vla",
+        "rl-adaptation",
+        "memory-skills"
+      ],
+      "summary_en": "Atomic subtask credit assignment and bottleneck exploration improve long-horizon RL; the real-robot gain is 8.0 points over PPO, with training performed in reconstructed simulation.",
+      "summary_zh": "原子子任务信用分配和瓶颈探索改善长程 RL；真机相对 PPO 提高 8.0 个百分点，训练在重建仿真中完成。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2607.00272",
+      "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "summary_en": "The revision adds real-robot cross-episode textual skill accumulation; per-rotation time improves, but total cube-solving time is not monotonic and human support remains.",
+      "summary_zh": "修订新增真机跨回合文本技能积累；单次旋转耗时下降，但魔方总解题时间不单调下降，仍需人类支持。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2609.29166",
+      "title": "HarnessPAI: An Evolving Harness for Physical AI",
+      "topics": [
+        "world-models",
+        "memory-skills",
+        "rl-adaptation"
+      ],
+      "summary_en": "New DreamZero fine-tuning reuses successful harness trajectories, raising the reported mean from 5.1% to 26.5%; evaluation-based checkpoint selection limits the evidence.",
+      "summary_zh": "新增 DreamZero 微调复用 harness 成功轨迹，报告均值从 5.1% 提高到 26.5%；按评估成绩选 checkpoint 限制了证据强度。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2605.15705",
+      "title": "Feedback World Model Enables Precise Guidance of Diffusion Policy",
+      "topics": [
+        "world-models",
+        "rl-adaptation"
+      ],
+      "summary_en": "Residual feedback adapts a frozen WAM without parameter updates; a moderate gain helps OOD success, while gain 1 worsens prediction errors.",
+      "summary_zh": "残差反馈无需参数更新即可适配冻结 WAM；适中 gain 改善 OOD 成功率，而 gain 1 使预测误差恶化。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2606.20698",
+      "title": "SafeDojo: Safe Reinforcement Learning for VLA via Interactive World Model",
+      "topics": [
+        "world-models",
+        "vla",
+        "rl-adaptation",
+        "evaluation"
+      ],
+      "summary_en": "The revision validates safety-head calibration rather than changing headline success results; small Level II gains and proxy costs do not establish real-world safety.",
+      "summary_zh": "修订验证安全评估头校准，主成功率表未变；Level II 增益很小，代理成本不能保证真实部署安全。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    },
+    {
+      "id": "2606.13769",
+      "title": "μ0: A Scalable 3D Interaction-Trace World Model",
+      "topics": [
+        "world-models",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "summary_en": "Version 3 exposes weak long-horizon completion and greater action-chunk latency than π0.5; unchanged atomic-task scores should not be mistaken for compositional progress.",
+      "summary_zh": "v3 揭示长程完成率低、动作块延迟高于 π0.5；原子任务主成绩未变，不能据此宣称组合能力进步。",
+      "history": [
+        {
+          "date": "2026-10-22",
+          "version": "v3",
+          "status": "revised",
+          "announcement_date": "2026-10-22"
+        }
+      ],
+      "latest_covered": "2026-10-22"
+    }
+  ]
+}
