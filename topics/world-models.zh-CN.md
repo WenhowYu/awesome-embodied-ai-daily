@@ -2,7 +2,70 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-28 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+37 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success
+
+- [arXiv 2610.31670](https://arxiv.org/abs/2610.31670) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.31670)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.31670)
+
+无需训练，以 DTW 轨迹邻域与感知表征的 CKNNA 对齐，离线筛选策略及 VLM 骨干。 真实机器人 r=.831 使用探索性 h=110；预设 h=7 仅 r=.429、p=.236。相关不代表优化该指标会提高成功率；不能替代闭环测试。
+
+## Skeleton-Grounded Latent Action Model for Robot World Models
+
+- [arXiv 2610.31474](https://arxiv.org/abs/2610.31474) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.31474)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.31474)
+
+骨架监督将潜动作拆成运动学与残差；交换重建、分支 dropout 和动作适配器支持可控视频预测。 DROID 预测跨度 0.8 秒；不同方法有效轨迹子集不完全相同。人→机器人仅两个生成视频例子。策略评估只有 9 次真实成功，不能代替闭环验证。
+
+## RGraph-Eval: Task-Grounded Scene Graphs for Evaluating Robot Video Generation
+
+- [arXiv 2610.31121](https://arxiv.org/abs/2610.31121) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.31121)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.31121)
+
+用统一时序场景图比较生成与参考视频的物体、关系变化和 3D 路径；引入 1,000 场景的 ShareRobot-SG。 小样本相关不能证明逐视频可靠性；物体 F1 不及 SG-Ego。单参考、单被操作物体和提取错误会惩罚有效替代方案；不认证动作可执行性。
+
+## UniFlowWAM: A Unified World-Action Model with Visual Semantics and 4D Geometry
+
+- [arXiv 2610.30991](https://arxiv.org/abs/2610.30991) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.30991)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.30991)
+
+将未来视觉、3D 场景流和动作放入三专家联合注意力模型，以 10 个目标联合训练；部署不需场景流输入。 58.9% 是最佳评估种子；87.7% 是最佳已评检查点。实机逐任务训练、初始条件在示范范围内；流伪标签有噪声。
+
+## In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations
+
+- [arXiv 2610.30988](https://arxiv.org/abs/2610.30988) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.30988)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.30988)
+
+部分点云经生成式状态补全，再用上下文条件 Transformer 预测布料动力学，为流匹配动作候选排序；测试时不更新权重。 实机表无对照策略；成功由点云距离阈值定义。PCN 的 CD/EMD 更好；本文优势是对应点 MSE。快速动态操作及闭环重规划仍待验证。
+
+## DRILL: Training World Models to Improve Policies, Not Predict Pixels
+
+- [arXiv 2610.30814](https://arxiv.org/abs/2610.30814) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.30814)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.30814)
+
+DRILL 直接优化世界模型生成的想象 rollout 对策略学习的帮助。其低成本加权代理目标与双层元梯度方案，把下游回报作为目标，而非仅追求像素预测精度。
+
+## DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models
+
+- [arXiv 2610.30781](https://arxiv.org/abs/2610.30781) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.30781)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.30781)
+
+DeXplicit 先在公制三维空间预测物体运动与形变，再渲染动作条件视频。在相同几何与动作输入下，长时域运动点误差较适配后的 PointWorld 降低 27–40%，显式几何也提高了物体保真度。
+
+## Self-Distilling Future Video Representations for World Action Models
+
+- [arXiv 2610.30320](https://arxiv.org/abs/2610.30320) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.30320)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.30320)
+
+用观测历史与 EMA 教师自蒸馏，改善单次视频去噪产生的未来表征，再供动作解码器使用。 附录说明成功评分允许部分得分，不能都理解为完整成功率。未加入人类视频时，迁移指令遵循为 0%；跨具身对应是隐式学习。
+
+## FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence
+
+- [arXiv 2609.17210](https://arxiv.org/abs/2609.17210) · v2 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2609.17210)
+- 收录历史: [2026-10-23 (v2, revised)](../daily/2026-10-23.zh-CN.md#arxiv-2609.17210)
+
+FluxVLA 统一策略数据、训练、评估与机器人执行接口。本次大幅扩展的修订新增 RLinf 在线 PPO 接口、更广泛的仿真与真机集成，以及成对后训练实验；它是一套工程平台，而非新的基础策略。
 
 ## Agentic World Action Models
 

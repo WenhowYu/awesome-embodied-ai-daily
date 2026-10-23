@@ -2,7 +2,77 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-34 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+44 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning
+
+- [arXiv 2610.31656](https://arxiv.org/abs/2610.31656) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.31656)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.31656)
+
+METTA 将回合内可梯度更新的快速神经记忆与跨回合的紧凑摘要分开。它在 Meta-World ML10/45 未见任务族上报告超过 50% 成功率，并改善长上下文稀疏奖励探索。
+
+## FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies
+
+- [arXiv 2610.31427](https://arxiv.org/abs/2610.31427) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.31427)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.31427)
+
+固定π0.5，用持续阶段记忆安排GPT-6 Astra审核：熟悉阶段少审核，风险、历史失败与恢复阶段集中审核，无需训练新模型。 80%比较基线来自外部报告，每任务仅5例且场景混合不同，并非匹配重跑。共享记忆使回合不独立，搭塔首个评估回合已有经验；节省比例不是端到端A/B因果效应。仅仿真，且存在漏检失败。 57.2%是逐任务下降比例的均值，并非总平均token的下降比例；统计含输入、输出与缓存输入，不能等同费用下降。
+
+## PiHand: Latent Hand-Object Interaction Priors for Physics-Based Policy Learning
+
+- [arXiv 2610.31299](https://arxiv.org/abs/2610.31299) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.31299)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.31299)
+
+PiHand 将仿真中的动作捕捉跟踪专家蒸馏为目标条件手–物交互潜变量先验，再在潜空间中学习有界残差探索。同一交互先验可支持新物体、新轨迹、接物和双手交接。
+
+## Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
+
+- [arXiv 2610.31166](https://arxiv.org/abs/2610.31166) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.31166)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.31166)
+
+WholeBodyMem 用 SAM3 对象事件选择历史关键帧，以对象时空 token 和独立记忆注意力向全身动作专家提供已经消失的线索。 这是回合内感知历史，不是跨回合技能积累；真机每任务仅10次且未给均匀记忆真机对照。SAM3漏检与跟踪成本仍是限制。
+
+## Co^2Gen: Collaboratively Generating Task Plans for Decentralized Multi-Robot and Human Collaboration
+
+- [arXiv 2610.30671](https://arxiv.org/abs/2610.30671) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.30671)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.30671)
+
+通过多智能体规划生成带条件检查的协作程序，将执行轨迹用于分散式SmolVLA训练；把程序级协作经验转成动作策略数据。 最强结论依赖混合人工单臂数据，不能说全流程无人工；自动生成数据单独训练仍有执行瓶颈。仅两任务和有限试次，尚非跨本体普遍结论。
+
+## Know When to Escalate: Critic-Guided Adaptive Execution for Cloud-Local Embodied Agents
+
+- [arXiv 2610.30587](https://arxiv.org/abs/2610.30587) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.30587)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.30587)
+
+CARE 用评论器判断何时从本地执行器升级到云端，并保持云端接管直到恢复；双向共享交接记忆保留任务进度。 纯仿真决策层评估；本地模型和评论器使用H200，并非实测端侧机器人延迟。阈值按基准调节；云请求比例不包含评论器调用。无真实网络、传感或硬件故障验证。 EmbodiedBench上仍低于纯云端成功率（75%对80%）；云请求比例不等于总计算成本。
+
+## Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live
+
+- [arXiv 2610.30478](https://arxiv.org/abs/2610.30478) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.30478)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.30478)
+
+预注册对照研究比较将具身经验蒸馏进 LoRA 与推理时检索图文经历；核心实验在同一组权重上开关冻结记忆库。 蒸馏检验功效不足，不能证明经验无法写入权重；只测试窄任务及一种训练方案。图文贡献未分离，自动重置和日志缺陷虽有敏感性分析仍须注意。公开仓库已核实，论文所称制品 release 暂未查到。
+
+## Alpha: Systematic Fault Injection and Robustness Evaluation for LLM-Driven Embodied Manipulation
+
+- [arXiv 2610.30197](https://arxiv.org/abs/2610.30197) · v1 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2610.30197)
+- 收录历史: [2026-10-23 (v1, new)](../daily/2026-10-23.zh-CN.md#arxiv-2610.30197)
+
+在感知、执行、运动学与规划序列化边界注入故障，以匹配种子Oracle区分物理失败和规划接口失败。 只有一个桌面任务、一个模型，每故障强度5次；感知延迟实际均饱和0.5s。不能据此泛化“LLM没有推理缺陷”或实际机器人安全性。
+
+## Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents
+
+- [arXiv 2609.39304](https://arxiv.org/abs/2609.39304) · v4 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2609.39304)
+- 收录历史: [2026-10-23 (v4, revised)](../daily/2026-10-23.zh-CN.md#arxiv-2609.39304)
+
+Scale and Selection 通过增加 rollout 样本量及优胜者–挑战者筛选改进视觉接口机器人代理。本次修订新增蒸馏闭环，将代理辅助执行经验转化为独立机器人策略。
+
+## HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation
+
+- [arXiv 2604.07993](https://arxiv.org/abs/2604.07993) · v3 · [最新归档](../daily/2026-10-23.zh-CN.md#arxiv-2604.07993)
+- 收录历史: [2026-10-23 (v3, revised)](../daily/2026-10-23.zh-CN.md#arxiv-2604.07993)
+
+HEX 结合标准化身体部位状态、混合专家本体状态预测器、紧凑视觉历史和流匹配动作，完成类人机器人全身操作。本次修订新增两个家庭长时域任务、ψ0 对照、分布外预训练测试及数据规模与超参数实验。
 
 ## Agentic World Action Models
 

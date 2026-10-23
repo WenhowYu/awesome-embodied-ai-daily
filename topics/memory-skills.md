@@ -2,7 +2,77 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-34 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+44 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning
+
+- [arXiv 2610.31656](https://arxiv.org/abs/2610.31656) · v1 · [Latest entry](../daily/2026-10-23.md#arxiv-2610.31656)
+- Coverage history: [2026-10-23 (v1, new)](../daily/2026-10-23.md#arxiv-2610.31656)
+
+METTA separates fast gradient-updated within-episode neural memory from compact cross-episode summaries. It reports over 50% success on held-out Meta-World ML10/45 task families and better long-context sparse-reward exploration.
+
+## FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies
+
+- [arXiv 2610.31427](https://arxiv.org/abs/2610.31427) · v1 · [Latest entry](../daily/2026-10-23.md#arxiv-2610.31427)
+- Coverage history: [2026-10-23 (v1, new)](../daily/2026-10-23.md#arxiv-2610.31427)
+
+FastHarness schedules GPT-6 Astra reviews of a frozen π0.5 policy using persistent stage and failure memory. Familiar execution skips reviews; risky states and recovery receive closer supervision without additional model training. The 80% comparison baseline is borrowed from another report, with five cases per task and a different scene mix, not a matched rerun. Episodes share memory and are not independent; the first tower episode already has prior experience. Savings are descriptive within-chain changes, not an end-to-end A/B effect. Evaluation is simulation-only and includes missed failures. The 57.2% is the mean of per-task percentage reductions, not the change in aggregate mean tokens. Token counts include input, output and cached inputs; they are not monetary costs.
+
+## PiHand: Latent Hand-Object Interaction Priors for Physics-Based Policy Learning
+
+- [arXiv 2610.31299](https://arxiv.org/abs/2610.31299) · v1 · [Latest entry](../daily/2026-10-23.md#arxiv-2610.31299)
+- Coverage history: [2026-10-23 (v1, new)](../daily/2026-10-23.md#arxiv-2610.31299)
+
+PiHand distills simulated mocap-tracking experts into a goal-conditioned hand–object latent prior, then learns bounded residual exploration in that latent space. The same interaction prior supports new objects, trajectories, catching and bimanual handovers.
+
+## Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
+
+- [arXiv 2610.31166](https://arxiv.org/abs/2610.31166) · v1 · [Latest entry](../daily/2026-10-23.md#arxiv-2610.31166)
+- Coverage history: [2026-10-23 (v1, new)](../daily/2026-10-23.md#arxiv-2610.31166)
+
+WholeBodyMem selects historical frames from SAM3 object events and supplies object spatiotemporal tokens and memory attention to a whole-body action expert. This is within-episode perceptual history, not cross-episode skill accumulation. Physical tests have only ten trials per task and no uniform-memory real-robot comparator. Missed SAM3 detections and tracking overhead remain limitations.
+
+## Co^2Gen: Collaboratively Generating Task Plans for Decentralized Multi-Robot and Human Collaboration
+
+- [arXiv 2610.30671](https://arxiv.org/abs/2610.30671) · v1 · [Latest entry](../daily/2026-10-23.md#arxiv-2610.30671)
+- Coverage history: [2026-10-23 (v1, new)](../daily/2026-10-23.md#arxiv-2610.30671)
+
+Generates conditional collaborative programs with multi-agent planning, then converts executions into data for decentralized SmolVLA training. The strongest result depends on mixed human single-arm data, so the entire pipeline is not human-free. Generated data alone retains execution bottlenecks. Two tasks and limited trials do not establish general cross-embodiment transfer.
+
+## Know When to Escalate: Critic-Guided Adaptive Execution for Cloud-Local Embodied Agents
+
+- [arXiv 2610.30587](https://arxiv.org/abs/2610.30587) · v1 · [Latest entry](../daily/2026-10-23.md#arxiv-2610.30587)
+- Coverage history: [2026-10-23 (v1, new)](../daily/2026-10-23.md#arxiv-2610.30587)
+
+CARE uses a critic to transfer execution from a local model to a stronger cloud model, retains cloud control through recovery, and shares persistent handoff memory across executors. These are simulated decision-layer results, not physical robot response times. Local execution and criticism run on H200 GPUs. Thresholds are benchmark-tuned, and cloud-request ratios exclude critic calls. Network variability, sensing noise and hardware failures remain untested; no official code link was located. On EmbodiedBench, CARE remains below cloud-only success (75% versus 80%); the cloud-request ratio is not total compute cost.
+
+## Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live
+
+- [arXiv 2610.30478](https://arxiv.org/abs/2610.30478) · v1 · [Latest entry](../daily/2026-10-23.md#arxiv-2610.30478)
+- Coverage history: [2026-10-23 (v1, new)](../daily/2026-10-23.md#arxiv-2610.30478)
+
+A preregistered study compares LoRA consolidation with inference-time retrieval of visual episodic lessons. Its cleanest comparison toggles a frozen memory buffer while keeping policy weights fixed. The distillation null is underpowered, not evidence that parametric memory cannot work. Scope is narrow; retrieval combines text and images, and reset/logging defects require sensitivity analyses. The public repository is verified, but its claimed artifact release was absent when checked.
+
+## Alpha: Systematic Fault Injection and Robustness Evaluation for LLM-Driven Embodied Manipulation
+
+- [arXiv 2610.30197](https://arxiv.org/abs/2610.30197) · v1 · [Latest entry](../daily/2026-10-23.md#arxiv-2610.30197)
+- Coverage history: [2026-10-23 (v1, new)](../daily/2026-10-23.md#arxiv-2610.30197)
+
+Injects faults at perception, actuation, kinematics and serialization boundaries, using a seed-matched scripted oracle to localize failures. Only one tabletop task and one model are tested, with five trials per fault-intensity cell. Realized perception lag saturates at 0.5s. Results do not establish general absence of reasoning deficits or real-robot safety.
+
+## Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents
+
+- [arXiv 2609.39304](https://arxiv.org/abs/2609.39304) · v4 · [Latest entry](../daily/2026-10-23.md#arxiv-2609.39304)
+- Coverage history: [2026-10-23 (v4, revised)](../daily/2026-10-23.md#arxiv-2609.39304)
+
+Scale and Selection evolves a visual-interface robot-agent harness with rollout scaling and champion–challenger acceptance. The revision adds a distillation loop that transfers harness-assisted experience into a standalone robot policy.
+
+## HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation
+
+- [arXiv 2604.07993](https://arxiv.org/abs/2604.07993) · v3 · [Latest entry](../daily/2026-10-23.md#arxiv-2604.07993)
+- Coverage history: [2026-10-23 (v3, revised)](../daily/2026-10-23.md#arxiv-2604.07993)
+
+HEX combines canonical body-part states, a mixture-of-experts proprioceptive predictor, compact visual history and flow-matching actions for humanoid whole-body manipulation. This revision adds two household long-horizon tasks, a ψ0 comparison, OOD pretraining tests and data-scaling/sensitivity experiments.
 
 ## Agentic World Action Models
 
