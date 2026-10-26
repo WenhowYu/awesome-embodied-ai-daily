@@ -2,7 +2,133 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-44 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+62 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection
+
+- [arXiv 2610.32969](https://arxiv.org/abs/2610.32969) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32969)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32969)
+
+便携接口使用部署时的灵巧手，以参数化抓取和学习式旋转技能采集腕部运动及原生关节指令；模仿策略不接收技能标签。 评估样本少；螺丝刀旋转单独用速度指标，不计入三任务成功率均值。数据量与场景多样性同时变化；采集技能并非自主增长的技能库。
+
+## RynnUnify: Towards Unified Embodied Brain
+
+- [arXiv 2610.32965](https://arxiv.org/abs/2610.32965) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32965)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32965)
+
+基于Cosmos3的16B模型耦合8B推理器和8B视频生成器；跨片段场景帧支撑交错视觉规划，另行RL训练的推理器选择是否调用生成证据，WAM适配联合学习视频与动作。 机器人适配使用约1,600小时原子任务及177小时组合任务数据。完整split的基线数值引用既有报告，精选20任务由作者评估；视觉历史是回合内上下文，不是已验证终身记忆，3项真机任务未隔离记忆贡献。
+
+## Predictive Long-Horizon Progress Modeling with Action-Aware Quantification
+
+- [arXiv 2610.32776](https://arxiv.org/abs/2610.32776) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32776)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32776)
+
+NimCritic以视频预测训练约束进度/完成度双输出，结合历史进度扰动与跨模态对齐；LOOM评测包含300条跨本体轨迹、19,618个人工校准帧。 上述是离线评价，不是机器人任务成功率。多子任务依赖离线VLM分段，非直接证明在线实时裁判可用；训练800余小时、48加速器，未报告用奖励后训练策略的闭环收益。
+
+## Semantic Representation for Agentic Self-Play in Automated Laboratories
+
+- [arXiv 2610.32755](https://arxiv.org/abs/2610.32755) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32755)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32755)
+
+VERID提供持久语义实验室孪生，支持状态查询、执行前仿真门控、同步轨迹及故障续跑；代理跨运行保留物理操作边界和分析经验。 这是小规模案例而非隔离记忆因果效应的消融：挑战实例与实验策略同时变化。使用预设结构化Harness、内部Gemini检查点及受监督运行中的人工批准门控；未证明生物学突破或通用机器人策略迁移。
+
+## $R^2E:$ A Role-driven Reward Evolutionary Framework for Automated Reward Function Design
+
+- [arXiv 2610.32439](https://arxiv.org/abs/2610.32439) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32439)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32439)
+
+以5项精英奖励池协调Explorer、Guardian、Evolver三类LLM角色，动态分配候选预算进行奖励程序迭代搜索。 仅仿真与任务内奖励搜索，不是跨任务机器人技能积累。精英池单调性针对保留搜索分数，不保证未来策略持续提升；RL训练主导成本，同骨干不等于所有基线搜索/token预算相同。
+
+## LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents
+
+- [arXiv 2610.32412](https://arxiv.org/abs/2610.32412) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32412)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32412)
+
+外部检索–绑定–选择层复用叶级动作grounding，保留原递归规划器；经LoRA训练的1.7B选择器选出合法绑定动作，或交回未修改的上层模型。 成本节省以共同成功任务为条件，仅计上层模型而非完整系统成本。仅一个规划器/上层模型、两个离散动作仿真；ALFWorld成功率差异不显著。扩库证明读时采用新技能，不证明成功率单调增长或连续机器人控制。
+
+## LogLook: Execution-Grounded Memory for Frontier-Model Robot Planners
+
+- [arXiv 2610.32348](https://arxiv.org/abs/2610.32348) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32348)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32348)
+
+结合不可改写的执行日志、逐字保留的笔记历史、预期变化触发帧及先粗看再细查示范；Astra输出路点或π0.5落地子目标。记忆是推理时接口，而非参数适配。 干净记忆对照主要证明降成本，未显示明确成功率增益；完整系统还改变动作/调用接口。直接控制使用深度、标定及来自成功判定代码的任务说明。仅单仿真基准和闭源模型，无真机；单组件消融差别仅2–4回合。
+
+## Lifelong Context Adaptation through Bidirectional Memory-Skill Learning
+
+- [arXiv 2610.32295](https://arxiv.org/abs/2610.32295) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32295)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32295)
+
+MemCryst 冻结语言模型，使外部情景/事实记忆与条件技能双向演化：重复经历支持技能生成和修订，任务结果调整后续检索权重，不重写已服务记录。 这是文本仿真而非真机控制；“技能单独服务”仍保留用于技能学习的内部记忆。结果反馈分摊给全部服务记录，不是逐条因果归因；未检验错误反馈或未见领域迁移，任务顺序也影响结果。
+
+## RoboCode: Learning Reusable Action Primitives for Robot Manipulation
+
+- [arXiv 2610.32225](https://arxiv.org/abs/2610.32225) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32225)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32225)
+
+先从多任务动作块学习可软组合的共享原语码本，再冻结解码接口，训练任务专属状态到码本编码器。 仅仿真，使用物体位姿/目标等状态而非图像语言输入；评估任务各自训练编码器，可复用码本不等于在线技能增长或未见任务迁移。已核评测部分未明确多种子不确定性及闭环试验次数。
+
+## TTT in VLA Models: Exploring Training with Human Demonstrations
+
+- [arXiv 2610.32094](https://arxiv.org/abs/2610.32094) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32094)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32094)
+
+在InternVLA-A1和π0.5中加入fast-weight TTT，记录人类示范到机器人阶段的记忆传递及截断梯度路径。 负结果限于小规模选杯数据和所测配方，不是对TTT的普遍否定；试验次数报告不足。自回归状态评估仍使用录制图像，并非闭环观测。
+
+## FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation
+
+- [arXiv 2610.31841](https://arxiv.org/abs/2610.31841) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.31841)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.31841)
+
+编码代理结合RGB-D与腕部力/力矩日志，生成并修订接触探测和力反馈Python程序；经验保存在可执行控制逻辑中，无需任务专属模型训练。 只有5项真机任务、单模型及少量试验；每次开发最多20个实体rollout和4小时，人类负责执行批准、场景操作及最终验收。对照同时移除力反馈和相关例程，并非单独隔离记忆贡献；每次推理耗时4–10分钟。
+
+## WorldMirror: Agentic Real-to-Sim Generation of Interactive Worlds from In-the-Wild Robot Demonstrations
+
+- [arXiv 2610.31834](https://arxiv.org/abs/2610.31834) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.31834)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.31834)
+
+把真实演示的数字孪生构建写成可执行世界程序，由编码代理诊断回放失败并定向修复场景、资产与物理交互。 这是已录轨迹在重建仿真中的回放，不是真机新策略成功率或sim2real收益。空间指标并非全面胜过Astra；组件消融限于一个任务，尚不能归因长期记忆收益。
+
+## KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations
+
+- [arXiv 2610.31801](https://arxiv.org/abs/2610.31801) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.31801)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.31801)
+
+把统一14维双臂运动学压缩为每秒2个、由转折边界监督的稀疏运动token，再用LoRA语言模型输出时间片段和描述，并测试新机器人及人手迁移。 编码器采用整回合标准化和对称时间上下文，因此是离线模型。tokenizer比较同时存在输入表示及reader训练样本差异，不仅改变目标函数；分段及语义迁移不等于闭环策略收益。
+
+## RMMBench: A Comprehensive Benchmark for Robotic Mobile Manipulation
+
+- [arXiv 2610.05414](https://arxiv.org/abs/2610.05414) · v2 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.05414)
+- 收录历史: [2026-10-26 (v2, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2610.05414)
+
+基于MuJoCo的移动操作基准，通过固定技能接口分别评估任务成功、子目标进展、空间定位及重复动作后的恢复。 仅仿真、每任务3回合、离散网格导航及固定技能库；抓取候选同时包含GraspNet输出与专家核验的真值兜底标注，不能证明端到端低层控制或自主技能扩展。执行效率仅在成功轨迹统计，反思分数仅在含重复动作循环的回合统计。
+
+## Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena
+
+- [arXiv 2610.00854](https://arxiv.org/abs/2610.00854) · v3 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.00854)
+- 收录历史: [2026-10-26 (v3, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2610.00854)
+
+统一评测在1,000个案例中区分几何预测、可供性定位、中间子目标和原生完整任务成功。 并集是事后覆盖，并非已部署集成策略成功率。各源任务保留接口与预算而非全部一致，部分补充回合及缺失记录单独处理。无代码错误和低延迟不能等同物理任务完成；本次是基准证据而非新增真机验证。
+
+## Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals
+
+- [arXiv 2609.31868](https://arxiv.org/abs/2609.31868) · v3 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2609.31868)
+- 收录历史: [2026-10-26 (v3, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2609.31868)
+
+非参数宏观规划器从离线轨迹图检索真实观测状态，以最短路径子目标和动态重新入图支持长程控制。 新增实验均为仿真。Metro采用固定而非递减时域，并在独立调参任务上选择时域、子目标距离和执行块数；基线使用公开配置。检索状态真实不等于每条连接转移都可保证；语料中罕见的多样布局可能破坏轨迹拼接。
+
+## WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time
+
+- [arXiv 2607.06988](https://arxiv.org/abs/2607.06988) · v3 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2607.06988)
+- 收录历史: [2026-10-26 (v3, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2607.06988)
+
+通过人类视频写入世界动作模型的快权重记忆，配对人类—机器人元训练学习视频到动作的迁移接口。 对照是同一WAM内的接口变体，而非原系统完整复现；新增接口实验仅一个任务。FastWAM证据是3.2秒、8帧预测的定性展示，不是闭环控制迁移；部分对照依赖预训练技能潜变量，元训练阶段直接插入并不具备该先验。
+
+## GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks
+
+- [arXiv 2607.05369](https://arxiv.org/abs/2607.05369) · v2 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2607.05369)
+- 收录历史: [2026-10-26 (v2, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2607.05369)
+
+GaP组合带类型的机器人技能图，在部署前通过仿真排练优化图结构、参数和吞吐。 新增吞吐证据来自仿真，并非新增真机生产率结果。论文明确承认CaP-X对照因已知环境几何信息不同而不公平；MORSL仅对齐部分感知/抓取组件，并未对齐所有运动原语、推理预算和系统选项。任务仍以准静态为主。
 
 ## METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning
 

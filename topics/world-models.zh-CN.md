@@ -2,7 +2,91 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-37 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+49 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## UniAction: Unified Action Conditioning for World Models
+
+- [arXiv 2610.32977](https://arxiv.org/abs/2610.32977) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32977)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32977)
+
+把力、相机、手部及机器人位姿动作表示为带语义身份与连续时空坐标的稀疏元素，映射到视频骨干原生RoPE几何；用基数校准attention补偿不同动作token数量。 这是视频生成动作跟随得分，不是闭环机器人成功率；不同条件分支可训练参数量不同。联合训练并非所有指标更好：相机LPIPS .4863，高于专家.4780。四种预设动作不证明任意动作或未见本体泛化。
+
+## RynnUnify: Towards Unified Embodied Brain
+
+- [arXiv 2610.32965](https://arxiv.org/abs/2610.32965) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32965)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32965)
+
+基于Cosmos3的16B模型耦合8B推理器和8B视频生成器；跨片段场景帧支撑交错视觉规划，另行RL训练的推理器选择是否调用生成证据，WAM适配联合学习视频与动作。 机器人适配使用约1,600小时原子任务及177小时组合任务数据。完整split的基线数值引用既有报告，精选20任务由作者评估；视觉历史是回合内上下文，不是已验证终身记忆，3项真机任务未隔离记忆贡献。
+
+## Predictive Long-Horizon Progress Modeling with Action-Aware Quantification
+
+- [arXiv 2610.32776](https://arxiv.org/abs/2610.32776) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32776)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32776)
+
+NimCritic以视频预测训练约束进度/完成度双输出，结合历史进度扰动与跨模态对齐；LOOM评测包含300条跨本体轨迹、19,618个人工校准帧。 上述是离线评价，不是机器人任务成功率。多子任务依赖离线VLM分段，非直接证明在线实时裁判可用；训练800余小时、48加速器，未报告用奖励后训练策略的闭环收益。
+
+## DynaSlots: Slot-Centric 3D Dynamics Pretraining for Robot Manipulation
+
+- [arXiv 2610.32330](https://arxiv.org/abs/2610.32330) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32330)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32330)
+
+从点云序列自监督学习时序一致的软槽位、槽位级潜在动作及邻近-运动关系，再为扩散策略提供3D动力学表征。 仿真基线沿用AFRO论文结果，各种子选最好评估检查点，非独立最终测试。真机误差条是布局间标准差，不是训练种子方差；只一个本体且杂物/新物体仅一个任务。
+
+## ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences
+
+- [arXiv 2610.32222](https://arxiv.org/abs/2610.32222) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32222)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32222)
+
+结合动作错配和视频错配偏好，训练无需奖励计算时参考视频的模型，联合评价视觉质量与动作跟随；构建AVM-Eval（67.2k对）和AVM-Pref（506.3k对）。 RL证据限于一个2B世界模型与AgiBotWorld，不是机器人任务成功率。未直接监督物理一致性，评分依赖VLM；奖励计算无需参考不等于数据构建无需参考，成对排序也不保证物理正确。
+
+## Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model
+
+- [arXiv 2610.32177](https://arxiv.org/abs/2610.32177) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32177)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32177)
+
+统一token接口生成及理解文字、图像、几何和运动，通过自适应思维流选择中间表示；以GRPO在视觉问答上验证如何选择推理流。 这里的sim-to-real是已录机器人视频上的视觉问答，不是真机部署。光流和轨迹是代理动作而非执行器命令；未隔离统一能力训练时的正负迁移，物理控制仍属未来工作。
+
+## EgoForesight: Effectively Scaling Policy Learning with Noisy Egocentric Actions
+
+- [arXiv 2610.31845](https://arxiv.org/abs/2610.31845) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.31845)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.31845)
+
+以来源可靠性调节噪声与损失权重，将联合视觉-动作流与可见干净未来的EMA教师蒸馏结合，利用带噪人类动作标签。 外部RoboCasa基线取自发表结果、预训练和预算不同。π0.5真机对照重置输入输出层以适配58DoF，不能将差距纯归因方法；仍需动作标注，来源加权不能纠正系统性重定向偏差。
+
+## WorldMirror: Agentic Real-to-Sim Generation of Interactive Worlds from In-the-Wild Robot Demonstrations
+
+- [arXiv 2610.31834](https://arxiv.org/abs/2610.31834) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.31834)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.31834)
+
+把真实演示的数字孪生构建写成可执行世界程序，由编码代理诊断回放失败并定向修复场景、资产与物理交互。 这是已录轨迹在重建仿真中的回放，不是真机新策略成功率或sim2real收益。空间指标并非全面胜过Astra；组件消融限于一个任务，尚不能归因长期记忆收益。
+
+## See What I Need, Dream What I Want: A Navigation Foundation Model on a Self-Constructed Representation Space
+
+- [arXiv 2610.31762](https://arxiv.org/abs/2610.31762) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.31762)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.31762)
+
+RepresentNav从多个冻结视觉骨干的多层特征构造策略导向表征，在同空间以JEPA训练预测未来的潜在推理，再生成路点。 外部基线来自原论文且观测设置不全相同。真机导航演示不能证明操作迁移；作者明确尚未验证操作、灵巧手或全身控制。
+
+## Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals
+
+- [arXiv 2609.31868](https://arxiv.org/abs/2609.31868) · v3 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2609.31868)
+- 收录历史: [2026-10-26 (v3, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2609.31868)
+
+非参数宏观规划器从离线轨迹图检索真实观测状态，以最短路径子目标和动态重新入图支持长程控制。 新增实验均为仿真。Metro采用固定而非递减时域，并在独立调参任务上选择时域、子目标距离和执行块数；基线使用公开配置。检索状态真实不等于每条连接转移都可保证；语料中罕见的多样布局可能破坏轨迹拼接。
+
+## Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning
+
+- [arXiv 2608.24885](https://arxiv.org/abs/2608.24885) · v2 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2608.24885)
+- 收录历史: [2026-10-26 (v2, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2608.24885)
+
+WorldEcho以视觉筛查与末端轨迹对齐评估非专家动作跟随；WorldSync结合更广动作数据、动力学表征约束及干预效果监督。 主表微小门控差距仅为点估计，未证明显著；视觉筛查不保证完整性，人工核验每维仅15段。视频指标使用重建参考和独立生成批次；不同预训练语料及基线历史不能支持受控数据效率结论。
+
+## WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time
+
+- [arXiv 2607.06988](https://arxiv.org/abs/2607.06988) · v3 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2607.06988)
+- 收录历史: [2026-10-26 (v3, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2607.06988)
+
+通过人类视频写入世界动作模型的快权重记忆，配对人类—机器人元训练学习视频到动作的迁移接口。 对照是同一WAM内的接口变体，而非原系统完整复现；新增接口实验仅一个任务。FastWAM证据是3.2秒、8帧预测的定性展示，不是闭环控制迁移；部分对照依赖预训练技能潜变量，元训练阶段直接插入并不具备该先验。
 
 ## Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success
 

@@ -2,7 +2,105 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-31 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+45 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms
+
+- [arXiv 2610.32971](https://arxiv.org/abs/2610.32971) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32971)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32971)
+
+统一17种鲁棒/安全RL算法及6种标准对照，提供可复用接口及含延迟、语义的单因素/组合部署扰动。 并非每算法运行每任务；保留各自原生预算，算法族混合均值会混入基础学习器强弱。π0.5实验仅单个微调模型的离线关节示范轨迹跟踪，不是闭环VLA成功率或真机验证。
+
+## ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback
+
+- [arXiv 2610.32966](https://arxiv.org/abs/2610.32966) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32966)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32966)
+
+从单目视频直接生成G1参考运动，以跟踪器反馈构造偏好对后训练扩散生成器；自回归版本支持视频遥操作。 百分比为仿真参考运动跟踪率，不是真机任务完成率。未建模精细手部姿态；真机证据以定性示范为主，在线初始化约10秒。
+
+## Regularised RL improves sim-to-real transfer
+
+- [arXiv 2610.32855](https://arxiv.org/abs/2610.32855) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32855)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32855)
+
+用缓慢更新参考策略把soft mellowmax扩展到连续控制actor–critic，检验正则化是否改善超越名义训练回报的sim2real鲁棒性。 回报不是成功率；仍需要域随机化，温度参数随任务变化。PPO/FastTD3因未通过预设仿真安全筛查而没有ANYmal扰动部署，空白不能算实测真机失败；MuJoCo调参预算不完全相等。
+
+## $R^2E:$ A Role-driven Reward Evolutionary Framework for Automated Reward Function Design
+
+- [arXiv 2610.32439](https://arxiv.org/abs/2610.32439) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32439)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32439)
+
+以5项精英奖励池协调Explorer、Guardian、Evolver三类LLM角色，动态分配候选预算进行奖励程序迭代搜索。 仅仿真与任务内奖励搜索，不是跨任务机器人技能积累。精英池单调性针对保留搜索分数，不保证未来策略持续提升；RL训练主导成本，同骨干不等于所有基线搜索/token预算相同。
+
+## When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning
+
+- [arXiv 2610.32431](https://arxiv.org/abs/2610.32431) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32431)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32431)
+
+MART-GRPO 用微调后冻结的VLM从完整rollout视频定位最后一个未恢复的可见错误，截断其后失败惩罚，同时保留成功轨迹项及原归一化；理想停止理论提供动机，但不认证实际回溯实现。 仅仿真；策略看单相机，VLM审查三视角，另需标注及VLM微调。边界使用完整未来轨迹，不一定满足理想停止条件；一项任务下降1.95个百分点，留出场景种子不等于独立训练种子。
+
+## ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences
+
+- [arXiv 2610.32222](https://arxiv.org/abs/2610.32222) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32222)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32222)
+
+结合动作错配和视频错配偏好，训练无需奖励计算时参考视频的模型，联合评价视觉质量与动作跟随；构建AVM-Eval（67.2k对）和AVM-Pref（506.3k对）。 RL证据限于一个2B世界模型与AgiBotWorld，不是机器人任务成功率。未直接监督物理一致性，评分依赖VLM；奖励计算无需参考不等于数据构建无需参考，成对排序也不保证物理正确。
+
+## Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model
+
+- [arXiv 2610.32177](https://arxiv.org/abs/2610.32177) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32177)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32177)
+
+统一token接口生成及理解文字、图像、几何和运动，通过自适应思维流选择中间表示；以GRPO在视觉问答上验证如何选择推理流。 这里的sim-to-real是已录机器人视频上的视觉问答，不是真机部署。光流和轨迹是代理动作而非执行器命令；未隔离统一能力训练时的正负迁移，物理控制仍属未来工作。
+
+## Geometry-Aware Reinforcement Learning for Close-Fitting Wearable Insertion
+
+- [arXiv 2610.32143](https://arxiv.org/abs/2610.32143) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32143)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32143)
+
+把紧贴手部的手环穿戴建模为几何插入，结合逐指软插入门控和分阶段课程，通过紧凑几何观测接口迁移到双臂机器人。 手环预抓持、假手静止，真机约减半速度。没有力感知观测/目标，手指偏转不是安全指标；大幅组合姿态扰动使仿真成功降至26/50。
+
+## DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning
+
+- [arXiv 2610.32093](https://arxiv.org/abs/2610.32093) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.32093)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.32093)
+
+用特权状态、潜变量条件RL、逆向课程和成功门控多样性生成过滤后的示范，再训练视觉π0.5，部署的不是RL生成器。 依赖准确仿真、特权状态、状态重置和成功信号。真机仅4个简单桌面任务、较小迁移差距及1个训练种子；过大多样性会损害任务能力。
+
+## SEVI: Safe Evidential Real-World Reinforcement Learning
+
+- [arXiv 2610.31829](https://arxiv.org/abs/2610.31829) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.31829)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.31829)
+
+证据式安全critic同时估计违规风险与认知不确定性，在在线RL中筛查动作并调用离线训练的恢复策略。 仅1项真机、2项仿真任务，无零违规形式保证。真机使用50条成功先验示范、200条恢复示范及验证集阈值；最终成功率与累计训练事件口径不同。
+
+## PrefO2O: Zero-Shot Preference-Based Reinforcement Learning via Offline-to-Online Latent Preference Transfer
+
+- [arXiv 2610.31812](https://arxiv.org/abs/2610.31812) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.31812)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.31812)
+
+联合学习潜在偏好空间和奖励先验，通过置信度加权最优传输生成目标任务伪偏好，在不新增目标任务人工标签下在线强化学习。 零样本指无需目标人工反馈，并非无目标交互或训练。真机样本少，要求源目标共享偏好维度；PEARL做了在线化与维度补齐，PrefFew处于有限源数据设置并使用100个目标标签。
+
+## FLORA: An Open Model Suite for Scaling Robotics Data Engines
+
+- [arXiv 2610.31779](https://arxiv.org/abs/2610.31779) · v1 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2610.31779)
+- 收录历史: [2026-10-26 (v1, new)](../daily/2026-10-26.zh-CN.md#arxiv-2610.31779)
+
+开放标注模型套件提供时序分段、动作意图描述及结果/稠密/规则奖励；分段与描述使用RL后训练，发布的奖励模型仅用SFT。 并非所有指标最优，各系统帧预算及算力不同。约125倍成本优势依赖假定GPU价格和建模吞吐，未含部署开销、生产GPU小时口径未核实，参考标注版本亦未完全匹配；这里未直接证明下游策略学习提升。
+
+## Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning
+
+- [arXiv 2608.24885](https://arxiv.org/abs/2608.24885) · v2 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2608.24885)
+- 收录历史: [2026-10-26 (v2, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2608.24885)
+
+WorldEcho以视觉筛查与末端轨迹对齐评估非专家动作跟随；WorldSync结合更广动作数据、动力学表征约束及干预效果监督。 主表微小门控差距仅为点估计，未证明显著；视觉筛查不保证完整性，人工核验每维仅15段。视频指标使用重建参考和独立生成批次；不同预训练语料及基线历史不能支持受控数据效率结论。
+
+## WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time
+
+- [arXiv 2607.06988](https://arxiv.org/abs/2607.06988) · v3 · [最新归档](../daily/2026-10-26.zh-CN.md#arxiv-2607.06988)
+- 收录历史: [2026-10-26 (v3, revised)](../daily/2026-10-26.zh-CN.md#arxiv-2607.06988)
+
+通过人类视频写入世界动作模型的快权重记忆，配对人类—机器人元训练学习视频到动作的迁移接口。 对照是同一WAM内的接口变体，而非原系统完整复现；新增接口实验仅一个任务。FastWAM证据是3.2秒、8帧预测的定性展示，不是闭环控制迁移；部分对照依赖预训练技能潜变量，元训练阶段直接插入并不具备该先验。
 
 ## METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning
 

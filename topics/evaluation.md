@@ -2,7 +2,224 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-42 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+73 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## UniAction: Unified Action Conditioning for World Models
+
+- [arXiv 2610.32977](https://arxiv.org/abs/2610.32977) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32977)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32977)
+
+UniAction represents force, camera, hand and robot-pose actions as sparse semantic elements with continuous spatiotemporal coordinates, mapped into the video backbone’s native RoPE geometry. Cardinality-calibrated attention compensates for different action-token counts. These are video-generation action-following scores, not closed-loop robot success. Conditioning branches differ in trainable parameter counts. Joint training does not improve every metric: camera LPIPS is .4863 versus expert .4780. Four specified action forms do not establish arbitrary-action or unseen-embodiment generalization.
+
+## RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms
+
+- [arXiv 2610.32971](https://arxiv.org/abs/2610.32971) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32971)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32971)
+
+Unifies 17 robust/safe RL algorithms and six standard references, with reusable interfaces and individual/compound deployment shifts including latency and semantics. Not every algorithm runs every task. Methods retain native budgets, and pooled-family comparisons mix backbone strength with robustness mechanisms. The π0.5 study uses one fine-tuned model and offline joint-space demonstration tracking, not closed-loop VLA task success or real-robot validation.
+
+## If at First You Don’t Succeed, Backtrack: Lightweight Recovery for Frozen VLAs
+
+- [arXiv 2610.32941](https://arxiv.org/abs/2610.32941) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32941)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32941)
+
+Trains a small failure head on frozen-policy rollouts and reverses achieved arm motion before retrying. Simulation only; pooled results include configuration-selection seeds. Held-out pi0.5 uplift is 0.70 points. Reversal does not restore objects or guarantee safety, and the head requires labeled rollouts.
+
+## Regularised RL improves sim-to-real transfer
+
+- [arXiv 2610.32855](https://arxiv.org/abs/2610.32855) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32855)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32855)
+
+Extends soft mellowmax to continuous-control actor–critic with a slowly updated reference policy and tests whether regularization improves sim-to-real robustness beyond nominal training return. Return is not success rate. Domain randomization remains necessary, and temperatures vary by task. PPO/FastTD3 are excluded from ANYmal perturbation deployment after failing a prespecified simulation safety check, so those cells are missing, not observed hardware failures. MuJoCo tuning budgets are unequal.
+
+## Predictive Long-Horizon Progress Modeling with Action-Aware Quantification
+
+- [arXiv 2610.32776](https://arxiv.org/abs/2610.32776) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32776)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32776)
+
+NimCritic couples predictive video learning with separate progress/completion outputs, perturbed progress history, and cross-modal alignment. LOOM contains 300 cross-embodiment trajectories and 19,618 human-calibrated frames. These are offline evaluator metrics, not robot task-success rates. Multi-subtask evaluation relies on offline VLM segmentation, not demonstrated real-time judging. Training uses 800+ hours and 48 accelerators; no closed-loop policy improvement from its reward is established.
+
+## Semantic Representation for Agentic Self-Play in Automated Laboratories
+
+- [arXiv 2610.32755](https://arxiv.org/abs/2610.32755) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32755)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32755)
+
+VERID maintains a persistent semantic laboratory twin with introspection, pre-execution simulation gates, synchronized traces and resumable state. Agents retain physical operating bounds and analytical lessons across runs. These are small case studies, not an isolated causal memory ablation: challenge instances and experimental strategies change. Uses a structured harness, internal Gemini checkpoint and operator approval gates in supervised runs. Biological discoveries and broad robot-policy transfer are not demonstrated.
+
+## When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning
+
+- [arXiv 2610.32431](https://arxiv.org/abs/2610.32431) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32431)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32431)
+
+MART-GRPO uses a fine-tuned, then frozen VLM to locate the last visible unrecovered error in full rollout videos and truncate subsequent failure penalties, retaining successful-rollout terms and original normalization. Ideal stopping results motivate, but do not certify, the retrospective implementation. Simulation only. The actor sees one camera while the VLM reviews three; additional annotations and VLM fine-tuning are required. Boundaries use future rollout information and need not satisfy ideal stopping assumptions. One task declines by 1.95 points; held-out scene seeds are not independent training seeds.
+
+## LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents
+
+- [arXiv 2610.32412](https://arxiv.org/abs/2610.32412) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32412)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32412)
+
+An external retrieve–bind–select layer reuses leaf-level action grounding while retaining the original recursive planner. A LoRA-trained 1.7B selector chooses an admissible bound action or defers to the unchanged host. Cost savings are conditional on common successes and concern host-model inference, not total system cost. Evidence covers one planner/host and two discrete-action simulations; ALFWorld success differences are not significant. Library growth demonstrates read-time adoption, not monotonic success improvement or continuous robot control.
+
+## LogLook: Execution-Grounded Memory for Frontier-Model Robot Planners
+
+- [arXiv 2610.32348](https://arxiv.org/abs/2610.32348) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32348)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32348)
+
+Pairs an immutable execution log and verbatim note history with expectation-gated action frames and skim-then-inspect demonstrations. GPT-6 Astra plans either waypoints or grounded π0.5 subgoals; the memory is an inference-time interface, not parameter adaptation. The clean memory comparison demonstrates cost savings, not a clear success gain. Full-system gains also change action/call interfaces; direct control uses depth, calibration and task notes derived from success-checking code. One simulated benchmark and proprietary model, no real robot. Single-component failures differ by only 2–4 episodes.
+
+## Lifelong Context Adaptation through Bidirectional Memory-Skill Learning
+
+- [arXiv 2610.32295](https://arxiv.org/abs/2610.32295) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32295)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32295)
+
+MemCryst freezes the language model and co-evolves external episodic/factual memory and conditional skills. Repeated episodes support skill creation/revision; task outcomes adjust future retrieval weights without rewriting served records. Text-based simulation, not real robot control. Skill-only serving still retains internal memory for learning skills. Outcome credit is shared by all served records, not individual causal attribution; feedback noise and transfer to unseen domains are untested. Task order matters.
+
+## ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences
+
+- [arXiv 2610.32222](https://arxiv.org/abs/2610.32222) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32222)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32222)
+
+A reward model combines action-mismatch and video-mismatch preferences to judge visual quality and action following without reference videos at reward-computation time. It introduces AVM-Eval (67.2k pairs) and AVM-Pref (506.3k pairs). RL evidence is restricted to one 2B world model and AgiBotWorld, not robot task success. Physical consistency is not directly supervised and ratings rely on a VLM. Reference-free reward computation does not mean reference-free dataset construction; pairwise ranking is not a guarantee of physical validity.
+
+## Do VLAs Know They Will Fail? Interpretable Success and Failure Patterns in Physical AI Systems
+
+- [arXiv 2610.32208](https://arxiv.org/abs/2610.32208) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32208)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32208)
+
+Uses sparse autoencoder features of OpenVLA activations for failure prediction and VLM-generated behavioral interpretations, with branching rollouts estimating a point of no return. Simulation and one policy only. Unsupervised SAE fitting uses all 500 trajectories; supervised predictors use held-out splits. Four branches per probe give coarse, remaining-budget-dependent recoverability. Outcome associations are not causal failure mechanisms or validated safety interventions.
+
+## Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model
+
+- [arXiv 2610.32177](https://arxiv.org/abs/2610.32177) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32177)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32177)
+
+A unified token interface generates and interprets text, images, geometry and motion; adaptive streams of thought select intermediate representations. GRPO provides a proof of concept for choosing reasoning streams on visual question answering. The reported sim-to-real transfer concerns visual question answering over recorded robot videos, not robot deployment. Optical flow and tracks are proxy actions rather than actuator commands. Training-time positive/negative transfer among unified capabilities is not isolated; physical control remains future work.
+
+## Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies
+
+- [arXiv 2610.32102](https://arxiv.org/abs/2610.32102) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32102)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32102)
+
+Jointly studies executed action horizon and flow-solver depth, testing when shallow sampling helps or harms. Long open-loop execution fails on moving targets; speedup is amortized inference cost, not guaranteed wall-clock task acceleration. The paper inconsistently describes simulation task totals and pi0.5 chunk configurations.
+
+## TTT in VLA Models: Exploring Training with Human Demonstrations
+
+- [arXiv 2610.32094](https://arxiv.org/abs/2610.32094) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32094)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32094)
+
+Integrates fast-weight TTT into InternVLA-A1 and pi0.5, documenting human-to-robot memory transfer and truncated gradient paths. Negative findings are limited to small cup-selection datasets and tested recipes, not a disproof of TTT. Trial counts are insufficiently reported. Autoregressive-state evaluation still uses recorded images, not closed-loop observations.
+
+## Full-Weight VLA Fine-Tuning Without an fp32 Master Copy Silently Erases Most Updates
+
+- [arXiv 2610.31859](https://arxiv.org/abs/2610.31859) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.31859)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.31859)
+
+Audits update rounding when trainable matrices and AdamW state remain bf16 without fp32 master weights. One suite and shortened schedules; precision of optimizer moments is not separately ablated. SmolVLA scorer discrepancies restrict cross-paper comparisons. This does not show every bf16 computation or JAX training setup is affected.
+
+## FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation
+
+- [arXiv 2610.31841](https://arxiv.org/abs/2610.31841) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.31841)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.31841)
+
+A coding agent uses RGB-D and wrist force/torque logs to generate and revise Python contact-probing and force-feedback programs. Experience is retained in executable control logic, without task-specific model training. Five real tasks, one model, small trial counts. Each development run permits 20 physical rollouts and four hours; humans authorize execution, reset scenes and judge final acceptance. The ablation changes access to force feedback and routines together, not just memory. Reasoning costs 4–10 minutes per iteration.
+
+## SEVI: Safe Evidential Real-World Reinforcement Learning
+
+- [arXiv 2610.31829](https://arxiv.org/abs/2610.31829) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.31829)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.31829)
+
+Adds an evidential safety critic that gates task actions using predicted violation risk and epistemic uncertainty, invoking a shared offline-trained recovery policy during online RL. Only one hardware task and two simulated tasks; no formal zero-violation guarantee. Hardware learning uses 50 successful prior demonstrations, 200 recovery demonstrations and validation-based thresholds. Final success and cumulative training incidents have different denominators.
+
+## KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations
+
+- [arXiv 2610.31801](https://arxiv.org/abs/2610.31801) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.31801)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.31801)
+
+Compresses shared 14-D bimanual kinematics into transition-supervised Sparse Motion Tokens at two tokens/second; a LoRA-adapted language model predicts temporal segments and descriptions, with transfer to new robots and human hands. The encoder uses whole-episode normalization and symmetric temporal context, so it is offline. Tokenizer comparisons differ in input representation and reader-training populations, not just objective. Segmentation/semantic transfer does not establish closed-loop robot-policy gains.
+
+## FLORA: An Open Model Suite for Scaling Robotics Data Engines
+
+- [arXiv 2610.31779](https://arxiv.org/abs/2610.31779) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.31779)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.31779)
+
+An open labeling suite supplies temporal segments, intended-action captions and outcome/dense/rubric rewards for robotic data pipelines; segmentation/captioning use RL post-training, while the released reward model uses SFT. Not uniformly best across metrics; systems use different frame budgets/compute. The approximately 125× cost claim assumes GPU pricing and modeled throughput, omits deployment overhead, has unverified production GPU-hour accounting, and is not fully reference-version matched. No direct downstream policy-learning improvement is established here.
+
+## See What I Need, Dream What I Want: A Navigation Foundation Model on a Self-Constructed Representation Space
+
+- [arXiv 2610.31762](https://arxiv.org/abs/2610.31762) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.31762)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.31762)
+
+RepresentNav constructs policy-oriented representations from multiple layers of frozen vision backbones, then learns a JEPA-style latent future prediction before waypoint generation. External baselines are taken from their papers with differing observation settings. Physical navigation demonstrations do not establish manipulation transfer; dexterous and whole-body control remain untested.
+
+## ContactBench 1.0: A Benchmark for Everyday Contact-Rich Robotic Manipulation
+
+- [arXiv 2610.24512](https://arxiv.org/abs/2610.24512) · v2 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.24512)
+- Coverage history: [2026-10-26 (v2, revised)](../daily/2026-10-26.md#arxiv-2610.24512)
+
+A benchmark of eight contact-rich skill categories, 36 reference tasks and over 40 printable assets with corresponding simulation components; six tasks evaluate vision-only and visual-tactile learned policies. The four systems differ in pretraining, observation histories and tactile interfaces, so this is not a perfectly isolated tactile-modality ablation. Only six of 36 tasks receive learned-policy evaluation. Velcro stabilization enables one-arm tasks that could otherwise require another arm. Rigid/articulated printed assets do not cover deformable contact; negative tactile results apply to the tested policies and sensors, not touch in general.
+
+## RMMBench: A Comprehensive Benchmark for Robotic Mobile Manipulation
+
+- [arXiv 2610.05414](https://arxiv.org/abs/2610.05414) · v2 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.05414)
+- Coverage history: [2026-10-26 (v2, revised)](../daily/2026-10-26.md#arxiv-2610.05414)
+
+A MuJoCo mobile-manipulation benchmark separates task success, subgoal progress, spatial grounding and repeated-action recovery through a fixed skill interface. Simulation only, three episodes per task, discretized grid navigation and a fixed skill library. Grasp candidates include expert-verified ground-truth fallback annotations as well as GraspNet outputs; the evaluation does not demonstrate end-to-end low-level control or autonomous skill expansion. Execution efficiency is computed only on successful trajectories and reflection scores only on episodes containing repeated-action loops.
+
+## Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena
+
+- [arXiv 2610.00854](https://arxiv.org/abs/2610.00854) · v3 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.00854)
+- Coverage history: [2026-10-26 (v3, revised)](../daily/2026-10-26.md#arxiv-2610.00854)
+
+A unified arena separates geometric prediction, affordance grounding, intermediate subgoals and native complete-task success across 1,000 cases. The union is retrospective coverage, not a deployed ensemble success rate. Source interfaces and budgets are retained rather than identical across all tasks; some supplementary episodes and missing records are explicitly separate. Error-free code and low latency must not be equated with physical task completion; this is benchmark evidence rather than new real-robot validation.
+
+## Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals
+
+- [arXiv 2609.31868](https://arxiv.org/abs/2609.31868) · v3 · [Latest entry](../daily/2026-10-26.md#arxiv-2609.31868)
+- Coverage history: [2026-10-26 (v3, revised)](../daily/2026-10-26.md#arxiv-2609.31868)
+
+A nonparametric macro planner retrieves observed states from an offline trajectory graph and uses shortest-path subgoals with repeated graph re-entry. All added tests are simulated. Metro uses a fixed rather than shrinking horizon and tunes horizon/subgoal distance plus executed-block count on separate tuning tasks; baselines use released configurations. Retrieved states are real, but this does not certify every connecting transition. Diverse layouts absent from the corpus may break stitching.
+
+## Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning
+
+- [arXiv 2608.24885](https://arxiv.org/abs/2608.24885) · v2 · [Latest entry](../daily/2026-10-26.md#arxiv-2608.24885)
+- Coverage history: [2026-10-26 (v2, revised)](../daily/2026-10-26.md#arxiv-2608.24885)
+
+WorldEcho evaluates off-expert action following using visual screening and end-effector trajectory alignment; WorldSync combines broader action data with dynamics grounding and intervention-effect supervision. The small headline gated-error difference is a point estimate, not established significance. Visual screening does not guarantee integrity; its human checks use only 15 clips per dimension. Video metrics use reconstructed references and separate generation batches. Pretraining corpora and baseline histories differ; the expanded-data advantage is not a controlled data-efficiency claim.
+
+## PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views
+
+- [arXiv 2608.19188](https://arxiv.org/abs/2608.19188) · v2 · [Latest entry](../daily/2026-10-26.md#arxiv-2608.19188)
+- Coverage history: [2026-10-26 (v2, revised)](../daily/2026-10-26.md#arxiv-2608.19188)
+
+Occupancy-conditioned global and local geometry representations generate and refine bimanual grasp pairs from a segmented single-view RGB-D observation. Hardware trials evaluate only this method, without matched real-robot baseline rates, and success means lifting rather than completing a downstream manipulation task. Candidates are filtered for collision-free kinematic reachability. The separate real-world RGB-D dataset table uses digital-twin simulation metrics, not hardware success; its 81.54% GS must not be confused with the 39/54 lift rate.
+
+## RAPAC-DP: Response-Aligned Pending-Action Compensation for Diffusion Policies under Delayed Execution
+
+- [arXiv 2608.15924](https://arxiv.org/abs/2608.15924) · v2 · [Latest entry](../daily/2026-10-26.md#arxiv-2608.15924)
+- Coverage history: [2026-10-26 (v2, revised)](../daily/2026-10-26.md#arxiv-2608.15924)
+
+A frozen diffusion/flow policy gains a pending-action encoder and LoRA compensation that aligns each output chunk to its scheduled execution time, trained using delay-conditioned samples from delay-free demonstrations. Only one checkpoint per method/task is tested, so confidence intervals describe trial variation rather than training-seed robustness. Fixed conveyor speed/starts and injected discrete delays limit claims about arbitrary network jitter. At low delay it trails RTC on dynamic grasping (73.3% versus 76.7%); the method requires training an adapter.
+
+## Semantic Anchoring for Robotic Action Representations
+
+- [arXiv 2607.13597](https://arxiv.org/abs/2607.13597) · v3 · [Latest entry](../daily/2026-10-26.md#arxiv-2607.13597)
+- Coverage history: [2026-10-26 (v3, revised)](../daily/2026-10-26.md#arxiv-2607.13597)
+
+An auxiliary alignment objective preserves task-level semantics during VLA fine-tuning through shared/private representations anchored to a frozen manipulation-text encoder; auxiliary modules are removed at inference. Correlations do not establish semantic erosion as the sole cause of OOD failure. Architectures use different official fine-tuning recipes. The fixed semantic encoder bounds the method, shared/private factors are not identifiable, and this is downstream fine-tuning rather than continual deployment adaptation.
+
+## GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks
+
+- [arXiv 2607.05369](https://arxiv.org/abs/2607.05369) · v2 · [Latest entry](../daily/2026-10-26.md#arxiv-2607.05369)
+- Coverage history: [2026-10-26 (v2, revised)](../daily/2026-10-26.md#arxiv-2607.05369)
+
+GaP composes typed robot skill graphs and improves their structure, parameters and throughput through simulation rehearsal before deployment. New throughput evidence is simulation, not a new real-robot productivity result. The paper explicitly says CaP-X is not a fair standalone comparison because available environment geometry differs. MORSL equalizes selected perception/grasp components, not all motion primitives, inference budgets or system choices. The tasks are mostly quasi-static.
+
+## Probing Collision Grounding in Vision-Language Models for Safe Human-Robot Collaboration
+
+- [arXiv 2605.31196](https://arxiv.org/abs/2605.31196) · v2 · [Latest entry](../daily/2026-10-26.md#arxiv-2605.31196)
+- Coverage history: [2026-10-26 (v2, revised)](../daily/2026-10-26.md#arxiv-2605.31196)
+
+TouchSafeBench evaluates current collision recognition and early warning in simulated human–robot co-presence, separating robot–scene and human-contact risks. The real recordings contain no physical contact and use a human head-mounted camera; labels are binary proximity at a 1 m threshold, not actual collision safety. False-alarm estimates use only 12 hard negatives. Prompt tests repeat one model/condition; one expert saw viewpoint conditions in fixed order. No closed-loop safety intervention is validated.
 
 ## Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success
 

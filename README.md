@@ -4,7 +4,7 @@
 
 A bilingual, public-facing reading list for robot learning and embodied AI: VLA, WAM/world models, reinforcement learning and test-time adaptation, memory, skill accumulation, and real-robot transfer. English is the default language.
 
-Latest covered announcement: **2026-10-23**. **94 unique papers**, **94 substantive dated entries**, and **5 archived editions**.
+Latest covered announcement: **2026-10-26**. **139 unique papers**, **139 substantive dated entries**, and **6 archived editions**.
 
 Inclusion is not an endorsement of a paper or its authors. Numerical results are author-reported, not independently reproduced. Read each archive entry for limitations, experimental conditions, version, and review depth.
 
@@ -17,17 +17,18 @@ Inclusion is not an endorsement of a paper or its authors. Numerical results are
 
 ## Topics
 
-- [Vision-language-action models](topics/vla.md) · 45
-- [World models and world-action models](topics/world-models.md) · 37
-- [Memory, skills, and continual learning](topics/memory-skills.md) · 44
-- [Reinforcement learning and adaptation](topics/rl-adaptation.md) · 31
-- [Manipulation and real-robot transfer](topics/manipulation-transfer.md) · 46
-- [Evaluation, robustness, and safety](topics/evaluation.md) · 42
+- [Vision-language-action models](topics/vla.md) · 61
+- [World models and world-action models](topics/world-models.md) · 49
+- [Memory, skills, and continual learning](topics/memory-skills.md) · 62
+- [Reinforcement learning and adaptation](topics/rl-adaptation.md) · 45
+- [Manipulation and real-robot transfer](topics/manipulation-transfer.md) · 76
+- [Evaluation, robustness, and safety](topics/evaluation.md) · 73
 
 Topics overlap. The catalog has one canonical record per versionless arXiv ID, with all covered versions and dates retained in its history.
 
 ## Daily archives
 
+- [2026-10-26](daily/2026-10-26.md) · 34 new papers, 11 revisions
 - [2026-10-23](daily/2026-10-23.md) · 25 new papers, 5 revisions
 - [2026-10-22](daily/2026-10-22.md) · 20 new papers, 5 revisions
 - [2026-10-21](daily/2026-10-21.md) · 14 new papers, 3 revisions, 1 earlier-batch supplemental review

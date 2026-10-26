@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "latest_covered_announcement": "2026-10-23",
+  "latest_covered_announcement": "2026-10-26",
   "results_note": "All numerical results are author-reported; summaries are not independent reproductions.",
   "editions": {
     "2026-10-19": {
@@ -26,6 +26,11 @@
     "2026-10-23": {
       "new": 25,
       "revised": 5,
+      "supplemental": 0
+    },
+    "2026-10-26": {
+      "new": 34,
+      "revised": 11,
       "supplemental": 0
     }
   },
@@ -1872,6 +1877,892 @@
       "summary_en": "The Bitter Lesson Comes to Robotics compares frontier language models directly controlling physical YAM arms under a 40-action budget. The revision expands seven models/twelve settings to nine models/fifteen settings and updates the historical performance fit.",
       "summary_zh": "《The Bitter Lesson Comes to Robotics》比较前沿语言模型在 40 次动作预算下直接控制真机 YAM 机械臂的表现。本次修订把 7 个模型、12 种设置扩展到 9 个模型、15 种设置，并更新历史性能趋势拟合。",
       "latest_covered": "2026-10-23"
+    },
+    {
+      "id": "2610.31841",
+      "title": "FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A coding agent uses RGB-D and wrist force/torque logs to generate and revise Python contact-probing and force-feedback programs. Experience is retained in executable control logic, without task-specific model training. Five real tasks, one model, small trial counts. Each development run permits 20 physical rollouts and four hours; humans authorize execution, reset scenes and judge final acceptance. The ablation changes access to force feedback and routines together, not just memory. Reasoning costs 4–10 minutes per iteration.",
+      "summary_zh": "编码代理结合RGB-D与腕部力/力矩日志，生成并修订接触探测和力反馈Python程序；经验保存在可执行控制逻辑中，无需任务专属模型训练。 只有5项真机任务、单模型及少量试验；每次开发最多20个实体rollout和4小时，人类负责执行批准、场景操作及最终验收。对照同时移除力反馈和相关例程，并非单独隔离记忆贡献；每次推理耗时4–10分钟。"
+    },
+    {
+      "id": "2610.32225",
+      "title": "RoboCode: Learning Reusable Action Primitives for Robot Manipulation",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Learns a shared soft-compositional primitive codebook from pooled action chunks, then freezes its decoder and trains task-specific state-to-code encoders. Simulation only, with object poses/goals rather than image-language observations. Task-specific encoders are trained for the evaluated tasks; reusable codes are not evidence of online skill growth or unseen-task transfer. No multi-seed uncertainty or closed-loop trial count was established in the checked evaluation section.",
+      "summary_zh": "先从多任务动作块学习可软组合的共享原语码本，再冻结解码接口，训练任务专属状态到码本编码器。 仅仿真，使用物体位姿/目标等状态而非图像语言输入；评估任务各自训练编码器，可复用码本不等于在线技能增长或未见任务迁移。已核评测部分未明确多种子不确定性及闭环试验次数。"
+    },
+    {
+      "id": "2610.32348",
+      "title": "LogLook: Execution-Grounded Memory for Frontier-Model Robot Planners",
+      "topics": [
+        "memory-skills",
+        "evaluation",
+        "vla"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Pairs an immutable execution log and verbatim note history with expectation-gated action frames and skim-then-inspect demonstrations. GPT-6 Astra plans either waypoints or grounded π0.5 subgoals; the memory is an inference-time interface, not parameter adaptation. The clean memory comparison demonstrates cost savings, not a clear success gain. Full-system gains also change action/call interfaces; direct control uses depth, calibration and task notes derived from success-checking code. One simulated benchmark and proprietary model, no real robot. Single-component failures differ by only 2–4 episodes.",
+      "summary_zh": "结合不可改写的执行日志、逐字保留的笔记历史、预期变化触发帧及先粗看再细查示范；Astra输出路点或π0.5落地子目标。记忆是推理时接口，而非参数适配。 干净记忆对照主要证明降成本，未显示明确成功率增益；完整系统还改变动作/调用接口。直接控制使用深度、标定及来自成功判定代码的任务说明。仅单仿真基准和闭源模型，无真机；单组件消融差别仅2–4回合。"
+    },
+    {
+      "id": "2610.32755",
+      "title": "Semantic Representation for Agentic Self-Play in Automated Laboratories",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "VERID maintains a persistent semantic laboratory twin with introspection, pre-execution simulation gates, synchronized traces and resumable state. Agents retain physical operating bounds and analytical lessons across runs. These are small case studies, not an isolated causal memory ablation: challenge instances and experimental strategies change. Uses a structured harness, internal Gemini checkpoint and operator approval gates in supervised runs. Biological discoveries and broad robot-policy transfer are not demonstrated.",
+      "summary_zh": "VERID提供持久语义实验室孪生，支持状态查询、执行前仿真门控、同步轨迹及故障续跑；代理跨运行保留物理操作边界和分析经验。 这是小规模案例而非隔离记忆因果效应的消融：挑战实例与实验策略同时变化。使用预设结构化Harness、内部Gemini检查点及受监督运行中的人工批准门控；未证明生物学突破或通用机器人策略迁移。"
+    },
+    {
+      "id": "2610.32965",
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "topics": [
+        "world-models",
+        "vla",
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A Cosmos3-based 16B model couples an 8B reasoner and 8B video generator. Cross-chunk scene frames support interleaved visual planning; a separately RL-trained reasoner chooses whether to request generated evidence, and WAM adaptation adds joint video-action learning. Robot adaptation uses roughly 1,600 hours of atomic and 177 hours of composite RoboCasa data. Full-split baseline numbers are imported from reports, whereas Selected-20 is evaluated by the authors. Visual history is within-episode context, not demonstrated lifelong memory; three real tasks do not isolate memory’s contribution.",
+      "summary_zh": "基于Cosmos3的16B模型耦合8B推理器和8B视频生成器；跨片段场景帧支撑交错视觉规划，另行RL训练的推理器选择是否调用生成证据，WAM适配联合学习视频与动作。 机器人适配使用约1,600小时原子任务及177小时组合任务数据。完整split的基线数值引用既有报告，精选20任务由作者评估；视觉历史是回合内上下文，不是已验证终身记忆，3项真机任务未隔离记忆贡献。"
+    },
+    {
+      "id": "2610.31779",
+      "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
+      "topics": [
+        "evaluation",
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "An open labeling suite supplies temporal segments, intended-action captions and outcome/dense/rubric rewards for robotic data pipelines; segmentation/captioning use RL post-training, while the released reward model uses SFT. Not uniformly best across metrics; systems use different frame budgets/compute. The approximately 125× cost claim assumes GPU pricing and modeled throughput, omits deployment overhead, has unverified production GPU-hour accounting, and is not fully reference-version matched. No direct downstream policy-learning improvement is established here.",
+      "summary_zh": "开放标注模型套件提供时序分段、动作意图描述及结果/稠密/规则奖励；分段与描述使用RL后训练，发布的奖励模型仅用SFT。 并非所有指标最优，各系统帧预算及算力不同。约125倍成本优势依赖假定GPU价格和建模吞吐，未含部署开销、生产GPU小时口径未核实，参考标注版本亦未完全匹配；这里未直接证明下游策略学习提升。"
+    },
+    {
+      "id": "2610.31801",
+      "title": "KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Compresses shared 14-D bimanual kinematics into transition-supervised Sparse Motion Tokens at two tokens/second; a LoRA-adapted language model predicts temporal segments and descriptions, with transfer to new robots and human hands. The encoder uses whole-episode normalization and symmetric temporal context, so it is offline. Tokenizer comparisons differ in input representation and reader-training populations, not just objective. Segmentation/semantic transfer does not establish closed-loop robot-policy gains.",
+      "summary_zh": "把统一14维双臂运动学压缩为每秒2个、由转折边界监督的稀疏运动token，再用LoRA语言模型输出时间片段和描述，并测试新机器人及人手迁移。 编码器采用整回合标准化和对称时间上下文，因此是离线模型。tokenizer比较同时存在输入表示及reader训练样本差异，不仅改变目标函数；分段及语义迁移不等于闭环策略收益。"
+    },
+    {
+      "id": "2610.32295",
+      "title": "Lifelong Context Adaptation through Bidirectional Memory-Skill Learning",
+      "topics": [
+        "memory-skills",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "MemCryst freezes the language model and co-evolves external episodic/factual memory and conditional skills. Repeated episodes support skill creation/revision; task outcomes adjust future retrieval weights without rewriting served records. Text-based simulation, not real robot control. Skill-only serving still retains internal memory for learning skills. Outcome credit is shared by all served records, not individual causal attribution; feedback noise and transfer to unseen domains are untested. Task order matters.",
+      "summary_zh": "MemCryst 冻结语言模型，使外部情景/事实记忆与条件技能双向演化：重复经历支持技能生成和修订，任务结果调整后续检索权重，不重写已服务记录。 这是文本仿真而非真机控制；“技能单独服务”仍保留用于技能学习的内部记忆。结果反馈分摊给全部服务记录，不是逐条因果归因；未检验错误反馈或未见领域迁移，任务顺序也影响结果。"
+    },
+    {
+      "id": "2610.32412",
+      "title": "LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents",
+      "topics": [
+        "memory-skills",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "An external retrieve–bind–select layer reuses leaf-level action grounding while retaining the original recursive planner. A LoRA-trained 1.7B selector chooses an admissible bound action or defers to the unchanged host. Cost savings are conditional on common successes and concern host-model inference, not total system cost. Evidence covers one planner/host and two discrete-action simulations; ALFWorld success differences are not significant. Library growth demonstrates read-time adoption, not monotonic success improvement or continuous robot control.",
+      "summary_zh": "外部检索–绑定–选择层复用叶级动作grounding，保留原递归规划器；经LoRA训练的1.7B选择器选出合法绑定动作，或交回未修改的上层模型。 成本节省以共同成功任务为条件，仅计上层模型而非完整系统成本。仅一个规划器/上层模型、两个离散动作仿真；ALFWorld成功率差异不显著。扩库证明读时采用新技能，不证明成功率单调增长或连续机器人控制。"
+    },
+    {
+      "id": "2610.32431",
+      "title": "When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning",
+      "topics": [
+        "vla",
+        "rl-adaptation",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "MART-GRPO uses a fine-tuned, then frozen VLM to locate the last visible unrecovered error in full rollout videos and truncate subsequent failure penalties, retaining successful-rollout terms and original normalization. Ideal stopping results motivate, but do not certify, the retrospective implementation. Simulation only. The actor sees one camera while the VLM reviews three; additional annotations and VLM fine-tuning are required. Boundaries use future rollout information and need not satisfy ideal stopping assumptions. One task declines by 1.95 points; held-out scene seeds are not independent training seeds.",
+      "summary_zh": "MART-GRPO 用微调后冻结的VLM从完整rollout视频定位最后一个未恢复的可见错误，截断其后失败惩罚，同时保留成功轨迹项及原归一化；理想停止理论提供动机，但不认证实际回溯实现。 仅仿真；策略看单相机，VLM审查三视角，另需标注及VLM微调。边界使用完整未来轨迹，不一定满足理想停止条件；一项任务下降1.95个百分点，留出场景种子不等于独立训练种子。"
+    },
+    {
+      "id": "2610.32222",
+      "title": "ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences",
+      "topics": [
+        "world-models",
+        "rl-adaptation",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A reward model combines action-mismatch and video-mismatch preferences to judge visual quality and action following without reference videos at reward-computation time. It introduces AVM-Eval (67.2k pairs) and AVM-Pref (506.3k pairs). RL evidence is restricted to one 2B world model and AgiBotWorld, not robot task success. Physical consistency is not directly supervised and ratings rely on a VLM. Reference-free reward computation does not mean reference-free dataset construction; pairwise ranking is not a guarantee of physical validity.",
+      "summary_zh": "结合动作错配和视频错配偏好，训练无需奖励计算时参考视频的模型，联合评价视觉质量与动作跟随；构建AVM-Eval（67.2k对）和AVM-Pref（506.3k对）。 RL证据限于一个2B世界模型与AgiBotWorld，不是机器人任务成功率。未直接监督物理一致性，评分依赖VLM；奖励计算无需参考不等于数据构建无需参考，成对排序也不保证物理正确。"
+    },
+    {
+      "id": "2610.32977",
+      "title": "UniAction: Unified Action Conditioning for World Models",
+      "topics": [
+        "world-models",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "UniAction represents force, camera, hand and robot-pose actions as sparse semantic elements with continuous spatiotemporal coordinates, mapped into the video backbone’s native RoPE geometry. Cardinality-calibrated attention compensates for different action-token counts. These are video-generation action-following scores, not closed-loop robot success. Conditioning branches differ in trainable parameter counts. Joint training does not improve every metric: camera LPIPS is .4863 versus expert .4780. Four specified action forms do not establish arbitrary-action or unseen-embodiment generalization.",
+      "summary_zh": "把力、相机、手部及机器人位姿动作表示为带语义身份与连续时空坐标的稀疏元素，映射到视频骨干原生RoPE几何；用基数校准attention补偿不同动作token数量。 这是视频生成动作跟随得分，不是闭环机器人成功率；不同条件分支可训练参数量不同。联合训练并非所有指标更好：相机LPIPS .4863，高于专家.4780。四种预设动作不证明任意动作或未见本体泛化。"
+    },
+    {
+      "id": "2610.32177",
+      "title": "Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model",
+      "topics": [
+        "world-models",
+        "rl-adaptation",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A unified token interface generates and interprets text, images, geometry and motion; adaptive streams of thought select intermediate representations. GRPO provides a proof of concept for choosing reasoning streams on visual question answering. The reported sim-to-real transfer concerns visual question answering over recorded robot videos, not robot deployment. Optical flow and tracks are proxy actions rather than actuator commands. Training-time positive/negative transfer among unified capabilities is not isolated; physical control remains future work.",
+      "summary_zh": "统一token接口生成及理解文字、图像、几何和运动，通过自适应思维流选择中间表示；以GRPO在视觉问答上验证如何选择推理流。 这里的sim-to-real是已录机器人视频上的视觉问答，不是真机部署。光流和轨迹是代理动作而非执行器命令；未隔离统一能力训练时的正负迁移，物理控制仍属未来工作。"
+    },
+    {
+      "id": "2610.31859",
+      "title": "Full-Weight VLA Fine-Tuning Without an fp32 Master Copy Silently Erases Most Updates",
+      "topics": [
+        "vla",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Audits update rounding when trainable matrices and AdamW state remain bf16 without fp32 master weights. One suite and shortened schedules; precision of optimizer moments is not separately ablated. SmolVLA scorer discrepancies restrict cross-paper comparisons. This does not show every bf16 computation or JAX training setup is affected.",
+      "summary_zh": "审计可训练矩阵和AdamW状态保持bf16、无fp32主副本时的更新舍入。 仅一个任务集、缩短训练；未单独消融优化器矩精度。SmolVLA评测器差异限制跨论文比较；不能推断所有bf16计算或JAX训练均受影响。"
+    },
+    {
+      "id": "2610.32094",
+      "title": "TTT in VLA Models: Exploring Training with Human Demonstrations",
+      "topics": [
+        "vla",
+        "memory-skills",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Integrates fast-weight TTT into InternVLA-A1 and pi0.5, documenting human-to-robot memory transfer and truncated gradient paths. Negative findings are limited to small cup-selection datasets and tested recipes, not a disproof of TTT. Trial counts are insufficiently reported. Autoregressive-state evaluation still uses recorded images, not closed-loop observations.",
+      "summary_zh": "在InternVLA-A1和π0.5中加入fast-weight TTT，记录人类示范到机器人阶段的记忆传递及截断梯度路径。 负结果限于小规模选杯数据和所测配方，不是对TTT的普遍否定；试验次数报告不足。自回归状态评估仍使用录制图像，并非闭环观测。"
+    },
+    {
+      "id": "2610.32102",
+      "title": "Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies",
+      "topics": [
+        "vla",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Jointly studies executed action horizon and flow-solver depth, testing when shallow sampling helps or harms. Long open-loop execution fails on moving targets; speedup is amortized inference cost, not guaranteed wall-clock task acceleration. The paper inconsistently describes simulation task totals and pi0.5 chunk configurations.",
+      "summary_zh": "联合研究执行动作长度与flow求解步数，检验浅采样何时有效或有害。 长开环在移动目标上失效；加速指摊销推理成本，不保证任务墙钟加速。论文对仿真任务总数及π0.5动作块配置存在不一致描述。"
+    },
+    {
+      "id": "2610.32312",
+      "title": "MAST-VLA: Skill-Conditioned Adaptation with Trajectory-Affordance Priors for Multi-Skill Robot Manipulation",
+      "topics": [
+        "vla",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Combines skill-conditioned LoRA experts with RGB-D trajectory-affordance heatmaps that bias action attention. MAST additionally receives depth, unlike RGB-only baselines; gains cannot isolate architecture alone. Instructions arrive per primitive, not as an autonomously decomposed long task. Geometry failures and execution drift remain.",
+      "summary_zh": "将技能条件LoRA专家与RGB-D轨迹可供性热图结合，以热图偏置动作注意力。 MAST额外使用深度而基线仅RGB，不能将收益全归因于架构。指令逐原语下发，并非自主分解长任务；几何失效和执行漂移仍存在。"
+    },
+    {
+      "id": "2610.32941",
+      "title": "If at First You Don’t Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+      "topics": [
+        "vla",
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Trains a small failure head on frozen-policy rollouts and reverses achieved arm motion before retrying. Simulation only; pooled results include configuration-selection seeds. Held-out pi0.5 uplift is 0.70 points. Reversal does not restore objects or guarantee safety, and the head requires labeled rollouts.",
+      "summary_zh": "用冻结策略rollout训练小型失败头，触发后回放实际已完成机械臂运动的逆序，再交回原策略重试。 仅仿真；汇总结果包含选参种子，留出种子π0.5收益为0.70个百分点。回退不恢复物体或保证安全，失败头仍需标注rollout训练。"
+    },
+    {
+      "id": "2610.31834",
+      "title": "WorldMirror: Agentic Real-to-Sim Generation of Interactive Worlds from In-the-Wild Robot Demonstrations",
+      "topics": [
+        "world-models",
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Constructs executable world programs from robot demonstrations, with a coding agent using replay feedback to repair scene geometry, assets, and physical interactions. Results concern recorded-trajectory replay in reconstructed simulation, not new-policy real-robot success or sim-to-real learning. Spatial metrics do not uniformly beat Astra, and component ablations cover one task, offering little evidence of a memory benefit.",
+      "summary_zh": "把真实演示的数字孪生构建写成可执行世界程序，由编码代理诊断回放失败并定向修复场景、资产与物理交互。 这是已录轨迹在重建仿真中的回放，不是真机新策略成功率或sim2real收益。空间指标并非全面胜过Astra；组件消融限于一个任务，尚不能归因长期记忆收益。"
+    },
+    {
+      "id": "2610.31845",
+      "title": "EgoForesight: Effectively Scaling Policy Learning with Noisy Egocentric Actions",
+      "topics": [
+        "vla",
+        "world-models",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Combines reliability-dependent corruption and loss weighting with joint vision–action flow and privileged-future EMA distillation to learn from noisy human action labels. External RoboCasa baselines use published results with different pretraining and budgets. The real π0.5 baseline replaces input/output projections for 58 DoF, confounding attribution. Action labels remain required, and source weighting does not correct systematic retargeting bias.",
+      "summary_zh": "以来源可靠性调节噪声与损失权重，将联合视觉-动作流与可见干净未来的EMA教师蒸馏结合，利用带噪人类动作标签。 外部RoboCasa基线取自发表结果、预训练和预算不同。π0.5真机对照重置输入输出层以适配58DoF，不能将差距纯归因方法；仍需动作标注，来源加权不能纠正系统性重定向偏差。"
+    },
+    {
+      "id": "2610.32330",
+      "title": "DynaSlots: Slot-Centric 3D Dynamics Pretraining for Robot Manipulation",
+      "topics": [
+        "world-models",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Learns temporally aligned soft slots, slot-level latent actions, and proximity–motion relations from point-cloud sequences, supplying dynamics-aware 3D representations to a diffusion policy. Simulation baselines are inherited from AFRO, and each seed selects its best evaluated checkpoint rather than an independent final test. Real error bars reflect layout variability, not training seeds; one embodiment and one task underpin the robustness tests.",
+      "summary_zh": "从点云序列自监督学习时序一致的软槽位、槽位级潜在动作及邻近-运动关系，再为扩散策略提供3D动力学表征。 仿真基线沿用AFRO论文结果，各种子选最好评估检查点，非独立最终测试。真机误差条是布局间标准差，不是训练种子方差；只一个本体且杂物/新物体仅一个任务。"
+    },
+    {
+      "id": "2610.32776",
+      "title": "Predictive Long-Horizon Progress Modeling with Action-Aware Quantification",
+      "topics": [
+        "world-models",
+        "evaluation",
+        "memory-skills"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "NimCritic couples predictive video learning with separate progress/completion outputs, perturbed progress history, and cross-modal alignment. LOOM contains 300 cross-embodiment trajectories and 19,618 human-calibrated frames. These are offline evaluator metrics, not robot task-success rates. Multi-subtask evaluation relies on offline VLM segmentation, not demonstrated real-time judging. Training uses 800+ hours and 48 accelerators; no closed-loop policy improvement from its reward is established.",
+      "summary_zh": "NimCritic以视频预测训练约束进度/完成度双输出，结合历史进度扰动与跨模态对齐；LOOM评测包含300条跨本体轨迹、19,618个人工校准帧。 上述是离线评价，不是机器人任务成功率。多子任务依赖离线VLM分段，非直接证明在线实时裁判可用；训练800余小时、48加速器，未报告用奖励后训练策略的闭环收益。"
+    },
+    {
+      "id": "2610.32208",
+      "title": "Do VLAs Know They Will Fail? Interpretable Success and Failure Patterns in Physical AI Systems",
+      "topics": [
+        "vla",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Uses sparse autoencoder features of OpenVLA activations for failure prediction and VLM-generated behavioral interpretations, with branching rollouts estimating a point of no return. Simulation and one policy only. Unsupervised SAE fitting uses all 500 trajectories; supervised predictors use held-out splits. Four branches per probe give coarse, remaining-budget-dependent recoverability. Outcome associations are not causal failure mechanisms or validated safety interventions.",
+      "summary_zh": "用稀疏自编码器分解OpenVLA内部激活，预测失败并由外部VLM解释与结果相关的行为；通过分支重试估计不可恢复时间点。 仅仿真、单模型；SAE无监督训练使用全部500轨迹，监督预测器才留出。每点4次分支估计粗糙且受剩余预算影响；相关特征并非因果机制或已验证安全干预。"
+    },
+    {
+      "id": "2610.31762",
+      "title": "See What I Need, Dream What I Want: A Navigation Foundation Model on a Self-Constructed Representation Space",
+      "topics": [
+        "world-models",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "RepresentNav constructs policy-oriented representations from multiple layers of frozen vision backbones, then learns a JEPA-style latent future prediction before waypoint generation. External baselines are taken from their papers with differing observation settings. Physical navigation demonstrations do not establish manipulation transfer; dexterous and whole-body control remain untested.",
+      "summary_zh": "RepresentNav从多个冻结视觉骨干的多层特征构造策略导向表征，在同空间以JEPA训练预测未来的潜在推理，再生成路点。 外部基线来自原论文且观测设置不全相同。真机导航演示不能证明操作迁移；作者明确尚未验证操作、灵巧手或全身控制。"
+    },
+    {
+      "id": "2610.31812",
+      "title": "PrefO2O: Zero-Shot Preference-Based Reinforcement Learning via Offline-to-Online Latent Preference Transfer",
+      "topics": [
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Transfers a jointly learned latent preference space and reward prior from labeled source tasks, then generates confidence-weighted optimal-transport pseudo-preferences for online target-task RL without target human labels. Zero-shot refers to target human feedback, not zero target interaction or training. Real trials are small; transfer assumes related preference dimensions. PEARL is modified for online learning and dimension mismatch; PrefFew receives limited source data and 100 target labels.",
+      "summary_zh": "联合学习潜在偏好空间和奖励先验，通过置信度加权最优传输生成目标任务伪偏好，在不新增目标任务人工标签下在线强化学习。 零样本指无需目标人工反馈，并非无目标交互或训练。真机样本少，要求源目标共享偏好维度；PEARL做了在线化与维度补齐，PrefFew处于有限源数据设置并使用100个目标标签。"
+    },
+    {
+      "id": "2610.31829",
+      "title": "SEVI: Safe Evidential Real-World Reinforcement Learning",
+      "topics": [
+        "rl-adaptation",
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Adds an evidential safety critic that gates task actions using predicted violation risk and epistemic uncertainty, invoking a shared offline-trained recovery policy during online RL. Only one hardware task and two simulated tasks; no formal zero-violation guarantee. Hardware learning uses 50 successful prior demonstrations, 200 recovery demonstrations and validation-based thresholds. Final success and cumulative training incidents have different denominators.",
+      "summary_zh": "证据式安全critic同时估计违规风险与认知不确定性，在在线RL中筛查动作并调用离线训练的恢复策略。 仅1项真机、2项仿真任务，无零违规形式保证。真机使用50条成功先验示范、200条恢复示范及验证集阈值；最终成功率与累计训练事件口径不同。"
+    },
+    {
+      "id": "2610.32093",
+      "title": "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
+      "topics": [
+        "vla",
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Uses privileged, latent-conditioned RL with a reverse curriculum and success-gated diversity to generate filtered demonstration datasets, then trains a visuomotor π0.5 policy rather than deploying the RL generator. Requires accurate simulation, privileged states, reset access and task success signals. Hardware evidence covers four simple tabletop tasks with modest transfer gaps and only one training seed; excessive diversity can hurt competence.",
+      "summary_zh": "用特权状态、潜变量条件RL、逆向课程和成功门控多样性生成过滤后的示范，再训练视觉π0.5，部署的不是RL生成器。 依赖准确仿真、特权状态、状态重置和成功信号。真机仅4个简单桌面任务、较小迁移差距及1个训练种子；过大多样性会损害任务能力。"
+    },
+    {
+      "id": "2610.32143",
+      "title": "Geometry-Aware Reinforcement Learning for Close-Fitting Wearable Insertion",
+      "topics": [
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Formulates close-fitting bracelet dressing as geometric insertion and combines a finger-wise soft insertion gate with a staged curriculum, transferring a compact geometric observation interface to a bimanual robot. Bracelet is pregrasped and the mannequin stationary; deployment is slowed by about half. No force-aware observation or objective, so finger deflection is not a safety measurement. Large combined pose shifts reduce simulated success to 26/50.",
+      "summary_zh": "把紧贴手部的手环穿戴建模为几何插入，结合逐指软插入门控和分阶段课程，通过紧凑几何观测接口迁移到双臂机器人。 手环预抓持、假手静止，真机约减半速度。没有力感知观测/目标，手指偏转不是安全指标；大幅组合姿态扰动使仿真成功降至26/50。"
+    },
+    {
+      "id": "2610.32439",
+      "title": "$R^2E:$ A Role-driven Reward Evolutionary Framework for Automated Reward Function Design",
+      "topics": [
+        "rl-adaptation",
+        "memory-skills"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Coordinates Explorer, Guardian and Evolver LLM roles around a five-entry elite reward pool, using dynamic candidate allocation for iterative reward-program search. Only simulation and task-specific reward search, not cross-task robot skill accumulation. Elite-pool monotonicity concerns retained search scores, not guaranteed future policy improvement. RL training dominates compute; baseline search/token budgets should not be assumed identical merely because the backbone matches.",
+      "summary_zh": "以5项精英奖励池协调Explorer、Guardian、Evolver三类LLM角色，动态分配候选预算进行奖励程序迭代搜索。 仅仿真与任务内奖励搜索，不是跨任务机器人技能积累。精英池单调性针对保留搜索分数，不保证未来策略持续提升；RL训练主导成本，同骨干不等于所有基线搜索/token预算相同。"
+    },
+    {
+      "id": "2610.32676",
+      "title": "Retiming Robot Demonstrations with a Learned Speed Prior",
+      "topics": [
+        "vla",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Learns a transferable distribution over demonstration speed, retimes trajectories to faster observed paces, and pairs a tempo-predicting VLA with constraint-aware real-time trajectory execution. Needs offline policy training and a specialized execution controller, not a drop-in inference-speed tweak. The prior cannot exceed demonstrated paces. Some success gains can arise from timeouts; the authors use matched speed to control this. SAIL numbers use a different robot and policy.",
+      "summary_zh": "学习可迁移的示范速度分布，用已观测更快节奏重定时轨迹，并把预测节奏的VLA与约束感知实时轨迹执行层结合。 需要离线策略训练和专门执行控制器，不是直接加速推理的开关。速度先验不能超出已有示范节奏；超时会影响成功率，因此须看同速对照。SAIL对比采用不同机器人与策略。"
+    },
+    {
+      "id": "2610.32855",
+      "title": "Regularised RL improves sim-to-real transfer",
+      "topics": [
+        "rl-adaptation",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Extends soft mellowmax to continuous-control actor–critic with a slowly updated reference policy and tests whether regularization improves sim-to-real robustness beyond nominal training return. Return is not success rate. Domain randomization remains necessary, and temperatures vary by task. PPO/FastTD3 are excluded from ANYmal perturbation deployment after failing a prespecified simulation safety check, so those cells are missing, not observed hardware failures. MuJoCo tuning budgets are unequal.",
+      "summary_zh": "用缓慢更新参考策略把soft mellowmax扩展到连续控制actor–critic，检验正则化是否改善超越名义训练回报的sim2real鲁棒性。 回报不是成功率；仍需要域随机化，温度参数随任务变化。PPO/FastTD3因未通过预设仿真安全筛查而没有ANYmal扰动部署，空白不能算实测真机失败；MuJoCo调参预算不完全相等。"
+    },
+    {
+      "id": "2610.32971",
+      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+      "topics": [
+        "rl-adaptation",
+        "evaluation",
+        "vla"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Unifies 17 robust/safe RL algorithms and six standard references, with reusable interfaces and individual/compound deployment shifts including latency and semantics. Not every algorithm runs every task. Methods retain native budgets, and pooled-family comparisons mix backbone strength with robustness mechanisms. The π0.5 study uses one fine-tuned model and offline joint-space demonstration tracking, not closed-loop VLA task success or real-robot validation.",
+      "summary_zh": "统一17种鲁棒/安全RL算法及6种标准对照，提供可复用接口及含延迟、语义的单因素/组合部署扰动。 并非每算法运行每任务；保留各自原生预算，算法族混合均值会混入基础学习器强弱。π0.5实验仅单个微调模型的离线关节示范轨迹跟踪，不是闭环VLA成功率或真机验证。"
+    },
+    {
+      "id": "2610.32969",
+      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+      "topics": [
+        "manipulation-transfer",
+        "memory-skills"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A portable interface uses the deployed dexterous hand, parameterized grasp skills and a learned rotation skill to collect wrist motion and native joint commands; the imitation policy receives no skill labels. Small evaluation samples; screwdriver rotation uses a separate speed metric, not the three-task success mean. Demonstration quantity and scene diversity change together. Collection skills are not an autonomously growing skill library.",
+      "summary_zh": "便携接口使用部署时的灵巧手，以参数化抓取和学习式旋转技能采集腕部运动及原生关节指令；模仿策略不接收技能标签。 评估样本少；螺丝刀旋转单独用速度指标，不计入三任务成功率均值。数据量与场景多样性同时变化；采集技能并非自主增长的技能库。"
+    },
+    {
+      "id": "2610.32966",
+      "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Generates G1 reference motion directly from monocular video and post-trains the diffusion generator with tracker-derived preference pairs; an autoregressive variant enables video teleoperation. These percentages measure simulated reference tracking, not real-world task completion. Fine hand poses are not modeled; real deployment evidence is qualitative, and online initialization takes about ten seconds.",
+      "summary_zh": "从单目视频直接生成G1参考运动，以跟踪器反馈构造偏好对后训练扩散生成器；自回归版本支持视频遥操作。 百分比为仿真参考运动跟踪率，不是真机任务完成率。未建模精细手部姿态；真机证据以定性示范为主，在线初始化约10秒。"
+    },
+    {
+      "id": "2607.06988",
+      "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+      "topics": [
+        "world-models",
+        "memory-skills",
+        "rl-adaptation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v3",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Human videos write fast-weight memory in a world-action model; paired human–robot meta-training teaches the video-to-action transfer interface. These are interface variants inside one WAM, not faithful evaluations of the complete original systems. The extra interface test covers one task; FastWAM evidence is qualitative eight-frame prediction over 3.2 s, not closed-loop control transfer. Some alternatives rely on pretrained skill latents absent from meta-training-only insertion.",
+      "summary_zh": "通过人类视频写入世界动作模型的快权重记忆，配对人类—机器人元训练学习视频到动作的迁移接口。 对照是同一WAM内的接口变体，而非原系统完整复现；新增接口实验仅一个任务。FastWAM证据是3.2秒、8帧预测的定性展示，不是闭环控制迁移；部分对照依赖预训练技能潜变量，元训练阶段直接插入并不具备该先验。"
+    },
+    {
+      "id": "2607.05369",
+      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
+      "topics": [
+        "memory-skills",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "GaP composes typed robot skill graphs and improves their structure, parameters and throughput through simulation rehearsal before deployment. New throughput evidence is simulation, not a new real-robot productivity result. The paper explicitly says CaP-X is not a fair standalone comparison because available environment geometry differs. MORSL equalizes selected perception/grasp components, not all motion primitives, inference budgets or system choices. The tasks are mostly quasi-static.",
+      "summary_zh": "GaP组合带类型的机器人技能图，在部署前通过仿真排练优化图结构、参数和吞吐。 新增吞吐证据来自仿真，并非新增真机生产率结果。论文明确承认CaP-X对照因已知环境几何信息不同而不公平；MORSL仅对齐部分感知/抓取组件，并未对齐所有运动原语、推理预算和系统选项。任务仍以准静态为主。"
+    },
+    {
+      "id": "2608.24885",
+      "title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
+      "topics": [
+        "world-models",
+        "rl-adaptation",
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "WorldEcho evaluates off-expert action following using visual screening and end-effector trajectory alignment; WorldSync combines broader action data with dynamics grounding and intervention-effect supervision. The small headline gated-error difference is a point estimate, not established significance. Visual screening does not guarantee integrity; its human checks use only 15 clips per dimension. Video metrics use reconstructed references and separate generation batches. Pretraining corpora and baseline histories differ; the expanded-data advantage is not a controlled data-efficiency claim.",
+      "summary_zh": "WorldEcho以视觉筛查与末端轨迹对齐评估非专家动作跟随；WorldSync结合更广动作数据、动力学表征约束及干预效果监督。 主表微小门控差距仅为点估计，未证明显著；视觉筛查不保证完整性，人工核验每维仅15段。视频指标使用重建参考和独立生成批次；不同预训练语料及基线历史不能支持受控数据效率结论。"
+    },
+    {
+      "id": "2609.31868",
+      "title": "Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals",
+      "topics": [
+        "world-models",
+        "memory-skills",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v3",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A nonparametric macro planner retrieves observed states from an offline trajectory graph and uses shortest-path subgoals with repeated graph re-entry. All added tests are simulated. Metro uses a fixed rather than shrinking horizon and tunes horizon/subgoal distance plus executed-block count on separate tuning tasks; baselines use released configurations. Retrieved states are real, but this does not certify every connecting transition. Diverse layouts absent from the corpus may break stitching.",
+      "summary_zh": "非参数宏观规划器从离线轨迹图检索真实观测状态，以最短路径子目标和动态重新入图支持长程控制。 新增实验均为仿真。Metro采用固定而非递减时域，并在独立调参任务上选择时域、子目标距离和执行块数；基线使用公开配置。检索状态真实不等于每条连接转移都可保证；语料中罕见的多样布局可能破坏轨迹拼接。"
+    },
+    {
+      "id": "2610.00854",
+      "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+      "topics": [
+        "evaluation",
+        "memory-skills",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v3",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A unified arena separates geometric prediction, affordance grounding, intermediate subgoals and native complete-task success across 1,000 cases. The union is retrospective coverage, not a deployed ensemble success rate. Source interfaces and budgets are retained rather than identical across all tasks; some supplementary episodes and missing records are explicitly separate. Error-free code and low latency must not be equated with physical task completion; this is benchmark evidence rather than new real-robot validation.",
+      "summary_zh": "统一评测在1,000个案例中区分几何预测、可供性定位、中间子目标和原生完整任务成功。 并集是事后覆盖，并非已部署集成策略成功率。各源任务保留接口与预算而非全部一致，部分补充回合及缺失记录单独处理。无代码错误和低延迟不能等同物理任务完成；本次是基准证据而非新增真机验证。"
+    },
+    {
+      "id": "2607.13597",
+      "title": "Semantic Anchoring for Robotic Action Representations",
+      "topics": [
+        "vla",
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v3",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "An auxiliary alignment objective preserves task-level semantics during VLA fine-tuning through shared/private representations anchored to a frozen manipulation-text encoder; auxiliary modules are removed at inference. Correlations do not establish semantic erosion as the sole cause of OOD failure. Architectures use different official fine-tuning recipes. The fixed semantic encoder bounds the method, shared/private factors are not identifiable, and this is downstream fine-tuning rather than continual deployment adaptation.",
+      "summary_zh": "以冻结的操作文本编码器为锚，通过共享/私有表征的辅助对齐目标保留VLA微调中的任务语义，推理时移除辅助模块。 相关性不能证明语义侵蚀是分布外失败的唯一原因；各架构沿用不同官方微调方案。冻结语义编码器限制性能，共享/私有因子无可识别性保证；属于下游微调而非部署中的持续适配。"
+    },
+    {
+      "id": "2608.15924",
+      "title": "RAPAC-DP: Response-Aligned Pending-Action Compensation for Diffusion Policies under Delayed Execution",
+      "topics": [
+        "vla",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A frozen diffusion/flow policy gains a pending-action encoder and LoRA compensation that aligns each output chunk to its scheduled execution time, trained using delay-conditioned samples from delay-free demonstrations. Only one checkpoint per method/task is tested, so confidence intervals describe trial variation rather than training-seed robustness. Fixed conveyor speed/starts and injected discrete delays limit claims about arbitrary network jitter. At low delay it trails RTC on dynamic grasping (73.3% versus 76.7%); the method requires training an adapter.",
+      "summary_zh": "在冻结扩散/流策略上加入待执行动作编码器和LoRA补偿，将动作块对齐计划交接时间，仅用无延迟示范构造延迟条件训练样本。 每方法/任务仅一个检查点，置信区间反映试验抽样而非训练种子鲁棒性。固定传送带速度/起点和离散注入延迟限制其对任意网络抖动的结论；低延迟动态抓取73.3%低于RTC76.7%。需要训练适配器，不是免训练修复。"
+    },
+    {
+      "id": "2605.31196",
+      "title": "Probing Collision Grounding in Vision-Language Models for Safe Human-Robot Collaboration",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "TouchSafeBench evaluates current collision recognition and early warning in simulated human–robot co-presence, separating robot–scene and human-contact risks. The real recordings contain no physical contact and use a human head-mounted camera; labels are binary proximity at a 1 m threshold, not actual collision safety. False-alarm estimates use only 12 hard negatives. Prompt tests repeat one model/condition; one expert saw viewpoint conditions in fixed order. No closed-loop safety intervention is validated.",
+      "summary_zh": "TouchSafeBench在仿真人机共处中评估当前碰撞识别和提前预警，区分机器人—场景与人类接触风险。 真实录像无物理接触，且为人头戴相机；标签是1米阈值的二元接近状态，并非实际碰撞安全。误报统计只有12个难负例。提示测试仅一个模型/条件，单专家按固定顺序看不同视角；未验证闭环安全干预。"
+    },
+    {
+      "id": "2610.05414",
+      "title": "RMMBench: A Comprehensive Benchmark for Robotic Mobile Manipulation",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer",
+        "memory-skills"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A MuJoCo mobile-manipulation benchmark separates task success, subgoal progress, spatial grounding and repeated-action recovery through a fixed skill interface. Simulation only, three episodes per task, discretized grid navigation and a fixed skill library. Grasp candidates include expert-verified ground-truth fallback annotations as well as GraspNet outputs; the evaluation does not demonstrate end-to-end low-level control or autonomous skill expansion. Execution efficiency is computed only on successful trajectories and reflection scores only on episodes containing repeated-action loops.",
+      "summary_zh": "基于MuJoCo的移动操作基准，通过固定技能接口分别评估任务成功、子目标进展、空间定位及重复动作后的恢复。 仅仿真、每任务3回合、离散网格导航及固定技能库；抓取候选同时包含GraspNet输出与专家核验的真值兜底标注，不能证明端到端低层控制或自主技能扩展。执行效率仅在成功轨迹统计，反思分数仅在含重复动作循环的回合统计。"
+    },
+    {
+      "id": "2608.19188",
+      "title": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
+      "topics": [
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "Occupancy-conditioned global and local geometry representations generate and refine bimanual grasp pairs from a segmented single-view RGB-D observation. Hardware trials evaluate only this method, without matched real-robot baseline rates, and success means lifting rather than completing a downstream manipulation task. Candidates are filtered for collision-free kinematic reachability. The separate real-world RGB-D dataset table uses digital-twin simulation metrics, not hardware success; its 81.54% GS must not be confused with the 39/54 lift rate.",
+      "summary_zh": "利用占据条件的全局与局部几何表征，从带分割的单视角RGB-D观测生成并细化双臂抓取对。 真机只评本方法，无同协议真机基线成功率；成功定义为抬起，不是完成后续操作。候选先经无碰撞及运动学可达过滤。另一个真实RGB-D数据集表使用数字孪生仿真指标，并非真机成功率，81.54%的GS不可与39/54抬起率混淆。"
+    },
+    {
+      "id": "2610.24512",
+      "title": "ContactBench 1.0: A Benchmark for Everyday Contact-Rich Robotic Manipulation",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer",
+        "vla"
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-10-26"
+        }
+      ],
+      "latest_covered": "2026-10-26",
+      "summary_en": "A benchmark of eight contact-rich skill categories, 36 reference tasks and over 40 printable assets with corresponding simulation components; six tasks evaluate vision-only and visual-tactile learned policies. The four systems differ in pretraining, observation histories and tactile interfaces, so this is not a perfectly isolated tactile-modality ablation. Only six of 36 tasks receive learned-policy evaluation. Velcro stabilization enables one-arm tasks that could otherwise require another arm. Rigid/articulated printed assets do not cover deformable contact; negative tactile results apply to the tested policies and sensors, not touch in general.",
+      "summary_zh": "包含8类接触丰富技能、36个参考任务及40余可打印资产与配套仿真的基准；在6任务上比较视觉及视触觉学习策略。 四系统的预训练、观测历史及触觉接口不同，并非完全隔离变量的触觉消融；36任务中仅6项做学习策略评估。魔术贴固定使部分原本需另一臂稳定物体的任务可由单臂完成。刚性/关节打印资产不覆盖形变接触；触觉负结果只适用于所测策略与传感器，不能泛化为触觉无用。"
     }
   ]
 }

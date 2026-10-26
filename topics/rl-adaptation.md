@@ -2,7 +2,105 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-31 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+45 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms
+
+- [arXiv 2610.32971](https://arxiv.org/abs/2610.32971) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32971)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32971)
+
+Unifies 17 robust/safe RL algorithms and six standard references, with reusable interfaces and individual/compound deployment shifts including latency and semantics. Not every algorithm runs every task. Methods retain native budgets, and pooled-family comparisons mix backbone strength with robustness mechanisms. The π0.5 study uses one fine-tuned model and offline joint-space demonstration tracking, not closed-loop VLA task success or real-robot validation.
+
+## ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback
+
+- [arXiv 2610.32966](https://arxiv.org/abs/2610.32966) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32966)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32966)
+
+Generates G1 reference motion directly from monocular video and post-trains the diffusion generator with tracker-derived preference pairs; an autoregressive variant enables video teleoperation. These percentages measure simulated reference tracking, not real-world task completion. Fine hand poses are not modeled; real deployment evidence is qualitative, and online initialization takes about ten seconds.
+
+## Regularised RL improves sim-to-real transfer
+
+- [arXiv 2610.32855](https://arxiv.org/abs/2610.32855) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32855)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32855)
+
+Extends soft mellowmax to continuous-control actor–critic with a slowly updated reference policy and tests whether regularization improves sim-to-real robustness beyond nominal training return. Return is not success rate. Domain randomization remains necessary, and temperatures vary by task. PPO/FastTD3 are excluded from ANYmal perturbation deployment after failing a prespecified simulation safety check, so those cells are missing, not observed hardware failures. MuJoCo tuning budgets are unequal.
+
+## $R^2E:$ A Role-driven Reward Evolutionary Framework for Automated Reward Function Design
+
+- [arXiv 2610.32439](https://arxiv.org/abs/2610.32439) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32439)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32439)
+
+Coordinates Explorer, Guardian and Evolver LLM roles around a five-entry elite reward pool, using dynamic candidate allocation for iterative reward-program search. Only simulation and task-specific reward search, not cross-task robot skill accumulation. Elite-pool monotonicity concerns retained search scores, not guaranteed future policy improvement. RL training dominates compute; baseline search/token budgets should not be assumed identical merely because the backbone matches.
+
+## When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning
+
+- [arXiv 2610.32431](https://arxiv.org/abs/2610.32431) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32431)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32431)
+
+MART-GRPO uses a fine-tuned, then frozen VLM to locate the last visible unrecovered error in full rollout videos and truncate subsequent failure penalties, retaining successful-rollout terms and original normalization. Ideal stopping results motivate, but do not certify, the retrospective implementation. Simulation only. The actor sees one camera while the VLM reviews three; additional annotations and VLM fine-tuning are required. Boundaries use future rollout information and need not satisfy ideal stopping assumptions. One task declines by 1.95 points; held-out scene seeds are not independent training seeds.
+
+## ACWM-RM: A Reference-Free Reward Model from Complementary Mismatch Preferences
+
+- [arXiv 2610.32222](https://arxiv.org/abs/2610.32222) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32222)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32222)
+
+A reward model combines action-mismatch and video-mismatch preferences to judge visual quality and action following without reference videos at reward-computation time. It introduces AVM-Eval (67.2k pairs) and AVM-Pref (506.3k pairs). RL evidence is restricted to one 2B world model and AgiBotWorld, not robot task success. Physical consistency is not directly supervised and ratings rely on a VLM. Reference-free reward computation does not mean reference-free dataset construction; pairwise ranking is not a guarantee of physical validity.
+
+## Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model
+
+- [arXiv 2610.32177](https://arxiv.org/abs/2610.32177) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32177)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32177)
+
+A unified token interface generates and interprets text, images, geometry and motion; adaptive streams of thought select intermediate representations. GRPO provides a proof of concept for choosing reasoning streams on visual question answering. The reported sim-to-real transfer concerns visual question answering over recorded robot videos, not robot deployment. Optical flow and tracks are proxy actions rather than actuator commands. Training-time positive/negative transfer among unified capabilities is not isolated; physical control remains future work.
+
+## Geometry-Aware Reinforcement Learning for Close-Fitting Wearable Insertion
+
+- [arXiv 2610.32143](https://arxiv.org/abs/2610.32143) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32143)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32143)
+
+Formulates close-fitting bracelet dressing as geometric insertion and combines a finger-wise soft insertion gate with a staged curriculum, transferring a compact geometric observation interface to a bimanual robot. Bracelet is pregrasped and the mannequin stationary; deployment is slowed by about half. No force-aware observation or objective, so finger deflection is not a safety measurement. Large combined pose shifts reduce simulated success to 26/50.
+
+## DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning
+
+- [arXiv 2610.32093](https://arxiv.org/abs/2610.32093) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.32093)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.32093)
+
+Uses privileged, latent-conditioned RL with a reverse curriculum and success-gated diversity to generate filtered demonstration datasets, then trains a visuomotor π0.5 policy rather than deploying the RL generator. Requires accurate simulation, privileged states, reset access and task success signals. Hardware evidence covers four simple tabletop tasks with modest transfer gaps and only one training seed; excessive diversity can hurt competence.
+
+## SEVI: Safe Evidential Real-World Reinforcement Learning
+
+- [arXiv 2610.31829](https://arxiv.org/abs/2610.31829) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.31829)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.31829)
+
+Adds an evidential safety critic that gates task actions using predicted violation risk and epistemic uncertainty, invoking a shared offline-trained recovery policy during online RL. Only one hardware task and two simulated tasks; no formal zero-violation guarantee. Hardware learning uses 50 successful prior demonstrations, 200 recovery demonstrations and validation-based thresholds. Final success and cumulative training incidents have different denominators.
+
+## PrefO2O: Zero-Shot Preference-Based Reinforcement Learning via Offline-to-Online Latent Preference Transfer
+
+- [arXiv 2610.31812](https://arxiv.org/abs/2610.31812) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.31812)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.31812)
+
+Transfers a jointly learned latent preference space and reward prior from labeled source tasks, then generates confidence-weighted optimal-transport pseudo-preferences for online target-task RL without target human labels. Zero-shot refers to target human feedback, not zero target interaction or training. Real trials are small; transfer assumes related preference dimensions. PEARL is modified for online learning and dimension mismatch; PrefFew receives limited source data and 100 target labels.
+
+## FLORA: An Open Model Suite for Scaling Robotics Data Engines
+
+- [arXiv 2610.31779](https://arxiv.org/abs/2610.31779) · v1 · [Latest entry](../daily/2026-10-26.md#arxiv-2610.31779)
+- Coverage history: [2026-10-26 (v1, new)](../daily/2026-10-26.md#arxiv-2610.31779)
+
+An open labeling suite supplies temporal segments, intended-action captions and outcome/dense/rubric rewards for robotic data pipelines; segmentation/captioning use RL post-training, while the released reward model uses SFT. Not uniformly best across metrics; systems use different frame budgets/compute. The approximately 125× cost claim assumes GPU pricing and modeled throughput, omits deployment overhead, has unverified production GPU-hour accounting, and is not fully reference-version matched. No direct downstream policy-learning improvement is established here.
+
+## Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning
+
+- [arXiv 2608.24885](https://arxiv.org/abs/2608.24885) · v2 · [Latest entry](../daily/2026-10-26.md#arxiv-2608.24885)
+- Coverage history: [2026-10-26 (v2, revised)](../daily/2026-10-26.md#arxiv-2608.24885)
+
+WorldEcho evaluates off-expert action following using visual screening and end-effector trajectory alignment; WorldSync combines broader action data with dynamics grounding and intervention-effect supervision. The small headline gated-error difference is a point estimate, not established significance. Visual screening does not guarantee integrity; its human checks use only 15 clips per dimension. Video metrics use reconstructed references and separate generation batches. Pretraining corpora and baseline histories differ; the expanded-data advantage is not a controlled data-efficiency claim.
+
+## WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time
+
+- [arXiv 2607.06988](https://arxiv.org/abs/2607.06988) · v3 · [Latest entry](../daily/2026-10-26.md#arxiv-2607.06988)
+- Coverage history: [2026-10-26 (v3, revised)](../daily/2026-10-26.md#arxiv-2607.06988)
+
+Human videos write fast-weight memory in a world-action model; paired human–robot meta-training teaches the video-to-action transfer interface. These are interface variants inside one WAM, not faithful evaluations of the complete original systems. The extra interface test covers one task; FastWAM evidence is qualitative eight-frame prediction over 3.2 s, not closed-loop control transfer. Some alternatives rely on pretrained skill latents absent from meta-training-only insertion.
 
 ## METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning
 
