@@ -2,7 +2,266 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [All topics](README.md)
 
-76 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+113 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Learning Force-Reactive Humanoid Loco-Manipulation
+
+- [arXiv 2610.35862](https://arxiv.org/abs/2610.35862) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35862)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35862)
+
+Collects robot-free force-aware demonstrations and combines a diffusion pose/force policy with hybrid-compliance whole-body control. Small task/trial coverage and force-sensing hardware requirements limit generality; the ablations do not establish unrestricted contact-skill transfer.
+
+## OSWAM: An Effective World Action Model with One-Step Action Generation
+
+- [arXiv 2610.35850](https://arxiv.org/abs/2610.35850) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35850)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35850)
+
+Uses action/scene imagination tokens for structured diffusion initialization and privileged future-conditioned distillation to generate actions in one denoising step. One-step is a speed/quality trade-off, not uniform superiority. Real tests are small; completion time is video-estimated on successes only. H20 and compiled RTX5090 latency numbers use different setups; NAVSIM is not real-road deployment.
+
+## Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent
+
+- [arXiv 2610.35817](https://arxiv.org/abs/2610.35817) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35817)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35817)
+
+ZAP trains a 27B VLM via successful-trace SFT and simulation GRPO to use a shared perception/pose-control tool interface; semantic pretraining and learned motion are tested compositionally without real robot training trajectories. Only 30 real trials/model. Harness supplies SAM3.1 segmentation, calibrated depth-derived 3D readouts and controller feedback; not RGB-only end-to-end control. Real robot calibration informs simulation. Cost assumes one B300 at $7.10/hour; Franka transfer is not real hardware.
+
+## Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies
+
+- [arXiv 2610.35626](https://arxiv.org/abs/2610.35626) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35626)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35626)
+
+Builds a robot-aligned 3 D Gaussian scene from wrist-camera captures, renders feasible smooth reaching trajectories, and fine-tunes a VLA with an instruction-conditioned proximity verifier for termination. Ten times more synthetic trajectories; under 10 min active capture still entails about 200 min total, comparable to 150-demo teleoperation. Only pre-contact reaching is learned; precision is validated by a fixed downstream grasp routine. Three targets, 25 trials each and moderate motherboard repositioning do not establish arbitrary layout or contact-task generalization.
+
+## Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data
+
+- [arXiv 2610.35075](https://arxiv.org/abs/2610.35075) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35075)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35075)
+
+Uses smartphone scene reconstruction, agentic simulation construction and motion/environment co-adaptation to generate humanoid manipulation data without real robot demonstrations. The headline 20-point advantage compares unequal demonstration counts. Broader coverage also changes training distribution; it is not a matched-data improvement.
+
+## How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim-Real Benchmark for Physical Interaction
+
+- [arXiv 2610.34527](https://arxiv.org/abs/2610.34527) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34527)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34527)
+
+PhysLadder defines 16 matched sim/real contact-rich tasks at three cumulative levels: contact geometry, sustained force regulation, and force regulation coordinated with contact reconfiguration. One model and very small per-task samples; agreement does not establish universal sim-to-real ranking validity. Simulation contact/material parameters are not measured physical properties; real and simulated model-call counts use different action interfaces.
+
+## Scaling Dexterous Manipulation via Action Representation Pretraining
+
+- [arXiv 2610.34453](https://arxiv.org/abs/2610.34453) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34453)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34453)
+
+ARPG pretrains action representations against visual features on human manipulation data, freezes the encoder, and trains a 130M generative backbone plus decoder in that representation space. DexJoCo baselines are taken from its original paper; real evaluation has three tasks and 30 trials each. Same robot demos do not imply matched optimization: π0.5 uses 25k-step mixed LoRA, while ARPG has separate encoder/decoder training and up to 120k downstream steps. Hours sum clip durations, potentially counting overlaps; open-world semantics and gripper transfer remain untested.
+
+## ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation
+
+- [arXiv 2610.34370](https://arxiv.org/abs/2610.34370) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34370)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34370)
+
+ThinkLocoManip interleaves reasoning and action over perception, navigation, manipulation and whole-body locomotion tools; keyframe thinking retains execution context for recovery. Five task families on one platform, 10–20 trials per task. Tool orchestration includes engineered navigation/grasp/control capabilities; these results do not isolate cross-episode skill acquisition or establish portability of the whole-body controller.
+
+## RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions
+
+- [arXiv 2610.34356](https://arxiv.org/abs/2610.34356) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34356)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34356)
+
+RynnLAM extracts continuous latent actions using residual visual prediction, camera-compensated 3D flow and camera-motion decoupling; a flow-matching VLA learns from 30.1K video hours before native-action adaptation. Full-scale comparisons do not match pretraining data/compute; scaling does not isolate optimization exposure. Geometry is pseudo-labeled, not proof of metric or causal action identification. Real adaptation uses 3,850 demos. Main RoboTwin table/abstract say 88.6%, while the conclusion says 88.3%; no inference-speed benchmark is provided.
+
+## HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience
+
+- [arXiv 2610.34186](https://arxiv.org/abs/2610.34186) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34186)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34186)
+
+Trains OFT-, GR00T- and π-style humanoid policies on 2,087 hours of human/simulated/robot data, predicting SONIC whole-body motion tokens plus hand signals; simulation supplies pseudo-proprioception and rendering replaces human arms during adaptation. One real task, fixed pretrained whole-body controller and full-parameter downstream tuning. Visual adaptation adds only two successful trials; pseudo-proprioception hurts OFT because its text state is truncated. Reported stages 1–2 take about 38+12 hours on eight GPUs; gains do not isolate additional data from pretraining compute.
+
+## PS-DLO: Property- and Spatially Aware Deformable Linear Object Manipulation Policy
+
+- [arXiv 2610.34147](https://arxiv.org/abs/2610.34147) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34147)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34147)
+
+Conditions deformable-linear-object policies on textual physical-property priors and distills future visual features into an action expert. Separate policies are trained for different embodiments. Future observations are used in training, not an online predictive world-model interface.
+
+## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
+
+- [arXiv 2610.34126](https://arxiv.org/abs/2610.34126) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34126)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34126)
+
+Learns a history-based proprioceptive neural dynamics model with forward-kinematics supervision, then fine-tunes humanoid tracking policies through model gradients; low-frequency reference perturbations collect deployment-viable data. Small physical repetition counts and task-specific tracking/completion metrics, not broad manipulation success. Real-world baselines are direct transfer and disturbance-aware PPO where feasible, not the full simulation baseline set. Authors limit the method to time-invariant disturbance settings; collection/training precede adapted deployment.
+
+## RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models
+
+- [arXiv 2610.34108](https://arxiv.org/abs/2610.34108) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34108)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34108)
+
+RoboDuo lets a full-task VLA attempt the task, checks completion, then uses a separately trained atomic VLA through generated code to recover unfinished steps while keeping the full-task policy frozen. Not training-free overall: atomic policy and completion-checking coding agent use derived demonstration datasets. Gains shrink with five-suite training; real evaluation is one task family with small counts. Published reference rows use different protocols and are not matched reruns.
+
+## X-World: Transferring Video Priors to Variable-View Robot Control
+
+- [arXiv 2610.34105](https://arxiv.org/abs/2610.34105) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34105)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34105)
+
+Transfers a video backbone to variable-view control with residual cross-view attention, a layer-aligned Q-Former and shared action expert with native dataset interfaces. Reference baselines do not match pretraining data/compute. Camera, background and noise shifts remain weaker than OpenVLA-OFT; LIBERO-Plus weighting is unspecified. One physical platform, no demonstrated unseen-embodiment transfer.
+
+## RoboLongR: Causally Consistent Rewards Teach Robots to Progressively Master Long-Horizon Manipulation
+
+- [arXiv 2610.33863](https://arxiv.org/abs/2610.33863) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33863)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33863)
+
+Learns history-sensitive rewards with recurrent memory, shuffled-stage negatives and terminal correction, then fine-tunes a behavioral-cloning policy with RL. Only 10 real trials per task. Removing memory, stage shuffling or correction yields 28.9%, 24.3% or 28.4%. Online correction is used by RoboLongR and Progress+Mono, but not ReWiND or other baselines; the main comparison tests complete pipelines.
+
+## AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking
+
+- [arXiv 2610.33852](https://arxiv.org/abs/2610.33852) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33852)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33852)
+
+Adds reinforcement-learned reference, object-latent and target modulation around a distilled dexterous tracker. Completion is the average fraction of frames satisfying tracking-error thresholds, not binary whole-task success. Explicit object poses/meshes and reliable pose estimation are required; symmetric objects are challenging.
+
+## One Scan is Enough: Demonstration-Free Adaptation for Language-Guided Navigation
+
+- [arXiv 2610.33794](https://arxiv.org/abs/2610.33794) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33794)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33794)
+
+Converts one phone scan per building into a Gaussian-splat navigation environment and grounded instruction episodes; known-scene Pareto utilities guide policy post-training without human demonstrations or a learned critic. Demonstration-free is not human-free: scanning and evaluation-instruction checking require people. Baselines have different scene-specific data budgets; unscanned means same buildings, not unseen buildings. Real success uses a 1.5m radius, and changed layouts require rescanning. This is offline scene post-training, not online per-step TTT.
+
+## Open-World Law-to-Action: Vision-Language Priors and Touch for Parts with Hidden Physics
+
+- [arXiv 2610.33705](https://arxiv.org/abs/2610.33705) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33705)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33705)
+
+Combines vision-language physical-law priors, Bayesian touch-based identification and requests for additional views when observations remain ambiguous. No hardware robot validation. One embodied protocol was changed between held-out tests, so its comparison should not be treated as a clean confirmatory result.
+
+## EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models
+
+- [arXiv 2610.33685](https://arxiv.org/abs/2610.33685) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33685)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33685)
+
+Factorizes human/robot actions into shared position codes and embodiment-specific kinematics, then co-trains a VLM on shared tokens before robot-action fine-tuning. Adds 50k tokenizer and 30k co-training steps on eight A800s; the baseline omits these stages, so compute is not matched. Real evaluation uses 2,450 demonstrations and only 10 trials per condition. The ablation section inconsistently calls a 73.2% row the same baseline reported as 66.8% in the main table.
+
+## HA-DiPO: Diffusion Policy Optimization for Heterogeneous Cooperative Transport
+
+- [arXiv 2610.33584](https://arxiv.org/abs/2610.33584) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33584)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33584)
+
+Trains a hierarchical multi-agent diffusion policy for cooperative payload transport with centralized training and decentralized execution. The 93.5% figure is simulation, not real-robot success. Best-checkpoint selection and a narrowly defined transport controller constrain interpretation.
+
+## RBGA: Residual-Budget Guide Arbitration for Offline-to-Online Safe Reinforcement Learning in Dexterous Manipulation
+
+- [arXiv 2610.33494](https://arxiv.org/abs/2610.33494) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33494)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33494)
+
+Arbitrates offline guidance and online exploration using estimated cost-to-go and remaining within-episode safety budget. The experiments replace binary costs with continuous costs. Bounds depend on estimator assumptions; hardware lacks a quantitative trial table.
+
+## MDPO: Multi-constraint Dexterous Policy Optimization with Reinforcement Learning
+
+- [arXiv 2610.33480](https://arxiv.org/abs/2610.33480) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33480)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33480)
+
+Separately projects cumulative and state-wise constraints in reinforcement learning for dexterous manipulation. Hardware evidence is qualitative, not a quantified real-world safety guarantee; constraint-estimation assumptions still matter.
+
+## MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation
+
+- [arXiv 2610.33446](https://arxiv.org/abs/2610.33446) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33446)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33446)
+
+MOTIO turns human-action videos, metric 3D assets and existing robot-control interfaces into staged humanoid programs, revising them through physics feedback and human approval; generated skills also supervise BC/DAgger distillation. Human approval and task-specific engineering remain central. Physical demonstrations and simulated variation tests are not a randomized real-robot success benchmark; development time includes tool/resource waits. Distillation evidence is simulation-side.
+
+## Learning Goal-Conditioned Subgoals through Frozen Hierarchical World Models
+
+- [arXiv 2610.26179](https://arxiv.org/abs/2610.26179) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.26179)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2610.26179)
+
+v2→v3 adds Appendix J disjoint-source-group evaluations: backbones are trained from scratch on training-only groups and heads selected on separate groups. This directly probes overlap concerns in the released-asset benchmarks; original headline gains are not new. Push-T shows no improvement in this stronger separation test. New task windows differ from the original benchmark (uniform Cube starts; 80-step rather than 74-step Push-T gaps); do not compare absolute rates across protocols. SE covers backbone seeds, not sampled tasks/source groups. Simulation only.
+
+## One-shot Human Video-Guided Adaptation for Vision-Language-Action Models
+
+- [arXiv 2610.19746](https://arxiv.org/abs/2610.19746) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.19746)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2610.19746)
+
+v1→v2 adds two adapted video-conditioning baselines, fills previously incomplete ablation results, and replaces the five-trial real-robot table with ten-trial results. Main RoboTwin CapPro performance was already in v1. The added baselines are adaptations to π0.5, not unchanged original systems. Ten trials per physical task remain small; hard sorting succeeds only 20%. One-shot refers to target-time human-video guidance, not training from one demonstration overall; source-task training remains.
+
+## GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation
+
+- [arXiv 2609.05588](https://arxiv.org/abs/2609.05588) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2609.05588)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2609.05588)
+
+v2→v3 substantively replaces Appendix A.1/Table 3 RoboTwin evaluation: six named perturbation columns become Clean-to-Clean and Clean-to-Random under 50 clean demonstrations per task, with additional leaderboard baselines. This is a protocol/result replacement, not a directly comparable version-to-version gain. Baselines are drawn from the official RoboTwin leaderboard where available and the Qwen-RM report, rather than all being rerun in a controlled study. The main real-robot pretraining/scaling findings are inherited from v2.
+
+## What Can One Sentence Fix? A Failure Taxonomy and a Minimal Language Correction for Frozen VLA Policies
+
+- [arXiv 2608.29967](https://arxiv.org/abs/2608.29967) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2608.29967)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2608.29967)
+
+v1→v2 retitles/reframes CorrectVLA and replaces the small real-robot table with three 10-trial runs per condition, adds long-horizon negative controls, and explicitly separates failure-only retry recovery from all-episode net success. Simulation recoveries of 65/139 and 33/328 are inherited. A person labels the failure mode and writes a timed correction per failing run, taking 40–80 seconds; additional correction rounds may be used. Retry-only simulation success does not establish unconditional policy improvement. The channel fixes magnitude/timing, not missing semantic targets or plans; LIBERO-90 is instruction-OOD, not scene-OOD.
+
+## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
+
+- [arXiv 2608.12063](https://arxiv.org/abs/2608.12063) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2608.12063)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2608.12063)
+
+v1→v2 adds Q5/Table 2 comparing sparse offline-to-online learning against directly reusing the SMPC expert cost or demonstration data with FastTD3, IQL and Diffusion Policy. The original hardware results and sparse-reward method are inherited. These baselines reuse the SMPC cost/data, so failure is not evidence that the RL algorithms are generally inferior. The authors attribute it to cost incompatibility and absent corrective examples; SMPC-assisted DAgger is described as too expensive. New comparison is simulation-only.
+
+## LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies
+
+- [arXiv 2606.15768](https://arxiv.org/abs/2606.15768) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2606.15768)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2606.15768)
+
+v1→v2 adds an eight-subtask Clean Table real-robot task, lighting-shift tests, capacity/predictive-interface controls, and training-cost/confidence-interval reporting. The 98.6% LIBERO and 187 ms headline results already appear in v1. Clean Table success remains modest, especially under lighting shift; comparisons use few real tasks. Mechanism controls omit Stage-2 pretraining and should not be equated with the fully pretrained policy. The lighting tests reuse color-augmented task checkpoints.
+
+## PRISM: PRior-guided Imagination Sampling in world Models
+
+- [arXiv 2606.07974](https://arxiv.org/abs/2606.07974) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2606.07974)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2606.07974)
+
+v1→v2 adds frozen-feature action-prediction probes with random-encoder controls, a diffusion prior using the same fusion interface, ten-seed main simulation evaluation, and matched real-robot prior-free comparisons. Prior-guided Gaussian fusion and the two robot platforms were already in v1. The diffusion and MLP heads use different goal conventions, so their comparison does not isolate architecture. Probe scores come from validation-selected fits, not an independent test split. Head-training/inference figures exclude world-model pretraining and shared encoder/planner costs. Real success gains are four and six episodes; more trials are needed.
+
+## Learning Action-Conditional and Object-Centric Gaussian Splatting World Models for Rigid Objects
+
+- [arXiv 2606.01950](https://arxiv.org/abs/2606.01950) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2606.01950)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2606.01950)
+
+v1→v2 adds Gaussian render-and-compare object tracking via FoundationPose, evaluates dynamics prediction from estimated rather than ground-truth poses, and adds two qualitative real-world recordings. Simulated non-prehensile MPC was already present in v1. Tracking benchmark uses five YCB objects without continuous rotational symmetry, a validation-selected fixed viewpoint and trajectories truncated at visibility failure. Quantitative tracking/prediction remains simulated; real evidence is qualitative, not real MPC success. Reconstruction is a separate prerequisite, and later real predictions miss a contact; training still uses cleaner pose histories.
+
+## BEACON: Cross-Domain Co-Training of Generative Robot Policies via Best-Effort Adaptation
+
+- [arXiv 2605.08571](https://arxiv.org/abs/2605.08571) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2605.08571)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2605.08571)
+
+v2→v3 adds tuned-uniform and source-mean discrepancy controls, feature-alignment diagnostics and a weight audit that explicitly limits the theory claim. The main BEACON success values mostly predate this revision. The theoretical bound motivates the objective but is not an applicable guarantee for the audited learned weights. New feature alignment is diagnostic; lower discrepancy itself does not imply higher task success, as the MMD baseline demonstrates.
+
+## AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation
+
+- [arXiv 2604.11674](https://arxiv.org/abs/2604.11674) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2604.11674)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2604.11674)
+
+v2→v3 adds a real-world domain-randomization sweep, quantitative five-embodiment collection evaluation, and fixed-demo-budget ACT grasp-source controls. The multi-stage success breakdown and original four-task sim-to-real evaluation already appeared in v2. The pose sweep increases demonstrations from 300 to 1,200 to 2,700, so range and data volume are confounded; only one real task and ten trials per setting. Cross-embodiment results concern simulator trajectory collection, not learned policy transfer. Existing headline tables remain unchanged despite collection-count wording changing from 30 to 100 rollouts.
+
+## RoboGene: Diversity-Driven Agentic Task Generation Framework for VLA Pre-training
+
+- [arXiv 2602.16444](https://arxiv.org/abs/2602.16444) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2602.16444)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2602.16444)
+
+v2→v3 adds broader real-robot OOD evaluation and human-effort/memory analysis (Appendix H.2/H.4), rather than merely restating the existing task-generation architecture and 18k trajectories. This is not zero-shot task transfer: target-task fine-tuning remains. Labor is estimated using fixed per-task/per-correction durations, including teleoperation and human verification; declining correction rates alone do not isolate memory causality.
+
+## FlowHOI: Flow-based Semantics-Grounded Generation of Hand-Object Interactions for Dexterous Robot Manipulation
+
+- [arXiv 2602.13444](https://arxiv.org/abs/2602.13444) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2602.13444)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2602.13444)
+
+v1→v2 turns qualitative robot showcases into a counted baseline comparison and adds matched single-stage, grasp-prefix pretraining, reconstruction and scene-granularity analyses. The 40× inference and 1.7× simulation-success headlines already appeared in v1. Execution is open-loop after offline scene reconstruction, retargeting and DexTrack refinement; these are nominal-condition executability results, not disturbance robustness. Pretraining controls use one training seed and show no clear physical-success gain. Matched single-stage control is 40ms faster with comparable action recognition/simulation success: two-stage gains concern contact quality, not universal superiority.
+
+## UniManip: Open-World Robotic Manipulation via Agentic Operational Graphs
+
+- [arXiv 2602.13086](https://arxiv.org/abs/2602.13086) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2602.13086)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2602.13086)
+
+v1→v2 adds LIBERO-Pro evaluation and explicit cross-embodiment UR7e/Robotiq and dexterous-hand tests, alongside formalized bounded AOG recovery. The original 22.5/25.0-point advantages are inherited, not new revision gains. Cross-embodiment transfer retains task-level AOG but requires a new URDF/limits, tool-frame calibration, controller mapping and hardware-facing adaptation. Do not describe it as literally configuration-free; dexterous execution success is only 53%.
+
+## CRAFT-E: An Interpretable and Editable Neuro-Symbolic Framework for Affordance-Grounded Active Object Retrieval
+
+- [arXiv 2512.04231](https://arxiv.org/abs/2512.04231) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2512.04231)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2512.04231)
+
+CRAFT-E v1→v2 adds COCO-Tasks transfer, explicit graph-edit interventions and expanded error decomposition. Its verb–property–object graph and real-robot retrieval pipeline predate this revision. COCO transfer measures image grounding, not physical retrieval. Graph edits are selected after inspecting failures on the same set: controllability, not held-out autonomous repair. New text acknowledges full-pipeline differences versus GPT-4o are not significant; supervised COCO methods are contextual, not matched comparators.
 
 ## DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection
 

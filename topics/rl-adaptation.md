@@ -2,7 +2,133 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-45 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+63 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Learning Force-Reactive Humanoid Loco-Manipulation
+
+- [arXiv 2610.35862](https://arxiv.org/abs/2610.35862) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35862)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35862)
+
+Collects robot-free force-aware demonstrations and combines a diffusion pose/force policy with hybrid-compliance whole-body control. Small task/trial coverage and force-sensing hardware requirements limit generality; the ablations do not establish unrestricted contact-skill transfer.
+
+## Adapt for Planning, Not just Prediction: Optimistic Test-Time World Model Adaptation
+
+- [arXiv 2610.35636](https://arxiv.org/abs/2610.35636) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35636)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35636)
+
+OpTTA adapts a latent world model with observed-transition prediction loss plus an optimistic goal-reaching cost on planner candidate rollouts, without extra interactions. Simulated pushing, reaching and navigation only; adaptation resets per task and uses at most 30 replans. LeWM TwoRoom can degrade. This is parameter adaptation for planning, not an established continual or real-robot capability.
+
+## JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies
+
+- [arXiv 2610.35010](https://arxiv.org/abs/2610.35010) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35010)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35010)
+
+Freezes the base policy and learns a 79, 817-parameter conditional energy; values rank discrete proposals and action gradients refine continuous outputs. Each benchmark trains separate adapter weights and encodings. Simulation only; no matched LoRA comparison. Reported counts are rounded averages over five seeds, not raw independent trial counts. Gains require feedback/expert-derived supervision and benchmark-specific validation; the compact adapter excludes frozen-policy inference and rollout costs.
+
+## PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds
+
+- [arXiv 2610.34921](https://arxiv.org/abs/2610.34921) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34921)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34921)
+
+A shared VLM proposes executable physical scenes and solves questions; a fixed simulator validates scenes, runs matched body-removal interventions and binds answers, rather than letting the proposer label its own tasks. Question answering, not robot control. One training run per configuration on four GPUs; uses 24 hand-provided demonstration programs. Branch ablation also removes task families and changes retained rollout count (8,668 versus 7,960), so it does not isolate branch execution under matched exposure. Broad transfer gains are small and uneven.
+
+## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
+
+- [arXiv 2610.34126](https://arxiv.org/abs/2610.34126) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34126)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34126)
+
+Learns a history-based proprioceptive neural dynamics model with forward-kinematics supervision, then fine-tunes humanoid tracking policies through model gradients; low-frequency reference perturbations collect deployment-viable data. Small physical repetition counts and task-specific tracking/completion metrics, not broad manipulation success. Real-world baselines are direct transfer and disturbance-aware PPO where feasible, not the full simulation baseline set. Authors limit the method to time-invariant disturbance settings; collection/training precede adapted deployment.
+
+## RoboLongR: Causally Consistent Rewards Teach Robots to Progressively Master Long-Horizon Manipulation
+
+- [arXiv 2610.33863](https://arxiv.org/abs/2610.33863) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33863)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33863)
+
+Learns history-sensitive rewards with recurrent memory, shuffled-stage negatives and terminal correction, then fine-tunes a behavioral-cloning policy with RL. Only 10 real trials per task. Removing memory, stage shuffling or correction yields 28.9%, 24.3% or 28.4%. Online correction is used by RoboLongR and Progress+Mono, but not ReWiND or other baselines; the main comparison tests complete pipelines.
+
+## AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking
+
+- [arXiv 2610.33852](https://arxiv.org/abs/2610.33852) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33852)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33852)
+
+Adds reinforcement-learned reference, object-latent and target modulation around a distilled dexterous tracker. Completion is the average fraction of frames satisfying tracking-error thresholds, not binary whole-task success. Explicit object poses/meshes and reliable pose estimation are required; symmetric objects are challenging.
+
+## One Scan is Enough: Demonstration-Free Adaptation for Language-Guided Navigation
+
+- [arXiv 2610.33794](https://arxiv.org/abs/2610.33794) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33794)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33794)
+
+Converts one phone scan per building into a Gaussian-splat navigation environment and grounded instruction episodes; known-scene Pareto utilities guide policy post-training without human demonstrations or a learned critic. Demonstration-free is not human-free: scanning and evaluation-instruction checking require people. Baselines have different scene-specific data budgets; unscanned means same buildings, not unseen buildings. Real success uses a 1.5m radius, and changed layouts require rescanning. This is offline scene post-training, not online per-step TTT.
+
+## Open-World Law-to-Action: Vision-Language Priors and Touch for Parts with Hidden Physics
+
+- [arXiv 2610.33705](https://arxiv.org/abs/2610.33705) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33705)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33705)
+
+Combines vision-language physical-law priors, Bayesian touch-based identification and requests for additional views when observations remain ambiguous. No hardware robot validation. One embodied protocol was changed between held-out tests, so its comparison should not be treated as a clean confirmatory result.
+
+## HA-DiPO: Diffusion Policy Optimization for Heterogeneous Cooperative Transport
+
+- [arXiv 2610.33584](https://arxiv.org/abs/2610.33584) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33584)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33584)
+
+Trains a hierarchical multi-agent diffusion policy for cooperative payload transport with centralized training and decentralized execution. The 93.5% figure is simulation, not real-robot success. Best-checkpoint selection and a narrowly defined transport controller constrain interpretation.
+
+## Distilling Dense Trajectory Teachers For Large-Motion Video World Models
+
+- [arXiv 2610.33566](https://arxiv.org/abs/2610.33566) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33566)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33566)
+
+DTTD interpolates sparse camera paths, uses the frozen base model’s dense-path videos as pose-aligned teachers, and combines teacher/geometry rewards to form offline Flow-DPO preferences with a cumulative motion curriculum. One camera-conditioned Wan1.3B backbone and one indoor dataset; no robot planning/control outcomes. Uses 10k preference pairs, 12 student candidates and four teacher videos per condition, each generated with 40 denoising steps; matching optimizer steps does not establish equal data-generation compute. Geometry rewards rely on estimated depth/poses; DTTD is not best on every geometric metric.
+
+## RBGA: Residual-Budget Guide Arbitration for Offline-to-Online Safe Reinforcement Learning in Dexterous Manipulation
+
+- [arXiv 2610.33494](https://arxiv.org/abs/2610.33494) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33494)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33494)
+
+Arbitrates offline guidance and online exploration using estimated cost-to-go and remaining within-episode safety budget. The experiments replace binary costs with continuous costs. Bounds depend on estimator assumptions; hardware lacks a quantitative trial table.
+
+## MDPO: Multi-constraint Dexterous Policy Optimization with Reinforcement Learning
+
+- [arXiv 2610.33480](https://arxiv.org/abs/2610.33480) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33480)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33480)
+
+Separately projects cumulative and state-wise constraints in reinforcement learning for dexterous manipulation. Hardware evidence is qualitative, not a quantified real-world safety guarantee; constraint-estimation assumptions still matter.
+
+## Expert-Play Contouring Control: Faster-than-Demonstration Planning from Slow Expert and Fast Play
+
+- [arXiv 2609.22798](https://arxiv.org/abs/2609.22798) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2609.22798)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2609.22798)
+
+v1→v2 adds extensive implementation/evaluation appendices that materially qualify the faster-than-demonstration claims: friction-sweep retraining, success-conditioned phase timing, controller/search budgets and play-mixture provenance. The 13s versus22s real example already appears in v1. The sweep does not isolate zero-shot robustness of one fixed model, and method-specific success subsets can change the timing comparison. No new real-robot aggregate success result was established in this revision; the physical speedup remains an illustrative rollout.
+
+## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
+
+- [arXiv 2608.12063](https://arxiv.org/abs/2608.12063) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2608.12063)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2608.12063)
+
+v1→v2 adds Q5/Table 2 comparing sparse offline-to-online learning against directly reusing the SMPC expert cost or demonstration data with FastTD3, IQL and Diffusion Policy. The original hardware results and sparse-reward method are inherited. These baselines reuse the SMPC cost/data, so failure is not evidence that the RL algorithms are generally inferior. The authors attribute it to cost incompatibility and absent corrective examples; SMPC-assisted DAgger is described as too expensive. New comparison is simulation-only.
+
+## WorldArena 2.0: Extending Embodied World Model Benchmarking on Modality, Functionality and Platform
+
+- [arXiv 2605.17912](https://arxiv.org/abs/2605.17912) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2605.17912)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2605.17912)
+
+v1→v2 adds a physical tactile ablation, detailed RL/decoder interfaces, uncertainty reporting and expanded real-robot task documentation. The broad visuotactile/RL/cross-platform benchmark concept was already in v1. Small physical samples yield wide intervals; separate Wilson intervals are not a paired significance test. World-model utility includes separately trained decoders, so it is not isolated transition fidelity. Expanded qualitative tasks must not be counted as a new quantitative leaderboard.
+
+## RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data
+
+- [arXiv 2605.13775](https://arxiv.org/abs/2605.13775) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2605.13775)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2605.13775)
+
+v1→v2 adds §5.5: the planner–simulator co-evolution loop is instantiated with action-capable LingBot-VA and LIBERO environment feedback. This is a new low-level-control extension, not a new version of the already reported generative-planning gains. The new extension uses external simulator feedback, unlike the internally supervised VLM–VGM setting. No physical deployment; 500 seeds do not represent the total supervision or interaction budget, and this section does not establish a complete interaction-cost match.
+
+## Does "Do Differentiable Simulators Give Better Policy Gradients?" Give Better Policy Gradients?
+
+- [arXiv 2604.18161](https://arxiv.org/abs/2604.18161) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2604.18161)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2604.18161)
+
+v1→v2 corrects Appendix D’s dimensional-precision analysis and Monte Carlo table for the DDCG versus AoBG test statistics, and clarifies that the result concerns statistic precision rather than optimizer performance. This is a linear-Gaussian toy-statistic correction, not proof of equal scaling in gradient-estimation error or robotics learning performance. Existing optimization/RL results should not be presented as newly added evidence.
 
 ## RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms
 

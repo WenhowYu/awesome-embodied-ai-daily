@@ -2,7 +2,224 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-61 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+92 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## OSWAM: An Effective World Action Model with One-Step Action Generation
+
+- [arXiv 2610.35850](https://arxiv.org/abs/2610.35850) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35850)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35850)
+
+利用动作/场景想象token提供结构化扩散初值，并蒸馏带未来条件的特权信息，实现一步动作去噪。 一步是速度/质量取舍，并非全面优越。真机样本小，完成时间只对成功轨迹从视频估计。H20与编译RTX5090延迟设置不同；NAVSIM不是真实道路部署。
+
+## Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy
+
+- [arXiv 2610.35832](https://arxiv.org/abs/2610.35832) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35832)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35832)
+
+EBench在RGB/本体观测及每任务一个标注示范下，对比Astra直接路点控制与选择性调用冻结VLA/WAM。 无跨回合记忆；31/510回合使用同测试场景示范。两任务直接3000步、混合5000步，按3000步对齐混合均值52.4%/55.8%。策略调用不能传代理子目标；计算量无上限，每回合仅一次运行。
+
+## Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent
+
+- [arXiv 2610.35817](https://arxiv.org/abs/2610.35817) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35817)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35817)
+
+ZAP以成功轨迹SFT和仿真GRPO训练27B VLM使用统一感知/位姿控制工具接口，测试语义预训练与动作学习的组合泛化，不用真机训练轨迹。 每模型仅30次真机试验；harness提供SAM3.1分割、校准深度3D读数及控制反馈，非纯RGB端到端控制。仿真使用真机校准；成本按每小时7.10美元单B300计算；Franka迁移并非真机。
+
+## SPECOLA: A Tool for Specification Driven Robot Evaluation
+
+- [arXiv 2610.35730](https://arxiv.org/abs/2610.35730) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35730)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35730)
+
+Specola把仿真信号接入信号时序逻辑监视器，除成功率外测满足余量及持续性，并提供API及9种仿真/基准适配器。 结论依赖特权仿真状态及人工规格，不构成真机安全认证。固定周期监视尚不处理异步、不确定真实传感器。更严格的持续要求改变评测语义，并不改写原基准分数。
+
+## Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies
+
+- [arXiv 2610.35626](https://arxiv.org/abs/2610.35626) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35626)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35626)
+
+从腕部相机采集重建机器人对齐3D高斯场景，渲染可行平滑接近轨迹，微调VLA并以指令条件距离验证器判断停止。 生成轨迹数量为对照十倍；主动采集不足10分钟，但总耗时约200分钟，与150条遥操相当。只学习接触前接近，精度由固定后续抓取例程验证。三目标各25次及中等主板位移不能证明任意布局或接触任务泛化。
+
+## RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies
+
+- [arXiv 2610.35604](https://arxiv.org/abs/2610.35604) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35604)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35604)
+
+RoboDoctor通过持久化理由、尝试方法、结果及复用条件，将诊断、策略/代理控制分配、选择性干预及接触方法修订串联。 回溯性最高分选择混合多个来源运行，版本、checkpoint和推理预算不统一。暖启动已含协助及记忆；无匹配重置记忆对照、完整成本核算或真机验证，不能证明记忆的因果收益。
+
+## Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data
+
+- [arXiv 2610.35075](https://arxiv.org/abs/2610.35075) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35075)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35075)
+
+通过手机场景重建、Agent仿真构建及运动/环境协同适配，生成无需真实机器人示范的人形操作数据。 主打的20个百分点优势比较了不等量示范；扩展覆盖还改变训练分布，不能解释为等数据提升。
+
+## VISTA: Active Exploration for Self-Improvement in Embodied Agents
+
+- [arXiv 2610.35051](https://arxiv.org/abs/2610.35051) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35051)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35051)
+
+VISTA利用版本谱系图、主动诊断交互及冻结候选包的新自主评估迭代可执行机器人harness，不更新模型权重。 仅仿真。任务专属选择及历史最优曲线不证明未见任务泛化或每次候选单调改善。LIBERO-Pro/RoboTwin最多100轮规划、10000物理步；开发计算量巨大，不应默认对照预算匹配。
+
+## JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies
+
+- [arXiv 2610.35010](https://arxiv.org/abs/2610.35010) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35010)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35010)
+
+冻结基础策略，学习79,817参数条件能量；能量值排序离散候选，动作梯度修正连续输出。各基准独立训练适配器权重及编码。 仅仿真，无匹配LoRA对照。成功次数是五种子均值取整，并非原始独立试验计数。增益依赖反馈/专家监督与逐基准验证；小适配器参数不含冻结策略推理及rollout成本。
+
+## VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware
+
+- [arXiv 2610.34717](https://arxiv.org/abs/2610.34717) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34717)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34717)
+
+在Jetson AGX Thor及AMD Ryzen AI Max+ PRO 395上剖析18个公开VLA、19种配置和七阶段推理，分离动作生成、后端及CPU预处理成本。 计时并非闭环成功率基准：共享LIBERO观测及单回合24帧，每配置20–100次计时。模型保留各自chunk/执行配置。编译可改变夹爪命令；低位宽动作相似度不等于任务成功率保持。
+
+## RobotAgentBench: Towards Open-world Robot Autonomy
+
+- [arXiv 2610.34649](https://arxiv.org/abs/2610.34649) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34649)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34649)
+
+RobotAgentBench在家庭场景评估任务发现、情境推理、操作、恢复及鲁棒性，并比较编码、学习及混合规划/执行/验证架构。 这些是能力/场景聚合分数，非统一成功率；主表来自仿真，匹配真机子集仅覆盖部分系统、不含最优混合/RSI行。开放场景得分仍低，独立策略和代理接口不同。
+
+## TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning
+
+- [arXiv 2610.34519](https://arxiv.org/abs/2610.34519) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34519)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34519)
+
+免训练token分配器固定重算预算、复用低漂移且较新的KV缓存，并剪除其余无效token；漂移阈值按骨干校准。 仅两个OpenVLA系列骨干、仿真成功率及回放流硬件计时，无真机闭环评估。阈值经验调参，SimplerEnv只保留完整重算明显高于地板的任务。48%降幅指预填充，不是整体控制延迟。
+
+## Scaling Dexterous Manipulation via Action Representation Pretraining
+
+- [arXiv 2610.34453](https://arxiv.org/abs/2610.34453) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34453)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34453)
+
+ARPG以人类操作数据让动作表示对齐视觉特征，冻结编码器，再在该空间训练130M生成骨干与解码器。 DexJoCo基线沿用原论文；真机仅3项任务、每项30次。同机器人示范不等于等优化预算：π0.5为25k步混合LoRA，ARPG另训编码器/解码器且下游最多120k步。小时数累计片段长度，可能计入重叠；开放语义与夹爪迁移未验证。
+
+## RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions
+
+- [arXiv 2610.34356](https://arxiv.org/abs/2610.34356) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34356)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34356)
+
+RynnLAM以残差视觉预测、相机补偿3D流及相机运动解耦提取连续潜动作；流匹配VLA先用30.1K小时视频学习，再适配原生动作。 全规模比较不匹配预训练数据/算力，规模实验未隔离优化曝光量。几何为伪标签，并非度量或因果动作识别证据。真机适配用3,850条示范。RoboTwin主表/摘要88.6%，结论88.3%，存在不一致；未测推理速度。
+
+## AdaPolicy: Action-Driven Anticipatory Robot Policies via Next-Chunk Prediction
+
+- [arXiv 2610.34280](https://arxiv.org/abs/2610.34280) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34280)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34280)
+
+增加仅训练使用的EMA动作头，依据演化潜状态预测下一动作块；损失经潜状态回传在线策略，不依赖未来图像监督。 真机精细任务各用1,000/400条示范，其中人工接管纠正占20%，双方使用同一混合数据。结果属于监督学习的前瞻特征，不证明自主在线世界模型适配；零推理开销是相对匹配架构而言。
+
+## Variational Cognitive Memory Abstraction for Long-Horizon Vision-Language-Action Models
+
+- [arXiv 2610.34251](https://arxiv.org/abs/2610.34251) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34251)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34251)
+
+CogMemory加入3.45M参数历史模块：选择性状态空间编码、多槽时间聚合与变分压缩，再通过门控交叉注意力接入两种VLA融合架构。 仅仿真，附录给单种子42，无多种子不确定性。策略与记忆在8张L20X上端到端训练30k步，并非仅推理时加记忆；每1k步验证选最好checkpoint。21.2→12.9秒是两方法共同成功样本的任务执行时间，不是模型推理延迟。
+
+## HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience
+
+- [arXiv 2610.34186](https://arxiv.org/abs/2610.34186) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34186)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34186)
+
+以2,087小时人类、仿真及机器人数据训练OFT、GR00T和π式人形策略，输出SONIC全身运动token及手部信号；用仿真补伪本体状态、渲染替换人臂以适配。 仅一项真机任务，固定预训练全身控制器并全参数下游微调。视觉适配仅增加2次成功；伪本体状态因文本截断反而损害OFT。报告前两阶段8张GPU约38+12小时，收益未分离额外数据与预训练算力。
+
+## PS-DLO: Property- and Spatially Aware Deformable Linear Object Manipulation Policy
+
+- [arXiv 2610.34147](https://arxiv.org/abs/2610.34147) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34147)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34147)
+
+以文本物性先验调节柔性线状物操作策略，并向动作专家蒸馏未来视觉特征。 不同本体分别训练策略；未来观察用于训练，不是部署时在线预测世界模型接口。
+
+## RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models
+
+- [arXiv 2610.34108](https://arxiv.org/abs/2610.34108) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34108)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34108)
+
+RoboDuo先让整任务VLA尝试并检查完成情况，再通过生成代码调用另行训练的原子VLA补齐剩余步骤，整任务策略冻结。 整体并非免训练：原子策略及完成检查编码代理使用示范派生数据集。五套件训练时收益缩小；真机仅一个任务族、小样本。公开参考行协议不同，非匹配重跑。
+
+## X-World: Transferring Video Priors to Variable-View Robot Control
+
+- [arXiv 2610.34105](https://arxiv.org/abs/2610.34105) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34105)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34105)
+
+通过残差跨视角注意力、层对齐Q-Former及共享动作专家，将视频骨干迁移到可变视角控制；保留各数据集原生接口。 对比基线预训练数据/算力不匹配；相机、背景、噪声扰动弱于OpenVLA-OFT，LIBERO-Plus汇总权重未说明。只有一种真机平台，未证明未见形态迁移。
+
+## TurboWAM: Learning What Matters for Fast World Action Models
+
+- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33941)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33941)
+
+按带噪动作聚合世界模型前层表示，并在训练时调节动作梯度；保留视频联合训练而推理不生成未来视频。 各方法具身预训练不匹配；修正提示结果不可与原协议混为一谈。层结构指架构而非显式3D几何，延迟不等于安全控制。 GPU仅描述为约140GB数据中心卡、未指明型号。文中将真机实验指向补充材料，所核正文未建立其定量结果。
+
+## Late Breaking Results: Audio-Language-Action Models with Direct Speech Conditioning for Robotic Manipulation
+
+- [arXiv 2610.33866](https://arxiv.org/abs/2610.33866) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33866)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33866)
+
+Speech-π0.5将冻结语音编码器输出池化为32个VLM tokens，分别使用音频/任务LoRA，先做语音–文本蒸馏再训练动作。 两页DAC late-breaking短文，仅仿真及合成声音，每套件/条件500回合。三倍首动作加速伴随低于ASR的成功率，计时未单独交代语音采集及编码器成本。训练含10万合成指令，算力/多种子细节有限。
+
+## POD-RoPE: Rotary Position Encoding over Physical Observation Distributions for Embodied AI
+
+- [arXiv 2610.33745](https://arxiv.org/abs/2610.33745) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33745)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33745)
+
+把token覆盖的相机中心、射线方向与时间表示为分布；期望旋转用于Q/K匹配及相干性引导的V/O聚合，不增加序列长度。 真机每任务仅20次试验，训练使用1,694条轨迹、64张H20及20k步检查点。几何依赖相机标定/运动学；模块计时并非机器人端到端延迟，视觉几何任务收益也非一致。
+
+## EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models
+
+- [arXiv 2610.33685](https://arxiv.org/abs/2610.33685) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33685)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33685)
+
+将人类/机器人动作拆为共享位置码与形态专属运动学，再以共享token共训VLM并微调机器人动作。 额外使用8张A800进行50k步tokenizer训练与30k步共训；基线省去这些阶段，并非等算力。真机用2,450条示范、每条件仅10次试验。消融把73.2%一行称作基线，与主表66.8%不一致。
+
+## Power-of-Two Leaky Integrate-and-Fire Neurons for Event-Driven Vision-Language-Action Inference
+
+- [arXiv 2610.33658](https://arxiv.org/abs/2610.33658) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33658)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33658)
+
+将π0.5部分投影替换为有符号二次幂脉冲及残余膜状态；Heartbeat把事件提取限制在各投影内部，保持外部token/缓存接口。 未测硬件能耗或延迟。86.95%节能是排除存储、控制和编码的示例FP32投影算术模型；匹配FP8且固定搬运预算时，T=1部分能耗估计仅省32.79%。评估单种子且仅仿真；不显著不等于统计等价。
+
+## Tiny Recursive Policy: Recursive Latent Refinement for Visuomotor Control
+
+- [arXiv 2610.33288](https://arxiv.org/abs/2610.33288) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33288)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33288)
+
+小型行为克隆策略在单次预测内递归修订两层共享潜状态，并跨控制步保留状态；训练时截断跨步梯度。 仅仿真；LIBERO-Mem指标是子目标完成分而非整任务成功率。参数仅计骨干，不能代表推理成本：默认三次高层循环、六次低层修订。扰动训练增强鲁棒性，但干净Mem分数降至0.480。
+
+## AGQ: Action-Guided Ultra-Low-Bit Quantization for Vision-Language-Action Models
+
+- [arXiv 2610.33074](https://arxiv.org/abs/2610.33074) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33074)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33074)
+
+利用动作敏感度与权重恢复成本代理分配矩阵位宽；逐通道校准及分组无损编码降存储，执行时逐块恢复BF16权重。 仅单模型仿真，每套件150回合；10个输入计时不含前后处理。基线来自文献，官方仓库说明96.9%参照实际是FP16，尽管论文标BF16。W1.5*为视觉W4加语言平均W1.5，并非整模1.5bit；压缩增加延迟。
+
+## One-shot Human Video-Guided Adaptation for Vision-Language-Action Models
+
+- [arXiv 2610.19746](https://arxiv.org/abs/2610.19746) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.19746)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2610.19746)
+
+v1→v2新增两种改造后视频条件基线，补齐旧版未填完整的消融结果，并以十次试验真机结果替换原五次表格；主要RoboTwin CapPro表现在v1已存在。 新增基线是适配π0.5后的版本，不是原系统原样比较。真机每任务仅10次，困难分类成功率仅20%。one-shot指目标任务测试时的人类视频指导，不代表总共只用一条示范训练；仍需源任务训练。
+
+## What Can One Sentence Fix? A Failure Taxonomy and a Minimal Language Correction for Frozen VLA Policies
+
+- [arXiv 2608.29967](https://arxiv.org/abs/2608.29967) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2608.29967)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2608.29967)
+
+v1→v2将CorrectVLA改题并重构论述，以每条件三组10次真机运行替换旧小样本表，新增长程失败对照，明确区分仅失败重试恢复率与全部回合净成功率。仿真65/139及33/328恢复数沿用旧版。 人工标注失败类型并为失败运行编写带时窗纠正，耗时40–80秒，可追加纠正轮次。仅失败重试的仿真成功率不能证明无条件策略提升。该通道只修幅度/时机，不修语义目标或计划；LIBERO-90是指令OOD而非场景OOD。
+
+## SentryVLA: Uncertainty-Guided Action Selection and State Monitoring for Vision-Language-Action Robotic Control
+
+- [arXiv 2604.16677](https://arxiv.org/abs/2604.16677) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2604.16677)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2604.16677)
+
+v1→v2新增边际覆盖命题，并把CQR结论严格限定于可交换的帧—候选校准样本，同时补校准诊断及动作评分设计细节。这是可靠性结论的实质澄清，不是新增安全保证。 保证不延伸到自适应选中动作、时间相关闭环状态、分布偏移或任务成功；监测阈值及OOD结果仍是经验性结论。本次未独立复现校准实验。
+
+## ActECC: Action Chunk Temporal Harnessing for Edge-Cloud Collaborative VLA Inference System
+
+- [arXiv 2603.07949](https://arxiv.org/abs/2603.07949) · v3 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2603.07949)
+- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2603.07949)
+
+v2→v3从RAPID改为ActECC：重点由端云划分转为运动学引导的动作块可用范围与延迟感知重规划调度，并替换为π0.5/GR00T N1.5系统评测；旧1.73倍速度结论不可直接比较。 指标是相对对齐专家轨迹的偏差，明确不是任务成功率；属于仿真/系统评测，cloud-only延迟可能比ActECC更低。两个最大收益来自不同对比，不能拼成单一配置。
 
 ## RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms
 

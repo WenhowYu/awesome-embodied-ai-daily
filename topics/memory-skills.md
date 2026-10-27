@@ -2,7 +2,238 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-62 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+95 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy
+
+- [arXiv 2610.35832](https://arxiv.org/abs/2610.35832) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35832)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35832)
+
+EBench profiles Astra direct waypoint control versus selective invocation of frozen VLA/WAM policies under RGB/proprioceptive observations and one annotated demonstration per task. No cross-episode memory. 31/510 episodes use a demonstration from the same test scene. Two tasks allow 3,000 steps direct versus 5,000 hybrid; correcting that changes hybrid means to 52.4%/55.8%. Policy calls cannot receive agent-written subgoals; compute is unbounded and comparisons run once/episode.
+
+## Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent
+
+- [arXiv 2610.35817](https://arxiv.org/abs/2610.35817) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35817)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35817)
+
+ZAP trains a 27B VLM via successful-trace SFT and simulation GRPO to use a shared perception/pose-control tool interface; semantic pretraining and learned motion are tested compositionally without real robot training trajectories. Only 30 real trials/model. Harness supplies SAM3.1 segmentation, calibrated depth-derived 3D readouts and controller feedback; not RGB-only end-to-end control. Real robot calibration informs simulation. Cost assumes one B300 at $7.10/hour; Franka transfer is not real hardware.
+
+## FISRF: Flexible Instructional Scaffolding Reflection Framework for Robotics Task Planning with Large Language Model
+
+- [arXiv 2610.35686](https://arxiv.org/abs/2610.35686) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35686)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35686)
+
+FISRF combines short-term trajectories/reflections with cross-task failure lessons and a fixed RAG mentor knowledge base; measured recovery difficulty and improvement choose which reflection or guidance to request. Quantitative evidence is text simulation; the dual-arm mobile-robot kitchen demonstration has no reported trial count or comparative success rate. Planning epochs are iterative recovery rather than independent seeds. Reported reflection cost is tokens per recovered task, not total deployment dollars; isolated long-term transfer and uncertainty remain unclear.
+
+## RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies
+
+- [arXiv 2610.35604](https://arxiv.org/abs/2610.35604) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35604)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35604)
+
+RoboDoctor connects diagnosis, policy/agent control allocation, selective intervention and contact-method revision through persistent records of rationale, attempted methods, outcomes and reuse conditions. Retrospective highest-score selection mixes source runs without uniform versions, checkpoints or inference budgets. Warmup already uses assistance and memory. No matched reset-memory control, consolidated cost analysis or real-robot validation; results do not establish causal memory benefit.
+
+## Preemptive Instruction Following with Resumption
+
+- [arXiv 2610.35576](https://arxiv.org/abs/2610.35576) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35576)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35576)
+
+Introduces navigation episodes with single, repeated and nested task interruptions; a candidate-ranking objective emphasizes re-grounding when a suspended task resumes. Interruptions occur after completion of the current atomic task. Simulation navigation, not manipulation or VLA motor control. Reported SR averages atomic navigation segments, not whole interrupted sequence completion; improvements vary by interruption setting. Resume weighting helps stage metrics but does not dominate simpler BCE on aggregate SR.
+
+## WorldPager: Zero-Stall Tiered Memory for Long-Horizon World Models on a Single Consumer GPU
+
+- [arXiv 2610.35529](https://arxiv.org/abs/2610.35529) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35529)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35529)
+
+WorldPager keeps int4 world-model KV across GPU, pinned DRAM and NVMe; it prefetches pose-predicted retrievals, reuses stale entries instead of waiting on misses, writes back asynchronously and remaps positions beyond the native horizon. “Zero stall” excludes dequantization/write-back and permits stale retrieval; it is not zero overhead or real-time 16fps. Timing uses one scene/seed and one physical drive; slower drives are software-emulated. Quality evidence is MG2-only, with three scenes/five seeds for long-gap tests; texture drift remains. Baselines are reimplementations, not original systems.
+
+## EmbodiedLab: Benchmarking Embodied Agents That Act to Know
+
+- [arXiv 2610.35385](https://arxiv.org/abs/2610.35385) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35385)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35385)
+
+EmbodiedLab requires agents to discover unknown quantitative properties through physically operating simulated instruments; success checks answers, episode-grounded measurements and required physical state. Entirely simulated science apparatus; evaluates model plus native coding harness rather than model alone. Skill recipients differ from teacher agents, and small experiment counts limit precision. Reference solvability does not imply physical-lab transfer.
+
+## RetroNav: Scene-Grounded Retrospection and Retry for Self-Evolving Lifelong Navigation
+
+- [arXiv 2610.35172](https://arxiv.org/abs/2610.35172) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35172)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35172)
+
+RetroNav links geometric/semantic scene evidence to historical decisions, uses an independent evaluator to request retries, and writes evidence-grounded retry briefs without model training. Benchmark subsets, not full splits: IR2R 299 episodes/three scenes, GOAT 307 subtasks/five scenes. Retries reset to the original pose with a renewed step budget; reset travel is uncharged. Cross-task memory is disabled on three episodic benchmarks.
+
+## MemVLN: Streaming Episodic Memory for Vision-Language Navigation
+
+- [arXiv 2610.35066](https://arxiv.org/abs/2610.35066) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35066)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35066)
+
+MemVLN compresses episode-local visual features with timestamps and action-derived poses into a bounded bank and 300 cross-attention memory tokens, combining a frozen geometry encoder with trained memory, adapters and trajectory-summarization supervision. Memory is episode-local, not cross-task skill accumulation. Real tests share one scene with 24 post-training demonstrations; only six distinct test instructions, no cross-scene validation. Gains combine geometry and auxiliary training; RxR geometry-only success (56.3%) exceeds the full model. Fixed-input RTX4090 latency rises 503.2→691.0 ms.
+
+## VISTA: Active Exploration for Self-Improvement in Embodied Agents
+
+- [arXiv 2610.35051](https://arxiv.org/abs/2610.35051) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35051)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35051)
+
+VISTA evolves executable robot-agent harnesses using an ancestry graph, active diagnostic interactions and fresh autonomous evaluation of frozen candidate packages, without updating model weights. Simulation only. Task-specific selection and best-so-far curves do not prove unseen-task generalization or monotonic candidate improvement. Up to 100 planner turns and 10,000 physics steps on LIBERO-Pro/RoboTwin; development compute is substantial and baseline budgets must not be assumed matched.
+
+## Harness-Model Collaboration for Long-Horizon Continual Learning
+
+- [arXiv 2610.34724](https://arxiv.org/abs/2610.34724) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34724)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34724)
+
+HaMo stores strategy cards extracted from expert trajectories, selects complementary anchors by retrieval coverage, and continually trains one LoRA adapter with experience-conditioned behavior cloning and historical replay. All environments are text-only; ScienceWorld/WebShop scores include partial credit, not binary success. Model-only ablation removes both harness memory and replay, confounding their contributions. Training uses three epochs per stage; optional memory deletion is disabled in every experiment. Within-domain stages introduce new samples, not new task types; multi-seed uncertainty is not established.
+
+## RobotAgentBench: Towards Open-world Robot Autonomy
+
+- [arXiv 2610.34649](https://arxiv.org/abs/2610.34649) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34649)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34649)
+
+RobotAgentBench evaluates task discovery, context reasoning, manipulation, recovery and robustness plus open-ended household scenarios, comparing coding, learned and hybrid planning/execution/verification architectures. Scores are capability/scenario aggregates, not a universal task success rate. Main results are simulation; matched physical subsets cover only selected systems, not the best hybrid/RSI rows. Open-ended scores remain low and standalone versus agents differ in interfaces.
+
+## ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation
+
+- [arXiv 2610.34370](https://arxiv.org/abs/2610.34370) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34370)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34370)
+
+ThinkLocoManip interleaves reasoning and action over perception, navigation, manipulation and whole-body locomotion tools; keyframe thinking retains execution context for recovery. Five task families on one platform, 10–20 trials per task. Tool orchestration includes engineered navigation/grasp/control capabilities; these results do not isolate cross-episode skill acquisition or establish portability of the whole-body controller.
+
+## Variational Cognitive Memory Abstraction for Long-Horizon Vision-Language-Action Models
+
+- [arXiv 2610.34251](https://arxiv.org/abs/2610.34251) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34251)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34251)
+
+CogMemory adds a 3.45M-parameter history module: a selective state-space encoder, multi-slot temporal aggregation and variational compression, followed by gated cross-attention retrieval into two VLA fusion architectures. Simulation only and appendix specifies one seed (42), without multi-seed uncertainty. Policies and memory are optimized end-to-end for 30k steps on eight L20X GPUs, not an inference-only memory add-on. Best validation checkpoints are selected every 1k steps. Claimed 21.2→12.9s efficiency is task execution time on jointly successful cases, not measured model latency.
+
+## Execution Logs Sway VLM Judges of Robot Progress
+
+- [arXiv 2610.34151](https://arxiv.org/abs/2610.34151) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34151)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34151)
+
+Controlled contradictory execution-log lines test whether VLM robot-progress judges follow text rather than visual evidence; a short unreliability warning is evaluated as mitigation. Conditional selected-clip effects, not population-wide failure rates; completion-claim search differs from the fixed-log test and was not tested on Sol. Warnings reduce misleading-log effects but also reduce benefits from accurate logs.
+
+## RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models
+
+- [arXiv 2610.34108](https://arxiv.org/abs/2610.34108) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34108)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34108)
+
+RoboDuo lets a full-task VLA attempt the task, checks completion, then uses a separately trained atomic VLA through generated code to recover unfinished steps while keeping the full-task policy frozen. Not training-free overall: atomic policy and completion-checking coding agent use derived demonstration datasets. Gains shrink with five-suite training; real evaluation is one task family with small counts. Published reference rows use different protocols and are not matched reruns.
+
+## Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents
+
+- [arXiv 2610.33956](https://arxiv.org/abs/2610.33956) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33956)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33956)
+
+CLE organizes 120 professional workflows into five dependent levels each, with persistent files/service state and human-authored rubrics; it measures complete agents under one- versus two-submission budgets. No robot tasks. Backbone parameters and harness implementation remain fixed; mutable context/memory is allowed, so results do not demonstrate recursive code/weight self-improvement. Trial 1/2 change submission budget and feedback, not just learning. One fixed task order, heterogeneous default agent settings and gated progression confound a pure memory-transfer interpretation.
+
+## RoboLongR: Causally Consistent Rewards Teach Robots to Progressively Master Long-Horizon Manipulation
+
+- [arXiv 2610.33863](https://arxiv.org/abs/2610.33863) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33863)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33863)
+
+Learns history-sensitive rewards with recurrent memory, shuffled-stage negatives and terminal correction, then fine-tunes a behavioral-cloning policy with RL. Only 10 real trials per task. Removing memory, stage shuffling or correction yields 28.9%, 24.3% or 28.4%. Online correction is used by RoboLongR and Progress+Mono, but not ReWiND or other baselines; the main comparison tests complete pipelines.
+
+## Memory or a Clock? Auditing a Memory Advantage in XLand-MiniGrid with Seeds, Maps and Evaluation Noise Apart
+
+- [arXiv 2610.33816](https://arxiv.org/abs/2610.33816) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33816)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33816)
+
+Audits recurrent-policy gains by separating training-seed, map and evaluation noise, then adding size-matched memory-free clock controls and recurrent-state resets. One 7×7-grid task, A2C and tiny networks; not a VLA or robot experiment. The 15pp preregistered advantage threshold fails despite a nonzero residual gap. Some no-clock and mechanism arms were added after interim/results inspection, and no time-independent reward control was run.
+
+## RoboJev: An Open Vision-Language Judge for Robot Success Detection
+
+- [arXiv 2610.33718](https://arxiv.org/abs/2610.33718) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33718)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33718)
+
+RoboJev-27B adapts JEV-27B-VL with language-only rank-32 LoRA and source-specific KL anchoring, then predicts success with a calibrated two-token readout from ten primary frames plus available auxiliary final frames. Only 80/268 SO-101 episodes are held-out tasks. API baselines receive four primary frames, so frontier comparisons are not input-matched. Cost excludes media/serving overhead; community labels have one annotator; calibration and safety transfer are unestablished.
+
+## MOON: Learning When to Forget and How to Move On in Vision-and-Language Navigation
+
+- [arXiv 2610.33546](https://arxiv.org/abs/2610.33546) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33546)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33546)
+
+MOON adds a deviation judge and GRPO-trained recovery adapter to a frozen vision-language navigation policy: an alarm clears visual history once, then recovery learns to escape history-induced behavioral inertia. Simulation only; deployment tested on one backbone and trains two adapters, not training-free. Alarm operating levels were selected on the reported evaluation splits. Clearing breaks 5.8%/4.1% of base-success episodes on R2R/RxR; successful forgetting is not evidence that long-term skill memory should be deleted.
+
+## ReSight: Task-Driven Self-Improving Memory for Embodied Agents
+
+- [arXiv 2610.33487](https://arxiv.org/abs/2610.33487) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33487)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33487)
+
+ReSight separates immutable observation evidence from extensible derived fields. Explore–Distill–Mount uses a higher-budget coding agent to create reusable memory builders, tools and skills for a fixed-budget executor, without reference answers. Online savings exclude separate exploration, model preparation and memory-building costs. This is historical-observation QA, not closed-loop manipulation; OC-NaVQA binary accuracy decreases 86.6% to 82.1%. Long-term repeated capability expansion remains untested.
+
+## MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation
+
+- [arXiv 2610.33446](https://arxiv.org/abs/2610.33446) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33446)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33446)
+
+MOTIO turns human-action videos, metric 3D assets and existing robot-control interfaces into staged humanoid programs, revising them through physics feedback and human approval; generated skills also supervise BC/DAgger distillation. Human approval and task-specific engineering remain central. Physical demonstrations and simulated variation tests are not a randomized real-robot success benchmark; development time includes tool/resource waits. Distillation evidence is simulation-side.
+
+## Tiny Recursive Policy: Recursive Latent Refinement for Visuomotor Control
+
+- [arXiv 2610.33288](https://arxiv.org/abs/2610.33288) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33288)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33288)
+
+A small behavior-cloning policy repeatedly refines two shared latent states within each prediction and carries them between control steps; training detaches temporal gradients. Simulation only; LIBERO-Mem reports subgoal completion, not binary task success. Parameters count only the backbone and do not measure inference cost: the default uses three high-level cycles and six low-level refinements. Perturbation training improves robustness but lowers clean Mem score to 0.480.
+
+## Gaussian Episodic Memory for Long-Term Spatiotemporal Reasoning
+
+- [arXiv 2610.33158](https://arxiv.org/abs/2610.33158) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33158)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33158)
+
+GEMS stores localized changes in a persistent temporal 3D Gaussian map and lets an agent retrieve, render novel views and compare revisits through a finite-state tool interface. Reported QA percentages are rescaled 1–5 judge scores, not binary exact-match accuracy. Three real scenes, pose/depth noise and novel-view artifacts; real score is below all-images. Storage comparison covers one scene per split and does not show online robot-policy gains.
+
+## EKT-Router: Expert-Evidence Alignment for Embodied Vision-Language Models
+
+- [arXiv 2610.33044](https://arxiv.org/abs/2610.33044) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33044)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33044)
+
+EKT-Router jointly selects one of three frozen Qwen3-VL-8B capability experts, optional knowledge and perceptual tools under a call budget; a verifier filters returned evidence before a single final answer with original-input fallback. Embodied QA, not robot execution or active perception. Three experts require separate two-epoch adaptations; routing uses 1,020 fitting and 180 held-out media-disjoint cases. Cross-system scores mix reproduced, API and reported results. Single-round packet validity does not prove answer correctness, action safety or stable online learning.
+
+## Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation
+
+- [arXiv 2610.33024](https://arxiv.org/abs/2610.33024) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33024)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33024)
+
+Skill Adaptation turns diagnosed executor weaknesses into a meta-skill for rewriting procedural skills, then compares one-shot rewriting and five rounds of feedback-driven self-evolution across executor capacities. Non-robotic STEM/document/developer tasks, selected from 607 tasks for skill sensitivity. Each evolution round runs once; small gaps have no repeated-run uncertainty estimate. Skills are already in context, so retrieval, progressive disclosure and closed-loop physical transfer are untested.
+
+## The Value of Memory in Language Agents
+
+- [arXiv 2610.31303](https://arxiv.org/abs/2610.31303) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.31303)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2610.31303)
+
+v1→v2 tightens the memory value/resource-accounting framework and adds explicit amortized write-cost and ledger/recovery token accounting. The LoCoMo F1 values were already in v1; this revision changes how costs and claims should be interpreted, not the benchmark score. Only a twelve-question diagnostic, not a robot or online-skill-growth benchmark. Archive storage/local-search costs are unmeasured; monetary comparison requires deployment-specific prices. Existing recovery F1 0.329 versus ledger 0.016 must not be advertised as newly added evidence.
+
+## RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data
+
+- [arXiv 2605.13775](https://arxiv.org/abs/2605.13775) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2605.13775)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2605.13775)
+
+v1→v2 adds §5.5: the planner–simulator co-evolution loop is instantiated with action-capable LingBot-VA and LIBERO environment feedback. This is a new low-level-control extension, not a new version of the already reported generative-planning gains. The new extension uses external simulator feedback, unlike the internally supervised VLM–VGM setting. No physical deployment; 500 seeds do not represent the total supervision or interaction budget, and this section does not establish a complete interaction-cost match.
+
+## A Semantic Autonomy Framework for VLM-Integrated Indoor Mobile Robots: Hybrid Deterministic Reasoning and Cross-Robot Adaptive Memory
+
+- [arXiv 2605.02525](https://arxiv.org/abs/2605.02525) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2605.02525)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2605.02525)
+
+SAS v1→v2 replaces broad cross-robot success framing with a frozen-implementation audit, sealed instruction challenge and controlled memory-on/memory-off/direct-VLM comparisons; recurrent associations are explicitly stability-tested rather than certified true. Two robot configurations in one indoor environment, with shared-workstation reasoning/memory and deliberate digest installation. Familiar-item scoring uses stored associations; unseen items gain no memory benefit. Replay seeds are not independent tasks, diagnostic probes are selected, and sampled consistency does not prove safe semantic transfer.
+
+## RoboGene: Diversity-Driven Agentic Task Generation Framework for VLA Pre-training
+
+- [arXiv 2602.16444](https://arxiv.org/abs/2602.16444) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2602.16444)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2602.16444)
+
+v2→v3 adds broader real-robot OOD evaluation and human-effort/memory analysis (Appendix H.2/H.4), rather than merely restating the existing task-generation architecture and 18k trajectories. This is not zero-shot task transfer: target-task fine-tuning remains. Labor is estimated using fixed per-task/per-correction durations, including teleoperation and human verification; declining correction rates alone do not isolate memory causality.
+
+## UniManip: Open-World Robotic Manipulation via Agentic Operational Graphs
+
+- [arXiv 2602.13086](https://arxiv.org/abs/2602.13086) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2602.13086)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2602.13086)
+
+v1→v2 adds LIBERO-Pro evaluation and explicit cross-embodiment UR7e/Robotiq and dexterous-hand tests, alongside formalized bounded AOG recovery. The original 22.5/25.0-point advantages are inherited, not new revision gains. Cross-embodiment transfer retains task-level AOG but requires a new URDF/limits, tool-frame calibration, controller mapping and hardware-facing adaptation. Do not describe it as literally configuration-free; dexterous execution success is only 53%.
+
+## CRAFT-E: An Interpretable and Editable Neuro-Symbolic Framework for Affordance-Grounded Active Object Retrieval
+
+- [arXiv 2512.04231](https://arxiv.org/abs/2512.04231) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2512.04231)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2512.04231)
+
+CRAFT-E v1→v2 adds COCO-Tasks transfer, explicit graph-edit interventions and expanded error decomposition. Its verb–property–object graph and real-robot retrieval pipeline predate this revision. COCO transfer measures image grounding, not physical retrieval. Graph edits are selected after inspecting failures on the same set: controllability, not held-out autonomous repair. New text acknowledges full-pipeline differences versus GPT-4o are not significant; supervised COCO methods are contextual, not matched comparators.
 
 ## DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection
 

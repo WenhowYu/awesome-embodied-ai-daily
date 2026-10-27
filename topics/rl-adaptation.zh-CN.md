@@ -2,7 +2,133 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-45 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+63 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Learning Force-Reactive Humanoid Loco-Manipulation
+
+- [arXiv 2610.35862](https://arxiv.org/abs/2610.35862) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35862)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35862)
+
+采集无需机器人参与的力感知示范，将扩散位姿/力策略与混合柔顺全身控制结合。 任务及试次数较少，并依赖力传感硬件；消融不能证明任意接触技能迁移。
+
+## Adapt for Planning, Not just Prediction: Optimistic Test-Time World Model Adaptation
+
+- [arXiv 2610.35636](https://arxiv.org/abs/2610.35636) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35636)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35636)
+
+OpTTA以已观测转移预测损失加规划候选轨迹的乐观到达目标代价适配潜在世界模型，不增加交互。 仅模拟推物、到达和导航；每任务重置适配、最多30次重规划。LeWM TwoRoom可能下降。是面向规划的参数适配，尚非持续学习或真机能力证据。
+
+## JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies
+
+- [arXiv 2610.35010](https://arxiv.org/abs/2610.35010) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35010)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35010)
+
+冻结基础策略，学习79,817参数条件能量；能量值排序离散候选，动作梯度修正连续输出。各基准独立训练适配器权重及编码。 仅仿真，无匹配LoRA对照。成功次数是五种子均值取整，并非原始独立试验计数。增益依赖反馈/专家监督与逐基准验证；小适配器参数不含冻结策略推理及rollout成本。
+
+## PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds
+
+- [arXiv 2610.34921](https://arxiv.org/abs/2610.34921) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34921)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34921)
+
+共享VLM提出可执行物理场景并解题；固定模拟器验证场景、运行配对物体移除干预并绑定答案，避免提议者自行标注任务。 仅问答而非机器人控制；各配置单次训练、四张GPU，并使用24个人工示范程序。分支消融同时去除任务族且改变保留rollout数（8,668对7,960），未在等曝光条件下隔离分支执行。广域迁移收益较小且不均。
+
+## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
+
+- [arXiv 2610.34126](https://arxiv.org/abs/2610.34126) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34126)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34126)
+
+以历史本体状态及正运动学监督学习神经动力学，再通过模型梯度微调人形跟踪策略；低频参考扰动用于可部署数据采集。 真机重复次数少，使用任务专属跟踪/完成指标，而非广泛操作成功率。真机基线为直接迁移和可建模情况下的扰动PPO，不包含全部仿真对照。作者将适用范围限为时不变扰动设置；需先采集和训练再部署适配策略。
+
+## RoboLongR: Causally Consistent Rewards Teach Robots to Progressively Master Long-Horizon Manipulation
+
+- [arXiv 2610.33863](https://arxiv.org/abs/2610.33863) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33863)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33863)
+
+以循环记忆、阶段打乱负样本和终止纠正学习历史敏感奖励，再通过RL微调行为克隆策略。 真机每任务仅10次。去记忆、阶段打乱或纠正后分别为28.9%、24.3%、28.4%。在线纠正仅用于RoboLongR与Progress+Mono，不用于ReWiND等基线；主对比评估完整流程。
+
+## AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking
+
+- [arXiv 2610.33852](https://arxiv.org/abs/2610.33852) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33852)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33852)
+
+在蒸馏灵巧跟踪器外增加强化学习的参考、物体隐变量与目标调制。 Completion是各轨迹满足跟踪误差阈值的帧比例再取平均，并非整任务二元成功率。依赖显式物体姿态、网格与可靠姿态估计，对称物体仍有挑战。
+
+## One Scan is Enough: Demonstration-Free Adaptation for Language-Guided Navigation
+
+- [arXiv 2610.33794](https://arxiv.org/abs/2610.33794) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33794)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33794)
+
+将每栋建筑的一次手机扫描转换为高斯场景及指令导航样本，再以已知场景的Pareto效用进行策略后训练，无需人类示范或学习型critic。 无示范不等于无人介入：扫描和评估指令核对仍需人工。基线场景数据预算不同；未扫描区域仍属同建筑，而非未见建筑。真机成功半径1.5米，布局显著变化需重扫。属于场景后训练，非逐步在线TTT。
+
+## Open-World Law-to-Action: Vision-Language Priors and Touch for Parts with Hidden Physics
+
+- [arXiv 2610.33705](https://arxiv.org/abs/2610.33705) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33705)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33705)
+
+结合视觉语言物理规律先验、触觉贝叶斯辨识，以及观察歧义时请求新视角。 没有硬件机器人验证；一个具身协议在两次留出测试之间修改，不应视为干净的验证性对照。
+
+## HA-DiPO: Diffusion Policy Optimization for Heterogeneous Cooperative Transport
+
+- [arXiv 2610.33584](https://arxiv.org/abs/2610.33584) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33584)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33584)
+
+以集中训练、分散执行训练分层多智能体扩散策略，实现协同载荷运输。 93.5%来自仿真而非真机成功率；最佳检查点选择与特定运输控制器限制结论范围。
+
+## Distilling Dense Trajectory Teachers For Large-Motion Video World Models
+
+- [arXiv 2610.33566](https://arxiv.org/abs/2610.33566) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33566)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33566)
+
+DTTD插值稀疏相机路径，以冻结基础模型在密集路径生成的视频作位姿对齐教师，再结合教师/几何奖励构建离线Flow-DPO偏好及累进运动课程。 仅相机条件Wan1.3B骨干与单室内数据集，无机器人规划/控制结果。10k偏好对、每条件12个学生候选和4个教师视频，各40去噪步；等优化步不等于等数据生成算力。几何奖励依赖估计深度/位姿，也并非所有几何指标最优。
+
+## RBGA: Residual-Budget Guide Arbitration for Offline-to-Online Safe Reinforcement Learning in Dexterous Manipulation
+
+- [arXiv 2610.33494](https://arxiv.org/abs/2610.33494) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33494)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33494)
+
+依据剩余回合安全预算与代价到达估计，在离线引导和在线探索之间仲裁。 实验将二值代价改为连续代价；理论界依赖估计假设，硬件部分没有定量试验表。
+
+## MDPO: Multi-constraint Dexterous Policy Optimization with Reinforcement Learning
+
+- [arXiv 2610.33480](https://arxiv.org/abs/2610.33480) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33480)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33480)
+
+将累计约束和逐状态约束分别投影，用于灵巧操作强化学习。 真机证据主要为定性展示，不等于定量验证真实安全保证；约束估计假设仍重要。
+
+## Expert-Play Contouring Control: Faster-than-Demonstration Planning from Slow Expert and Fast Play
+
+- [arXiv 2609.22798](https://arxiv.org/abs/2609.22798) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2609.22798)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2609.22798)
+
+v1→v2补充大量实现/评测附录，实质限定超示范速度结论：摩擦扫描的重训练、仅成功样本的分阶段计时、控制器搜索预算及play混合来源。真机13秒对22秒例子在v1已存在。 该扫描不隔离单个固定模型的零样本鲁棒性；各方法成功子集不同会影响计时比较。本次未建立新增真机汇总成功结果，实体速度提升仍为示例rollout。
+
+## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
+
+- [arXiv 2608.12063](https://arxiv.org/abs/2608.12063) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2608.12063)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2608.12063)
+
+v1→v2新增Q5/表2：将稀疏奖励离线到在线学习与FastTD3、IQL、Diffusion Policy直接复用SMPC代价或示范数据比较。原真机结果及稀疏奖励方法并非新增。 基线复用SMPC代价/数据，失败不能证明RL算法普遍较差；作者归因于代价不适配和缺少纠偏样本，并指出并行SMPC的DAgger成本过高。新增对比仅仿真。
+
+## WorldArena 2.0: Extending Embodied World Model Benchmarking on Modality, Functionality and Platform
+
+- [arXiv 2605.17912](https://arxiv.org/abs/2605.17912) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2605.17912)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2605.17912)
+
+v1→v2新增真机触觉消融、详细RL/解码接口、统计不确定性和扩展真机任务文档；视触觉/RL/跨平台基准整体构想在v1已存在。 真机样本少、区间宽；各条件Wilson区间不是配对显著性检验。世界模型效用包含分别训练的解码器，不等于单独动力学精度；扩展定性任务不能算作新增定量榜单。
+
+## RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data
+
+- [arXiv 2605.13775](https://arxiv.org/abs/2605.13775) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2605.13775)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2605.13775)
+
+v1→v2新增§5.5：将规划器—模拟器共同演化循环接入可输出动作的LingBot-VA及LIBERO环境反馈。这是新增低层控制扩展，原有生成式规划收益并非本次新结果。 新增扩展依赖外部仿真反馈，不同于内部监督的VLM–VGM设置；未真机部署。500张种子不代表总监督量或交互预算，该节未建立完整交互成本匹配。
+
+## Does "Do Differentiable Simulators Give Better Policy Gradients?" Give Better Policy Gradients?
+
+- [arXiv 2604.18161](https://arxiv.org/abs/2604.18161) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2604.18161)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2604.18161)
+
+v1→v2修正附录D中DDCG对AoBG检验统计量的维度精度分析及蒙特卡洛表，并明确该结论针对统计量精度而非优化性能。 这是线性高斯玩具统计量的修正，不能证明梯度估计误差或机器人学习性能具有相同尺度规律；已有优化/RL结果不能算新增证据。
 
 ## RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms
 

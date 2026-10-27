@@ -2,7 +2,224 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-49 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+80 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## OSWAM: An Effective World Action Model with One-Step Action Generation
+
+- [arXiv 2610.35850](https://arxiv.org/abs/2610.35850) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35850)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35850)
+
+Uses action/scene imagination tokens for structured diffusion initialization and privileged future-conditioned distillation to generate actions in one denoising step. One-step is a speed/quality trade-off, not uniform superiority. Real tests are small; completion time is video-estimated on successes only. H20 and compiled RTX5090 latency numbers use different setups; NAVSIM is not real-road deployment.
+
+## Adapt for Planning, Not just Prediction: Optimistic Test-Time World Model Adaptation
+
+- [arXiv 2610.35636](https://arxiv.org/abs/2610.35636) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35636)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35636)
+
+OpTTA adapts a latent world model with observed-transition prediction loss plus an optimistic goal-reaching cost on planner candidate rollouts, without extra interactions. Simulated pushing, reaching and navigation only; adaptation resets per task and uses at most 30 replans. LeWM TwoRoom can degrade. This is parameter adaptation for planning, not an established continual or real-robot capability.
+
+## WorldPager: Zero-Stall Tiered Memory for Long-Horizon World Models on a Single Consumer GPU
+
+- [arXiv 2610.35529](https://arxiv.org/abs/2610.35529) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35529)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35529)
+
+WorldPager keeps int4 world-model KV across GPU, pinned DRAM and NVMe; it prefetches pose-predicted retrievals, reuses stale entries instead of waiting on misses, writes back asynchronously and remaps positions beyond the native horizon. “Zero stall” excludes dequantization/write-back and permits stale retrieval; it is not zero overhead or real-time 16fps. Timing uses one scene/seed and one physical drive; slower drives are software-emulated. Quality evidence is MG2-only, with three scenes/five seeds for long-gap tests; texture drift remains. Baselines are reimplementations, not original systems.
+
+## PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds
+
+- [arXiv 2610.34921](https://arxiv.org/abs/2610.34921) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34921)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34921)
+
+A shared VLM proposes executable physical scenes and solves questions; a fixed simulator validates scenes, runs matched body-removal interventions and binds answers, rather than letting the proposer label its own tasks. Question answering, not robot control. One training run per configuration on four GPUs; uses 24 hand-provided demonstration programs. Branch ablation also removes task families and changes retained rollout count (8,668 versus 7,960), so it does not isolate branch execution under matched exposure. Broad transfer gains are small and uneven.
+
+## Behavioural Quality Is Not Learning Utility: Objective Mismatch in Human Behaviour Models for Robot Learning
+
+- [arXiv 2610.34839](https://arxiv.org/abs/2610.34839) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34839)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34839)
+
+Tests whether human-behavior generative metrics predict their usefulness as simulated training partners for robot RL. Policy tests are simulated, including simulated human partners—not physical human-robot trials. Findings depend on these model families, representations and RL training protocols; they do not imply realistic behavior is unnecessary for safety.
+
+## SceneAgent: An Agentic Pipeline from 3D and 4D Captures to Simulation Environments
+
+- [arXiv 2610.34745](https://arxiv.org/abs/2610.34745) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34745)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34745)
+
+An agentic pipeline reconstructs interactive simulators from 3D/4D captures, inspects and repairs scenes, and produces digital-sister variants and scripted demonstrations. Geometry/IoU improvements are not calibrated contact dynamics. Physical parameters are unmeasured estimates; static evaluation uses very few scenes and single conversions. Real transfer is preliminary and non-monotonic with simulated data scale.
+
+## Video World Models Need Predictable Latents
+
+- [arXiv 2610.34663](https://arxiv.org/abs/2610.34663) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34663)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34663)
+
+Fine-tunes autoencoder latents for temporal predictability and uses a past-conditioned decoder to preserve reconstruction while simplifying world-model dynamics. Main evidence concerns video prediction and policy-evaluation agreement, not improved robot policy success. Studies 2D spatial autoencoders fine-tuned from pretrained models; broader domains and spatiotemporal autoencoders are untested.
+
+## What Does World Modeling Actually Improve in Robot Action Learning?
+
+- [arXiv 2610.34593](https://arxiv.org/abs/2610.34593) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34593)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34593)
+
+Controlled future-video-loss removal within FastWAM and OpenWAM tests what predictive supervision changes; a training-only lightweight video predictor extends the test to π0.5. Simulation-only; gains under unseen tasks are inconsistent and environmental randomization leaves low success without a consistent prediction-loss advantage. Single training seed; rollout repeats do not establish training-seed robustness. Wan extension changes multiple factors.
+
+## AuRA: From Atoms to Bits through Autonomous Robot Interaction
+
+- [arXiv 2610.34452](https://arxiv.org/abs/2610.34452) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34452)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34452)
+
+Automates deformable digital-twin acquisition with feasible grasp selection, robot-state-derived gripper trajectories and registered pre-interaction geometry/appearance. Collection accounting excludes processing/reconstruction and untimed backup trials; expert collection is faster (100.6s) than AuRA. Prediction uses known gripper motion; unseen tests use selected assets and manual alignment. No policy-learning gain demonstrated.
+
+## EAST: Embodied AI Safety Testing via Systematic Fault Injection in Digital Twins
+
+- [arXiv 2610.34358](https://arxiv.org/abs/2610.34358) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34358)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34358)
+
+Maps documented safety hazards to eight executable fault operators, verifies realized interventions and separately records safety violations and task outcomes. Simulation only; safety is limited to simulator-state predicates. Challenge exposure is close to Random-Legal and Rule-Based, not a blanket superiority result; unsafe-success counts diagnose metric mismatch rather than rank methods.
+
+## AdaPolicy: Action-Driven Anticipatory Robot Policies via Next-Chunk Prediction
+
+- [arXiv 2610.34280](https://arxiv.org/abs/2610.34280) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34280)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34280)
+
+Adds a training-only EMA action head that predicts the next action chunk from an evolved latent state; its loss backpropagates through that state into the online policy, without future-image supervision. Real precision tasks use 1, 000/400 demonstrations, with human takeover corrections comprising 20% of each dataset; both methods use the same combined data. These are supervised anticipatory features, not evidence of autonomous online world-model adaptation; zero inference overhead is relative to the matched architecture.
+
+## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
+
+- [arXiv 2610.34126](https://arxiv.org/abs/2610.34126) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34126)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34126)
+
+Learns a history-based proprioceptive neural dynamics model with forward-kinematics supervision, then fine-tunes humanoid tracking policies through model gradients; low-frequency reference perturbations collect deployment-viable data. Small physical repetition counts and task-specific tracking/completion metrics, not broad manipulation success. Real-world baselines are direct transfer and disturbance-aware PPO where feasible, not the full simulation baseline set. Authors limit the method to time-invariant disturbance settings; collection/training precede adapted deployment.
+
+## X-World: Transferring Video Priors to Variable-View Robot Control
+
+- [arXiv 2610.34105](https://arxiv.org/abs/2610.34105) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34105)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34105)
+
+Transfers a video backbone to variable-view control with residual cross-view attention, a layer-aligned Q-Former and shared action expert with native dataset interfaces. Reference baselines do not match pretraining data/compute. Camera, background and noise shifts remain weaker than OpenVLA-OFT; LIBERO-Plus weighting is unspecified. One physical platform, no demonstrated unseen-embodiment transfer.
+
+## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
+
+- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34051)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34051)
+
+Connects spatial VQA, target grounding and VLA execution while separating target-selection intention from strict task completion. Entirely simulated. Headline abstract rates are soft intention measures, not task completion. Oracle grounding is privileged; task timeouts and hand-target correlations affect interpretation.
+
+## TurboWAM: Learning What Matters for Fast World Action Models
+
+- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33941)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33941)
+
+Selectively aggregates early world-model layers conditioned on noisy actions and modulates action gradients during training, retaining video co-training without test-time video generation. Benchmarks have unmatched embodied pretraining across methods. Prompt-corrected results must not be conflated with the original protocol. Layer structure is architectural, not explicit 3D geometry; latency alone does not establish safe control. GPU model is unspecified (approximately 140GB data-center GPU). Physical-robot experiments are referred to supplementary material; their quantitative results were not established in the checked text.
+
+## WMEval: Evaluating Interactive World Models Grounded on Physical Simulations
+
+- [arXiv 2610.33894](https://arxiv.org/abs/2610.33894) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33894)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33894)
+
+Evaluates interactive world models against matched Unity action trajectories and physical-state/causal references across six dimensions. Controlled generated-video evaluation, not robot policy training or real physics validation. Different interfaces allow different model subsets per metric; learned vision/VLM evaluators remain imperfect despite calibration.
+
+## RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models
+
+- [arXiv 2610.33807](https://arxiv.org/abs/2610.33807) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33807)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33807)
+
+Introduces hardware-prior-based KIVA kinematic stability and RIGIS multi-view geometry metrics, plus a world-model acceleration audit. Measures generated-video consistency, not downstream control success. Metrics do not establish contact physics, deformable behavior or force dynamics; some long-horizon comparisons confound rollout depth and non-Markovian regime.
+
+## One Scan is Enough: Demonstration-Free Adaptation for Language-Guided Navigation
+
+- [arXiv 2610.33794](https://arxiv.org/abs/2610.33794) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33794)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33794)
+
+Converts one phone scan per building into a Gaussian-splat navigation environment and grounded instruction episodes; known-scene Pareto utilities guide policy post-training without human demonstrations or a learned critic. Demonstration-free is not human-free: scanning and evaluation-instruction checking require people. Baselines have different scene-specific data budgets; unscanned means same buildings, not unseen buildings. Real success uses a 1.5m radius, and changed layouts require rescanning. This is offline scene post-training, not online per-step TTT.
+
+## Mix Forcing: Causal Pre-Training via Mixture Attention for Interactive World Models
+
+- [arXiv 2610.33589](https://arxiv.org/abs/2610.33589) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33589)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33589)
+
+Mix Forcing jointly trains teacher-forced causal and bidirectional video objectives with chunk-local prompt attention, then distills a four-step autoregressive generator. Camera/text-conditioned video generation only: no action-policy success, physical fidelity or robot transfer test. Public global-prompt benchmarks mismatch its local-prompt training; 14B training uses substantial compute.
+
+## Replicate What Varies: Resource Sharing for Domain-Randomized Embodied Simulation
+
+- [arXiv 2610.33582](https://arxiv.org/abs/2610.33582) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33582)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33582)
+
+Patchwork represents environments as shared templates plus private mutation patches, sharing compiled MuJoCo structure and immutable assets while isolating state and randomized parameters. Infrastructure/resource results, not improved policy learning. Main headline excludes camera/object observation processing; camera path has Python GIL bottlenecks. Reuse diminishes with template/asset diversity, mutations are backend-restricted, and comparison with asynchronous GPU-vectorized execution remains future work.
+
+## Distilling Dense Trajectory Teachers For Large-Motion Video World Models
+
+- [arXiv 2610.33566](https://arxiv.org/abs/2610.33566) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33566)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33566)
+
+DTTD interpolates sparse camera paths, uses the frozen base model’s dense-path videos as pose-aligned teachers, and combines teacher/geometry rewards to form offline Flow-DPO preferences with a cumulative motion curriculum. One camera-conditioned Wan1.3B backbone and one indoor dataset; no robot planning/control outcomes. Uses 10k preference pairs, 12 student candidates and four teacher videos per condition, each generated with 40 denoising steps; matching optimizer steps does not establish equal data-generation compute. Geometry rewards rely on estimated depth/poses; DTTD is not best on every geometric metric.
+
+## WorldFailBench: Do World Models Understand Policy Failures?
+
+- [arXiv 2610.33565](https://arxiv.org/abs/2610.33565) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33565)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33565)
+
+Evaluates whether world models reproduce policy failure reasons, stages and success-to-failure boundaries, rather than only final outcomes. Real-robot coverage is two tasks; boundary interventions are simulation-only. Boundary discovery selects adjacent conditions with a ≥30-point success gap, then independently re-estimates endpoints; this is not an unbiased estimate over all scene changes.
+
+## World-in-Context: Interactive Video World Modeling with In-Context Conditioning
+
+- [arXiv 2610.33169](https://arxiv.org/abs/2610.33169) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33169)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33169)
+
+World-in-Context places view, character-action and camera controls in shared self-attention as explicit tokens; Interaction-Transport RoPE incorporates accumulated control transitions into temporal attention. Navigation score is a composite video metric, not robot task success. Main model uses bidirectional fine-tuning on 100k navigation clips plus 500 switching sequences; the final 93.8% result is not single-view-only training. Cross-system data/compute are not matched; controlled architecture comparisons share its data. No embodied manipulation or physical-control validation.
+
+## Learning Goal-Conditioned Subgoals through Frozen Hierarchical World Models
+
+- [arXiv 2610.26179](https://arxiv.org/abs/2610.26179) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.26179)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2610.26179)
+
+v2→v3 adds Appendix J disjoint-source-group evaluations: backbones are trained from scratch on training-only groups and heads selected on separate groups. This directly probes overlap concerns in the released-asset benchmarks; original headline gains are not new. Push-T shows no improvement in this stronger separation test. New task windows differ from the original benchmark (uniform Cube starts; 80-step rather than 74-step Push-T gaps); do not compare absolute rates across protocols. SE covers backbone seeds, not sampled tasks/source groups. Simulation only.
+
+## Expert-Play Contouring Control: Faster-than-Demonstration Planning from Slow Expert and Fast Play
+
+- [arXiv 2609.22798](https://arxiv.org/abs/2609.22798) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2609.22798)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2609.22798)
+
+v1→v2 adds extensive implementation/evaluation appendices that materially qualify the faster-than-demonstration claims: friction-sweep retraining, success-conditioned phase timing, controller/search budgets and play-mixture provenance. The 13s versus22s real example already appears in v1. The sweep does not isolate zero-shot robustness of one fixed model, and method-specific success subsets can change the timing comparison. No new real-robot aggregate success result was established in this revision; the physical speedup remains an illustrative rollout.
+
+## GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation
+
+- [arXiv 2609.05588](https://arxiv.org/abs/2609.05588) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2609.05588)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2609.05588)
+
+v2→v3 substantively replaces Appendix A.1/Table 3 RoboTwin evaluation: six named perturbation columns become Clean-to-Clean and Clean-to-Random under 50 clean demonstrations per task, with additional leaderboard baselines. This is a protocol/result replacement, not a directly comparable version-to-version gain. Baselines are drawn from the official RoboTwin leaderboard where available and the Qwen-RM report, rather than all being rerun in a controlled study. The main real-robot pretraining/scaling findings are inherited from v2.
+
+## LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies
+
+- [arXiv 2606.15768](https://arxiv.org/abs/2606.15768) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2606.15768)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2606.15768)
+
+v1→v2 adds an eight-subtask Clean Table real-robot task, lighting-shift tests, capacity/predictive-interface controls, and training-cost/confidence-interval reporting. The 98.6% LIBERO and 187 ms headline results already appear in v1. Clean Table success remains modest, especially under lighting shift; comparisons use few real tasks. Mechanism controls omit Stage-2 pretraining and should not be equated with the fully pretrained policy. The lighting tests reuse color-augmented task checkpoints.
+
+## PRISM: PRior-guided Imagination Sampling in world Models
+
+- [arXiv 2606.07974](https://arxiv.org/abs/2606.07974) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2606.07974)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2606.07974)
+
+v1→v2 adds frozen-feature action-prediction probes with random-encoder controls, a diffusion prior using the same fusion interface, ten-seed main simulation evaluation, and matched real-robot prior-free comparisons. Prior-guided Gaussian fusion and the two robot platforms were already in v1. The diffusion and MLP heads use different goal conventions, so their comparison does not isolate architecture. Probe scores come from validation-selected fits, not an independent test split. Head-training/inference figures exclude world-model pretraining and shared encoder/planner costs. Real success gains are four and six episodes; more trials are needed.
+
+## Learning Action-Conditional and Object-Centric Gaussian Splatting World Models for Rigid Objects
+
+- [arXiv 2606.01950](https://arxiv.org/abs/2606.01950) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2606.01950)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2606.01950)
+
+v1→v2 adds Gaussian render-and-compare object tracking via FoundationPose, evaluates dynamics prediction from estimated rather than ground-truth poses, and adds two qualitative real-world recordings. Simulated non-prehensile MPC was already present in v1. Tracking benchmark uses five YCB objects without continuous rotational symmetry, a validation-selected fixed viewpoint and trajectories truncated at visibility failure. Quantitative tracking/prediction remains simulated; real evidence is qualitative, not real MPC success. Reconstruction is a separate prerequisite, and later real predictions miss a contact; training still uses cleaner pose histories.
+
+## WorldArena 2.0: Extending Embodied World Model Benchmarking on Modality, Functionality and Platform
+
+- [arXiv 2605.17912](https://arxiv.org/abs/2605.17912) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2605.17912)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2605.17912)
+
+v1→v2 adds a physical tactile ablation, detailed RL/decoder interfaces, uncertainty reporting and expanded real-robot task documentation. The broad visuotactile/RL/cross-platform benchmark concept was already in v1. Small physical samples yield wide intervals; separate Wilson intervals are not a paired significance test. World-model utility includes separately trained decoders, so it is not isolated transition fidelity. Expanded qualitative tasks must not be counted as a new quantitative leaderboard.
+
+## RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data
+
+- [arXiv 2605.13775](https://arxiv.org/abs/2605.13775) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2605.13775)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2605.13775)
+
+v1→v2 adds §5.5: the planner–simulator co-evolution loop is instantiated with action-capable LingBot-VA and LIBERO environment feedback. This is a new low-level-control extension, not a new version of the already reported generative-planning gains. The new extension uses external simulator feedback, unlike the internally supervised VLM–VGM setting. No physical deployment; 500 seeds do not represent the total supervision or interaction budget, and this section does not establish a complete interaction-cost match.
 
 ## UniAction: Unified Action Conditioning for World Models
 

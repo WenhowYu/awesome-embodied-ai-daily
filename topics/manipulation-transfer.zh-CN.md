@@ -2,7 +2,266 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-76 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+113 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Learning Force-Reactive Humanoid Loco-Manipulation
+
+- [arXiv 2610.35862](https://arxiv.org/abs/2610.35862) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35862)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35862)
+
+采集无需机器人参与的力感知示范，将扩散位姿/力策略与混合柔顺全身控制结合。 任务及试次数较少，并依赖力传感硬件；消融不能证明任意接触技能迁移。
+
+## OSWAM: An Effective World Action Model with One-Step Action Generation
+
+- [arXiv 2610.35850](https://arxiv.org/abs/2610.35850) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35850)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35850)
+
+利用动作/场景想象token提供结构化扩散初值，并蒸馏带未来条件的特权信息，实现一步动作去噪。 一步是速度/质量取舍，并非全面优越。真机样本小，完成时间只对成功轨迹从视频估计。H20与编译RTX5090延迟设置不同；NAVSIM不是真实道路部署。
+
+## Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent
+
+- [arXiv 2610.35817](https://arxiv.org/abs/2610.35817) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35817)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35817)
+
+ZAP以成功轨迹SFT和仿真GRPO训练27B VLM使用统一感知/位姿控制工具接口，测试语义预训练与动作学习的组合泛化，不用真机训练轨迹。 每模型仅30次真机试验；harness提供SAM3.1分割、校准深度3D读数及控制反馈，非纯RGB端到端控制。仿真使用真机校准；成本按每小时7.10美元单B300计算；Franka迁移并非真机。
+
+## Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies
+
+- [arXiv 2610.35626](https://arxiv.org/abs/2610.35626) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35626)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35626)
+
+从腕部相机采集重建机器人对齐3D高斯场景，渲染可行平滑接近轨迹，微调VLA并以指令条件距离验证器判断停止。 生成轨迹数量为对照十倍；主动采集不足10分钟，但总耗时约200分钟，与150条遥操相当。只学习接触前接近，精度由固定后续抓取例程验证。三目标各25次及中等主板位移不能证明任意布局或接触任务泛化。
+
+## Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data
+
+- [arXiv 2610.35075](https://arxiv.org/abs/2610.35075) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.35075)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.35075)
+
+通过手机场景重建、Agent仿真构建及运动/环境协同适配，生成无需真实机器人示范的人形操作数据。 主打的20个百分点优势比较了不等量示范；扩展覆盖还改变训练分布，不能解释为等数据提升。
+
+## How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim-Real Benchmark for Physical Interaction
+
+- [arXiv 2610.34527](https://arxiv.org/abs/2610.34527) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34527)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34527)
+
+PhysLadder定义16项仿真/真机匹配接触任务，递进考察接触几何、持续力调节、以及接触重配置与力调节协同。 单模型、每任务极少样本；一致性不等于普适仿真到真机排序有效。仿真接触/材料参数并非实测物理值，模型调用数受不同动作接口影响，不可直接比较。
+
+## Scaling Dexterous Manipulation via Action Representation Pretraining
+
+- [arXiv 2610.34453](https://arxiv.org/abs/2610.34453) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34453)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34453)
+
+ARPG以人类操作数据让动作表示对齐视觉特征，冻结编码器，再在该空间训练130M生成骨干与解码器。 DexJoCo基线沿用原论文；真机仅3项任务、每项30次。同机器人示范不等于等优化预算：π0.5为25k步混合LoRA，ARPG另训编码器/解码器且下游最多120k步。小时数累计片段长度，可能计入重叠；开放语义与夹爪迁移未验证。
+
+## ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation
+
+- [arXiv 2610.34370](https://arxiv.org/abs/2610.34370) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34370)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34370)
+
+ThinkLocoManip交替推理/行动，编排感知、导航、操作及全身运动工具；关键帧思考保留执行上下文以恢复失败。 仅单平台5类任务，每类10–20次；编排依赖工程化导航、抓取及控制工具，未隔离跨回合技能获取，也未证明全身控制器可迁移。
+
+## RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions
+
+- [arXiv 2610.34356](https://arxiv.org/abs/2610.34356) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34356)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34356)
+
+RynnLAM以残差视觉预测、相机补偿3D流及相机运动解耦提取连续潜动作；流匹配VLA先用30.1K小时视频学习，再适配原生动作。 全规模比较不匹配预训练数据/算力，规模实验未隔离优化曝光量。几何为伪标签，并非度量或因果动作识别证据。真机适配用3,850条示范。RoboTwin主表/摘要88.6%，结论88.3%，存在不一致；未测推理速度。
+
+## HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience
+
+- [arXiv 2610.34186](https://arxiv.org/abs/2610.34186) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34186)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34186)
+
+以2,087小时人类、仿真及机器人数据训练OFT、GR00T和π式人形策略，输出SONIC全身运动token及手部信号；用仿真补伪本体状态、渲染替换人臂以适配。 仅一项真机任务，固定预训练全身控制器并全参数下游微调。视觉适配仅增加2次成功；伪本体状态因文本截断反而损害OFT。报告前两阶段8张GPU约38+12小时，收益未分离额外数据与预训练算力。
+
+## PS-DLO: Property- and Spatially Aware Deformable Linear Object Manipulation Policy
+
+- [arXiv 2610.34147](https://arxiv.org/abs/2610.34147) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34147)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34147)
+
+以文本物性先验调节柔性线状物操作策略，并向动作专家蒸馏未来视觉特征。 不同本体分别训练策略；未来观察用于训练，不是部署时在线预测世界模型接口。
+
+## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
+
+- [arXiv 2610.34126](https://arxiv.org/abs/2610.34126) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34126)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34126)
+
+以历史本体状态及正运动学监督学习神经动力学，再通过模型梯度微调人形跟踪策略；低频参考扰动用于可部署数据采集。 真机重复次数少，使用任务专属跟踪/完成指标，而非广泛操作成功率。真机基线为直接迁移和可建模情况下的扰动PPO，不包含全部仿真对照。作者将适用范围限为时不变扰动设置；需先采集和训练再部署适配策略。
+
+## RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models
+
+- [arXiv 2610.34108](https://arxiv.org/abs/2610.34108) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34108)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34108)
+
+RoboDuo先让整任务VLA尝试并检查完成情况，再通过生成代码调用另行训练的原子VLA补齐剩余步骤，整任务策略冻结。 整体并非免训练：原子策略及完成检查编码代理使用示范派生数据集。五套件训练时收益缩小；真机仅一个任务族、小样本。公开参考行协议不同，非匹配重跑。
+
+## X-World: Transferring Video Priors to Variable-View Robot Control
+
+- [arXiv 2610.34105](https://arxiv.org/abs/2610.34105) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34105)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34105)
+
+通过残差跨视角注意力、层对齐Q-Former及共享动作专家，将视频骨干迁移到可变视角控制；保留各数据集原生接口。 对比基线预训练数据/算力不匹配；相机、背景、噪声扰动弱于OpenVLA-OFT，LIBERO-Plus汇总权重未说明。只有一种真机平台，未证明未见形态迁移。
+
+## RoboLongR: Causally Consistent Rewards Teach Robots to Progressively Master Long-Horizon Manipulation
+
+- [arXiv 2610.33863](https://arxiv.org/abs/2610.33863) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33863)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33863)
+
+以循环记忆、阶段打乱负样本和终止纠正学习历史敏感奖励，再通过RL微调行为克隆策略。 真机每任务仅10次。去记忆、阶段打乱或纠正后分别为28.9%、24.3%、28.4%。在线纠正仅用于RoboLongR与Progress+Mono，不用于ReWiND等基线；主对比评估完整流程。
+
+## AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking
+
+- [arXiv 2610.33852](https://arxiv.org/abs/2610.33852) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33852)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33852)
+
+在蒸馏灵巧跟踪器外增加强化学习的参考、物体隐变量与目标调制。 Completion是各轨迹满足跟踪误差阈值的帧比例再取平均，并非整任务二元成功率。依赖显式物体姿态、网格与可靠姿态估计，对称物体仍有挑战。
+
+## One Scan is Enough: Demonstration-Free Adaptation for Language-Guided Navigation
+
+- [arXiv 2610.33794](https://arxiv.org/abs/2610.33794) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33794)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33794)
+
+将每栋建筑的一次手机扫描转换为高斯场景及指令导航样本，再以已知场景的Pareto效用进行策略后训练，无需人类示范或学习型critic。 无示范不等于无人介入：扫描和评估指令核对仍需人工。基线场景数据预算不同；未扫描区域仍属同建筑，而非未见建筑。真机成功半径1.5米，布局显著变化需重扫。属于场景后训练，非逐步在线TTT。
+
+## Open-World Law-to-Action: Vision-Language Priors and Touch for Parts with Hidden Physics
+
+- [arXiv 2610.33705](https://arxiv.org/abs/2610.33705) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33705)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33705)
+
+结合视觉语言物理规律先验、触觉贝叶斯辨识，以及观察歧义时请求新视角。 没有硬件机器人验证；一个具身协议在两次留出测试之间修改，不应视为干净的验证性对照。
+
+## EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models
+
+- [arXiv 2610.33685](https://arxiv.org/abs/2610.33685) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33685)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33685)
+
+将人类/机器人动作拆为共享位置码与形态专属运动学，再以共享token共训VLM并微调机器人动作。 额外使用8张A800进行50k步tokenizer训练与30k步共训；基线省去这些阶段，并非等算力。真机用2,450条示范、每条件仅10次试验。消融把73.2%一行称作基线，与主表66.8%不一致。
+
+## HA-DiPO: Diffusion Policy Optimization for Heterogeneous Cooperative Transport
+
+- [arXiv 2610.33584](https://arxiv.org/abs/2610.33584) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33584)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33584)
+
+以集中训练、分散执行训练分层多智能体扩散策略，实现协同载荷运输。 93.5%来自仿真而非真机成功率；最佳检查点选择与特定运输控制器限制结论范围。
+
+## RBGA: Residual-Budget Guide Arbitration for Offline-to-Online Safe Reinforcement Learning in Dexterous Manipulation
+
+- [arXiv 2610.33494](https://arxiv.org/abs/2610.33494) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33494)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33494)
+
+依据剩余回合安全预算与代价到达估计，在离线引导和在线探索之间仲裁。 实验将二值代价改为连续代价；理论界依赖估计假设，硬件部分没有定量试验表。
+
+## MDPO: Multi-constraint Dexterous Policy Optimization with Reinforcement Learning
+
+- [arXiv 2610.33480](https://arxiv.org/abs/2610.33480) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33480)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33480)
+
+将累计约束和逐状态约束分别投影，用于灵巧操作强化学习。 真机证据主要为定性展示，不等于定量验证真实安全保证；约束估计假设仍重要。
+
+## MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation
+
+- [arXiv 2610.33446](https://arxiv.org/abs/2610.33446) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33446)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33446)
+
+MOTIO将人类动作视频、尺度化3D资产及现有控制接口转为分阶段人形程序，通过物理反馈及人工批准修订，并以生成技能监督BC/DAgger蒸馏。 仍依赖人工批准及任务专属工程；真机演示和仿真变化测试并非随机化真机成功率基准。开发时长包含工具/资源等待，蒸馏证据来自仿真。
+
+## Learning Goal-Conditioned Subgoals through Frozen Hierarchical World Models
+
+- [arXiv 2610.26179](https://arxiv.org/abs/2610.26179) · v3 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.26179)
+- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2610.26179)
+
+v2→v3新增附录J按源状态分组、训练/选点/测试分离的评测：骨干仅在训练组从零训练，head在独立组选择，直接检验原发布资产基准的重叠顾虑；原主结果不是新贡献。 更严格分离下Push-T没有提升。新任务窗不同于原基准（Cube均匀起点、Push-T间隔80而非74步），不可跨协议比较绝对成功率；标准误只覆盖骨干种子，不覆盖任务/源组抽样。仅仿真。
+
+## One-shot Human Video-Guided Adaptation for Vision-Language-Action Models
+
+- [arXiv 2610.19746](https://arxiv.org/abs/2610.19746) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.19746)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2610.19746)
+
+v1→v2新增两种改造后视频条件基线，补齐旧版未填完整的消融结果，并以十次试验真机结果替换原五次表格；主要RoboTwin CapPro表现在v1已存在。 新增基线是适配π0.5后的版本，不是原系统原样比较。真机每任务仅10次，困难分类成功率仅20%。one-shot指目标任务测试时的人类视频指导，不代表总共只用一条示范训练；仍需源任务训练。
+
+## GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation
+
+- [arXiv 2609.05588](https://arxiv.org/abs/2609.05588) · v3 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2609.05588)
+- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2609.05588)
+
+v2→v3实质替换附录A.1/表3的RoboTwin评测：六类扰动列改为每任务50条clean示范下的Clean-to-Clean和Clean-to-Random，并扩充榜单基线。这是协议/结果替换，不能作为同条件版本提升。 基线尽可能引用RoboTwin官方榜单及Qwen-RM报告，并非统一受控重跑；主要真机预训练/扩展结果沿用v2。
+
+## What Can One Sentence Fix? A Failure Taxonomy and a Minimal Language Correction for Frozen VLA Policies
+
+- [arXiv 2608.29967](https://arxiv.org/abs/2608.29967) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2608.29967)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2608.29967)
+
+v1→v2将CorrectVLA改题并重构论述，以每条件三组10次真机运行替换旧小样本表，新增长程失败对照，明确区分仅失败重试恢复率与全部回合净成功率。仿真65/139及33/328恢复数沿用旧版。 人工标注失败类型并为失败运行编写带时窗纠正，耗时40–80秒，可追加纠正轮次。仅失败重试的仿真成功率不能证明无条件策略提升。该通道只修幅度/时机，不修语义目标或计划；LIBERO-90是指令OOD而非场景OOD。
+
+## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
+
+- [arXiv 2608.12063](https://arxiv.org/abs/2608.12063) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2608.12063)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2608.12063)
+
+v1→v2新增Q5/表2：将稀疏奖励离线到在线学习与FastTD3、IQL、Diffusion Policy直接复用SMPC代价或示范数据比较。原真机结果及稀疏奖励方法并非新增。 基线复用SMPC代价/数据，失败不能证明RL算法普遍较差；作者归因于代价不适配和缺少纠偏样本，并指出并行SMPC的DAgger成本过高。新增对比仅仿真。
+
+## LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies
+
+- [arXiv 2606.15768](https://arxiv.org/abs/2606.15768) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2606.15768)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2606.15768)
+
+v1→v2新增八子任务Clean Table真机任务、光照变化测试、容量/预测接口对照及训练成本/置信区间。98.6% LIBERO与187毫秒主结果在v1已存在。 Clean Table绝对成功率仍低，光照变化下尤甚；真机任务较少。机理对照均去掉第二阶段预训练，不能直接等同完整预训练策略；光照测试复用已做颜色增强的任务检查点。
+
+## PRISM: PRior-guided Imagination Sampling in world Models
+
+- [arXiv 2606.07974](https://arxiv.org/abs/2606.07974) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2606.07974)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2606.07974)
+
+v1→v2新增冻结特征动作预测探针及随机编码器对照、共用融合接口的diffusion先验、十种子主仿真评估及匹配真机无先验对照。高斯先验引导融合和两类真机平台在v1已存在。 diffusion和MLP头采用不同目标约定，不能单独归因于架构。探针分数来自验证集选模而非独立测试集。动作头训练/推理数字排除世界模型预训练及共享编码器/规划器成本。真机净增仅4次和6次，仍需更多试验。
+
+## Learning Action-Conditional and Object-Centric Gaussian Splatting World Models for Rigid Objects
+
+- [arXiv 2606.01950](https://arxiv.org/abs/2606.01950) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2606.01950)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2606.01950)
+
+v1→v2新增基于FoundationPose的高斯渲染对比物体跟踪，评估以估计而非真值位姿输入的动力学预测，并新增两段定性真实场景录像。仿真非抓取MPC在v1已存在。 跟踪基准仅5个无连续旋转对称YCB物体、验证集选定的固定视角，并在可见性失败处截断轨迹。定量跟踪/预测仍在仿真，真机仅定性而非真实MPC成功率。重建是独立前置步骤，后段真机预测漏掉接触，训练位姿历史也更干净。
+
+## BEACON: Cross-Domain Co-Training of Generative Robot Policies via Best-Effort Adaptation
+
+- [arXiv 2605.08571](https://arxiv.org/abs/2605.08571) · v3 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2605.08571)
+- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2605.08571)
+
+v2→v3新增调优统一权重、源均值差异对照、特征对齐诊断及明确约束理论结论的权重审计；主要BEACON成功率在旧版已有。 理论界用于启发目标函数，不能当作已审计学习权重的有效保证。新增对齐结果是诊断证据；MMD基线也表明差异更小不必然带来更高任务成功率。
+
+## AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation
+
+- [arXiv 2604.11674](https://arxiv.org/abs/2604.11674) · v3 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2604.11674)
+- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2604.11674)
+
+v2→v3新增真机域随机化扫描、五形态采集定量评测及等示范预算ACT抓取来源对照。多阶段成功率分解及原四任务sim-to-real评估在v2已存在。 位置扫描示范量从300增至1,200再到2,700，范围与数据量混杂；真机仅单任务、各10次。跨形态结果衡量仿真轨迹采集，不是学习策略迁移。已有主表数字未变，但采集次数文字从30改为100，不能解读为同协议新收益。
+
+## RoboGene: Diversity-Driven Agentic Task Generation Framework for VLA Pre-training
+
+- [arXiv 2602.16444](https://arxiv.org/abs/2602.16444) · v3 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2602.16444)
+- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2602.16444)
+
+v2→v3新增更广泛真机OOD评测及人工成本/记忆分析（附录H.2/H.4），不只是重述原任务生成架构和1.8万轨迹。 不是零样本任务迁移，仍需目标任务微调。人工成本按固定单次耗时估算，包含遥操作与人工验证；纠错率下降本身不能单独证明记忆因果贡献。
+
+## FlowHOI: Flow-based Semantics-Grounded Generation of Hand-Object Interactions for Dexterous Robot Manipulation
+
+- [arXiv 2602.13444](https://arxiv.org/abs/2602.13444) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2602.13444)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2602.13444)
+
+v1→v2将定性机器人展示补为有次数的基线比较，新增匹配单阶段、抓取前缀预训练、重建及场景粒度分析。40倍推理加速和1.7倍仿真成功率主张在v1已存在。 离线场景重建、重定向及DexTrack修正后开环执行；衡量标称条件可执行性而非抗扰。预训练对照单训练种子，未显示明确物理成功增益。匹配单阶段快40ms且动作识别/仿真成功相当，两阶段优势主要是接触质量，非全面更优。
+
+## UniManip: Open-World Robotic Manipulation via Agentic Operational Graphs
+
+- [arXiv 2602.13086](https://arxiv.org/abs/2602.13086) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2602.13086)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2602.13086)
+
+v1→v2新增LIBERO-Pro评测及明确的UR7e/Robotiq与灵巧手跨本体测试，并形式化有预算上限的AOG恢复。原22.5/25.0个百分点优势不是本次新增收益。 跨本体保留任务级AOG，但仍需替换URDF/关节限位、工具坐标标定、控制器映射及硬件接口适配，不能说完全零配置；灵巧手执行成功率仅53%。
+
+## CRAFT-E: An Interpretable and Editable Neuro-Symbolic Framework for Affordance-Grounded Active Object Retrieval
+
+- [arXiv 2512.04231](https://arxiv.org/abs/2512.04231) · v2 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2512.04231)
+- 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2512.04231)
+
+CRAFT-E v1→v2新增COCO-Tasks迁移、显式图编辑干预及扩展错误分解；动词—属性—物体图及真机检索流水线并非本次新增。 COCO迁移测图像落地，非实体检索。图编辑在查看同集失败后选择，证明可控性而非留出集自主修复。新文说明完整流水线相对GPT-4o差异不显著；监督COCO方法仅作背景，非匹配对照。
 
 ## DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection
 

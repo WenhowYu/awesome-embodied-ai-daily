@@ -2,7 +2,224 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-61 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+92 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## OSWAM: An Effective World Action Model with One-Step Action Generation
+
+- [arXiv 2610.35850](https://arxiv.org/abs/2610.35850) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35850)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35850)
+
+Uses action/scene imagination tokens for structured diffusion initialization and privileged future-conditioned distillation to generate actions in one denoising step. One-step is a speed/quality trade-off, not uniform superiority. Real tests are small; completion time is video-estimated on successes only. H20 and compiled RTX5090 latency numbers use different setups; NAVSIM is not real-road deployment.
+
+## Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy
+
+- [arXiv 2610.35832](https://arxiv.org/abs/2610.35832) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35832)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35832)
+
+EBench profiles Astra direct waypoint control versus selective invocation of frozen VLA/WAM policies under RGB/proprioceptive observations and one annotated demonstration per task. No cross-episode memory. 31/510 episodes use a demonstration from the same test scene. Two tasks allow 3,000 steps direct versus 5,000 hybrid; correcting that changes hybrid means to 52.4%/55.8%. Policy calls cannot receive agent-written subgoals; compute is unbounded and comparisons run once/episode.
+
+## Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent
+
+- [arXiv 2610.35817](https://arxiv.org/abs/2610.35817) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35817)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35817)
+
+ZAP trains a 27B VLM via successful-trace SFT and simulation GRPO to use a shared perception/pose-control tool interface; semantic pretraining and learned motion are tested compositionally without real robot training trajectories. Only 30 real trials/model. Harness supplies SAM3.1 segmentation, calibrated depth-derived 3D readouts and controller feedback; not RGB-only end-to-end control. Real robot calibration informs simulation. Cost assumes one B300 at $7.10/hour; Franka transfer is not real hardware.
+
+## SPECOLA: A Tool for Specification Driven Robot Evaluation
+
+- [arXiv 2610.35730](https://arxiv.org/abs/2610.35730) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35730)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35730)
+
+Specola exposes simulator signals to Signal Temporal Logic monitors, measuring satisfaction margins and persistence alongside task success; provides APIs and adapters for nine simulators/benchmarks. Privileged simulator state and user-written predicates define the conclusions; results do not certify physical safety. Fixed-period monitoring does not yet handle asynchronous, uncertain real sensors. A stricter persistence requirement changes evaluation semantics, not the original benchmark score.
+
+## Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies
+
+- [arXiv 2610.35626](https://arxiv.org/abs/2610.35626) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35626)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35626)
+
+Builds a robot-aligned 3 D Gaussian scene from wrist-camera captures, renders feasible smooth reaching trajectories, and fine-tunes a VLA with an instruction-conditioned proximity verifier for termination. Ten times more synthetic trajectories; under 10 min active capture still entails about 200 min total, comparable to 150-demo teleoperation. Only pre-contact reaching is learned; precision is validated by a fixed downstream grasp routine. Three targets, 25 trials each and moderate motherboard repositioning do not establish arbitrary layout or contact-task generalization.
+
+## RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies
+
+- [arXiv 2610.35604](https://arxiv.org/abs/2610.35604) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35604)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35604)
+
+RoboDoctor connects diagnosis, policy/agent control allocation, selective intervention and contact-method revision through persistent records of rationale, attempted methods, outcomes and reuse conditions. Retrospective highest-score selection mixes source runs without uniform versions, checkpoints or inference budgets. Warmup already uses assistance and memory. No matched reset-memory control, consolidated cost analysis or real-robot validation; results do not establish causal memory benefit.
+
+## Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data
+
+- [arXiv 2610.35075](https://arxiv.org/abs/2610.35075) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35075)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35075)
+
+Uses smartphone scene reconstruction, agentic simulation construction and motion/environment co-adaptation to generate humanoid manipulation data without real robot demonstrations. The headline 20-point advantage compares unequal demonstration counts. Broader coverage also changes training distribution; it is not a matched-data improvement.
+
+## VISTA: Active Exploration for Self-Improvement in Embodied Agents
+
+- [arXiv 2610.35051](https://arxiv.org/abs/2610.35051) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35051)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35051)
+
+VISTA evolves executable robot-agent harnesses using an ancestry graph, active diagnostic interactions and fresh autonomous evaluation of frozen candidate packages, without updating model weights. Simulation only. Task-specific selection and best-so-far curves do not prove unseen-task generalization or monotonic candidate improvement. Up to 100 planner turns and 10,000 physics steps on LIBERO-Pro/RoboTwin; development compute is substantial and baseline budgets must not be assumed matched.
+
+## JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies
+
+- [arXiv 2610.35010](https://arxiv.org/abs/2610.35010) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.35010)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.35010)
+
+Freezes the base policy and learns a 79, 817-parameter conditional energy; values rank discrete proposals and action gradients refine continuous outputs. Each benchmark trains separate adapter weights and encodings. Simulation only; no matched LoRA comparison. Reported counts are rounded averages over five seeds, not raw independent trial counts. Gains require feedback/expert-derived supervision and benchmark-specific validation; the compact adapter excludes frozen-policy inference and rollout costs.
+
+## VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware
+
+- [arXiv 2610.34717](https://arxiv.org/abs/2610.34717) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34717)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34717)
+
+Profiles 18 released VLA models, 19 configurations and seven inference stages on Jetson AGX Thor and AMD Ryzen AI Max+ PRO 395, separating action generation, backends and host preprocessing. Timing is not a closed-loop success benchmark: inputs are a shared LIBERO observation plus 24 frames from one episode, with 20–100 timed calls. Models retain different native chunk/execution settings. Compilation can change gripper commands; low-bit action similarity does not establish preserved task success.
+
+## RobotAgentBench: Towards Open-world Robot Autonomy
+
+- [arXiv 2610.34649](https://arxiv.org/abs/2610.34649) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34649)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34649)
+
+RobotAgentBench evaluates task discovery, context reasoning, manipulation, recovery and robustness plus open-ended household scenarios, comparing coding, learned and hybrid planning/execution/verification architectures. Scores are capability/scenario aggregates, not a universal task success rate. Main results are simulation; matched physical subsets cover only selected systems, not the best hybrid/RSI rows. Open-ended scores remain low and standalone versus agents differ in interfaces.
+
+## TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning
+
+- [arXiv 2610.34519](https://arxiv.org/abs/2610.34519) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34519)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34519)
+
+A training-free token allocator recomputes a fixed budget, reuses low-drift young KV caches and prunes invalid leftovers; drift thresholds are calibrated per backbone. Two OpenVLA-family backbones, simulation success tests and replay-stream hardware timings; no real-robot closed-loop test. Thresholds are empirically tuned; selected SimplerEnv tasks exclude floor-level full-recompute performance. The 48% headline reduction is prefill, not total control latency.
+
+## Scaling Dexterous Manipulation via Action Representation Pretraining
+
+- [arXiv 2610.34453](https://arxiv.org/abs/2610.34453) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34453)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34453)
+
+ARPG pretrains action representations against visual features on human manipulation data, freezes the encoder, and trains a 130M generative backbone plus decoder in that representation space. DexJoCo baselines are taken from its original paper; real evaluation has three tasks and 30 trials each. Same robot demos do not imply matched optimization: π0.5 uses 25k-step mixed LoRA, while ARPG has separate encoder/decoder training and up to 120k downstream steps. Hours sum clip durations, potentially counting overlaps; open-world semantics and gripper transfer remain untested.
+
+## RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions
+
+- [arXiv 2610.34356](https://arxiv.org/abs/2610.34356) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34356)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34356)
+
+RynnLAM extracts continuous latent actions using residual visual prediction, camera-compensated 3D flow and camera-motion decoupling; a flow-matching VLA learns from 30.1K video hours before native-action adaptation. Full-scale comparisons do not match pretraining data/compute; scaling does not isolate optimization exposure. Geometry is pseudo-labeled, not proof of metric or causal action identification. Real adaptation uses 3,850 demos. Main RoboTwin table/abstract say 88.6%, while the conclusion says 88.3%; no inference-speed benchmark is provided.
+
+## AdaPolicy: Action-Driven Anticipatory Robot Policies via Next-Chunk Prediction
+
+- [arXiv 2610.34280](https://arxiv.org/abs/2610.34280) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34280)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34280)
+
+Adds a training-only EMA action head that predicts the next action chunk from an evolved latent state; its loss backpropagates through that state into the online policy, without future-image supervision. Real precision tasks use 1, 000/400 demonstrations, with human takeover corrections comprising 20% of each dataset; both methods use the same combined data. These are supervised anticipatory features, not evidence of autonomous online world-model adaptation; zero inference overhead is relative to the matched architecture.
+
+## Variational Cognitive Memory Abstraction for Long-Horizon Vision-Language-Action Models
+
+- [arXiv 2610.34251](https://arxiv.org/abs/2610.34251) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34251)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34251)
+
+CogMemory adds a 3.45M-parameter history module: a selective state-space encoder, multi-slot temporal aggregation and variational compression, followed by gated cross-attention retrieval into two VLA fusion architectures. Simulation only and appendix specifies one seed (42), without multi-seed uncertainty. Policies and memory are optimized end-to-end for 30k steps on eight L20X GPUs, not an inference-only memory add-on. Best validation checkpoints are selected every 1k steps. Claimed 21.2→12.9s efficiency is task execution time on jointly successful cases, not measured model latency.
+
+## HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience
+
+- [arXiv 2610.34186](https://arxiv.org/abs/2610.34186) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34186)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34186)
+
+Trains OFT-, GR00T- and π-style humanoid policies on 2,087 hours of human/simulated/robot data, predicting SONIC whole-body motion tokens plus hand signals; simulation supplies pseudo-proprioception and rendering replaces human arms during adaptation. One real task, fixed pretrained whole-body controller and full-parameter downstream tuning. Visual adaptation adds only two successful trials; pseudo-proprioception hurts OFT because its text state is truncated. Reported stages 1–2 take about 38+12 hours on eight GPUs; gains do not isolate additional data from pretraining compute.
+
+## PS-DLO: Property- and Spatially Aware Deformable Linear Object Manipulation Policy
+
+- [arXiv 2610.34147](https://arxiv.org/abs/2610.34147) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34147)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34147)
+
+Conditions deformable-linear-object policies on textual physical-property priors and distills future visual features into an action expert. Separate policies are trained for different embodiments. Future observations are used in training, not an online predictive world-model interface.
+
+## RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models
+
+- [arXiv 2610.34108](https://arxiv.org/abs/2610.34108) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34108)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34108)
+
+RoboDuo lets a full-task VLA attempt the task, checks completion, then uses a separately trained atomic VLA through generated code to recover unfinished steps while keeping the full-task policy frozen. Not training-free overall: atomic policy and completion-checking coding agent use derived demonstration datasets. Gains shrink with five-suite training; real evaluation is one task family with small counts. Published reference rows use different protocols and are not matched reruns.
+
+## X-World: Transferring Video Priors to Variable-View Robot Control
+
+- [arXiv 2610.34105](https://arxiv.org/abs/2610.34105) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34105)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34105)
+
+Transfers a video backbone to variable-view control with residual cross-view attention, a layer-aligned Q-Former and shared action expert with native dataset interfaces. Reference baselines do not match pretraining data/compute. Camera, background and noise shifts remain weaker than OpenVLA-OFT; LIBERO-Plus weighting is unspecified. One physical platform, no demonstrated unseen-embodiment transfer.
+
+## TurboWAM: Learning What Matters for Fast World Action Models
+
+- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33941)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33941)
+
+Selectively aggregates early world-model layers conditioned on noisy actions and modulates action gradients during training, retaining video co-training without test-time video generation. Benchmarks have unmatched embodied pretraining across methods. Prompt-corrected results must not be conflated with the original protocol. Layer structure is architectural, not explicit 3D geometry; latency alone does not establish safe control. GPU model is unspecified (approximately 140GB data-center GPU). Physical-robot experiments are referred to supplementary material; their quantitative results were not established in the checked text.
+
+## Late Breaking Results: Audio-Language-Action Models with Direct Speech Conditioning for Robotic Manipulation
+
+- [arXiv 2610.33866](https://arxiv.org/abs/2610.33866) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33866)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33866)
+
+Speech-π0.5 pools a frozen speech encoder into 32 VLM tokens and uses separate audio/task LoRA adapters, with speech–text distillation followed by action training. Two-page DAC late-breaking report; simulation and synthetic voices only, 500 episodes per suite/condition. The 3× latency gain trades off lower success than ASR, and timing does not separately account for speech capture or encoder cost. Training uses 100k synthesized instructions; compute/multi-seed details are limited.
+
+## POD-RoPE: Rotary Position Encoding over Physical Observation Distributions for Embodied AI
+
+- [arXiv 2610.33745](https://arxiv.org/abs/2610.33745) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33745)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33745)
+
+Encodes each token’s camera-center, ray-direction and time footprint as a distribution; expected rotations affect attention Q/K matching and coherence-aware V/O aggregation without expanding sequence length. Real evaluation has only 20 trials per task and uses 1, 694 training trajectories, 64 H20 GPUs and the 20 k-step checkpoint. Geometry depends on camera calibration/kinematics; block timing is not robot end-to-end latency, and visual geometry gains are not uniform across tasks.
+
+## EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models
+
+- [arXiv 2610.33685](https://arxiv.org/abs/2610.33685) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33685)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33685)
+
+Factorizes human/robot actions into shared position codes and embodiment-specific kinematics, then co-trains a VLM on shared tokens before robot-action fine-tuning. Adds 50k tokenizer and 30k co-training steps on eight A800s; the baseline omits these stages, so compute is not matched. Real evaluation uses 2,450 demonstrations and only 10 trials per condition. The ablation section inconsistently calls a 73.2% row the same baseline reported as 66.8% in the main table.
+
+## Power-of-Two Leaky Integrate-and-Fire Neurons for Event-Driven Vision-Language-Action Inference
+
+- [arXiv 2610.33658](https://arxiv.org/abs/2610.33658) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33658)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33658)
+
+Replaces selected π0.5 projections with signed power-of-two spiking events and residual membrane state; Heartbeat confines event extraction to each projection while preserving external token/cache interfaces. No measured hardware energy or latency. The 86.95% saving is an illustrative FP32 projection-arithmetic model excluding memory, control and encoding; a matched FP8 model with fixed movement budget estimates only 32.79% subtotal saving at T=1. Evaluation uses one seed and simulation; nonsignificance does not establish equivalence.
+
+## Tiny Recursive Policy: Recursive Latent Refinement for Visuomotor Control
+
+- [arXiv 2610.33288](https://arxiv.org/abs/2610.33288) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33288)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33288)
+
+A small behavior-cloning policy repeatedly refines two shared latent states within each prediction and carries them between control steps; training detaches temporal gradients. Simulation only; LIBERO-Mem reports subgoal completion, not binary task success. Parameters count only the backbone and do not measure inference cost: the default uses three high-level cycles and six low-level refinements. Perturbation training improves robustness but lowers clean Mem score to 0.480.
+
+## AGQ: Action-Guided Ultra-Low-Bit Quantization for Vision-Language-Action Models
+
+- [arXiv 2610.33074](https://arxiv.org/abs/2610.33074) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33074)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33074)
+
+Allocates matrix-level bitwidths using action sensitivity and a measured weight-recovery cost proxy; per-channel calibration and grouped lossless coding reduce storage while weights are recovered to BF16 block by block. One model, simulation only; 150 episodes per suite and timing over ten inputs excludes preprocessing/postprocessing. Baselines are literature reports; the official repository clarifies its 96.9% reference is FP16 despite the paper’s BF16 label. W1.5* means W4 vision plus average-W1.5 language, not a 1.5-bit complete model. Compression increases latency.
+
+## One-shot Human Video-Guided Adaptation for Vision-Language-Action Models
+
+- [arXiv 2610.19746](https://arxiv.org/abs/2610.19746) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.19746)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2610.19746)
+
+v1→v2 adds two adapted video-conditioning baselines, fills previously incomplete ablation results, and replaces the five-trial real-robot table with ten-trial results. Main RoboTwin CapPro performance was already in v1. The added baselines are adaptations to π0.5, not unchanged original systems. Ten trials per physical task remain small; hard sorting succeeds only 20%. One-shot refers to target-time human-video guidance, not training from one demonstration overall; source-task training remains.
+
+## What Can One Sentence Fix? A Failure Taxonomy and a Minimal Language Correction for Frozen VLA Policies
+
+- [arXiv 2608.29967](https://arxiv.org/abs/2608.29967) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2608.29967)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2608.29967)
+
+v1→v2 retitles/reframes CorrectVLA and replaces the small real-robot table with three 10-trial runs per condition, adds long-horizon negative controls, and explicitly separates failure-only retry recovery from all-episode net success. Simulation recoveries of 65/139 and 33/328 are inherited. A person labels the failure mode and writes a timed correction per failing run, taking 40–80 seconds; additional correction rounds may be used. Retry-only simulation success does not establish unconditional policy improvement. The channel fixes magnitude/timing, not missing semantic targets or plans; LIBERO-90 is instruction-OOD, not scene-OOD.
+
+## SentryVLA: Uncertainty-Guided Action Selection and State Monitoring for Vision-Language-Action Robotic Control
+
+- [arXiv 2604.16677](https://arxiv.org/abs/2604.16677) · v2 · [Latest entry](../daily/2026-10-27.md#arxiv-2604.16677)
+- Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2604.16677)
+
+v1→v2 adds a formal marginal-coverage proposition and sharply scopes CQR claims to exchangeable frame–candidate calibration samples; it also adds explicit calibration diagnostics and action-score design details. This is a substantive reliability-claim clarification, not a new safety guarantee. The guarantee does not extend to adaptive selected actions, temporally correlated closed-loop states, shifted distributions or task success. Monitoring thresholds and OOD findings remain empirical. No independent reproduction of the calibration experiment.
+
+## ActECC: Action Chunk Temporal Harnessing for Edge-Cloud Collaborative VLA Inference System
+
+- [arXiv 2603.07949](https://arxiv.org/abs/2603.07949) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2603.07949)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2603.07949)
+
+v2→v3 changes RAPID into ActECC: the emphasis shifts from edge–cloud partitioning to kinematics-guided usable action-chunk ranges and delay-aware replanning scheduling. It replaces the evaluation with π0.5/GR00T N1.5 system results; the prior 1.73× headline is not directly comparable. Evaluation measures deviation from aligned expert trajectories, explicitly not task success. It is a simulation/system study; cloud-only can have lower latency than ActECC. The two headline maxima arise from different comparisons, and should not be combined into one configuration.
 
 ## RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms
 
