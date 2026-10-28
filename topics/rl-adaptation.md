@@ -2,7 +2,133 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-63 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+81 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well
+
+- [arXiv 2610.37652](https://arxiv.org/abs/2610.37652) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37652)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37652)
+
+A sim-trained LEAP pose-reaching policy uses diverse grasp resets and friction curricula, with an adjustable learned residual safety filter.
+
+## When, Where, and What to Correct: Human-Guided Adaptive Residual Correction for Robot Policies
+
+- [arXiv 2610.37547](https://arxiv.org/abs/2610.37547) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37547)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37547)
+
+Human timing and correction geometry constrain residual RL around frozen ACT for local precision repair.
+
+## Predict the Swing, Match the Speed: Robotic Pipe Stabbing With Learned Stereo Vision and Residual Reinforcement Learning
+
+- [arXiv 2610.37535](https://arxiv.org/abs/2610.37535) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37535)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37535)
+
+StabBot combines stereo swing estimation, velocity-matched interception and residual RL for suspended-pipe insertion.
+
+## Learning Quality-Controllable Robot Policies with Iterative Hindsight Relabeling
+
+- [arXiv 2610.37393](https://arxiv.org/abs/2610.37393) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37393)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37393)
+
+Iterative quality relabeling improves successful-trajectory quality and real-task throughput, with online data and conditional-metric caveats.
+
+## VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning
+
+- [arXiv 2610.37378](https://arxiv.org/abs/2610.37378) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37378)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37378)
+
+A simulation-trained RL execution layer improves frozen-VLA obstacle handling, with structured perception and residual real collisions.
+
+## Vision-Language Agents Can Learn in Their Own Latent Worlds
+
+- [arXiv 2610.36925](https://arxiv.org/abs/2610.36925) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36925)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36925)
+
+Latent world-model policy improvement within a frozen VLM; simulated interactive-agent evidence.
+
+## When Black-Box Robot Policies Fail: Online Sensor Diagnosis and Repair with a Transparent Surrogate
+
+- [arXiv 2610.36852](https://arxiv.org/abs/2610.36852) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36852)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36852)
+
+Structured sensor diagnosis improves simulated repair, but clean predictive fit alone does not ensure useful repair.
+
+## When the Critic Falls Behind: Co-Evolving Rubrics and Harnesses for Continual Agent Self-Improvement
+
+- [arXiv 2610.36826](https://arxiv.org/abs/2610.36826) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36826)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36826)
+
+RuHarness co-evolves diagnostic rubrics and executable harnesses while keeping the task objective fixed.
+
+## Select-TTT: Query-Conditioned Selective Fast Weight Updates for In-Place Test-Time Training
+
+- [arXiv 2610.36794](https://arxiv.org/abs/2610.36794) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36794)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36794)
+
+Select-TTT uses the frozen language-model head to score query relevance and reweight in-place fast-weight updates without adding parameters.
+
+## GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers
+
+- [arXiv 2610.36507](https://arxiv.org/abs/2610.36507) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36507)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36507)
+
+Geometry-aware residual adaptation preserves frozen whole-body foundation trackers while learning terrain execution, then distills privileged terrain observations into an onboard-depth adapter.
+
+## CoHARL: Co-Evolving Agent Policies and Executable Harnesses with Reinforcement Learning
+
+- [arXiv 2610.36469](https://arxiv.org/abs/2610.36469) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36469)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36469)
+
+CoHARL jointly trains one shared policy and evolves a population of executable harnesses under fixed evaluators and action families.
+
+## Bridging Exploration and Loss of Plasticity in On-Policy Reinforcement Learning
+
+- [arXiv 2610.36309](https://arxiv.org/abs/2610.36309) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36309)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36309)
+
+Analysis links collapsing Gaussian exploration variance in PPO to sharp/low-rank loss geometry and loss of plasticity; resetting variance helps adaptation.
+
+## Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization
+
+- [arXiv 2610.36270](https://arxiv.org/abs/2610.36270) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36270)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36270)
+
+Phase-conditioned critics, phase-gated rewards and multi-phase resets train one loco-manipulation policy without human-motion demonstrations.
+
+## Rollback: Experience Backtracking in World Models for Policy Improvement
+
+- [arXiv 2610.36068](https://arxiv.org/abs/2610.36068) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36068)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36068)
+
+Counterfactual world-model tree search improves three physical single-task policies.
+
+## Where Small Mistakes Matter: Quantifying State Criticality for Imitation Learning
+
+- [arXiv 2610.17709](https://arxiv.org/abs/2610.17709) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.17709)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.17709)
+
+v1→v2 adds the performance-gap derivation and implementation-level definitions for state-criticality baselines and real-robot adversarial residual learning.
+
+## When Does Test-Time Physical Diagnosis Pay?
+
+- [arXiv 2609.22299](https://arxiv.org/abs/2609.22299) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2609.22299)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2609.22299)
+
+v1→v2 changes the diagnosis of transfer failure: full-trace deployment inputs lie outside the frozen decoder’s training range and collapse its responses.
+
+## RePO-VLA: Recovery-Driven Policy Optimization for Vision-Language-Action Models
+
+- [arXiv 2605.09410](https://arxiv.org/abs/2605.09410) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2605.09410)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2605.09410)
+
+v1→v2 expands recovery-data causal-confusion analysis, matched-budget value-supervision controls, and blinded real-robot perturbation protocols.
+
+## TS-DP: Reinforcement Speculative Decoding For Temporal Adaptive Diffusion Policy Acceleration
+
+- [arXiv 2512.15773](https://arxiv.org/abs/2512.15773) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2512.15773)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2512.15773)
+
+Substantive v2 adds real-time manipulation and fidelity evidence, with NFE accounting explicitly separated from wall-clock speed.
 
 ## Learning Force-Reactive Humanoid Loco-Manipulation
 

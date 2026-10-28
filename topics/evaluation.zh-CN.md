@@ -2,7 +2,371 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-132 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+183 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well
+
+- [arXiv 2610.37652](https://arxiv.org/abs/2610.37652) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37652)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37652)
+
+仿真训练LEAP手内位姿到达策略，采用多样抓取重置与摩擦课程，并叠加可调学习式残差安全滤波器。
+
+## Understanding the limits of latent world models
+
+- [arXiv 2610.37588](https://arxiv.org/abs/2610.37588) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37588)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37588)
+
+以潜空间 rollout 一致性及动力学等变性区分动力学忠实度与任务回报。
+
+## Kinematic Constraint-Referenced Evaluation for Articulated Object Manipulation
+
+- [arXiv 2610.37550](https://arxiv.org/abs/2610.37550) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37550)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37550)
+
+Constraint-Referenced Strategy将指令末端twist投影到已知关节轴，区分沿约束进展与离轴浪费。
+
+## Predict the Swing, Match the Speed: Robotic Pipe Stabbing With Learned Stereo Vision and Residual Reinforcement Learning
+
+- [arXiv 2610.37535](https://arxiv.org/abs/2610.37535) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37535)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37535)
+
+StabBot结合双目摆动估计、速度匹配截获与残差RL处理悬挂管件插入。
+
+## Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use
+
+- [arXiv 2610.37533](https://arxiv.org/abs/2610.37533) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37533)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37533)
+
+承认诊断歧义并升级修复，可优于强制单一故障标签。
+
+## PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations
+
+- [arXiv 2610.37381](https://arxiv.org/abs/2610.37381) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37381)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37381)
+
+世界模型监督物理特征支持VLA取得较高仿真成绩，但尚无真机任务验证。
+
+## Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer
+
+- [arXiv 2610.37330](https://arxiv.org/abs/2610.37330) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37330)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37330)
+
+M-PACT将可复用动作原语代码与本体专属解码器分离，并由上下文模型预测下一原语。
+
+## Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces
+
+- [arXiv 2610.37255](https://arxiv.org/abs/2610.37255) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37255)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37255)
+
+研究 agent 接口如何同时改变可达回报上界与既有策略的不匹配程度。
+
+## Vision-Language-Action or World-Action? Just Action Models
+
+- [arXiv 2610.37219](https://arxiv.org/abs/2610.37219) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37219)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37219)
+
+仅训练期未来特征监督可替代视觉生成，需区分目标选择贡献。
+
+## Remember Where You Walk: Learning Spatial Memory for End-to-End Legged Robot Exploration
+
+- [arXiv 2610.37203](https://arxiv.org/abs/2610.37203) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37203)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37203)
+
+空间记忆改善地图保留而非明显提升覆盖率；真机感知含外部供给。
+
+## Does Your Generalist Skill Optimizer Really Incentivize Agentic Tasks? Rethinking Skill Optimization via Bipartite Attribution
+
+- [arXiv 2610.37201](https://arxiv.org/abs/2610.37201) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37201)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37201)
+
+BiPA 用不编辑候选的选择对照及二部图上下文成本归因，审计技能优化器。
+
+## How Much Can Best-of-N Help a World Action Model? Measuring Selectable Headroom and Realizing It in Closed Loop
+
+- [arXiv 2610.37196](https://arxiv.org/abs/2610.37196) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37196)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37196)
+
+去噪反事实评估与失败门控WAM选择。
+
+## From 12 to 200 Demonstrations: How ACT, Diffusion Policy, SmolVLA and $π_{0.5}$ Scale on a Low-Cost Arm
+
+- [arXiv 2610.37170](https://arxiv.org/abs/2610.37170) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37170)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37170)
+
+低成本臂扩展实验揭示适配配方与评测波动的重要影响，而非通用策略排名。
+
+## GAWM: A Compact Latent World-Action Model for Multi-Task Robot Manipulation
+
+- [arXiv 2610.37091](https://arxiv.org/abs/2610.37091) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37091)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37091)
+
+紧凑latent WAM，需注意任务ID与真机离线评估限制。
+
+## Keeping Contact: Task-Adaptive Friction Margins for Bimanual Non-Prehensile Manipulation
+
+- [arXiv 2610.36961](https://arxiv.org/abs/2610.36961) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36961)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36961)
+
+以有符号摩擦距离构造随任务力矩变化的裕度，用于双臂倾斜接触力规划。
+
+## When Black-Box Robot Policies Fail: Online Sensor Diagnosis and Repair with a Transparent Surrogate
+
+- [arXiv 2610.36852](https://arxiv.org/abs/2610.36852) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36852)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36852)
+
+结构化传感器诊断改善仿真修复，但干净预测拟合不等于有效修复。
+
+## Evolving Agent Teams
+
+- [arXiv 2610.36848](https://arxiv.org/abs/2610.36848) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36848)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36848)
+
+持久经验与监督驱动团队重组在冻结pi0.5周围演化机器人代码技能；RoboDojo保留种子部分得分62.1，需注意单次运行及机器人比较预算未匹配。
+
+## Evaluation-Guided Demonstration Refinement for Vision-Language-Action Policies: The Winning Entry in the MetaFine Open Competition
+
+- [arXiv 2610.36765](https://arxiv.org/abs/2610.36765) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36765)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36765)
+
+任务专用 pi0.5 策略结合常规示范、策略状态上的专家纠正，以及评测驱动的示范细化。
+
+## SWIM: Learning What Matters from Behaviors for JEPA World Models
+
+- [arXiv 2610.36662](https://arxiv.org/abs/2610.36662) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36662)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36662)
+
+行为加权状态监督小幅改善JEPA规划。
+
+## OpenJaws: An Open Hardware UMI Framework with Stereo Localization for Generalist Manipulation
+
+- [arXiv 2610.36598](https://arxiv.org/abs/2610.36598) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36598)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36598)
+
+双目定位UMI硬件面向可靠示范采集，并在两项小规模UR10策略任务上验证。
+
+## LabWorld: Learning Interactive 4D Worlds for Scientific Experimentation
+
+- [arXiv 2610.36592](https://arxiv.org/abs/2610.36592) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36592)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36592)
+
+事件条件实验室重建揭示图像一致性与所建模交互有效性的差异，尚无下游机器人验证。
+
+## RoboAuto: Autonomous Robot Program Search through Multi-Level Physical Understanding
+
+- [arXiv 2610.36533](https://arxiv.org/abs/2610.36533) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36533)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36533)
+
+物理知识、场景落地与实验搜索联合增强程序；真机采用阶段完成评分。
+
+## SO-101 Bench: Accessible Spatial Manipulation
+
+- [arXiv 2610.36420](https://arxiv.org/abs/2610.36420) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36420)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36420)
+
+低成本臂基准在控制适配预算并核对真机排序的条件下，直接检验代码Agent与VLA的互补作用。
+
+## When Retrieval Is Not Enough: Obsolete Facts in Agent Memory
+
+- [arXiv 2610.36308](https://arxiv.org/abs/2610.36308) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36308)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36308)
+
+将检索到最新事实与生成阶段受过时事实干扰这两个问题分开检验。
+
+## ASPEN: Adaptive Semantic Reasoning via Command Persistence Prediction for Efficient Navigation VLAs
+
+- [arXiv 2610.36285](https://arxiv.org/abs/2610.36285) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36285)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36285)
+
+命令持续性调度减少9.5%的冻结导航VLA调用，成功率接近。
+
+## cuArms: GPU-Accelerated Conflict-Based Planning for Multi-Arm Manipulation
+
+- [arXiv 2610.36250](https://arxiv.org/abs/2610.36250) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36250)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36250)
+
+用GPU批量冲突检查与可复用单臂路图，将多臂运动规划接入任务分配及调度搜索。
+
+## Skill Dreaming: Evolving Repository Skills through Pull Request Streams
+
+- [arXiv 2610.36188](https://arxiv.org/abs/2610.36188) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36188)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36188)
+
+Skill Dreaming 从已验证 PR 流中演化仓库技能，并对陈旧或冲突指令进行对齐。
+
+## Program-Level Adversarial Co-Adaptive Self-Play for Robotic Security
+
+- [arXiv 2610.36143](https://arxiv.org/abs/2610.36143) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36143)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36143)
+
+对抗程序共适应能带来局部恢复，但未建立持续鲁棒性。
+
+## Context Is a Pipeline, Not a Window: Information Attrition in LLM Agent Harnesses
+
+- [arXiv 2610.36114](https://arxiv.org/abs/2610.36114) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36114)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36114)
+
+将 agent harness 的信息损失拆为处理流水线，而非把上下文窗口长度等同于可用证据量。
+
+## The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents
+
+- [arXiv 2610.36077](https://arxiv.org/abs/2610.36077) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36077)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36077)
+
+按能力组织Harness演化并迁移到CaP-X/SOON真机；证据是小样本整套配置比较。
+
+## Calibrated for Which Policy? Conformal Uncertainty for Fixed World Models Under Intervention
+
+- [arXiv 2610.35877](https://arxiv.org/abs/2610.35877) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.35877)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.35877)
+
+策略改变也会破坏固定世界模型的不确定性校准。
+
+## WMEval: Evaluating Interactive World Models Grounded on Physical Simulations
+
+- [arXiv 2610.33894](https://arxiv.org/abs/2610.33894) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.33894)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33894) · [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.33894)
+
+WMEval v2 扩展不确定性报告，并澄清相对 Unity 参考的因果效应及初始条件偏离样本处理。
+
+## Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory
+
+- [arXiv 2610.33702](https://arxiv.org/abs/2610.33702) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.33702)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.33702)
+
+Iris v2 增加状态条件化的逐候选视觉编码，并共享分叉状态缓存以支持类型化决策。
+
+## VisCurate: Evaluating Behavioral Equivalence of Visual Skills
+
+- [arXiv 2610.30405](https://arxiv.org/abs/2610.30405) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.30405)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.30405)
+
+VisCurate v2 加强视觉技能库整理的协议披露，包括不相交校准与编辑的沙箱准入。
+
+## BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks
+
+- [arXiv 2610.25459](https://arxiv.org/abs/2610.25459) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.25459)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.25459)
+
+v1→v2删去数据含可精确重置初始状态的声明，并强调跨域及不同指标的排名翻转。
+
+## When Do Discrete Actions Make Good Continuous Controllers?
+
+- [arXiv 2610.20429](https://arxiv.org/abs/2610.20429) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.20429)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.20429)
+
+v1→v2按完整运行配置重新解释动作tokenizer结果，并区分有引导与无引导离散回归。
+
+## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
+
+- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683)
+
+MemWM v2 澄清共享的记忆/动作条件预测、参数核算与规划预算比较。
+
+## Where Small Mistakes Matter: Quantifying State Criticality for Imitation Learning
+
+- [arXiv 2610.17709](https://arxiv.org/abs/2610.17709) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.17709)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.17709)
+
+v1→v2补充性能差距推导、状态关键性基线定义及真机对抗残差学习实现细节。
+
+## GARV: Graph-Aware Refinement and Safety Verification for High-Level Robot Plans
+
+- [arXiv 2610.02662](https://arxiv.org/abs/2610.02662) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.02662)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.02662)
+
+v1→v2从隐藏路径风险审计扩展为基于图动作契约的路径集合认证及最小成本安全细化。
+
+## When Does Test-Time Physical Diagnosis Pay?
+
+- [arXiv 2609.22299](https://arxiv.org/abs/2609.22299) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2609.22299)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2609.22299)
+
+v1→v2重新定位迁移失败原因：完整轨迹部署输入超出冻结解码器训练范围，使其输出塌缩为常数答案。
+
+## MemPrism: Task-Conditioned Relational Memory Views for Long-Horizon Agents
+
+- [arXiv 2608.06745](https://arxiv.org/abs/2608.06745) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2608.06745)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2608.06745)
+
+v2 实质修订 MemPrism：将持久事件存储与任务条件化的临时关系记忆视图分离。
+
+## Experience Memory Graph: Extracting Reusable Correction Knowledge from Agent Trajectories
+
+- [arXiv 2607.13884](https://arxiv.org/abs/2607.13884) · v3 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2607.13884)
+- 收录历史: [2026-10-28 (v3, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2607.13884)
+
+v3 大幅重写 Experience Memory Graph，以失败探索与专家成功轨迹对齐来提取可复用纠正知识。
+
+## From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation
+
+- [arXiv 2606.30749](https://arxiv.org/abs/2606.30749) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2606.30749)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2606.30749)
+
+v1→v2增加UniDex-VLA/Dex1B对照、合成轨迹规模/组成消融、oracle子目标对照及Shadow到LEAP适配细节。
+
+## FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation
+
+- [arXiv 2606.13102](https://arxiv.org/abs/2606.13102) · v4 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2606.13102)
+- 收录历史: [2026-10-28 (v4, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2606.13102)
+
+v3→v4明确Sharpa的22关节到32槽位动作映射，并补充触觉特征探针及数据/算力共同扩展实验。
+
+## FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation
+
+- [arXiv 2606.08555](https://arxiv.org/abs/2606.08555) · v3 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2606.08555)
+- 收录历史: [2026-10-28 (v3, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2606.08555)
+
+v2→v3加入匹配人工干预预算的残差修正基线，并澄清无预测残差消融。
+
+## What Makes Video World Model Latents Action-Relevant: Prediction over Reconstruction
+
+- [arXiv 2606.07687](https://arxiv.org/abs/2606.07687) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2606.07687)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2606.07687)
+
+v2 在全部 26 个留出 LIBERO 任务增加动作打乱和前向动力学对照，检验重建之外的动作相关性。
+
+## Grasp-Then-Plan with Failure Attribution: A Closed Two-Stage Framework for Precise and Generalizable Robotic Manipulation
+
+- [arXiv 2606.03385](https://arxiv.org/abs/2606.03385) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2606.03385)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2606.03385)
+
+v1→v2补充失败归因审计、等数据预算对照和阈值敏感性，明确操作责任与物理因果并不等价。
+
+## RePO-VLA: Recovery-Driven Policy Optimization for Vision-Language-Action Models
+
+- [arXiv 2605.09410](https://arxiv.org/abs/2605.09410) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2605.09410)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2605.09410)
+
+v1→v2扩充恢复数据因果混淆分析、等预算价值监督对照，以及真机盲测扰动协议。
+
+## AWARE: Action-Entropy-Weighted and Attention-Guided Retrieval of Observation Evidence for Vision-Language-Action Models
+
+- [arXiv 2602.18020](https://arxiv.org/abs/2602.18020) · v3 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2602.18020)
+- 收录历史: [2026-10-28 (v3, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2602.18020)
+
+v2→v3以逐动作元素熵/深度加权观测检索替代粗粒度门控，补充诊断替代方案及匹配checkpoint评估。
+
+## DeFM: Learning Foundation Representations from Depth for Robotics
+
+- [arXiv 2601.18923](https://arxiv.org/abs/2601.18923) · v3 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2601.18923)
+- 收录历史: [2026-10-28 (v3, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2601.18923)
+
+v2→v3修订深度编码器分割探针表，并明确超参数协议；不是新增机器人控制结果。
+
+## TS-DP: Reinforcement Speculative Decoding For Temporal Adaptive Diffusion Policy Acceleration
+
+- [arXiv 2512.15773](https://arxiv.org/abs/2512.15773) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2512.15773)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2512.15773)
+
+实质性v2新增实时操作与保真证据，并明确区分NFE计量和实测时延。
+
+## Semantic World Models
+
+- [arXiv 2510.19818](https://arxiv.org/abs/2510.19818) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2510.19818)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2510.19818)
+
+v1→v2新增无基础策略规划、问题措辞/权重消融、VLM生成监督验证、任务分解及明确规划成本测量。
 
 ## Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy
 
@@ -164,13 +528,6 @@ PhysLadder定义16项仿真/真机匹配接触任务，递进考察接触几何�
 - 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33956)
 
 CLE把120项专业流程组织成各五层依赖任务，保留文件/服务状态并使用人工规则；在一次或两次提交预算下评测完整代理。 无机器人任务。基座参数及harness实现固定，允许上下文/记忆变化，不证明递归代码/权重自改进。两trial改变提交预算和反馈，而非只改变学习。固定单一任务顺序、不同代理默认设置及闯关门槛，使结果不能纯归因于记忆迁移。
-
-## WMEval: Evaluating Interactive World Models Grounded on Physical Simulations
-
-- [arXiv 2610.33894](https://arxiv.org/abs/2610.33894) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33894)
-- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33894)
-
-以匹配Unity动作轨迹及物理状态/因果参考，从6个维度评估交互世界模型。 是受控生成视频评测，不是机器人策略训练或真实物理验证。接口差异导致各指标参评模型子集不同；校准后视觉/VLM判据仍有误差。
 
 ## Memory or a Clock? Auditing a Memory Advantage in XLand-MiniGrid with Seeds, Maps and Evaluation Noise Apart
 

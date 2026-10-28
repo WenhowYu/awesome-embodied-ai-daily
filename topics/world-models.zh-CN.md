@@ -2,7 +2,182 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-80 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+104 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
+
+- [arXiv 2610.37666](https://arxiv.org/abs/2610.37666) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37666)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37666)
+
+世界想象奖励使人机视频共享运动token推理。
+
+## Understanding the limits of latent world models
+
+- [arXiv 2610.37588](https://arxiv.org/abs/2610.37588) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37588)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37588)
+
+以潜空间 rollout 一致性及动力学等变性区分动力学忠实度与任务回报。
+
+## World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer
+
+- [arXiv 2610.37518](https://arxiv.org/abs/2610.37518) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37518)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37518)
+
+工作空间共享世界状态协调多机器人动作流。
+
+## Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos
+
+- [arXiv 2610.37509](https://arxiv.org/abs/2610.37509) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37509)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37509)
+
+分离全局未来预测与局部动作监督改善迁移，但真机对照中等量机器人视频仍强于人类视频。
+
+## PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations
+
+- [arXiv 2610.37381](https://arxiv.org/abs/2610.37381) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37381)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37381)
+
+世界模型监督物理特征支持VLA取得较高仿真成绩，但尚无真机任务验证。
+
+## Vision-Language-Action or World-Action? Just Action Models
+
+- [arXiv 2610.37219](https://arxiv.org/abs/2610.37219) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37219)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37219)
+
+仅训练期未来特征监督可替代视觉生成，需区分目标选择贡献。
+
+## How Much Can Best-of-N Help a World Action Model? Measuring Selectable Headroom and Realizing It in Closed Loop
+
+- [arXiv 2610.37196](https://arxiv.org/abs/2610.37196) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37196)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37196)
+
+去噪反事实评估与失败门控WAM选择。
+
+## GAWM: A Compact Latent World-Action Model for Multi-Task Robot Manipulation
+
+- [arXiv 2610.37091](https://arxiv.org/abs/2610.37091) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37091)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37091)
+
+紧凑latent WAM，需注意任务ID与真机离线评估限制。
+
+## Vision-Language Agents Can Learn in Their Own Latent Worlds
+
+- [arXiv 2610.36925](https://arxiv.org/abs/2610.36925) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36925)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36925)
+
+冻结VLM内部的潜在世界模型策略改进，证据来自仿真交互Agent。
+
+## Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models
+
+- [arXiv 2610.36840](https://arxiv.org/abs/2610.36840) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36840)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36840)
+
+未来三维运动辅助监督改善WAM表示，不增加在线运动预测。
+
+## TAPESTRY: A Single Backbone for Video Generation and Robot Control
+
+- [arXiv 2610.36823](https://arxiv.org/abs/2610.36823) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36823)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36823)
+
+共享视频patch动作token实现单步纯动作部署。
+
+## RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions
+
+- [arXiv 2610.36791](https://arxiv.org/abs/2610.36791) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36791)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36791)
+
+统一latent-action视频模型为策略训练提供合成数据。
+
+## SWIM: Learning What Matters from Behaviors for JEPA World Models
+
+- [arXiv 2610.36662](https://arxiv.org/abs/2610.36662) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36662)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36662)
+
+行为加权状态监督小幅改善JEPA规划。
+
+## Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction
+
+- [arXiv 2610.36624](https://arxiv.org/abs/2610.36624) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36624)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36624)
+
+MoGAP 为视频世界模型增加仅训练时使用的运动引导非对称噪声预测，不引入外部教师或额外推理分支。
+
+## LabWorld: Learning Interactive 4D Worlds for Scientific Experimentation
+
+- [arXiv 2610.36592](https://arxiv.org/abs/2610.36592) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36592)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36592)
+
+事件条件实验室重建揭示图像一致性与所建模交互有效性的差异，尚无下游机器人验证。
+
+## SO-101 Bench: Accessible Spatial Manipulation
+
+- [arXiv 2610.36420](https://arxiv.org/abs/2610.36420) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36420)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36420)
+
+低成本臂基准在控制适配预算并核对真机排序的条件下，直接检验代码Agent与VLA的互补作用。
+
+## Rollback: Experience Backtracking in World Models for Policy Improvement
+
+- [arXiv 2610.36068](https://arxiv.org/abs/2610.36068) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36068)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36068)
+
+世界模型反事实树搜索改善三项真机单任务策略。
+
+## E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling
+
+- [arXiv 2610.36011](https://arxiv.org/abs/2610.36011) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36011)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36011)
+
+几何原生未来预测，附小样本真机评测。
+
+## Calibrated for Which Policy? Conformal Uncertainty for Fixed World Models Under Intervention
+
+- [arXiv 2610.35877](https://arxiv.org/abs/2610.35877) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.35877)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.35877)
+
+策略改变也会破坏固定世界模型的不确定性校准。
+
+## WMEval: Evaluating Interactive World Models Grounded on Physical Simulations
+
+- [arXiv 2610.33894](https://arxiv.org/abs/2610.33894) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.33894)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33894) · [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.33894)
+
+WMEval v2 扩展不确定性报告，并澄清相对 Unity 参考的因果效应及初始条件偏离样本处理。
+
+## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
+
+- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683)
+
+MemWM v2 澄清共享的记忆/动作条件预测、参数核算与规划预算比较。
+
+## FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation
+
+- [arXiv 2606.08555](https://arxiv.org/abs/2606.08555) · v3 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2606.08555)
+- 收录历史: [2026-10-28 (v3, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2606.08555)
+
+v2→v3加入匹配人工干预预算的残差修正基线，并澄清无预测残差消融。
+
+## What Makes Video World Model Latents Action-Relevant: Prediction over Reconstruction
+
+- [arXiv 2606.07687](https://arxiv.org/abs/2606.07687) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2606.07687)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2606.07687)
+
+v2 在全部 26 个留出 LIBERO 任务增加动作打乱和前向动力学对照，检验重建之外的动作相关性。
+
+## Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation
+
+- [arXiv 2512.23864](https://arxiv.org/abs/2512.23864) · v5 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2512.23864)
+- 收录历史: [2026-10-28 (v5, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2512.23864)
+
+v4→v5明确由轻量动作条件MLP预测触觉潜变量、预训练触觉世界模型保持冻结，并补充模型/数据扩展与局限分析。
+
+## Semantic World Models
+
+- [arXiv 2510.19818](https://arxiv.org/abs/2510.19818) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2510.19818)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2510.19818)
+
+v1→v2新增无基础策略规划、问题措辞/权重消融、VLM生成监督验证、任务分解及明确规划成本测量。
 
 ## OSWAM: An Effective World Action Model with One-Step Action Generation
 
@@ -108,13 +283,6 @@ WorldPager将int4世界模型KV分存GPU、锁页DRAM和NVMe；依据预测相�
 - 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33941)
 
 按带噪动作聚合世界模型前层表示，并在训练时调节动作梯度；保留视频联合训练而推理不生成未来视频。 各方法具身预训练不匹配；修正提示结果不可与原协议混为一谈。层结构指架构而非显式3D几何，延迟不等于安全控制。 GPU仅描述为约140GB数据中心卡、未指明型号。文中将真机实验指向补充材料，所核正文未建立其定量结果。
-
-## WMEval: Evaluating Interactive World Models Grounded on Physical Simulations
-
-- [arXiv 2610.33894](https://arxiv.org/abs/2610.33894) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33894)
-- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33894)
-
-以匹配Unity动作轨迹及物理状态/因果参考，从6个维度评估交互世界模型。 是受控生成视频评测，不是机器人策略训练或真实物理验证。接口差异导致各指标参评模型子集不同；校准后视觉/VLM判据仍有误差。
 
 ## RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models
 

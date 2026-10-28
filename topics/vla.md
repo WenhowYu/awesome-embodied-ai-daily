@@ -2,7 +2,168 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-92 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+115 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
+
+- [arXiv 2610.37666](https://arxiv.org/abs/2610.37666) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37666)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37666)
+
+World-imagination rewards ground motion-token reasoning across human and robot video.
+
+## Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos
+
+- [arXiv 2610.37509](https://arxiv.org/abs/2610.37509) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37509)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37509)
+
+Separating global future prediction from local action supervision improves transfer; matched robot video remains stronger than human video in real tests.
+
+## Learning Quality-Controllable Robot Policies with Iterative Hindsight Relabeling
+
+- [arXiv 2610.37393](https://arxiv.org/abs/2610.37393) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37393)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37393)
+
+Iterative quality relabeling improves successful-trajectory quality and real-task throughput, with online data and conditional-metric caveats.
+
+## PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations
+
+- [arXiv 2610.37381](https://arxiv.org/abs/2610.37381) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37381)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37381)
+
+World-model-supervised physical features support a VLA with strong reported simulation scores but no real-task validation.
+
+## VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning
+
+- [arXiv 2610.37378](https://arxiv.org/abs/2610.37378) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37378)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37378)
+
+A simulation-trained RL execution layer improves frozen-VLA obstacle handling, with structured perception and residual real collisions.
+
+## Vision-Language-Action or World-Action? Just Action Models
+
+- [arXiv 2610.37219](https://arxiv.org/abs/2610.37219) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37219)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37219)
+
+Training-only foresight can replace visual generation, with target-choice caveats.
+
+## Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution
+
+- [arXiv 2610.37215](https://arxiv.org/abs/2610.37215) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37215)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37215)
+
+Demonstration-graph retrieval enhances frozen-VLA execution, with trained correction modules and important initialization effects.
+
+## From 12 to 200 Demonstrations: How ACT, Diffusion Policy, SmolVLA and $π_{0.5}$ Scale on a Low-Cost Arm
+
+- [arXiv 2610.37170](https://arxiv.org/abs/2610.37170) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37170)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37170)
+
+A small-arm scaling study exposes strong adaptation-recipe and evaluation-variance effects rather than universal policy rankings.
+
+## TAPESTRY: A Single Backbone for Video Generation and Robot Control
+
+- [arXiv 2610.36823](https://arxiv.org/abs/2610.36823) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36823)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36823)
+
+Shared video-patch action tokens enable one-step action-only deployment.
+
+## RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions
+
+- [arXiv 2610.36791](https://arxiv.org/abs/2610.36791) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36791)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36791)
+
+Universal latent-action video modeling supplies synthetic policy-training data.
+
+## Evaluation-Guided Demonstration Refinement for Vision-Language-Action Policies: The Winning Entry in the MetaFine Open Competition
+
+- [arXiv 2610.36765](https://arxiv.org/abs/2610.36765) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36765)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36765)
+
+Task-specific pi0.5 policies combine nominal demonstrations, expert corrections from policy states, and evaluation-guided demonstration refinement.
+
+## TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation
+
+- [arXiv 2610.36694](https://arxiv.org/abs/2610.36694) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36694)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36694)
+
+Task-conditioned flow-source shaping improves one-step manipulation policies; benchmark category coverage differs between main and π0.5 experiments.
+
+## RoboSTD: Zero-Shot Single-to-Dual Transfer via Sagittal Mirroring for Bimanual Learning
+
+- [arXiv 2610.36685](https://arxiv.org/abs/2610.36685) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36685)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36685)
+
+Mirrored single-arm demonstrations plus coordination constraints train bimanual policies without new target bimanual collection.
+
+## SO-101 Bench: Accessible Spatial Manipulation
+
+- [arXiv 2610.36420](https://arxiv.org/abs/2610.36420) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36420)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36420)
+
+A low-cost-arm benchmark directly tests code-agent/VLA complementarity under controlled adaptation budgets and real-robot ranking checks.
+
+## ASPEN: Adaptive Semantic Reasoning via Command Persistence Prediction for Efficient Navigation VLAs
+
+- [arXiv 2610.36285](https://arxiv.org/abs/2610.36285) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36285)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36285)
+
+Command-persistence scheduling reduces frozen navigation-VLA calls by 9.5% with similar success.
+
+## OmniBrain-0: A Unified Agentic Model for Embodied Intelligence
+
+- [arXiv 2610.36013](https://arxiv.org/abs/2610.36013) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36013)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36013)
+
+OmniBrain-0 consolidates expert agent trajectories into one high-level model with on-policy distillation and rubric-guided self-improvement, retaining specialist low-level skills.
+
+## When Do Discrete Actions Make Good Continuous Controllers?
+
+- [arXiv 2610.20429](https://arxiv.org/abs/2610.20429) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.20429)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.20429)
+
+v1→v2 sharpens the interpretation of alternative action tokenizers by comparing complete operating points and distinguishing guided from unguided discrete regression.
+
+## Where Small Mistakes Matter: Quantifying State Criticality for Imitation Learning
+
+- [arXiv 2610.17709](https://arxiv.org/abs/2610.17709) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.17709)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.17709)
+
+v1→v2 adds the performance-gap derivation and implementation-level definitions for state-criticality baselines and real-robot adversarial residual learning.
+
+## FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation
+
+- [arXiv 2606.13102](https://arxiv.org/abs/2606.13102) · v4 · [Latest entry](../daily/2026-10-28.md#arxiv-2606.13102)
+- Coverage history: [2026-10-28 (v4, revised)](../daily/2026-10-28.md#arxiv-2606.13102)
+
+v3→v4 specifies the 22-joint Sharpa-to-32-slot action mapping and adds tactile-feature probes and joint data/compute scaling experiments.
+
+## What Makes Video World Model Latents Action-Relevant: Prediction over Reconstruction
+
+- [arXiv 2606.07687](https://arxiv.org/abs/2606.07687) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2606.07687)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2606.07687)
+
+v2 adds action-shuffled and forward-dynamics controls across all 26 held-out LIBERO tasks to study action relevance beyond reconstruction.
+
+## RePO-VLA: Recovery-Driven Policy Optimization for Vision-Language-Action Models
+
+- [arXiv 2605.09410](https://arxiv.org/abs/2605.09410) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2605.09410)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2605.09410)
+
+v1→v2 expands recovery-data causal-confusion analysis, matched-budget value-supervision controls, and blinded real-robot perturbation protocols.
+
+## AWARE: Action-Entropy-Weighted and Attention-Guided Retrieval of Observation Evidence for Vision-Language-Action Models
+
+- [arXiv 2602.18020](https://arxiv.org/abs/2602.18020) · v3 · [Latest entry](../daily/2026-10-28.md#arxiv-2602.18020)
+- Coverage history: [2026-10-28 (v3, revised)](../daily/2026-10-28.md#arxiv-2602.18020)
+
+v2→v3 replaces coarse uncertainty gating with element-wise entropy/depth-weighted observation retrieval and adds diagnostic alternatives and expanded matched-checkpoint evaluation.
+
+## Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation
+
+- [arXiv 2512.23864](https://arxiv.org/abs/2512.23864) · v5 · [Latest entry](../daily/2026-10-28.md#arxiv-2512.23864)
+- Coverage history: [2026-10-28 (v5, revised)](../daily/2026-10-28.md#arxiv-2512.23864)
+
+v4→v5 clarifies that a lightweight action-conditioned forecasting MLP predicts tactile latents while the pretrained tactile world model stays frozen; it adds capacity/data scaling and an explicit limitations section.
 
 ## OSWAM: An Effective World Action Model with One-Step Action Generation
 

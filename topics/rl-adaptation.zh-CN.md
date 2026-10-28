@@ -2,7 +2,133 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-63 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+81 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well
+
+- [arXiv 2610.37652](https://arxiv.org/abs/2610.37652) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37652)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37652)
+
+仿真训练LEAP手内位姿到达策略，采用多样抓取重置与摩擦课程，并叠加可调学习式残差安全滤波器。
+
+## When, Where, and What to Correct: Human-Guided Adaptive Residual Correction for Robot Policies
+
+- [arXiv 2610.37547](https://arxiv.org/abs/2610.37547) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37547)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37547)
+
+人工时机与纠正几何约束冻结ACT外围残差RL，针对局部精度修复。
+
+## Predict the Swing, Match the Speed: Robotic Pipe Stabbing With Learned Stereo Vision and Residual Reinforcement Learning
+
+- [arXiv 2610.37535](https://arxiv.org/abs/2610.37535) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37535)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37535)
+
+StabBot结合双目摆动估计、速度匹配截获与残差RL处理悬挂管件插入。
+
+## Learning Quality-Controllable Robot Policies with Iterative Hindsight Relabeling
+
+- [arXiv 2610.37393](https://arxiv.org/abs/2610.37393) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37393)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37393)
+
+迭代质量重标注改善成功轨迹质量与真机吞吐量，但须保留在线数据成本与条件指标限制。
+
+## VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning
+
+- [arXiv 2610.37378](https://arxiv.org/abs/2610.37378) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37378)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37378)
+
+仿真训练RL执行层改善冻结VLA避障，但依赖结构化感知且真机仍有碰撞。
+
+## Vision-Language Agents Can Learn in Their Own Latent Worlds
+
+- [arXiv 2610.36925](https://arxiv.org/abs/2610.36925) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36925)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36925)
+
+冻结VLM内部的潜在世界模型策略改进，证据来自仿真交互Agent。
+
+## When Black-Box Robot Policies Fail: Online Sensor Diagnosis and Repair with a Transparent Surrogate
+
+- [arXiv 2610.36852](https://arxiv.org/abs/2610.36852) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36852)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36852)
+
+结构化传感器诊断改善仿真修复，但干净预测拟合不等于有效修复。
+
+## When the Critic Falls Behind: Co-Evolving Rubrics and Harnesses for Continual Agent Self-Improvement
+
+- [arXiv 2610.36826](https://arxiv.org/abs/2610.36826) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36826)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36826)
+
+RuHarness 在固定任务目标下共同演化诊断 rubric 与可执行 harness。
+
+## Select-TTT: Query-Conditioned Selective Fast Weight Updates for In-Place Test-Time Training
+
+- [arXiv 2610.36794](https://arxiv.org/abs/2610.36794) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36794)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36794)
+
+Select-TTT 用冻结语言模型输出头评估查询相关性，重加权原位 fast-weight 更新，不增加参数。
+
+## GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers
+
+- [arXiv 2610.36507](https://arxiv.org/abs/2610.36507) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36507)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36507)
+
+几何感知残差适应保持全身基础跟踪器冻结，学习地形执行，再将特权地形观测蒸馏为机载深度适配器。
+
+## CoHARL: Co-Evolving Agent Policies and Executable Harnesses with Reinforcement Learning
+
+- [arXiv 2610.36469](https://arxiv.org/abs/2610.36469) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36469)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36469)
+
+CoHARL 在固定评估器和动作族下共同训练共享策略并演化可执行 harness 种群。
+
+## Bridging Exploration and Loss of Plasticity in On-Policy Reinforcement Learning
+
+- [arXiv 2610.36309](https://arxiv.org/abs/2610.36309) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36309)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36309)
+
+分析将PPO高斯探索方差塌缩与尖锐/低秩损失几何及可塑性丧失联系，并用方差重置改善适应。
+
+## Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization
+
+- [arXiv 2610.36270](https://arxiv.org/abs/2610.36270) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36270)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36270)
+
+通过阶段条件critic、阶段门控奖励和多阶段重置，在无需人类动作示范的条件下训练统一移动操作策略。
+
+## Rollback: Experience Backtracking in World Models for Policy Improvement
+
+- [arXiv 2610.36068](https://arxiv.org/abs/2610.36068) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36068)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36068)
+
+世界模型反事实树搜索改善三项真机单任务策略。
+
+## Where Small Mistakes Matter: Quantifying State Criticality for Imitation Learning
+
+- [arXiv 2610.17709](https://arxiv.org/abs/2610.17709) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.17709)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.17709)
+
+v1→v2补充性能差距推导、状态关键性基线定义及真机对抗残差学习实现细节。
+
+## When Does Test-Time Physical Diagnosis Pay?
+
+- [arXiv 2609.22299](https://arxiv.org/abs/2609.22299) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2609.22299)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2609.22299)
+
+v1→v2重新定位迁移失败原因：完整轨迹部署输入超出冻结解码器训练范围，使其输出塌缩为常数答案。
+
+## RePO-VLA: Recovery-Driven Policy Optimization for Vision-Language-Action Models
+
+- [arXiv 2605.09410](https://arxiv.org/abs/2605.09410) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2605.09410)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2605.09410)
+
+v1→v2扩充恢复数据因果混淆分析、等预算价值监督对照，以及真机盲测扰动协议。
+
+## TS-DP: Reinforcement Speculative Decoding For Temporal Adaptive Diffusion Policy Acceleration
+
+- [arXiv 2512.15773](https://arxiv.org/abs/2512.15773) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2512.15773)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2512.15773)
+
+实质性v2新增实时操作与保真证据，并明确区分NFE计量和实测时延。
 
 ## Learning Force-Reactive Humanoid Loco-Manipulation
 

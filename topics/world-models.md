@@ -2,7 +2,182 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-80 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+104 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
+
+- [arXiv 2610.37666](https://arxiv.org/abs/2610.37666) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37666)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37666)
+
+World-imagination rewards ground motion-token reasoning across human and robot video.
+
+## Understanding the limits of latent world models
+
+- [arXiv 2610.37588](https://arxiv.org/abs/2610.37588) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37588)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37588)
+
+Separates faithful dynamics from reward attainment using latent rollout consistency and dynamics equivariance.
+
+## World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer
+
+- [arXiv 2610.37518](https://arxiv.org/abs/2610.37518) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37518)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37518)
+
+Workspace-aligned shared world state coordinates multiple robot action streams.
+
+## Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos
+
+- [arXiv 2610.37509](https://arxiv.org/abs/2610.37509) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37509)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37509)
+
+Separating global future prediction from local action supervision improves transfer; matched robot video remains stronger than human video in real tests.
+
+## PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations
+
+- [arXiv 2610.37381](https://arxiv.org/abs/2610.37381) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37381)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37381)
+
+World-model-supervised physical features support a VLA with strong reported simulation scores but no real-task validation.
+
+## Vision-Language-Action or World-Action? Just Action Models
+
+- [arXiv 2610.37219](https://arxiv.org/abs/2610.37219) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37219)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37219)
+
+Training-only foresight can replace visual generation, with target-choice caveats.
+
+## How Much Can Best-of-N Help a World Action Model? Measuring Selectable Headroom and Realizing It in Closed Loop
+
+- [arXiv 2610.37196](https://arxiv.org/abs/2610.37196) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37196)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37196)
+
+Denoised counterfactual evaluation and fail-gated WAM selection.
+
+## GAWM: A Compact Latent World-Action Model for Multi-Task Robot Manipulation
+
+- [arXiv 2610.37091](https://arxiv.org/abs/2610.37091) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37091)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37091)
+
+Compact latent WAM; task-ID and offline real-robot evaluation caveats matter.
+
+## Vision-Language Agents Can Learn in Their Own Latent Worlds
+
+- [arXiv 2610.36925](https://arxiv.org/abs/2610.36925) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36925)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36925)
+
+Latent world-model policy improvement within a frozen VLM; simulated interactive-agent evidence.
+
+## Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models
+
+- [arXiv 2610.36840](https://arxiv.org/abs/2610.36840) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36840)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36840)
+
+Auxiliary future 3D motion improves WAM features without online motion prediction.
+
+## TAPESTRY: A Single Backbone for Video Generation and Robot Control
+
+- [arXiv 2610.36823](https://arxiv.org/abs/2610.36823) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36823)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36823)
+
+Shared video-patch action tokens enable one-step action-only deployment.
+
+## RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions
+
+- [arXiv 2610.36791](https://arxiv.org/abs/2610.36791) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36791)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36791)
+
+Universal latent-action video modeling supplies synthetic policy-training data.
+
+## SWIM: Learning What Matters from Behaviors for JEPA World Models
+
+- [arXiv 2610.36662](https://arxiv.org/abs/2610.36662) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36662)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36662)
+
+Behavior-weighted state supervision modestly improves JEPA planning.
+
+## Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction
+
+- [arXiv 2610.36624](https://arxiv.org/abs/2610.36624) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36624)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36624)
+
+MoGAP adds training-only asymmetric motion-guided noise prediction to video world models without an external teacher or extra inference branch.
+
+## LabWorld: Learning Interactive 4D Worlds for Scientific Experimentation
+
+- [arXiv 2610.36592](https://arxiv.org/abs/2610.36592) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36592)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36592)
+
+Event-conditioned laboratory reconstruction exposes the mismatch between image agreement and modeled interaction validity, without downstream robot validation.
+
+## SO-101 Bench: Accessible Spatial Manipulation
+
+- [arXiv 2610.36420](https://arxiv.org/abs/2610.36420) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36420)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36420)
+
+A low-cost-arm benchmark directly tests code-agent/VLA complementarity under controlled adaptation budgets and real-robot ranking checks.
+
+## Rollback: Experience Backtracking in World Models for Policy Improvement
+
+- [arXiv 2610.36068](https://arxiv.org/abs/2610.36068) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36068)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36068)
+
+Counterfactual world-model tree search improves three physical single-task policies.
+
+## E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling
+
+- [arXiv 2610.36011](https://arxiv.org/abs/2610.36011) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36011)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36011)
+
+Geometry-native future prediction with small-trial real-robot evaluation.
+
+## Calibrated for Which Policy? Conformal Uncertainty for Fixed World Models Under Intervention
+
+- [arXiv 2610.35877](https://arxiv.org/abs/2610.35877) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.35877)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.35877)
+
+Policy changes can invalidate fixed world-model uncertainty calibration.
+
+## WMEval: Evaluating Interactive World Models Grounded on Physical Simulations
+
+- [arXiv 2610.33894](https://arxiv.org/abs/2610.33894) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.33894)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33894) · [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.33894)
+
+WMEval v2 expands uncertainty reporting and clarifies causal effects relative to a Unity reference and the treatment of divergent initial conditions.
+
+## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
+
+- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.19683)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.19683)
+
+MemWM v2 clarifies shared memory/action-conditioned prediction, parameter accounting and planning-budget comparisons.
+
+## FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation
+
+- [arXiv 2606.08555](https://arxiv.org/abs/2606.08555) · v3 · [Latest entry](../daily/2026-10-28.md#arxiv-2606.08555)
+- Coverage history: [2026-10-28 (v3, revised)](../daily/2026-10-28.md#arxiv-2606.08555)
+
+v2→v3 adds residual-correction baselines under matched intervention budgets and clarifies the no-prediction residual ablation.
+
+## What Makes Video World Model Latents Action-Relevant: Prediction over Reconstruction
+
+- [arXiv 2606.07687](https://arxiv.org/abs/2606.07687) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2606.07687)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2606.07687)
+
+v2 adds action-shuffled and forward-dynamics controls across all 26 held-out LIBERO tasks to study action relevance beyond reconstruction.
+
+## Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation
+
+- [arXiv 2512.23864](https://arxiv.org/abs/2512.23864) · v5 · [Latest entry](../daily/2026-10-28.md#arxiv-2512.23864)
+- Coverage history: [2026-10-28 (v5, revised)](../daily/2026-10-28.md#arxiv-2512.23864)
+
+v4→v5 clarifies that a lightweight action-conditioned forecasting MLP predicts tactile latents while the pretrained tactile world model stays frozen; it adds capacity/data scaling and an explicit limitations section.
+
+## Semantic World Models
+
+- [arXiv 2510.19818](https://arxiv.org/abs/2510.19818) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2510.19818)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2510.19818)
+
+v1→v2 adds no-base-policy planning, question phrasing/weighting ablations, VLM-generated supervision checks, task decomposition, and explicit planning-cost measurements.
 
 ## OSWAM: An Effective World Action Model with One-Step Action Generation
 
@@ -108,13 +283,6 @@ Connects spatial VQA, target grounding and VLA execution while separating target
 - Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33941)
 
 Selectively aggregates early world-model layers conditioned on noisy actions and modulates action gradients during training, retaining video co-training without test-time video generation. Benchmarks have unmatched embodied pretraining across methods. Prompt-corrected results must not be conflated with the original protocol. Layer structure is architectural, not explicit 3D geometry; latency alone does not establish safe control. GPU model is unspecified (approximately 140GB data-center GPU). Physical-robot experiments are referred to supplementary material; their quantitative results were not established in the checked text.
-
-## WMEval: Evaluating Interactive World Models Grounded on Physical Simulations
-
-- [arXiv 2610.33894](https://arxiv.org/abs/2610.33894) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33894)
-- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33894)
-
-Evaluates interactive world models against matched Unity action trajectories and physical-state/causal references across six dimensions. Controlled generated-video evaluation, not robot policy training or real physics validation. Different interfaces allow different model subsets per metric; learned vision/VLM evaluators remain imperfect despite calibration.
 
 ## RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models
 

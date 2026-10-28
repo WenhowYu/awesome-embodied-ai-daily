@@ -4,6 +4,7 @@
 
 Full dated entries preserve experimental conditions and limitations. Later revisions do not erase earlier records.
 
+- [2026-10-28](2026-10-28.md): 59 new, 22 revised, 0 supplemental
 - [2026-10-27](2026-10-27.md): 71 new, 22 revised, 0 supplemental
 - [2026-10-26](2026-10-26.md): 34 new, 11 revised, 0 supplemental
 - [2026-10-23](2026-10-23.md): 25 new, 5 revised, 0 supplemental

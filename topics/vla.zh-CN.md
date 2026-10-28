@@ -2,7 +2,168 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-92 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+115 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
+
+- [arXiv 2610.37666](https://arxiv.org/abs/2610.37666) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37666)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37666)
+
+世界想象奖励使人机视频共享运动token推理。
+
+## Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos
+
+- [arXiv 2610.37509](https://arxiv.org/abs/2610.37509) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37509)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37509)
+
+分离全局未来预测与局部动作监督改善迁移，但真机对照中等量机器人视频仍强于人类视频。
+
+## Learning Quality-Controllable Robot Policies with Iterative Hindsight Relabeling
+
+- [arXiv 2610.37393](https://arxiv.org/abs/2610.37393) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37393)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37393)
+
+迭代质量重标注改善成功轨迹质量与真机吞吐量，但须保留在线数据成本与条件指标限制。
+
+## PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations
+
+- [arXiv 2610.37381](https://arxiv.org/abs/2610.37381) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37381)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37381)
+
+世界模型监督物理特征支持VLA取得较高仿真成绩，但尚无真机任务验证。
+
+## VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning
+
+- [arXiv 2610.37378](https://arxiv.org/abs/2610.37378) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37378)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37378)
+
+仿真训练RL执行层改善冻结VLA避障，但依赖结构化感知且真机仍有碰撞。
+
+## Vision-Language-Action or World-Action? Just Action Models
+
+- [arXiv 2610.37219](https://arxiv.org/abs/2610.37219) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37219)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37219)
+
+仅训练期未来特征监督可替代视觉生成，需区分目标选择贡献。
+
+## Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution
+
+- [arXiv 2610.37215](https://arxiv.org/abs/2610.37215) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37215)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37215)
+
+示范图检索增强冻结VLA执行，但另训修正模块且初始化校正贡献重要。
+
+## From 12 to 200 Demonstrations: How ACT, Diffusion Policy, SmolVLA and $π_{0.5}$ Scale on a Low-Cost Arm
+
+- [arXiv 2610.37170](https://arxiv.org/abs/2610.37170) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.37170)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.37170)
+
+低成本臂扩展实验揭示适配配方与评测波动的重要影响，而非通用策略排名。
+
+## TAPESTRY: A Single Backbone for Video Generation and Robot Control
+
+- [arXiv 2610.36823](https://arxiv.org/abs/2610.36823) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36823)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36823)
+
+共享视频patch动作token实现单步纯动作部署。
+
+## RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions
+
+- [arXiv 2610.36791](https://arxiv.org/abs/2610.36791) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36791)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36791)
+
+统一latent-action视频模型为策略训练提供合成数据。
+
+## Evaluation-Guided Demonstration Refinement for Vision-Language-Action Policies: The Winning Entry in the MetaFine Open Competition
+
+- [arXiv 2610.36765](https://arxiv.org/abs/2610.36765) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36765)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36765)
+
+任务专用 pi0.5 策略结合常规示范、策略状态上的专家纠正，以及评测驱动的示范细化。
+
+## TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation
+
+- [arXiv 2610.36694](https://arxiv.org/abs/2610.36694) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36694)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36694)
+
+任务条件流源塑形改善单步操作策略；主实验与π0.5扩展的评测类别覆盖不同。
+
+## RoboSTD: Zero-Shot Single-to-Dual Transfer via Sagittal Mirroring for Bimanual Learning
+
+- [arXiv 2610.36685](https://arxiv.org/abs/2610.36685) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36685)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36685)
+
+镜像单臂示范结合协作约束，在不新增目标双臂采集的条件下训练双臂策略。
+
+## SO-101 Bench: Accessible Spatial Manipulation
+
+- [arXiv 2610.36420](https://arxiv.org/abs/2610.36420) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36420)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36420)
+
+低成本臂基准在控制适配预算并核对真机排序的条件下，直接检验代码Agent与VLA的互补作用。
+
+## ASPEN: Adaptive Semantic Reasoning via Command Persistence Prediction for Efficient Navigation VLAs
+
+- [arXiv 2610.36285](https://arxiv.org/abs/2610.36285) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36285)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36285)
+
+命令持续性调度减少9.5%的冻结导航VLA调用，成功率接近。
+
+## OmniBrain-0: A Unified Agentic Model for Embodied Intelligence
+
+- [arXiv 2610.36013](https://arxiv.org/abs/2610.36013) · v1 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.36013)
+- 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36013)
+
+OmniBrain-0 以 on-policy 蒸馏和 rubric 引导自改进将专家 agent 轨迹整合为统一高层模型，仍保留专用低层技能。
+
+## When Do Discrete Actions Make Good Continuous Controllers?
+
+- [arXiv 2610.20429](https://arxiv.org/abs/2610.20429) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.20429)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.20429)
+
+v1→v2按完整运行配置重新解释动作tokenizer结果，并区分有引导与无引导离散回归。
+
+## Where Small Mistakes Matter: Quantifying State Criticality for Imitation Learning
+
+- [arXiv 2610.17709](https://arxiv.org/abs/2610.17709) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.17709)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.17709)
+
+v1→v2补充性能差距推导、状态关键性基线定义及真机对抗残差学习实现细节。
+
+## FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation
+
+- [arXiv 2606.13102](https://arxiv.org/abs/2606.13102) · v4 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2606.13102)
+- 收录历史: [2026-10-28 (v4, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2606.13102)
+
+v3→v4明确Sharpa的22关节到32槽位动作映射，并补充触觉特征探针及数据/算力共同扩展实验。
+
+## What Makes Video World Model Latents Action-Relevant: Prediction over Reconstruction
+
+- [arXiv 2606.07687](https://arxiv.org/abs/2606.07687) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2606.07687)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2606.07687)
+
+v2 在全部 26 个留出 LIBERO 任务增加动作打乱和前向动力学对照，检验重建之外的动作相关性。
+
+## RePO-VLA: Recovery-Driven Policy Optimization for Vision-Language-Action Models
+
+- [arXiv 2605.09410](https://arxiv.org/abs/2605.09410) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2605.09410)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2605.09410)
+
+v1→v2扩充恢复数据因果混淆分析、等预算价值监督对照，以及真机盲测扰动协议。
+
+## AWARE: Action-Entropy-Weighted and Attention-Guided Retrieval of Observation Evidence for Vision-Language-Action Models
+
+- [arXiv 2602.18020](https://arxiv.org/abs/2602.18020) · v3 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2602.18020)
+- 收录历史: [2026-10-28 (v3, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2602.18020)
+
+v2→v3以逐动作元素熵/深度加权观测检索替代粗粒度门控，补充诊断替代方案及匹配checkpoint评估。
+
+## Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation
+
+- [arXiv 2512.23864](https://arxiv.org/abs/2512.23864) · v5 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2512.23864)
+- 收录历史: [2026-10-28 (v5, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2512.23864)
+
+v4→v5明确由轻量动作条件MLP预测触觉潜变量、预训练触觉世界模型保持冻结，并补充模型/数据扩展与局限分析。
 
 ## OSWAM: An Effective World Action Model with One-Step Action Generation
 

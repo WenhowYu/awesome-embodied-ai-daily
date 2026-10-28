@@ -2,7 +2,224 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-95 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+126 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use
+
+- [arXiv 2610.37533](https://arxiv.org/abs/2610.37533) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37533)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37533)
+
+Admitting diagnostic ambiguity and escalating repairs can outperform forcing a single failure label.
+
+## Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer
+
+- [arXiv 2610.37330](https://arxiv.org/abs/2610.37330) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37330)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37330)
+
+M-PACT factorizes reusable primitive motion codes and adapts an embodiment-specific decoder; contextual models predict the next primitive.
+
+## Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces
+
+- [arXiv 2610.37255](https://arxiv.org/abs/2610.37255) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37255)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37255)
+
+Studies how an agent interface changes both its attainable return and the mismatch of an already trained policy.
+
+## Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution
+
+- [arXiv 2610.37215](https://arxiv.org/abs/2610.37215) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37215)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37215)
+
+Demonstration-graph retrieval enhances frozen-VLA execution, with trained correction modules and important initialization effects.
+
+## Remember Where You Walk: Learning Spatial Memory for End-to-End Legged Robot Exploration
+
+- [arXiv 2610.37203](https://arxiv.org/abs/2610.37203) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37203)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37203)
+
+Spatial memory improves retained-map reconstruction, not clearly maze coverage; real sensing is externally supplied.
+
+## Does Your Generalist Skill Optimizer Really Incentivize Agentic Tasks? Rethinking Skill Optimization via Bipartite Attribution
+
+- [arXiv 2610.37201](https://arxiv.org/abs/2610.37201) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.37201)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.37201)
+
+BiPA audits skill optimizers using unchanged-candidate selection controls and bipartite attribution of context costs.
+
+## Evolving Agent Teams
+
+- [arXiv 2610.36848](https://arxiv.org/abs/2610.36848) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36848)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36848)
+
+Persistent experience and supervisor-driven team restructuring evolve robot code skills around frozen pi0.5; RoboDojo held-out partial-credit score 62.1, with single-run and unmatched robot-budget caveats.
+
+## When the Critic Falls Behind: Co-Evolving Rubrics and Harnesses for Continual Agent Self-Improvement
+
+- [arXiv 2610.36826](https://arxiv.org/abs/2610.36826) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36826)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36826)
+
+RuHarness co-evolves diagnostic rubrics and executable harnesses while keeping the task objective fixed.
+
+## Select-TTT: Query-Conditioned Selective Fast Weight Updates for In-Place Test-Time Training
+
+- [arXiv 2610.36794](https://arxiv.org/abs/2610.36794) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36794)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36794)
+
+Select-TTT uses the frozen language-model head to score query relevance and reweight in-place fast-weight updates without adding parameters.
+
+## Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
+
+- [arXiv 2610.36615](https://arxiv.org/abs/2610.36615) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36615)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36615)
+
+HumiTransfer preserves interaction-relative geometry while retargeting human videos and optimizing balance/contact; HumiMimic supplies human–humanoid motion data.
+
+## RoboAuto: Autonomous Robot Program Search through Multi-Level Physical Understanding
+
+- [arXiv 2610.36533](https://arxiv.org/abs/2610.36533) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36533)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36533)
+
+Physical knowledge, grounding and experimental search jointly improve robot programs; real results use stage-completion scoring.
+
+## GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers
+
+- [arXiv 2610.36507](https://arxiv.org/abs/2610.36507) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36507)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36507)
+
+Geometry-aware residual adaptation preserves frozen whole-body foundation trackers while learning terrain execution, then distills privileged terrain observations into an onboard-depth adapter.
+
+## CoHARL: Co-Evolving Agent Policies and Executable Harnesses with Reinforcement Learning
+
+- [arXiv 2610.36469](https://arxiv.org/abs/2610.36469) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36469)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36469)
+
+CoHARL jointly trains one shared policy and evolves a population of executable harnesses under fixed evaluators and action families.
+
+## Whole-Body Humanoid Control via Stochastic Motion Tokenization
+
+- [arXiv 2610.36452](https://arxiv.org/abs/2610.36452) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36452)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36452)
+
+A stochastic discrete motion tokenizer connects autoregressive motion composition to a latent-conditioned whole-body tracking policy.
+
+## SO-101 Bench: Accessible Spatial Manipulation
+
+- [arXiv 2610.36420](https://arxiv.org/abs/2610.36420) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36420)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36420)
+
+A low-cost-arm benchmark directly tests code-agent/VLA complementarity under controlled adaptation budgets and real-robot ranking checks.
+
+## HIDRA: Hierarchical Dual-Routing Attention for Replay-Free Lifelong Imitation Learning
+
+- [arXiv 2610.36374](https://arxiv.org/abs/2610.36374) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36374)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36374)
+
+Hierarchical regularized routing improves replay-free lifelong imitation; current code link is README-only.
+
+## Bridging Exploration and Loss of Plasticity in On-Policy Reinforcement Learning
+
+- [arXiv 2610.36309](https://arxiv.org/abs/2610.36309) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36309)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36309)
+
+Analysis links collapsing Gaussian exploration variance in PPO to sharp/low-rank loss geometry and loss of plasticity; resetting variance helps adaptation.
+
+## When Retrieval Is Not Enough: Obsolete Facts in Agent Memory
+
+- [arXiv 2610.36308](https://arxiv.org/abs/2610.36308) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36308)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36308)
+
+Separates retrieval coverage from stale-fact interference when an agent must use updated memory.
+
+## Skill Dreaming: Evolving Repository Skills through Pull Request Streams
+
+- [arXiv 2610.36188](https://arxiv.org/abs/2610.36188) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36188)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36188)
+
+Skill Dreaming evolves repository skills from validated pull-request streams, including alignment of stale or conflicting instructions.
+
+## Program-Level Adversarial Co-Adaptive Self-Play for Robotic Security
+
+- [arXiv 2610.36143](https://arxiv.org/abs/2610.36143) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36143)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36143)
+
+Adversarial program co-adaptation produces local recovery but not sustained robustness.
+
+## Context Is a Pipeline, Not a Window: Information Attrition in LLM Agent Harnesses
+
+- [arXiv 2610.36114](https://arxiv.org/abs/2610.36114) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36114)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36114)
+
+Models information loss across an agent harness pipeline rather than treating nominal context-window length as usable evidence.
+
+## The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents
+
+- [arXiv 2610.36077](https://arxiv.org/abs/2610.36077) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36077)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36077)
+
+Capability-organized harness evolution with CaP-X/SOON robot transfer; configuration-level, small-sample evidence.
+
+## OmniBrain-0: A Unified Agentic Model for Embodied Intelligence
+
+- [arXiv 2610.36013](https://arxiv.org/abs/2610.36013) · v1 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.36013)
+- Coverage history: [2026-10-28 (v1, new)](../daily/2026-10-28.md#arxiv-2610.36013)
+
+OmniBrain-0 consolidates expert agent trajectories into one high-level model with on-policy distillation and rubric-guided self-improvement, retaining specialist low-level skills.
+
+## Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory
+
+- [arXiv 2610.33702](https://arxiv.org/abs/2610.33702) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.33702)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.33702)
+
+Iris v2 adds state-conditioned, separately encoded visual candidates with a shared forked-state cache for typed decisions.
+
+## VisCurate: Evaluating Behavioral Equivalence of Visual Skills
+
+- [arXiv 2610.30405](https://arxiv.org/abs/2610.30405) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.30405)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.30405)
+
+VisCurate v2 strengthens protocol disclosure for visual skill-library curation, including disjoint calibration and sandbox admission of edits.
+
+## GARV: Graph-Aware Refinement and Safety Verification for High-Level Robot Plans
+
+- [arXiv 2610.02662](https://arxiv.org/abs/2610.02662) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.02662)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.02662)
+
+v1→v2 extends a hidden-path hazard audit into route-set certification and minimum-cost safe refinement with graph-grounded action contracts.
+
+## When Does Test-Time Physical Diagnosis Pay?
+
+- [arXiv 2609.22299](https://arxiv.org/abs/2609.22299) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2609.22299)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2609.22299)
+
+v1→v2 changes the diagnosis of transfer failure: full-trace deployment inputs lie outside the frozen decoder’s training range and collapse its responses.
+
+## MemPrism: Task-Conditioned Relational Memory Views for Long-Horizon Agents
+
+- [arXiv 2608.06745](https://arxiv.org/abs/2608.06745) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2608.06745)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2608.06745)
+
+v2 substantially revises MemPrism: a persistent event store is separated from temporary task-conditioned relational memory views.
+
+## Experience Memory Graph: Extracting Reusable Correction Knowledge from Agent Trajectories
+
+- [arXiv 2607.13884](https://arxiv.org/abs/2607.13884) · v3 · [Latest entry](../daily/2026-10-28.md#arxiv-2607.13884)
+- Coverage history: [2026-10-28 (v3, revised)](../daily/2026-10-28.md#arxiv-2607.13884)
+
+v3 substantially rewrites Experience Memory Graph around reusable correction knowledge extracted by aligning failed exploration and expert-success trajectories.
+
+## Grasp-Then-Plan with Failure Attribution: A Closed Two-Stage Framework for Precise and Generalizable Robotic Manipulation
+
+- [arXiv 2606.03385](https://arxiv.org/abs/2606.03385) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2606.03385)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2606.03385)
+
+v1→v2 strengthens failure-attribution audits, matched data-budget controls, threshold sensitivity, and the boundary between operational responsibility and physical causality.
+
+## AWARE: Action-Entropy-Weighted and Attention-Guided Retrieval of Observation Evidence for Vision-Language-Action Models
+
+- [arXiv 2602.18020](https://arxiv.org/abs/2602.18020) · v3 · [Latest entry](../daily/2026-10-28.md#arxiv-2602.18020)
+- Coverage history: [2026-10-28 (v3, revised)](../daily/2026-10-28.md#arxiv-2602.18020)
+
+v2→v3 replaces coarse uncertainty gating with element-wise entropy/depth-weighted observation retrieval and adds diagnostic alternatives and expanded matched-checkpoint evaluation.
 
 ## Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy
 
