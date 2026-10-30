@@ -2,7 +2,161 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-104 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+125 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## world2vec: Mechanistic world models through latent dynamics learning
+
+- [arXiv 2610.40637](https://arxiv.org/abs/2610.40637) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40637)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40637)
+
+不使用奖励信息学习动作条件潜在动力学，目标是兼顾紧凑性和长期预测保真度。
+
+## L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory
+
+- [arXiv 2610.40614](https://arxiv.org/abs/2610.40614) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40614)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40614)
+
+维护存储 VAE 特征的紧凑三维高斯记忆，直接在潜空间渲染条件。
+
+## PhysVLMM: Interaction-Conditioned Physical Belief Maps for Articulated Objects in Robot Scene Maps
+
+- [arXiv 2610.40539](https://arxiv.org/abs/2610.40539) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40539)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40539)
+
+PhysVLMM 为场景图中关节部件维护不确定物理信念，用实测拉动更新，将证据传给相似未测部件，并对风险约束动作查询作答或弃权。
+
+## Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors
+
+- [arXiv 2610.40401](https://arxiv.org/abs/2610.40401) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40401)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40401)
+
+CoAWM 跨本体和采样率预训练共享潜在动作函数空间，再由世界模型骨干条件化该函数；查询任意时间获得末端动作。
+
+## HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model
+
+- [arXiv 2610.40373](https://arxiv.org/abs/2610.40373) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40373)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40373)
+
+HiFOR 通过分层依赖掩码联合预测短期状态、语义里程碑和最终目标；按时间视野、视角和空间组织潜在未来，让动作 token 在去噪时检索所需信息。
+
+## Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement
+
+- [arXiv 2610.40191](https://arxiv.org/abs/2610.40191) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40191)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40191)
+
+报告以运行时状态、工具、反馈和预算组织视频智能体，并区分不同层次的自我改进。
+
+## RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence
+
+- [arXiv 2610.40026](https://arxiv.org/abs/2610.40026) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40026)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40026)
+
+RoboSeed 将能力、训练成本、部署成本、本地研究价值证据与复现证据分成明确维度，用固定锚点和预算偏好构建画像。
+
+## LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks
+
+- [arXiv 2610.40016](https://arxiv.org/abs/2610.40016) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40016)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40016)
+
+LOGIV 在现有策略之上加入条件支撑与资源顺序图，持续检查先前动作效果是否仍成立，追踪失效依赖，并联合验证局部修复与保留的未完成计划。
+
+## PASA-KV: Attacking Action-Facing Visual Routes in World Action Models
+
+- [arXiv 2610.39816](https://arxiv.org/abs/2610.39816) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39816)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39816)
+
+PASA-KV 研究 WAM 视觉 KV 路径的对抗脆弱性；Tail-AV 探针寻找动作查询真正依赖的路径，而不是把潜变量变化幅度等同于行为损害。
+
+## GROME: GROunding Factorized MEmory into Video World Models
+
+- [arXiv 2610.39812](https://arxiv.org/abs/2610.39812) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39812)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39812)
+
+分离静态几何和动态实体，检索局部证据，并向冻结视频世界模型注入记忆。
+
+## WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration
+
+- [arXiv 2610.39721](https://arxiv.org/abs/2610.39721) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39721)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39721)
+
+用自适应相机控制智能体测试长时一致性，而非只评估固定短视频。
+
+## From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models
+
+- [arXiv 2610.39543](https://arxiv.org/abs/2610.39543) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39543)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39543)
+
+CoRAct 将运动描述和未来路点变成动作对齐奖励；共享 Transformer 建模推理、动作及动作条件未来，并用组相对优化调整初始动作噪声，使执行符合预期后果。
+
+## PRIME W0: Physical Priors from World Models for Embodied Manipulation
+
+- [arXiv 2610.39528](https://arxiv.org/abs/2610.39528) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39528)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39528)
+
+PRIME W0 结合逐层 VLM KV 条件、异步子目标图像预测、冻结 DINOv2 历史编码及自适应 MoE 流动作解码器；动作噪声协方差来自示范相关结构。
+
+## Utility-WAM: Correcting Future-Induced Action Changes
+
+- [arXiv 2610.39367](https://arxiv.org/abs/2610.39367) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39367)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39367)
+
+Utility-WAM审计想象未来造成的动作变化，以残差适配器修复有害增量，并由离线效用门控跳过低收益未来生成。
+
+## WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining
+
+- [arXiv 2610.39278](https://arxiv.org/abs/2610.39278) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39278)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39278)
+
+WorldFlow 以对齐的位移 token 和 rectified-flow 混合 Transformer 联合预测视频与查询式 3D 轨迹，并以 WorldFlowBench 测试几何未来预测。
+
+## Seeing and Imagining as One: Unified Video Generation and 4D Perception for Embodied World Modeling
+
+- [arXiv 2610.39232](https://arxiv.org/abs/2610.39232) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39232)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39232)
+
+GenSight 在一个预训练视频 DiT 内，以任务调制和统一速度目标联合建模未来视频、深度、本体分割及相对首帧的 2D 光流。
+
+## Generating Critic-Guided Synthetic Experience in Latent World Models
+
+- [arXiv 2610.39100](https://arxiv.org/abs/2610.39100) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39100)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39100)
+
+用 critic 改进的合成动作微调离线 flow actor，冻结 LeWM 动力学与 critic。存储单步转移，但生成可串联至 40 个模型步。
+
+## Context Compaction for World Models
+
+- [arXiv 2610.38980](https://arxiv.org/abs/2610.38980) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38980)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38980)
+
+将世界一致性视为上下文检索问题，在 agent harness 层压缩上下文。
+
+## SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control
+
+- [arXiv 2610.38508](https://arxiv.org/abs/2610.38508) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38508)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38508)
+
+SaiVLA-JEPA区分当前预测编码器特征的收益与未来潜变量训练的收益，并分别审计上下文适配与参数更新。
+
+## Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
+
+- [arXiv 2610.38266](https://arxiv.org/abs/2610.38266) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38266)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38266)
+
+综述区分学习者能力改善与继承改进流程；L0–L3框架分别对应任务内适配、持久能力、流程修订继承及验证过的改进器收益。
+
+## When More Planning Hurts: Learned Planners for World Models
+
+- [arXiv 2610.37891](https://arxiv.org/abs/2610.37891) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.37891)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.37891)
+
+小型学习动作更新器检验更积极优化世界模型代价是否反而损害控制，并明确报告自身未达到预先设定的任务—成本标准。
+
+## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
+
+- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.34051)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34051) · [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2610.34051)
+
+BEHAVIOR-Spatial 分开评价空间问答、目标定位和动作执行。v2 修订定位及导航问答数值，主要操作/动作成绩未变。
 
 ## ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
 
@@ -269,13 +423,6 @@ WorldPager将int4世界模型KV分存GPU、锁页DRAM和NVMe；依据预测相�
 - 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34105)
 
 通过残差跨视角注意力、层对齐Q-Former及共享动作专家，将视频骨干迁移到可变视角控制；保留各数据集原生接口。 对比基线预训练数据/算力不匹配；相机、背景、噪声扰动弱于OpenVLA-OFT，LIBERO-Plus汇总权重未说明。只有一种真机平台，未证明未见形态迁移。
-
-## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
-
-- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34051)
-- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34051)
-
-连接空间问答、目标定位与VLA执行，并区分选对目标意图与严格任务完成。 完全仿真；摘要头条数字是软意图指标，不是任务完成率。理想定位属特权信息，超时预算及手臂—目标相关性影响解释。
 
 ## TurboWAM: Learning What Matters for Fast World Action Models
 

@@ -2,7 +2,161 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-104 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+125 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## world2vec: Mechanistic world models through latent dynamics learning
+
+- [arXiv 2610.40637](https://arxiv.org/abs/2610.40637) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40637)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40637)
+
+Learns action-conditioned latent dynamics without reward information; authors claim compact models with faithful long-horizon prediction.
+
+## L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory
+
+- [arXiv 2610.40614](https://arxiv.org/abs/2610.40614) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40614)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40614)
+
+Updates compact 3D Gaussian memory storing VAE features, rendering conditioning directly in latent space.
+
+## PhysVLMM: Interaction-Conditioned Physical Belief Maps for Articulated Objects in Robot Scene Maps
+
+- [arXiv 2610.40539](https://arxiv.org/abs/2610.40539) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40539)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40539)
+
+PhysVLMM attaches uncertainty-aware physical beliefs to articulated scene-map parts, updates them from measured pulls, transfers evidence to similar untested parts and answers risk-bounded action queries or abstains.
+
+## Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors
+
+- [arXiv 2610.40401](https://arxiv.org/abs/2610.40401) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40401)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40401)
+
+CoAWM learns a shared latent action-function space across embodiments and sampling rates, then conditions that function through a world-model backbone; querying a time returns an end-effector command.
+
+## HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model
+
+- [arXiv 2610.40373](https://arxiv.org/abs/2610.40373) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40373)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40373)
+
+HiFOR predicts short-term states, semantic milestones and final goals with a hierarchical dependency mask, organizes latent futures by horizon/view/space, and lets evolving action tokens retrieve relevant future information during denoising.
+
+## Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement
+
+- [arXiv 2610.40191](https://arxiv.org/abs/2610.40191) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40191)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40191)
+
+A report organizes agentic video systems around runtime state, tools, feedback, budgets, and distinct levels of self-improvement.
+
+## RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence
+
+- [arXiv 2610.40026](https://arxiv.org/abs/2610.40026) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40026)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40026)
+
+RoboSeed separates capability, training cost, deployment cost, local research-value evidence and reproduction evidence into explicit profiles with fixed scoring anchors and budget-dependent preferences.
+
+## LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks
+
+- [arXiv 2610.40016](https://arxiv.org/abs/2610.40016) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40016)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40016)
+
+LOGIV adds an explicit condition-support/resource-order graph above existing policies. It checks whether earlier effects remain valid, traces failed dependencies, and symbolically validates local repair together with the retained unfinished plan.
+
+## PASA-KV: Attacking Action-Facing Visual Routes in World Action Models
+
+- [arXiv 2610.39816](https://arxiv.org/abs/2610.39816) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39816)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39816)
+
+PASA-KV studies adversarial vulnerability at WAM visual key/value pathways. Its Tail-AV probe selects representations that action queries actually depend on, instead of treating large latent displacement as equivalent to behavioral damage.
+
+## GROME: GROunding Factorized MEmory into Video World Models
+
+- [arXiv 2610.39812](https://arxiv.org/abs/2610.39812) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39812)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39812)
+
+Separates static geometry from dynamic entities, retrieves local evidence, and injects memory into a frozen video world model.
+
+## WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration
+
+- [arXiv 2610.39721](https://arxiv.org/abs/2610.39721) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39721)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39721)
+
+An adaptive camera-control agent probes long-horizon consistency rather than scoring only fixed short videos.
+
+## From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models
+
+- [arXiv 2610.39543](https://arxiv.org/abs/2610.39543) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39543)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39543)
+
+CoRAct turns movement descriptions and future waypoints into action-alignment rewards. A shared transformer predicts reasoning, actions and action-conditioned futures; group-relative optimization steers initial action noise toward matching the stated consequences.
+
+## PRIME W0: Physical Priors from World Models for Embodied Manipulation
+
+- [arXiv 2610.39528](https://arxiv.org/abs/2610.39528) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39528)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39528)
+
+PRIME W0 combines per-layer VLM key/value conditioning, asynchronous subgoal-image prediction, frozen-DINOv2 history tokens and an adaptive-MoE flow action decoder. Covariance-shaped action noise encodes correlations from demonstrations.
+
+## Utility-WAM: Correcting Future-Induced Action Changes
+
+- [arXiv 2610.39367](https://arxiv.org/abs/2610.39367) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39367)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39367)
+
+Utility-WAM audits the action change caused by imagined futures, repairs harmful deltas with a residual adapter, and skips future generation when an offline utility gate predicts little benefit.
+
+## WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining
+
+- [arXiv 2610.39278](https://arxiv.org/abs/2610.39278) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39278)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39278)
+
+WorldFlow jointly predicts video and query-based 3D trajectories with aligned displacement tokens and a rectified-flow mixture-of-transformers. WorldFlowBench evaluates geometry-sensitive future prediction.
+
+## Seeing and Imagining as One: Unified Video Generation and 4D Perception for Embodied World Modeling
+
+- [arXiv 2610.39232](https://arxiv.org/abs/2610.39232) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39232)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39232)
+
+GenSight jointly models future video, depth, embodiment segmentation and first-frame-relative 2D flow in one pretrained video DiT with task modulation and a common velocity objective.
+
+## Generating Critic-Guided Synthetic Experience in Latent World Models
+
+- [arXiv 2610.39100](https://arxiv.org/abs/2610.39100) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39100)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39100)
+
+Fine-tunes an offline flow actor on critic-refined synthetic actions with frozen LeWM dynamics and critic. Stored transitions are one-step, but generation can chain up to 40 model steps.
+
+## Context Compaction for World Models
+
+- [arXiv 2610.38980](https://arxiv.org/abs/2610.38980) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38980)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38980)
+
+Treats world consistency as a context-retrieval problem and compacts context at the agent-harness layer.
+
+## SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control
+
+- [arXiv 2610.38508](https://arxiv.org/abs/2610.38508) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38508)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38508)
+
+SaiVLA-JEPA distinguishes gains from current predictive-encoder features from gains due to future-latent training, and separately audits context adaptation and parameter updates.
+
+## Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
+
+- [arXiv 2610.38266](https://arxiv.org/abs/2610.38266) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38266)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38266)
+
+This survey distinguishes improving a learner from inheriting a revised improvement process. Its L0–L3 rubric separates task-local adaptation, persistent capability, inherited process revisions and verified improver gains.
+
+## When More Planning Hurts: Learned Planners for World Models
+
+- [arXiv 2610.37891](https://arxiv.org/abs/2610.37891) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.37891)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.37891)
+
+A small learned action updater probes whether minimizing a learned world-model objective more aggressively can worsen actual control. The paper foregrounds its own unsuccessful preregistered task-cost criterion.
+
+## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
+
+- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.34051)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34051) · [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2610.34051)
+
+BEHAVIOR-Spatial separates spatial QA, target grounding and action execution. v2 revises grounding and navigation-VQA values while leaving the headline manipulation/action results unchanged.
 
 ## ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
 
@@ -269,13 +423,6 @@ Learns a history-based proprioceptive neural dynamics model with forward-kinemat
 - Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34105)
 
 Transfers a video backbone to variable-view control with residual cross-view attention, a layer-aligned Q-Former and shared action expert with native dataset interfaces. Reference baselines do not match pretraining data/compute. Camera, background and noise shifts remain weaker than OpenVLA-OFT; LIBERO-Plus weighting is unspecified. One physical platform, no demonstrated unseen-embodiment transfer.
-
-## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
-
-- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34051)
-- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34051)
-
-Connects spatial VQA, target grounding and VLA execution while separating target-selection intention from strict task completion. Entirely simulated. Headline abstract rates are soft intention measures, not task completion. Oracle grounding is privileged; task timeouts and hand-target correlations affect interpretation.
 
 ## TurboWAM: Learning What Matters for Fast World Action Models
 

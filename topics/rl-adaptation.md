@@ -2,7 +2,189 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-81 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+107 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## world2vec: Mechanistic world models through latent dynamics learning
+
+- [arXiv 2610.40637](https://arxiv.org/abs/2610.40637) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40637)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40637)
+
+Learns action-conditioned latent dynamics without reward information; authors claim compact models with faithful long-horizon prediction.
+
+## Gym-Anything for Robotics: Scaling physical simulations with digital agents
+
+- [arXiv 2610.40565](https://arxiv.org/abs/2610.40565) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40565)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40565)
+
+Gym-Anything uses coding agents and adversarial audits to create physics simulations and tasks; accumulated Markdown lessons improve later builds. RoboWorld contains 25 simulations, 25 test tasks and 175 training environments, including liquids, cloth and chemistry.
+
+## Gaussian Distillation of Flow Policies
+
+- [arXiv 2610.40271](https://arxiv.org/abs/2610.40271) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40271)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40271)
+
+Gaussian Action Readout replaces a flow policy output layer with a Gaussian model while freezing its backbone, providing one-pass sampling and closed-form likelihoods.
+
+## Escaping Path Mirages in Offline Goal-Conditioned Reinforcement Learning
+
+- [arXiv 2610.40130](https://arxiv.org/abs/2610.40130) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40130)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40130)
+
+Branch-aware graph planning avoids spurious successful offline trajectories caused by stochastic branching.
+
+## Coupled Guidance for Flow Matching
+
+- [arXiv 2610.40109](https://arxiv.org/abs/2610.40109) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40109)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40109)
+
+Coupled Guidance derives flow-specific sampling control from the training coupling rather than directly importing diffusion guidance, aiming to avoid destabilizing that coupling.
+
+## How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function
+
+- [arXiv 2610.40002](https://arxiv.org/abs/2610.40002) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40002)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40002)
+
+CoC-CFG treats reasoning strength as a per-denoising-step control variable between reasoning-conditioned and reasoning-removed predictions. With fixed expert and noise, completed rollouts measure action values that train small conservative guidance critics.
+
+## Teaching a Tree to Recover: Online Distillation of an LLM Supervisor with Counterfactual Replay
+
+- [arXiv 2610.39775](https://arxiv.org/abs/2610.39775) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39775)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39775)
+
+An LLM recovery supervisor is distilled online into a decision tree; counterfactual episode replays identify unnecessary or harmful interventions and retire corresponding rules. The learned tree replaces repeated runtime LLM calls on familiar states.
+
+## From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models
+
+- [arXiv 2610.39543](https://arxiv.org/abs/2610.39543) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39543)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39543)
+
+CoRAct turns movement descriptions and future waypoints into action-alignment rewards. A shared transformer predicts reasoning, actions and action-conditioned futures; group-relative optimization steers initial action noise toward matching the stated consequences.
+
+## Before the Next Rollout: Diagnosing Skill Utility Shifts from Policy Updates
+
+- [arXiv 2610.39358](https://arxiv.org/abs/2610.39358) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39358)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39358)
+
+Uses policy-change readouts on saved contexts to prioritize skills whose utility is declining.
+
+## Event2Reward: Learning Robotic Rewards from Progress Relations
+
+- [arXiv 2610.39212](https://arxiv.org/abs/2610.39212) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39212)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39212)
+
+Event2Reward uses relative progress relations from stalls, regressions and recoveries to prevent reward models from rewarding backwards movement, while temporal labels anchor the overall scale.
+
+## Generating Critic-Guided Synthetic Experience in Latent World Models
+
+- [arXiv 2610.39100](https://arxiv.org/abs/2610.39100) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39100)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39100)
+
+Fine-tunes an offline flow actor on critic-refined synthetic actions with frozen LeWM dynamics and critic. Stored transitions are one-step, but generation can chain up to 40 model steps.
+
+## Robotic Data Inoculation
+
+- [arXiv 2610.39054](https://arxiv.org/abs/2610.39054) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39054)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39054)
+
+Data Inoculation learns residual perturbations during human teleoperation so corrections cover states likely to be visited by the eventual learned policy.
+
+## Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand
+
+- [arXiv 2610.39044](https://arxiv.org/abs/2610.39044) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39044)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39044)
+
+Catch It All learns camera-driven dexterous catching in simulation with grasp rewards and safety-aware curricula, then deploys without real-policy tuning.
+
+## Force-Driven Hook Disassembly via Constraint-Aware Object-Centric Reinforcement Learning
+
+- [arXiv 2610.38513](https://arxiv.org/abs/2610.38513) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38513)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38513)
+
+A robot-agnostic object-centric RL policy uses force history and particle-filter beliefs to infer feasible extraction directions for hidden hook constraints.
+
+## SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control
+
+- [arXiv 2610.38508](https://arxiv.org/abs/2610.38508) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38508)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38508)
+
+SaiVLA-JEPA distinguishes gains from current predictive-encoder features from gains due to future-latent training, and separately audits context adaptation and parameter updates.
+
+## ELEVATE: Agentic Controller Acquisition from Task Failure for Quadrupedal Manipulation
+
+- [arXiv 2610.38388](https://arxiv.org/abs/2610.38388) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38388)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38388)
+
+ELEVATE responds to persistent task-program failure by asking a coding agent to train missing controllers, validate them and add reusable skills. This expands the available action repertoire instead of endlessly replanning over fixed tools.
+
+## CSO: Refining Robotic Policies via Skill Distribution Alignment and Skill-Grained Optimization
+
+- [arXiv 2610.38357](https://arxiv.org/abs/2610.38357) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38357)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38357)
+
+CSO post-trains discrete-skill policies in two stages: align skill distributions with successful online trajectories, then optimize skill-level clipped ratios with the observation encoder frozen.
+
+## Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
+
+- [arXiv 2610.38266](https://arxiv.org/abs/2610.38266) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38266)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38266)
+
+This survey distinguishes improving a learner from inheriting a revised improvement process. Its L0–L3 rubric separates task-local adaptation, persistent capability, inherited process revisions and verified improver gains.
+
+## ParaTTT: Parallelizing Test-Time Training Layers with Deep Memories
+
+- [arXiv 2610.38255](https://arxiv.org/abs/2610.38255) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38255)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38255)
+
+Parallelizes nonlinear neural memories by iterative refinement of the online gradient trajectory.
+
+## Learning from Relative Action Credit for Escaping Local Minima
+
+- [arXiv 2610.38034](https://arxiv.org/abs/2610.38034) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38034)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38034)
+
+Relative action credit augments PPO with an action-conditioned critic comparing executed actions with alternatives at the same state, seeking to escape partial-solution plateaus.
+
+## Echo: Scaling Visual Reinforcement Learning with Off-policy Experience
+
+- [arXiv 2610.37865](https://arxiv.org/abs/2610.37865) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.37865)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.37865)
+
+Echo amortizes visual RL cost by having a state-only auxiliary actor imitate the visual actor and collect unrendered off-policy experience for their privileged critic.
+
+## VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon
+
+- [arXiv 2607.01804](https://arxiv.org/abs/2607.01804) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2607.01804)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2607.01804)
+
+VLA-Corrector combines learned latent-dynamics monitoring, event-triggered chunk truncation and recovery-directed gradient guidance without updating the VLA backbone. Revision adds deployment cost accounting and a direct asynchronous, matched-call RTC comparison.
+
+## GUI-AC: Enhancing Continual Learning in GUI Agents
+
+- [arXiv 2606.10522](https://arxiv.org/abs/2606.10522) · v3 · [Latest entry](../daily/2026-10-30.md#arxiv-2606.10522)
+- Coverage history: [2026-10-30 (v3, revised)](../daily/2026-10-30.md#arxiv-2606.10522)
+
+GUI-AC targets continual grounding under interface-domain and resolution shifts with rollout-specific advantage and clipping updates. v2 uniformly downweighted low-certainty groups; v3 amplifies negative advantages only for high-probability failures. Upper clipping expands only for low-probability positive-advantage exploration; lower clipping stays fixed. Probability ratio now uses old rollout policy, not reference policy.
+
+## Train the Agent, Not the Expert: Learning to Harness Heterogeneous Experts for Multi-Turn Visual Reasoning
+
+- [arXiv 2605.29894](https://arxiv.org/abs/2605.29894) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2605.29894)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2605.29894)
+
+VisHarness v2 adds RL-only, visual-memory archiving and interaction-budget ablations, and revises the reported evaluation of a trained agent using fixed visual experts.
+
+## Latent Policy Steering through One-Step Flow Policies
+
+- [arXiv 2603.05296](https://arxiv.org/abs/2603.05296) · v3 · [Latest entry](../daily/2026-10-30.md#arxiv-2603.05296)
+- Coverage history: [2026-10-30 (v3, revised)](../daily/2026-10-30.md#arxiv-2603.05296)
+
+LPS steers a one-step MeanFlow prior using action-space Q-gradients. v3 revises offline-to-online interpretation and detailed scores, and removes the auxiliary LPSD distillation appendix.
+
+## Combining Constrained Sampling and Reinforcement Learning for Manipulation
+
+- [arXiv 2602.08557](https://arxiv.org/abs/2602.08557) · v3 · [Latest entry](../daily/2026-10-30.md#arxiv-2602.08557)
+- Coverage history: [2026-10-30 (v3, revised)](../daily/2026-10-30.md#arxiv-2602.08557)
+
+Constrained sampling supplies contact-feasible reset and goal states for goal-conditioned RL. v3 expands the evaluation to Allegro in-hand and upside-down manipulation and updates training settings and cube-task results.
 
 ## Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well
 

@@ -2,7 +2,315 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-183 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+225 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Gym-Anything for Robotics: Scaling physical simulations with digital agents
+
+- [arXiv 2610.40565](https://arxiv.org/abs/2610.40565) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40565)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40565)
+
+Gym-Anything 通过编码代理和对抗审计生成物理仿真与任务，用 Markdown 经验积累改进后续构建。RoboWorld 包含 25 仿真、25 测试任务和 175 训练环境，覆盖液体、布料和化学。
+
+## BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing
+
+- [arXiv 2610.40532](https://arxiv.org/abs/2610.40532) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40532)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40532)
+
+BURGER 用语言条件机器人绘画，在低成本扩大示范时区分语言定位、空间组合与多模态轨迹选择。
+
+## Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success
+
+- [arXiv 2610.40444](https://arxiv.org/abs/2610.40444) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40444)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40444)
+
+逐步检查工具调用前缀是否可执行，将最终成功与出错后恢复区分开。
+
+## Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design
+
+- [arXiv 2610.40430](https://arxiv.org/abs/2610.40430) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40430)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40430)
+
+DEED 通过指令与视觉示范扩展、均衡采样以及任务特定动作段执行设计来适配 VLA。
+
+## RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning
+
+- [arXiv 2610.40207](https://arxiv.org/abs/2610.40207) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40207)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40207)
+
+RoboAtom 跨机器人数据集统一时间对齐的原子动作标签，结合人工标注、重复技能序列传播与质控，并提供技能识别基准及分层策略训练。
+
+## VideoMemBench: How Well Do MLLMs Remember in Video Conversations?
+
+- [arXiv 2610.40131](https://arxiv.org/abs/2610.40131) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40131)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40131)
+
+测试视频多轮对话对早期视觉事件和模型先前回答的依赖。
+
+## Escaping Path Mirages in Offline Goal-Conditioned Reinforcement Learning
+
+- [arXiv 2610.40130](https://arxiv.org/abs/2610.40130) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40130)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40130)
+
+用分支感知图规划避免随机分支导致的离线虚假成功轨迹。
+
+## RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence
+
+- [arXiv 2610.40026](https://arxiv.org/abs/2610.40026) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40026)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40026)
+
+RoboSeed 将能力、训练成本、部署成本、本地研究价值证据与复现证据分成明确维度，用固定锚点和预算偏好构建画像。
+
+## PASA-KV: Attacking Action-Facing Visual Routes in World Action Models
+
+- [arXiv 2610.39816](https://arxiv.org/abs/2610.39816) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39816)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39816)
+
+PASA-KV 研究 WAM 视觉 KV 路径的对抗脆弱性；Tail-AV 探针寻找动作查询真正依赖的路径，而不是把潜变量变化幅度等同于行为损害。
+
+## Surrogate Uncertainty for Black-box Visual Grounding
+
+- [arXiv 2610.39798](https://arxiv.org/abs/2610.39798) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39798)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39798)
+
+通过外部贝叶斯代理估计黑盒 VLM 视觉定位不确定性，避免完全依赖原模型自评；以多模态校准邻域检索支持保形预测和主动信息收集。
+
+## WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration
+
+- [arXiv 2610.39721](https://arxiv.org/abs/2610.39721) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39721)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39721)
+
+用自适应相机控制智能体测试长时一致性，而非只评估固定短视频。
+
+## Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory
+
+- [arXiv 2610.39446](https://arxiv.org/abs/2610.39446) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39446)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39446)
+
+EvoLife 把几何、像素和物体导航工具、主动求助与持久地点记忆整合到代理框架；地点记录绑定位姿、图像和对话。这里的终身能力主要是经验存取，并非持续更新模型权重。
+
+## Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction
+
+- [arXiv 2610.39416](https://arxiv.org/abs/2610.39416) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39416)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39416)
+
+轻量连续几何头读取冻结VLM中间特征，直接预测可供性框与路径点，避免自回归坐标token。
+
+## Utility-WAM: Correcting Future-Induced Action Changes
+
+- [arXiv 2610.39367](https://arxiv.org/abs/2610.39367) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39367)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39367)
+
+Utility-WAM审计想象未来造成的动作变化，以残差适配器修复有害增量，并由离线效用门控跳过低收益未来生成。
+
+## ProLoop: Progress-Aware Closed-Loop Framework via Structured State Relations for Long-Horizon Robotic Task Planning
+
+- [arXiv 2610.39319](https://arxiv.org/abs/2610.39319) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39319)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39319)
+
+ProLoop比较结构化目标与观察状态，显式判断子目标进度，再决定继续、纠正及记忆保留。
+
+## WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining
+
+- [arXiv 2610.39278](https://arxiv.org/abs/2610.39278) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39278)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39278)
+
+WorldFlow 以对齐的位移 token 和 rectified-flow 混合 Transformer 联合预测视频与查询式 3D 轨迹，并以 WorldFlowBench 测试几何未来预测。
+
+## Event2Reward: Learning Robotic Rewards from Progress Relations
+
+- [arXiv 2610.39212](https://arxiv.org/abs/2610.39212) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39212)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39212)
+
+Event2Reward利用停滞、倒退、恢复的相对进度关系，防止奖励模型鼓励倒退，并用时间标签锚定总进度尺度。
+
+## EmbodiExp: Compositional Experience Transfer for Embodied Agents
+
+- [arXiv 2610.39180](https://arxiv.org/abs/2610.39180) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39180)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39180)
+
+EmbodiExp把经验表示为子目标、适用条件、可适配策略及可验证结果，可从失败轨迹保留局部成功并跨任务组合。
+
+## EgoContact: Evaluating Physical Intelligence with Egocentric Video
+
+- [arXiv 2610.39167](https://arxiv.org/abs/2610.39167) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39167)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39167)
+
+EgoContact评测第一视角操作先验能否定位精确未来接触点，再将实例作为可供性记忆库。
+
+## VEvo-Harness: Causally-Guarded Self-Evolving Harness for Agentic Image Generation
+
+- [arXiv 2610.39158](https://arxiv.org/abs/2610.39158) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39158)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39158)
+
+冻结生成器外围加入持久修复记忆，通过成对反事实回放决定技能补丁是否入库。
+
+## Tracking Task Progress Through Errors and Recovery:A Benchmark and Recurrent Distributional Model
+
+- [arXiv 2610.39125](https://arxiv.org/abs/2610.39125) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39125)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39125)
+
+ReSTEP记录错误与恢复轨迹；REMORA结合循环记忆与进度分布，减少抖动及错误的单调进度假设。
+
+## Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models
+
+- [arXiv 2610.38661](https://arxiv.org/abs/2610.38661) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38661)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38661)
+
+QbD-VLA用短闭环任务试验分配混合精度，优化机器人实际成功而非仅校准误差。
+
+## SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control
+
+- [arXiv 2610.38508](https://arxiv.org/abs/2610.38508) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38508)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38508)
+
+SaiVLA-JEPA区分当前预测编码器特征的收益与未来潜变量训练的收益，并分别审计上下文适配与参数更新。
+
+## SpaceAct: Benchmarking 3D Spatial and Temporal Reasoning via Closed-Loop Action and Active Perception
+
+- [arXiv 2610.38405](https://arxiv.org/abs/2610.38405) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38405)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38405)
+
+SpaceAct通过主动视角和受碰撞、静力约束的6自由度执行评测空间推理，而非静态视觉问答。
+
+## When "No Worries" Went Wrong: HRI Lessons for Foundation-Model Robots
+
+- [arXiv 2610.38400](https://arxiv.org/abs/2610.38400) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38400)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38400)
+
+工程事故显示机器人言语即使合理，也会因时序或目的过期而失当；TRACE追踪变化前提如何经过证据、权限与执行边界。
+
+## Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
+
+- [arXiv 2610.38266](https://arxiv.org/abs/2610.38266) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38266)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38266)
+
+综述区分学习者能力改善与继承改进流程；L0–L3框架分别对应任务内适配、持久能力、流程修订继承及验证过的改进器收益。
+
+## CuraEval: Evaluating Demonstration Curation on Mixed-Skill Robot Data
+
+- [arXiv 2610.38221](https://arxiv.org/abs/2610.38221) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38221)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38221)
+
+CuraEval用等量随机子集与全数据训练检验示范筛选，揭示评分指标及报告协议可能制造误导。
+
+## SkillCT: A Multidimensional Benchmark and Execution-Free Baseline for Agent Skill Assessment
+
+- [arXiv 2610.38147](https://arxiv.org/abs/2610.38147) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38147)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38147)
+
+用九个维度评估技能质量，并检索参考技能预测新技能质量。
+
+## Same Label, Different Interface: Beyond Action-Space Labels in Robot Learning
+
+- [arXiv 2610.38104](https://arxiv.org/abs/2610.38104) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38104)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38104)
+
+动作空间标签掩盖实际执行接口；滤波、物理尺度、反馈与时序可能主导位置/速度控制差异。
+
+## What Actually Matters? A Paired Evaluation of Inference Settings for $π_{0.5}$ on BEHAVIOR-1K
+
+- [arXiv 2610.37917](https://arxiv.org/abs/2610.37917) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.37917)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.37917)
+
+配对研究把推理设置当作需要验证的干预，而非可直接迁移的默认值：执行块长度影响显著，去噪次数和重叠修补在该设置下无可检测收益。
+
+## When More Planning Hurts: Learned Planners for World Models
+
+- [arXiv 2610.37891](https://arxiv.org/abs/2610.37891) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.37891)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.37891)
+
+小型学习动作更新器检验更积极优化世界模型代价是否反而损害控制，并明确报告自身未达到预先设定的任务—成本标准。
+
+## DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks
+
+- [arXiv 2610.37799](https://arxiv.org/abs/2610.37799) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.37799)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.37799)
+
+DexSuite 将灵巧操作仿真、遥操作、触觉及策略评估整合到可组合机械臂与手的平台；贡献是研究基础设施而非新策略。
+
+## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
+
+- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.34051)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34051) · [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2610.34051)
+
+BEHAVIOR-Spatial 分开评价空间问答、目标定位和动作执行。v2 修订定位及导航问答数值，主要操作/动作成绩未变。
+
+## ActionUNet: Improving Robustness of VLA Models with Efficient Multi-scale Fine-tuning
+
+- [arXiv 2609.34982](https://arxiv.org/abs/2609.34982) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2609.34982)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2609.34982)
+
+ActionUNet 通过多尺度时序特征与连续动作解码改进 VLA 微调。本次修订缩减而非扩充了补充证据。
+
+## Learning and Transferring Closed-Loop Robot Software
+
+- [arXiv 2609.19906](https://arxiv.org/abs/2609.19906) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2609.19906)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2609.19906)
+
+把经过执行反馈改进的闭环策略代码保存为档案，供新任务学习参考。本次修订新增 Unitree G1 实机验证，保留此前的 RoboCasa 跨任务迁移实验。
+
+## Evidence-Gated Task and Motion Planning with Vision-Language Models
+
+- [arXiv 2608.20084](https://arxiv.org/abs/2608.20084) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2608.20084)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2608.20084)
+
+EAFG 在任务规划前主动获取视觉证据，并决定继续探索、开始规划或停止。本次修订新增带探索与停止提示的基线，更新评价口径及实验结果。
+
+## Detector Confidence Signals Presence Rather Than Occlusion in Cluttered Manipulation
+
+- [arXiv 2607.13361](https://arxiv.org/abs/2607.13361) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2607.13361)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2607.13361)
+
+区分类别检测置信度与指定物理实例的可见性、定位可靠性。 v3 收窄此前跨检测器和单视角不可能性的表述；5%→100% 明确是 40 场景的额外视角选择加融合效果，并非单次相机移动或端到端操作；增加成本与范围限制。
+
+## Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation
+
+- [arXiv 2607.11884](https://arxiv.org/abs/2607.11884) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2607.11884)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2607.11884)
+
+Mixture of Frames 在统一动作表示中融合坐标系专属扩散预测。v2 新增坐标系集合扩展实验，以及更强的容量与几何感知对照。
+
+## VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon
+
+- [arXiv 2607.01804](https://arxiv.org/abs/2607.01804) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2607.01804)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2607.01804)
+
+VLA-Corrector 用学习到的潜在动力学监测、事件触发动作块截断及恢复方向梯度引导，在不更新 VLA 主干的情况下纠偏。本次修订新增部署开销核算和异步、近似匹配调用预算的 RTC 对比。
+
+## RE4: Transformation-aware Imitation of Object Interactions Using Manipulation Modes
+
+- [arXiv 2606.24403](https://arxiv.org/abs/2606.24403) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2606.24403)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2606.24403)
+
+RE4 按操作模式检索、变换、重规划和回放示范。v2 新增位姿估计变体、真实杯子任务、干扰物与障碍物实验，以及 VINN 基线。
+
+## SkillHone: A Harness for Continual Agent Skill Evolution Through Persistent Decision History
+
+- [arXiv 2606.08671](https://arxiv.org/abs/2606.08671) · v4 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2606.08671)
+- 收录历史: [2026-10-30 (v4, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2606.08671)
+
+为持续决策历史驱动的技能演化框架增加开发成本证据；方法和主要准确率结果已在 v3 出现。
+
+## Train the Agent, Not the Expert: Learning to Harness Heterogeneous Experts for Multi-Turn Visual Reasoning
+
+- [arXiv 2605.29894](https://arxiv.org/abs/2605.29894) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2605.29894)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2605.29894)
+
+VisHarness v2 补充 RL-only、视觉记忆归档和交互轮数消融，并修订训练智能体调用固定视觉专家的评估。
+
+## AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation
+
+- [arXiv 2604.11674](https://arxiv.org/abs/2604.11674) · v4 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2604.11674)
+- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2604.11674) · [2026-10-30 (v4, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2604.11674)
+
+AffordSim 将开放词汇三维可供性与仿真数据生成结合。本次修订将两处协议描述的偏航随机化范围从 180 度改为 60 度。
+
+## Latent Policy Steering through One-Step Flow Policies
+
+- [arXiv 2603.05296](https://arxiv.org/abs/2603.05296) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2603.05296)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2603.05296)
+
+LPS 利用动作空间 Q 梯度引导单步 MeanFlow 先验。v3 修订离线到在线学习的解释及详细成绩，并移除辅助 LPSD 蒸馏附录。
 
 ## Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well
 
@@ -515,13 +823,6 @@ PhysLadder定义16项仿真/真机匹配接触任务，递进考察接触几何�
 
 以受控矛盾执行日志测试VLM机器人进度评估器是否舍弃视觉而追随文字，并评估简短不可靠性警告。 效果条件于筛选片段，不是总体失败率；完成声明搜索与固定日志测试不同，也未在Sol测试。警告虽缓解误导日志，也削弱正确日志收益。
 
-## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
-
-- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.34051)
-- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34051)
-
-连接空间问答、目标定位与VLA执行，并区分选对目标意图与严格任务完成。 完全仿真；摘要头条数字是软意图指标，不是任务完成率。理想定位属特权信息，超时预算及手臂—目标相关性影响解释。
-
 ## Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents
 
 - [arXiv 2610.33956](https://arxiv.org/abs/2610.33956) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33956)
@@ -738,13 +1039,6 @@ v1→v2修正附录D中DDCG对AoBG检验统计量的维度精度分析及蒙特�
 - 收录历史: [2026-10-27 (v2, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2604.16677)
 
 v1→v2新增边际覆盖命题，并把CQR结论严格限定于可交换的帧—候选校准样本，同时补校准诊断及动作评分设计细节。这是可靠性结论的实质澄清，不是新增安全保证。 保证不延伸到自适应选中动作、时间相关闭环状态、分布偏移或任务成功；监测阈值及OOD结果仍是经验性结论。本次未独立复现校准实验。
-
-## AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation
-
-- [arXiv 2604.11674](https://arxiv.org/abs/2604.11674) · v3 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2604.11674)
-- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2604.11674)
-
-v2→v3新增真机域随机化扫描、五形态采集定量评测及等示范预算ACT抓取来源对照。多阶段成功率分解及原四任务sim-to-real评估在v2已存在。 位置扫描示范量从300增至1,200再到2,700，范围与数据量混杂；真机仅单任务、各10次。跨形态结果衡量仿真轨迹采集，不是学习策略迁移。已有主表数字未变，但采集次数文字从30改为100，不能解读为同协议新收益。
 
 ## ActECC: Action Chunk Temporal Harnessing for Edge-Cloud Collaborative VLA Inference System
 

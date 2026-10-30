@@ -2,7 +2,189 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-81 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+107 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## world2vec: Mechanistic world models through latent dynamics learning
+
+- [arXiv 2610.40637](https://arxiv.org/abs/2610.40637) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40637)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40637)
+
+不使用奖励信息学习动作条件潜在动力学，目标是兼顾紧凑性和长期预测保真度。
+
+## Gym-Anything for Robotics: Scaling physical simulations with digital agents
+
+- [arXiv 2610.40565](https://arxiv.org/abs/2610.40565) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40565)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40565)
+
+Gym-Anything 通过编码代理和对抗审计生成物理仿真与任务，用 Markdown 经验积累改进后续构建。RoboWorld 包含 25 仿真、25 测试任务和 175 训练环境，覆盖液体、布料和化学。
+
+## Gaussian Distillation of Flow Policies
+
+- [arXiv 2610.40271](https://arxiv.org/abs/2610.40271) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40271)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40271)
+
+Gaussian Action Readout 冻结流策略骨干，将输出层改为高斯读出，获得单次前向采样和闭式似然。
+
+## Escaping Path Mirages in Offline Goal-Conditioned Reinforcement Learning
+
+- [arXiv 2610.40130](https://arxiv.org/abs/2610.40130) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40130)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40130)
+
+用分支感知图规划避免随机分支导致的离线虚假成功轨迹。
+
+## Coupled Guidance for Flow Matching
+
+- [arXiv 2610.40109](https://arxiv.org/abs/2610.40109) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40109)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40109)
+
+Coupled Guidance 从训练耦合结构推导流匹配专用采样引导，而非直接移植扩散引导，避免破坏耦合稳定性。
+
+## How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function
+
+- [arXiv 2610.40002](https://arxiv.org/abs/2610.40002) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40002)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40002)
+
+CoC-CFG 将推理条件与去推理条件之间的引导强度作为逐去噪步控制变量；固定专家和噪声后，通过完整 rollout 测得动作价值，训练小型保守引导 critic。
+
+## Teaching a Tree to Recover: Online Distillation of an LLM Supervisor with Counterfactual Replay
+
+- [arXiv 2610.39775](https://arxiv.org/abs/2610.39775) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39775)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39775)
+
+将 LLM 恢复监督器在线蒸馏为决策树，利用回合反事实重放识别多余或有害干预并淘汰规则，使熟悉状态无需反复调用 LLM。
+
+## From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models
+
+- [arXiv 2610.39543](https://arxiv.org/abs/2610.39543) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39543)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39543)
+
+CoRAct 将运动描述和未来路点变成动作对齐奖励；共享 Transformer 建模推理、动作及动作条件未来，并用组相对优化调整初始动作噪声，使执行符合预期后果。
+
+## Before the Next Rollout: Diagnosing Skill Utility Shifts from Policy Updates
+
+- [arXiv 2610.39358](https://arxiv.org/abs/2610.39358) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39358)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39358)
+
+在已有上下文上读取策略变化，优先修订效用下降的技能。
+
+## Event2Reward: Learning Robotic Rewards from Progress Relations
+
+- [arXiv 2610.39212](https://arxiv.org/abs/2610.39212) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39212)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39212)
+
+Event2Reward利用停滞、倒退、恢复的相对进度关系，防止奖励模型鼓励倒退，并用时间标签锚定总进度尺度。
+
+## Generating Critic-Guided Synthetic Experience in Latent World Models
+
+- [arXiv 2610.39100](https://arxiv.org/abs/2610.39100) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39100)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39100)
+
+用 critic 改进的合成动作微调离线 flow actor，冻结 LeWM 动力学与 critic。存储单步转移，但生成可串联至 40 个模型步。
+
+## Robotic Data Inoculation
+
+- [arXiv 2610.39054](https://arxiv.org/abs/2610.39054) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39054)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39054)
+
+Data Inoculation在人类遥操作中学习残差扰动，使人类纠正覆盖未来策略可能访问的偏离状态。
+
+## Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand
+
+- [arXiv 2610.39044](https://arxiv.org/abs/2610.39044) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39044)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39044)
+
+Catch It All通过抓取奖励及安全课程在仿真学习视觉灵巧接物，免真机策略微调部署。
+
+## Force-Driven Hook Disassembly via Constraint-Aware Object-Centric Reinforcement Learning
+
+- [arXiv 2610.38513](https://arxiv.org/abs/2610.38513) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38513)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38513)
+
+与机器人无关的物体中心RL策略结合力历史及粒子滤波信念，推断隐藏卡钩约束的可行拔出方向。
+
+## SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control
+
+- [arXiv 2610.38508](https://arxiv.org/abs/2610.38508) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38508)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38508)
+
+SaiVLA-JEPA区分当前预测编码器特征的收益与未来潜变量训练的收益，并分别审计上下文适配与参数更新。
+
+## ELEVATE: Agentic Controller Acquisition from Task Failure for Quadrupedal Manipulation
+
+- [arXiv 2610.38388](https://arxiv.org/abs/2610.38388) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38388)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38388)
+
+ELEVATE在任务程序持续失败后让编码智能体训练缺失控制器、验证并加入技能库，扩展动作能力而非在固定工具上反复规划。
+
+## CSO: Refining Robotic Policies via Skill Distribution Alignment and Skill-Grained Optimization
+
+- [arXiv 2610.38357](https://arxiv.org/abs/2610.38357) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38357)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38357)
+
+CSO两阶段后训练离散技能策略：先用成功在线轨迹对齐技能分布，再冻结观察编码器进行技能粒度裁剪比率优化。
+
+## Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
+
+- [arXiv 2610.38266](https://arxiv.org/abs/2610.38266) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38266)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38266)
+
+综述区分学习者能力改善与继承改进流程；L0–L3框架分别对应任务内适配、持久能力、流程修订继承及验证过的改进器收益。
+
+## ParaTTT: Parallelizing Test-Time Training Layers with Deep Memories
+
+- [arXiv 2610.38255](https://arxiv.org/abs/2610.38255) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38255)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38255)
+
+通过迭代细化在线梯度轨迹，并行计算非线性神经记忆。
+
+## Learning from Relative Action Credit for Escaping Local Minima
+
+- [arXiv 2610.38034](https://arxiv.org/abs/2610.38034) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38034)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38034)
+
+相对动作信用在 PPO 中加入动作条件 critic，比较同一状态下执行动作与替代动作，以突破局部解平台。
+
+## Echo: Scaling Visual Reinforcement Learning with Off-policy Experience
+
+- [arXiv 2610.37865](https://arxiv.org/abs/2610.37865) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.37865)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.37865)
+
+Echo 让状态辅助策略模仿视觉策略并采集无需渲染的离策略经验，共享特权critic以降低视觉RL成本。
+
+## VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon
+
+- [arXiv 2607.01804](https://arxiv.org/abs/2607.01804) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2607.01804)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2607.01804)
+
+VLA-Corrector 用学习到的潜在动力学监测、事件触发动作块截断及恢复方向梯度引导，在不更新 VLA 主干的情况下纠偏。本次修订新增部署开销核算和异步、近似匹配调用预算的 RTC 对比。
+
+## GUI-AC: Enhancing Continual Learning in GUI Agents
+
+- [arXiv 2606.10522](https://arxiv.org/abs/2606.10522) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2606.10522)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2606.10522)
+
+GUI-AC 针对界面领域及分辨率变化，通过逐轨迹优势与裁剪更新实现持续定位学习。 v2 对低确定性组整体降权；v3 仅放大高概率失败的负优势，仅对低概率正优势探索放宽上裁剪界，下界固定；概率比改用旧采样策略而非参考策略。
+
+## Train the Agent, Not the Expert: Learning to Harness Heterogeneous Experts for Multi-Turn Visual Reasoning
+
+- [arXiv 2605.29894](https://arxiv.org/abs/2605.29894) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2605.29894)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2605.29894)
+
+VisHarness v2 补充 RL-only、视觉记忆归档和交互轮数消融，并修订训练智能体调用固定视觉专家的评估。
+
+## Latent Policy Steering through One-Step Flow Policies
+
+- [arXiv 2603.05296](https://arxiv.org/abs/2603.05296) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2603.05296)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2603.05296)
+
+LPS 利用动作空间 Q 梯度引导单步 MeanFlow 先验。v3 修订离线到在线学习的解释及详细成绩，并移除辅助 LPSD 蒸馏附录。
+
+## Combining Constrained Sampling and Reinforcement Learning for Manipulation
+
+- [arXiv 2602.08557](https://arxiv.org/abs/2602.08557) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2602.08557)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2602.08557)
+
+用约束采样提供接触可行的重置与目标状态，辅助目标条件 RL。v3 扩展到 Allegro 手内及倒置操作，并更新训练设置及方块任务结果。
 
 ## Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well
 

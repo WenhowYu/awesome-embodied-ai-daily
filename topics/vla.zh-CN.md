@@ -2,7 +2,196 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-115 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+142 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing
+
+- [arXiv 2610.40532](https://arxiv.org/abs/2610.40532) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40532)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40532)
+
+BURGER 用语言条件机器人绘画，在低成本扩大示范时区分语言定位、空间组合与多模态轨迹选择。
+
+## Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design
+
+- [arXiv 2610.40430](https://arxiv.org/abs/2610.40430) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40430)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40430)
+
+DEED 通过指令与视觉示范扩展、均衡采样以及任务特定动作段执行设计来适配 VLA。
+
+## HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model
+
+- [arXiv 2610.40373](https://arxiv.org/abs/2610.40373) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40373)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40373)
+
+HiFOR 通过分层依赖掩码联合预测短期状态、语义里程碑和最终目标；按时间视野、视角和空间组织潜在未来，让动作 token 在去噪时检索所需信息。
+
+## JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning
+
+- [arXiv 2610.40356](https://arxiv.org/abs/2610.40356) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40356)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40356)
+
+JEDI 将示范压缩为潜在槽，用冻结 video-JEPA 空间中的查询阶段未来预测进行训练；任务/过程反事实监督保留执行细节，并从示范库选择上下文。
+
+## TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation
+
+- [arXiv 2610.40349](https://arxiv.org/abs/2610.40349) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40349)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40349)
+
+TouchBridge 协同设计人类与机器人视觉/触觉接口，无需物体网格、位姿或仿真即可重定向指尖接触区域，再以转换的人类示范微调 VLA。
+
+## Gaussian Distillation of Flow Policies
+
+- [arXiv 2610.40271](https://arxiv.org/abs/2610.40271) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40271)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40271)
+
+Gaussian Action Readout 冻结流策略骨干，将输出层改为高斯读出，获得单次前向采样和闭式似然。
+
+## RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning
+
+- [arXiv 2610.40207](https://arxiv.org/abs/2610.40207) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40207)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40207)
+
+RoboAtom 跨机器人数据集统一时间对齐的原子动作标签，结合人工标注、重复技能序列传播与质控，并提供技能识别基准及分层策略训练。
+
+## Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles
+
+- [arXiv 2610.40075](https://arxiv.org/abs/2610.40075) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40075)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40075)
+
+基于二值可行性 oracle 修正不安全流更新，并估计局部边界梯度，无需解析约束即可让训练和推理使用同一防护机制。
+
+## RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence
+
+- [arXiv 2610.40026](https://arxiv.org/abs/2610.40026) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40026)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40026)
+
+RoboSeed 将能力、训练成本、部署成本、本地研究价值证据与复现证据分成明确维度，用固定锚点和预算偏好构建画像。
+
+## LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks
+
+- [arXiv 2610.40016](https://arxiv.org/abs/2610.40016) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40016)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40016)
+
+LOGIV 在现有策略之上加入条件支撑与资源顺序图，持续检查先前动作效果是否仍成立，追踪失效依赖，并联合验证局部修复与保留的未完成计划。
+
+## How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function
+
+- [arXiv 2610.40002](https://arxiv.org/abs/2610.40002) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40002)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40002)
+
+CoC-CFG 将推理条件与去推理条件之间的引导强度作为逐去噪步控制变量；固定专家和噪声后，通过完整 rollout 测得动作价值，训练小型保守引导 critic。
+
+## From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models
+
+- [arXiv 2610.39543](https://arxiv.org/abs/2610.39543) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39543)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39543)
+
+CoRAct 将运动描述和未来路点变成动作对齐奖励；共享 Transformer 建模推理、动作及动作条件未来，并用组相对优化调整初始动作噪声，使执行符合预期后果。
+
+## PRIME W0: Physical Priors from World Models for Embodied Manipulation
+
+- [arXiv 2610.39528](https://arxiv.org/abs/2610.39528) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39528)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39528)
+
+PRIME W0 结合逐层 VLM KV 条件、异步子目标图像预测、冻结 DINOv2 历史编码及自适应 MoE 流动作解码器；动作噪声协方差来自示范相关结构。
+
+## Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning
+
+- [arXiv 2610.39451](https://arxiv.org/abs/2610.39451) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39451)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39451)
+
+以平滑运动基元系数替代原始动作段，并用推理时经过点修正将新段接上上一条执行动作，无需重新训练。
+
+## Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction
+
+- [arXiv 2610.39416](https://arxiv.org/abs/2610.39416) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39416)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39416)
+
+轻量连续几何头读取冻结VLM中间特征，直接预测可供性框与路径点，避免自回归坐标token。
+
+## UMI-Live for In-The-Wild Bimanual Robotics Data Collection
+
+- [arXiv 2610.39385](https://arxiv.org/abs/2610.39385) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39385)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39385)
+
+UMI-Live把双臂野外示范采集、机载感知、异步SLAM和VLA训练部署串成完整流程。
+
+## Utility-WAM: Correcting Future-Induced Action Changes
+
+- [arXiv 2610.39367](https://arxiv.org/abs/2610.39367) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39367)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39367)
+
+Utility-WAM审计想象未来造成的动作变化，以残差适配器修复有害增量，并由离线效用门控跳过低收益未来生成。
+
+## Cross-Controller Transfer via In-Context Behavior Adaptation
+
+- [arXiv 2610.39280](https://arxiv.org/abs/2610.39280) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39280)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39280)
+
+跨控制器迁移把命令—实际运动历史作为π0.5上下文，使其改变策略而非仅重映射电机命令。
+
+## Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models
+
+- [arXiv 2610.38661](https://arxiv.org/abs/2610.38661) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38661)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38661)
+
+QbD-VLA用短闭环任务试验分配混合精度，优化机器人实际成功而非仅校准误差。
+
+## SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control
+
+- [arXiv 2610.38508](https://arxiv.org/abs/2610.38508) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38508)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38508)
+
+SaiVLA-JEPA区分当前预测编码器特征的收益与未来潜变量训练的收益，并分别审计上下文适配与参数更新。
+
+## Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation
+
+- [arXiv 2610.38199](https://arxiv.org/abs/2610.38199) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38199)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38199)
+
+水下模仿学习揭示泳池与海洋实地部署之间的巨大差距，为通用VLA能力判断提供现实校准。
+
+## Self-Labeled Preference Transfer for Steerable Robot Manipulation
+
+- [arXiv 2610.38000](https://arxiv.org/abs/2610.38000) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38000)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38000)
+
+SPT联合学习偏好识别与条件动作，冻结识别器，为新任务示范补伪标签再适配策略，保留普通微调易遗失的执行偏好。
+
+## What Actually Matters? A Paired Evaluation of Inference Settings for $π_{0.5}$ on BEHAVIOR-1K
+
+- [arXiv 2610.37917](https://arxiv.org/abs/2610.37917) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.37917)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.37917)
+
+配对研究把推理设置当作需要验证的干预，而非可直接迁移的默认值：执行块长度影响显著，去噪次数和重叠修补在该设置下无可检测收益。
+
+## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
+
+- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.34051)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34051) · [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2610.34051)
+
+BEHAVIOR-Spatial 分开评价空间问答、目标定位和动作执行。v2 修订定位及导航问答数值，主要操作/动作成绩未变。
+
+## ActionUNet: Improving Robustness of VLA Models with Efficient Multi-scale Fine-tuning
+
+- [arXiv 2609.34982](https://arxiv.org/abs/2609.34982) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2609.34982)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2609.34982)
+
+ActionUNet 通过多尺度时序特征与连续动作解码改进 VLA 微调。本次修订缩减而非扩充了补充证据。
+
+## Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment
+
+- [arXiv 2607.13429](https://arxiv.org/abs/2607.13429) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2607.13429)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2607.13429)
+
+Anchor-Align 在 VLA 微调中约束 VLM 表征漂移，并对齐运动与语言。本次修订新增语义标签对照，扩展不同架构与机器人形态的实机证据。
+
+## VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon
+
+- [arXiv 2607.01804](https://arxiv.org/abs/2607.01804) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2607.01804)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2607.01804)
+
+VLA-Corrector 用学习到的潜在动力学监测、事件触发动作块截断及恢复方向梯度引导，在不更新 VLA 主干的情况下纠偏。本次修订新增部署开销核算和异步、近似匹配调用预算的 RTC 对比。
 
 ## ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
 

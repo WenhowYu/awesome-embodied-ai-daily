@@ -2,7 +2,315 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-183 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+225 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Gym-Anything for Robotics: Scaling physical simulations with digital agents
+
+- [arXiv 2610.40565](https://arxiv.org/abs/2610.40565) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40565)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40565)
+
+Gym-Anything uses coding agents and adversarial audits to create physics simulations and tasks; accumulated Markdown lessons improve later builds. RoboWorld contains 25 simulations, 25 test tasks and 175 training environments, including liquids, cloth and chemistry.
+
+## BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing
+
+- [arXiv 2610.40532](https://arxiv.org/abs/2610.40532) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40532)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40532)
+
+BURGER uses language-conditioned robot drawing to separate language grounding, spatial composition and multimodal trajectory choice while scaling demonstrations cheaply.
+
+## Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success
+
+- [arXiv 2610.40444](https://arxiv.org/abs/2610.40444) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40444)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40444)
+
+Measures whether every tool-call prefix is executable, distinguishing final success from recovery after invalid actions.
+
+## Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design
+
+- [arXiv 2610.40430](https://arxiv.org/abs/2610.40430) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40430)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40430)
+
+DEED adapts a VLA with instruction/visual demonstration expansion, balanced sampling and task-specific chunk-to-control execution design.
+
+## RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning
+
+- [arXiv 2610.40207](https://arxiv.org/abs/2610.40207) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40207)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40207)
+
+RoboAtom standardizes time-aligned atomic-action labels across existing robot datasets, combining manual annotation, propagation across repeated skill orders and quality control. It couples a skill-recognition benchmark with hierarchical policy training.
+
+## VideoMemBench: How Well Do MLLMs Remember in Video Conversations?
+
+- [arXiv 2610.40131](https://arxiv.org/abs/2610.40131) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40131)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40131)
+
+Tests dependencies on earlier visual episodes and the model's own prior answers across video conversations.
+
+## Escaping Path Mirages in Offline Goal-Conditioned Reinforcement Learning
+
+- [arXiv 2610.40130](https://arxiv.org/abs/2610.40130) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40130)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40130)
+
+Branch-aware graph planning avoids spurious successful offline trajectories caused by stochastic branching.
+
+## RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence
+
+- [arXiv 2610.40026](https://arxiv.org/abs/2610.40026) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40026)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40026)
+
+RoboSeed separates capability, training cost, deployment cost, local research-value evidence and reproduction evidence into explicit profiles with fixed scoring anchors and budget-dependent preferences.
+
+## PASA-KV: Attacking Action-Facing Visual Routes in World Action Models
+
+- [arXiv 2610.39816](https://arxiv.org/abs/2610.39816) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39816)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39816)
+
+PASA-KV studies adversarial vulnerability at WAM visual key/value pathways. Its Tail-AV probe selects representations that action queries actually depend on, instead of treating large latent displacement as equivalent to behavioral damage.
+
+## Surrogate Uncertainty for Black-box Visual Grounding
+
+- [arXiv 2610.39798](https://arxiv.org/abs/2610.39798) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39798)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39798)
+
+An external Bayesian surrogate estimates uncertainty for black-box VLM grounding rather than trusting the same model to grade itself. It uses multimodal calibration-neighborhood retrieval and can support conformal prediction or information-gathering planning.
+
+## WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration
+
+- [arXiv 2610.39721](https://arxiv.org/abs/2610.39721) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39721)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39721)
+
+An adaptive camera-control agent probes long-horizon consistency rather than scoring only fixed short videos.
+
+## Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory
+
+- [arXiv 2610.39446](https://arxiv.org/abs/2610.39446) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39446)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39446)
+
+EvoLife is a navigation agent harness integrating geometric/pixel/object actions, active help-seeking, and persistent place records linking poses, images and dialogue. Its lifelong component is experience storage and retrieval, not demonstrated continual weight learning.
+
+## Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction
+
+- [arXiv 2610.39416](https://arxiv.org/abs/2610.39416) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39416)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39416)
+
+A lightweight continuous geometry head reads frozen intermediate VLM features to predict affordance boxes and waypoints without autoregressive coordinate tokens.
+
+## Utility-WAM: Correcting Future-Induced Action Changes
+
+- [arXiv 2610.39367](https://arxiv.org/abs/2610.39367) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39367)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39367)
+
+Utility-WAM audits the action change caused by imagined futures, repairs harmful deltas with a residual adapter, and skips future generation when an offline utility gate predicts little benefit.
+
+## ProLoop: Progress-Aware Closed-Loop Framework via Structured State Relations for Long-Horizon Robotic Task Planning
+
+- [arXiv 2610.39319](https://arxiv.org/abs/2610.39319) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39319)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39319)
+
+ProLoop makes subgoal progress explicit by comparing structured desired and observed states, then gates correction, continuation and memory retention on that relation.
+
+## WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining
+
+- [arXiv 2610.39278](https://arxiv.org/abs/2610.39278) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39278)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39278)
+
+WorldFlow jointly predicts video and query-based 3D trajectories with aligned displacement tokens and a rectified-flow mixture-of-transformers. WorldFlowBench evaluates geometry-sensitive future prediction.
+
+## Event2Reward: Learning Robotic Rewards from Progress Relations
+
+- [arXiv 2610.39212](https://arxiv.org/abs/2610.39212) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39212)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39212)
+
+Event2Reward uses relative progress relations from stalls, regressions and recoveries to prevent reward models from rewarding backwards movement, while temporal labels anchor the overall scale.
+
+## EmbodiExp: Compositional Experience Transfer for Embodied Agents
+
+- [arXiv 2610.39180](https://arxiv.org/abs/2610.39180) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39180)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39180)
+
+EmbodiExp represents experience as a subgoal with applicability conditions, an adaptable policy and a verifiable outcome, allowing local successes from failed trajectories to compose across tasks.
+
+## EgoContact: Evaluating Physical Intelligence with Egocentric Video
+
+- [arXiv 2610.39167](https://arxiv.org/abs/2610.39167) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39167)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39167)
+
+EgoContact tests whether manipulation priors identify precise future contact locations in egocentric video, then reuses those examples as an affordance memory bank.
+
+## VEvo-Harness: Causally-Guarded Self-Evolving Harness for Agentic Image Generation
+
+- [arXiv 2610.39158](https://arxiv.org/abs/2610.39158) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39158)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39158)
+
+Frozen generators are surrounded by persistent repair memory and skill patches admitted through paired counterfactual replay.
+
+## Tracking Task Progress Through Errors and Recovery:A Benchmark and Recurrent Distributional Model
+
+- [arXiv 2610.39125](https://arxiv.org/abs/2610.39125) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39125)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39125)
+
+ReSTEP captures error and recovery trajectories; REMORA combines recurrent memory with a distribution over progress to avoid both jitter and falsely monotonic progress.
+
+## Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models
+
+- [arXiv 2610.38661](https://arxiv.org/abs/2610.38661) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38661)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38661)
+
+QbD-VLA uses short closed-loop task tests to allocate mixed precision, optimizing what the robot succeeds at rather than calibration error alone.
+
+## SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control
+
+- [arXiv 2610.38508](https://arxiv.org/abs/2610.38508) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38508)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38508)
+
+SaiVLA-JEPA distinguishes gains from current predictive-encoder features from gains due to future-latent training, and separately audits context adaptation and parameter updates.
+
+## SpaceAct: Benchmarking 3D Spatial and Temporal Reasoning via Closed-Loop Action and Active Perception
+
+- [arXiv 2610.38405](https://arxiv.org/abs/2610.38405) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38405)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38405)
+
+SpaceAct evaluates spatial reasoning through active camera control and executed 6-DoF actions with collisions and statics, rather than static visual questions.
+
+## When "No Worries" Went Wrong: HRI Lessons for Foundation-Model Robots
+
+- [arXiv 2610.38400](https://arxiv.org/abs/2610.38400) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38400)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38400)
+
+Engineering incidents show that plausible robot language can become socially wrong through timing or stale purpose. TRACE follows changed premises through evidence, authority and execution boundaries.
+
+## Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
+
+- [arXiv 2610.38266](https://arxiv.org/abs/2610.38266) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38266)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38266)
+
+This survey distinguishes improving a learner from inheriting a revised improvement process. Its L0–L3 rubric separates task-local adaptation, persistent capability, inherited process revisions and verified improver gains.
+
+## CuraEval: Evaluating Demonstration Curation on Mixed-Skill Robot Data
+
+- [arXiv 2610.38221](https://arxiv.org/abs/2610.38221) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38221)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38221)
+
+CuraEval tests demonstration curation against size-matched random subsets and full-data training, showing that attractive scores and favorable reporting choices can mislead.
+
+## SkillCT: A Multidimensional Benchmark and Execution-Free Baseline for Agent Skill Assessment
+
+- [arXiv 2610.38147](https://arxiv.org/abs/2610.38147) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38147)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38147)
+
+Assesses nine dimensions of skill quality and predicts unseen-skill profiles by retrieving reference skills.
+
+## Same Label, Different Interface: Beyond Action-Space Labels in Robot Learning
+
+- [arXiv 2610.38104](https://arxiv.org/abs/2610.38104) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38104)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38104)
+
+Action-space labels hide the actual execution interface: filtering, physical scaling, feedback and timing can dominate apparent position-versus-velocity differences.
+
+## What Actually Matters? A Paired Evaluation of Inference Settings for $π_{0.5}$ on BEHAVIOR-1K
+
+- [arXiv 2610.37917](https://arxiv.org/abs/2610.37917) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.37917)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.37917)
+
+This paired study treats inference settings as experimentally testable interventions rather than transferable defaults. Chunk execution horizon matters strongly, whereas denoising effort and overlap inpainting show no detectable gain in this setting.
+
+## When More Planning Hurts: Learned Planners for World Models
+
+- [arXiv 2610.37891](https://arxiv.org/abs/2610.37891) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.37891)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.37891)
+
+A small learned action updater probes whether minimizing a learned world-model objective more aggressively can worsen actual control. The paper foregrounds its own unsuccessful preregistered task-cost criterion.
+
+## DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks
+
+- [arXiv 2610.37799](https://arxiv.org/abs/2610.37799) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.37799)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.37799)
+
+DexSuite unifies dexterous simulation, teleoperation, tactile sensing and policy evaluation across interchangeable arms and hands. The contribution is reusable research infrastructure rather than a new manipulation policy.
+
+## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
+
+- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.34051)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34051) · [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2610.34051)
+
+BEHAVIOR-Spatial separates spatial QA, target grounding and action execution. v2 revises grounding and navigation-VQA values while leaving the headline manipulation/action results unchanged.
+
+## ActionUNet: Improving Robustness of VLA Models with Efficient Multi-scale Fine-tuning
+
+- [arXiv 2609.34982](https://arxiv.org/abs/2609.34982) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2609.34982)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2609.34982)
+
+ActionUNet adds multiscale temporal features and continuous action decoding to VLA finetuning. This revision contracts, rather than expands, the supplementary evidence.
+
+## Learning and Transferring Closed-Loop Robot Software
+
+- [arXiv 2609.19906](https://arxiv.org/abs/2609.19906) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2609.19906)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2609.19906)
+
+Execution-improved closed-loop policy code becomes an archive for acquiring new robot tasks. Revision adds physical Unitree G1 validation, while retaining the earlier RoboCasa cross-task transfer study.
+
+## Evidence-Gated Task and Motion Planning with Vision-Language Models
+
+- [arXiv 2608.20084](https://arxiv.org/abs/2608.20084) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2608.20084)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2608.20084)
+
+EAFG explicitly acquires visual evidence before task planning and gates between further exploration, planning and halting. Revision adds an exploration-and-halting prompted baseline and revises evaluation criteria and reported results.
+
+## Detector Confidence Signals Presence Rather Than Occlusion in Cluttered Manipulation
+
+- [arXiv 2607.13361](https://arxiv.org/abs/2607.13361) · v3 · [Latest entry](../daily/2026-10-30.md#arxiv-2607.13361)
+- Coverage history: [2026-10-30 (v3, revised)](../daily/2026-10-30.md#arxiv-2607.13361)
+
+Separates category-detection confidence from visibility and localization of the intended physical instance. v3 narrows earlier detector-general and single-view impossibility claims. The 5%→100% result is explicitly combined additional-view selection and fusion over 40 scenes—not a single camera motion or end-to-end manipulation result. Adds cost/scope caveats.
+
+## Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation
+
+- [arXiv 2607.11884](https://arxiv.org/abs/2607.11884) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2607.11884)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2607.11884)
+
+Mixture of Frames fuses frame-specialized diffusion predictions in a canonical action representation. v2 adds frame-set scalability experiments and stronger capacity/geometry-aware comparisons.
+
+## VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon
+
+- [arXiv 2607.01804](https://arxiv.org/abs/2607.01804) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2607.01804)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2607.01804)
+
+VLA-Corrector combines learned latent-dynamics monitoring, event-triggered chunk truncation and recovery-directed gradient guidance without updating the VLA backbone. Revision adds deployment cost accounting and a direct asynchronous, matched-call RTC comparison.
+
+## RE4: Transformation-aware Imitation of Object Interactions Using Manipulation Modes
+
+- [arXiv 2606.24403](https://arxiv.org/abs/2606.24403) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2606.24403)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2606.24403)
+
+RE4 retrieves, transforms, replans and replays demonstrations according to manipulation modes. v2 adds pose-estimation variants, a real mug task, distractor and obstacle studies, and a VINN baseline.
+
+## SkillHone: A Harness for Continual Agent Skill Evolution Through Persistent Decision History
+
+- [arXiv 2606.08671](https://arxiv.org/abs/2606.08671) · v4 · [Latest entry](../daily/2026-10-30.md#arxiv-2606.08671)
+- Coverage history: [2026-10-30 (v4, revised)](../daily/2026-10-30.md#arxiv-2606.08671)
+
+Adds development-cost evidence to a persistent-history skill-evolution harness; the method and headline accuracy results already appear in v3.
+
+## Train the Agent, Not the Expert: Learning to Harness Heterogeneous Experts for Multi-Turn Visual Reasoning
+
+- [arXiv 2605.29894](https://arxiv.org/abs/2605.29894) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2605.29894)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2605.29894)
+
+VisHarness v2 adds RL-only, visual-memory archiving and interaction-budget ablations, and revises the reported evaluation of a trained agent using fixed visual experts.
+
+## AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation
+
+- [arXiv 2604.11674](https://arxiv.org/abs/2604.11674) · v4 · [Latest entry](../daily/2026-10-30.md#arxiv-2604.11674)
+- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2604.11674) · [2026-10-30 (v4, revised)](../daily/2026-10-30.md#arxiv-2604.11674)
+
+AffordSim combines open-vocabulary 3D affordances with simulation data generation. The revision narrows the stated yaw-randomization range from 180 degrees to 60 degrees in two protocol passages.
+
+## Latent Policy Steering through One-Step Flow Policies
+
+- [arXiv 2603.05296](https://arxiv.org/abs/2603.05296) · v3 · [Latest entry](../daily/2026-10-30.md#arxiv-2603.05296)
+- Coverage history: [2026-10-30 (v3, revised)](../daily/2026-10-30.md#arxiv-2603.05296)
+
+LPS steers a one-step MeanFlow prior using action-space Q-gradients. v3 revises offline-to-online interpretation and detailed scores, and removes the auxiliary LPSD distillation appendix.
 
 ## Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well
 
@@ -515,13 +823,6 @@ Maps documented safety hazards to eight executable fault operators, verifies rea
 
 Controlled contradictory execution-log lines test whether VLM robot-progress judges follow text rather than visual evidence; a short unreliability warning is evaluated as mitigation. Conditional selected-clip effects, not population-wide failure rates; completion-claim search differs from the fixed-log test and was not tested on Sol. Warnings reduce misleading-log effects but also reduce benefits from accurate logs.
 
-## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
-
-- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.34051)
-- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34051)
-
-Connects spatial VQA, target grounding and VLA execution while separating target-selection intention from strict task completion. Entirely simulated. Headline abstract rates are soft intention measures, not task completion. Oracle grounding is privileged; task timeouts and hand-target correlations affect interpretation.
-
 ## Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents
 
 - [arXiv 2610.33956](https://arxiv.org/abs/2610.33956) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33956)
@@ -738,13 +1039,6 @@ v1→v2 corrects Appendix D’s dimensional-precision analysis and Monte Carlo t
 - Coverage history: [2026-10-27 (v2, revised)](../daily/2026-10-27.md#arxiv-2604.16677)
 
 v1→v2 adds a formal marginal-coverage proposition and sharply scopes CQR claims to exchangeable frame–candidate calibration samples; it also adds explicit calibration diagnostics and action-score design details. This is a substantive reliability-claim clarification, not a new safety guarantee. The guarantee does not extend to adaptive selected actions, temporally correlated closed-loop states, shifted distributions or task success. Monitoring thresholds and OOD findings remain empirical. No independent reproduction of the calibration experiment.
-
-## AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation
-
-- [arXiv 2604.11674](https://arxiv.org/abs/2604.11674) · v3 · [Latest entry](../daily/2026-10-27.md#arxiv-2604.11674)
-- Coverage history: [2026-10-27 (v3, revised)](../daily/2026-10-27.md#arxiv-2604.11674)
-
-v2→v3 adds a real-world domain-randomization sweep, quantitative five-embodiment collection evaluation, and fixed-demo-budget ACT grasp-source controls. The multi-stage success breakdown and original four-task sim-to-real evaluation already appeared in v2. The pose sweep increases demonstrations from 300 to 1,200 to 2,700, so range and data volume are confounded; only one real task and ten trials per setting. Cross-embodiment results concern simulator trajectory collection, not learned policy transfer. Existing headline tables remain unchanged despite collection-count wording changing from 30 to 100 rollouts.
 
 ## ActECC: Action Chunk Temporal Harnessing for Edge-Cloud Collaborative VLA Inference System
 

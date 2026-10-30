@@ -2,7 +2,301 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-126 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+168 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory
+
+- [arXiv 2610.40614](https://arxiv.org/abs/2610.40614) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40614)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40614)
+
+Updates compact 3D Gaussian memory storing VAE features, rendering conditioning directly in latent space.
+
+## Gym-Anything for Robotics: Scaling physical simulations with digital agents
+
+- [arXiv 2610.40565](https://arxiv.org/abs/2610.40565) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40565)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40565)
+
+Gym-Anything uses coding agents and adversarial audits to create physics simulations and tasks; accumulated Markdown lessons improve later builds. RoboWorld contains 25 simulations, 25 test tasks and 175 training environments, including liquids, cloth and chemistry.
+
+## Retrieval as Traversal: Value-Indexed Memory for Stateful Long-Context Agents
+
+- [arXiv 2610.40545](https://arxiv.org/abs/2610.40545) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40545)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40545)
+
+Proposes persistent local memory traversal separating content utility from address geometry.
+
+## PhysVLMM: Interaction-Conditioned Physical Belief Maps for Articulated Objects in Robot Scene Maps
+
+- [arXiv 2610.40539](https://arxiv.org/abs/2610.40539) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40539)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40539)
+
+PhysVLMM attaches uncertainty-aware physical beliefs to articulated scene-map parts, updates them from measured pulls, transfers evidence to similar untested parts and answers risk-bounded action queries or abstains.
+
+## DAWN: Diffusion-based Alignment and unfastening Workflow Network
+
+- [arXiv 2610.40537](https://arxiv.org/abs/2610.40537) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40537)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40537)
+
+DAWN decomposes robotic unscrewing into diffusion-based alignment/insertion, multimodal transition detection and force-controlled unfastening.
+
+## Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success
+
+- [arXiv 2610.40444](https://arxiv.org/abs/2610.40444) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40444)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40444)
+
+Measures whether every tool-call prefix is executable, distinguishing final success from recovery after invalid actions.
+
+## JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning
+
+- [arXiv 2610.40356](https://arxiv.org/abs/2610.40356) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40356)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40356)
+
+JEDI compresses demonstrations into latent slots trained to predict query-stage futures in frozen video-JEPA space. Counterfactual task/process supervision preserves execution details and a predictor selects context from a demonstration bank.
+
+## RFW-A: Agentic Procedural Generation of 400K Articulated Assets over 500 Categories
+
+- [arXiv 2610.40333](https://arxiv.org/abs/2610.40333) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40333)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40333)
+
+Agents build reusable category-level articulated generators instead of reasoning separately for every asset.
+
+## LLM-guided Planar Loco-Manipulation for Quadruped Robots
+
+- [arXiv 2610.40248](https://arxiv.org/abs/2610.40248) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40248)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40248)
+
+A LoRA-trained language planner selects skills, objects and geometric targets from structured scene state, while RL controllers execute quadruped pushing and locomotion.
+
+## RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning
+
+- [arXiv 2610.40207](https://arxiv.org/abs/2610.40207) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40207)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40207)
+
+RoboAtom standardizes time-aligned atomic-action labels across existing robot datasets, combining manual annotation, propagation across repeated skill orders and quality control. It couples a skill-recognition benchmark with hierarchical policy training.
+
+## Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement
+
+- [arXiv 2610.40191](https://arxiv.org/abs/2610.40191) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40191)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40191)
+
+A report organizes agentic video systems around runtime state, tools, feedback, budgets, and distinct levels of self-improvement.
+
+## VideoMemBench: How Well Do MLLMs Remember in Video Conversations?
+
+- [arXiv 2610.40131](https://arxiv.org/abs/2610.40131) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40131)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40131)
+
+Tests dependencies on earlier visual episodes and the model's own prior answers across video conversations.
+
+## LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks
+
+- [arXiv 2610.40016](https://arxiv.org/abs/2610.40016) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40016)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40016)
+
+LOGIV adds an explicit condition-support/resource-order graph above existing policies. It checks whether earlier effects remain valid, traces failed dependencies, and symbolically validates local repair together with the retained unfinished plan.
+
+## GROME: GROunding Factorized MEmory into Video World Models
+
+- [arXiv 2610.39812](https://arxiv.org/abs/2610.39812) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39812)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39812)
+
+Separates static geometry from dynamic entities, retrieves local evidence, and injects memory into a frozen video world model.
+
+## Surrogate Uncertainty for Black-box Visual Grounding
+
+- [arXiv 2610.39798](https://arxiv.org/abs/2610.39798) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39798)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39798)
+
+An external Bayesian surrogate estimates uncertainty for black-box VLM grounding rather than trusting the same model to grade itself. It uses multimodal calibration-neighborhood retrieval and can support conformal prediction or information-gathering planning.
+
+## Teaching a Tree to Recover: Online Distillation of an LLM Supervisor with Counterfactual Replay
+
+- [arXiv 2610.39775](https://arxiv.org/abs/2610.39775) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39775)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39775)
+
+An LLM recovery supervisor is distilled online into a decision tree; counterfactual episode replays identify unnecessary or harmful interventions and retire corresponding rules. The learned tree replaces repeated runtime LLM calls on familiar states.
+
+## Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory
+
+- [arXiv 2610.39446](https://arxiv.org/abs/2610.39446) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39446)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39446)
+
+EvoLife is a navigation agent harness integrating geometric/pixel/object actions, active help-seeking, and persistent place records linking poses, images and dialogue. Its lifelong component is experience storage and retrieval, not demonstrated continual weight learning.
+
+## ScheduleGen: Demonstration Generation via Skill Scheduling for Multi-Arm Imitation Learning
+
+- [arXiv 2610.39429](https://arxiv.org/abs/2610.39429) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39429)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39429)
+
+ScheduleGen combines task planning and skill scheduling to synthesize demonstrations that respect multi-arm constraints, rather than independently replaying single-arm motions.
+
+## Before the Next Rollout: Diagnosing Skill Utility Shifts from Policy Updates
+
+- [arXiv 2610.39358](https://arxiv.org/abs/2610.39358) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39358)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39358)
+
+Uses policy-change readouts on saved contexts to prioritize skills whose utility is declining.
+
+## ProLoop: Progress-Aware Closed-Loop Framework via Structured State Relations for Long-Horizon Robotic Task Planning
+
+- [arXiv 2610.39319](https://arxiv.org/abs/2610.39319) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39319)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39319)
+
+ProLoop makes subgoal progress explicit by comparing structured desired and observed states, then gates correction, continuation and memory retention on that relation.
+
+## Cross-Controller Transfer via In-Context Behavior Adaptation
+
+- [arXiv 2610.39280](https://arxiv.org/abs/2610.39280) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39280)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39280)
+
+Cross-controller transfer conditions π0.5 on commanded-versus-achieved interaction histories, allowing strategy changes rather than merely remapping motor commands.
+
+## EmbodiExp: Compositional Experience Transfer for Embodied Agents
+
+- [arXiv 2610.39180](https://arxiv.org/abs/2610.39180) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39180)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39180)
+
+EmbodiExp represents experience as a subgoal with applicability conditions, an adaptable policy and a verifiable outcome, allowing local successes from failed trajectories to compose across tasks.
+
+## EgoContact: Evaluating Physical Intelligence with Egocentric Video
+
+- [arXiv 2610.39167](https://arxiv.org/abs/2610.39167) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39167)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39167)
+
+EgoContact tests whether manipulation priors identify precise future contact locations in egocentric video, then reuses those examples as an affordance memory bank.
+
+## VEvo-Harness: Causally-Guarded Self-Evolving Harness for Agentic Image Generation
+
+- [arXiv 2610.39158](https://arxiv.org/abs/2610.39158) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39158)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39158)
+
+Frozen generators are surrounded by persistent repair memory and skill patches admitted through paired counterfactual replay.
+
+## Tracking Task Progress Through Errors and Recovery:A Benchmark and Recurrent Distributional Model
+
+- [arXiv 2610.39125](https://arxiv.org/abs/2610.39125) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39125)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39125)
+
+ReSTEP captures error and recovery trajectories; REMORA combines recurrent memory with a distribution over progress to avoid both jitter and falsely monotonic progress.
+
+## Context Compaction for World Models
+
+- [arXiv 2610.38980](https://arxiv.org/abs/2610.38980) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38980)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38980)
+
+Treats world consistency as a context-retrieval problem and compacts context at the agent-harness layer.
+
+## AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs
+
+- [arXiv 2610.38744](https://arxiv.org/abs/2610.38744) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38744)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38744)
+
+AtomTree incrementally decomposes subgoal trees using current symbolic state, stores concise outcome memory and backtracks to regenerate failed subtrees.
+
+## When "No Worries" Went Wrong: HRI Lessons for Foundation-Model Robots
+
+- [arXiv 2610.38400](https://arxiv.org/abs/2610.38400) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38400)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38400)
+
+Engineering incidents show that plausible robot language can become socially wrong through timing or stale purpose. TRACE follows changed premises through evidence, authority and execution boundaries.
+
+## ELEVATE: Agentic Controller Acquisition from Task Failure for Quadrupedal Manipulation
+
+- [arXiv 2610.38388](https://arxiv.org/abs/2610.38388) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38388)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38388)
+
+ELEVATE responds to persistent task-program failure by asking a coding agent to train missing controllers, validate them and add reusable skills. This expands the available action repertoire instead of endlessly replanning over fixed tools.
+
+## CSO: Refining Robotic Policies via Skill Distribution Alignment and Skill-Grained Optimization
+
+- [arXiv 2610.38357](https://arxiv.org/abs/2610.38357) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38357)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38357)
+
+CSO post-trains discrete-skill policies in two stages: align skill distributions with successful online trajectories, then optimize skill-level clipped ratios with the observation encoder frozen.
+
+## Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation
+
+- [arXiv 2610.38266](https://arxiv.org/abs/2610.38266) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38266)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38266)
+
+This survey distinguishes improving a learner from inheriting a revised improvement process. Its L0–L3 rubric separates task-local adaptation, persistent capability, inherited process revisions and verified improver gains.
+
+## ParaTTT: Parallelizing Test-Time Training Layers with Deep Memories
+
+- [arXiv 2610.38255](https://arxiv.org/abs/2610.38255) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38255)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38255)
+
+Parallelizes nonlinear neural memories by iterative refinement of the online gradient trajectory.
+
+## SkillCT: A Multidimensional Benchmark and Execution-Free Baseline for Agent Skill Assessment
+
+- [arXiv 2610.38147](https://arxiv.org/abs/2610.38147) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38147)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38147)
+
+Assesses nine dimensions of skill quality and predicts unseen-skill profiles by retrieving reference skills.
+
+## METATRON: A Promptable Whole-Body Execution Layer for Humanoids
+
+- [arXiv 2610.38027](https://arxiv.org/abs/2610.38027) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38027)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38027)
+
+METATRON separates a frozen generative whole-body controller from stateful programs that express task goals as prompts; coding agents refine those programs rather than retrain the motor policy.
+
+## Learning and Transferring Closed-Loop Robot Software
+
+- [arXiv 2609.19906](https://arxiv.org/abs/2609.19906) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2609.19906)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2609.19906)
+
+Execution-improved closed-loop policy code becomes an archive for acquiring new robot tasks. Revision adds physical Unitree G1 validation, while retaining the earlier RoboCasa cross-task transfer study.
+
+## Evidence-Gated Task and Motion Planning with Vision-Language Models
+
+- [arXiv 2608.20084](https://arxiv.org/abs/2608.20084) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2608.20084)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2608.20084)
+
+EAFG explicitly acquires visual evidence before task planning and gates between further exploration, planning and halting. Revision adds an exploration-and-halting prompted baseline and revises evaluation criteria and reported results.
+
+## Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment
+
+- [arXiv 2607.13429](https://arxiv.org/abs/2607.13429) · v3 · [Latest entry](../daily/2026-10-30.md#arxiv-2607.13429)
+- Coverage history: [2026-10-30 (v3, revised)](../daily/2026-10-30.md#arxiv-2607.13429)
+
+Anchor-Align constrains VLM representational drift and aligns motion with language during VLA finetuning. Revision adds semantic-label controls and expands hardware evidence across architectures and embodiments.
+
+## RE4: Transformation-aware Imitation of Object Interactions Using Manipulation Modes
+
+- [arXiv 2606.24403](https://arxiv.org/abs/2606.24403) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2606.24403)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2606.24403)
+
+RE4 retrieves, transforms, replans and replays demonstrations according to manipulation modes. v2 adds pose-estimation variants, a real mug task, distractor and obstacle studies, and a VINN baseline.
+
+## GUI-AC: Enhancing Continual Learning in GUI Agents
+
+- [arXiv 2606.10522](https://arxiv.org/abs/2606.10522) · v3 · [Latest entry](../daily/2026-10-30.md#arxiv-2606.10522)
+- Coverage history: [2026-10-30 (v3, revised)](../daily/2026-10-30.md#arxiv-2606.10522)
+
+GUI-AC targets continual grounding under interface-domain and resolution shifts with rollout-specific advantage and clipping updates. v2 uniformly downweighted low-certainty groups; v3 amplifies negative advantages only for high-probability failures. Upper clipping expands only for low-probability positive-advantage exploration; lower clipping stays fixed. Probability ratio now uses old rollout policy, not reference policy.
+
+## SkillHone: A Harness for Continual Agent Skill Evolution Through Persistent Decision History
+
+- [arXiv 2606.08671](https://arxiv.org/abs/2606.08671) · v4 · [Latest entry](../daily/2026-10-30.md#arxiv-2606.08671)
+- Coverage history: [2026-10-30 (v4, revised)](../daily/2026-10-30.md#arxiv-2606.08671)
+
+Adds development-cost evidence to a persistent-history skill-evolution harness; the method and headline accuracy results already appear in v3.
+
+## Train the Agent, Not the Expert: Learning to Harness Heterogeneous Experts for Multi-Turn Visual Reasoning
+
+- [arXiv 2605.29894](https://arxiv.org/abs/2605.29894) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2605.29894)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2605.29894)
+
+VisHarness v2 adds RL-only, visual-memory archiving and interaction-budget ablations, and revises the reported evaluation of a trained agent using fixed visual experts.
+
+## OmniVIC: A Self-Improving Variable Impedance Controller with Vision-Language In-Context Learning for Safe Robotic Manipulation
+
+- [arXiv 2510.17150](https://arxiv.org/abs/2510.17150) · v3 · [Latest entry](../daily/2026-10-30.md#arxiv-2510.17150)
+- Coverage history: [2026-10-30 (v3, revised)](../daily/2026-10-30.md#arxiv-2510.17150)
+
+OmniVIC retrieves past interaction records to prompt a VLM for variable-impedance gains. Revision clarifies safety termination, controller rates and baseline gains, and adds an explicit five-trial hardware success statement; the headline simulation result is not new.
 
 ## Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use
 

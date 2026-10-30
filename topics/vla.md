@@ -2,7 +2,196 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-115 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+142 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing
+
+- [arXiv 2610.40532](https://arxiv.org/abs/2610.40532) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40532)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40532)
+
+BURGER uses language-conditioned robot drawing to separate language grounding, spatial composition and multimodal trajectory choice while scaling demonstrations cheaply.
+
+## Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design
+
+- [arXiv 2610.40430](https://arxiv.org/abs/2610.40430) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40430)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40430)
+
+DEED adapts a VLA with instruction/visual demonstration expansion, balanced sampling and task-specific chunk-to-control execution design.
+
+## HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model
+
+- [arXiv 2610.40373](https://arxiv.org/abs/2610.40373) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40373)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40373)
+
+HiFOR predicts short-term states, semantic milestones and final goals with a hierarchical dependency mask, organizes latent futures by horizon/view/space, and lets evolving action tokens retrieve relevant future information during denoising.
+
+## JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning
+
+- [arXiv 2610.40356](https://arxiv.org/abs/2610.40356) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40356)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40356)
+
+JEDI compresses demonstrations into latent slots trained to predict query-stage futures in frozen video-JEPA space. Counterfactual task/process supervision preserves execution details and a predictor selects context from a demonstration bank.
+
+## TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation
+
+- [arXiv 2610.40349](https://arxiv.org/abs/2610.40349) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40349)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40349)
+
+TouchBridge co-designs human and robot visual/tactile interfaces and retargets fingertip contact patches without object meshes, poses or physics simulation. Converted human demonstrations fine-tune a VLA.
+
+## Gaussian Distillation of Flow Policies
+
+- [arXiv 2610.40271](https://arxiv.org/abs/2610.40271) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40271)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40271)
+
+Gaussian Action Readout replaces a flow policy output layer with a Gaussian model while freezing its backbone, providing one-pass sampling and closed-form likelihoods.
+
+## RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning
+
+- [arXiv 2610.40207](https://arxiv.org/abs/2610.40207) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40207)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40207)
+
+RoboAtom standardizes time-aligned atomic-action labels across existing robot datasets, combining manual annotation, propagation across repeated skill orders and quality control. It couples a skill-recognition benchmark with hierarchical policy training.
+
+## Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles
+
+- [arXiv 2610.40075](https://arxiv.org/abs/2610.40075) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40075)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40075)
+
+An oracle-guided safeguard uses binary feasibility checks to repair unsafe flow updates and infer local boundary gradients, aligning training and inference without analytic constraints.
+
+## RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence
+
+- [arXiv 2610.40026](https://arxiv.org/abs/2610.40026) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40026)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40026)
+
+RoboSeed separates capability, training cost, deployment cost, local research-value evidence and reproduction evidence into explicit profiles with fixed scoring anchors and budget-dependent preferences.
+
+## LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks
+
+- [arXiv 2610.40016](https://arxiv.org/abs/2610.40016) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40016)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40016)
+
+LOGIV adds an explicit condition-support/resource-order graph above existing policies. It checks whether earlier effects remain valid, traces failed dependencies, and symbolically validates local repair together with the retained unfinished plan.
+
+## How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function
+
+- [arXiv 2610.40002](https://arxiv.org/abs/2610.40002) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.40002)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.40002)
+
+CoC-CFG treats reasoning strength as a per-denoising-step control variable between reasoning-conditioned and reasoning-removed predictions. With fixed expert and noise, completed rollouts measure action values that train small conservative guidance critics.
+
+## From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models
+
+- [arXiv 2610.39543](https://arxiv.org/abs/2610.39543) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39543)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39543)
+
+CoRAct turns movement descriptions and future waypoints into action-alignment rewards. A shared transformer predicts reasoning, actions and action-conditioned futures; group-relative optimization steers initial action noise toward matching the stated consequences.
+
+## PRIME W0: Physical Priors from World Models for Embodied Manipulation
+
+- [arXiv 2610.39528](https://arxiv.org/abs/2610.39528) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39528)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39528)
+
+PRIME W0 combines per-layer VLM key/value conditioning, asynchronous subgoal-image prediction, frozen-DINOv2 history tokens and an adaptive-MoE flow action decoder. Covariance-shaped action noise encodes correlations from demonstrations.
+
+## Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning
+
+- [arXiv 2610.39451](https://arxiv.org/abs/2610.39451) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39451)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39451)
+
+Smooth movement-primitive coefficients replace raw action chunks; an inference-time via-point correction aligns each new chunk with the last commanded action without retraining.
+
+## Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction
+
+- [arXiv 2610.39416](https://arxiv.org/abs/2610.39416) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39416)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39416)
+
+A lightweight continuous geometry head reads frozen intermediate VLM features to predict affordance boxes and waypoints without autoregressive coordinate tokens.
+
+## UMI-Live for In-The-Wild Bimanual Robotics Data Collection
+
+- [arXiv 2610.39385](https://arxiv.org/abs/2610.39385) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39385)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39385)
+
+UMI-Live packages bimanual field demonstrations into a collection-to-training pipeline with onboard sensing, asynchronous SLAM and VLA deployment tools.
+
+## Utility-WAM: Correcting Future-Induced Action Changes
+
+- [arXiv 2610.39367](https://arxiv.org/abs/2610.39367) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39367)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39367)
+
+Utility-WAM audits the action change caused by imagined futures, repairs harmful deltas with a residual adapter, and skips future generation when an offline utility gate predicts little benefit.
+
+## Cross-Controller Transfer via In-Context Behavior Adaptation
+
+- [arXiv 2610.39280](https://arxiv.org/abs/2610.39280) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.39280)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.39280)
+
+Cross-controller transfer conditions π0.5 on commanded-versus-achieved interaction histories, allowing strategy changes rather than merely remapping motor commands.
+
+## Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models
+
+- [arXiv 2610.38661](https://arxiv.org/abs/2610.38661) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38661)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38661)
+
+QbD-VLA uses short closed-loop task tests to allocate mixed precision, optimizing what the robot succeeds at rather than calibration error alone.
+
+## SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control
+
+- [arXiv 2610.38508](https://arxiv.org/abs/2610.38508) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38508)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38508)
+
+SaiVLA-JEPA distinguishes gains from current predictive-encoder features from gains due to future-latent training, and separately audits context adaptation and parameter updates.
+
+## Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation
+
+- [arXiv 2610.38199](https://arxiv.org/abs/2610.38199) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38199)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38199)
+
+Underwater imitation learning exposes a large gap between pool performance and marine field deployment, offering a useful counterweight to generalist-VLA assumptions.
+
+## Self-Labeled Preference Transfer for Steerable Robot Manipulation
+
+- [arXiv 2610.38000](https://arxiv.org/abs/2610.38000) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.38000)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.38000)
+
+SPT jointly trains preference recognition and preference-conditioned actions, freezes recognition, then pseudo-labels new-task demonstrations before adapting the policy. This preserves how-to-execute control that bare-task fine-tuning loses.
+
+## What Actually Matters? A Paired Evaluation of Inference Settings for $π_{0.5}$ on BEHAVIOR-1K
+
+- [arXiv 2610.37917](https://arxiv.org/abs/2610.37917) · v1 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.37917)
+- Coverage history: [2026-10-30 (v1, new)](../daily/2026-10-30.md#arxiv-2610.37917)
+
+This paired study treats inference settings as experimentally testable interventions rather than transferable defaults. Chunk execution horizon matters strongly, whereas denoising effort and overlap inpainting show no detectable gain in this setting.
+
+## Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics
+
+- [arXiv 2610.34051](https://arxiv.org/abs/2610.34051) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2610.34051)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34051) · [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2610.34051)
+
+BEHAVIOR-Spatial separates spatial QA, target grounding and action execution. v2 revises grounding and navigation-VQA values while leaving the headline manipulation/action results unchanged.
+
+## ActionUNet: Improving Robustness of VLA Models with Efficient Multi-scale Fine-tuning
+
+- [arXiv 2609.34982](https://arxiv.org/abs/2609.34982) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2609.34982)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2609.34982)
+
+ActionUNet adds multiscale temporal features and continuous action decoding to VLA finetuning. This revision contracts, rather than expands, the supplementary evidence.
+
+## Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment
+
+- [arXiv 2607.13429](https://arxiv.org/abs/2607.13429) · v3 · [Latest entry](../daily/2026-10-30.md#arxiv-2607.13429)
+- Coverage history: [2026-10-30 (v3, revised)](../daily/2026-10-30.md#arxiv-2607.13429)
+
+Anchor-Align constrains VLM representational drift and aligns motion with language during VLA finetuning. Revision adds semantic-label controls and expands hardware evidence across architectures and embodiments.
+
+## VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon
+
+- [arXiv 2607.01804](https://arxiv.org/abs/2607.01804) · v2 · [Latest entry](../daily/2026-10-30.md#arxiv-2607.01804)
+- Coverage history: [2026-10-30 (v2, revised)](../daily/2026-10-30.md#arxiv-2607.01804)
+
+VLA-Corrector combines learned latent-dynamics monitoring, event-triggered chunk truncation and recovery-directed gradient guidance without updating the VLA backbone. Revision adds deployment cost accounting and a direct asynchronous, matched-call RTC comparison.
 
 ## ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
 

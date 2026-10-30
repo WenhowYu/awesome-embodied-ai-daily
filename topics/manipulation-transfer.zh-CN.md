@@ -2,7 +2,329 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-159 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+204 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing
+
+- [arXiv 2610.40646](https://arxiv.org/abs/2610.40646) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40646)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40646)
+
+SwapBot 以固定机器人连接接口和低成本触觉工具适配器支持自主换工具及示范采集，再训练使用触觉数据的模仿策略。
+
+## Gym-Anything for Robotics: Scaling physical simulations with digital agents
+
+- [arXiv 2610.40565](https://arxiv.org/abs/2610.40565) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40565)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40565)
+
+Gym-Anything 通过编码代理和对抗审计生成物理仿真与任务，用 Markdown 经验积累改进后续构建。RoboWorld 包含 25 仿真、25 测试任务和 175 训练环境，覆盖液体、布料和化学。
+
+## PhysVLMM: Interaction-Conditioned Physical Belief Maps for Articulated Objects in Robot Scene Maps
+
+- [arXiv 2610.40539](https://arxiv.org/abs/2610.40539) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40539)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40539)
+
+PhysVLMM 为场景图中关节部件维护不确定物理信念，用实测拉动更新，将证据传给相似未测部件，并对风险约束动作查询作答或弃权。
+
+## DAWN: Diffusion-based Alignment and unfastening Workflow Network
+
+- [arXiv 2610.40537](https://arxiv.org/abs/2610.40537) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40537)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40537)
+
+DAWN 将机器人拆螺丝分为扩散策略对齐插入、多模态阶段切换检测和力控拆卸。
+
+## Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors
+
+- [arXiv 2610.40401](https://arxiv.org/abs/2610.40401) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40401)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40401)
+
+CoAWM 跨本体和采样率预训练共享潜在动作函数空间，再由世界模型骨干条件化该函数；查询任意时间获得末端动作。
+
+## TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation
+
+- [arXiv 2610.40349](https://arxiv.org/abs/2610.40349) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40349)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40349)
+
+TouchBridge 协同设计人类与机器人视觉/触觉接口，无需物体网格、位姿或仿真即可重定向指尖接触区域，再以转换的人类示范微调 VLA。
+
+## RFW-A: Agentic Procedural Generation of 400K Articulated Assets over 500 Categories
+
+- [arXiv 2610.40333](https://arxiv.org/abs/2610.40333) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40333)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40333)
+
+以智能体构建可复用类别生成器，避免逐资产重复推理。
+
+## LLM-guided Planar Loco-Manipulation for Quadruped Robots
+
+- [arXiv 2610.40248](https://arxiv.org/abs/2610.40248) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40248)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40248)
+
+LoRA 语言规划器根据结构化场景选择技能、物体和几何目标，由 RL 控制器执行四足推物和移动。
+
+## AcrossDEX 1.0: From Human Motion Pretraining to Bimanual Dexterous Manipulation across Hand Embodiments
+
+- [arXiv 2610.40210](https://arxiv.org/abs/2610.40210) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40210)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40210)
+
+AcrossDEX 以共享手腕、独立手指表示和有效性掩码，将人类双手运动预训练适配至 Inspire 与 Allegro 机器人手，并比较回归与生成解码的滚动执行。
+
+## Coupled Guidance for Flow Matching
+
+- [arXiv 2610.40109](https://arxiv.org/abs/2610.40109) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40109)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40109)
+
+Coupled Guidance 从训练耦合结构推导流匹配专用采样引导，而非直接移植扩散引导，避免破坏耦合稳定性。
+
+## Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles
+
+- [arXiv 2610.40075](https://arxiv.org/abs/2610.40075) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.40075)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.40075)
+
+基于二值可行性 oracle 修正不安全流更新，并估计局部边界梯度，无需解析约束即可让训练和推理使用同一防护机制。
+
+## PhysAg3D: Bridging 3D Generative and Agentic Models for High-Fidelity and Physically-Interactive Assets
+
+- [arXiv 2610.39924](https://arxiv.org/abs/2610.39924) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39924)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39924)
+
+结合生成网格与智能体构建，在固定预算内修正关节、柔顺区域和表面绑定。
+
+## TactoHand: Learning Geometry-Based Dense Hand-Surface Interaction Fields from Video
+
+- [arXiv 2610.39585](https://arxiv.org/abs/2610.39585) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39585)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39585)
+
+从单目视频预测手表面接触、距离与力，监督来自几何和运动推导。
+
+## Kinematic-Tactile Aligned Dexterous Retargeting with Contact Wrench Space Alignment
+
+- [arXiv 2610.39582](https://arxiv.org/abs/2610.39582) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39582)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39582)
+
+三阶段重定向同时保留人手运动学和触觉接触力旋量支撑，再将机器人目标指尖力转为可执行关节修正。
+
+## Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning
+
+- [arXiv 2610.39451](https://arxiv.org/abs/2610.39451) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39451)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39451)
+
+以平滑运动基元系数替代原始动作段，并用推理时经过点修正将新段接上上一条执行动作，无需重新训练。
+
+## ScheduleGen: Demonstration Generation via Skill Scheduling for Multi-Arm Imitation Learning
+
+- [arXiv 2610.39429](https://arxiv.org/abs/2610.39429) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39429)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39429)
+
+ScheduleGen 将任务规划与技能调度结合，合成符合多臂约束的示范，而非独立重放单臂轨迹。
+
+## Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction
+
+- [arXiv 2610.39416](https://arxiv.org/abs/2610.39416) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39416)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39416)
+
+轻量连续几何头读取冻结VLM中间特征，直接预测可供性框与路径点，避免自回归坐标token。
+
+## UMI-Live for In-The-Wild Bimanual Robotics Data Collection
+
+- [arXiv 2610.39385](https://arxiv.org/abs/2610.39385) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39385)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39385)
+
+UMI-Live把双臂野外示范采集、机载感知、异步SLAM和VLA训练部署串成完整流程。
+
+## Language-Grounded Force/Torque Pretraining for Extrinsic Contact Perception
+
+- [arXiv 2610.39314](https://arxiv.org/abs/2610.39314) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39314)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39314)
+
+力/力矩预训练把双侧历史与冻结语言嵌入对齐，使接触物理状态可跨物体任务复用。
+
+## Cross-Controller Transfer via In-Context Behavior Adaptation
+
+- [arXiv 2610.39280](https://arxiv.org/abs/2610.39280) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39280)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39280)
+
+跨控制器迁移把命令—实际运动历史作为π0.5上下文，使其改变策略而非仅重映射电机命令。
+
+## EgoContact: Evaluating Physical Intelligence with Egocentric Video
+
+- [arXiv 2610.39167](https://arxiv.org/abs/2610.39167) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39167)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39167)
+
+EgoContact评测第一视角操作先验能否定位精确未来接触点，再将实例作为可供性记忆库。
+
+## Generating Critic-Guided Synthetic Experience in Latent World Models
+
+- [arXiv 2610.39100](https://arxiv.org/abs/2610.39100) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39100)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39100)
+
+用 critic 改进的合成动作微调离线 flow actor，冻结 LeWM 动力学与 critic。存储单步转移，但生成可串联至 40 个模型步。
+
+## Robotic Data Inoculation
+
+- [arXiv 2610.39054](https://arxiv.org/abs/2610.39054) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39054)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39054)
+
+Data Inoculation在人类遥操作中学习残差扰动，使人类纠正覆盖未来策略可能访问的偏离状态。
+
+## Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand
+
+- [arXiv 2610.39044](https://arxiv.org/abs/2610.39044) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.39044)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.39044)
+
+Catch It All通过抓取奖励及安全课程在仿真学习视觉灵巧接物，免真机策略微调部署。
+
+## Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models
+
+- [arXiv 2610.38661](https://arxiv.org/abs/2610.38661) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38661)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38661)
+
+QbD-VLA用短闭环任务试验分配混合精度，优化机器人实际成功而非仅校准误差。
+
+## Force-Driven Hook Disassembly via Constraint-Aware Object-Centric Reinforcement Learning
+
+- [arXiv 2610.38513](https://arxiv.org/abs/2610.38513) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38513)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38513)
+
+与机器人无关的物体中心RL策略结合力历史及粒子滤波信念，推断隐藏卡钩约束的可行拔出方向。
+
+## ELEVATE: Agentic Controller Acquisition from Task Failure for Quadrupedal Manipulation
+
+- [arXiv 2610.38388](https://arxiv.org/abs/2610.38388) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38388)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38388)
+
+ELEVATE在任务程序持续失败后让编码智能体训练缺失控制器、验证并加入技能库，扩展动作能力而非在固定工具上反复规划。
+
+## CSO: Refining Robotic Policies via Skill Distribution Alignment and Skill-Grained Optimization
+
+- [arXiv 2610.38357](https://arxiv.org/abs/2610.38357) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38357)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38357)
+
+CSO两阶段后训练离散技能策略：先用成功在线轨迹对齐技能分布，再冻结观察编码器进行技能粒度裁剪比率优化。
+
+## SimRetract: Zero-Shot Sim-to-Real Robotic Assistance for Retractor Take-Over in Open Surgery
+
+- [arXiv 2610.38234](https://arxiv.org/abs/2610.38234) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38234)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38234)
+
+SimRetract通过器械掩码、抓取几何与恢复导向仿真数据学习牵开器交接。
+
+## CuraEval: Evaluating Demonstration Curation on Mixed-Skill Robot Data
+
+- [arXiv 2610.38221](https://arxiv.org/abs/2610.38221) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38221)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38221)
+
+CuraEval用等量随机子集与全数据训练检验示范筛选，揭示评分指标及报告协议可能制造误导。
+
+## Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation
+
+- [arXiv 2610.38199](https://arxiv.org/abs/2610.38199) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38199)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38199)
+
+水下模仿学习揭示泳池与海洋实地部署之间的巨大差距，为通用VLA能力判断提供现实校准。
+
+## Same Label, Different Interface: Beyond Action-Space Labels in Robot Learning
+
+- [arXiv 2610.38104](https://arxiv.org/abs/2610.38104) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38104)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38104)
+
+动作空间标签掩盖实际执行接口；滤波、物理尺度、反馈与时序可能主导位置/速度控制差异。
+
+## Learning from Relative Action Credit for Escaping Local Minima
+
+- [arXiv 2610.38034](https://arxiv.org/abs/2610.38034) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38034)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38034)
+
+相对动作信用在 PPO 中加入动作条件 critic，比较同一状态下执行动作与替代动作，以突破局部解平台。
+
+## METATRON: A Promptable Whole-Body Execution Layer for Humanoids
+
+- [arXiv 2610.38027](https://arxiv.org/abs/2610.38027) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38027)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38027)
+
+METATRON将冻结的生成式全身控制器与表达任务目标的有状态程序分离；编码智能体改进程序，而非重训运动策略。
+
+## Self-Labeled Preference Transfer for Steerable Robot Manipulation
+
+- [arXiv 2610.38000](https://arxiv.org/abs/2610.38000) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.38000)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.38000)
+
+SPT联合学习偏好识别与条件动作，冻结识别器，为新任务示范补伪标签再适配策略，保留普通微调易遗失的执行偏好。
+
+## Echo: Scaling Visual Reinforcement Learning with Off-policy Experience
+
+- [arXiv 2610.37865](https://arxiv.org/abs/2610.37865) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.37865)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.37865)
+
+Echo 让状态辅助策略模仿视觉策略并采集无需渲染的离策略经验，共享特权critic以降低视觉RL成本。
+
+## DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks
+
+- [arXiv 2610.37799](https://arxiv.org/abs/2610.37799) · v1 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2610.37799)
+- 收录历史: [2026-10-30 (v1, new)](../daily/2026-10-30.zh-CN.md#arxiv-2610.37799)
+
+DexSuite 将灵巧操作仿真、遥操作、触觉及策略评估整合到可组合机械臂与手的平台；贡献是研究基础设施而非新策略。
+
+## Learning and Transferring Closed-Loop Robot Software
+
+- [arXiv 2609.19906](https://arxiv.org/abs/2609.19906) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2609.19906)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2609.19906)
+
+把经过执行反馈改进的闭环策略代码保存为档案，供新任务学习参考。本次修订新增 Unitree G1 实机验证，保留此前的 RoboCasa 跨任务迁移实验。
+
+## Evidence-Gated Task and Motion Planning with Vision-Language Models
+
+- [arXiv 2608.20084](https://arxiv.org/abs/2608.20084) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2608.20084)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2608.20084)
+
+EAFG 在任务规划前主动获取视觉证据，并决定继续探索、开始规划或停止。本次修订新增带探索与停止提示的基线，更新评价口径及实验结果。
+
+## Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment
+
+- [arXiv 2607.13429](https://arxiv.org/abs/2607.13429) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2607.13429)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2607.13429)
+
+Anchor-Align 在 VLA 微调中约束 VLM 表征漂移，并对齐运动与语言。本次修订新增语义标签对照，扩展不同架构与机器人形态的实机证据。
+
+## Detector Confidence Signals Presence Rather Than Occlusion in Cluttered Manipulation
+
+- [arXiv 2607.13361](https://arxiv.org/abs/2607.13361) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2607.13361)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2607.13361)
+
+区分类别检测置信度与指定物理实例的可见性、定位可靠性。 v3 收窄此前跨检测器和单视角不可能性的表述；5%→100% 明确是 40 场景的额外视角选择加融合效果，并非单次相机移动或端到端操作；增加成本与范围限制。
+
+## Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation
+
+- [arXiv 2607.11884](https://arxiv.org/abs/2607.11884) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2607.11884)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2607.11884)
+
+Mixture of Frames 在统一动作表示中融合坐标系专属扩散预测。v2 新增坐标系集合扩展实验，以及更强的容量与几何感知对照。
+
+## RE4: Transformation-aware Imitation of Object Interactions Using Manipulation Modes
+
+- [arXiv 2606.24403](https://arxiv.org/abs/2606.24403) · v2 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2606.24403)
+- 收录历史: [2026-10-30 (v2, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2606.24403)
+
+RE4 按操作模式检索、变换、重规划和回放示范。v2 新增位姿估计变体、真实杯子任务、干扰物与障碍物实验，以及 VINN 基线。
+
+## AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation
+
+- [arXiv 2604.11674](https://arxiv.org/abs/2604.11674) · v4 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2604.11674)
+- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2604.11674) · [2026-10-30 (v4, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2604.11674)
+
+AffordSim 将开放词汇三维可供性与仿真数据生成结合。本次修订将两处协议描述的偏航随机化范围从 180 度改为 60 度。
+
+## Combining Constrained Sampling and Reinforcement Learning for Manipulation
+
+- [arXiv 2602.08557](https://arxiv.org/abs/2602.08557) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2602.08557)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2602.08557)
+
+用约束采样提供接触可行的重置与目标状态，辅助目标条件 RL。v3 扩展到 Allegro 手内及倒置操作，并更新训练设置及方块任务结果。
+
+## OmniVIC: A Self-Improving Variable Impedance Controller with Vision-Language In-Context Learning for Safe Robotic Manipulation
+
+- [arXiv 2510.17150](https://arxiv.org/abs/2510.17150) · v3 · [最新归档](../daily/2026-10-30.zh-CN.md#arxiv-2510.17150)
+- 收录历史: [2026-10-30 (v3, revised)](../daily/2026-10-30.zh-CN.md#arxiv-2510.17150)
+
+OmniVIC 检索过去交互记录，以提示 VLM 生成可变阻抗参数。本次修订明确安全终止规则、控制频率与基线增益，并补充五次实机试验的成功率陈述；主要仿真结果并非新增。
 
 ## ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
 
@@ -549,13 +871,6 @@ v1→v2新增基于FoundationPose的高斯渲染对比物体跟踪，评估以�
 - 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2605.08571)
 
 v2→v3新增调优统一权重、源均值差异对照、特征对齐诊断及明确约束理论结论的权重审计；主要BEACON成功率在旧版已有。 理论界用于启发目标函数，不能当作已审计学习权重的有效保证。新增对齐结果是诊断证据；MMD基线也表明差异更小不必然带来更高任务成功率。
-
-## AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation
-
-- [arXiv 2604.11674](https://arxiv.org/abs/2604.11674) · v3 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2604.11674)
-- 收录历史: [2026-10-27 (v3, revised)](../daily/2026-10-27.zh-CN.md#arxiv-2604.11674)
-
-v2→v3新增真机域随机化扫描、五形态采集定量评测及等示范预算ACT抓取来源对照。多阶段成功率分解及原四任务sim-to-real评估在v2已存在。 位置扫描示范量从300增至1,200再到2,700，范围与数据量混杂；真机仅单任务、各10次。跨形态结果衡量仿真轨迹采集，不是学习策略迁移。已有主表数字未变，但采集次数文字从30改为100，不能解读为同协议新收益。
 
 ## RoboGene: Diversity-Driven Agentic Task Generation Framework for VLA Pre-training
 
