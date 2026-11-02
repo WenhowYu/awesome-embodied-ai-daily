@@ -2,7 +2,175 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-204 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+228 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space
+
+- [arXiv 2610.42021](https://arxiv.org/abs/2610.42021) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.42021)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.42021)
+
+人机联合训练对齐意图、细交互与动作潜变量。
+
+## Online Learning of Heterogeneous Locomotion Dynamics under Reinforcement Learning Policies for Precise Loco-Manipulation
+
+- [arXiv 2610.41892](https://arxiv.org/abs/2610.41892) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41892)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41892)
+
+污染高斯与随机特征GP学习冻结行走策略动力学。
+
+## META-Robot: Self-Cognition and Capability Scaling in Agentic Robots
+
+- [arXiv 2610.41868](https://arxiv.org/abs/2610.41868) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41868)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41868)
+
+关联技能与验证谓词，通过修复和本体感受扩展。
+
+## SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion
+
+- [arXiv 2610.41844](https://arxiv.org/abs/2610.41844) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41844)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41844)
+
+存储几何草图进行配准复用和近距离修正。
+
+## ResMerge: Residual Policy Learning and Merging for Continual Adaptation of Pre-trained Robot Policies
+
+- [arXiv 2610.41663](https://arxiv.org/abs/2610.41663) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41663)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41663)
+
+残差RL适应冻结基座，一致性筛选可合并LoRA专家。
+
+## Direct Action-Manifold Modeling for Efficient and Robust Bimanual Manipulation
+
+- [arXiv 2610.41643](https://arxiv.org/abs/2610.41643) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41643)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41643)
+
+DMAT以局部三维与频谱修正预测动作块。
+
+## RTPolicy: Real-Time (32.9 Hz) Multi-View Visuomotor Policy for Robotic Manipulation on Edge Devices
+
+- [arXiv 2610.41625](https://arxiv.org/abs/2610.41625) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41625)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41625)
+
+视角融合、压缩token支持流匹配动作。
+
+## BioAgent: Self-Directed Skill Acquisition and Capability Growth for Long-Horizon Laboratory Protocols
+
+- [arXiv 2610.41383](https://arxiv.org/abs/2610.41383) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41383)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41383)
+
+结合技能包验证、工具选择、人工教学与实验状态检查，支持长流程实验操作。
+
+## HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos
+
+- [arXiv 2610.41336](https://arxiv.org/abs/2610.41336) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41336)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41336)
+
+利用对应特征与手物交互先验，从RGB-D示范学习物体中心灵巧技能。
+
+## Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation
+
+- [arXiv 2610.41320](https://arxiv.org/abs/2610.41320) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41320)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41320)
+
+LEXP通过规划及带适用条件的交互经验调整冻结模型上下文，并非更新权重的强化学习。
+
+## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
+
+- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41216)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41216)
+
+用统计检验筛选执行框架修改，提升冻结教师，再通过推理与恢复轨迹蒸馏至4B学生。
+
+## Contact Imitation Interface: Transferring Dexterous Skills by Showing How Contact Unfolds
+
+- [arXiv 2610.41028](https://arxiv.org/abs/2610.41028) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41028)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41028)
+
+CIMI通过匹配接触几何、指尖视角及分层接触面规划控制迁移示范。
+
+## EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video
+
+- [arXiv 2610.40832](https://arxiv.org/abs/2610.40832) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40832)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40832)
+
+利用循环共享场景表示，从因果单目视频联合重建相机、场景、双手及稠密接触。
+
+## From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation
+
+- [arXiv 2610.40828](https://arxiv.org/abs/2610.40828) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40828)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40828)
+
+通过真机消融研究表示选择，以及离线指标能否预测灵巧插接效果。
+
+## CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents
+
+- [arXiv 2610.40799](https://arxiv.org/abs/2610.40799) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40799)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40799)
+
+通过合成SFT与多轮RL训练4B代码策略机器人，利用特权物理状态评论家分配信用。
+
+## WorldBridge: Bridging Video and Action for Task Generalization in World Action Models
+
+- [arXiv 2610.40748](https://arxiv.org/abs/2610.40748) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40748)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40748)
+
+通过结构化注意力连接视频与动作专家，结合联合流匹配及多尺度视觉记忆。
+
+## Learning from Fleet Experience: Collective Experience Learning Across 96 Robots
+
+- [arXiv 2610.25736](https://arxiv.org/abs/2610.25736) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.25736)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2610.25736)
+
+v3修正机器人群数据通路：在本地积累完整、经操作员标注的回合，再一次性传输；不再沿用v2所述的轨迹字段流式上传与云端复用推理观测。
+
+## Self-Building Labs
+
+- [arXiv 2610.23826](https://arxiv.org/abs/2610.23826) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.23826)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2610.23826)
+
+v2在原有量子点流程基础上新增HPLC样品板装载及专家监督下的RoboChem-Flex流动光化学部署，并提供留出条件下的输运预测验证。
+
+## HOPE: Hand-Object Pressure Estimation from Monocular Videos
+
+- [arXiv 2608.06192](https://arxiv.org/abs/2608.06192) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2608.06192)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2608.06192)
+
+从视频预测手部顶点法向压力与接触。v2实质新增近裸手传感器迁移评测及顶点/参数token对比。
+
+## UniCross: Unified Cross-Skill Dexterous Manipulation Synthesis
+
+- [arXiv 2607.28198](https://arxiv.org/abs/2607.28198) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2607.28198)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2607.28198)
+
+实质修订新增更困难的未见物体和未见目标定量测试，并以专家切换对照区分统一任务表述的技能兼容性与单策略蒸馏本身的收益。
+
+## Decompose and Reorganize: Planning with Primitives and Visuomotor Policies Learned from Demonstrations
+
+- [arXiv 2607.25397](https://arxiv.org/abs/2607.25397) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2607.25397)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2607.25397)
+
+v2扩展DR-LfD评测，新增第四项端到端真机任务、置信区间、数据规模比较，以及替换为通用TAMP抓取模块的直接测试。
+
+## Sequential Planning via Anchored Robotic Keypoints
+
+- [arXiv 2606.30613](https://arxiv.org/abs/2606.30613) · v4 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2606.30613)
+- 收录历史: [2026-11-02 (v4, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2606.30613)
+
+重要评估更正：SPARK现明确其66.8%的LIBERO-PRO主结果利用每次执行尝试后的仿真成功检查决定是否重试，并新增不使用该检查的独立评估。这改变了既有主结果的解释，而非证明新的自主鲁棒性提升。
+
+## NDPP-Grasp: Non-Differentiable Physical Plausibility Constraint-Guided Task-Oriented Dexterous Grasp Generation
+
+- [arXiv 2606.02432](https://arxiv.org/abs/2606.02432) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2606.02432)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2606.02432)
+
+v2加入v1 PDF中没有的大量补充评测，包括真机灵巧抓取、流匹配模型集成，以及控制与前瞻策略的进一步消融。
+
+## TacO: Benchmarking Tactile Sensors for Object Manipulation
+
+- [arXiv 2605.21976](https://arxiv.org/abs/2605.21976) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2605.21976)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2605.21976)
+
+实质修订新增力分量消融和扩展传感器重复性测试，更明确区分任务相关触觉信息与传感器规格或材料优势。
 
 ## SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing
 

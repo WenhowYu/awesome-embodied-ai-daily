@@ -2,7 +2,217 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-168 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+198 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
+
+- [arXiv 2610.42141](https://arxiv.org/abs/2610.42141) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.42141)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.42141)
+
+编码智能体优化冻结策略的控制框架与持久记忆。
+
+## REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
+
+- [arXiv 2610.42053](https://arxiv.org/abs/2610.42053) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.42053)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.42053)
+
+非阻塞运行时结合历史路由、边界评价、有界恢复。
+
+## TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs
+
+- [arXiv 2610.41983](https://arxiv.org/abs/2610.41983) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41983)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41983)
+
+通过近期画面相同、历史不同的视频对，检测流式模型是否真正使用记忆。
+
+## META-Robot: Self-Cognition and Capability Scaling in Agentic Robots
+
+- [arXiv 2610.41868](https://arxiv.org/abs/2610.41868) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41868)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41868)
+
+关联技能与验证谓词，通过修复和本体感受扩展。
+
+## SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion
+
+- [arXiv 2610.41844](https://arxiv.org/abs/2610.41844) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41844)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41844)
+
+存储几何草图进行配准复用和近距离修正。
+
+## When the Past Shapes Action: Understanding Embodied Memory
+
+- [arXiv 2610.41688](https://arxiv.org/abs/2610.41688) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41688)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41688)
+
+综述六需求、八类架构。
+
+## Verify--Backtrack Loop: Structured Precondition Recovery for Long-Horizon Language Agents
+
+- [arXiv 2610.41564](https://arxiv.org/abs/2610.41564) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41564)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41564)
+
+Verify–Backtrack Loop维护目标栈，根据失败类型在明确预算内补前提、重试或回退。
+
+## KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents
+
+- [arXiv 2610.41482](https://arxiv.org/abs/2610.41482) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41482)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41482)
+
+在统一递归文本记忆接口中比较四种辅助监督目标，区分任务表现与记忆可靠性。
+
+## Beyond Trial-and-Error: A Geospatial-Guided Active Reasoning Framework for Robust Aerial Vision-and-Language Navigation
+
+- [arXiv 2610.41446](https://arxiv.org/abs/2610.41446) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41446)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41446)
+
+GeoReasoner结合地理空间假设、主动取证、探索记忆与对抗一致性检查，实现航拍视觉语言导航。
+
+## BioAgent: Self-Directed Skill Acquisition and Capability Growth for Long-Horizon Laboratory Protocols
+
+- [arXiv 2610.41383](https://arxiv.org/abs/2610.41383) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41383)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41383)
+
+结合技能包验证、工具选择、人工教学与实验状态检查，支持长流程实验操作。
+
+## Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation
+
+- [arXiv 2610.41320](https://arxiv.org/abs/2610.41320) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41320)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41320)
+
+LEXP通过规划及带适用条件的交互经验调整冻结模型上下文，并非更新权重的强化学习。
+
+## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
+
+- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41216)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41216)
+
+用统计检验筛选执行框架修改，提升冻结教师，再通过推理与恢复轨迹蒸馏至4B学生。
+
+## Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization
+
+- [arXiv 2610.41157](https://arxiv.org/abs/2610.41157) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41157)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41157)
+
+因子实验将迭代提示／程序优化中的候选继承状态与失败反馈覆盖范围分开。
+
+## TalentRL: Strategy-Guided Reinforcement Learning for Hierarchical Skill Routing
+
+- [arXiv 2610.41143](https://arxiv.org/abs/2610.41143) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41143)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41143)
+
+高层策略指导技能检索，匹配干预轨迹区分路由与执行贡献。
+
+## Accept Changes, Reject Attacks: Robust Memory Management for LLM Agents
+
+- [arXiv 2610.41056](https://arxiv.org/abs/2610.41056) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41056)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41056)
+
+训练记忆更新接受真实变化并拒绝投毒，以证据条件准确率检查回答及支撑记录。
+
+## P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior
+
+- [arXiv 2610.40959](https://arxiv.org/abs/2610.40959) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40959)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40959)
+
+P-ContextBench超越事实回忆，评测时间状态重建与证据支持的行为。
+
+## EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video
+
+- [arXiv 2610.40832](https://arxiv.org/abs/2610.40832) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40832)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40832)
+
+利用循环共享场景表示，从因果单目视频联合重建相机、场景、双手及稠密接触。
+
+## CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents
+
+- [arXiv 2610.40799](https://arxiv.org/abs/2610.40799) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40799)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40799)
+
+通过合成SFT与多轮RL训练4B代码策略机器人，利用特权物理状态评论家分配信用。
+
+## More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum
+
+- [arXiv 2610.40758](https://arxiv.org/abs/2610.40758) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40758)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40758)
+
+CLR-Bench区分隐含规则学习与持久状态中的例外累积。
+
+## AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn
+
+- [arXiv 2610.40757](https://arxiv.org/abs/2610.40757) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40757)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40757)
+
+AutoHebb元学习固定权重，自主调节在线Hebbian可塑性，不依赖外部提供学习阶段信号。
+
+## DyCraft: An Agentic System for Long-Horizon 4D Scene Generation
+
+- [arXiv 2610.40754](https://arxiv.org/abs/2610.40754) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40754)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40754)
+
+代码智能体框架把4D动画拆成经过验证的静态分镜和局部运动，并加入显式物理检查。
+
+## Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses
+
+- [arXiv 2610.40747](https://arxiv.org/abs/2610.40747) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40747)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40747)
+
+通过五阶段训练，把进化的GUI/代码教师harness蒸馏至4B电脑操作策略。
+
+## Certified Behavioral Retention for Continual Adaptation with Held-Out Anchors
+
+- [arXiv 2610.40740](https://arxiv.org/abs/2610.40740) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40740)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40740)
+
+CABA用保留历史锚点上的最坏前向KL筛选候选更新，选择满足行为保留预算的最大已测试插值步长。
+
+## Self-Building Labs
+
+- [arXiv 2610.23826](https://arxiv.org/abs/2610.23826) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.23826)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2610.23826)
+
+v2在原有量子点流程基础上新增HPLC样品板装载及专家监督下的RoboChem-Flex流动光化学部署，并提供留出条件下的输运预测验证。
+
+## UniCross: Unified Cross-Skill Dexterous Manipulation Synthesis
+
+- [arXiv 2607.28198](https://arxiv.org/abs/2607.28198) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2607.28198)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2607.28198)
+
+实质修订新增更困难的未见物体和未见目标定量测试，并以专家切换对照区分统一任务表述的技能兼容性与单策略蒸馏本身的收益。
+
+## Decompose and Reorganize: Planning with Primitives and Visuomotor Policies Learned from Demonstrations
+
+- [arXiv 2607.25397](https://arxiv.org/abs/2607.25397) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2607.25397)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2607.25397)
+
+v2扩展DR-LfD评测，新增第四项端到端真机任务、置信区间、数据规模比较，以及替换为通用TAMP抓取模块的直接测试。
+
+## Sequential Planning via Anchored Robotic Keypoints
+
+- [arXiv 2606.30613](https://arxiv.org/abs/2606.30613) · v4 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2606.30613)
+- 收录历史: [2026-11-02 (v4, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2606.30613)
+
+重要评估更正：SPARK现明确其66.8%的LIBERO-PRO主结果利用每次执行尝试后的仿真成功检查决定是否重试，并新增不使用该检查的独立评估。这改变了既有主结果的解释，而非证明新的自主鲁棒性提升。
+
+## EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective
+
+- [arXiv 2605.18421](https://arxiv.org/abs/2605.18421) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2605.18421)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2605.18421)
+
+沿回合内/跨回合、知识/执行两轴评测15种记忆方法，含ALFWorld。
+
+## M*: Every Task Deserves Its Own Memory Harness
+
+- [arXiv 2604.11811](https://arxiv.org/abs/2604.11811) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2604.11811)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2604.11811)
+
+通过反思式代码进化，联合搜索可执行Python记忆程序的结构、存储逻辑和指令。
+
+## Shared Modular Recurrence in Contextual MDPs for Universal Morphology Control
+
+- [arXiv 2506.08630](https://arxiv.org/abs/2506.08630) · v4 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2506.08630)
+- 收录历史: [2026-11-02 (v4, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2506.08630)
+
+v4新增对照，区分共享递归记忆与固定近期观测窗口、以及额外训练时间的作用，强化未见形态泛化的证据。
 
 ## L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory
 

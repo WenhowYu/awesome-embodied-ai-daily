@@ -2,7 +2,133 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-125 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+143 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Hierarchical World Models with Implicit Dynamics
+
+- [arXiv 2610.42146](https://arxiv.org/abs/2610.42146) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.42146)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.42146)
+
+搜索扩散生成可达子目标，以低层世界模型实现。
+
+## GeoFlip: Benchmarking Geometry-Sensitive Physics in Video Generation
+
+- [arXiv 2610.42002](https://arxiv.org/abs/2610.42002) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.42002)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.42002)
+
+保持提示不变，通过几何干预翻转仿真物理结果，检验模型是否响应因果条件而非仅生成逼真画面。
+
+## When Does Test-Time Search Help World Action Models? An Empirical Audit of Candidate Selection and Simulator Integrity
+
+- [arXiv 2610.41970](https://arxiv.org/abs/2610.41970) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41970)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41970)
+
+针对Cosmos Policy在RoboCasa中的候选选择信号、实际加速和仿真完整性进行前提审计。
+
+## When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks
+
+- [arXiv 2610.41857](https://arxiv.org/abs/2610.41857) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41857)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41857)
+
+检测接触伪影，支持回放与单参数反事实重跑。
+
+## MolmoSpaces-CommonSense: Evaluating Commonsense in Robotic Manipulation Policies
+
+- [arXiv 2610.41377](https://arxiv.org/abs/2610.41377) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41377)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41377)
+
+评估杂乱、遮挡、支撑关系、可供性和隐藏物体等操作常识。
+
+## Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics
+
+- [arXiv 2610.41330](https://arxiv.org/abs/2610.41330) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41330)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41330)
+
+Hourglass以相机自运动连接本体无关世界模型与参数化可微动力学，在想象中训练共享规划策略。
+
+## SPT-Flow: One Integration, Many Futures in Continuous-Time World Models
+
+- [arXiv 2610.41273](https://arxiv.org/abs/2610.41273) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41273)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41273)
+
+SPT-Flow以每轨迹单个潜变量监督自由运行连续时间轨迹，检验教师强制产生的捷径。
+
+## One Verdict Is Not Enough: Regression Testing Learned World Models and Their Test Harnesses
+
+- [arXiv 2610.41130](https://arxiv.org/abs/2610.41130) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41130)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41130)
+
+TetraState将测试框架与世界模型共同版本化，追踪四种原生配置下逐测试结果变化。
+
+## Before We Adapt: The Zero-Shot Generalization Bottleneck in Continual World Models
+
+- [arXiv 2610.41041](https://arxiv.org/abs/2610.41041) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41041)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41041)
+
+区分物理与行为上下文变化，在持续适应之前诊断世界模型零样本复用。
+
+## Density-Guided Bootstrap Boundaries for Latent World-Model Reinforcement Learning
+
+- [arXiv 2610.41022](https://arxiv.org/abs/2610.41022) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41022)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41022)
+
+在DreamerV3想象回报中加入密度代理驱动的硬/软bootstrap边界，不替换世界模型转移过程。
+
+## UFMF: Radar-Guided Kinematic Priors for Real-Time 4D Occupancy Forecasting
+
+- [arXiv 2610.40947](https://arxiv.org/abs/2610.40947) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40947)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40947)
+
+轻量状态空间预测器结合雷达引导运动残差、世界坐标及垂直几何监督。
+
+## Let LiDAR Decide Where to Look: Geometry-Measured Token Selection for Efficient Sparse Latent World Models
+
+- [arXiv 2610.40935](https://arxiv.org/abs/2610.40935) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40935)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40935)
+
+在视觉编码前利用激光雷达/雷达几何选择图像块，借助三维锚定潜在预测支持驾驶规划。
+
+## Agentic World Modeling for Agent Test-time Scaling without Environment Replica
+
+- [arXiv 2610.40927](https://arxiv.org/abs/2610.40927) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40927)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40927)
+
+利用只读证据和可执行计算模拟假想观测，无需复制或修改共享环境。
+
+## Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation
+
+- [arXiv 2610.40857](https://arxiv.org/abs/2610.40857) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40857)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40857)
+
+研究Walrus-1.3B从PDE预训练转向圆柱流仿真及真实流体实验时的遗忘。
+
+## Beyond Plausible Prediction: Safety Sufficiency in Web World Models
+
+- [arXiv 2610.40798](https://arxiv.org/abs/2610.40798) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40798)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40798)
+
+SafeWebWorld区分预测未来的合理性、决策关键证据保留和执行/询问/阻止授权判断。
+
+## DyCraft: An Agentic System for Long-Horizon 4D Scene Generation
+
+- [arXiv 2610.40754](https://arxiv.org/abs/2610.40754) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40754)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40754)
+
+代码智能体框架把4D动画拆成经过验证的静态分镜和局部运动，并加入显式物理检查。
+
+## WorldBridge: Bridging Video and Action for Task Generalization in World Action Models
+
+- [arXiv 2610.40748](https://arxiv.org/abs/2610.40748) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40748)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40748)
+
+通过结构化注意力连接视频与动作专家，结合联合流匹配及多尺度视觉记忆。
+
+## Self-Building Labs
+
+- [arXiv 2610.23826](https://arxiv.org/abs/2610.23826) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.23826)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2610.23826)
+
+v2在原有量子点流程基础上新增HPLC样品板装载及专家监督下的RoboChem-Flex流动光化学部署，并提供留出条件下的输运预测验证。
 
 ## world2vec: Mechanistic world models through latent dynamics learning
 

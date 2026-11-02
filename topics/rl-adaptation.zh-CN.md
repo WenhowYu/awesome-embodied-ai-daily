@@ -2,7 +2,161 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-107 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+129 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments
+
+- [arXiv 2610.42100](https://arxiv.org/abs/2610.42100) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.42100)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.42100)
+
+研究观测／动作噪声与SAC可塑性干预的交互，区分渐进学习能力丧失和TD更新失稳。
+
+## Online Learning of Heterogeneous Locomotion Dynamics under Reinforcement Learning Policies for Precise Loco-Manipulation
+
+- [arXiv 2610.41892](https://arxiv.org/abs/2610.41892) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41892)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41892)
+
+污染高斯与随机特征GP学习冻结行走策略动力学。
+
+## Continual Reinforcement Learning Is an Integration Problem
+
+- [arXiv 2610.41809](https://arxiv.org/abs/2610.41809) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41809)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41809)
+
+用十项系统要求组织持续强化学习，建议在同一持续生命周期内检验这些能力是否共存。
+
+## ResMerge: Residual Policy Learning and Merging for Continual Adaptation of Pre-trained Robot Policies
+
+- [arXiv 2610.41663](https://arxiv.org/abs/2610.41663) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41663)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41663)
+
+残差RL适应冻结基座，一致性筛选可合并LoRA专家。
+
+## KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents
+
+- [arXiv 2610.41482](https://arxiv.org/abs/2610.41482) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41482)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41482)
+
+在统一递归文本记忆接口中比较四种辅助监督目标，区分任务表现与记忆可靠性。
+
+## HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos
+
+- [arXiv 2610.41336](https://arxiv.org/abs/2610.41336) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41336)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41336)
+
+利用对应特征与手物交互先验，从RGB-D示范学习物体中心灵巧技能。
+
+## Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation
+
+- [arXiv 2610.41320](https://arxiv.org/abs/2610.41320) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41320)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41320)
+
+LEXP通过规划及带适用条件的交互经验调整冻结模型上下文，并非更新权重的强化学习。
+
+## TalentRL: Strategy-Guided Reinforcement Learning for Hierarchical Skill Routing
+
+- [arXiv 2610.41143](https://arxiv.org/abs/2610.41143) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41143)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41143)
+
+高层策略指导技能检索，匹配干预轨迹区分路由与执行贡献。
+
+## Before We Adapt: The Zero-Shot Generalization Bottleneck in Continual World Models
+
+- [arXiv 2610.41041](https://arxiv.org/abs/2610.41041) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41041)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41041)
+
+区分物理与行为上下文变化，在持续适应之前诊断世界模型零样本复用。
+
+## Density-Guided Bootstrap Boundaries for Latent World-Model Reinforcement Learning
+
+- [arXiv 2610.41022](https://arxiv.org/abs/2610.41022) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41022)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41022)
+
+在DreamerV3想象回报中加入密度代理驱动的硬/软bootstrap边界，不替换世界模型转移过程。
+
+## STAR: Steering Action Representations during Inference
+
+- [arXiv 2610.41009](https://arxiv.org/abs/2610.41009) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41009)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41009)
+
+无需训练、单次前向地混合后层残差更新，由近期本体状态控制强度。
+
+## Agentic World Modeling for Agent Test-time Scaling without Environment Replica
+
+- [arXiv 2610.40927](https://arxiv.org/abs/2610.40927) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40927)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40927)
+
+利用只读证据和可执行计算模拟假想观测，无需复制或修改共享环境。
+
+## Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation
+
+- [arXiv 2610.40857](https://arxiv.org/abs/2610.40857) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40857)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40857)
+
+研究Walrus-1.3B从PDE预训练转向圆柱流仿真及真实流体实验时的遗忘。
+
+## CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents
+
+- [arXiv 2610.40799](https://arxiv.org/abs/2610.40799) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40799)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40799)
+
+通过合成SFT与多轮RL训练4B代码策略机器人，利用特权物理状态评论家分配信用。
+
+## AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn
+
+- [arXiv 2610.40757](https://arxiv.org/abs/2610.40757) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40757)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40757)
+
+AutoHebb元学习固定权重，自主调节在线Hebbian可塑性，不依赖外部提供学习阶段信号。
+
+## Certified Behavioral Retention for Continual Adaptation with Held-Out Anchors
+
+- [arXiv 2610.40740](https://arxiv.org/abs/2610.40740) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40740)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40740)
+
+CABA用保留历史锚点上的最坏前向KL筛选候选更新，选择满足行为保留预算的最大已测试插值步长。
+
+## Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer
+
+- [arXiv 2610.30080](https://arxiv.org/abs/2610.30080) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.30080)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2610.30080)
+
+v2新增不使用土壤训练的重力随机化粗糙地形对照、跌倒时间分析，以及跨随机种子的结论审计，强化并收窄迁移结论。
+
+## Learning from Fleet Experience: Collective Experience Learning Across 96 Robots
+
+- [arXiv 2610.25736](https://arxiv.org/abs/2610.25736) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.25736)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2610.25736)
+
+v3修正机器人群数据通路：在本地积累完整、经操作员标注的回合，再一次性传输；不再沿用v2所述的轨迹字段流式上传与云端复用推理观测。
+
+## UniCross: Unified Cross-Skill Dexterous Manipulation Synthesis
+
+- [arXiv 2607.28198](https://arxiv.org/abs/2607.28198) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2607.28198)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2607.28198)
+
+实质修订新增更困难的未见物体和未见目标定量测试，并以专家切换对照区分统一任务表述的技能兼容性与单策略蒸馏本身的收益。
+
+## Cyclical Entropy Eruption: Entropy Dynamics of Agent Reinforcement Learning
+
+- [arXiv 2605.27954](https://arxiv.org/abs/2605.27954) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2605.27954)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2605.27954)
+
+v2新增SEAL表征分离辅助损失的多种子验证，用于稳定智能体强化学习；核心熵周期性喷发解释与原始基准表格已存在于v1。
+
+## π-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs
+
+- [arXiv 2603.02083](https://arxiv.org/abs/2603.02083) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2603.02083)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2603.02083)
+
+实质修订：新增基于评论家时序信用信号的变体和CALVIN诊断，并以透明的共同测试变体协议，将广泛的分布外优势主张收窄为视觉扰动优势。
+
+## Shared Modular Recurrence in Contextual MDPs for Universal Morphology Control
+
+- [arXiv 2506.08630](https://arxiv.org/abs/2506.08630) · v4 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2506.08630)
+- 收录历史: [2026-11-02 (v4, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2506.08630)
+
+v4新增对照，区分共享递归记忆与固定近期观测窗口、以及额外训练时间的作用，强化未见形态泛化的证据。
 
 ## world2vec: Mechanistic world models through latent dynamics learning
 

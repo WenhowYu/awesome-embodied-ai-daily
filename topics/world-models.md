@@ -2,7 +2,133 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-125 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+143 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Hierarchical World Models with Implicit Dynamics
+
+- [arXiv 2610.42146](https://arxiv.org/abs/2610.42146) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.42146)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.42146)
+
+ID-WM searches diffusion-generated reachable subgoals and realizes them through a low-level world model.
+
+## GeoFlip: Benchmarking Geometry-Sensitive Physics in Video Generation
+
+- [arXiv 2610.42002](https://arxiv.org/abs/2610.42002) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.42002)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.42002)
+
+Geometry interventions flip simulated physical outcomes while prompts stay fixed, testing causal responsiveness rather than visual plausibility.
+
+## When Does Test-Time Search Help World Action Models? An Empirical Audit of Candidate Selection and Simulator Integrity
+
+- [arXiv 2610.41970](https://arxiv.org/abs/2610.41970) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41970)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41970)
+
+A premise-first audit tests candidate-selection signal, realized speedup and simulator integrity for Cosmos Policy on RoboCasa.
+
+## When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks
+
+- [arXiv 2610.41857](https://arxiv.org/abs/2610.41857) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41857)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41857)
+
+SimuGuard detects contact artifacts with replay and single-parameter counterfactual reruns.
+
+## MolmoSpaces-CommonSense: Evaluating Commonsense in Robotic Manipulation Policies
+
+- [arXiv 2610.41377](https://arxiv.org/abs/2610.41377) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41377)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41377)
+
+Benchmarks embodied commonsense involving clutter, occlusion, support, affordances and hidden objects.
+
+## Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics
+
+- [arXiv 2610.41330](https://arxiv.org/abs/2610.41330) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41330)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41330)
+
+Hourglass links an embodiment-independent world model to parameterized differentiable robot dynamics through camera ego-motion, training a shared planner in imagination.
+
+## SPT-Flow: One Integration, Many Futures in Continuous-Time World Models
+
+- [arXiv 2610.41273](https://arxiv.org/abs/2610.41273) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41273)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41273)
+
+SPT-Flow matches free-running continuous-time rollouts using one latent per trajectory to test a teacher-forcing shortcut.
+
+## One Verdict Is Not Enough: Regression Testing Learned World Models and Their Test Harnesses
+
+- [arXiv 2610.41130](https://arxiv.org/abs/2610.41130) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41130)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41130)
+
+TetraState versions the test harness alongside the learned world model and tracks per-test outcome transitions across four native configurations.
+
+## Before We Adapt: The Zero-Shot Generalization Bottleneck in Continual World Models
+
+- [arXiv 2610.41041](https://arxiv.org/abs/2610.41041) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41041)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41041)
+
+Separates physical and behavioral context changes and diagnoses zero-shot reuse before continual adaptation.
+
+## Density-Guided Bootstrap Boundaries for Latent World-Model Reinforcement Learning
+
+- [arXiv 2610.41022](https://arxiv.org/abs/2610.41022) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41022)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41022)
+
+Adds density-proxy hard/soft bootstrap boundaries to DreamerV3 imagined returns without changing the world-model transition process.
+
+## UFMF: Radar-Guided Kinematic Priors for Real-Time 4D Occupancy Forecasting
+
+- [arXiv 2610.40947](https://arxiv.org/abs/2610.40947) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40947)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40947)
+
+A lightweight state-space forecaster combines radar-guided motion residuals with world-frame and vertical-geometry supervision.
+
+## Let LiDAR Decide Where to Look: Geometry-Measured Token Selection for Efficient Sparse Latent World Models
+
+- [arXiv 2610.40935](https://arxiv.org/abs/2610.40935) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40935)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40935)
+
+LiDAR/radar geometry selects patches before visual encoding; 3D-anchored latent prediction supports driving planning.
+
+## Agentic World Modeling for Agent Test-time Scaling without Environment Replica
+
+- [arXiv 2610.40927](https://arxiv.org/abs/2610.40927) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40927)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40927)
+
+Read-only evidence acquisition and executable computation simulate hypothetical observations without replicating or mutating shared environments.
+
+## Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation
+
+- [arXiv 2610.40857](https://arxiv.org/abs/2610.40857) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40857)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40857)
+
+Studies forgetting when Walrus-1.3B moves from PDE pretraining to cylinder simulation and real experimental flow.
+
+## Beyond Plausible Prediction: Safety Sufficiency in Web World Models
+
+- [arXiv 2610.40798](https://arxiv.org/abs/2610.40798) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40798)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40798)
+
+SafeWebWorld separates plausible predicted futures, preservation of policy-decisive evidence, and EXECUTE/ASK/BLOCK authorization.
+
+## DyCraft: An Agentic System for Long-Horizon 4D Scene Generation
+
+- [arXiv 2610.40754](https://arxiv.org/abs/2610.40754) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40754)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40754)
+
+A coding-agent harness decomposes 4D animation into verified static storyboards and locally authored motion, with explicit physical checks.
+
+## WorldBridge: Bridging Video and Action for Task Generalization in World Action Models
+
+- [arXiv 2610.40748](https://arxiv.org/abs/2610.40748) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40748)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40748)
+
+Separates video and action experts with structured attention, joint flow matching and multiscale visual memory.
+
+## Self-Building Labs
+
+- [arXiv 2610.23826](https://arxiv.org/abs/2610.23826) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.23826)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2610.23826)
+
+v 2 expands the self-building-lab case study from the original quantum-dot workflow with HPLC plate loading and an expert-supervised RoboChem-Flex flow-photochemistry deployment, including held-out transport prediction.
 
 ## world2vec: Mechanistic world models through latent dynamics learning
 

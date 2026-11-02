@@ -2,7 +2,91 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-142 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+154 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
+
+- [arXiv 2610.42141](https://arxiv.org/abs/2610.42141) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.42141)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.42141)
+
+编码智能体优化冻结策略的控制框架与持久记忆。
+
+## REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
+
+- [arXiv 2610.42053](https://arxiv.org/abs/2610.42053) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.42053)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.42053)
+
+非阻塞运行时结合历史路由、边界评价、有界恢复。
+
+## Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space
+
+- [arXiv 2610.42021](https://arxiv.org/abs/2610.42021) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.42021)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.42021)
+
+人机联合训练对齐意图、细交互与动作潜变量。
+
+## When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks
+
+- [arXiv 2610.41857](https://arxiv.org/abs/2610.41857) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41857)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41857)
+
+检测接触伪影，支持回放与单参数反事实重跑。
+
+## VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression
+
+- [arXiv 2610.41609](https://arxiv.org/abs/2610.41609) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41609)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41609)
+
+同初态配对指令区分启动与选择。
+
+## MolmoSpaces-CommonSense: Evaluating Commonsense in Robotic Manipulation Policies
+
+- [arXiv 2610.41377](https://arxiv.org/abs/2610.41377) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41377)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41377)
+
+评估杂乱、遮挡、支撑关系、可供性和隐藏物体等操作常识。
+
+## STAR: Steering Action Representations during Inference
+
+- [arXiv 2610.41009](https://arxiv.org/abs/2610.41009) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41009)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41009)
+
+无需训练、单次前向地混合后层残差更新，由近期本体状态控制强度。
+
+## Learning from Fleet Experience: Collective Experience Learning Across 96 Robots
+
+- [arXiv 2610.25736](https://arxiv.org/abs/2610.25736) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.25736)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2610.25736)
+
+v3修正机器人群数据通路：在本地积累完整、经操作员标注的回合，再一次性传输；不再沿用v2所述的轨迹字段流式上传与云端复用推理观测。
+
+## Detect and Suppress: A Mechanistic Defense against Adversarial Patches in VLA Models
+
+- [arXiv 2610.03498](https://arxiv.org/abs/2610.03498) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.03498)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2610.03498)
+
+v2修正附录探针诊断数据并补充干预强度调参说明，并非提出新防御方法。
+
+## VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision
+
+- [arXiv 2606.18426](https://arxiv.org/abs/2606.18426) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2606.18426)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2606.18426)
+
+实质修订为视频训练导航新增动态仿真、第四个真机场景以及几何偏差/监督消融，并澄清基线共用执行接口，而非完整原生导航系统对比。
+
+## Specification-Aware Distribution Shaping for Robotics Foundation Models
+
+- [arXiv 2603.17969](https://arxiv.org/abs/2603.17969) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2603.17969)
+- 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2603.17969)
+
+实质修订将约束动作分布评估从仅SPOC扩展至三种基础模型和两种STL策略合成方法，展示仿真约束完全满足背后的任务成功率代价。
+
+## π-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs
+
+- [arXiv 2603.02083](https://arxiv.org/abs/2603.02083) · v3 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2603.02083)
+- 收录历史: [2026-11-02 (v3, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2603.02083)
+
+实质修订：新增基于评论家时序信用信号的变体和CALVIN诊断，并以透明的共同测试变体协议，将广泛的分布外优势主张收窄为视觉扰动优势。
 
 ## BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing
 

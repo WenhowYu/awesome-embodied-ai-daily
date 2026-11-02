@@ -2,7 +2,161 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-107 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+129 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments
+
+- [arXiv 2610.42100](https://arxiv.org/abs/2610.42100) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.42100)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.42100)
+
+Studies how observation/action noise interacts with SAC plasticity interventions, separating gradual learning-capacity loss from unstable TD updates.
+
+## Online Learning of Heterogeneous Locomotion Dynamics under Reinforcement Learning Policies for Precise Loco-Manipulation
+
+- [arXiv 2610.41892](https://arxiv.org/abs/2610.41892) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41892)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41892)
+
+Learns dynamics under frozen locomotion policy via contaminated-Gaussian weighting and random-feature GPs.
+
+## Continual Reinforcement Learning Is an Integration Problem
+
+- [arXiv 2610.41809](https://arxiv.org/abs/2610.41809) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41809)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41809)
+
+Organizes continual RL around ten system desiderata and proposes testing their coexistence within one persistent lifetime.
+
+## ResMerge: Residual Policy Learning and Merging for Continual Adaptation of Pre-trained Robot Policies
+
+- [arXiv 2610.41663](https://arxiv.org/abs/2610.41663) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41663)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41663)
+
+Residual RL adapts a frozen base; residual-field consistency selects compatible LoRA experts for merging.
+
+## KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents
+
+- [arXiv 2610.41482](https://arxiv.org/abs/2610.41482) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41482)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41482)
+
+Compares four auxiliary supervision objectives in a shared recursive textual-memory interface, separating task utility from memory reliability.
+
+## HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos
+
+- [arXiv 2610.41336](https://arxiv.org/abs/2610.41336) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41336)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41336)
+
+Learns object-centric dexterous skills from RGB-D demonstrations using correspondence features and hand-object interaction priors.
+
+## Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation
+
+- [arXiv 2610.41320](https://arxiv.org/abs/2610.41320) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41320)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41320)
+
+LEXP adapts a frozen reasoner's context using planning and retained condition-specific lessons; this is not weight-updating RL.
+
+## TalentRL: Strategy-Guided Reinforcement Learning for Hierarchical Skill Routing
+
+- [arXiv 2610.41143](https://arxiv.org/abs/2610.41143) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41143)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41143)
+
+Hierarchical talents guide skill retrieval; matched intervention rollouts separate routing credit from execution credit.
+
+## Before We Adapt: The Zero-Shot Generalization Bottleneck in Continual World Models
+
+- [arXiv 2610.41041](https://arxiv.org/abs/2610.41041) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41041)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41041)
+
+Separates physical and behavioral context changes and diagnoses zero-shot reuse before continual adaptation.
+
+## Density-Guided Bootstrap Boundaries for Latent World-Model Reinforcement Learning
+
+- [arXiv 2610.41022](https://arxiv.org/abs/2610.41022) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41022)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41022)
+
+Adds density-proxy hard/soft bootstrap boundaries to DreamerV3 imagined returns without changing the world-model transition process.
+
+## STAR: Steering Action Representations during Inference
+
+- [arXiv 2610.41009](https://arxiv.org/abs/2610.41009) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41009)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41009)
+
+Training-free single-pass steering mixes late-layer residual updates, controlled by recent proprioception.
+
+## Agentic World Modeling for Agent Test-time Scaling without Environment Replica
+
+- [arXiv 2610.40927](https://arxiv.org/abs/2610.40927) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40927)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40927)
+
+Read-only evidence acquisition and executable computation simulate hypothetical observations without replicating or mutating shared environments.
+
+## Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation
+
+- [arXiv 2610.40857](https://arxiv.org/abs/2610.40857) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40857)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40857)
+
+Studies forgetting when Walrus-1.3B moves from PDE pretraining to cylinder simulation and real experimental flow.
+
+## CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents
+
+- [arXiv 2610.40799](https://arxiv.org/abs/2610.40799) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40799)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40799)
+
+Post-trains a 4B code-as-policy agent via synthetic SFT and multi-turn RL with a privileged physical-state critic.
+
+## AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn
+
+- [arXiv 2610.40757](https://arxiv.org/abs/2610.40757) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40757)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40757)
+
+AutoHebb meta-learns fixed weights that regulate online Hebbian plasticity without an externally supplied learning-phase signal.
+
+## Certified Behavioral Retention for Continual Adaptation with Held-Out Anchors
+
+- [arXiv 2610.40740](https://arxiv.org/abs/2610.40740) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40740)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40740)
+
+CABA gates candidate updates using held-out historical anchors and worst-anchor forward KL, choosing the largest tested interpolation within a declared retention budget.
+
+## Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer
+
+- [arXiv 2610.30080](https://arxiv.org/abs/2610.30080) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.30080)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2610.30080)
+
+v 2 strengthens and narrows the transfer analysis with a gravity-randomized rough-terrain policy trained without soil, time-to-fall diagnostics, and an explicit audit of claims across seeds.
+
+## Learning from Fleet Experience: Collective Experience Learning Across 96 Robots
+
+- [arXiv 2610.25736](https://arxiv.org/abs/2610.25736) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.25736)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2610.25736)
+
+v 3 corrects the fleet data path: complete operator-labeled episodes are accumulated locally and transferred once, replacing v 2’s description of streaming trajectory fields and reusing inference observations in the cloud.
+
+## UniCross: Unified Cross-Skill Dexterous Manipulation Synthesis
+
+- [arXiv 2607.28198](https://arxiv.org/abs/2607.28198) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2607.28198)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2607.28198)
+
+Substantive revision adds harder quantitative unseen-object and unseen-target evaluations, plus an expert-switching comparison that separates the shared formulation's compatibility from benefits of single-policy distillation.
+
+## Cyclical Entropy Eruption: Entropy Dynamics of Agent Reinforcement Learning
+
+- [arXiv 2605.27954](https://arxiv.org/abs/2605.27954) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2605.27954)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2605.27954)
+
+v2 adds multi-seed validation of SEAL’s representation-separation auxiliary loss for stabilizing agent RL; the core entropy-eruption account and original benchmark tables were already in v1.
+
+## π-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs
+
+- [arXiv 2603.02083](https://arxiv.org/abs/2603.02083) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2603.02083)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2603.02083)
+
+Substantive revision: adds critic-derived temporal-credit variants and CALVIN diagnostics, and replaces broad OOD-superiority claims with a narrower visual-shift result under a transparent shared-variant comparison protocol.
+
+## Shared Modular Recurrence in Contextual MDPs for Universal Morphology Control
+
+- [arXiv 2506.08630](https://arxiv.org/abs/2506.08630) · v4 · [Latest entry](../daily/2026-11-02.md#arxiv-2506.08630)
+- Coverage history: [2026-11-02 (v4, revised)](../daily/2026-11-02.md#arxiv-2506.08630)
+
+v4 adds controls distinguishing shared recurrent memory from fixed recent observation windows and from simply spending more training time, strengthening the unseen-morphology generalization evidence.
 
 ## world2vec: Mechanistic world models through latent dynamics learning
 

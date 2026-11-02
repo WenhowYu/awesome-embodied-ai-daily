@@ -2,7 +2,91 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-142 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+154 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
+
+- [arXiv 2610.42141](https://arxiv.org/abs/2610.42141) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.42141)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.42141)
+
+A coding agent evolves control orchestration and persistent memory around frozen policies.
+
+## REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
+
+- [arXiv 2610.42053](https://arxiv.org/abs/2610.42053) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.42053)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.42053)
+
+Nonblocking runtime combines historical-success routing, boundary-triggered judging and bounded recovery.
+
+## Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space
+
+- [arXiv 2610.42021](https://arxiv.org/abs/2610.42021) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.42021)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.42021)
+
+Joint human–robot training aligns intent and fine interactions into action latents.
+
+## When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks
+
+- [arXiv 2610.41857](https://arxiv.org/abs/2610.41857) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41857)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41857)
+
+SimuGuard detects contact artifacts with replay and single-parameter counterfactual reruns.
+
+## VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression
+
+- [arXiv 2610.41609](https://arxiv.org/abs/2610.41609) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41609)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41609)
+
+Paired instructions separate movement initiation from task selection at identical initial states.
+
+## MolmoSpaces-CommonSense: Evaluating Commonsense in Robotic Manipulation Policies
+
+- [arXiv 2610.41377](https://arxiv.org/abs/2610.41377) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41377)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41377)
+
+Benchmarks embodied commonsense involving clutter, occlusion, support, affordances and hidden objects.
+
+## STAR: Steering Action Representations during Inference
+
+- [arXiv 2610.41009](https://arxiv.org/abs/2610.41009) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41009)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41009)
+
+Training-free single-pass steering mixes late-layer residual updates, controlled by recent proprioception.
+
+## Learning from Fleet Experience: Collective Experience Learning Across 96 Robots
+
+- [arXiv 2610.25736](https://arxiv.org/abs/2610.25736) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.25736)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2610.25736)
+
+v 3 corrects the fleet data path: complete operator-labeled episodes are accumulated locally and transferred once, replacing v 2’s description of streaming trajectory fields and reusing inference observations in the cloud.
+
+## Detect and Suppress: A Mechanistic Defense against Adversarial Patches in VLA Models
+
+- [arXiv 2610.03498](https://arxiv.org/abs/2610.03498) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.03498)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2610.03498)
+
+v 2 corrects appendix probe diagnostics and qualifies intervention-strength tuning rather than introducing a new defense.
+
+## VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision
+
+- [arXiv 2606.18426](https://arxiv.org/abs/2606.18426) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2606.18426)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2606.18426)
+
+Substantive revision adds dynamic simulation, a fourth hardware scenario and geometry-bias/supervision ablations for video-trained navigation, while clarifying that baselines share an execution interface rather than their complete native navigation stacks.
+
+## Specification-Aware Distribution Shaping for Robotics Foundation Models
+
+- [arXiv 2603.17969](https://arxiv.org/abs/2603.17969) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2603.17969)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2603.17969)
+
+Substantive revision broadens specification-constrained action-distribution evaluation from SPOC-only studies to three foundation models and two STL-policy synthesis methods, exposing task-success costs despite perfect simulated constraint satisfaction.
+
+## π-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs
+
+- [arXiv 2603.02083](https://arxiv.org/abs/2603.02083) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2603.02083)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2603.02083)
+
+Substantive revision: adds critic-derived temporal-credit variants and CALVIN diagnostics, and replaces broad OOD-superiority claims with a narrower visual-shift result under a transparent shared-variant comparison protocol.
 
 ## BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing
 

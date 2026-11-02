@@ -2,7 +2,217 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-168 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+198 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
+
+- [arXiv 2610.42141](https://arxiv.org/abs/2610.42141) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.42141)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.42141)
+
+A coding agent evolves control orchestration and persistent memory around frozen policies.
+
+## REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
+
+- [arXiv 2610.42053](https://arxiv.org/abs/2610.42053) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.42053)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.42053)
+
+Nonblocking runtime combines historical-success routing, boundary-triggered judging and bounded recovery.
+
+## TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs
+
+- [arXiv 2610.41983](https://arxiv.org/abs/2610.41983) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41983)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41983)
+
+Pairs videos with identical recent context but different histories to test whether streaming models actually use memory.
+
+## META-Robot: Self-Cognition and Capability Scaling in Agentic Robots
+
+- [arXiv 2610.41868](https://arxiv.org/abs/2610.41868) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41868)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41868)
+
+Couples executable skills with verification predicates, expanding both via repaired execution and proprioception.
+
+## SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion
+
+- [arXiv 2610.41844](https://arxiv.org/abs/2610.41844) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41844)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41844)
+
+Stores geometric sketches for registration-based reuse and close-range correction.
+
+## When the Past Shapes Action: Understanding Embodied Memory
+
+- [arXiv 2610.41688](https://arxiv.org/abs/2610.41688) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41688)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41688)
+
+Survey organizes embodied memory by six requirements and eight architectures.
+
+## Verify--Backtrack Loop: Structured Precondition Recovery for Long-Horizon Language Agents
+
+- [arXiv 2610.41564](https://arxiv.org/abs/2610.41564) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41564)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41564)
+
+Verify–Backtrack Loop maintains a goal stack and uses typed failures to push prerequisites, retry or backtrack under explicit budgets.
+
+## KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents
+
+- [arXiv 2610.41482](https://arxiv.org/abs/2610.41482) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41482)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41482)
+
+Compares four auxiliary supervision objectives in a shared recursive textual-memory interface, separating task utility from memory reliability.
+
+## Beyond Trial-and-Error: A Geospatial-Guided Active Reasoning Framework for Robust Aerial Vision-and-Language Navigation
+
+- [arXiv 2610.41446](https://arxiv.org/abs/2610.41446) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41446)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41446)
+
+GeoReasoner combines geospatial hypotheses, active evidence acquisition, exploration memory and adversarial consistency checks for aerial navigation.
+
+## BioAgent: Self-Directed Skill Acquisition and Capability Growth for Long-Horizon Laboratory Protocols
+
+- [arXiv 2610.41383](https://arxiv.org/abs/2610.41383) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41383)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41383)
+
+Combines validated skill packages, tool selection, human teaching and execution-state checks for laboratory protocols.
+
+## Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation
+
+- [arXiv 2610.41320](https://arxiv.org/abs/2610.41320) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41320)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41320)
+
+LEXP adapts a frozen reasoner's context using planning and retained condition-specific lessons; this is not weight-updating RL.
+
+## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
+
+- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41216)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41216)
+
+Statistically gated harness evolution improves a frozen teacher; reasoning/recovery trajectories distill gains into a 4B student.
+
+## Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization
+
+- [arXiv 2610.41157](https://arxiv.org/abs/2610.41157) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41157)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41157)
+
+Factorial study separates inherited candidate state from failure-feedback breadth in iterative prompt/program optimization.
+
+## TalentRL: Strategy-Guided Reinforcement Learning for Hierarchical Skill Routing
+
+- [arXiv 2610.41143](https://arxiv.org/abs/2610.41143) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41143)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41143)
+
+Hierarchical talents guide skill retrieval; matched intervention rollouts separate routing credit from execution credit.
+
+## Accept Changes, Reject Attacks: Robust Memory Management for LLM Agents
+
+- [arXiv 2610.41056](https://arxiv.org/abs/2610.41056) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41056)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41056)
+
+Trains memory updates to accept legitimate changes and reject poisoning; evidence-conditioned accuracy checks answers and supporting records.
+
+## P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior
+
+- [arXiv 2610.40959](https://arxiv.org/abs/2610.40959) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40959)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40959)
+
+P-ContextBench evaluates temporal context reconstruction and evidence-grounded behavior, beyond recalling stored facts.
+
+## EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video
+
+- [arXiv 2610.40832](https://arxiv.org/abs/2610.40832) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40832)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40832)
+
+A recurrent shared scene representation jointly reconstructs camera, scene, bilateral hands and dense contact from causal monocular video.
+
+## CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents
+
+- [arXiv 2610.40799](https://arxiv.org/abs/2610.40799) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40799)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40799)
+
+Post-trains a 4B code-as-policy agent via synthetic SFT and multi-turn RL with a privileged physical-state critic.
+
+## More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum
+
+- [arXiv 2610.40758](https://arxiv.org/abs/2610.40758) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40758)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40758)
+
+CLR-Bench separates hidden-rule learning from accumulating exceptions in persistent state.
+
+## AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn
+
+- [arXiv 2610.40757](https://arxiv.org/abs/2610.40757) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40757)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40757)
+
+AutoHebb meta-learns fixed weights that regulate online Hebbian plasticity without an externally supplied learning-phase signal.
+
+## DyCraft: An Agentic System for Long-Horizon 4D Scene Generation
+
+- [arXiv 2610.40754](https://arxiv.org/abs/2610.40754) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40754)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40754)
+
+A coding-agent harness decomposes 4D animation into verified static storyboards and locally authored motion, with explicit physical checks.
+
+## Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses
+
+- [arXiv 2610.40747](https://arxiv.org/abs/2610.40747) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40747)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40747)
+
+Distills evolved GUI/code teacher harnesses into a 4B computer-use policy through a five-stage training curriculum.
+
+## Certified Behavioral Retention for Continual Adaptation with Held-Out Anchors
+
+- [arXiv 2610.40740](https://arxiv.org/abs/2610.40740) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40740)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40740)
+
+CABA gates candidate updates using held-out historical anchors and worst-anchor forward KL, choosing the largest tested interpolation within a declared retention budget.
+
+## Self-Building Labs
+
+- [arXiv 2610.23826](https://arxiv.org/abs/2610.23826) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.23826)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2610.23826)
+
+v 2 expands the self-building-lab case study from the original quantum-dot workflow with HPLC plate loading and an expert-supervised RoboChem-Flex flow-photochemistry deployment, including held-out transport prediction.
+
+## UniCross: Unified Cross-Skill Dexterous Manipulation Synthesis
+
+- [arXiv 2607.28198](https://arxiv.org/abs/2607.28198) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2607.28198)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2607.28198)
+
+Substantive revision adds harder quantitative unseen-object and unseen-target evaluations, plus an expert-switching comparison that separates the shared formulation's compatibility from benefits of single-policy distillation.
+
+## Decompose and Reorganize: Planning with Primitives and Visuomotor Policies Learned from Demonstrations
+
+- [arXiv 2607.25397](https://arxiv.org/abs/2607.25397) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2607.25397)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2607.25397)
+
+v 2 extends DR-LfD evaluation with a fourth end-to-end real-world task, confidence intervals, data-scaling comparisons and more direct tests against generic TAMP grasp replacements.
+
+## Sequential Planning via Anchored Robotic Keypoints
+
+- [arXiv 2606.30613](https://arxiv.org/abs/2606.30613) · v4 · [Latest entry](../daily/2026-11-02.md#arxiv-2606.30613)
+- Coverage history: [2026-11-02 (v4, revised)](../daily/2026-11-02.md#arxiv-2606.30613)
+
+Important evaluation correction: SPARK now states that its 66.8% LIBERO-PRO headline uses simulator success checks after each attempt to decide retries, and adds a separate no-per-attempt-oracle evaluation. This changes the interpretation of the existing headline rather than establishing a new autonomous-robustness gain.
+
+## EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective
+
+- [arXiv 2605.18421](https://arxiv.org/abs/2605.18421) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2605.18421)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2605.18421)
+
+Evaluates 15 memory methods across within/cross-episode and knowledge/execution axes, including ALFWorld.
+
+## M*: Every Task Deserves Its Own Memory Harness
+
+- [arXiv 2604.11811](https://arxiv.org/abs/2604.11811) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2604.11811)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2604.11811)
+
+Reflective code evolution jointly searches memory schema, storage logic and instructions as executable Python programs.
+
+## Shared Modular Recurrence in Contextual MDPs for Universal Morphology Control
+
+- [arXiv 2506.08630](https://arxiv.org/abs/2506.08630) · v4 · [Latest entry](../daily/2026-11-02.md#arxiv-2506.08630)
+- Coverage history: [2026-11-02 (v4, revised)](../daily/2026-11-02.md#arxiv-2506.08630)
+
+v4 adds controls distinguishing shared recurrent memory from fixed recent observation windows and from simply spending more training time, strengthening the unseen-morphology generalization evidence.
 
 ## L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory
 

@@ -2,7 +2,175 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [All topics](README.md)
 
-204 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+228 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space
+
+- [arXiv 2610.42021](https://arxiv.org/abs/2610.42021) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.42021)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.42021)
+
+Joint human–robot training aligns intent and fine interactions into action latents.
+
+## Online Learning of Heterogeneous Locomotion Dynamics under Reinforcement Learning Policies for Precise Loco-Manipulation
+
+- [arXiv 2610.41892](https://arxiv.org/abs/2610.41892) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41892)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41892)
+
+Learns dynamics under frozen locomotion policy via contaminated-Gaussian weighting and random-feature GPs.
+
+## META-Robot: Self-Cognition and Capability Scaling in Agentic Robots
+
+- [arXiv 2610.41868](https://arxiv.org/abs/2610.41868) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41868)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41868)
+
+Couples executable skills with verification predicates, expanding both via repaired execution and proprioception.
+
+## SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion
+
+- [arXiv 2610.41844](https://arxiv.org/abs/2610.41844) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41844)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41844)
+
+Stores geometric sketches for registration-based reuse and close-range correction.
+
+## ResMerge: Residual Policy Learning and Merging for Continual Adaptation of Pre-trained Robot Policies
+
+- [arXiv 2610.41663](https://arxiv.org/abs/2610.41663) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41663)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41663)
+
+Residual RL adapts a frozen base; residual-field consistency selects compatible LoRA experts for merging.
+
+## Direct Action-Manifold Modeling for Efficient and Robust Bimanual Manipulation
+
+- [arXiv 2610.41643](https://arxiv.org/abs/2610.41643) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41643)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41643)
+
+DMAT predicts clean action chunks with local 3D geometry and spectral refinement.
+
+## RTPolicy: Real-Time (32.9 Hz) Multi-View Visuomotor Policy for Robotic Manipulation on Edge Devices
+
+- [arXiv 2610.41625](https://arxiv.org/abs/2610.41625) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41625)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41625)
+
+View-aware fusion and compact tokens condition flow-matching actions.
+
+## BioAgent: Self-Directed Skill Acquisition and Capability Growth for Long-Horizon Laboratory Protocols
+
+- [arXiv 2610.41383](https://arxiv.org/abs/2610.41383) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41383)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41383)
+
+Combines validated skill packages, tool selection, human teaching and execution-state checks for laboratory protocols.
+
+## HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos
+
+- [arXiv 2610.41336](https://arxiv.org/abs/2610.41336) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41336)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41336)
+
+Learns object-centric dexterous skills from RGB-D demonstrations using correspondence features and hand-object interaction priors.
+
+## Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation
+
+- [arXiv 2610.41320](https://arxiv.org/abs/2610.41320) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41320)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41320)
+
+LEXP adapts a frozen reasoner's context using planning and retained condition-specific lessons; this is not weight-updating RL.
+
+## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
+
+- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41216)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41216)
+
+Statistically gated harness evolution improves a frozen teacher; reasoning/recovery trajectories distill gains into a 4B student.
+
+## Contact Imitation Interface: Transferring Dexterous Skills by Showing How Contact Unfolds
+
+- [arXiv 2610.41028](https://arxiv.org/abs/2610.41028) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41028)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41028)
+
+CIMI transfers demonstrations through matched contact geometry, fingertip views and hierarchical contact-surface planning/control.
+
+## EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video
+
+- [arXiv 2610.40832](https://arxiv.org/abs/2610.40832) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40832)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40832)
+
+A recurrent shared scene representation jointly reconstructs camera, scene, bilateral hands and dense contact from causal monocular video.
+
+## From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation
+
+- [arXiv 2610.40828](https://arxiv.org/abs/2610.40828) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40828)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40828)
+
+Real-robot ablations examine representation choices and whether offline metrics predict dexterous insertion performance.
+
+## CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents
+
+- [arXiv 2610.40799](https://arxiv.org/abs/2610.40799) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40799)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40799)
+
+Post-trains a 4B code-as-policy agent via synthetic SFT and multi-turn RL with a privileged physical-state critic.
+
+## WorldBridge: Bridging Video and Action for Task Generalization in World Action Models
+
+- [arXiv 2610.40748](https://arxiv.org/abs/2610.40748) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40748)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40748)
+
+Separates video and action experts with structured attention, joint flow matching and multiscale visual memory.
+
+## Learning from Fleet Experience: Collective Experience Learning Across 96 Robots
+
+- [arXiv 2610.25736](https://arxiv.org/abs/2610.25736) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.25736)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2610.25736)
+
+v 3 corrects the fleet data path: complete operator-labeled episodes are accumulated locally and transferred once, replacing v 2’s description of streaming trajectory fields and reusing inference observations in the cloud.
+
+## Self-Building Labs
+
+- [arXiv 2610.23826](https://arxiv.org/abs/2610.23826) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.23826)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2610.23826)
+
+v 2 expands the self-building-lab case study from the original quantum-dot workflow with HPLC plate loading and an expert-supervised RoboChem-Flex flow-photochemistry deployment, including held-out transport prediction.
+
+## HOPE: Hand-Object Pressure Estimation from Monocular Videos
+
+- [arXiv 2608.06192](https://arxiv.org/abs/2608.06192) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2608.06192)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2608.06192)
+
+Predicts hand-vertex normal pressure and contact from video. Substantive v2 adds measured near-bare-hand transfer and vertex-versus-parameter-token ablation.
+
+## UniCross: Unified Cross-Skill Dexterous Manipulation Synthesis
+
+- [arXiv 2607.28198](https://arxiv.org/abs/2607.28198) · v3 · [Latest entry](../daily/2026-11-02.md#arxiv-2607.28198)
+- Coverage history: [2026-11-02 (v3, revised)](../daily/2026-11-02.md#arxiv-2607.28198)
+
+Substantive revision adds harder quantitative unseen-object and unseen-target evaluations, plus an expert-switching comparison that separates the shared formulation's compatibility from benefits of single-policy distillation.
+
+## Decompose and Reorganize: Planning with Primitives and Visuomotor Policies Learned from Demonstrations
+
+- [arXiv 2607.25397](https://arxiv.org/abs/2607.25397) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2607.25397)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2607.25397)
+
+v 2 extends DR-LfD evaluation with a fourth end-to-end real-world task, confidence intervals, data-scaling comparisons and more direct tests against generic TAMP grasp replacements.
+
+## Sequential Planning via Anchored Robotic Keypoints
+
+- [arXiv 2606.30613](https://arxiv.org/abs/2606.30613) · v4 · [Latest entry](../daily/2026-11-02.md#arxiv-2606.30613)
+- Coverage history: [2026-11-02 (v4, revised)](../daily/2026-11-02.md#arxiv-2606.30613)
+
+Important evaluation correction: SPARK now states that its 66.8% LIBERO-PRO headline uses simulator success checks after each attempt to decide retries, and adds a separate no-per-attempt-oracle evaluation. This changes the interpretation of the existing headline rather than establishing a new autonomous-robustness gain.
+
+## NDPP-Grasp: Non-Differentiable Physical Plausibility Constraint-Guided Task-Oriented Dexterous Grasp Generation
+
+- [arXiv 2606.02432](https://arxiv.org/abs/2606.02432) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2606.02432)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2606.02432)
+
+v 2 adds a substantial supplementary evaluation, including physical dexterous grasp deployment, flow-matching integration and further control/lookahead ablations absent from v 1’s PDF.
+
+## TacO: Benchmarking Tactile Sensors for Object Manipulation
+
+- [arXiv 2605.21976](https://arxiv.org/abs/2605.21976) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2605.21976)
+- Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2605.21976)
+
+Substantive revision adds force-channel ablations and expanded sensor-repeatability tests, strengthening the distinction between task-relevant tactile information and sensor specification or material advantages.
 
 ## SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing
 
