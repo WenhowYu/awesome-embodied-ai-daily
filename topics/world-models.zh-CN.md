@@ -2,7 +2,245 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-143 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+176 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Seeing Through the Illusion: Test-Time Scaling for World Action Models
+
+- [arXiv 2611.03585](https://arxiv.org/abs/2611.03585) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03585)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03585)
+
+冻结世界动作模型，每步采样4条世界-动作轨迹，以动作有效性和时间正则、逆动力学一致性及指令条件进度联合选取。
+
+## ForceLDM: A Force-aware Latent Dynamics Model for Contact-Rich Manipulation
+
+- [arXiv 2611.03294](https://arxiv.org/abs/2611.03294) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03294)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03294)
+
+ForceLDM将特权未来力/力矩及光流动力学蒸馏到只读当前观测的学生。
+
+## VerifLM: Physically Verified Image-Edit-Guided Goal Pose Generation for Robotic Manipulation
+
+- [arXiv 2611.03268](https://arxiv.org/abs/2611.03268) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03268)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03268)
+
+VerifLM把编辑图像目标转为经多种假设几何—物理世界检验的六自由度物体位姿。
+
+## PointPilot: Unified Robotic Manipulation via Object-Centric 3D Point Flow Prediction
+
+- [arXiv 2611.02930](https://arxiv.org/abs/2611.02930) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02930)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02930)
+
+PointPilot预测物体中心三维点流，联合定位、子任务规划与执行，无需单独训练动作专家。
+
+## Gibbs Variational Last Layers for Long-Horizon Dynamics Learning
+
+- [arXiv 2611.02891](https://arxiv.org/abs/2611.02891) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02891)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02891)
+
+Gibbs变分末层引入多步、CRPS及自回归训练目标，学习概率动力学。
+
+## History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models
+
+- [arXiv 2611.02782](https://arxiv.org/abs/2611.02782) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02782)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02782)
+
+History Forcing将教师有/无有效历史预测的残差蒸馏进少步自回归视频生成，包括离开视野后的状态延续。
+
+## Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up
+
+- [arXiv 2611.02699](https://arxiv.org/abs/2611.02699) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02699)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02699)
+
+复现实验审计RWM动力学及RWM-U的不确定性校准。
+
+## Closing the Dynamics Gap through Self-Directed Robotic Interaction
+
+- [arXiv 2611.02691](https://arxiv.org/abs/2611.02691) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02691)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02691)
+
+CUE自主重建台球场景、构建跟踪工具，并在无重置条件下选择交互辨识薄弱动力学。
+
+## Visuo-tactile Diffusion Policy for Robotic Manipulation with Auxiliary Tactile Dynamics Prediction
+
+- [arXiv 2611.02677](https://arxiv.org/abs/2611.02677) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02677)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02677)
+
+视触觉扩散策略在四步多模态历史上加入仅训练时使用的触觉动力学预测。
+
+## W2A: Distilling World Priors into Action Models for Real-Time Robotic Control
+
+- [arXiv 2611.02600](https://arxiv.org/abs/2611.02600) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02600)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02600)
+
+W2A把压缩视频去噪特征蒸馏进动作策略，推理时移除视频模型。
+
+## Gnomon4D: Learning Where and When to Focus for Geometric Motion-Grounded World-Action Modeling
+
+- [arXiv 2611.02474](https://arxiv.org/abs/2611.02474) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02474)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02474)
+
+联合预测视频、动作与 GeoDelta 几何运动；以交互区域注意力和状态转折聚合，将物体与本体运动关系用于控制。
+
+## Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift
+
+- [arXiv 2611.02218](https://arxiv.org/abs/2611.02218) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02218)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02218)
+
+预测式STL监控检验世界模型rollout与集成分歧在运动分布偏移下能否增加安全排序价值。
+
+## Value Forcing: Aligning Return Distributions at All Noise Levels
+
+- [arXiv 2611.02160](https://arxiv.org/abs/2611.02160) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02160)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02160)
+
+Value Forcing以流匹配学习回报分布，并在所有噪声层级施加Bellman一致性，形成VF和IVF。
+
+## Back to the Future: Predicting Long-Horizon Dynamics with Retrospective Correction for Disturbance-Aware Retrieval
+
+- [arXiv 2611.02073](https://arxiv.org/abs/2611.02073) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02073)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02073)
+
+DARE追溯修正先前预测物体状态、重跑关系动力学，规划低扰动取物。
+
+## When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?
+
+- [arXiv 2611.01815](https://arxiv.org/abs/2611.01815) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01815)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01815)
+
+区分表征包含物理信息与世界模型原生预测误差能否可靠量化物理惊讶。
+
+## Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence
+
+- [arXiv 2611.01677](https://arxiv.org/abs/2611.01677) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01677)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01677)
+
+流式多视角世界模型结合视图-时间注意力、显式3D高斯场景上下文及门控线性注意力；机器人WAM复用视频DiT并引入共享注意力的独立动作专家。
+
+## SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts
+
+- [arXiv 2611.01600](https://arxiv.org/abs/2611.01600) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01600)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01600)
+
+SCOUT结合物体中心遮挡重建、LLM提案与世界模型指导MCTS完成杂乱操作。
+
+## $TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering
+
+- [arXiv 2611.01483](https://arxiv.org/abs/2611.01483) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01483)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01483)
+
+TF²-Steering以预测及观测触觉通过残差专家混合调整flow-matching动作专家。
+
+## World Models Need Not Be Right to Rank Policies Right: Relative Bounds and Audit Limits
+
+- [arXiv 2611.01139](https://arxiv.org/abs/2611.01139) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01139)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01139)
+
+RAVEL区分世界模型内策略排序准确与成对真实环境审计是否提供有效信息。
+
+## pico-WAM: Evaluating Counterfactual Prediction and Planning Error in a Compact World Action Model
+
+- [arXiv 2611.01039](https://arxiv.org/abs/2611.01039) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01039)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01039)
+
+pico-WAM分别干预提案生成与轨迹评分，诊断紧凑世界动作规划。
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
+
+受控负结果用Koopman/动作仿射模型替换人形跟踪中的MLP可微世界模型。
+
+## Old Is Not False: Valid-Time Memory for Interactive Video World Models
+
+- [arXiv 2611.00758](https://arxiv.org/abs/2611.00758) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00758)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00758)
+
+ReDate区分图像拍摄时间与状态有效时间，在撤销动作后利用动作日志重标检索token时间，不训练生成器。
+
+## PREM: Prediction-Regulated Memory for Robot Manipulation
+
+- [arXiv 2611.00634](https://arxiv.org/abs/2611.00634) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00634)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00634)
+
+PREM用动作条件预测训练循环视觉记忆，并以预测差异调节空间更新。
+
+## Roz: A Taste Test for World Model Latents
+
+- [arXiv 2611.00612](https://arxiv.org/abs/2611.00612) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00612)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00612)
+
+Roz用对比与连续场景探查世界模型latent的物理信息，避免依赖学习规划器。
+
+## WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation
+
+- [arXiv 2611.00513](https://arxiv.org/abs/2611.00513) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00513)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00513)
+
+WorldSketch让VLM构造并验证最小运动学世界模型，再在其上规划接触与全身运动。
+
+## TacMind: Benchmarking and Modeling Tactile Interaction States for Robotic Manipulation
+
+- [arXiv 2611.00455](https://arxiv.org/abs/2611.00455) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00455)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00455)
+
+TacMind学习动作条件触觉潜在动力学，并用预测触觉状态修正操作动作。
+
+## Spoofing the Latent State: Imperceptible Goal-Image Attacks Derail Planning in LeWorldModel
+
+- [arXiv 2611.00427](https://arxiv.org/abs/2611.00427) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00427)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00427)
+
+审计LeWorldModel潜空间距离规划对微小目标图像和观测扰动的稳健性。
+
+## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
+
+- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00177)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00177)
+
+以空间结构、时间锚点和运动先验，从稀疏外部视角合成机器人第一视角视频，并评估下游策略。
+
+## SparseWAM: Driving World-Action Models are Worth 16 Register Tokens
+
+- [arXiv 2611.00044](https://arxiv.org/abs/2611.00044) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00044)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00044)
+
+SparseWAM以每帧16个register token预测未来状态，部署时轨迹token仍读取想象状态，以降低世界模型推理成本。
+
+## FORCE: Factorized Object Relations for Counterfactual Editing in Video World Models
+
+- [arXiv 2611.00023](https://arxiv.org/abs/2611.00023) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00023)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00023)
+
+FORCE把物体对交互分解成显式潜变量，支持持续删除、修改、迁移或引入关系。
+
+## TurboWAM: Learning What Matters for Fast World Action Models
+
+- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2610.33941)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33941) · [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2610.33941)
+
+TurboWAM限制世界模型层聚合范围并调制训练梯度，以降低动作预测延迟。
+
+## Robot-Factored World Models via Robot Rendering
+
+- [arXiv 2607.22535](https://arxiv.org/abs/2607.22535) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2607.22535)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2607.22535)
+
+机器人渲染将指令机器人运动与学习的场景动态分开用于视频预测。
+
+## RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation
+
+- [arXiv 2607.06699](https://arxiv.org/abs/2607.06699) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2607.06699)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2607.06699)
+
+RoboSnap构建可仿真场景，支持轨迹回放、数据生成和策略评估。
+
+## ReWorld: Multi-Dimensional Reward Modeling for Embodied Video Generation
+
+- [arXiv 2601.12428](https://arxiv.org/abs/2601.12428) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2601.12428)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2601.12428)
+
+ReWorld训练多维奖励模型，并用基于flow的PPO代理目标后训练具身视频生成器。
 
 ## Hierarchical World Models with Implicit Dynamics
 
@@ -549,13 +787,6 @@ WorldPager将int4世界模型KV分存GPU、锁页DRAM和NVMe；依据预测相�
 - 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34105)
 
 通过残差跨视角注意力、层对齐Q-Former及共享动作专家，将视频骨干迁移到可变视角控制；保留各数据集原生接口。 对比基线预训练数据/算力不匹配；相机、背景、噪声扰动弱于OpenVLA-OFT，LIBERO-Plus汇总权重未说明。只有一种真机平台，未证明未见形态迁移。
-
-## TurboWAM: Learning What Matters for Fast World Action Models
-
-- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33941)
-- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33941)
-
-按带噪动作聚合世界模型前层表示，并在训练时调节动作梯度；保留视频联合训练而推理不生成未来视频。 各方法具身预训练不匹配；修正提示结果不可与原协议混为一谈。层结构指架构而非显式3D几何，延迟不等于安全控制。 GPU仅描述为约140GB数据中心卡、未指明型号。文中将真机实验指向补充材料，所核正文未建立其定量结果。
 
 ## RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models
 

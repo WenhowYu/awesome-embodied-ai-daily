@@ -2,7 +2,217 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-154 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+183 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
+
+- [arXiv 2611.03648](https://arxiv.org/abs/2611.03648) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03648)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03648)
+
+Pixel co-designs wheeled-humanoid hardware, demonstration interfaces, whole-body control and hierarchical policy learning.
+
+## Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations
+
+- [arXiv 2611.03647](https://arxiv.org/abs/2611.03647) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03647)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03647)
+
+Pixel-UMI combines geometry-aware human demonstration retargeting, view masking and on-policy DAgger corrections.
+
+## FineCraft: Enhancing VLA Models for Fine-Grained Manipulation
+
+- [arXiv 2611.03163](https://arxiv.org/abs/2611.03163) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03163)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03163)
+
+FineCraft routes tasks among independently adapted DINOv2-DiT and π0.5 policies with local visual features and expert continuations.
+
+## VLALagBench: Understanding When and Why VLA Inference Latency Matters
+
+- [arXiv 2611.03103](https://arxiv.org/abs/2611.03103) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03103)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03103)
+
+VLALagBench varies object speeds, task demands and synchronous/asynchronous execution to characterize VLA latency sensitivity.
+
+## Beyond Policy Patches: Distilling RL Specialists into Vision-Language-Action Policies
+
+- [arXiv 2611.02777](https://arxiv.org/abs/2611.02777) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02777)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02777)
+
+REPAIR uses value-weighted specialist action distributions and on-policy state coverage to distill RL specialists into one flow-matching VLA.
+
+## HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation
+
+- [arXiv 2611.02660](https://arxiv.org/abs/2611.02660) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02660)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02660)
+
+HeLM maintains event-triggered, explicit language memory across subtasks and episodes above a shared π0 action policy.
+
+## W2A: Distilling World Priors into Action Models for Real-Time Robotic Control
+
+- [arXiv 2611.02600](https://arxiv.org/abs/2611.02600) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02600)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02600)
+
+W2A distills compressed video-denoising features into an action policy and removes the video model at inference.
+
+## RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild
+
+- [arXiv 2611.02497](https://arxiv.org/abs/2611.02497) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02497)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02497)
+
+RoboColosseum combines blinded distributed physical comparison with fixed-data fine-tuning across four embodiments.
+
+## Gnomon4D: Learning Where and When to Focus for Geometric Motion-Grounded World-Action Modeling
+
+- [arXiv 2611.02474](https://arxiv.org/abs/2611.02474) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02474)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02474)
+
+Jointly predicts RGB video, actions, and GeoDelta geometric motion; spatial interaction attention and transition-aware aggregation expose object–embodiment motion to control.
+
+## When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer Problem
+
+- [arXiv 2611.02101](https://arxiv.org/abs/2611.02101) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02101)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02101)
+
+A cross-layer safety study tests interactions between inference delay and camera-distribution shift in π0.5 closed-loop control.
+
+## ODE Policy: Robot Learning via Action Dynamics, Not Actions
+
+- [arXiv 2611.01729](https://arxiv.org/abs/2611.01729) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01729)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01729)
+
+ODE Policy learns action derivatives and integrates from the previous action, aiming for continuous control across imitation and RL.
+
+## $TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering
+
+- [arXiv 2611.01483](https://arxiv.org/abs/2611.01483) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01483)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01483)
+
+TF²-Steering uses forecast and observed tactile signals to steer the flow-matching action expert through a residual mixture of experts.
+
+## Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and Admission Control
+
+- [arXiv 2611.01404](https://arxiv.org/abs/2611.01404) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01404)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01404)
+
+A serving study characterizes coupled brain KV-cache residency and VLA action deadlines for agentic robot fleets.
+
+## Same Path, Less Time: Training-Free Fast Execution of Vision-Language-Action Models under Inference Latency
+
+- [arXiv 2611.01390](https://arxiv.org/abs/2611.01390) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01390)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01390)
+
+Path-preserving Time Scaling separates reference-path replanning from latency-aware execution rate for frozen chunking policies.
+
+## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
+
+- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01215)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01215)
+
+JADE feeds noisy action latents back into the VLM at each denoising step to jointly refine actions with the action expert.
+
+## Ripple: Deadline-Aware CPU-GPU Sharing for Embodied Inference
+
+- [arXiv 2611.01067](https://arxiv.org/abs/2611.01067) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01067)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01067)
+
+Ripple schedules pausable GPU inference against CPU deadlines on unified-memory edge devices using model-derived traffic estimates and completion feedback.
+
+## Leap-VLA: High-Rate Robot Control from a Low-Rate VLM Backbone
+
+- [arXiv 2611.01011](https://arxiv.org/abs/2611.01011) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01011)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01011)
+
+Leap-VLA decouples a slow semantic VLM from a fast visual action expert and explicitly conditions/trains on semantic-cache age.
+
+## Verifying Test-State Identity in Paired Evaluation of Vision-Language-Action Models
+
+- [arXiv 2611.00896](https://arxiv.org/abs/2611.00896) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00896)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00896)
+
+A provenance checker tests whether paired VLA evaluation actually assigns identical initial states under vectorized reset behavior.
+
+## PREM: Prediction-Regulated Memory for Robot Manipulation
+
+- [arXiv 2611.00634](https://arxiv.org/abs/2611.00634) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00634)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00634)
+
+PREM trains recurrent visual memory with action-conditioned prediction and gates spatial updates using prediction discrepancy.
+
+## Editing the Goal: Per-Token SAE Steering and Its Depth Limits in π0.5
+
+- [arXiv 2611.00602](https://arxiv.org/abs/2611.00602) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00602)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00602)
+
+Swapping SAE features at a single goal word can redirect π0.5-LIBERO without changing the instruction text; activation patching maps the depth at which goal information remains editable.
+
+## Reflex: Fast Robot Policy Serving by Reusing and Correcting Past Actions
+
+- [arXiv 2611.00524](https://arxiv.org/abs/2611.00524) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00524)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00524)
+
+Reflex caches complete action chunks, corrects them with action-aware similarity and residuals, and refreshes the policy according to progress.
+
+## Behavioral Steering of Vision-Language-Action Models in the Low-Parameter Regime
+
+- [arXiv 2611.00522](https://arxiv.org/abs/2611.00522) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00522)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00522)
+
+TinyLoRA steers frozen OpenVLA-OFT behavior with 8–384 trainable parameters using GRPO or CMA-ES.
+
+## CalVLA: Shaping Native Confidence in Vision-Language-Action Policies with Outcome Supervision
+
+- [arXiv 2611.00394](https://arxiv.org/abs/2611.00394) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00394)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00394)
+
+CalVLA trains OpenVLA action-token confidence using successful and failed rollout outcomes without a separate failure detector.
+
+## TurboWAM: Learning What Matters for Fast World Action Models
+
+- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2610.33941)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33941) · [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2610.33941)
+
+TurboWAM bounds world-model layer aggregation and modulates training gradients for low-latency action prediction.
+
+## Spotter: Let the Embodied Model Lead, and the VLM Reflect for It
+
+- [arXiv 2609.36808](https://arxiv.org/abs/2609.36808) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2609.36808)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2609.36808)
+
+Spotter lets the embodied policy act while a VLM selectively reflects and repairs.
+
+## 2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation
+
+- [arXiv 2609.11308](https://arxiv.org/abs/2609.11308) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2609.11308)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2609.11308)
+
+Agent-side memory provides structured guidance to an action model for long-horizon manipulation.
+
+## OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation
+
+- [arXiv 2606.22174](https://arxiv.org/abs/2606.22174) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2606.22174)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2606.22174)
+
+OpenHLM studies whole-body humanoid VLA interfaces and heterogeneous training data.
+
+## GazeVLA: Learning Human Intention for Robotic Manipulation
+
+- [arXiv 2604.22615](https://arxiv.org/abs/2604.22615) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2604.22615)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2604.22615)
+
+GazeVLA transfers human intention through a gaze-derived intermediate representation and intention-action reasoning.
+
+## CoEnv: Code-Driven Exploration in Real-to-Sim Digital Twins for Multi-Arm Manipulation
+
+- [arXiv 2604.05484](https://arxiv.org/abs/2604.05484) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2604.05484)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2604.05484)
+
+CoEx explores complete robot programs inside deployment-scene digital twins and transfers verified programs to hardware.
+
+## OmniGuide: Universal Spatial Guidance Fields for Enhancing Generalist Robot Policies
+
+- [arXiv 2603.10052](https://arxiv.org/abs/2603.10052) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2603.10052)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2603.10052)
+
+OmniGuide steers generalist robot policies with spatial energy fields from geometry, semantics and demonstrations.
 
 ## RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
 
@@ -577,13 +787,6 @@ RoboDuo lets a full-task VLA attempt the task, checks completion, then uses a se
 - Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34105)
 
 Transfers a video backbone to variable-view control with residual cross-view attention, a layer-aligned Q-Former and shared action expert with native dataset interfaces. Reference baselines do not match pretraining data/compute. Camera, background and noise shifts remain weaker than OpenVLA-OFT; LIBERO-Plus weighting is unspecified. One physical platform, no demonstrated unseen-embodiment transfer.
-
-## TurboWAM: Learning What Matters for Fast World Action Models
-
-- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33941)
-- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33941)
-
-Selectively aggregates early world-model layers conditioned on noisy actions and modulates action gradients during training, retaining video co-training without test-time video generation. Benchmarks have unmatched embodied pretraining across methods. Prompt-corrected results must not be conflated with the original protocol. Layer structure is architectural, not explicit 3D geometry; latency alone does not establish safe control. GPU model is unspecified (approximately 140GB data-center GPU). Physical-robot experiments are referred to supplementary material; their quantitative results were not established in the checked text.
 
 ## Late Breaking Results: Audio-Language-Action Models with Direct Speech Conditioning for Robotic Manipulation
 

@@ -2,7 +2,259 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-129 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+165 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models
+
+- [arXiv 2611.03622](https://arxiv.org/abs/2611.03622) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03622)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03622)
+
+通过提示让视觉语言模型先描述视频动态，再依据显式成功标准评估进度，无需训练奖励模型，可输出进度和语言反馈。
+
+## Finite-Memory Control of POMDPs: Fundamental Limits and Efficient Design
+
+- [arXiv 2611.03414](https://arxiv.org/abs/2611.03414) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03414)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03414)
+
+RECAP按决策相关差异量化信念状态，并给出有限记忆POMDP控制损失的上下界。
+
+## KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL
+
+- [arXiv 2611.03138](https://arxiv.org/abs/2611.03138) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03138)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03138)
+
+开源桌面对抗机器人平台，提供 Isaac Lab 数字孪生和学习式执行器模型。
+
+## KlaskTron-IL: A Contact-Rich Adversarial Imitation Learning Benchmark with a Validated Sim-to-Real Bridge
+
+- [arXiv 2611.03091](https://arxiv.org/abs/2611.03091) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03091)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03091)
+
+为双人对抗真机平台提供分层模仿学习数据集与诊断基线。
+
+## BeyondContact: A Reinforcement Learning Framework for Airflow-Based Non-Contact Manipulation
+
+- [arXiv 2611.03059](https://arxiv.org/abs/2611.03059) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03059)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03059)
+
+BeyondContact向Isaac Lab加入辨识气流物理，学习推吹混合及纯气流转向策略。
+
+## A Universal Policy Wrapper With Guarantees
+
+- [arXiv 2611.02888](https://arxiv.org/abs/2611.02888) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02888)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02888)
+
+CALF-Wrapper利用已学习critic在预训练RL策略与备用控制器间选择，以继承目标到达保证。
+
+## Beyond Policy Patches: Distilling RL Specialists into Vision-Language-Action Policies
+
+- [arXiv 2611.02777](https://arxiv.org/abs/2611.02777) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02777)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02777)
+
+REPAIR用价值加权专家动作分布与在线策略状态覆盖，将RL专家蒸馏进单一流匹配VLA。
+
+## MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking
+
+- [arXiv 2611.02613](https://arxiv.org/abs/2611.02613) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02613)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02613)
+
+MAPO交替优化路由与专家，改善混合专家策略梯度中的散度估计。
+
+## Sequential Recovery Updates for Learned Controllers under Successful-Trajectory Preservation
+
+- [arXiv 2611.02555](https://arxiv.org/abs/2611.02555) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02555)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02555)
+
+顺序恢复更新约束技能入口以保留既有成功轨迹，而不只冻结参数。
+
+## Energy-Based Policy Orchestration
+
+- [arXiv 2611.02546](https://arxiv.org/abs/2611.02546) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02546)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02546)
+
+EPO用策略专属可行性与跟踪能量选择并细化策略—目标对；添加专家只需训练其能量模型。
+
+## Iterative Gumbel Planning for Continuous Control
+
+- [arXiv 2611.02236](https://arxiv.org/abs/2611.02236) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02236)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02236)
+
+Iterative Gumbel Planning以分维度类别策略匹配有限动作搜索候选，并迭代执行Gumbel/MPPI式精修。
+
+## Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift
+
+- [arXiv 2611.02218](https://arxiv.org/abs/2611.02218) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02218)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02218)
+
+预测式STL监控检验世界模型rollout与集成分歧在运动分布偏移下能否增加安全排序价值。
+
+## ANCHOR: KL-Anchored Adaptation for Stable Offline-to-Online RL
+
+- [arXiv 2611.02177](https://arxiv.org/abs/2611.02177) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02177)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02177)
+
+ANCHOR在不回放离线数据的离线转在线RL中，先以KL约束将actor锚定预训练策略，再逐步退火。
+
+## GoalDex: Learning Image-Goal-Conditioned Policies for Dexterous In-Hand Manipulation
+
+- [arXiv 2611.02171](https://arxiv.org/abs/2611.02171) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02171)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02171)
+
+GoalDex把特权教师蒸馏为RGB/本体感知、图像目标条件灵巧重定向策略，无显式姿态估计。
+
+## Value Forcing: Aligning Return Distributions at All Noise Levels
+
+- [arXiv 2611.02160](https://arxiv.org/abs/2611.02160) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02160)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02160)
+
+Value Forcing以流匹配学习回报分布，并在所有噪声层级施加Bellman一致性，形成VF和IVF。
+
+## CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control
+
+- [arXiv 2611.01748](https://arxiv.org/abs/2611.01748) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01748)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01748)
+
+CompliantBot通过交互力场与负载相关奖励权重训练全身顺应与任务恢复。
+
+## Evolving Memory, Learning to Meta-Control: Test-Time Adaptation for Experience-augmented LLM Agents
+
+- [arXiv 2611.01747](https://arxiv.org/abs/2611.01747) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01747)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01747)
+
+OMCE同时演化经验记忆和在线上下文bandit控制器，在直接执行、回合经验、指导及蒸馏四种模式间选择。
+
+## ODE Policy: Robot Learning via Action Dynamics, Not Actions
+
+- [arXiv 2611.01729](https://arxiv.org/abs/2611.01729) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01729)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01729)
+
+ODE Policy学习动作导数并从上一动作积分，面向模仿学习和RL连续控制。
+
+## HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception
+
+- [arXiv 2611.01659](https://arxiv.org/abs/2611.01659) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01659)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01659)
+
+HuG耦合主动视点选择、全身抓取可供性与控制器在环可行性过滤。
+
+## Recursive Self-Improvement of Exoskeleton Assistance Policies through Human-in-the-Loop Feedback
+
+- [arXiv 2611.01581](https://arxiv.org/abs/2611.01581) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01581)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01581)
+
+Agent依据主观反馈、运动结果和肌肉测量修订可执行外骨骼辅助代码。
+
+## Beyond Validation Loss: Coverage and Reliability Dynamics in Robot Policy Pretraining
+
+- [arXiv 2611.01565](https://arxiv.org/abs/2611.01565) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01565)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01565)
+
+闭环pass@k区分单次可靠性与重复采样可达成功覆盖，用于策略预训练评估。
+
+## Learning Agile Humanoid Dodgeball with Onboard Monocular Vision
+
+- [arXiv 2611.01197](https://arxiv.org/abs/2611.01197) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01197)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01197)
+
+单目人形躲避球系统将时序威胁估计与学习的躲避、恢复、目标重捕获策略组合。
+
+## World Models Need Not Be Right to Rank Policies Right: Relative Bounds and Audit Limits
+
+- [arXiv 2611.01139](https://arxiv.org/abs/2611.01139) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01139)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01139)
+
+RAVEL区分世界模型内策略排序准确与成对真实环境审计是否提供有效信息。
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
+
+受控负结果用Koopman/动作仿射模型替换人形跟踪中的MLP可微世界模型。
+
+## Toward Counterfactual Learning for Selective Re-Examination in Agentic Visual Search
+
+- [arXiv 2611.00848](https://arxiv.org/abs/2611.00848) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00848)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00848)
+
+CARE从同一视觉搜索状态的成对续程估计带成本反事实收益，将RL信用分配给提交/重看决策；ReSee标注额外观察价值。
+
+## Behavioral Steering of Vision-Language-Action Models in the Low-Parameter Regime
+
+- [arXiv 2611.00522](https://arxiv.org/abs/2611.00522) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00522)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00522)
+
+TinyLoRA通过GRPO或CMA-ES，仅用8–384个可训练参数调整冻结OpenVLA-OFT行为。
+
+## Compositional Self-Improvement: Promises and Pitfalls
+
+- [arXiv 2611.00452](https://arxiv.org/abs/2611.00452) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00452)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00452)
+
+研究何时可组合简单子问题解答，为更难任务提供可靠自生成监督。
+
+## OmniPiano: Diverse Dexterous Piano-Playing Challenges for Standard, Robust, Safe, and Multi-Agent RL
+
+- [arXiv 2611.00243](https://arxiv.org/abs/2611.00243) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00243)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00243)
+
+OmniPiano用1至5只Shadow Hand统一灵巧钢琴演奏的标准、鲁棒、安全及协作强化学习。
+
+## RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent
+
+- [arXiv 2610.21791](https://arxiv.org/abs/2610.21791) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2610.21791)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2610.21791)
+
+RSIFlow依据执行反馈选择模型、Harness或产物干预，并更新元Harness。
+
+## Dynamics-Aware Meta-Imitation for Generalization to Unseen Robotic Manipulation
+
+- [arXiv 2607.15880](https://arxiv.org/abs/2607.15880) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2607.15880)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2607.15880)
+
+DAMI基于参考交互进行元模仿学习，适配新操作任务。
+
+## Hyperagents
+
+- [arXiv 2603.19461](https://arxiv.org/abs/2603.19461) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2603.19461)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2603.19461)
+
+Hyperagents同时允许修改任务求解代码和生成修改的元agent。
+
+## How to Peel with a Knife: Aligning Fine-Grained Manipulation with Human Preference
+
+- [arXiv 2603.03280](https://arxiv.org/abs/2603.03280) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2603.03280)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2603.03280)
+
+力感知模仿策略通过结合削皮厚度标签与专家偏好的奖励进一步优化。
+
+## ReWorld: Multi-Dimensional Reward Modeling for Embodied Video Generation
+
+- [arXiv 2601.12428](https://arxiv.org/abs/2601.12428) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2601.12428)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2601.12428)
+
+ReWorld训练多维奖励模型，并用基于flow的PPO代理目标后训练具身视频生成器。
+
+## InTAct: Interval-based Task Activation Consolidation for Continual Learning
+
+- [arXiv 2511.17439](https://arxiv.org/abs/2511.17439) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2511.17439)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2511.17439)
+
+InTAct保护旧域对应的激活区间，而非冻结参数或回放旧数据。
+
+## Functional Critics for Off-Policy Actor-Critic: From Stability to Exploration
+
+- [arXiv 2509.22964](https://arxiv.org/abs/2509.22964) · v5 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2509.22964)
+- 收录历史: [2026-11-03 (v5, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2509.22964)
+
+以策略为条件的函数型 critic 将离策略稳定性与策略空间探索联系起来。
+
+## Tactile MNIST: Benchmarking Active Tactile Perception
+
+- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2506.06361)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2506.06361)
+
+Tactile MNIST评估主动触觉感知与信息收集策略。
 
 ## Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments
 

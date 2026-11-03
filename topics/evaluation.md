@@ -2,7 +2,644 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-264 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+353 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
+
+- [arXiv 2611.03646](https://arxiv.org/abs/2611.03646) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03646)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03646)
+
+Benchmarks dense, temporally localized egocentric manipulation captions with left/right/both-hand assignments and semantic plus temporal scoring.
+
+## D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models
+
+- [arXiv 2611.03622](https://arxiv.org/abs/2611.03622) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03622)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03622)
+
+Prompt a VLM to describe video dynamics and then assess progress against explicit success criteria, producing progress and language feedback without reward-model training.
+
+## TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation
+
+- [arXiv 2611.03584](https://arxiv.org/abs/2611.03584) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03584)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03584)
+
+TAMPAgent couples an LVLM with belief-space task-and-motion constraints, interleaving observation and action under partial observability.
+
+## PanoTac: A Dense Three-Axis Tactile Sensor for Robust Touch-Centric Manipulation
+
+- [arXiv 2611.03520](https://arxiv.org/abs/2611.03520) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03520)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03520)
+
+PanoTac supplies dense normal and shear sensing for learned contact-rich manipulation.
+
+## When Robots Outweigh Objects: How Inertia Mismatch Shapes Robot Policy Learning
+
+- [arXiv 2611.03501](https://arxiv.org/abs/2611.03501) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03501)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03501)
+
+Controlled mass and reflected-inertia experiments study how robot–object inertia mismatch affects policy learning.
+
+## Top-$k$ Retrieval Leaves Memory Value Undetermined
+
+- [arXiv 2611.03289](https://arxiv.org/abs/2611.03289) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03289)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03289)
+
+LEDGER asks which memory values are identifiable from retrieval logs, using retrieval and co-retrieval counts, and explicitly marks others undetermined.
+
+## Can Coding Agents Sustain Continual Evolution without Forgetting?
+
+- [arXiv 2611.03219](https://arxiv.org/abs/2611.03219) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03219)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03219)
+
+Studies catastrophic forgetting when coding agents continually evolve their harness across different task types without changing base-model parameters.
+
+## Rollout then Recycle: 3,718 Labelled Real-Robot Episodes from Benchmarking 7 Policies on 12 Tasks
+
+- [arXiv 2611.03168](https://arxiv.org/abs/2611.03168) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03168)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03168)
+
+Releases a real-robot corpus combining teleoperation demonstrations and labelled rollouts of seven imitation-learning and VLA policies on common tasks.
+
+## VLALagBench: Understanding When and Why VLA Inference Latency Matters
+
+- [arXiv 2611.03103](https://arxiv.org/abs/2611.03103) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03103)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03103)
+
+VLALagBench varies object speeds, task demands and synchronous/asynchronous execution to characterize VLA latency sensitivity.
+
+## Gibbs Variational Last Layers for Long-Horizon Dynamics Learning
+
+- [arXiv 2611.02891](https://arxiv.org/abs/2611.02891) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02891)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02891)
+
+Gibbs variational last layers introduce multistep, CRPS-based and autoregressive training objectives for probabilistic dynamics.
+
+## A Universal Policy Wrapper With Guarantees
+
+- [arXiv 2611.02888](https://arxiv.org/abs/2611.02888) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02888)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02888)
+
+CALF-Wrapper chooses between a pretrained RL policy and a fallback controller using the learned critic, aiming to inherit goal-reaching guarantees.
+
+## SelfImprove-Bench: Evaluating Generalization in Self-Improving Agents
+
+- [arXiv 2611.02797](https://arxiv.org/abs/2611.02797) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02797)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02797)
+
+SelfImprove-Bench separates self-improvement into exploring, planning, and reasoning games and proposes a G0–G4 generalization ladder.
+
+## SomaAlign: Reliability-Aware Multimodal Representation Learning for Soft Robotic Grasping
+
+- [arXiv 2611.02794](https://arxiv.org/abs/2611.02794) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02794)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02794)
+
+SomaAlign learns reliability-aware representations from multimodal soft-grasp sensing and tests frozen-encoder transfer.
+
+## Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up
+
+- [arXiv 2611.02699](https://arxiv.org/abs/2611.02699) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02699)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02699)
+
+A reproduction audits RWM dynamics and the uncertainty calibration used by RWM-U.
+
+## DexArena: A Unified Benchmark for Long-Horizon Dexterous Manipulation
+
+- [arXiv 2611.02629](https://arxiv.org/abs/2611.02629) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02629)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02629)
+
+DexArena standardizes staged, long-horizon bimanual dexterous tasks and demonstrations.
+
+## Sequential Recovery Updates for Learned Controllers under Successful-Trajectory Preservation
+
+- [arXiv 2611.02555](https://arxiv.org/abs/2611.02555) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02555)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02555)
+
+Sequential recovery updates constrain skill-entry rules to preserve previously successful trajectories instead of relying only on frozen parameters.
+
+## Cumulative and Audited Guardrail Tool Evolution for LLM Agent Safety
+
+- [arXiv 2611.02516](https://arxiv.org/abs/2611.02516) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02516)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02516)
+
+EVOLVE accumulates executable guardrail tools, audits inherited rules, and revises them as new risks emerge.
+
+## RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild
+
+- [arXiv 2611.02497](https://arxiv.org/abs/2611.02497) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02497)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02497)
+
+RoboColosseum combines blinded distributed physical comparison with fixed-data fine-tuning across four embodiments.
+
+## Late Autumn: LLM Agents Specialize a General Multi-Robot Planner for One Warehouse
+
+- [arXiv 2611.02391](https://arxiv.org/abs/2611.02391) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02391)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02391)
+
+Late Autumn studies coding agents specializing a lifelong multi-robot planner for a warehouse through scored, reviewable patches.
+
+## Agent Memory as Rate-Limited Filtering: Explicit State Outlasts Long Context Beyond a Reader-Dependent Horizon
+
+- [arXiv 2611.02361](https://arxiv.org/abs/2611.02361) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02361)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02361)
+
+Frames memory as recursive state filtering and tests whether explicit state preserves order-sensitive decisions better than reading a long event log.
+
+## Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift
+
+- [arXiv 2611.02218](https://arxiv.org/abs/2611.02218) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02218)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02218)
+
+Predictive STL monitoring tests whether world-model rollouts and ensemble disagreement add useful safety ranking under locomotion shifts.
+
+## When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer Problem
+
+- [arXiv 2611.02101](https://arxiv.org/abs/2611.02101) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02101)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02101)
+
+A cross-layer safety study tests interactions between inference delay and camera-distribution shift in π0.5 closed-loop control.
+
+## Do Embodied VLMs Actually Use Their Scene-Graph Memory?
+
+- [arXiv 2611.02056](https://arxiv.org/abs/2611.02056) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02056)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02056)
+
+A graph-swap test checks whether a VLM actually relies on its supplied scene-graph memory.
+
+## Reconstruction as Spatial Evaluation: Diagnosing Cross-View Spatial Intelligence in Large Vision-Language Models
+
+- [arXiv 2611.02026](https://arxiv.org/abs/2611.02026) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02026)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02026)
+
+RECONSPATIAL asks models to reconstruct queried objects as oriented 3D boxes in a shared metric camera frame, separating relational structure from metric placement.
+
+## Answering Without Arriving: An Evidence Audit for Embodied Question Answering
+
+- [arXiv 2611.01958](https://arxiv.org/abs/2611.01958) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01958)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01958)
+
+An embodied-QA evidence ladder separates observation acquisition from text shortcuts and answer accuracy.
+
+## TriPhysBench: Evaluating Physical Intelligence for Embodied Agents
+
+- [arXiv 2611.01934](https://arxiv.org/abs/2611.01934) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01934)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01934)
+
+TriPhysBench tests coordinated physical perception, external knowledge retrieval and quantitative reasoning, with a tool-trajectory-trained TriPhys policy.
+
+## When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?
+
+- [arXiv 2611.01815](https://arxiv.org/abs/2611.01815) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01815)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01815)
+
+Distinguishes physical information in learned representations from whether a world model’s native prediction error is a reliable physical-surprise score.
+
+## RSI-Env: An Open-Ended Environment for Recursive Self-Improvement of Agents
+
+- [arXiv 2611.01736](https://arxiv.org/abs/2611.01736) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01736)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01736)
+
+RSI-Env preserves research state and lets accepted model–harness versions conduct subsequent self-improvement, separating open goals, capability-directed goals and benchmark guidance.
+
+## Delivered, Not Used: Evaluating Agent Memory at Its Point of Use
+
+- [arXiv 2611.01718](https://arxiv.org/abs/2611.01718) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01718)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01718)
+
+MemUse audits delivered memory at its point of use, linking relevance, novelty, influence, and observed consequences to trajectory evidence.
+
+## Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence
+
+- [arXiv 2611.01677](https://arxiv.org/abs/2611.01677) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01677)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01677)
+
+A streaming multi-view world model combines view-temporal attention, explicit 3D Gaussian scene context, and gated linear attention. A robot WAM reuses the video DiT with a separate attention-sharing action expert.
+
+## UA-Depth: Uncertainty-Aware Depth Restoration for Material-Agnostic Object Manipulation
+
+- [arXiv 2611.01645](https://arxiv.org/abs/2611.01645) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01645)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01645)
+
+UA-Depth jointly restores metric depth and uncertainty for difficult transparent and reflective materials.
+
+## Beyond Validation Loss: Coverage and Reliability Dynamics in Robot Policy Pretraining
+
+- [arXiv 2611.01565](https://arxiv.org/abs/2611.01565) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01565)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01565)
+
+Closed-loop pass@k separates reliability at one rollout from reachable-success coverage under repeated sampling during policy pretraining.
+
+## Democratizing Robot-Use Agents: A Unified Harness with Open Models
+
+- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01560)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01560)
+
+uni-robot-agent provides a common robot-use harness for open models without simulator-privileged inputs.
+
+## Can Large Language Model Agents Learn by Watching Tutorial Videos?
+
+- [arXiv 2611.01460](https://arxiv.org/abs/2611.01460) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01460)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01460)
+
+Tutorial Agentic Learning builds persistent tutorialbook memory through adversarial question harvesting and refinement, with reasoning-driven table-of-contents retrieval and no parameter updates.
+
+## Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and Admission Control
+
+- [arXiv 2611.01404](https://arxiv.org/abs/2611.01404) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01404)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01404)
+
+A serving study characterizes coupled brain KV-cache residency and VLA action deadlines for agentic robot fleets.
+
+## Same Path, Less Time: Training-Free Fast Execution of Vision-Language-Action Models under Inference Latency
+
+- [arXiv 2611.01390](https://arxiv.org/abs/2611.01390) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01390)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01390)
+
+Path-preserving Time Scaling separates reference-path replanning from latency-aware execution rate for frozen chunking policies.
+
+## Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces
+
+- [arXiv 2611.01386](https://arxiv.org/abs/2611.01386) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01386)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01386)
+
+Zep Agent Skills compiles verified execution traces into versioned procedural skills, with separate reflection, curation, admission, and retrieval ranking.
+
+## Shades of Success: Evaluating Manipulation Quality from Object-Centric Constraints
+
+- [arXiv 2611.01250](https://arxiv.org/abs/2611.01250) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01250)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01250)
+
+SPECTRA learns object-centric pose constraints from oracle demonstrations and scores manipulation quality beyond binary success.
+
+## ClothDojo: Learned Data Generation and Benchmarking for Bimanual Garment Flattening and Folding
+
+- [arXiv 2611.01190](https://arxiv.org/abs/2611.01190) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01190)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01190)
+
+ClothDojo uses NOCS-assisted VLA data generation and appearance re-rendering to train RGB-only garment manipulation policies.
+
+## World Models Need Not Be Right to Rank Policies Right: Relative Bounds and Audit Limits
+
+- [arXiv 2611.01139](https://arxiv.org/abs/2611.01139) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01139)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01139)
+
+RAVEL distinguishes accurate policy ranking inside a learned world model from informative paired real-environment audits.
+
+## Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation
+
+- [arXiv 2611.01112](https://arxiv.org/abs/2611.01112) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01112)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01112)
+
+Auriga provides a calibrated 3D, dual-arm agent harness with trajectory previews, stage checks and in-place recovery.
+
+## Ripple: Deadline-Aware CPU-GPU Sharing for Embodied Inference
+
+- [arXiv 2611.01067](https://arxiv.org/abs/2611.01067) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01067)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01067)
+
+Ripple schedules pausable GPU inference against CPU deadlines on unified-memory edge devices using model-derived traffic estimates and completion feedback.
+
+## pico-WAM: Evaluating Counterfactual Prediction and Planning Error in a Compact World Action Model
+
+- [arXiv 2611.01039](https://arxiv.org/abs/2611.01039) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01039)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01039)
+
+pico-WAM intervenes separately on proposal generation and trajectory scoring to diagnose compact world-action planning.
+
+## Leap-VLA: High-Rate Robot Control from a Low-Rate VLM Backbone
+
+- [arXiv 2611.01011](https://arxiv.org/abs/2611.01011) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01011)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01011)
+
+Leap-VLA decouples a slow semantic VLM from a fast visual action expert and explicitly conditions/trains on semantic-cache age.
+
+## Evaluating Tactile Foundation Models for End-to-End Imitation Learning in Contact-Rich Manipulation
+
+- [arXiv 2611.00957](https://arxiv.org/abs/2611.00957) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00957)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00957)
+
+Multiple pretrained tactile encoders are integrated into Diffusion Policy under common settings, testing fine-tuning and task-specific mid-training.
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00951)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951)
+
+A controlled negative result replaces an MLP differentiable world model with Koopman/action-affine alternatives for humanoid tracking.
+
+## Verifying Test-State Identity in Paired Evaluation of Vision-Language-Action Models
+
+- [arXiv 2611.00896](https://arxiv.org/abs/2611.00896) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00896)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00896)
+
+A provenance checker tests whether paired VLA evaluation actually assigns identical initial states under vectorized reset behavior.
+
+## Toward Counterfactual Learning for Selective Re-Examination in Agentic Visual Search
+
+- [arXiv 2611.00848](https://arxiv.org/abs/2611.00848) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00848)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00848)
+
+CARE gives localized RL credit to commit-versus-reinspect decisions using cost-aware paired continuations from the same visual-search state; ReSee labels the value of additional observation.
+
+## Can Jev Improve Demonstration Retrieval for In-Context Learning?
+
+- [arXiv 2611.00737](https://arxiv.org/abs/2611.00737) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00737)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00737)
+
+Uses Jev probabilistic utility judgments to rank in-context demonstrations, then distills them into an inexpensive MLP retriever.
+
+## Learning from an Imitable Teacher: Competition Solution for the MetaFine Challenge
+
+- [arXiv 2611.00615](https://arxiv.org/abs/2611.00615) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00615)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00615)
+
+A MetaFine competition solution makes privileged teachers easier for memoryless students to imitate, using failure correction and task-specific policies.
+
+## Roz: A Taste Test for World Model Latents
+
+- [arXiv 2611.00612](https://arxiv.org/abs/2611.00612) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00612)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00612)
+
+Roz probes physical information in world-model latents using contrastive and continuous scenarios rather than a learned planner.
+
+## Editing the Goal: Per-Token SAE Steering and Its Depth Limits in π0.5
+
+- [arXiv 2611.00602](https://arxiv.org/abs/2611.00602) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00602)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00602)
+
+Swapping SAE features at a single goal word can redirect π0.5-LIBERO without changing the instruction text; activation patching maps the depth at which goal information remains editable.
+
+## Skill++: Towards Lifelong Agents via Routing-Aware Skill Refinement
+
+- [arXiv 2611.00544](https://arxiv.org/abs/2611.00544) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00544)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00544)
+
+Skill++ treats a growing skill library as continual routing: rewrite incoming skill names/descriptions to clarify capabilities, distinctions, and exclusions, without retraining the router.
+
+## Faster Imitation by Re-timing Demonstrations Within the Controller Limit
+
+- [arXiv 2611.00539](https://arxiv.org/abs/2611.00539) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00539)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00539)
+
+Controller-bounded demonstration re-timing merges commands only when their summed displacement remains realizable.
+
+## Exo: An Architecture for Self-Improving Systems at Runtime
+
+- [arXiv 2611.00463](https://arxiv.org/abs/2611.00463) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00463)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00463)
+
+Exo lets an agent revise its runtime harness during ongoing tasks while a protected mechanism retains history and governs policy activation.
+
+## TacMind: Benchmarking and Modeling Tactile Interaction States for Robotic Manipulation
+
+- [arXiv 2611.00455](https://arxiv.org/abs/2611.00455) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00455)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00455)
+
+TacMind learns action-conditioned tactile latent dynamics and uses predicted tactile states to refine manipulation actions.
+
+## Spoofing the Latent State: Imperceptible Goal-Image Attacks Derail Planning in LeWorldModel
+
+- [arXiv 2611.00427](https://arxiv.org/abs/2611.00427) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00427)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00427)
+
+Audits robustness of LeWorldModel latent-distance planning to small goal-image and observation perturbations.
+
+## Behavior Graphs: Unsupervised Graph Structures for Interpreting Robot Deployment Data
+
+- [arXiv 2611.00405](https://arxiv.org/abs/2611.00405) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00405)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00405)
+
+Behavior graphs summarize deployment rollouts as behavioral modes, transitions and outcomes to support data-collection decisions.
+
+## CalVLA: Shaping Native Confidence in Vision-Language-Action Policies with Outcome Supervision
+
+- [arXiv 2611.00394](https://arxiv.org/abs/2611.00394) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00394)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00394)
+
+CalVLA trains OpenVLA action-token confidence using successful and failed rollout outcomes without a separate failure detector.
+
+## SPARK: Self-Correcting Embodied Memory via Physical Re-Observation
+
+- [arXiv 2611.00344](https://arxiv.org/abs/2611.00344) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00344)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00344)
+
+SPARK uses a semantic critic, targeted physical revisits and selective merging to correct multi-episode embodied memory.
+
+## Does Validation Loss Predict Real-Robot Success? Evidence from Four Imitation-Learning Policies on a Low-Cost Arm
+
+- [arXiv 2611.00283](https://arxiv.org/abs/2611.00283) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00283)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00283)
+
+An SO-101 study tests whether offline imitation-learning losses predict real deployment success.
+
+## OmniPiano: Diverse Dexterous Piano-Playing Challenges for Standard, Robust, Safe, and Multi-Agent RL
+
+- [arXiv 2611.00243](https://arxiv.org/abs/2611.00243) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00243)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00243)
+
+OmniPiano unifies standard, robust, safe, and cooperative RL for dexterous piano playing with one to five Shadow Hands.
+
+## FORCE: Factorized Object Relations for Counterfactual Editing in Video World Models
+
+- [arXiv 2611.00023](https://arxiv.org/abs/2611.00023) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00023)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00023)
+
+FORCE factorizes object-pair interaction latents for persistent removal, modification, transfer or introduction of relations in video world models.
+
+## TurboWAM: Learning What Matters for Fast World Action Models
+
+- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2610.33941)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33941) · [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2610.33941)
+
+TurboWAM bounds world-model layer aggregation and modulates training gradients for low-latency action prediction.
+
+## Seeing the Options: What Should a Visual Candidate See?
+
+- [arXiv 2610.33702](https://arxiv.org/abs/2610.33702) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2610.33702)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.33702) · [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2610.33702)
+
+Seeing the Options separates request-conditioned candidate encoding from candidate-to-candidate interaction in visual decisions.
+
+## RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent
+
+- [arXiv 2610.21791](https://arxiv.org/abs/2610.21791) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2610.21791)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2610.21791)
+
+RSIFlow selects model, harness or artifact interventions from execution feedback and evolves its meta-harness.
+
+## WasserMan: Benchmark for Underwater Manipulation Policy Learning
+
+- [arXiv 2610.04536](https://arxiv.org/abs/2610.04536) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2610.04536)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2610.04536)
+
+WasserMan evaluates underwater contact manipulation with paired physical diagnostics rather than completion alone.
+
+## Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory
+
+- [arXiv 2610.02897](https://arxiv.org/abs/2610.02897) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2610.02897)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2610.02897)
+
+A controlled memory-write study compares neutral summaries, fused multi-goal summaries, and separate per-goal stores.
+
+## Spotter: Let the Embodied Model Lead, and the VLM Reflect for It
+
+- [arXiv 2609.36808](https://arxiv.org/abs/2609.36808) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2609.36808)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2609.36808)
+
+Spotter lets the embodied policy act while a VLM selectively reflects and repairs.
+
+## Pose accuracy is not grasp reliability: residual pose posteriors improve simulated robotic grasp planning
+
+- [arXiv 2609.13235](https://arxiv.org/abs/2609.13235) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2609.13235)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2609.13235)
+
+Residual pose posteriors improve simulated grasp planning beyond point pose accuracy.
+
+## 2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation
+
+- [arXiv 2609.11308](https://arxiv.org/abs/2609.11308) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2609.11308)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2609.11308)
+
+Agent-side memory provides structured guidance to an action model for long-horizon manipulation.
+
+## Macro-Operator Generation and Predicate Selection for TAMP Operator Learning
+
+- [arXiv 2608.23629](https://arxiv.org/abs/2608.23629) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2608.23629)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2608.23629)
+
+The method discovers reusable symbolic macro-operators and selects predicates for task-and-motion planning.
+
+## Robot-Factored World Models via Robot Rendering
+
+- [arXiv 2607.22535](https://arxiv.org/abs/2607.22535) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2607.22535)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2607.22535)
+
+Robot rendering separates commanded robot motion from learned scene dynamics in video prediction.
+
+## Dynamics-Aware Meta-Imitation for Generalization to Unseen Robotic Manipulation
+
+- [arXiv 2607.15880](https://arxiv.org/abs/2607.15880) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2607.15880)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2607.15880)
+
+DAMI conditions meta-imitation on reference interactions and adapts to new manipulation tasks.
+
+## RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation
+
+- [arXiv 2607.06699](https://arxiv.org/abs/2607.06699) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2607.06699)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2607.06699)
+
+RoboSnap constructs simulation-ready scenes for replay, data generation and robot-policy evaluation.
+
+## Sequential Planning via Anchored Robotic Keypoints
+
+- [arXiv 2606.30613](https://arxiv.org/abs/2606.30613) · v5 · [Latest entry](../daily/2026-11-03.md#arxiv-2606.30613)
+- Coverage history: [2026-11-02 (v4, revised)](../daily/2026-11-02.md#arxiv-2606.30613) · [2026-11-03 (v5, revised)](../daily/2026-11-03.md#arxiv-2606.30613)
+
+Anchored keypoints support sequential robot plans with explicit execution interfaces.
+
+## Towards Continual Motion-Language Agents: LoRA Variants for Incremental Motion Understanding and Generation
+
+- [arXiv 2606.30266](https://arxiv.org/abs/2606.30266) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2606.30266)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2606.30266)
+
+Continual motion-language LoRA experts use task-label-free routing for bidirectional motion understanding and generation.
+
+## OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation
+
+- [arXiv 2606.22174](https://arxiv.org/abs/2606.22174) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2606.22174)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2606.22174)
+
+OpenHLM studies whole-body humanoid VLA interfaces and heterogeneous training data.
+
+## Harnessing Agent Skills: Architectural Patterns and a Reference Architecture for Skill-Mediated LLM Agents
+
+- [arXiv 2606.20631](https://arxiv.org/abs/2606.20631) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2606.20631)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2606.20631)
+
+A reference architecture assigns responsibilities for skill supply, activation, execution control, and feedback-driven revision.
+
+## Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams
+
+- [arXiv 2606.01770](https://arxiv.org/abs/2606.01770) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2606.01770)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2606.01770)
+
+Adaptive Auto-Harness separates persistent evolution workspaces from deployable agent harnesses for changing task streams.
+
+## ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems
+
+- [arXiv 2604.23878](https://arxiv.org/abs/2604.23878) · v4 · [Latest entry](../daily/2026-11-03.md#arxiv-2604.23878)
+- Coverage history: [2026-11-03 (v4, revised)](../daily/2026-11-03.md#arxiv-2604.23878)
+
+ZenBrain reports a correction audit that materially narrows evidence for its seven-layer memory architecture.
+
+## GazeVLA: Learning Human Intention for Robotic Manipulation
+
+- [arXiv 2604.22615](https://arxiv.org/abs/2604.22615) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2604.22615)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2604.22615)
+
+GazeVLA transfers human intention through a gaze-derived intermediate representation and intention-action reasoning.
+
+## Hyperagents
+
+- [arXiv 2603.19461](https://arxiv.org/abs/2603.19461) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2603.19461)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2603.19461)
+
+Hyperagents make both task-solving code and the meta-agent that modifies it editable.
+
+## OmniGuide: Universal Spatial Guidance Fields for Enhancing Generalist Robot Policies
+
+- [arXiv 2603.10052](https://arxiv.org/abs/2603.10052) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2603.10052)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2603.10052)
+
+OmniGuide steers generalist robot policies with spatial energy fields from geometry, semantics and demonstrations.
+
+## How to Peel with a Knife: Aligning Fine-Grained Manipulation with Human Preference
+
+- [arXiv 2603.03280](https://arxiv.org/abs/2603.03280) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2603.03280)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2603.03280)
+
+Force-aware imitation is refined with a reward combining peeling-thickness labels and expert preferences.
+
+## ReWorld: Multi-Dimensional Reward Modeling for Embodied Video Generation
+
+- [arXiv 2601.12428](https://arxiv.org/abs/2601.12428) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2601.12428)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2601.12428)
+
+ReWorld trains a multidimensional reward model and post-trains embodied video generators with a flow-based PPO proxy.
+
+## InTAct: Interval-based Task Activation Consolidation for Continual Learning
+
+- [arXiv 2511.17439](https://arxiv.org/abs/2511.17439) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2511.17439)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2511.17439)
+
+InTAct protects activation regions of earlier domains rather than freezing parameters or replaying old data.
+
+## MAESTRO: Orchestrating Robotics Modules with Coding Agents for Zero-Shot Generalist Robots
+
+- [arXiv 2511.00917](https://arxiv.org/abs/2511.00917) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2511.00917)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2511.00917)
+
+A coding-agent harness composes perception, planning and control modules, with outcome verification and code repair.
+
+## Functional Critics for Off-Policy Actor-Critic: From Stability to Exploration
+
+- [arXiv 2509.22964](https://arxiv.org/abs/2509.22964) · v5 · [Latest entry](../daily/2026-11-03.md#arxiv-2509.22964)
+- Coverage history: [2026-11-03 (v5, revised)](../daily/2026-11-03.md#arxiv-2509.22964)
+
+Policy-conditioned functional critics connect off-policy stability with policy-space exploration.
+
+## Tactile MNIST: Benchmarking Active Tactile Perception
+
+- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2506.06361)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2506.06361)
+
+Tactile MNIST benchmarks active tactile perception and information-gathering policies.
+
+## Towards General Continuous Memory for Vision-Language Models
+
+- [arXiv 2505.17670](https://arxiv.org/abs/2505.17670) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2505.17670)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2505.17670)
+
+CoMEM compresses multimodal knowledge into continuous embeddings while keeping the inference VLM frozen.
 
 ## Hierarchical World Models with Implicit Dynamics
 
@@ -206,13 +843,6 @@ Predicts hand-vertex normal pressure and contact from video. Substantive v2 adds
 - Coverage history: [2026-11-02 (v2, revised)](../daily/2026-11-02.md#arxiv-2607.25397)
 
 v 2 extends DR-LfD evaluation with a fourth end-to-end real-world task, confidence intervals, data-scaling comparisons and more direct tests against generic TAMP grasp replacements.
-
-## Sequential Planning via Anchored Robotic Keypoints
-
-- [arXiv 2606.30613](https://arxiv.org/abs/2606.30613) · v4 · [Latest entry](../daily/2026-11-02.md#arxiv-2606.30613)
-- Coverage history: [2026-11-02 (v4, revised)](../daily/2026-11-02.md#arxiv-2606.30613)
-
-Important evaluation correction: SPARK now states that its 66.8% LIBERO-PRO headline uses simulator success checks after each attempt to decide retries, and adds a separate no-per-attempt-oracle evaluation. This changes the interpretation of the existing headline rather than establishing a new autonomous-robustness gain.
 
 ## VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision
 
@@ -808,13 +1438,6 @@ Policy changes can invalidate fixed world-model uncertainty calibration.
 - Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33894) · [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.33894)
 
 WMEval v2 expands uncertainty reporting and clarifies causal effects relative to a Unity reference and the treatment of divergent initial conditions.
-
-## Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory
-
-- [arXiv 2610.33702](https://arxiv.org/abs/2610.33702) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.33702)
-- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.33702)
-
-Iris v2 adds state-conditioned, separately encoded visual candidates with a shared forked-state cache for typed decisions.
 
 ## VisCurate: Evaluating Behavioral Equivalence of Visual Skills
 

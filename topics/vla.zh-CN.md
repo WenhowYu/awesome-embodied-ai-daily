@@ -2,7 +2,217 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-154 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+183 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
+
+- [arXiv 2611.03648](https://arxiv.org/abs/2611.03648) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03648)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03648)
+
+Pixel联合设计轮式人形硬件、示范接口、全身控制与分层策略学习。
+
+## Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations
+
+- [arXiv 2611.03647](https://arxiv.org/abs/2611.03647) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03647)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03647)
+
+Pixel-UMI结合几何感知人类示范重定向、视角掩码与在线DAgger纠正。
+
+## FineCraft: Enhancing VLA Models for Fine-Grained Manipulation
+
+- [arXiv 2611.03163](https://arxiv.org/abs/2611.03163) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03163)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03163)
+
+FineCraft在独立适配DINOv2-DiT与π0.5策略间路由任务，结合局部视觉及专家延续示范。
+
+## VLALagBench: Understanding When and Why VLA Inference Latency Matters
+
+- [arXiv 2611.03103](https://arxiv.org/abs/2611.03103) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03103)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03103)
+
+VLALagBench改变物体速度、任务需求及同步/异步执行，刻画VLA延迟敏感性。
+
+## Beyond Policy Patches: Distilling RL Specialists into Vision-Language-Action Policies
+
+- [arXiv 2611.02777](https://arxiv.org/abs/2611.02777) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02777)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02777)
+
+REPAIR用价值加权专家动作分布与在线策略状态覆盖，将RL专家蒸馏进单一流匹配VLA。
+
+## HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation
+
+- [arXiv 2611.02660](https://arxiv.org/abs/2611.02660) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02660)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02660)
+
+HeLM在共享π0动作策略之上维护事件触发语言记忆，贯穿子任务与回合。
+
+## W2A: Distilling World Priors into Action Models for Real-Time Robotic Control
+
+- [arXiv 2611.02600](https://arxiv.org/abs/2611.02600) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02600)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02600)
+
+W2A把压缩视频去噪特征蒸馏进动作策略，推理时移除视频模型。
+
+## RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild
+
+- [arXiv 2611.02497](https://arxiv.org/abs/2611.02497) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02497)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02497)
+
+RoboColosseum结合分布式盲测真机比较与固定数据微调，覆盖四种本体。
+
+## Gnomon4D: Learning Where and When to Focus for Geometric Motion-Grounded World-Action Modeling
+
+- [arXiv 2611.02474](https://arxiv.org/abs/2611.02474) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02474)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02474)
+
+联合预测视频、动作与 GeoDelta 几何运动；以交互区域注意力和状态转折聚合，将物体与本体运动关系用于控制。
+
+## When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer Problem
+
+- [arXiv 2611.02101](https://arxiv.org/abs/2611.02101) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02101)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02101)
+
+跨层安全研究测试π0.5闭环控制中推理延迟与相机分布偏移的交互。
+
+## ODE Policy: Robot Learning via Action Dynamics, Not Actions
+
+- [arXiv 2611.01729](https://arxiv.org/abs/2611.01729) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01729)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01729)
+
+ODE Policy学习动作导数并从上一动作积分，面向模仿学习和RL连续控制。
+
+## $TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering
+
+- [arXiv 2611.01483](https://arxiv.org/abs/2611.01483) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01483)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01483)
+
+TF²-Steering以预测及观测触觉通过残差专家混合调整flow-matching动作专家。
+
+## Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and Admission Control
+
+- [arXiv 2611.01404](https://arxiv.org/abs/2611.01404) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01404)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01404)
+
+服务系统研究刻画机器人Agent群的brain KV缓存驻留与VLA动作deadline耦合。
+
+## Same Path, Less Time: Training-Free Fast Execution of Vision-Language-Action Models under Inference Latency
+
+- [arXiv 2611.01390](https://arxiv.org/abs/2611.01390) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01390)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01390)
+
+Path-preserving Time Scaling分离参考路径重规划与延迟感知执行速度，用于冻结动作块策略。
+
+## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
+
+- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01215)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01215)
+
+JADE每个去噪步把带噪动作latent反馈给VLM，与动作专家共同细化动作。
+
+## Ripple: Deadline-Aware CPU-GPU Sharing for Embodied Inference
+
+- [arXiv 2611.01067](https://arxiv.org/abs/2611.01067) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01067)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01067)
+
+Ripple在统一内存边缘设备上以模型推算流量与完成反馈协调可暂停GPU推理和CPU截止期。
+
+## Leap-VLA: High-Rate Robot Control from a Low-Rate VLM Backbone
+
+- [arXiv 2611.01011](https://arxiv.org/abs/2611.01011) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01011)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01011)
+
+Leap-VLA将低频语义VLM与高频视觉动作专家解耦，并显式以语义缓存年龄作为条件与训练变量。
+
+## Verifying Test-State Identity in Paired Evaluation of Vision-Language-Action Models
+
+- [arXiv 2611.00896](https://arxiv.org/abs/2611.00896) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00896)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00896)
+
+溯源检查器验证向量化重置下配对VLA评估是否实际分配相同初始状态。
+
+## PREM: Prediction-Regulated Memory for Robot Manipulation
+
+- [arXiv 2611.00634](https://arxiv.org/abs/2611.00634) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00634)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00634)
+
+PREM用动作条件预测训练循环视觉记忆，并以预测差异调节空间更新。
+
+## Editing the Goal: Per-Token SAE Steering and Its Depth Limits in π0.5
+
+- [arXiv 2611.00602](https://arxiv.org/abs/2611.00602) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00602)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00602)
+
+保持指令文本不变，交换单个目标词的SAE特征即可重定向π0.5-LIBERO，并用激活替换定位目标信息可编辑的层深。
+
+## Reflex: Fast Robot Policy Serving by Reusing and Correcting Past Actions
+
+- [arXiv 2611.00524](https://arxiv.org/abs/2611.00524) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00524)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00524)
+
+Reflex缓存完整动作块，以动作相似度和残差修正，并按进度刷新原策略。
+
+## Behavioral Steering of Vision-Language-Action Models in the Low-Parameter Regime
+
+- [arXiv 2611.00522](https://arxiv.org/abs/2611.00522) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00522)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00522)
+
+TinyLoRA通过GRPO或CMA-ES，仅用8–384个可训练参数调整冻结OpenVLA-OFT行为。
+
+## CalVLA: Shaping Native Confidence in Vision-Language-Action Policies with Outcome Supervision
+
+- [arXiv 2611.00394](https://arxiv.org/abs/2611.00394) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00394)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00394)
+
+CalVLA用成功/失败rollout结果训练OpenVLA动作token置信度，无单独失败检测器。
+
+## TurboWAM: Learning What Matters for Fast World Action Models
+
+- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2610.33941)
+- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33941) · [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2610.33941)
+
+TurboWAM限制世界模型层聚合范围并调制训练梯度，以降低动作预测延迟。
+
+## Spotter: Let the Embodied Model Lead, and the VLM Reflect for It
+
+- [arXiv 2609.36808](https://arxiv.org/abs/2609.36808) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2609.36808)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2609.36808)
+
+Spotter让具身策略主导执行，由VLM选择性反思和修复。
+
+## 2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation
+
+- [arXiv 2609.11308](https://arxiv.org/abs/2609.11308) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2609.11308)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2609.11308)
+
+Agent侧记忆为动作模型提供结构化指导以执行长时序操作。
+
+## OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation
+
+- [arXiv 2606.22174](https://arxiv.org/abs/2606.22174) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2606.22174)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2606.22174)
+
+OpenHLM研究全身人形VLA的接口设计与异构训练数据。
+
+## GazeVLA: Learning Human Intention for Robotic Manipulation
+
+- [arXiv 2604.22615](https://arxiv.org/abs/2604.22615) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2604.22615)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2604.22615)
+
+GazeVLA通过凝视导出的中间表示和意图-动作推理迁移人类意图。
+
+## CoEnv: Code-Driven Exploration in Real-to-Sim Digital Twins for Multi-Arm Manipulation
+
+- [arXiv 2604.05484](https://arxiv.org/abs/2604.05484) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2604.05484)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2604.05484)
+
+CoEx在部署场景数字孪生中探索完整机器人程序，再将经验证程序转移至真机。
+
+## OmniGuide: Universal Spatial Guidance Fields for Enhancing Generalist Robot Policies
+
+- [arXiv 2603.10052](https://arxiv.org/abs/2603.10052) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2603.10052)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2603.10052)
+
+OmniGuide通过来自几何、语义与示范的空间能量场引导通用机器人策略。
 
 ## RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
 
@@ -577,13 +787,6 @@ RoboDuo先让整任务VLA尝试并检查完成情况，再通过生成代码调�
 - 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.34105)
 
 通过残差跨视角注意力、层对齐Q-Former及共享动作专家，将视频骨干迁移到可变视角控制；保留各数据集原生接口。 对比基线预训练数据/算力不匹配；相机、背景、噪声扰动弱于OpenVLA-OFT，LIBERO-Plus汇总权重未说明。只有一种真机平台，未证明未见形态迁移。
-
-## TurboWAM: Learning What Matters for Fast World Action Models
-
-- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v1 · [最新归档](../daily/2026-10-27.zh-CN.md#arxiv-2610.33941)
-- 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33941)
-
-按带噪动作聚合世界模型前层表示，并在训练时调节动作梯度；保留视频联合训练而推理不生成未来视频。 各方法具身预训练不匹配；修正提示结果不可与原协议混为一谈。层结构指架构而非显式3D几何，延迟不等于安全控制。 GPU仅描述为约140GB数据中心卡、未指明型号。文中将真机实验指向补充材料，所核正文未建立其定量结果。
 
 ## Late Breaking Results: Audio-Language-Action Models with Direct Speech Conditioning for Robotic Manipulation
 

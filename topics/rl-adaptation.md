@@ -2,7 +2,259 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-129 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+165 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models
+
+- [arXiv 2611.03622](https://arxiv.org/abs/2611.03622) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03622)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03622)
+
+Prompt a VLM to describe video dynamics and then assess progress against explicit success criteria, producing progress and language feedback without reward-model training.
+
+## Finite-Memory Control of POMDPs: Fundamental Limits and Efficient Design
+
+- [arXiv 2611.03414](https://arxiv.org/abs/2611.03414) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03414)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03414)
+
+RECAP quantizes belief states using decision-relevant distinctions, with lower and upper bounds on finite-memory POMDP control loss.
+
+## KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL
+
+- [arXiv 2611.03138](https://arxiv.org/abs/2611.03138) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03138)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03138)
+
+Open-source desktop adversarial robotics platform with a GPU-native Isaac Lab digital twin and learned actuator model.
+
+## KlaskTron-IL: A Contact-Rich Adversarial Imitation Learning Benchmark with a Validated Sim-to-Real Bridge
+
+- [arXiv 2611.03091](https://arxiv.org/abs/2611.03091) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03091)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03091)
+
+Provides a multi-tier imitation-learning dataset and diagnostic baselines for a physical two-player adversarial platform.
+
+## BeyondContact: A Reinforcement Learning Framework for Airflow-Based Non-Contact Manipulation
+
+- [arXiv 2611.03059](https://arxiv.org/abs/2611.03059) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03059)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03059)
+
+BeyondContact adds identified airflow physics to Isaac Lab and learns hybrid pushing/blowing and airflow-only reorientation policies.
+
+## A Universal Policy Wrapper With Guarantees
+
+- [arXiv 2611.02888](https://arxiv.org/abs/2611.02888) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02888)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02888)
+
+CALF-Wrapper chooses between a pretrained RL policy and a fallback controller using the learned critic, aiming to inherit goal-reaching guarantees.
+
+## Beyond Policy Patches: Distilling RL Specialists into Vision-Language-Action Policies
+
+- [arXiv 2611.02777](https://arxiv.org/abs/2611.02777) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02777)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02777)
+
+REPAIR uses value-weighted specialist action distributions and on-policy state coverage to distill RL specialists into one flow-matching VLA.
+
+## MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking
+
+- [arXiv 2611.02613](https://arxiv.org/abs/2611.02613) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02613)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02613)
+
+MAPO alternates router and expert updates to improve divergence estimation in mixture-of-experts policy optimization.
+
+## Sequential Recovery Updates for Learned Controllers under Successful-Trajectory Preservation
+
+- [arXiv 2611.02555](https://arxiv.org/abs/2611.02555) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02555)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02555)
+
+Sequential recovery updates constrain skill-entry rules to preserve previously successful trajectories instead of relying only on frozen parameters.
+
+## Energy-Based Policy Orchestration
+
+- [arXiv 2611.02546](https://arxiv.org/abs/2611.02546) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02546)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02546)
+
+EPO chooses and refines a policy–goal pair using policy-specific feasibility and tracking energies; new specialists need only their own energy models.
+
+## Iterative Gumbel Planning for Continuous Control
+
+- [arXiv 2611.02236](https://arxiv.org/abs/2611.02236) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02236)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02236)
+
+Iterative Gumbel Planning aligns finite search candidates with a factorized categorical continuous-control policy and uses repeated Gumbel/MPPI-style refinement.
+
+## Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift
+
+- [arXiv 2611.02218](https://arxiv.org/abs/2611.02218) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02218)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02218)
+
+Predictive STL monitoring tests whether world-model rollouts and ensemble disagreement add useful safety ranking under locomotion shifts.
+
+## ANCHOR: KL-Anchored Adaptation for Stable Offline-to-Online RL
+
+- [arXiv 2611.02177](https://arxiv.org/abs/2611.02177) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02177)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02177)
+
+ANCHOR stabilizes offline-to-online RL without offline replay by initially KL-anchoring the actor to its pretrained policy, then annealing this constraint.
+
+## GoalDex: Learning Image-Goal-Conditioned Policies for Dexterous In-Hand Manipulation
+
+- [arXiv 2611.02171](https://arxiv.org/abs/2611.02171) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02171)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02171)
+
+GoalDex distills privileged teachers into RGB/proprioceptive, image-goal-conditioned dexterous reorientation without explicit pose estimation.
+
+## Value Forcing: Aligning Return Distributions at All Noise Levels
+
+- [arXiv 2611.02160](https://arxiv.org/abs/2611.02160) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02160)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02160)
+
+Value Forcing learns return distributions with flow matching while enforcing Bellman consistency at every noise level, instantiated as VF and IVF.
+
+## CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control
+
+- [arXiv 2611.01748](https://arxiv.org/abs/2611.01748) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01748)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01748)
+
+CompliantBot trains whole-body yielding and task resumption using an interaction-force field and load-dependent reward weighting.
+
+## Evolving Memory, Learning to Meta-Control: Test-Time Adaptation for Experience-augmented LLM Agents
+
+- [arXiv 2611.01747](https://arxiv.org/abs/2611.01747) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01747)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01747)
+
+OMCE jointly evolves experience memory and an online contextual-bandit controller selecting DIRECT, EPISODE, GUIDE, or DISTILL.
+
+## ODE Policy: Robot Learning via Action Dynamics, Not Actions
+
+- [arXiv 2611.01729](https://arxiv.org/abs/2611.01729) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01729)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01729)
+
+ODE Policy learns action derivatives and integrates from the previous action, aiming for continuous control across imitation and RL.
+
+## HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception
+
+- [arXiv 2611.01659](https://arxiv.org/abs/2611.01659) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01659)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01659)
+
+HuG couples active viewpoint selection, whole-body grasp affordances and controller-in-the-loop feasibility filtering.
+
+## Recursive Self-Improvement of Exoskeleton Assistance Policies through Human-in-the-Loop Feedback
+
+- [arXiv 2611.01581](https://arxiv.org/abs/2611.01581) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01581)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01581)
+
+An agent revises executable exoskeleton assistance code using subjective feedback, movement outcomes and muscle measurements.
+
+## Beyond Validation Loss: Coverage and Reliability Dynamics in Robot Policy Pretraining
+
+- [arXiv 2611.01565](https://arxiv.org/abs/2611.01565) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01565)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01565)
+
+Closed-loop pass@k separates reliability at one rollout from reachable-success coverage under repeated sampling during policy pretraining.
+
+## Learning Agile Humanoid Dodgeball with Onboard Monocular Vision
+
+- [arXiv 2611.01197](https://arxiv.org/abs/2611.01197) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01197)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01197)
+
+A monocular humanoid dodgeball system combines temporal threat estimation with learned evasion, recovery and target-reacquisition policies.
+
+## World Models Need Not Be Right to Rank Policies Right: Relative Bounds and Audit Limits
+
+- [arXiv 2611.01139](https://arxiv.org/abs/2611.01139) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01139)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01139)
+
+RAVEL distinguishes accurate policy ranking inside a learned world model from informative paired real-environment audits.
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00951)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951)
+
+A controlled negative result replaces an MLP differentiable world model with Koopman/action-affine alternatives for humanoid tracking.
+
+## Toward Counterfactual Learning for Selective Re-Examination in Agentic Visual Search
+
+- [arXiv 2611.00848](https://arxiv.org/abs/2611.00848) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00848)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00848)
+
+CARE gives localized RL credit to commit-versus-reinspect decisions using cost-aware paired continuations from the same visual-search state; ReSee labels the value of additional observation.
+
+## Behavioral Steering of Vision-Language-Action Models in the Low-Parameter Regime
+
+- [arXiv 2611.00522](https://arxiv.org/abs/2611.00522) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00522)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00522)
+
+TinyLoRA steers frozen OpenVLA-OFT behavior with 8–384 trainable parameters using GRPO or CMA-ES.
+
+## Compositional Self-Improvement: Promises and Pitfalls
+
+- [arXiv 2611.00452](https://arxiv.org/abs/2611.00452) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00452)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00452)
+
+Studies when composing solutions to simpler subproblems can provide reliable self-generated supervision for harder tasks.
+
+## OmniPiano: Diverse Dexterous Piano-Playing Challenges for Standard, Robust, Safe, and Multi-Agent RL
+
+- [arXiv 2611.00243](https://arxiv.org/abs/2611.00243) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00243)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00243)
+
+OmniPiano unifies standard, robust, safe, and cooperative RL for dexterous piano playing with one to five Shadow Hands.
+
+## RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent
+
+- [arXiv 2610.21791](https://arxiv.org/abs/2610.21791) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2610.21791)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2610.21791)
+
+RSIFlow selects model, harness or artifact interventions from execution feedback and evolves its meta-harness.
+
+## Dynamics-Aware Meta-Imitation for Generalization to Unseen Robotic Manipulation
+
+- [arXiv 2607.15880](https://arxiv.org/abs/2607.15880) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2607.15880)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2607.15880)
+
+DAMI conditions meta-imitation on reference interactions and adapts to new manipulation tasks.
+
+## Hyperagents
+
+- [arXiv 2603.19461](https://arxiv.org/abs/2603.19461) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2603.19461)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2603.19461)
+
+Hyperagents make both task-solving code and the meta-agent that modifies it editable.
+
+## How to Peel with a Knife: Aligning Fine-Grained Manipulation with Human Preference
+
+- [arXiv 2603.03280](https://arxiv.org/abs/2603.03280) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2603.03280)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2603.03280)
+
+Force-aware imitation is refined with a reward combining peeling-thickness labels and expert preferences.
+
+## ReWorld: Multi-Dimensional Reward Modeling for Embodied Video Generation
+
+- [arXiv 2601.12428](https://arxiv.org/abs/2601.12428) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2601.12428)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2601.12428)
+
+ReWorld trains a multidimensional reward model and post-trains embodied video generators with a flow-based PPO proxy.
+
+## InTAct: Interval-based Task Activation Consolidation for Continual Learning
+
+- [arXiv 2511.17439](https://arxiv.org/abs/2511.17439) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2511.17439)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2511.17439)
+
+InTAct protects activation regions of earlier domains rather than freezing parameters or replaying old data.
+
+## Functional Critics for Off-Policy Actor-Critic: From Stability to Exploration
+
+- [arXiv 2509.22964](https://arxiv.org/abs/2509.22964) · v5 · [Latest entry](../daily/2026-11-03.md#arxiv-2509.22964)
+- Coverage history: [2026-11-03 (v5, revised)](../daily/2026-11-03.md#arxiv-2509.22964)
+
+Policy-conditioned functional critics connect off-policy stability with policy-space exploration.
+
+## Tactile MNIST: Benchmarking Active Tactile Perception
+
+- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2506.06361)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2506.06361)
+
+Tactile MNIST benchmarks active tactile perception and information-gathering policies.
 
 ## Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments
 

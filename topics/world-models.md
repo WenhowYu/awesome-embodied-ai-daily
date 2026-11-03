@@ -2,7 +2,245 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-143 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+176 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Seeing Through the Illusion: Test-Time Scaling for World Action Models
+
+- [arXiv 2611.03585](https://arxiv.org/abs/2611.03585) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03585)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03585)
+
+Freeze a WAM, sample four world-action rollouts and select using action validity and temporal regularity, inverse-dynamics consistency, and instruction-conditioned progress.
+
+## ForceLDM: A Force-aware Latent Dynamics Model for Contact-Rich Manipulation
+
+- [arXiv 2611.03294](https://arxiv.org/abs/2611.03294) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03294)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03294)
+
+ForceLDM distills privileged future force/torque and optical-flow dynamics into a current-observation student.
+
+## VerifLM: Physically Verified Image-Edit-Guided Goal Pose Generation for Robotic Manipulation
+
+- [arXiv 2611.03268](https://arxiv.org/abs/2611.03268) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.03268)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.03268)
+
+VerifLM converts edited-image goals to physically checked 6-DoF object poses with multiple hypothetical geometry–physics worlds.
+
+## PointPilot: Unified Robotic Manipulation via Object-Centric 3D Point Flow Prediction
+
+- [arXiv 2611.02930](https://arxiv.org/abs/2611.02930) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02930)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02930)
+
+PointPilot predicts object-centric 3D point flow for grounding, subtask planning and action execution without a separately trained action expert.
+
+## Gibbs Variational Last Layers for Long-Horizon Dynamics Learning
+
+- [arXiv 2611.02891](https://arxiv.org/abs/2611.02891) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02891)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02891)
+
+Gibbs variational last layers introduce multistep, CRPS-based and autoregressive training objectives for probabilistic dynamics.
+
+## History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models
+
+- [arXiv 2611.02782](https://arxiv.org/abs/2611.02782) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02782)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02782)
+
+History Forcing distills the residual between teacher predictions with and without informative history into few-step autoregressive video generation, including out-of-sight continuations.
+
+## Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up
+
+- [arXiv 2611.02699](https://arxiv.org/abs/2611.02699) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02699)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02699)
+
+A reproduction audits RWM dynamics and the uncertainty calibration used by RWM-U.
+
+## Closing the Dynamics Gap through Self-Directed Robotic Interaction
+
+- [arXiv 2611.02691](https://arxiv.org/abs/2611.02691) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02691)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02691)
+
+CUE autonomously reconstructs a billiards scene, builds tracking tools, and selects interactions to identify poorly modeled dynamics without resets.
+
+## Visuo-tactile Diffusion Policy for Robotic Manipulation with Auxiliary Tactile Dynamics Prediction
+
+- [arXiv 2611.02677](https://arxiv.org/abs/2611.02677) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02677)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02677)
+
+A visuotactile diffusion policy adds training-only tactile-dynamics prediction to four-step multimodal histories.
+
+## W2A: Distilling World Priors into Action Models for Real-Time Robotic Control
+
+- [arXiv 2611.02600](https://arxiv.org/abs/2611.02600) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02600)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02600)
+
+W2A distills compressed video-denoising features into an action policy and removes the video model at inference.
+
+## Gnomon4D: Learning Where and When to Focus for Geometric Motion-Grounded World-Action Modeling
+
+- [arXiv 2611.02474](https://arxiv.org/abs/2611.02474) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02474)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02474)
+
+Jointly predicts RGB video, actions, and GeoDelta geometric motion; spatial interaction attention and transition-aware aggregation expose object–embodiment motion to control.
+
+## Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift
+
+- [arXiv 2611.02218](https://arxiv.org/abs/2611.02218) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02218)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02218)
+
+Predictive STL monitoring tests whether world-model rollouts and ensemble disagreement add useful safety ranking under locomotion shifts.
+
+## Value Forcing: Aligning Return Distributions at All Noise Levels
+
+- [arXiv 2611.02160](https://arxiv.org/abs/2611.02160) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02160)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02160)
+
+Value Forcing learns return distributions with flow matching while enforcing Bellman consistency at every noise level, instantiated as VF and IVF.
+
+## Back to the Future: Predicting Long-Horizon Dynamics with Retrospective Correction for Disturbance-Aware Retrieval
+
+- [arXiv 2611.02073](https://arxiv.org/abs/2611.02073) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.02073)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.02073)
+
+DARE retrospectively corrects earlier predicted object states and reruns relational dynamics to plan low-disturbance retrieval.
+
+## When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?
+
+- [arXiv 2611.01815](https://arxiv.org/abs/2611.01815) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01815)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01815)
+
+Distinguishes physical information in learned representations from whether a world model’s native prediction error is a reliable physical-surprise score.
+
+## Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence
+
+- [arXiv 2611.01677](https://arxiv.org/abs/2611.01677) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01677)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01677)
+
+A streaming multi-view world model combines view-temporal attention, explicit 3D Gaussian scene context, and gated linear attention. A robot WAM reuses the video DiT with a separate attention-sharing action expert.
+
+## SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts
+
+- [arXiv 2611.01600](https://arxiv.org/abs/2611.01600) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01600)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01600)
+
+SCOUT combines object-centric occlusion reconstruction, LLM proposals and world-model-guided MCTS for cluttered manipulation.
+
+## $TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering
+
+- [arXiv 2611.01483](https://arxiv.org/abs/2611.01483) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01483)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01483)
+
+TF²-Steering uses forecast and observed tactile signals to steer the flow-matching action expert through a residual mixture of experts.
+
+## World Models Need Not Be Right to Rank Policies Right: Relative Bounds and Audit Limits
+
+- [arXiv 2611.01139](https://arxiv.org/abs/2611.01139) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01139)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01139)
+
+RAVEL distinguishes accurate policy ranking inside a learned world model from informative paired real-environment audits.
+
+## pico-WAM: Evaluating Counterfactual Prediction and Planning Error in a Compact World Action Model
+
+- [arXiv 2611.01039](https://arxiv.org/abs/2611.01039) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01039)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01039)
+
+pico-WAM intervenes separately on proposal generation and trajectory scoring to diagnose compact world-action planning.
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00951)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951)
+
+A controlled negative result replaces an MLP differentiable world model with Koopman/action-affine alternatives for humanoid tracking.
+
+## Old Is Not False: Valid-Time Memory for Interactive Video World Models
+
+- [arXiv 2611.00758](https://arxiv.org/abs/2611.00758) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00758)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00758)
+
+ReDate separates capture time from state-valid time in visual memory, using the action log to re-date retrieved tokens after actions are undone without training the generator.
+
+## PREM: Prediction-Regulated Memory for Robot Manipulation
+
+- [arXiv 2611.00634](https://arxiv.org/abs/2611.00634) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00634)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00634)
+
+PREM trains recurrent visual memory with action-conditioned prediction and gates spatial updates using prediction discrepancy.
+
+## Roz: A Taste Test for World Model Latents
+
+- [arXiv 2611.00612](https://arxiv.org/abs/2611.00612) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00612)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00612)
+
+Roz probes physical information in world-model latents using contrastive and continuous scenarios rather than a learned planner.
+
+## WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation
+
+- [arXiv 2611.00513](https://arxiv.org/abs/2611.00513) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00513)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00513)
+
+WorldSketch makes the VLM construct and validate a minimal kinematic world model, then plans contact and whole-body motion on it.
+
+## TacMind: Benchmarking and Modeling Tactile Interaction States for Robotic Manipulation
+
+- [arXiv 2611.00455](https://arxiv.org/abs/2611.00455) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00455)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00455)
+
+TacMind learns action-conditioned tactile latent dynamics and uses predicted tactile states to refine manipulation actions.
+
+## Spoofing the Latent State: Imperceptible Goal-Image Attacks Derail Planning in LeWorldModel
+
+- [arXiv 2611.00427](https://arxiv.org/abs/2611.00427) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00427)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00427)
+
+Audits robustness of LeWorldModel latent-distance planning to small goal-image and observation perturbations.
+
+## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
+
+- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00177)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00177)
+
+Synthesizes robot egocentric video from sparse external views using spatial structure, temporal anchors and motion priors, then evaluates downstream policies.
+
+## SparseWAM: Driving World-Action Models are Worth 16 Register Tokens
+
+- [arXiv 2611.00044](https://arxiv.org/abs/2611.00044) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00044)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00044)
+
+SparseWAM predicts future states in 16 register tokens per frame and conditions trajectory tokens on imagined registers at deployment, retaining world-model inference while reducing cost.
+
+## FORCE: Factorized Object Relations for Counterfactual Editing in Video World Models
+
+- [arXiv 2611.00023](https://arxiv.org/abs/2611.00023) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00023)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00023)
+
+FORCE factorizes object-pair interaction latents for persistent removal, modification, transfer or introduction of relations in video world models.
+
+## TurboWAM: Learning What Matters for Fast World Action Models
+
+- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2610.33941)
+- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33941) · [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2610.33941)
+
+TurboWAM bounds world-model layer aggregation and modulates training gradients for low-latency action prediction.
+
+## Robot-Factored World Models via Robot Rendering
+
+- [arXiv 2607.22535](https://arxiv.org/abs/2607.22535) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2607.22535)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2607.22535)
+
+Robot rendering separates commanded robot motion from learned scene dynamics in video prediction.
+
+## RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation
+
+- [arXiv 2607.06699](https://arxiv.org/abs/2607.06699) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2607.06699)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2607.06699)
+
+RoboSnap constructs simulation-ready scenes for replay, data generation and robot-policy evaluation.
+
+## ReWorld: Multi-Dimensional Reward Modeling for Embodied Video Generation
+
+- [arXiv 2601.12428](https://arxiv.org/abs/2601.12428) · v2 · [Latest entry](../daily/2026-11-03.md#arxiv-2601.12428)
+- Coverage history: [2026-11-03 (v2, revised)](../daily/2026-11-03.md#arxiv-2601.12428)
+
+ReWorld trains a multidimensional reward model and post-trains embodied video generators with a flow-based PPO proxy.
 
 ## Hierarchical World Models with Implicit Dynamics
 
@@ -549,13 +787,6 @@ Learns a history-based proprioceptive neural dynamics model with forward-kinemat
 - Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.34105)
 
 Transfers a video backbone to variable-view control with residual cross-view attention, a layer-aligned Q-Former and shared action expert with native dataset interfaces. Reference baselines do not match pretraining data/compute. Camera, background and noise shifts remain weaker than OpenVLA-OFT; LIBERO-Plus weighting is unspecified. One physical platform, no demonstrated unseen-embodiment transfer.
-
-## TurboWAM: Learning What Matters for Fast World Action Models
-
-- [arXiv 2610.33941](https://arxiv.org/abs/2610.33941) · v1 · [Latest entry](../daily/2026-10-27.md#arxiv-2610.33941)
-- Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33941)
-
-Selectively aggregates early world-model layers conditioned on noisy actions and modulates action gradients during training, retaining video co-training without test-time video generation. Benchmarks have unmatched embodied pretraining across methods. Prompt-corrected results must not be conflated with the original protocol. Layer structure is architectural, not explicit 3D geometry; latency alone does not establish safe control. GPU model is unspecified (approximately 140GB data-center GPU). Physical-robot experiments are referred to supplementary material; their quantitative results were not established in the checked text.
 
 ## RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models
 

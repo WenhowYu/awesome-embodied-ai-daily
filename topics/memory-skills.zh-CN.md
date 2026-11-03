@@ -2,7 +2,413 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-198 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+254 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation
+
+- [arXiv 2611.03584](https://arxiv.org/abs/2611.03584) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03584)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03584)
+
+TAMPAgent把LVLM与信念空间任务运动约束结合，在部分可观测条件下交替观察与行动。
+
+## Finite-Memory Control of POMDPs: Fundamental Limits and Efficient Design
+
+- [arXiv 2611.03414](https://arxiv.org/abs/2611.03414) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03414)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03414)
+
+RECAP按决策相关差异量化信念状态，并给出有限记忆POMDP控制损失的上下界。
+
+## Top-$k$ Retrieval Leaves Memory Value Undetermined
+
+- [arXiv 2611.03289](https://arxiv.org/abs/2611.03289) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03289)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03289)
+
+LEDGER根据检索与共同检索计数判断哪些记忆价值能从日志中识别，对其余明确标注未确定。
+
+## Can Coding Agents Sustain Continual Evolution without Forgetting?
+
+- [arXiv 2611.03219](https://arxiv.org/abs/2611.03219) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.03219)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.03219)
+
+研究代码智能体在不修改基础模型参数下跨任务类型持续演化harness时的灾难性遗忘。
+
+## ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction
+
+- [arXiv 2611.02871](https://arxiv.org/abs/2611.02871) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02871)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02871)
+
+ReGATE通过循环门融合深度与本体感知，控制人形抓取—搬运—释放。
+
+## SelfImprove-Bench: Evaluating Generalization in Self-Improving Agents
+
+- [arXiv 2611.02797](https://arxiv.org/abs/2611.02797) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02797)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02797)
+
+SelfImprove-Bench以探索、规划及推理游戏区分自改进能力，提出G0–G4泛化阶梯。
+
+## History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models
+
+- [arXiv 2611.02782](https://arxiv.org/abs/2611.02782) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02782)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02782)
+
+History Forcing将教师有/无有效历史预测的残差蒸馏进少步自回归视频生成，包括离开视野后的状态延续。
+
+## Closing the Dynamics Gap through Self-Directed Robotic Interaction
+
+- [arXiv 2611.02691](https://arxiv.org/abs/2611.02691) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02691)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02691)
+
+CUE自主重建台球场景、构建跟踪工具，并在无重置条件下选择交互辨识薄弱动力学。
+
+## HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation
+
+- [arXiv 2611.02660](https://arxiv.org/abs/2611.02660) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02660)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02660)
+
+HeLM在共享π0动作策略之上维护事件触发语言记忆，贯穿子任务与回合。
+
+## DexArena: A Unified Benchmark for Long-Horizon Dexterous Manipulation
+
+- [arXiv 2611.02629](https://arxiv.org/abs/2611.02629) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02629)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02629)
+
+DexArena统一分阶段长程双臂灵巧操作任务与示范。
+
+## Sequential Recovery Updates for Learned Controllers under Successful-Trajectory Preservation
+
+- [arXiv 2611.02555](https://arxiv.org/abs/2611.02555) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02555)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02555)
+
+顺序恢复更新约束技能入口以保留既有成功轨迹，而不只冻结参数。
+
+## Energy-Based Policy Orchestration
+
+- [arXiv 2611.02546](https://arxiv.org/abs/2611.02546) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02546)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02546)
+
+EPO用策略专属可行性与跟踪能量选择并细化策略—目标对；添加专家只需训练其能量模型。
+
+## Cumulative and Audited Guardrail Tool Evolution for LLM Agent Safety
+
+- [arXiv 2611.02516](https://arxiv.org/abs/2611.02516) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02516)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02516)
+
+EVOLVE累积可执行安全检查工具，审计继承规则，并随新风险出现修订。
+
+## Late Autumn: LLM Agents Specialize a General Multi-Robot Planner for One Warehouse
+
+- [arXiv 2611.02391](https://arxiv.org/abs/2611.02391) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02391)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02391)
+
+Late Autumn研究编码Agent通过可评分、可审阅补丁为仓库特化终身多机器人规划器。
+
+## Agent Memory as Rate-Limited Filtering: Explicit State Outlasts Long Context Beyond a Reader-Dependent Horizon
+
+- [arXiv 2611.02361](https://arxiv.org/abs/2611.02361) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02361)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02361)
+
+将记忆视为递归状态滤波，测试显式状态是否比阅读长事件日志更能保留顺序敏感决策。
+
+## Do Embodied VLMs Actually Use Their Scene-Graph Memory?
+
+- [arXiv 2611.02056](https://arxiv.org/abs/2611.02056) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.02056)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.02056)
+
+图交换测试检查VLM是否真正依赖输入场景图记忆。
+
+## Answering Without Arriving: An Evidence Audit for Embodied Question Answering
+
+- [arXiv 2611.01958](https://arxiv.org/abs/2611.01958) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01958)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01958)
+
+具身问答证据阶梯分离观测获取、文本捷径与答案正确率。
+
+## TriPhysBench: Evaluating Physical Intelligence for Embodied Agents
+
+- [arXiv 2611.01934](https://arxiv.org/abs/2611.01934) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01934)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01934)
+
+TriPhysBench联合评估物理感知、外部知识检索与定量推理，并训练基于工具轨迹的TriPhys策略。
+
+## Evolving Memory, Learning to Meta-Control: Test-Time Adaptation for Experience-augmented LLM Agents
+
+- [arXiv 2611.01747](https://arxiv.org/abs/2611.01747) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01747)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01747)
+
+OMCE同时演化经验记忆和在线上下文bandit控制器，在直接执行、回合经验、指导及蒸馏四种模式间选择。
+
+## RSI-Env: An Open-Ended Environment for Recursive Self-Improvement of Agents
+
+- [arXiv 2611.01736](https://arxiv.org/abs/2611.01736) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01736)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01736)
+
+RSI-Env保留研究状态，让被接受的模型–harness版本继续自我改进，并区分开放目标、能力定向和基准反馈设置。
+
+## Delivered, Not Used: Evaluating Agent Memory at Its Point of Use
+
+- [arXiv 2611.01718](https://arxiv.org/abs/2611.01718) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01718)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01718)
+
+MemUse在记忆实际交付和使用的位置审计相关性、新颖性、影响及可见后果，并关联轨迹证据。
+
+## Just-in-Time Skill Retrieval via Long-Horizon State Tracking
+
+- [arXiv 2611.01701](https://arxiv.org/abs/2611.01701) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01701)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01701)
+
+JitSkill根据持续更新的任务状态在执行过程中检索技能，而非仅由初始指令固定技能集合。
+
+## Recursive Self-Improvement of Exoskeleton Assistance Policies through Human-in-the-Loop Feedback
+
+- [arXiv 2611.01581](https://arxiv.org/abs/2611.01581) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01581)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01581)
+
+Agent依据主观反馈、运动结果和肌肉测量修订可执行外骨骼辅助代码。
+
+## Democratizing Robot-Use Agents: A Unified Harness with Open Models
+
+- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560)
+
+uni-robot-agent提供不依赖模拟器特权输入的开放模型通用机器人使用harness。
+
+## Can Large Language Model Agents Learn by Watching Tutorial Videos?
+
+- [arXiv 2611.01460](https://arxiv.org/abs/2611.01460) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01460)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01460)
+
+TAL通过对抗式问题挖掘与修订形成持久tutorialbook记忆，以推理驱动目录检索，不更新模型参数。
+
+## Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces
+
+- [arXiv 2611.01386](https://arxiv.org/abs/2611.01386) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01386)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01386)
+
+Zep Agent Skills将已验证执行轨迹编译为版本化程序技能，分离反思、整理、准入及检索排序。
+
+## Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation
+
+- [arXiv 2611.01112](https://arxiv.org/abs/2611.01112) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01112)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01112)
+
+Auriga提供标定3D、双臂Agent harness，含轨迹预览、阶段检查和原地恢复。
+
+## Generalizable robotic manipulation through compositional skill reuse
+
+- [arXiv 2611.00978](https://arxiv.org/abs/2611.00978) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00978)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00978)
+
+SHARE在感知、规划和控制上组合可复用闭环技能，每次试验仅调用一次语言模型生成任务说明。
+
+## Old Is Not False: Valid-Time Memory for Interactive Video World Models
+
+- [arXiv 2611.00758](https://arxiv.org/abs/2611.00758) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00758)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00758)
+
+ReDate区分图像拍摄时间与状态有效时间，在撤销动作后利用动作日志重标检索token时间，不训练生成器。
+
+## Can Jev Improve Demonstration Retrieval for In-Context Learning?
+
+- [arXiv 2611.00737](https://arxiv.org/abs/2611.00737) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00737)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00737)
+
+用Jev概率效用判断排序上下文示例，再蒸馏至低成本MLP检索器。
+
+## MOST: Memory of Object States and Task Progress for Long-Horizon Mobile Manipulation
+
+- [arXiv 2611.00734](https://arxiv.org/abs/2611.00734) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00734)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00734)
+
+MOST以物体状态变化与子任务进度监督内部历史和预测token。
+
+## PREM: Prediction-Regulated Memory for Robot Manipulation
+
+- [arXiv 2611.00634](https://arxiv.org/abs/2611.00634) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00634)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00634)
+
+PREM用动作条件预测训练循环视觉记忆，并以预测差异调节空间更新。
+
+## Skill++: Towards Lifelong Agents via Routing-Aware Skill Refinement
+
+- [arXiv 2611.00544](https://arxiv.org/abs/2611.00544) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00544)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00544)
+
+Skill++将技能库增长视为持续路由问题，只重写新技能名称和描述，说明能力、差异及排除项，不重训路由器。
+
+## Reflex: Fast Robot Policy Serving by Reusing and Correcting Past Actions
+
+- [arXiv 2611.00524](https://arxiv.org/abs/2611.00524) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00524)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00524)
+
+Reflex缓存完整动作块，以动作相似度和残差修正，并按进度刷新原策略。
+
+## WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation
+
+- [arXiv 2611.00513](https://arxiv.org/abs/2611.00513) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00513)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00513)
+
+WorldSketch让VLM构造并验证最小运动学世界模型，再在其上规划接触与全身运动。
+
+## Exo: An Architecture for Self-Improving Systems at Runtime
+
+- [arXiv 2611.00463](https://arxiv.org/abs/2611.00463) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00463)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00463)
+
+Exo允许智能体在任务执行中修改运行框架，由受保护机制保留历史并管理新策略启用。
+
+## Compositional Self-Improvement: Promises and Pitfalls
+
+- [arXiv 2611.00452](https://arxiv.org/abs/2611.00452) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00452)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00452)
+
+研究何时可组合简单子问题解答，为更难任务提供可靠自生成监督。
+
+## Behavior Graphs: Unsupervised Graph Structures for Interpreting Robot Deployment Data
+
+- [arXiv 2611.00405](https://arxiv.org/abs/2611.00405) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00405)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00405)
+
+Behavior graphs把部署轨迹压缩为行为模式、转移和结果，辅助后续数据采集。
+
+## SPARK: Self-Correcting Embodied Memory via Physical Re-Observation
+
+- [arXiv 2611.00344](https://arxiv.org/abs/2611.00344) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00344)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00344)
+
+SPARK通过语义critic、针对性重访与选择性合并修正跨回合具身记忆。
+
+## Teach, Abstract, Apply: A Framework for Dialogue-Driven Task Learning with Collaborative Robots
+
+- [arXiv 2611.00297](https://arxiv.org/abs/2611.00297) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00297)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00297)
+
+Teach-Abstract-Apply把对话教授的流程抽象为可复用可执行技能。
+
+## Learning to Live: A Step Toward Lifelong Embodied Intelligence
+
+- [arXiv 2611.00180](https://arxiv.org/abs/2611.00180) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00180)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00180)
+
+LIFE结合流式观测门控、保留源证据的Plastic Memory和Explore-Distill-Mount工具构建。
+
+## Seeing the Options: What Should a Visual Candidate See?
+
+- [arXiv 2610.33702](https://arxiv.org/abs/2610.33702) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2610.33702)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.33702) · [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2610.33702)
+
+Seeing the Options区分视觉决策中的请求条件候选编码与候选间交互。
+
+## RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent
+
+- [arXiv 2610.21791](https://arxiv.org/abs/2610.21791) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2610.21791)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2610.21791)
+
+RSIFlow依据执行反馈选择模型、Harness或产物干预，并更新元Harness。
+
+## Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory
+
+- [arXiv 2610.02897](https://arxiv.org/abs/2610.02897) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2610.02897)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2610.02897)
+
+受控记忆写入研究比较中性摘要、融合多目标摘要及逐目标独立存储。
+
+## Spotter: Let the Embodied Model Lead, and the VLM Reflect for It
+
+- [arXiv 2609.36808](https://arxiv.org/abs/2609.36808) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2609.36808)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2609.36808)
+
+Spotter让具身策略主导执行，由VLM选择性反思和修复。
+
+## 2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation
+
+- [arXiv 2609.11308](https://arxiv.org/abs/2609.11308) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2609.11308)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2609.11308)
+
+Agent侧记忆为动作模型提供结构化指导以执行长时序操作。
+
+## Macro-Operator Generation and Predicate Selection for TAMP Operator Learning
+
+- [arXiv 2608.23629](https://arxiv.org/abs/2608.23629) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2608.23629)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2608.23629)
+
+方法发现可复用符号宏算子，并为任务运动规划选择谓词。
+
+## Sequential Planning via Anchored Robotic Keypoints
+
+- [arXiv 2606.30613](https://arxiv.org/abs/2606.30613) · v5 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2606.30613)
+- 收录历史: [2026-11-02 (v4, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2606.30613) · [2026-11-03 (v5, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2606.30613)
+
+锚定关键点支持具有明确执行接口的顺序机器人规划。
+
+## Towards Continual Motion-Language Agents: LoRA Variants for Incremental Motion Understanding and Generation
+
+- [arXiv 2606.30266](https://arxiv.org/abs/2606.30266) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2606.30266)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2606.30266)
+
+持续运动语言LoRA专家通过无任务标签路由，支持运动理解与生成。
+
+## Harnessing Agent Skills: Architectural Patterns and a Reference Architecture for Skill-Mediated LLM Agents
+
+- [arXiv 2606.20631](https://arxiv.org/abs/2606.20631) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2606.20631)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2606.20631)
+
+参考架构划分技能供应、激活、执行控制及反馈修订职责。
+
+## Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams
+
+- [arXiv 2606.01770](https://arxiv.org/abs/2606.01770) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2606.01770)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2606.01770)
+
+Adaptive Auto-Harness将持久演化工作区与部署Harness分开，用于变化的任务流。
+
+## Any-ttach: Quick End-effector Swapping Enables Manipulation Dexterity with Simplicity
+
+- [arXiv 2605.30569](https://arxiv.org/abs/2605.30569) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2605.30569)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2605.30569)
+
+Any-ttach将标准化机械换工具接口与异构工具使用技能结合。
+
+## ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems
+
+- [arXiv 2604.23878](https://arxiv.org/abs/2604.23878) · v4 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2604.23878)
+- 收录历史: [2026-11-03 (v4, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2604.23878)
+
+ZenBrain纠错审计实质收紧了七层记忆架构的证据边界。
+
+## CoEnv: Code-Driven Exploration in Real-to-Sim Digital Twins for Multi-Arm Manipulation
+
+- [arXiv 2604.05484](https://arxiv.org/abs/2604.05484) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2604.05484)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2604.05484)
+
+CoEx在部署场景数字孪生中探索完整机器人程序，再将经验证程序转移至真机。
+
+## Hyperagents
+
+- [arXiv 2603.19461](https://arxiv.org/abs/2603.19461) · v2 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2603.19461)
+- 收录历史: [2026-11-03 (v2, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2603.19461)
+
+Hyperagents同时允许修改任务求解代码和生成修改的元agent。
+
+## InTAct: Interval-based Task Activation Consolidation for Continual Learning
+
+- [arXiv 2511.17439](https://arxiv.org/abs/2511.17439) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2511.17439)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2511.17439)
+
+InTAct保护旧域对应的激活区间，而非冻结参数或回放旧数据。
+
+## MAESTRO: Orchestrating Robotics Modules with Coding Agents for Zero-Shot Generalist Robots
+
+- [arXiv 2511.00917](https://arxiv.org/abs/2511.00917) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2511.00917)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2511.00917)
+
+编码Agent通过harness组织感知、规划和控制工具，并验证结果、修复程序。
+
+## Towards General Continuous Memory for Vision-Language Models
+
+- [arXiv 2505.17670](https://arxiv.org/abs/2505.17670) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2505.17670)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2505.17670)
+
+CoMEM 将多模态知识压缩为连续嵌入，推理 VLM 保持冻结。
 
 ## RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
 
@@ -185,13 +591,6 @@ v2在原有量子点流程基础上新增HPLC样品板装载及专家监督下�
 - 收录历史: [2026-11-02 (v2, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2607.25397)
 
 v2扩展DR-LfD评测，新增第四项端到端真机任务、置信区间、数据规模比较，以及替换为通用TAMP抓取模块的直接测试。
-
-## Sequential Planning via Anchored Robotic Keypoints
-
-- [arXiv 2606.30613](https://arxiv.org/abs/2606.30613) · v4 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2606.30613)
-- 收录历史: [2026-11-02 (v4, revised)](../daily/2026-11-02.zh-CN.md#arxiv-2606.30613)
-
-重要评估更正：SPARK现明确其66.8%的LIBERO-PRO主结果利用每次执行尝试后的仿真成功检查决定是否重试，并新增不使用该检查的独立评估。这改变了既有主结果的解释，而非证明新的自主鲁棒性提升。
 
 ## EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective
 
@@ -668,13 +1067,6 @@ Skill Dreaming 从已验证 PR 流中演化仓库技能，并对陈旧或冲突�
 - 收录历史: [2026-10-28 (v1, new)](../daily/2026-10-28.zh-CN.md#arxiv-2610.36013)
 
 OmniBrain-0 以 on-policy 蒸馏和 rubric 引导自改进将专家 agent 轨迹整合为统一高层模型，仍保留专用低层技能。
-
-## Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory
-
-- [arXiv 2610.33702](https://arxiv.org/abs/2610.33702) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.33702)
-- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.33702)
-
-Iris v2 增加状态条件化的逐候选视觉编码，并共享分叉状态缓存以支持类型化决策。
 
 ## VisCurate: Evaluating Behavioral Equivalence of Visual Skills
 
