@@ -2,7 +2,7 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [All topics](README.md)
 
-314 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+317 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
 
 ## DreamX: Video Diffusion Model is a Universal Latent Action Learner
 
@@ -60,6 +60,13 @@ DreamFree distills predictive video representations into a current-observation e
 
 Aligns human and robot domains through explicit and implicit action intent.
 
+## Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs
+
+- [arXiv 2611.04391](https://arxiv.org/abs/2611.04391) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04391)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04391)
+
+H2RB combines geometry-grounded observations with shared action latents and separate human/robot decoders for unpaired transfer.
+
 ## RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training
 
 - [arXiv 2611.04368](https://arxiv.org/abs/2611.04368) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04368)
@@ -73,6 +80,13 @@ Trains reasoning LoRA adapters then freezes them during action fine-tuning.
 - Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04080)
 
 Test-time task grounding over RGB-D plus skill-precondition checks and effect verification.
+
+## Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy
+
+- [arXiv 2611.04006](https://arxiv.org/abs/2611.04006) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04006)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04006)
+
+AdaIE reweights VLM channels using online action-head sensitivity estimates without adding trainable parameters; statistics freeze at inference.
 
 ## AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data
 
@@ -108,6 +122,13 @@ DuoBench evaluates bimanual coordination with eleven tasks and stage-aware simul
 - Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2605.30350)
 
 DynaFLIP aligns image transitions, language and 3D flow to pretrain action-relevant visual representations.
+
+## DexCanvas: Bridging Human Demonstrations and Robot Learning for Dexterous Manipulation
+
+- [arXiv 2510.15786](https://arxiv.org/abs/2510.15786) · v3 · [Latest entry](../daily/2026-11-04.md#arxiv-2510.15786)
+- Coverage history: [2026-11-04 (v3, revised)](../daily/2026-11-04.md#arxiv-2510.15786)
+
+DexCanvas adds a unified policy for reconstructing force-annotated human demonstrations, unseen-object evaluation, contact-aware downstream learning and simulated robot-hand retargeting.
 
 ## Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
 

@@ -2,7 +2,7 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-365 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+368 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
 
 ## LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models
 
@@ -18,12 +18,26 @@
 
 提出 GroupAssistBench，区分事实回忆与利用分散或冲突的群组记忆开展开放式协助的能力。
 
+## Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs
+
+- [arXiv 2611.04391](https://arxiv.org/abs/2611.04391) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04391)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04391)
+
+H2RB 结合几何约束观测、共享动作潜变量和独立人机解码器，实现非配对迁移。
+
 ## Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs
 
 - [arXiv 2611.04166](https://arxiv.org/abs/2611.04166) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04166)
 - 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04166)
 
 诊断语言解释保持不变而动作改变的分离现象。
+
+## Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy
+
+- [arXiv 2611.04006](https://arxiv.org/abs/2611.04006) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04006)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04006)
+
+AdaIE 根据在线估计的动作头敏感度重加权 VLM 通道，不增加可训练参数，推理时冻结统计量。
 
 ## What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory
 
@@ -94,6 +108,13 @@ FlatLands评测从单个第一视角观测补全具有不确定性的公制室�
 - 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2512.04308)
 
 ResponsibleRobotBench将任务完成与安全区分开，研究机器人代理规划中可执行的风险缓解。
+
+## DexCanvas: Bridging Human Demonstrations and Robot Learning for Dexterous Manipulation
+
+- [arXiv 2510.15786](https://arxiv.org/abs/2510.15786) · v3 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2510.15786)
+- 收录历史: [2026-11-04 (v3, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2510.15786)
+
+DexCanvas新增统一策略以重建带力标注的人类示范，并加入未见物体评测、接触感知下游学习和仿真机器人手重定向。
 
 ## EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
 

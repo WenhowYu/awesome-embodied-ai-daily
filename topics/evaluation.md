@@ -2,7 +2,7 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-365 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+368 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
 
 ## LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models
 
@@ -18,12 +18,26 @@ Controls checkpoints/layers/engine to compare generic and VLA-specific quantizat
 
 Introduces GroupAssistBench to distinguish factual recall from open-ended assistance using distributed or conflicting group memories.
 
+## Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs
+
+- [arXiv 2611.04391](https://arxiv.org/abs/2611.04391) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04391)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04391)
+
+H2RB combines geometry-grounded observations with shared action latents and separate human/robot decoders for unpaired transfer.
+
 ## Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs
 
 - [arXiv 2611.04166](https://arxiv.org/abs/2611.04166) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04166)
 - Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04166)
 
 Diagnoses divergence between unchanged verbal rationales and altered actions.
+
+## Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy
+
+- [arXiv 2611.04006](https://arxiv.org/abs/2611.04006) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04006)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04006)
+
+AdaIE reweights VLM channels using online action-head sensitivity estimates without adding trainable parameters; statistics freeze at inference.
 
 ## What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory
 
@@ -94,6 +108,13 @@ FlatLands benchmarks uncertainty-aware completion of metric indoor floor maps fr
 - Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2512.04308)
 
 ResponsibleRobotBench separates task completion from safety and studies executable mitigation in robot-agent planning.
+
+## DexCanvas: Bridging Human Demonstrations and Robot Learning for Dexterous Manipulation
+
+- [arXiv 2510.15786](https://arxiv.org/abs/2510.15786) · v3 · [Latest entry](../daily/2026-11-04.md#arxiv-2510.15786)
+- Coverage history: [2026-11-04 (v3, revised)](../daily/2026-11-04.md#arxiv-2510.15786)
+
+DexCanvas adds a unified policy for reconstructing force-annotated human demonstrations, unseen-object evaluation, contact-aware downstream learning and simulated robot-hand retargeting.
 
 ## EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
 

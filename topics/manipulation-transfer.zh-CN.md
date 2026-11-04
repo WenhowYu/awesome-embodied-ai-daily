@@ -2,7 +2,7 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-314 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+317 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
 
 ## DreamX: Video Diffusion Model is a Universal Latent Action Learner
 
@@ -60,6 +60,13 @@ DreamFree把视频预测表征蒸馏到当前观测编码器，控制时无需�
 
 通过显式与隐式动作意图对齐人类和机器人域。
 
+## Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs
+
+- [arXiv 2611.04391](https://arxiv.org/abs/2611.04391) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04391)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04391)
+
+H2RB 结合几何约束观测、共享动作潜变量和独立人机解码器，实现非配对迁移。
+
 ## RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training
 
 - [arXiv 2611.04368](https://arxiv.org/abs/2611.04368) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04368)
@@ -73,6 +80,13 @@ DreamFree把视频预测表征蒸馏到当前观测编码器，控制时无需�
 - 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04080)
 
 在RGB-D上按任务进行测试时指代落地，并检查技能前提与执行结果。
+
+## Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy
+
+- [arXiv 2611.04006](https://arxiv.org/abs/2611.04006) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04006)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04006)
+
+AdaIE 根据在线估计的动作头敏感度重加权 VLM 通道，不增加可训练参数，推理时冻结统计量。
 
 ## AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data
 
@@ -108,6 +122,13 @@ DuoBench通过11个任务和分阶段仿真/实机协议评估双臂协作。
 - 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2605.30350)
 
 DynaFLIP对齐图像变化、语言和三维流，预训练与动作相关的视觉表征。
+
+## DexCanvas: Bridging Human Demonstrations and Robot Learning for Dexterous Manipulation
+
+- [arXiv 2510.15786](https://arxiv.org/abs/2510.15786) · v3 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2510.15786)
+- 收录历史: [2026-11-04 (v3, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2510.15786)
+
+DexCanvas新增统一策略以重建带力标注的人类示范，并加入未见物体评测、接触感知下游学习和仿真机器人手重定向。
 
 ## Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
 

@@ -59,8 +59,8 @@
       "supplemental": 0
     },
     "2026-11-04": {
-      "new": 31,
-      "revised": 10,
+      "new": 33,
+      "revised": 11,
       "supplemental": 0
     }
   },
@@ -12747,6 +12747,74 @@
         }
       ],
       "latest_covered": "2026-11-04"
+    },
+    {
+      "id": "2611.04006",
+      "title": "Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy",
+      "topics": [
+        "vla",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "summary_en": "AdaIE reweights VLM channels using online action-head sensitivity estimates without adding trainable parameters; statistics freeze at inference.",
+      "summary_zh": "AdaIE 根据在线估计的动作头敏感度重加权 VLM 通道，不增加可训练参数，推理时冻结统计量。",
+      "latest_covered": "2026-11-04",
+      "history": [
+        {
+          "date": "2026-11-04",
+          "announcement_date": "2026-11-04",
+          "version": "v1",
+          "status": "new",
+          "supplemental_review": true,
+          "review_date_beijing": "2026-11-05",
+          "reviewed_at_utc": "2026-11-04T16:14:26Z"
+        }
+      ]
+    },
+    {
+      "id": "2611.04391",
+      "title": "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
+      "topics": [
+        "vla",
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "summary_en": "H2RB combines geometry-grounded observations with shared action latents and separate human/robot decoders for unpaired transfer.",
+      "summary_zh": "H2RB 结合几何约束观测、共享动作潜变量和独立人机解码器，实现非配对迁移。",
+      "latest_covered": "2026-11-04",
+      "history": [
+        {
+          "date": "2026-11-04",
+          "announcement_date": "2026-11-04",
+          "version": "v1",
+          "status": "new",
+          "supplemental_review": true,
+          "review_date_beijing": "2026-11-05",
+          "reviewed_at_utc": "2026-11-04T16:14:26Z"
+        }
+      ]
+    },
+    {
+      "id": "2510.15786",
+      "title": "DexCanvas: Bridging Human Demonstrations and Robot Learning for Dexterous Manipulation",
+      "topics": [
+        "manipulation-transfer",
+        "evaluation"
+      ],
+      "summary_en": "DexCanvas adds a unified policy for reconstructing force-annotated human demonstrations, unseen-object evaluation, contact-aware downstream learning and simulated robot-hand retargeting.",
+      "summary_zh": "DexCanvas新增统一策略以重建带力标注的人类示范，并加入未见物体评测、接触感知下游学习和仿真机器人手重定向。",
+      "latest_covered": "2026-11-04",
+      "history": [
+        {
+          "date": "2026-11-04",
+          "announcement_date": "2026-11-04",
+          "version": "v3",
+          "status": "revised",
+          "supplemental_review": true,
+          "review_date_beijing": "2026-11-05",
+          "reviewed_at_utc": "2026-11-04T16:14:26Z"
+        }
+      ]
     }
   ]
 }

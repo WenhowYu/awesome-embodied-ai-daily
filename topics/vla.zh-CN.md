@@ -2,7 +2,7 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-197 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+199 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
 
 ## DreamX: Video Diffusion Model is a Universal Latent Action Learner
 
@@ -53,6 +53,13 @@
 
 通过显式与隐式动作意图对齐人类和机器人域。
 
+## Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs
+
+- [arXiv 2611.04391](https://arxiv.org/abs/2611.04391) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04391)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04391)
+
+H2RB 结合几何约束观测、共享动作潜变量和独立人机解码器，实现非配对迁移。
+
 ## RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training
 
 - [arXiv 2611.04368](https://arxiv.org/abs/2611.04368) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04368)
@@ -66,6 +73,13 @@
 - 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04166)
 
 诊断语言解释保持不变而动作改变的分离现象。
+
+## Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy
+
+- [arXiv 2611.04006](https://arxiv.org/abs/2611.04006) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04006)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04006)
+
+AdaIE 根据在线估计的动作头敏感度重加权 VLM 通道，不增加可训练参数，推理时冻结统计量。
 
 ## AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data
 
