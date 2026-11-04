@@ -2,7 +2,84 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-176 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+187 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## DreamX: Video Diffusion Model is a Universal Latent Action Learner
+
+- [arXiv 2611.05377](https://arxiv.org/abs/2611.05377) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05377)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05377)
+
+从预训练视频扩散模型中为每个潜在帧提取四个动作标记，构建人类与机器人视频共享的运动接口。
+
+## HiLo-WAM: Decoupling Long-Horizon Task Evolution and Local Dynamics in World Action Models
+
+- [arXiv 2611.05023](https://arxiv.org/abs/2611.05023) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05023)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05023)
+
+双DiT分别建模稀疏长时程任务演化与密集局部动力学。
+
+## Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training
+
+- [arXiv 2611.04873](https://arxiv.org/abs/2611.04873) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04873)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04873)
+
+替换行为克隆监督前审计想象轨迹奖励。
+
+## PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations
+
+- [arXiv 2611.04870](https://arxiv.org/abs/2611.04870) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04870)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04870)
+
+多视角动作条件模拟器，采用快视频/慢记忆后训练。
+
+## Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight
+
+- [arXiv 2611.04839](https://arxiv.org/abs/2611.04839) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04839)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04839)
+
+执行前以终点进度和时间一致性评价候选指令序列。
+
+## Cycle WAM: Coupling Action and Video through Cycle Consistency
+
+- [arXiv 2611.04711](https://arxiv.org/abs/2611.04711) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04711)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04711)
+
+通过双向视频/动作转换和可微循环重建约束一致性。
+
+## Future Representation Distillation for Imagination-Free World Action Models
+
+- [arXiv 2611.04527](https://arxiv.org/abs/2611.04527) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04527)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04527)
+
+DreamFree把视频预测表征蒸馏到当前观测编码器，控制时无需生成未来视频。
+
+## Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models
+
+- [arXiv 2611.04028](https://arxiv.org/abs/2611.04028) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04028)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04028)
+
+按动力学相关性排列压缩后的历史标记，并通过分层历史引导强调有助于预测未来的信息。
+
+## Physical Experience Builds Continual Spatial World Models
+
+- [arXiv 2611.04016](https://arxiv.org/abs/2611.04016) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04016)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04016)
+
+跨回合空间变化记忆学习重复环境变换，同时保留可修正性。
+
+## World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
+
+- [arXiv 2609.02542](https://arxiv.org/abs/2609.02542) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2609.02542)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2609.02542)
+
+WM-LOCO利用机载深度和本体感知，将RSSM预测上下文输入人形机器人运动策略。
+
+## FlatLands: Indoor floormap completion from a single egocentric view
+
+- [arXiv 2603.16016](https://arxiv.org/abs/2603.16016) · v4 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2603.16016)
+- 收录历史: [2026-11-04 (v4, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2603.16016)
+
+FlatLands评测从单个第一视角观测补全具有不确定性的公制室内地面地图。
 
 ## Seeing Through the Illusion: Test-Time Scaling for World Action Models
 

@@ -2,7 +2,70 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-165 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+174 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## GSBR: Geometric Support Behavior Regularization for Online RL
+
+- [arXiv 2611.05295](https://arxiv.org/abs/2611.05295) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05295)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05295)
+
+Penalizes distance outside sampled base-policy support while retaining high-value modes.
+
+## Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs
+
+- [arXiv 2611.05249](https://arxiv.org/abs/2611.05249) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05249)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05249)
+
+Separately ablates action-token supervision and action-expert gradient coupling/insulation.
+
+## CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation
+
+- [arXiv 2611.05080](https://arxiv.org/abs/2611.05080) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05080)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05080)
+
+Benchmarks non-episodic VLA RL fine-tuning and targeted reset allocation.
+
+## LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation
+
+- [arXiv 2611.04974](https://arxiv.org/abs/2611.04974) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04974)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04974)
+
+ARPG structures dependent MDP formulation and localized verification before modular simulator implementation.
+
+## Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training
+
+- [arXiv 2611.04873](https://arxiv.org/abs/2611.04873) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04873)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04873)
+
+Audits imagined rewards before replacing behavior-cloning supervision.
+
+## PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations
+
+- [arXiv 2611.04870](https://arxiv.org/abs/2611.04870) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04870)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04870)
+
+Multiview action-conditioned simulator with fast-video/slow-memory post-training.
+
+## RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training
+
+- [arXiv 2611.04368](https://arxiv.org/abs/2611.04368) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04368)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04368)
+
+Trains reasoning LoRA adapters then freezes them during action fine-tuning.
+
+## Physical Experience Builds Continual Spatial World Models
+
+- [arXiv 2611.04016](https://arxiv.org/abs/2611.04016) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04016)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04016)
+
+Cross-episode spatial-change memory learns recurring transformations while remaining revisable.
+
+## EvoMemState: Evolving Memory State for Personal Agents
+
+- [arXiv 2611.03743](https://arxiv.org/abs/2611.03743) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.03743)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.03743)
+
+Adds relational states for fact validity, scope and conflicts, plus an RL-generated request-specific reasoning state, to persistent agent memory.
 
 ## D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models
 

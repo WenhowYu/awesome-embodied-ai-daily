@@ -2,7 +2,105 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-183 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+197 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## DreamX: Video Diffusion Model is a Universal Latent Action Learner
+
+- [arXiv 2611.05377](https://arxiv.org/abs/2611.05377) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05377)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05377)
+
+从预训练视频扩散模型中为每个潜在帧提取四个动作标记，构建人类与机器人视频共享的运动接口。
+
+## Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs
+
+- [arXiv 2611.05249](https://arxiv.org/abs/2611.05249) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05249)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05249)
+
+独立消融动作token监督与动作专家梯度耦合/隔离。
+
+## Asynchronous Robot Policies
+
+- [arXiv 2611.05155](https://arxiv.org/abs/2611.05155) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05155)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05155)
+
+慢速VLM更新语义记忆，快速视觉动作专家控制；训练显式处理记忆过期和延迟。
+
+## LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models
+
+- [arXiv 2611.05093](https://arxiv.org/abs/2611.05093) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05093)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05093)
+
+控制检查点、层及引擎，比较通用与VLA专用量化。
+
+## CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation
+
+- [arXiv 2611.05080](https://arxiv.org/abs/2611.05080) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05080)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05080)
+
+评估非回合式VLA强化学习微调和针对性重置分配。
+
+## Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training
+
+- [arXiv 2611.04873](https://arxiv.org/abs/2611.04873) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04873)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04873)
+
+替换行为克隆监督前审计想象轨迹奖励。
+
+## Action Intent as a Bridge: Transferring Manipulation Knowledge from Human-Centric Videos to Robots
+
+- [arXiv 2611.04522](https://arxiv.org/abs/2611.04522) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04522)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04522)
+
+通过显式与隐式动作意图对齐人类和机器人域。
+
+## RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training
+
+- [arXiv 2611.04368](https://arxiv.org/abs/2611.04368) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04368)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04368)
+
+先用推理标注训练LoRA，再冻结适配器进行动作微调。
+
+## Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs
+
+- [arXiv 2611.04166](https://arxiv.org/abs/2611.04166) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04166)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04166)
+
+诊断语言解释保持不变而动作改变的分离现象。
+
+## AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data
+
+- [arXiv 2611.03815](https://arxiv.org/abs/2611.03815) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.03815)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.03815)
+
+用16,151小时手持夹爪示范学习双臂操作，训练数据采集不需要机器人。
+
+## Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation
+
+- [arXiv 2608.19490](https://arxiv.org/abs/2608.19490) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2608.19490)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2608.19490)
+
+将VLA在目标机器人上的自身交互轨迹与专家示范联合微调，以保留预训练技能。
+
+## CLAP: Direct VLM-to-VLA Adaptation via Language-Action Grounding
+
+- [arXiv 2607.08974](https://arxiv.org/abs/2607.08974) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2607.08974)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2607.08974)
+
+CLAP在数字动作令牌前加入与动作对应的语言描述，同时保留VLM骨干结构。
+
+## PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking
+
+- [arXiv 2606.00537](https://arxiv.org/abs/2606.00537) · v4 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2606.00537)
+- 收录历史: [2026-11-04 (v4, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2606.00537)
+
+PACE依据动作序列中的低速谷值选择执行时长，无需重新训练策略。
+
+## DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation
+
+- [arXiv 2605.30350](https://arxiv.org/abs/2605.30350) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2605.30350)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2605.30350)
+
+DynaFLIP对齐图像变化、语言和三维流，预训练与动作相关的视觉表征。
 
 ## Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
 

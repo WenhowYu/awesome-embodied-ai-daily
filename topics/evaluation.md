@@ -2,7 +2,98 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-353 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+365 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models
+
+- [arXiv 2611.05093](https://arxiv.org/abs/2611.05093) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05093)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05093)
+
+Controls checkpoints/layers/engine to compare generic and VLA-specific quantization.
+
+## One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough
+
+- [arXiv 2611.04867](https://arxiv.org/abs/2611.04867) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04867)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04867)
+
+Introduces GroupAssistBench to distinguish factual recall from open-ended assistance using distributed or conflicting group memories.
+
+## Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs
+
+- [arXiv 2611.04166](https://arxiv.org/abs/2611.04166) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04166)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04166)
+
+Diagnoses divergence between unchanged verbal rationales and altered actions.
+
+## What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory
+
+- [arXiv 2611.03930](https://arxiv.org/abs/2611.03930) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.03930)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.03930)
+
+Measures memory utility for each future task using paired with/without-memory answers and a cost ledger, rather than assigning one importance score to a memory.
+
+## RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation
+
+- [arXiv 2611.03850](https://arxiv.org/abs/2611.03850) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.03850)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.03850)
+
+Unified benchmark/policy adapters and separate simulator/policy pools improve evaluation throughput.
+
+## Democratizing Robot-Use Agents: A Unified Harness with Open Models
+
+- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.01560)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01560) · [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2611.01560)
+
+An open-model robot-use harness supports tool-based manipulation and investigates capabilities behind effective robot use.
+
+## World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
+
+- [arXiv 2609.02542](https://arxiv.org/abs/2609.02542) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2609.02542)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2609.02542)
+
+WM-LOCO feeds predictive RSSM context to a humanoid locomotion policy using onboard depth and proprioception.
+
+## CLAP: Direct VLM-to-VLA Adaptation via Language-Action Grounding
+
+- [arXiv 2607.08974](https://arxiv.org/abs/2607.08974) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2607.08974)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2607.08974)
+
+CLAP prepends action-grounded language to numeric action tokens while preserving the VLM backbone architecture.
+
+## DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World
+
+- [arXiv 2606.11901](https://arxiv.org/abs/2606.11901) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2606.11901)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2606.11901)
+
+DuoBench evaluates bimanual coordination with eleven tasks and stage-aware simulation/physical-robot protocols.
+
+## IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
+
+- [arXiv 2606.08029](https://arxiv.org/abs/2606.08029) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2606.08029)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2606.08029)
+
+IntentNav learns spatial-visual frontier selection from human demonstrations, combining BEV and egocentric memories.
+
+## PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking
+
+- [arXiv 2606.00537](https://arxiv.org/abs/2606.00537) · v4 · [Latest entry](../daily/2026-11-04.md#arxiv-2606.00537)
+- Coverage history: [2026-11-04 (v4, revised)](../daily/2026-11-04.md#arxiv-2606.00537)
+
+PACE chooses action-chunk execution horizons from low-speed valleys without retraining the policy.
+
+## FlatLands: Indoor floormap completion from a single egocentric view
+
+- [arXiv 2603.16016](https://arxiv.org/abs/2603.16016) · v4 · [Latest entry](../daily/2026-11-04.md#arxiv-2603.16016)
+- Coverage history: [2026-11-04 (v4, revised)](../daily/2026-11-04.md#arxiv-2603.16016)
+
+FlatLands benchmarks uncertainty-aware completion of metric indoor floor maps from a single egocentric observation.
+
+## ResponsibleRobotBench: Benchmarking Risk-Aware Task-Level Decision Making for Robotic Manipulation with Large Multimodal Models
+
+- [arXiv 2512.04308](https://arxiv.org/abs/2512.04308) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2512.04308)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2512.04308)
+
+ResponsibleRobotBench separates task completion from safety and studies executable mitigation in robot-agent planning.
 
 ## EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
 
@@ -227,13 +318,6 @@ UA-Depth jointly restores metric depth and uncertainty for difficult transparent
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01565)
 
 Closed-loop pass@k separates reliability at one rollout from reachable-success coverage under repeated sampling during policy pretraining.
-
-## Democratizing Robot-Use Agents: A Unified Harness with Open Models
-
-- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01560)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01560)
-
-uni-robot-agent provides a common robot-use harness for open models without simulator-privileged inputs.
 
 ## Can Large Language Model Agents Learn by Watching Tutorial Videos?
 

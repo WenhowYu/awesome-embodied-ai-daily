@@ -2,7 +2,112 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-300 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+314 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## DreamX: Video Diffusion Model is a Universal Latent Action Learner
+
+- [arXiv 2611.05377](https://arxiv.org/abs/2611.05377) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05377)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05377)
+
+从预训练视频扩散模型中为每个潜在帧提取四个动作标记，构建人类与机器人视频共享的运动接口。
+
+## PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning
+
+- [arXiv 2611.05372](https://arxiv.org/abs/2611.05372) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05372)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05372)
+
+目标条件强化学习学习精确到达和持续保持。
+
+## GUILD: Guided Iterative Data Collection for Imitation Learning
+
+- [arXiv 2611.05368](https://arxiv.org/abs/2611.05368) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05368)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05368)
+
+结合VLM采集建议和预测性数据归因，迭代指导后续示范。
+
+## PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
+
+- [arXiv 2611.05320](https://arxiv.org/abs/2611.05320) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05320)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05320)
+
+代码智能体依据一次校准轨迹构建场景、控制器和判定器，再渲染多视角动作标注数据。
+
+## RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
+
+- [arXiv 2611.05163](https://arxiv.org/abs/2611.05163) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05163)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05163)
+
+将人类视频转换成目标机器人视频，再用深度感知逆动力学标注动作。
+
+## Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight
+
+- [arXiv 2611.04839](https://arxiv.org/abs/2611.04839) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04839)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04839)
+
+执行前以终点进度和时间一致性评价候选指令序列。
+
+## Future Representation Distillation for Imagination-Free World Action Models
+
+- [arXiv 2611.04527](https://arxiv.org/abs/2611.04527) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04527)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04527)
+
+DreamFree把视频预测表征蒸馏到当前观测编码器，控制时无需生成未来视频。
+
+## Action Intent as a Bridge: Transferring Manipulation Knowledge from Human-Centric Videos to Robots
+
+- [arXiv 2611.04522](https://arxiv.org/abs/2611.04522) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04522)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04522)
+
+通过显式与隐式动作意图对齐人类和机器人域。
+
+## RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training
+
+- [arXiv 2611.04368](https://arxiv.org/abs/2611.04368) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04368)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04368)
+
+先用推理标注训练LoRA，再冻结适配器进行动作微调。
+
+## FEIJOA: Task-Driven Grounding and Execution for Mobile Manipulation
+
+- [arXiv 2611.04080](https://arxiv.org/abs/2611.04080) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04080)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04080)
+
+在RGB-D上按任务进行测试时指代落地，并检查技能前提与执行结果。
+
+## AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data
+
+- [arXiv 2611.03815](https://arxiv.org/abs/2611.03815) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.03815)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.03815)
+
+用16,151小时手持夹爪示范学习双臂操作，训练数据采集不需要机器人。
+
+## Democratizing Robot-Use Agents: A Unified Harness with Open Models
+
+- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.01560)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560) · [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2611.01560)
+
+开放模型机器人使用框架支持工具式操控，并分析有效机器人使用所需的能力。
+
+## Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation
+
+- [arXiv 2608.19490](https://arxiv.org/abs/2608.19490) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2608.19490)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2608.19490)
+
+将VLA在目标机器人上的自身交互轨迹与专家示范联合微调，以保留预训练技能。
+
+## DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World
+
+- [arXiv 2606.11901](https://arxiv.org/abs/2606.11901) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2606.11901)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2606.11901)
+
+DuoBench通过11个任务和分阶段仿真/实机协议评估双臂协作。
+
+## DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation
+
+- [arXiv 2605.30350](https://arxiv.org/abs/2605.30350) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2605.30350)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2605.30350)
+
+DynaFLIP对齐图像变化、语言和三维流，预训练与动作相关的视觉表征。
 
 ## Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
 
@@ -262,13 +367,6 @@ UA-Depth联合恢复困难透明/反光材质的度量深度及不确定性。
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01600)
 
 SCOUT结合物体中心遮挡重建、LLM提案与世界模型指导MCTS完成杂乱操作。
-
-## Democratizing Robot-Use Agents: A Unified Harness with Open Models
-
-- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560)
-
-uni-robot-agent提供不依赖模拟器特权输入的开放模型通用机器人使用harness。
 
 ## $TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering
 

@@ -2,7 +2,119 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-254 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+269 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
+
+- [arXiv 2611.05320](https://arxiv.org/abs/2611.05320) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05320)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05320)
+
+代码智能体依据一次校准轨迹构建场景、控制器和判定器，再渲染多视角动作标注数据。
+
+## Asynchronous Robot Policies
+
+- [arXiv 2611.05155](https://arxiv.org/abs/2611.05155) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05155)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05155)
+
+慢速VLM更新语义记忆，快速视觉动作专家控制；训练显式处理记忆过期和延迟。
+
+## Do Agentic Policies Need to Look at Every Step? Geometric Abstraction for Reasoning and Action
+
+- [arXiv 2611.05058](https://arxiv.org/abs/2611.05058) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05058)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05058)
+
+带证据的符号和度量残差减少重复原始图像推理。
+
+## LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation
+
+- [arXiv 2611.04974](https://arxiv.org/abs/2611.04974) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04974)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04974)
+
+ARPG按依赖关系构建MDP并局部验证，再模块化实现模拟器。
+
+## PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations
+
+- [arXiv 2611.04870](https://arxiv.org/abs/2611.04870) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04870)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04870)
+
+多视角动作条件模拟器，采用快视频/慢记忆后训练。
+
+## One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough
+
+- [arXiv 2611.04867](https://arxiv.org/abs/2611.04867) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04867)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04867)
+
+提出 GroupAssistBench，区分事实回忆与利用分散或冲突的群组记忆开展开放式协助的能力。
+
+## DiMuRe: Diagnosis-Guided Multilevel Recovery for Robotic Task Execution
+
+- [arXiv 2611.04226](https://arxiv.org/abs/2611.04226) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04226)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04226)
+
+根据失败诊断选择程序复用、预定义技能或受限VLA抓取。
+
+## FEIJOA: Task-Driven Grounding and Execution for Mobile Manipulation
+
+- [arXiv 2611.04080](https://arxiv.org/abs/2611.04080) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04080)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04080)
+
+在RGB-D上按任务进行测试时指代落地，并检查技能前提与执行结果。
+
+## Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models
+
+- [arXiv 2611.04028](https://arxiv.org/abs/2611.04028) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04028)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04028)
+
+按动力学相关性排列压缩后的历史标记，并通过分层历史引导强调有助于预测未来的信息。
+
+## Physical Experience Builds Continual Spatial World Models
+
+- [arXiv 2611.04016](https://arxiv.org/abs/2611.04016) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04016)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04016)
+
+跨回合空间变化记忆学习重复环境变换，同时保留可修正性。
+
+## WASP-Mem: Let Agent Organize Procedural Memory. Human Spend Effort on Diagnosis
+
+- [arXiv 2611.04003](https://arxiv.org/abs/2611.04003) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04003)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04003)
+
+将执行轨迹与反馈整合为相互链接的维基页面，形成可复用的程序性知识，让人类重点参与失败诊断。
+
+## What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory
+
+- [arXiv 2611.03930](https://arxiv.org/abs/2611.03930) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.03930)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.03930)
+
+通过有无记忆的配对回答和成本记录衡量记忆对具体未来任务的效用，而非为每条记忆赋予单一重要性分数。
+
+## EvoMemState: Evolving Memory State for Personal Agents
+
+- [arXiv 2611.03743](https://arxiv.org/abs/2611.03743) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.03743)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.03743)
+
+在持久记忆中加入表示事实有效性、适用范围和冲突的关系状态，以及由强化学习生成的请求特定推理状态。
+
+## Democratizing Robot-Use Agents: A Unified Harness with Open Models
+
+- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.01560)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560) · [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2611.01560)
+
+开放模型机器人使用框架支持工具式操控，并分析有效机器人使用所需的能力。
+
+## IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
+
+- [arXiv 2606.08029](https://arxiv.org/abs/2606.08029) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2606.08029)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2606.08029)
+
+IntentNav从人类示范学习空间-视觉前沿选择，结合鸟瞰图和第一视角记忆。
+
+## ResponsibleRobotBench: Benchmarking Risk-Aware Task-Level Decision Making for Robotic Manipulation with Large Multimodal Models
+
+- [arXiv 2512.04308](https://arxiv.org/abs/2512.04308) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2512.04308)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2512.04308)
+
+ResponsibleRobotBench将任务完成与安全区分开，研究机器人代理规划中可执行的风险缓解。
 
 ## TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation
 
@@ -164,13 +276,6 @@ JitSkill根据持续更新的任务状态在执行过程中检索技能，而非
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01581)
 
 Agent依据主观反馈、运动结果和肌肉测量修订可执行外骨骼辅助代码。
-
-## Democratizing Robot-Use Agents: A Unified Harness with Open Models
-
-- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560)
-
-uni-robot-agent提供不依赖模拟器特权输入的开放模型通用机器人使用harness。
 
 ## Can Large Language Model Agents Learn by Watching Tutorial Videos?
 

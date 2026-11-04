@@ -2,7 +2,84 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-176 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+187 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## DreamX: Video Diffusion Model is a Universal Latent Action Learner
+
+- [arXiv 2611.05377](https://arxiv.org/abs/2611.05377) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05377)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05377)
+
+Extracts four latent-action tokens per latent frame from a pretrained video diffusion model, creating a shared motion interface for human and robot videos.
+
+## HiLo-WAM: Decoupling Long-Horizon Task Evolution and Local Dynamics in World Action Models
+
+- [arXiv 2611.05023](https://arxiv.org/abs/2611.05023) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05023)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05023)
+
+Separates sparse long-horizon task evolution from dense local dynamics in dual-DiT streams.
+
+## Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training
+
+- [arXiv 2611.04873](https://arxiv.org/abs/2611.04873) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04873)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04873)
+
+Audits imagined rewards before replacing behavior-cloning supervision.
+
+## PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations
+
+- [arXiv 2611.04870](https://arxiv.org/abs/2611.04870) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04870)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04870)
+
+Multiview action-conditioned simulator with fast-video/slow-memory post-training.
+
+## Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight
+
+- [arXiv 2611.04839](https://arxiv.org/abs/2611.04839) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04839)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04839)
+
+Scores proposed command sequences with endpoint progress and temporal consistency before execution.
+
+## Cycle WAM: Coupling Action and Video through Cycle Consistency
+
+- [arXiv 2611.04711](https://arxiv.org/abs/2611.04711) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04711)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04711)
+
+Bidirectional video/action conversion with differentiable cycle reconstruction.
+
+## Future Representation Distillation for Imagination-Free World Action Models
+
+- [arXiv 2611.04527](https://arxiv.org/abs/2611.04527) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04527)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04527)
+
+DreamFree distills predictive video representations into a current-observation encoder, avoiding future-video generation at control time.
+
+## Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models
+
+- [arXiv 2611.04028](https://arxiv.org/abs/2611.04028) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04028)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04028)
+
+Orders compressed history tokens by dynamics relevance and uses hierarchical history guidance to emphasize information useful for future prediction.
+
+## Physical Experience Builds Continual Spatial World Models
+
+- [arXiv 2611.04016](https://arxiv.org/abs/2611.04016) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04016)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04016)
+
+Cross-episode spatial-change memory learns recurring transformations while remaining revisable.
+
+## World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
+
+- [arXiv 2609.02542](https://arxiv.org/abs/2609.02542) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2609.02542)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2609.02542)
+
+WM-LOCO feeds predictive RSSM context to a humanoid locomotion policy using onboard depth and proprioception.
+
+## FlatLands: Indoor floormap completion from a single egocentric view
+
+- [arXiv 2603.16016](https://arxiv.org/abs/2603.16016) · v4 · [Latest entry](../daily/2026-11-04.md#arxiv-2603.16016)
+- Coverage history: [2026-11-04 (v4, revised)](../daily/2026-11-04.md#arxiv-2603.16016)
+
+FlatLands benchmarks uncertainty-aware completion of metric indoor floor maps from a single egocentric observation.
 
 ## Seeing Through the Illusion: Test-Time Scaling for World Action Models
 

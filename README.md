@@ -4,7 +4,7 @@
 
 A bilingual, public-facing reading list for robot learning and embodied AI: VLA, WAM/world models, reinforcement learning and test-time adaptation, memory, skill accumulation, and real-robot transfer. English is the default language.
 
-Latest covered announcement: **2026-11-03**. **615 unique papers**, **621 substantive dated entries**, and **11 archived editions**.
+Latest covered announcement: **2026-11-04**. **655 unique papers**, **662 substantive dated entries**, and **12 archived editions**.
 
 Inclusion is not an endorsement of a paper or its authors. Numerical results are author-reported, not independently reproduced. Read each archive entry for limitations, experimental conditions, version, and review depth.
 
@@ -17,17 +17,18 @@ Inclusion is not an endorsement of a paper or its authors. Numerical results are
 
 ## Topics
 
-- [Vision-language-action models](topics/vla.md) · 183
-- [World models and world-action models](topics/world-models.md) · 176
-- [Memory, skills, and continual learning](topics/memory-skills.md) · 254
-- [Reinforcement learning and adaptation](topics/rl-adaptation.md) · 165
-- [Manipulation and real-robot transfer](topics/manipulation-transfer.md) · 300
-- [Evaluation, robustness, and safety](topics/evaluation.md) · 353
+- [Vision-language-action models](topics/vla.md) · 197
+- [World models and world-action models](topics/world-models.md) · 187
+- [Memory, skills, and continual learning](topics/memory-skills.md) · 269
+- [Reinforcement learning and adaptation](topics/rl-adaptation.md) · 174
+- [Manipulation and real-robot transfer](topics/manipulation-transfer.md) · 314
+- [Evaluation, robustness, and safety](topics/evaluation.md) · 365
 
 Topics overlap. The catalog has one canonical record per versionless arXiv ID, with all covered versions and dates retained in its history.
 
 ## Daily archives
 
+- [2026-11-04](daily/2026-11-04.md) · 31 new papers, 10 revisions
 - [2026-11-03](daily/2026-11-03.md) · 114 new papers, 30 revisions
 - [2026-11-02](daily/2026-11-02.md) · 51 new papers, 17 revisions
 - [2026-10-30](daily/2026-10-30.md) · 80 new papers, 16 revisions

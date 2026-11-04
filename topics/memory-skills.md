@@ -2,7 +2,119 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-254 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+269 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
+
+- [arXiv 2611.05320](https://arxiv.org/abs/2611.05320) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05320)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05320)
+
+Coding agent reconstructs scene/controller/judge from one calibration episode; video rendering produces action-labeled multiview data.
+
+## Asynchronous Robot Policies
+
+- [arXiv 2611.05155](https://arxiv.org/abs/2611.05155) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05155)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05155)
+
+Slow VLM updates semantic memory while a fast vision-action expert controls; training models stale semantics and delay.
+
+## Do Agentic Policies Need to Look at Every Step? Geometric Abstraction for Reasoning and Action
+
+- [arXiv 2611.05058](https://arxiv.org/abs/2611.05058) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05058)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05058)
+
+Evidence-aware symbols and metric residuals reduce repeated raw-image reasoning.
+
+## LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation
+
+- [arXiv 2611.04974](https://arxiv.org/abs/2611.04974) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04974)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04974)
+
+ARPG structures dependent MDP formulation and localized verification before modular simulator implementation.
+
+## PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations
+
+- [arXiv 2611.04870](https://arxiv.org/abs/2611.04870) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04870)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04870)
+
+Multiview action-conditioned simulator with fast-video/slow-memory post-training.
+
+## One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough
+
+- [arXiv 2611.04867](https://arxiv.org/abs/2611.04867) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04867)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04867)
+
+Introduces GroupAssistBench to distinguish factual recall from open-ended assistance using distributed or conflicting group memories.
+
+## DiMuRe: Diagnosis-Guided Multilevel Recovery for Robotic Task Execution
+
+- [arXiv 2611.04226](https://arxiv.org/abs/2611.04226) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04226)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04226)
+
+Selects program reuse, predefined skills or bounded VLA grasping based on failure diagnosis.
+
+## FEIJOA: Task-Driven Grounding and Execution for Mobile Manipulation
+
+- [arXiv 2611.04080](https://arxiv.org/abs/2611.04080) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04080)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04080)
+
+Test-time task grounding over RGB-D plus skill-precondition checks and effect verification.
+
+## Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models
+
+- [arXiv 2611.04028](https://arxiv.org/abs/2611.04028) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04028)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04028)
+
+Orders compressed history tokens by dynamics relevance and uses hierarchical history guidance to emphasize information useful for future prediction.
+
+## Physical Experience Builds Continual Spatial World Models
+
+- [arXiv 2611.04016](https://arxiv.org/abs/2611.04016) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04016)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04016)
+
+Cross-episode spatial-change memory learns recurring transformations while remaining revisable.
+
+## WASP-Mem: Let Agent Organize Procedural Memory. Human Spend Effort on Diagnosis
+
+- [arXiv 2611.04003](https://arxiv.org/abs/2611.04003) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04003)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04003)
+
+Consolidates execution traces and feedback into linked wiki pages for reusable procedural knowledge, with humans focusing on failure diagnosis.
+
+## What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory
+
+- [arXiv 2611.03930](https://arxiv.org/abs/2611.03930) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.03930)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.03930)
+
+Measures memory utility for each future task using paired with/without-memory answers and a cost ledger, rather than assigning one importance score to a memory.
+
+## EvoMemState: Evolving Memory State for Personal Agents
+
+- [arXiv 2611.03743](https://arxiv.org/abs/2611.03743) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.03743)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.03743)
+
+Adds relational states for fact validity, scope and conflicts, plus an RL-generated request-specific reasoning state, to persistent agent memory.
+
+## Democratizing Robot-Use Agents: A Unified Harness with Open Models
+
+- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.01560)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01560) · [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2611.01560)
+
+An open-model robot-use harness supports tool-based manipulation and investigates capabilities behind effective robot use.
+
+## IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
+
+- [arXiv 2606.08029](https://arxiv.org/abs/2606.08029) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2606.08029)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2606.08029)
+
+IntentNav learns spatial-visual frontier selection from human demonstrations, combining BEV and egocentric memories.
+
+## ResponsibleRobotBench: Benchmarking Risk-Aware Task-Level Decision Making for Robotic Manipulation with Large Multimodal Models
+
+- [arXiv 2512.04308](https://arxiv.org/abs/2512.04308) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2512.04308)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2512.04308)
+
+ResponsibleRobotBench separates task completion from safety and studies executable mitigation in robot-agent planning.
 
 ## TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation
 
@@ -164,13 +276,6 @@ JitSkill retrieves skills during execution using a continually updated task stat
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01581)
 
 An agent revises executable exoskeleton assistance code using subjective feedback, movement outcomes and muscle measurements.
-
-## Democratizing Robot-Use Agents: A Unified Harness with Open Models
-
-- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01560)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01560)
-
-uni-robot-agent provides a common robot-use harness for open models without simulator-privileged inputs.
 
 ## Can Large Language Model Agents Learn by Watching Tutorial Videos?
 

@@ -2,7 +2,105 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-183 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+197 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## DreamX: Video Diffusion Model is a Universal Latent Action Learner
+
+- [arXiv 2611.05377](https://arxiv.org/abs/2611.05377) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05377)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05377)
+
+Extracts four latent-action tokens per latent frame from a pretrained video diffusion model, creating a shared motion interface for human and robot videos.
+
+## Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs
+
+- [arXiv 2611.05249](https://arxiv.org/abs/2611.05249) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05249)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05249)
+
+Separately ablates action-token supervision and action-expert gradient coupling/insulation.
+
+## Asynchronous Robot Policies
+
+- [arXiv 2611.05155](https://arxiv.org/abs/2611.05155) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05155)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05155)
+
+Slow VLM updates semantic memory while a fast vision-action expert controls; training models stale semantics and delay.
+
+## LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models
+
+- [arXiv 2611.05093](https://arxiv.org/abs/2611.05093) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05093)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05093)
+
+Controls checkpoints/layers/engine to compare generic and VLA-specific quantization.
+
+## CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation
+
+- [arXiv 2611.05080](https://arxiv.org/abs/2611.05080) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05080)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05080)
+
+Benchmarks non-episodic VLA RL fine-tuning and targeted reset allocation.
+
+## Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training
+
+- [arXiv 2611.04873](https://arxiv.org/abs/2611.04873) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04873)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04873)
+
+Audits imagined rewards before replacing behavior-cloning supervision.
+
+## Action Intent as a Bridge: Transferring Manipulation Knowledge from Human-Centric Videos to Robots
+
+- [arXiv 2611.04522](https://arxiv.org/abs/2611.04522) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04522)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04522)
+
+Aligns human and robot domains through explicit and implicit action intent.
+
+## RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training
+
+- [arXiv 2611.04368](https://arxiv.org/abs/2611.04368) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04368)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04368)
+
+Trains reasoning LoRA adapters then freezes them during action fine-tuning.
+
+## Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs
+
+- [arXiv 2611.04166](https://arxiv.org/abs/2611.04166) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04166)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04166)
+
+Diagnoses divergence between unchanged verbal rationales and altered actions.
+
+## AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data
+
+- [arXiv 2611.03815](https://arxiv.org/abs/2611.03815) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.03815)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.03815)
+
+Learns bimanual manipulation from 16,151 hours of handheld demonstrations without robot-data collection.
+
+## Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation
+
+- [arXiv 2608.19490](https://arxiv.org/abs/2608.19490) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2608.19490)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2608.19490)
+
+Fine-tunes VLAs using their own target-robot rollouts alongside expert demonstrations to retain pretrained skills.
+
+## CLAP: Direct VLM-to-VLA Adaptation via Language-Action Grounding
+
+- [arXiv 2607.08974](https://arxiv.org/abs/2607.08974) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2607.08974)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2607.08974)
+
+CLAP prepends action-grounded language to numeric action tokens while preserving the VLM backbone architecture.
+
+## PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking
+
+- [arXiv 2606.00537](https://arxiv.org/abs/2606.00537) · v4 · [Latest entry](../daily/2026-11-04.md#arxiv-2606.00537)
+- Coverage history: [2026-11-04 (v4, revised)](../daily/2026-11-04.md#arxiv-2606.00537)
+
+PACE chooses action-chunk execution horizons from low-speed valleys without retraining the policy.
+
+## DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation
+
+- [arXiv 2605.30350](https://arxiv.org/abs/2605.30350) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2605.30350)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2605.30350)
+
+DynaFLIP aligns image transitions, language and 3D flow to pretrain action-relevant visual representations.
 
 ## Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
 

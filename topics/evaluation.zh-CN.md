@@ -2,7 +2,98 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-353 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+365 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models
+
+- [arXiv 2611.05093](https://arxiv.org/abs/2611.05093) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05093)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05093)
+
+控制检查点、层及引擎，比较通用与VLA专用量化。
+
+## One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough
+
+- [arXiv 2611.04867](https://arxiv.org/abs/2611.04867) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04867)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04867)
+
+提出 GroupAssistBench，区分事实回忆与利用分散或冲突的群组记忆开展开放式协助的能力。
+
+## Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs
+
+- [arXiv 2611.04166](https://arxiv.org/abs/2611.04166) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04166)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04166)
+
+诊断语言解释保持不变而动作改变的分离现象。
+
+## What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory
+
+- [arXiv 2611.03930](https://arxiv.org/abs/2611.03930) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.03930)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.03930)
+
+通过有无记忆的配对回答和成本记录衡量记忆对具体未来任务的效用，而非为每条记忆赋予单一重要性分数。
+
+## RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation
+
+- [arXiv 2611.03850](https://arxiv.org/abs/2611.03850) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.03850)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.03850)
+
+统一基准与策略接口，分离仿真与策略进程池，提高评估吞吐。
+
+## Democratizing Robot-Use Agents: A Unified Harness with Open Models
+
+- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.01560)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560) · [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2611.01560)
+
+开放模型机器人使用框架支持工具式操控，并分析有效机器人使用所需的能力。
+
+## World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
+
+- [arXiv 2609.02542](https://arxiv.org/abs/2609.02542) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2609.02542)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2609.02542)
+
+WM-LOCO利用机载深度和本体感知，将RSSM预测上下文输入人形机器人运动策略。
+
+## CLAP: Direct VLM-to-VLA Adaptation via Language-Action Grounding
+
+- [arXiv 2607.08974](https://arxiv.org/abs/2607.08974) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2607.08974)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2607.08974)
+
+CLAP在数字动作令牌前加入与动作对应的语言描述，同时保留VLM骨干结构。
+
+## DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World
+
+- [arXiv 2606.11901](https://arxiv.org/abs/2606.11901) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2606.11901)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2606.11901)
+
+DuoBench通过11个任务和分阶段仿真/实机协议评估双臂协作。
+
+## IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
+
+- [arXiv 2606.08029](https://arxiv.org/abs/2606.08029) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2606.08029)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2606.08029)
+
+IntentNav从人类示范学习空间-视觉前沿选择，结合鸟瞰图和第一视角记忆。
+
+## PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking
+
+- [arXiv 2606.00537](https://arxiv.org/abs/2606.00537) · v4 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2606.00537)
+- 收录历史: [2026-11-04 (v4, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2606.00537)
+
+PACE依据动作序列中的低速谷值选择执行时长，无需重新训练策略。
+
+## FlatLands: Indoor floormap completion from a single egocentric view
+
+- [arXiv 2603.16016](https://arxiv.org/abs/2603.16016) · v4 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2603.16016)
+- 收录历史: [2026-11-04 (v4, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2603.16016)
+
+FlatLands评测从单个第一视角观测补全具有不确定性的公制室内地面地图。
+
+## ResponsibleRobotBench: Benchmarking Risk-Aware Task-Level Decision Making for Robotic Manipulation with Large Multimodal Models
+
+- [arXiv 2512.04308](https://arxiv.org/abs/2512.04308) · v2 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2512.04308)
+- 收录历史: [2026-11-04 (v2, revised)](../daily/2026-11-04.zh-CN.md#arxiv-2512.04308)
+
+ResponsibleRobotBench将任务完成与安全区分开，研究机器人代理规划中可执行的风险缓解。
 
 ## EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
 
@@ -227,13 +318,6 @@ UA-Depth联合恢复困难透明/反光材质的度量深度及不确定性。
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01565)
 
 闭环pass@k区分单次可靠性与重复采样可达成功覆盖，用于策略预训练评估。
-
-## Democratizing Robot-Use Agents: A Unified Harness with Open Models
-
-- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01560)
-
-uni-robot-agent提供不依赖模拟器特权输入的开放模型通用机器人使用harness。
 
 ## Can Large Language Model Agents Learn by Watching Tutorial Videos?
 

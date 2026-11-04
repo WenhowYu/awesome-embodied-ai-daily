@@ -2,7 +2,70 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-165 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+174 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## GSBR: Geometric Support Behavior Regularization for Online RL
+
+- [arXiv 2611.05295](https://arxiv.org/abs/2611.05295) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05295)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05295)
+
+按动作偏离基础策略采样支撑集的距离惩罚，同时保留高价值模式。
+
+## Should the Action Expert Train the VLM? Action-Token Supervision and Gradient Routing in Mixture-of-Transformer VLAs
+
+- [arXiv 2611.05249](https://arxiv.org/abs/2611.05249) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05249)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05249)
+
+独立消融动作token监督与动作专家梯度耦合/隔离。
+
+## CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation
+
+- [arXiv 2611.05080](https://arxiv.org/abs/2611.05080) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.05080)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.05080)
+
+评估非回合式VLA强化学习微调和针对性重置分配。
+
+## LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation
+
+- [arXiv 2611.04974](https://arxiv.org/abs/2611.04974) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04974)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04974)
+
+ARPG按依赖关系构建MDP并局部验证，再模块化实现模拟器。
+
+## Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training
+
+- [arXiv 2611.04873](https://arxiv.org/abs/2611.04873) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04873)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04873)
+
+替换行为克隆监督前审计想象轨迹奖励。
+
+## PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations
+
+- [arXiv 2611.04870](https://arxiv.org/abs/2611.04870) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04870)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04870)
+
+多视角动作条件模拟器，采用快视频/慢记忆后训练。
+
+## RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training
+
+- [arXiv 2611.04368](https://arxiv.org/abs/2611.04368) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04368)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04368)
+
+先用推理标注训练LoRA，再冻结适配器进行动作微调。
+
+## Physical Experience Builds Continual Spatial World Models
+
+- [arXiv 2611.04016](https://arxiv.org/abs/2611.04016) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.04016)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.04016)
+
+跨回合空间变化记忆学习重复环境变换，同时保留可修正性。
+
+## EvoMemState: Evolving Memory State for Personal Agents
+
+- [arXiv 2611.03743](https://arxiv.org/abs/2611.03743) · v1 · [最新归档](../daily/2026-11-04.zh-CN.md#arxiv-2611.03743)
+- 收录历史: [2026-11-04 (v1, new)](../daily/2026-11-04.zh-CN.md#arxiv-2611.03743)
+
+在持久记忆中加入表示事实有效性、适用范围和冲突的关系状态，以及由强化学习生成的请求特定推理状态。
 
 ## D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models
 

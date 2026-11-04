@@ -2,7 +2,112 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [All topics](README.md)
 
-300 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+314 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## DreamX: Video Diffusion Model is a Universal Latent Action Learner
+
+- [arXiv 2611.05377](https://arxiv.org/abs/2611.05377) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05377)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05377)
+
+Extracts four latent-action tokens per latent frame from a pretrained video diffusion model, creating a shared motion interface for human and robot videos.
+
+## PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning
+
+- [arXiv 2611.05372](https://arxiv.org/abs/2611.05372) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05372)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05372)
+
+Goal-conditioned RL learns precise reaching and dwell/holding behavior.
+
+## GUILD: Guided Iterative Data Collection for Imitation Learning
+
+- [arXiv 2611.05368](https://arxiv.org/abs/2611.05368) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05368)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05368)
+
+Combines VLM collection proposals with predictive data attribution to guide later demonstrations.
+
+## PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
+
+- [arXiv 2611.05320](https://arxiv.org/abs/2611.05320) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05320)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05320)
+
+Coding agent reconstructs scene/controller/judge from one calibration episode; video rendering produces action-labeled multiview data.
+
+## RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
+
+- [arXiv 2611.05163](https://arxiv.org/abs/2611.05163) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.05163)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.05163)
+
+Translates human video to target-robot video and labels actions using depth-aware inverse dynamics.
+
+## Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight
+
+- [arXiv 2611.04839](https://arxiv.org/abs/2611.04839) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04839)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04839)
+
+Scores proposed command sequences with endpoint progress and temporal consistency before execution.
+
+## Future Representation Distillation for Imagination-Free World Action Models
+
+- [arXiv 2611.04527](https://arxiv.org/abs/2611.04527) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04527)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04527)
+
+DreamFree distills predictive video representations into a current-observation encoder, avoiding future-video generation at control time.
+
+## Action Intent as a Bridge: Transferring Manipulation Knowledge from Human-Centric Videos to Robots
+
+- [arXiv 2611.04522](https://arxiv.org/abs/2611.04522) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04522)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04522)
+
+Aligns human and robot domains through explicit and implicit action intent.
+
+## RAFT: Reasoning-Aligned Fine-Tuning Improves Robustness of VLA Post-Training
+
+- [arXiv 2611.04368](https://arxiv.org/abs/2611.04368) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04368)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04368)
+
+Trains reasoning LoRA adapters then freezes them during action fine-tuning.
+
+## FEIJOA: Task-Driven Grounding and Execution for Mobile Manipulation
+
+- [arXiv 2611.04080](https://arxiv.org/abs/2611.04080) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.04080)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.04080)
+
+Test-time task grounding over RGB-D plus skill-precondition checks and effect verification.
+
+## AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data
+
+- [arXiv 2611.03815](https://arxiv.org/abs/2611.03815) · v1 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.03815)
+- Coverage history: [2026-11-04 (v1, new)](../daily/2026-11-04.md#arxiv-2611.03815)
+
+Learns bimanual manipulation from 16,151 hours of handheld demonstrations without robot-data collection.
+
+## Democratizing Robot-Use Agents: A Unified Harness with Open Models
+
+- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2611.01560)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01560) · [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2611.01560)
+
+An open-model robot-use harness supports tool-based manipulation and investigates capabilities behind effective robot use.
+
+## Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation
+
+- [arXiv 2608.19490](https://arxiv.org/abs/2608.19490) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2608.19490)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2608.19490)
+
+Fine-tunes VLAs using their own target-robot rollouts alongside expert demonstrations to retain pretrained skills.
+
+## DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World
+
+- [arXiv 2606.11901](https://arxiv.org/abs/2606.11901) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2606.11901)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2606.11901)
+
+DuoBench evaluates bimanual coordination with eleven tasks and stage-aware simulation/physical-robot protocols.
+
+## DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation
+
+- [arXiv 2605.30350](https://arxiv.org/abs/2605.30350) · v2 · [Latest entry](../daily/2026-11-04.md#arxiv-2605.30350)
+- Coverage history: [2026-11-04 (v2, revised)](../daily/2026-11-04.md#arxiv-2605.30350)
+
+DynaFLIP aligns image transitions, language and 3D flow to pretrain action-relevant visual representations.
 
 ## Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
 
@@ -262,13 +367,6 @@ UA-Depth jointly restores metric depth and uncertainty for difficult transparent
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01600)
 
 SCOUT combines object-centric occlusion reconstruction, LLM proposals and world-model-guided MCTS for cluttered manipulation.
-
-## Democratizing Robot-Use Agents: A Unified Harness with Open Models
-
-- [arXiv 2611.01560](https://arxiv.org/abs/2611.01560) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01560)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01560)
-
-uni-robot-agent provides a common robot-use harness for open models without simulator-privileged inputs.
 
 ## $TF^2$-Steering: Action Refinement with Tactile Forecasts and Feedback via Velocity-Field Steering
 
