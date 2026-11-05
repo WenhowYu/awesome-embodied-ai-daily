@@ -2,7 +2,119 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-368 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+383 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
+
+- [arXiv 2611.06911](https://arxiv.org/abs/2611.06911) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06911)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06911)
+
+BEAKER通过专家编写的图像及视频问题，诊断自动化化学实验室中与执行相关的感知推理能力，包括可操作区域定位和可行轨迹判断。
+
+## VABAR: A Variational Automation Benchmark for Agentic Robotics
+
+- [arXiv 2611.06881](https://arxiv.org/abs/2611.06881) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06881)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06881)
+
+VABAR通过技能库及程序参考解评测可重复的任务变体。
+
+## Where Is VLA Inference Time Spent? Bottlenecks and Optimization Interactions Across GPUs
+
+- [arXiv 2611.06710](https://arxiv.org/abs/2611.06710) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06710)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06710)
+
+VLA-Triage研究七类推理优化在不同模型与GPU上的相互影响。
+
+## Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models
+
+- [arXiv 2611.06653](https://arxiv.org/abs/2611.06653) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06653)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06653)
+
+校准状态—动作—效果模型，离线检测动作接口语义错误。
+
+## Interactive World Simulation with Cosmos for Physical AI
+
+- [arXiv 2611.06627](https://arxiv.org/abs/2611.06627) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06627)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06627)
+
+Cosmos将世界基础模型适配为流式动作条件仿真，以及外部仿真状态条件渲染，覆盖双臂操作、相机探索与自动驾驶视角。
+
+## RACE: Calibrated Cumulative Scoring for Rollout-Free Robot Policy Checkpoint Selection
+
+- [arXiv 2611.05838](https://arxiv.org/abs/2611.05838) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05838)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05838)
+
+RACE利用成功验证轨迹、校准动作偏差及累乘评分选择检查点。
+
+## MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics
+
+- [arXiv 2611.05567](https://arxiv.org/abs/2611.05567) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05567)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05567)
+
+五组受控评测分离空间、实例、类别和子任务泛化，并包含双臂BiMESA。
+
+## HexaShell: A Universal Harness for Robot Coding Agents in Simulation and the Real World
+
+- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v3 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2610.23479)
+- 收录历史: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.zh-CN.md#arxiv-2610.23479) · [2026-11-05 (v3, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2610.23479)
+
+共享14工具机器人框架，将SAM3分割与几何定位、可选短文本任务技能和薄本体适配器分开。
+
+## AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection
+
+- [arXiv 2606.23689](https://arxiv.org/abs/2606.23689) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.23689)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.23689)
+
+AutoDex 执行并标注生成的灵巧抓取，同时重置物体。本次修订将原先单纯强调吞吐量的叙述改为明确区分人工注意时间、总耗时及数据质量，并承认仍需间歇性干预。
+
+## Provably Safe, Yet Scalable Reinforcement Learning
+
+- [arXiv 2606.14536](https://arxiv.org/abs/2606.14536) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.14536)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.14536)
+
+PS2-RL结合学习备用策略与可微控制不变投影；v2新增多约束机器人控制测试并分析安全与性能来源。
+
+## Test-Time Improvement of VLA Policies via Selected Diffusion Noise for Spurious-Robust Action Smoothing
+
+- [arXiv 2606.14084](https://arxiv.org/abs/2606.14084) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.14084)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.14084)
+
+SDN 根据物体视觉定位和加加速度指标，从冻结 VLA 的动作样本中选择输出。本次修订新增针对机制的证据：任务无关遮罩对照、基于归因的排序分析、BYOVLA 比较及负样本集构建测试。
+
+## Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning
+
+- [arXiv 2606.12109](https://arxiv.org/abs/2606.12109) · v3 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.12109)
+- 收录历史: [2026-11-05 (v3, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.12109)
+
+InDex 将同步的末端执行器/抓取意图预测与扩散式灵巧手解码器结合。更名后的修订版新增留出物体实例评估，并实质性修改训练预算及意图时序干预的试验说明。
+
+## Back to the Familiar Future: Failure Recovery for VLA Policies via Pre-Imagined Milestone Selection
+
+- [arXiv 2606.09258](https://arxiv.org/abs/2606.09258) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.09258)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.09258)
+
+B2FF 通过选择预先想象的视觉里程碑帮助冻结的前瞻型 VLA 恢复执行。本次修订直接比较想象未来与历史观测作为恢复目标，并加入恢复数据微调 VLA 的对照及重要评估更正。
+
+## FLAG: Flow Policy MaxEnt-RL by Latent Augmented Guidance
+
+- [arXiv 2605.30749](https://arxiv.org/abs/2605.30749) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2605.30749)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2605.30749)
+
+FLAG用局部重要性采样训练最大熵强化学习流策略；v2新增理论近似的实证检查并收窄性能主张。
+
+## EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory
+
+- [arXiv 2510.01183](https://arxiv.org/abs/2510.01183) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2510.01183)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2510.01183)
+
+以显式三维记忆生成全景世界；本条记录证据和表述纠正，不视为新方法。
+
+## MARLIN: Multi-Agent Reinforcement Learning Guided by Language-Based Inter-Robot Negotiation
+
+- [arXiv 2410.14383](https://arxiv.org/abs/2410.14383) · v5 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2410.14383)
+- 收录历史: [2026-11-05 (v5, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2410.14383)
+
+MARLIN 将 MAPPO 与机器人之间基于语言的两两协商结合。本次修订主要是方法表述和结论范围的更正，并非新增性能结果。
 
 ## LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models
 
@@ -2488,13 +2600,6 @@ Skill-DAG 记忆与按状态选择的 Skill-GNN 复用成功技能组合；ALFWo
 - 收录历史: [2026-10-21 (v1, supplemental-previous-batch)](../daily/2026-10-21.zh-CN.md#arxiv-2610.26564)
 
 补核 2026-10-20 公告：解耦 RGB 目标、深度未来与动作；基础版 RoboTwin C2R 为 70.57%，真机使用 RGB-D，15B 结果另有预训练。
-
-## HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents
-
-- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v2 · [最新归档](../daily/2026-10-21.zh-CN.md#arxiv-2610.23479)
-- 收录历史: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.zh-CN.md#arxiv-2610.23479)
-
-实质修订新增 42 项 RoboDojo 任务的官方隐藏 seed 评测；46.9% 成功率与 v1 协议不同，公开工具不包含完整评测系统。
 
 ## WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory and In-Context Learning
 

@@ -2,7 +2,154 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [All topics](README.md)
 
-317 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+336 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## From Pixels to Actions - Towards Native Vision-Language-Action Policies
+
+- [arXiv 2611.06918](https://arxiv.org/abs/2611.06918) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06918)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06918)
+
+NEO-VLA uses lightweight patch tokenization and joint vision-language computation, exposing multiple backbone depths to a flow-matching action expert instead of a fixed visual encoder endpoint.
+
+## Perceptive Humanoid Motion from Simulation
+
+- [arXiv 2611.06908](https://arxiv.org/abs/2611.06908) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06908)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06908)
+
+HALO synthesizes vision-language-motion data in1000 procedural homes and composes humanoid skills.
+
+## Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
+
+- [arXiv 2611.06817](https://arxiv.org/abs/2611.06817) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06817)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06817)
+
+Open-HumanScale studies human-video scaling with a curated 50,000-hour corpus, then extends HumanWAM from human-only pretraining to joint human–robot and visual-goal conditioning.
+
+## Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation
+
+- [arXiv 2611.06724](https://arxiv.org/abs/2611.06724) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06724)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06724)
+
+Full-stack narrative survey links dexterous hardware, human data, transfer, foundation models and evaluation.
+
+## Which Physical Tactile Cues Matter for Contact-Rich Imitation Learning? A Controlled Real-Robot Study
+
+- [arXiv 2611.06673](https://arxiv.org/abs/2611.06673) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06673)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06673)
+
+Controlled ablation separates tactile RGB, geometry and marker-flow cues under matched data and policy.
+
+## STARE: Scene Text-Aware multimodal Retrieval for Everyday objects
+
+- [arXiv 2611.06089](https://arxiv.org/abs/2611.06089) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06089)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06089)
+
+STARE combines scene text and visual semantics for free-form object retrieval, using crosslingual visual prompts and named-entity-aware reranking.
+
+## Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation
+
+- [arXiv 2611.05979](https://arxiv.org/abs/2611.05979) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05979)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05979)
+
+Human hand-object future predictions become object-centric RL rewards across robot hands.
+
+## GRASP: Gradient-Guided Sampling for Contact-Rich Physics-Based Motion Retargeting
+
+- [arXiv 2611.05754](https://arxiv.org/abs/2611.05754) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05754)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05754)
+
+GRASP recovers local gradients from archived simulator rollouts for contact-rich retargeting without differentiable physics.
+
+## ELA: End-to-End Latent Action Policy Learning from Video Demonstrations
+
+- [arXiv 2611.05571](https://arxiv.org/abs/2611.05571) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05571)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05571)
+
+Jointly optimizes latent actions, policy and decoder using videos plus a few labeled robot demonstrations.
+
+## Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation
+
+- [arXiv 2611.05507](https://arxiv.org/abs/2611.05507) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05507)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05507)
+
+Force commands connect motion imitation to high-level object interaction.
+
+## Learning to Live: A Step Toward Lifelong Embodied Intelligence
+
+- [arXiv 2611.00180](https://arxiv.org/abs/2611.00180) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.00180)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00180) · [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2611.00180)
+
+LIFE integrates continuous robot perception, memory and action; this revision corrects the RoboBeats memory evaluation and comparator provenance.
+
+## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
+
+- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.00177)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00177) · [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2611.00177)
+
+AuroraWorld converts exocentric robot video into egocentric training views using structured4D modeling; v2 materially changes the evaluation presentation and baseline protocol.
+
+## HexaShell: A Universal Harness for Robot Coding Agents in Simulation and the Real World
+
+- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v3 · [Latest entry](../daily/2026-11-05.md#arxiv-2610.23479)
+- Coverage history: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.md#arxiv-2610.23479) · [2026-11-05 (v3, revised)](../daily/2026-11-05.md#arxiv-2610.23479)
+
+Shared 14-tool robot harness separates SAM3 segmentation and geometric localization from optional short task skills and thin embodiment adapters.
+
+## Reverse to Advance: Teleoperation-Cost Effective Hard Policy Learning from Reversed Easy Tasks
+
+- [arXiv 2607.13455](https://arxiv.org/abs/2607.13455) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2607.13455)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2607.13455)
+
+Auto-E2H learns difficult manipulation from reversed easy-task trajectories and iterative filtered rollouts. New appendices substantially strengthen auditing: critic controls, training-seed variability, operator cost and explicit failure boundaries under directional contact resistance.
+
+## Warp: Structured Output-Space Adaptation for Frozen Robot Policies
+
+- [arXiv 2606.31043](https://arxiv.org/abs/2606.31043) · v4 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.31043)
+- Coverage history: [2026-11-05 (v4, revised)](../daily/2026-11-05.md#arxiv-2606.31043)
+
+Structured monotone spline adaptation of frozen robot policies; revision adds matched SplineRes controls and diagnostics separating parameterization benefits from nonlinear action reshaping.
+
+## AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection
+
+- [arXiv 2606.23689](https://arxiv.org/abs/2606.23689) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.23689)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.23689)
+
+AutoDex executes and labels generated dexterous grasps and resets objects. This revision replaces the earlier throughput-only story with explicit human-attention, wall-time and data-quality accounting, acknowledging intermittent intervention.
+
+## Provably Safe, Yet Scalable Reinforcement Learning
+
+- [arXiv 2606.14536](https://arxiv.org/abs/2606.14536) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.14536)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.14536)
+
+PS2-RL combines a learned backup policy with a differentiable control-invariant projection; v2 adds multi-constraint robot-control tests and audits safety versus performance roles.
+
+## Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning
+
+- [arXiv 2606.12109](https://arxiv.org/abs/2606.12109) · v3 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.12109)
+- Coverage history: [2026-11-05 (v3, revised)](../daily/2026-11-05.md#arxiv-2606.12109)
+
+InDex couples synchronized end-effector/grasp-intent prediction with a diffusion hand decoder. The retitled revision adds held-out object-instance evaluation and materially revises training-budget and timing-test reporting.
+
+## FLAG: Flow Policy MaxEnt-RL by Latent Augmented Guidance
+
+- [arXiv 2605.30749](https://arxiv.org/abs/2605.30749) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2605.30749)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2605.30749)
+
+FLAG trains flow policies for maximum-entropy reinforcement learning with localized importance sampling; v2 adds empirical checks of its theoretical approximations and narrows performance claims.
+
+## AcroRL: Learning Aggressive Quadrotor Inversion using Bidirectional Thrust
+
+- [arXiv 2605.24301](https://arxiv.org/abs/2605.24301) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2605.24301)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2605.24301)
+
+AcroRL learns reference modulation for bidirectional-thrust quadrotor inversions; v2 expands simulation reliability reporting and clarifies the small hardware evidence base.
+
+## Learning Soft Robotic Dynamics with Active Exploration
+
+- [arXiv 2510.27428](https://arxiv.org/abs/2510.27428) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2510.27428)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2510.27428)
+
+SoftAE learns reusable soft-robot dynamics through uncertainty-driven optimistic exploration. The revision extends its evidence to soft–rigid contact and adds stronger exploration/control comparisons; the original multi-platform and 2 mm hardware reaching results are not new.
 
 ## DreamX: Video Diffusion Model is a Universal Latent Action Learner
 
@@ -521,13 +668,6 @@ OmniPiano unifies standard, robust, safe, and cooperative RL for dexterous piano
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00193)
 
 Anchor 1 uses calibrated sparse references, curated motions and explicit tracking-error feedback for stable humanoid manipulation.
-
-## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
-
-- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00177)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00177)
-
-Synthesizes robot egocentric video from sparse external views using spatial structure, temporal anchors and motion priors, then evaluates downstream policies.
 
 ## TurboWAM: Learning What Matters for Fast World Action Models
 
@@ -2152,13 +2292,6 @@ Advantage-weighted latent steering improves a frozen one-step decoder without po
 - Coverage history: [2026-10-21 (v1, supplemental-previous-batch)](../daily/2026-10-21.md#arxiv-2610.26564)
 
 Supplemental review of a 2026-10-20 announcement: RGB goals, depth futures, and actions are decoupled. Base RoboTwin C2R reaches 70.57%; real deployment requires RGB-D, and the 15B result uses additional pretraining.
-
-## HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents
-
-- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v2 · [Latest entry](../daily/2026-10-21.md#arxiv-2610.23479)
-- Coverage history: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.md#arxiv-2610.23479)
-
-A substantive revision adds official hidden-seed evaluation on 42 RoboDojo tasks. The 46.9% success rate uses a different protocol from v1; released tools do not include the entire evaluation system.
 
 ## GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation
 

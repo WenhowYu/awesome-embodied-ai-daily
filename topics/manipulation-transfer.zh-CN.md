@@ -2,7 +2,154 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-317 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+336 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## From Pixels to Actions - Towards Native Vision-Language-Action Policies
+
+- [arXiv 2611.06918](https://arxiv.org/abs/2611.06918) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06918)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06918)
+
+NEO-VLA采用轻量图像分块和视觉语言联合计算，让流匹配动作专家读取多个深度的特征，而非固定视觉编码器的最终输出。
+
+## Perceptive Humanoid Motion from Simulation
+
+- [arXiv 2611.06908](https://arxiv.org/abs/2611.06908) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06908)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06908)
+
+HALO在1000个程序生成住宅中合成视觉—语言—动作数据，并组合人形技能。
+
+## Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
+
+- [arXiv 2611.06817](https://arxiv.org/abs/2611.06817) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06817)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06817)
+
+Open-HumanScale以整理后的5万小时人类第一视角语料研究数据规模效应，并将HumanWAM从纯人类预训练扩展到人机联合训练和视觉目标条件控制。
+
+## Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation
+
+- [arXiv 2611.06724](https://arxiv.org/abs/2611.06724) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06724)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06724)
+
+全栈叙述性综述串联灵巧手硬件、人类数据、迁移、基础模型及评测。
+
+## Which Physical Tactile Cues Matter for Contact-Rich Imitation Learning? A Controlled Real-Robot Study
+
+- [arXiv 2611.06673](https://arxiv.org/abs/2611.06673) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06673)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06673)
+
+在相同数据及策略下分离触觉RGB、几何和标记流信号。
+
+## STARE: Scene Text-Aware multimodal Retrieval for Everyday objects
+
+- [arXiv 2611.06089](https://arxiv.org/abs/2611.06089) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06089)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06089)
+
+STARE结合场景文字与视觉语义进行自由文本物体检索，采用跨语言视觉提示和命名实体重排序。
+
+## Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation
+
+- [arXiv 2611.05979](https://arxiv.org/abs/2611.05979) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05979)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05979)
+
+利用人手与物体未来状态预测构造物体中心RL奖励，并跨机器人手迁移。
+
+## GRASP: Gradient-Guided Sampling for Contact-Rich Physics-Based Motion Retargeting
+
+- [arXiv 2611.05754](https://arxiv.org/abs/2611.05754) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05754)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05754)
+
+GRASP从存档仿真轨迹估计局部梯度，实现无需可微仿真的接触密集重定向。
+
+## ELA: End-to-End Latent Action Policy Learning from Video Demonstrations
+
+- [arXiv 2611.05571](https://arxiv.org/abs/2611.05571) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05571)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05571)
+
+联合优化隐动作、策略与解码器，结合视频及少量带动作标注的机器人示范。
+
+## Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation
+
+- [arXiv 2611.05507](https://arxiv.org/abs/2611.05507) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05507)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05507)
+
+以显式接触力指令连接动作模仿与物体交互。
+
+## Learning to Live: A Step Toward Lifelong Embodied Intelligence
+
+- [arXiv 2611.00180](https://arxiv.org/abs/2611.00180) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.00180)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00180) · [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2611.00180)
+
+LIFE整合持续机器人感知、记忆和行动；本次修订更新RoboBeats记忆评测与基线来源。
+
+## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
+
+- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.00177)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00177) · [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2611.00177)
+
+AuroraWorld用结构化4D建模将外视角机器人视频转换为第一视角训练数据；v2实质修改评测呈现与基线协议。
+
+## HexaShell: A Universal Harness for Robot Coding Agents in Simulation and the Real World
+
+- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v3 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2610.23479)
+- 收录历史: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.zh-CN.md#arxiv-2610.23479) · [2026-11-05 (v3, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2610.23479)
+
+共享14工具机器人框架，将SAM3分割与几何定位、可选短文本任务技能和薄本体适配器分开。
+
+## Reverse to Advance: Teleoperation-Cost Effective Hard Policy Learning from Reversed Easy Tasks
+
+- [arXiv 2607.13455](https://arxiv.org/abs/2607.13455) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2607.13455)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2607.13455)
+
+Auto-E2H 利用简单任务的反向轨迹及迭代过滤数据学习困难操作。新增附录显著增强可审查性，覆盖价值评估器对照、训练种子波动、人工成本及方向相关接触阻力下的失效边界。
+
+## Warp: Structured Output-Space Adaptation for Frozen Robot Policies
+
+- [arXiv 2606.31043](https://arxiv.org/abs/2606.31043) · v4 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.31043)
+- 收录历史: [2026-11-05 (v4, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.31043)
+
+用结构化单调样条适配冻结机器人策略；本次新增匹配SplineRes对照和诊断，区分参数化优势与非线性动作重塑。
+
+## AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection
+
+- [arXiv 2606.23689](https://arxiv.org/abs/2606.23689) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.23689)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.23689)
+
+AutoDex 执行并标注生成的灵巧抓取，同时重置物体。本次修订将原先单纯强调吞吐量的叙述改为明确区分人工注意时间、总耗时及数据质量，并承认仍需间歇性干预。
+
+## Provably Safe, Yet Scalable Reinforcement Learning
+
+- [arXiv 2606.14536](https://arxiv.org/abs/2606.14536) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.14536)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.14536)
+
+PS2-RL结合学习备用策略与可微控制不变投影；v2新增多约束机器人控制测试并分析安全与性能来源。
+
+## Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning
+
+- [arXiv 2606.12109](https://arxiv.org/abs/2606.12109) · v3 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.12109)
+- 收录历史: [2026-11-05 (v3, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.12109)
+
+InDex 将同步的末端执行器/抓取意图预测与扩散式灵巧手解码器结合。更名后的修订版新增留出物体实例评估，并实质性修改训练预算及意图时序干预的试验说明。
+
+## FLAG: Flow Policy MaxEnt-RL by Latent Augmented Guidance
+
+- [arXiv 2605.30749](https://arxiv.org/abs/2605.30749) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2605.30749)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2605.30749)
+
+FLAG用局部重要性采样训练最大熵强化学习流策略；v2新增理论近似的实证检查并收窄性能主张。
+
+## AcroRL: Learning Aggressive Quadrotor Inversion using Bidirectional Thrust
+
+- [arXiv 2605.24301](https://arxiv.org/abs/2605.24301) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2605.24301)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2605.24301)
+
+AcroRL学习双向推力四旋翼翻转的参考轨迹调制；v2扩展仿真可靠性报告并明确小规模真机证据。
+
+## Learning Soft Robotic Dynamics with Active Exploration
+
+- [arXiv 2510.27428](https://arxiv.org/abs/2510.27428) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2510.27428)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2510.27428)
+
+SoftAE 通过不确定性驱动的乐观探索学习可复用的软体机器人动力学。本次修订新增软体与刚体接触实验及更强的探索/控制对照；原有跨平台验证和真机 2 毫米到达误差并非新增结果。
 
 ## DreamX: Video Diffusion Model is a Universal Latent Action Learner
 
@@ -521,13 +668,6 @@ OmniPiano用1至5只Shadow Hand统一灵巧钢琴演奏的标准、鲁棒、安�
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00193)
 
 Anchor 1用标定稀疏参考、筛选运动与显式误差反馈提升人形机器人操作稳定性。
-
-## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
-
-- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00177)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00177)
-
-以空间结构、时间锚点和运动先验，从稀疏外部视角合成机器人第一视角视频，并评估下游策略。
 
 ## TurboWAM: Learning What Matters for Fast World Action Models
 
@@ -2152,13 +2292,6 @@ v3 揭示长程完成率低、动作块延迟高于 π0.5；原子任务主成�
 - 收录历史: [2026-10-21 (v1, supplemental-previous-batch)](../daily/2026-10-21.zh-CN.md#arxiv-2610.26564)
 
 补核 2026-10-20 公告：解耦 RGB 目标、深度未来与动作；基础版 RoboTwin C2R 为 70.57%，真机使用 RGB-D，15B 结果另有预训练。
-
-## HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents
-
-- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v2 · [最新归档](../daily/2026-10-21.zh-CN.md#arxiv-2610.23479)
-- 收录历史: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.zh-CN.md#arxiv-2610.23479)
-
-实质修订新增 42 项 RoboDojo 任务的官方隐藏 seed 评测；46.9% 成功率与 v1 协议不同，公开工具不包含完整评测系统。
 
 ## GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation
 

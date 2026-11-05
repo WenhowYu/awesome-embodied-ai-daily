@@ -2,7 +2,84 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-187 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+197 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Motion-guided Contrastive Regularization For Latent World Models
+
+- [arXiv 2611.06901](https://arxiv.org/abs/2611.06901) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06901)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06901)
+
+Motion-guided contrastive regularization counters static-background collapse in JEPA world models by contrasting within-episode transitions with optical-flow-derived soft targets.
+
+## Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
+
+- [arXiv 2611.06817](https://arxiv.org/abs/2611.06817) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06817)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06817)
+
+Open-HumanScale studies human-video scaling with a curated 50,000-hour corpus, then extends HumanWAM from human-only pretraining to joint human–robot and visual-goal conditioning.
+
+## Interactive World Simulation with Cosmos for Physical AI
+
+- [arXiv 2611.06627](https://arxiv.org/abs/2611.06627) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06627)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06627)
+
+Cosmos adapts world foundation models to streaming action-conditioned simulation and simulator-state-conditioned rendering for bimanual manipulation, camera exploration and autonomous-driving views.
+
+## ReactWorld: Structuring Interaction Responses for Embodied Video Generation
+
+- [arXiv 2611.06120](https://arxiv.org/abs/2611.06120) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06120)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06120)
+
+ReactWorld predicts structured interaction-response fields and feeds motion-dependent feature increments and temporal-attention biases into embodied video generation.
+
+## TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds
+
+- [arXiv 2611.06061](https://arxiv.org/abs/2611.06061) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06061)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06061)
+
+TouchéWorld unifies camera navigation and hand gestures in generative worlds using aligned camera–hand data, hand-conditioning adapters, causal adaptation and few-step distillation; introduces TouchéBench.
+
+## Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models
+
+- [arXiv 2611.05847](https://arxiv.org/abs/2611.05847) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05847)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05847)
+
+Time-to-Goal learns temporal ranking costs while freezing a JEPA encoder and predictor.
+
+## SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model
+
+- [arXiv 2611.05443](https://arxiv.org/abs/2611.05443) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05443)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05443)
+
+SurgTransfer learns multi-step, context-invariant latent actions from surgical video to transfer procedural motion between scenes without requiring kinematic action labels.
+
+## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
+
+- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.00177)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00177) · [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2611.00177)
+
+AuroraWorld converts exocentric robot video into egocentric training views using structured4D modeling; v2 materially changes the evaluation presentation and baseline protocol.
+
+## Back to the Familiar Future: Failure Recovery for VLA Policies via Pre-Imagined Milestone Selection
+
+- [arXiv 2606.09258](https://arxiv.org/abs/2606.09258) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.09258)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.09258)
+
+B2FF recovers a frozen foresight VLA by selecting a pre-imagined visual milestone. The revision adds direct tests of imagined futures versus observed past states and recovery-specific VLA fine-tuning, plus meaningful evaluation corrections.
+
+## Learning Soft Robotic Dynamics with Active Exploration
+
+- [arXiv 2510.27428](https://arxiv.org/abs/2510.27428) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2510.27428)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2510.27428)
+
+SoftAE learns reusable soft-robot dynamics through uncertainty-driven optimistic exploration. The revision extends its evidence to soft–rigid contact and adds stronger exploration/control comparisons; the original multi-platform and 2 mm hardware reaching results are not new.
+
+## EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory
+
+- [arXiv 2510.01183](https://arxiv.org/abs/2510.01183) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2510.01183)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2510.01183)
+
+Panoramic world generation with explicit 3D memory; this entry records evidence and wording corrections, not a new method.
 
 ## DreamX: Video Diffusion Model is a Universal Latent Action Learner
 
@@ -269,13 +346,6 @@ TacMind learns action-conditioned tactile latent dynamics and uses predicted tac
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00427)
 
 Audits robustness of LeWorldModel latent-distance planning to small goal-image and observation perturbations.
-
-## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
-
-- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00177)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00177)
-
-Synthesizes robot egocentric video from sparse external views using spatial structure, temporal anchors and motion priors, then evaluates downstream policies.
 
 ## SparseWAM: Driving World-Action Models are Worth 16 Register Tokens
 

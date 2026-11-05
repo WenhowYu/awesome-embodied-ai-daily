@@ -2,7 +2,84 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-174 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+185 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement
+
+- [arXiv 2611.06905](https://arxiv.org/abs/2611.06905) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06905)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06905)
+
+Systematically compares direct policy adaptation, critic-guided action refinement and critic-guided policy extraction for multi-task online improvement of generalist robot policies.
+
+## TwinBridge: Digital Twin-Driven Policy and Reward Transfer for Real-World Reinforcement Learning in Laboratory Robotics
+
+- [arXiv 2611.06442](https://arxiv.org/abs/2611.06442) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06442)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06442)
+
+Digital twins supply policy initialization and dense visual reward supervision for real online refinement.
+
+## Online Adaptation to Latent Physical Properties for Learning from Demonstration
+
+- [arXiv 2611.06118](https://arxiv.org/abs/2611.06118) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06118)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06118)
+
+Updates physical-property latents online from prediction errors while policy and dynamics weights remain fixed.
+
+## Diversity-Aware Experience Replay via Statistical Leverage Scores
+
+- [arXiv 2611.05929](https://arxiv.org/abs/2611.05929) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05929)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05929)
+
+Leverage-based replay emphasizes unusual experience; goal-relative windows recover relational rarity.
+
+## Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning
+
+- [arXiv 2611.05667](https://arxiv.org/abs/2611.05667) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05667)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05667)
+
+PHIL previews future trajectories in XR and turns proactive corrections into preference pairs.
+
+## Warp: Structured Output-Space Adaptation for Frozen Robot Policies
+
+- [arXiv 2606.31043](https://arxiv.org/abs/2606.31043) · v4 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.31043)
+- Coverage history: [2026-11-05 (v4, revised)](../daily/2026-11-05.md#arxiv-2606.31043)
+
+Structured monotone spline adaptation of frozen robot policies; revision adds matched SplineRes controls and diagnostics separating parameterization benefits from nonlinear action reshaping.
+
+## Provably Safe, Yet Scalable Reinforcement Learning
+
+- [arXiv 2606.14536](https://arxiv.org/abs/2606.14536) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.14536)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.14536)
+
+PS2-RL combines a learned backup policy with a differentiable control-invariant projection; v2 adds multi-constraint robot-control tests and audits safety versus performance roles.
+
+## FLAG: Flow Policy MaxEnt-RL by Latent Augmented Guidance
+
+- [arXiv 2605.30749](https://arxiv.org/abs/2605.30749) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2605.30749)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2605.30749)
+
+FLAG trains flow policies for maximum-entropy reinforcement learning with localized importance sampling; v2 adds empirical checks of its theoretical approximations and narrows performance claims.
+
+## AcroRL: Learning Aggressive Quadrotor Inversion using Bidirectional Thrust
+
+- [arXiv 2605.24301](https://arxiv.org/abs/2605.24301) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2605.24301)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2605.24301)
+
+AcroRL learns reference modulation for bidirectional-thrust quadrotor inversions; v2 expands simulation reliability reporting and clarifies the small hardware evidence base.
+
+## Learning Soft Robotic Dynamics with Active Exploration
+
+- [arXiv 2510.27428](https://arxiv.org/abs/2510.27428) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2510.27428)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2510.27428)
+
+SoftAE learns reusable soft-robot dynamics through uncertainty-driven optimistic exploration. The revision extends its evidence to soft–rigid contact and adds stronger exploration/control comparisons; the original multi-platform and 2 mm hardware reaching results are not new.
+
+## MARLIN: Multi-Agent Reinforcement Learning Guided by Language-Based Inter-Robot Negotiation
+
+- [arXiv 2410.14383](https://arxiv.org/abs/2410.14383) · v5 · [Latest entry](../daily/2026-11-05.md#arxiv-2410.14383)
+- Coverage history: [2026-11-05 (v5, revised)](../daily/2026-11-05.md#arxiv-2410.14383)
+
+MARLIN combines MAPPO with language-based pairwise robot negotiation. This revision matters chiefly as a method and claim correction, rather than a new performance result.
 
 ## GSBR: Geometric Support Behavior Regularization for Online RL
 

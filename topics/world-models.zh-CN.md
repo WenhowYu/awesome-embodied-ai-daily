@@ -2,7 +2,84 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-187 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+197 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Motion-guided Contrastive Regularization For Latent World Models
+
+- [arXiv 2611.06901](https://arxiv.org/abs/2611.06901) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06901)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06901)
+
+该方法通过同一轨迹内的转移对比和光流软目标，缓解JEPA世界模型只保留静态背景、丢失控制相关变化的问题。
+
+## Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
+
+- [arXiv 2611.06817](https://arxiv.org/abs/2611.06817) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06817)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06817)
+
+Open-HumanScale以整理后的5万小时人类第一视角语料研究数据规模效应，并将HumanWAM从纯人类预训练扩展到人机联合训练和视觉目标条件控制。
+
+## Interactive World Simulation with Cosmos for Physical AI
+
+- [arXiv 2611.06627](https://arxiv.org/abs/2611.06627) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06627)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06627)
+
+Cosmos将世界基础模型适配为流式动作条件仿真，以及外部仿真状态条件渲染，覆盖双臂操作、相机探索与自动驾驶视角。
+
+## ReactWorld: Structuring Interaction Responses for Embodied Video Generation
+
+- [arXiv 2611.06120](https://arxiv.org/abs/2611.06120) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06120)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06120)
+
+ReactWorld预测结构化交互响应场，将运动相关特征增量和时间注意力偏置反馈到具身视频生成。
+
+## TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds
+
+- [arXiv 2611.06061](https://arxiv.org/abs/2611.06061) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06061)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06061)
+
+TouchéWorld通过相机与手部对齐数据、手部条件适配器、因果适配及少步蒸馏，将相机漫游与手势交互统一到生成世界，并提出TouchéBench。
+
+## Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models
+
+- [arXiv 2611.05847](https://arxiv.org/abs/2611.05847) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05847)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05847)
+
+Time-to-Goal冻结JEPA编码器与预测器，仅学习具有时间顺序的规划距离。
+
+## SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model
+
+- [arXiv 2611.05443](https://arxiv.org/abs/2611.05443) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05443)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05443)
+
+SurgTransfer从手术视频学习多步、上下文不变的隐动作，以在场景间迁移操作运动，无需运动学动作标签。
+
+## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
+
+- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.00177)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00177) · [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2611.00177)
+
+AuroraWorld用结构化4D建模将外视角机器人视频转换为第一视角训练数据；v2实质修改评测呈现与基线协议。
+
+## Back to the Familiar Future: Failure Recovery for VLA Policies via Pre-Imagined Milestone Selection
+
+- [arXiv 2606.09258](https://arxiv.org/abs/2606.09258) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.09258)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.09258)
+
+B2FF 通过选择预先想象的视觉里程碑帮助冻结的前瞻型 VLA 恢复执行。本次修订直接比较想象未来与历史观测作为恢复目标，并加入恢复数据微调 VLA 的对照及重要评估更正。
+
+## Learning Soft Robotic Dynamics with Active Exploration
+
+- [arXiv 2510.27428](https://arxiv.org/abs/2510.27428) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2510.27428)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2510.27428)
+
+SoftAE 通过不确定性驱动的乐观探索学习可复用的软体机器人动力学。本次修订新增软体与刚体接触实验及更强的探索/控制对照；原有跨平台验证和真机 2 毫米到达误差并非新增结果。
+
+## EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory
+
+- [arXiv 2510.01183](https://arxiv.org/abs/2510.01183) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2510.01183)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2510.01183)
+
+以显式三维记忆生成全景世界；本条记录证据和表述纠正，不视为新方法。
 
 ## DreamX: Video Diffusion Model is a Universal Latent Action Learner
 
@@ -269,13 +346,6 @@ TacMind学习动作条件触觉潜在动力学，并用预测触觉状态修正�
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00427)
 
 审计LeWorldModel潜空间距离规划对微小目标图像和观测扰动的稳健性。
-
-## AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation
-
-- [arXiv 2611.00177](https://arxiv.org/abs/2611.00177) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00177)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00177)
-
-以空间结构、时间锚点和运动先验，从稀疏外部视角合成机器人第一视角视频，并评估下游策略。
 
 ## SparseWAM: Driving World-Action Models are Worth 16 Register Tokens
 

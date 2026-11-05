@@ -2,7 +2,63 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-199 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+207 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## From Pixels to Actions - Towards Native Vision-Language-Action Policies
+
+- [arXiv 2611.06918](https://arxiv.org/abs/2611.06918) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06918)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06918)
+
+NEO-VLA uses lightweight patch tokenization and joint vision-language computation, exposing multiple backbone depths to a flow-matching action expert instead of a fixed visual encoder endpoint.
+
+## Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement
+
+- [arXiv 2611.06905](https://arxiv.org/abs/2611.06905) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06905)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06905)
+
+Systematically compares direct policy adaptation, critic-guided action refinement and critic-guided policy extraction for multi-task online improvement of generalist robot policies.
+
+## Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
+
+- [arXiv 2611.06817](https://arxiv.org/abs/2611.06817) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06817)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06817)
+
+Open-HumanScale studies human-video scaling with a curated 50,000-hour corpus, then extends HumanWAM from human-only pretraining to joint human–robot and visual-goal conditioning.
+
+## $A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation
+
+- [arXiv 2611.06447](https://arxiv.org/abs/2611.06447) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06447)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06447)
+
+Interaction-derived regions supervise VLA attention allocation and language-region alignment.
+
+## SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model
+
+- [arXiv 2611.05443](https://arxiv.org/abs/2611.05443) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05443)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05443)
+
+SurgTransfer learns multi-step, context-invariant latent actions from surgical video to transfer procedural motion between scenes without requiring kinematic action labels.
+
+## Test-Time Improvement of VLA Policies via Selected Diffusion Noise for Spurious-Robust Action Smoothing
+
+- [arXiv 2606.14084](https://arxiv.org/abs/2606.14084) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.14084)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.14084)
+
+SDN selects frozen-VLA action samples using object-grounding and jerk criteria. The revision adds mechanism-focused evidence: task-irrelevant masking controls, attribution-based ranking analysis, BYOVLA comparisons, and negative-set construction tests.
+
+## Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning
+
+- [arXiv 2606.12109](https://arxiv.org/abs/2606.12109) · v3 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.12109)
+- Coverage history: [2026-11-05 (v3, revised)](../daily/2026-11-05.md#arxiv-2606.12109)
+
+InDex couples synchronized end-effector/grasp-intent prediction with a diffusion hand decoder. The retitled revision adds held-out object-instance evaluation and materially revises training-budget and timing-test reporting.
+
+## Back to the Familiar Future: Failure Recovery for VLA Policies via Pre-Imagined Milestone Selection
+
+- [arXiv 2606.09258](https://arxiv.org/abs/2606.09258) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.09258)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.09258)
+
+B2FF recovers a frozen foresight VLA by selecting a pre-imagined visual milestone. The revision adds direct tests of imagined futures versus observed past states and recovery-specific VLA fine-tuning, plus meaningful evaluation corrections.
 
 ## DreamX: Video Diffusion Model is a Universal Latent Action Learner
 

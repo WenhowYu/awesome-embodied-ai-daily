@@ -2,7 +2,63 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-199 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+207 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## From Pixels to Actions - Towards Native Vision-Language-Action Policies
+
+- [arXiv 2611.06918](https://arxiv.org/abs/2611.06918) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06918)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06918)
+
+NEO-VLA采用轻量图像分块和视觉语言联合计算，让流匹配动作专家读取多个深度的特征，而非固定视觉编码器的最终输出。
+
+## Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement
+
+- [arXiv 2611.06905](https://arxiv.org/abs/2611.06905) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06905)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06905)
+
+系统比较直接策略适配、评论器引导的动作筛选和策略提取，以研究通用机器人策略的多任务在线改进。
+
+## Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
+
+- [arXiv 2611.06817](https://arxiv.org/abs/2611.06817) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06817)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06817)
+
+Open-HumanScale以整理后的5万小时人类第一视角语料研究数据规模效应，并将HumanWAM从纯人类预训练扩展到人机联合训练和视觉目标条件控制。
+
+## $A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation
+
+- [arXiv 2611.06447](https://arxiv.org/abs/2611.06447) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06447)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06447)
+
+从交互变化产生区域监督，约束VLA注意力及语言区域对齐。
+
+## SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model
+
+- [arXiv 2611.05443](https://arxiv.org/abs/2611.05443) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05443)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05443)
+
+SurgTransfer从手术视频学习多步、上下文不变的隐动作，以在场景间迁移操作运动，无需运动学动作标签。
+
+## Test-Time Improvement of VLA Policies via Selected Diffusion Noise for Spurious-Robust Action Smoothing
+
+- [arXiv 2606.14084](https://arxiv.org/abs/2606.14084) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.14084)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.14084)
+
+SDN 根据物体视觉定位和加加速度指标，从冻结 VLA 的动作样本中选择输出。本次修订新增针对机制的证据：任务无关遮罩对照、基于归因的排序分析、BYOVLA 比较及负样本集构建测试。
+
+## Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning
+
+- [arXiv 2606.12109](https://arxiv.org/abs/2606.12109) · v3 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.12109)
+- 收录历史: [2026-11-05 (v3, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.12109)
+
+InDex 将同步的末端执行器/抓取意图预测与扩散式灵巧手解码器结合。更名后的修订版新增留出物体实例评估，并实质性修改训练预算及意图时序干预的试验说明。
+
+## Back to the Familiar Future: Failure Recovery for VLA Policies via Pre-Imagined Milestone Selection
+
+- [arXiv 2606.09258](https://arxiv.org/abs/2606.09258) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.09258)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.09258)
+
+B2FF 通过选择预先想象的视觉里程碑帮助冻结的前瞻型 VLA 恢复执行。本次修订直接比较想象未来与历史观测作为恢复目标，并加入恢复数据微调 VLA 的对照及重要评估更正。
 
 ## DreamX: Video Diffusion Model is a Universal Latent Action Learner
 

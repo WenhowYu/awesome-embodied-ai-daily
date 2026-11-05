@@ -2,7 +2,77 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-269 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+277 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Rethinking Self-Repair in Code-as-Policy Agents: What Drives Retry Success?
+
+- [arXiv 2611.06863](https://arxiv.org/abs/2611.06863) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06863)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06863)
+
+自修复审计比较失败模板、重新采样、错配反馈及固定指导。
+
+## PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World
+
+- [arXiv 2611.06768](https://arxiv.org/abs/2611.06768) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06768)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06768)
+
+PyRUA-REAL将真实物理探索转化为持久经验与可复用可执行技能。
+
+## Compounding Physical RSI: Turning Execution Failure into Inherited Capability
+
+- [arXiv 2611.06654](https://arxiv.org/abs/2611.06654) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06654)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06654)
+
+以阶段诊断、行为正则离线RL及权重空间保留机制累积能力。
+
+## Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation
+
+- [arXiv 2611.06475](https://arxiv.org/abs/2611.06475) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06475)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06475)
+
+RoboCasa-Mem区分环境记忆和过程记忆，并依据机器人自身先前行为生成后续约束。
+
+## EviSeek: An Evidence-Centric Agentic Framework for Embodied Active Information Seeking
+
+- [arXiv 2611.06434](https://arxiv.org/abs/2611.06434) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06434)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06434)
+
+EviSeek将问题显式转为证据获取需求，再协调基于观察的动作与选择性证据保留，无需训练。
+
+## Can Astra Solve RoboMME without Breaking the Bank?
+
+- [arXiv 2611.06184](https://arxiv.org/abs/2611.06184) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06184)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06184)
+
+三级结构以高层规划器、VLA执行器及小型完成监测器减少昂贵规划调用。
+
+## STARE: Scene Text-Aware multimodal Retrieval for Everyday objects
+
+- [arXiv 2611.06089](https://arxiv.org/abs/2611.06089) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06089)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06089)
+
+STARE结合场景文字与视觉语义进行自由文本物体检索，采用跨语言视觉提示和命名实体重排序。
+
+## Learning to Live: A Step Toward Lifelong Embodied Intelligence
+
+- [arXiv 2611.00180](https://arxiv.org/abs/2611.00180) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.00180)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00180) · [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2611.00180)
+
+LIFE整合持续机器人感知、记忆和行动；本次修订更新RoboBeats记忆评测与基线来源。
+
+## HexaShell: A Universal Harness for Robot Coding Agents in Simulation and the Real World
+
+- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v3 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2610.23479)
+- 收录历史: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.zh-CN.md#arxiv-2610.23479) · [2026-11-05 (v3, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2610.23479)
+
+共享14工具机器人框架，将SAM3分割与几何定位、可选短文本任务技能和薄本体适配器分开。
+
+## Reverse to Advance: Teleoperation-Cost Effective Hard Policy Learning from Reversed Easy Tasks
+
+- [arXiv 2607.13455](https://arxiv.org/abs/2607.13455) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2607.13455)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2607.13455)
+
+Auto-E2H 利用简单任务的反向轨迹及迭代过滤数据学习困难操作。新增附录显著增强可审查性，覆盖价值评估器对照、训练种子波动、人工成本及方向相关接触阻力下的失效边界。
 
 ## PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
 
@@ -388,13 +458,6 @@ SPARK通过语义critic、针对性重访与选择性合并修正跨回合具身
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00297)
 
 Teach-Abstract-Apply把对话教授的流程抽象为可复用可执行技能。
-
-## Learning to Live: A Step Toward Lifelong Embodied Intelligence
-
-- [arXiv 2611.00180](https://arxiv.org/abs/2611.00180) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00180)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00180)
-
-LIFE结合流式观测门控、保留源证据的Plastic Memory和Explore-Distill-Mount工具构建。
 
 ## Seeing the Options: What Should a Visual Candidate See?
 
@@ -1781,13 +1844,6 @@ critic 加权残差学习被 ACT 吸收：关闭残差后的成功率从 16% 提
 - 收录历史: [2026-10-21 (v1, new)](../daily/2026-10-21.zh-CN.md#arxiv-2610.26995)
 
 Skill-DAG 记忆与按状态选择的 Skill-GNN 复用成功技能组合；ALFWorld 达 87.1%，未验证新运动技能获取或真机迁移。
-
-## HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents
-
-- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v2 · [最新归档](../daily/2026-10-21.zh-CN.md#arxiv-2610.23479)
-- 收录历史: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.zh-CN.md#arxiv-2610.23479)
-
-实质修订新增 42 项 RoboDojo 任务的官方隐藏 seed 评测；46.9% 成功率与 v1 协议不同，公开工具不包含完整评测系统。
 
 ## WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory and In-Context Learning
 

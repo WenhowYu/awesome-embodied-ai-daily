@@ -2,7 +2,84 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-174 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+185 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement
+
+- [arXiv 2611.06905](https://arxiv.org/abs/2611.06905) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06905)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06905)
+
+系统比较直接策略适配、评论器引导的动作筛选和策略提取，以研究通用机器人策略的多任务在线改进。
+
+## TwinBridge: Digital Twin-Driven Policy and Reward Transfer for Real-World Reinforcement Learning in Laboratory Robotics
+
+- [arXiv 2611.06442](https://arxiv.org/abs/2611.06442) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06442)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06442)
+
+数字孪生提供策略初始化和稠密视觉奖励监督，用于真机在线优化。
+
+## Online Adaptation to Latent Physical Properties for Learning from Demonstration
+
+- [arXiv 2611.06118](https://arxiv.org/abs/2611.06118) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.06118)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.06118)
+
+根据预测误差在线更新物理属性隐变量，策略及动力学模型权重保持不变。
+
+## Diversity-Aware Experience Replay via Statistical Leverage Scores
+
+- [arXiv 2611.05929](https://arxiv.org/abs/2611.05929) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05929)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05929)
+
+基于统计杠杆值的回放突出稀有经验，目标相对轨迹窗口识别关系型稀有事件。
+
+## Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning
+
+- [arXiv 2611.05667](https://arxiv.org/abs/2611.05667) · v1 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2611.05667)
+- 收录历史: [2026-11-05 (v1, new)](../daily/2026-11-05.zh-CN.md#arxiv-2611.05667)
+
+PHIL在XR中预览未来轨迹，将提前干预转化为偏好训练对。
+
+## Warp: Structured Output-Space Adaptation for Frozen Robot Policies
+
+- [arXiv 2606.31043](https://arxiv.org/abs/2606.31043) · v4 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.31043)
+- 收录历史: [2026-11-05 (v4, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.31043)
+
+用结构化单调样条适配冻结机器人策略；本次新增匹配SplineRes对照和诊断，区分参数化优势与非线性动作重塑。
+
+## Provably Safe, Yet Scalable Reinforcement Learning
+
+- [arXiv 2606.14536](https://arxiv.org/abs/2606.14536) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2606.14536)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2606.14536)
+
+PS2-RL结合学习备用策略与可微控制不变投影；v2新增多约束机器人控制测试并分析安全与性能来源。
+
+## FLAG: Flow Policy MaxEnt-RL by Latent Augmented Guidance
+
+- [arXiv 2605.30749](https://arxiv.org/abs/2605.30749) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2605.30749)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2605.30749)
+
+FLAG用局部重要性采样训练最大熵强化学习流策略；v2新增理论近似的实证检查并收窄性能主张。
+
+## AcroRL: Learning Aggressive Quadrotor Inversion using Bidirectional Thrust
+
+- [arXiv 2605.24301](https://arxiv.org/abs/2605.24301) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2605.24301)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2605.24301)
+
+AcroRL学习双向推力四旋翼翻转的参考轨迹调制；v2扩展仿真可靠性报告并明确小规模真机证据。
+
+## Learning Soft Robotic Dynamics with Active Exploration
+
+- [arXiv 2510.27428](https://arxiv.org/abs/2510.27428) · v2 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2510.27428)
+- 收录历史: [2026-11-05 (v2, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2510.27428)
+
+SoftAE 通过不确定性驱动的乐观探索学习可复用的软体机器人动力学。本次修订新增软体与刚体接触实验及更强的探索/控制对照；原有跨平台验证和真机 2 毫米到达误差并非新增结果。
+
+## MARLIN: Multi-Agent Reinforcement Learning Guided by Language-Based Inter-Robot Negotiation
+
+- [arXiv 2410.14383](https://arxiv.org/abs/2410.14383) · v5 · [最新归档](../daily/2026-11-05.zh-CN.md#arxiv-2410.14383)
+- 收录历史: [2026-11-05 (v5, revised)](../daily/2026-11-05.zh-CN.md#arxiv-2410.14383)
+
+MARLIN 将 MAPPO 与机器人之间基于语言的两两协商结合。本次修订主要是方法表述和结论范围的更正，并非新增性能结果。
 
 ## GSBR: Geometric Support Behavior Regularization for Online RL
 

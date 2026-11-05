@@ -2,7 +2,77 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-269 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+277 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Rethinking Self-Repair in Code-as-Policy Agents: What Drives Retry Success?
+
+- [arXiv 2611.06863](https://arxiv.org/abs/2611.06863) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06863)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06863)
+
+Self-repair audit compares failure templates with resampling, mismatched feedback and fixed guidance.
+
+## PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World
+
+- [arXiv 2611.06768](https://arxiv.org/abs/2611.06768) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06768)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06768)
+
+PyRUA-REAL converts physical exploration into persistent experience and reusable executable skills.
+
+## Compounding Physical RSI: Turning Execution Failure into Inherited Capability
+
+- [arXiv 2611.06654](https://arxiv.org/abs/2611.06654) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06654)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06654)
+
+Stage diagnosis, behavior-regularized offline RL and weight-space retention aim to compound inherited capabilities.
+
+## Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation
+
+- [arXiv 2611.06475](https://arxiv.org/abs/2611.06475) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06475)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06475)
+
+RoboCasa-Mem separates environment and process memory with constraints conditioned on the robot's own earlier behavior.
+
+## EviSeek: An Evidence-Centric Agentic Framework for Embodied Active Information Seeking
+
+- [arXiv 2611.06434](https://arxiv.org/abs/2611.06434) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06434)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06434)
+
+EviSeek explicitly converts questions into evidence-acquisition needs, then coordinates observation-conditioned actions and selective evidence retention without training.
+
+## Can Astra Solve RoboMME without Breaking the Bank?
+
+- [arXiv 2611.06184](https://arxiv.org/abs/2611.06184) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06184)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06184)
+
+Three-tier planner, VLA executor and small completion monitor reduce expensive planning calls.
+
+## STARE: Scene Text-Aware multimodal Retrieval for Everyday objects
+
+- [arXiv 2611.06089](https://arxiv.org/abs/2611.06089) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06089)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06089)
+
+STARE combines scene text and visual semantics for free-form object retrieval, using crosslingual visual prompts and named-entity-aware reranking.
+
+## Learning to Live: A Step Toward Lifelong Embodied Intelligence
+
+- [arXiv 2611.00180](https://arxiv.org/abs/2611.00180) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.00180)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00180) · [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2611.00180)
+
+LIFE integrates continuous robot perception, memory and action; this revision corrects the RoboBeats memory evaluation and comparator provenance.
+
+## HexaShell: A Universal Harness for Robot Coding Agents in Simulation and the Real World
+
+- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v3 · [Latest entry](../daily/2026-11-05.md#arxiv-2610.23479)
+- Coverage history: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.md#arxiv-2610.23479) · [2026-11-05 (v3, revised)](../daily/2026-11-05.md#arxiv-2610.23479)
+
+Shared 14-tool robot harness separates SAM3 segmentation and geometric localization from optional short task skills and thin embodiment adapters.
+
+## Reverse to Advance: Teleoperation-Cost Effective Hard Policy Learning from Reversed Easy Tasks
+
+- [arXiv 2607.13455](https://arxiv.org/abs/2607.13455) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2607.13455)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2607.13455)
+
+Auto-E2H learns difficult manipulation from reversed easy-task trajectories and iterative filtered rollouts. New appendices substantially strengthen auditing: critic controls, training-seed variability, operator cost and explicit failure boundaries under directional contact resistance.
 
 ## PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
 
@@ -388,13 +458,6 @@ SPARK uses a semantic critic, targeted physical revisits and selective merging t
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00297)
 
 Teach-Abstract-Apply turns dialogue-taught workflows into reusable executable skills.
-
-## Learning to Live: A Step Toward Lifelong Embodied Intelligence
-
-- [arXiv 2611.00180](https://arxiv.org/abs/2611.00180) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00180)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00180)
-
-LIFE combines streaming observation gates, evidence-preserving Plastic Memory, and Explore-Distill-Mount tool construction.
 
 ## Seeing the Options: What Should a Visual Candidate See?
 
@@ -1781,13 +1844,6 @@ Rebuilding and discarding task abstractions can reduce error reproduction while 
 - Coverage history: [2026-10-21 (v1, new)](../daily/2026-10-21.md#arxiv-2610.26995)
 
 Skill-DAG memory and state-conditioned Skill-GNN selection reuse successful skill compositions. ALFWorld reaches 87.1%, but the work does not establish new motor-skill acquisition or real-robot transfer.
-
-## HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents
-
-- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v2 · [Latest entry](../daily/2026-10-21.md#arxiv-2610.23479)
-- Coverage history: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.md#arxiv-2610.23479)
-
-A substantive revision adds official hidden-seed evaluation on 42 RoboDojo tasks. The 46.9% success rate uses a different protocol from v1; released tools do not include the entire evaluation system.
 
 ## WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory and In-Context Learning
 

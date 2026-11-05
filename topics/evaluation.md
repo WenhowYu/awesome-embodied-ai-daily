@@ -2,7 +2,119 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-368 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+383 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
+
+- [arXiv 2611.06911](https://arxiv.org/abs/2611.06911) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06911)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06911)
+
+BEAKER diagnoses execution-relevant perception and reasoning for self-driving chemical laboratories through expert-authored image/video questions, including affordance localization and feasible trajectory judgments.
+
+## VABAR: A Variational Automation Benchmark for Agentic Robotics
+
+- [arXiv 2611.06881](https://arxiv.org/abs/2611.06881) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06881)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06881)
+
+VABAR targets repeatable task variation with a skill library and programmatic references.
+
+## Where Is VLA Inference Time Spent? Bottlenecks and Optimization Interactions Across GPUs
+
+- [arXiv 2611.06710](https://arxiv.org/abs/2611.06710) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06710)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06710)
+
+VLA-Triage measures interaction among seven inference optimization families across models and GPUs.
+
+## Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models
+
+- [arXiv 2611.06653](https://arxiv.org/abs/2611.06653) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06653)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06653)
+
+Calibrated state-action-effect models detect semantic action-interface errors offline.
+
+## Interactive World Simulation with Cosmos for Physical AI
+
+- [arXiv 2611.06627](https://arxiv.org/abs/2611.06627) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.06627)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.06627)
+
+Cosmos adapts world foundation models to streaming action-conditioned simulation and simulator-state-conditioned rendering for bimanual manipulation, camera exploration and autonomous-driving views.
+
+## RACE: Calibrated Cumulative Scoring for Rollout-Free Robot Policy Checkpoint Selection
+
+- [arXiv 2611.05838](https://arxiv.org/abs/2611.05838) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05838)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05838)
+
+RACE ranks checkpoints from held-out successful trajectories using calibrated deviations and cumulative products.
+
+## MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics
+
+- [arXiv 2611.05567](https://arxiv.org/abs/2611.05567) · v1 · [Latest entry](../daily/2026-11-05.md#arxiv-2611.05567)
+- Coverage history: [2026-11-05 (v1, new)](../daily/2026-11-05.md#arxiv-2611.05567)
+
+Five controlled suites isolate spatial, instance, category and subtask generalization; includes bimanual BiMESA.
+
+## HexaShell: A Universal Harness for Robot Coding Agents in Simulation and the Real World
+
+- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v3 · [Latest entry](../daily/2026-11-05.md#arxiv-2610.23479)
+- Coverage history: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.md#arxiv-2610.23479) · [2026-11-05 (v3, revised)](../daily/2026-11-05.md#arxiv-2610.23479)
+
+Shared 14-tool robot harness separates SAM3 segmentation and geometric localization from optional short task skills and thin embodiment adapters.
+
+## AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection
+
+- [arXiv 2606.23689](https://arxiv.org/abs/2606.23689) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.23689)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.23689)
+
+AutoDex executes and labels generated dexterous grasps and resets objects. This revision replaces the earlier throughput-only story with explicit human-attention, wall-time and data-quality accounting, acknowledging intermittent intervention.
+
+## Provably Safe, Yet Scalable Reinforcement Learning
+
+- [arXiv 2606.14536](https://arxiv.org/abs/2606.14536) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.14536)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.14536)
+
+PS2-RL combines a learned backup policy with a differentiable control-invariant projection; v2 adds multi-constraint robot-control tests and audits safety versus performance roles.
+
+## Test-Time Improvement of VLA Policies via Selected Diffusion Noise for Spurious-Robust Action Smoothing
+
+- [arXiv 2606.14084](https://arxiv.org/abs/2606.14084) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.14084)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.14084)
+
+SDN selects frozen-VLA action samples using object-grounding and jerk criteria. The revision adds mechanism-focused evidence: task-irrelevant masking controls, attribution-based ranking analysis, BYOVLA comparisons, and negative-set construction tests.
+
+## Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning
+
+- [arXiv 2606.12109](https://arxiv.org/abs/2606.12109) · v3 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.12109)
+- Coverage history: [2026-11-05 (v3, revised)](../daily/2026-11-05.md#arxiv-2606.12109)
+
+InDex couples synchronized end-effector/grasp-intent prediction with a diffusion hand decoder. The retitled revision adds held-out object-instance evaluation and materially revises training-budget and timing-test reporting.
+
+## Back to the Familiar Future: Failure Recovery for VLA Policies via Pre-Imagined Milestone Selection
+
+- [arXiv 2606.09258](https://arxiv.org/abs/2606.09258) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2606.09258)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2606.09258)
+
+B2FF recovers a frozen foresight VLA by selecting a pre-imagined visual milestone. The revision adds direct tests of imagined futures versus observed past states and recovery-specific VLA fine-tuning, plus meaningful evaluation corrections.
+
+## FLAG: Flow Policy MaxEnt-RL by Latent Augmented Guidance
+
+- [arXiv 2605.30749](https://arxiv.org/abs/2605.30749) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2605.30749)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2605.30749)
+
+FLAG trains flow policies for maximum-entropy reinforcement learning with localized importance sampling; v2 adds empirical checks of its theoretical approximations and narrows performance claims.
+
+## EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory
+
+- [arXiv 2510.01183](https://arxiv.org/abs/2510.01183) · v2 · [Latest entry](../daily/2026-11-05.md#arxiv-2510.01183)
+- Coverage history: [2026-11-05 (v2, revised)](../daily/2026-11-05.md#arxiv-2510.01183)
+
+Panoramic world generation with explicit 3D memory; this entry records evidence and wording corrections, not a new method.
+
+## MARLIN: Multi-Agent Reinforcement Learning Guided by Language-Based Inter-Robot Negotiation
+
+- [arXiv 2410.14383](https://arxiv.org/abs/2410.14383) · v5 · [Latest entry](../daily/2026-11-05.md#arxiv-2410.14383)
+- Coverage history: [2026-11-05 (v5, revised)](../daily/2026-11-05.md#arxiv-2410.14383)
+
+MARLIN combines MAPPO with language-based pairwise robot negotiation. This revision matters chiefly as a method and claim correction, rather than a new performance result.
 
 ## LoopQ: Fair, Closed-Loop Evaluation of Quantized Vision-Language-Action Models
 
@@ -2488,13 +2600,6 @@ Skill-DAG memory and state-conditioned Skill-GNN selection reuse successful skil
 - Coverage history: [2026-10-21 (v1, supplemental-previous-batch)](../daily/2026-10-21.md#arxiv-2610.26564)
 
 Supplemental review of a 2026-10-20 announcement: RGB goals, depth futures, and actions are decoupled. Base RoboTwin C2R reaches 70.57%; real deployment requires RGB-D, and the 15B result uses additional pretraining.
-
-## HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents
-
-- [arXiv 2610.23479](https://arxiv.org/abs/2610.23479) · v2 · [Latest entry](../daily/2026-10-21.md#arxiv-2610.23479)
-- Coverage history: [2026-10-21 (v2, substantive-revision)](../daily/2026-10-21.md#arxiv-2610.23479)
-
-A substantive revision adds official hidden-seed evaluation on 42 RoboDojo tasks. The 46.9% success rate uses a different protocol from v1; released tools do not include the entire evaluation system.
 
 ## WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory and In-Context Learning
 
