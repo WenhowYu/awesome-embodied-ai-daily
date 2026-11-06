@@ -2,7 +2,140 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-207 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+225 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
+
+- [arXiv 2611.08462](https://arxiv.org/abs/2611.08462) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08462)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08462)
+
+OopsieRecover从干预中溯因学习语义空间纠正程序，仅在需要时引导冻结VLA。
+
+## VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
+
+- [arXiv 2611.08449](https://arxiv.org/abs/2611.08449) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08449)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08449)
+
+VFlash整体解码结构化视觉原语，而非逐坐标token生成。
+
+## Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing
+
+- [arXiv 2611.08425](https://arxiv.org/abs/2611.08425) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08425)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08425)
+
+VLA-Tug以潜在探针及统计校准实现早期失败告警与失败类型识别。
+
+## T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models
+
+- [arXiv 2611.08413](https://arxiv.org/abs/2611.08413) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08413)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08413)
+
+T3R无需重训VLA，结合分割token裁剪与显著性注意力引导。
+
+## SLA: Scaling Spatial-Language-Action Model via Continual Pre-training
+
+- [arXiv 2611.08373](https://arxiv.org/abs/2611.08373) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08373)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08373)
+
+SLA在pi0.5持续预训练及下游适配期间维持三维教师对齐。
+
+## Aligning Policy Encoders with a Shape Teacher
+
+- [arXiv 2611.08275](https://arxiv.org/abs/2611.08275) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08275)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08275)
+
+训练时以Point-MAE物体几何指导图像策略编码器，部署仍只用图像。
+
+## La-JEPA: Compact Robot Policies with Latent World Modeling
+
+- [arXiv 2611.08156](https://arxiv.org/abs/2611.08156) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08156)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08156)
+
+La-JEPA 在预训练V-JEPA2.1特征上从头训练紧凑动作/世界Transformer，推理时省去未来预测。
+
+## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
+
+- [arXiv 2611.08039](https://arxiv.org/abs/2611.08039) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08039)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08039)
+
+HITCH 提供三维点感知及全身指令接口，再训练 VLM 学习可复用的人形操作能力。
+
+## AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction
+
+- [arXiv 2611.07712](https://arxiv.org/abs/2611.07712) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07712)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07712)
+
+AffectiveVLA 为人形社交接触加入意图门控、柔顺控制和语音停止。
+
+## Concertina: Embodying Manipulation and Cognition in One Diffusion Vision-Language Model
+
+- [arXiv 2611.07513](https://arxiv.org/abs/2611.07513) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07513)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07513)
+
+Concertina将连续动作令牌和物理坐标监督直接放入共享扩散VLM，不另设动作生成Transformer。
+
+## Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks
+
+- [arXiv 2611.07411](https://arxiv.org/abs/2611.07411) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07411)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07411)
+
+利用机器人运动学提供通信双方共享、无需额外码率的上下文，压缩策略上行视频。
+
+## Efficient Diffusion Policy Fine Tuning with Latent Noise Representation Bridging
+
+- [arXiv 2611.07275](https://arxiv.org/abs/2611.07275) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07275)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07275)
+
+LARBRID 对齐动作空间与初始噪声空间价值表示，以适配扩散或流策略。
+
+## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
+
+- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.01215)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01215) · [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2611.01215)
+
+JADE 曾提出 VLM 与动作专家联合去噪；当前 arXiv 记录已撤稿。
+
+## DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation
+
+- [arXiv 2607.13033](https://arxiv.org/abs/2607.13033) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2607.13033)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2607.13033)
+
+DenseReward用2.7万成功/失败轨迹学习视觉语言进度评分，为机器人策略强化学习补充稀疏完成奖励。
+
+## ActQuant: Sub-4-bit Action-Guided Backbone Weight-Only Quantization for Vision-Language-Action Models
+
+- [arXiv 2605.24011](https://arxiv.org/abs/2605.24011) · v4 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2605.24011)
+- 收录历史: [2026-11-06 (v4, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2605.24011)
+
+动作感知低比特 VLA 量化：HSIC 分配张量位宽，Action-Mixed Fisher 优化缩放，并以 OmniModel.cpp 部署。
+
+## Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies
+
+- [arXiv 2605.17204](https://arxiv.org/abs/2605.17204) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2605.17204)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2605.17204)
+
+事件对齐SAE特征排序与保留残差的干预，用于研究VLA闭环行为的因果敏感性。
+
+## WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes
+
+- [arXiv 2605.15843](https://arxiv.org/abs/2605.15843) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2605.15843)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2605.15843)
+
+VLM agent 将单体生成 3DGS 世界分解成可操纵物体、补全背景并重建碰撞几何。
+
+## RoboCurate: Harnessing Diversity with Action-Verified Synthetic Data for Robot Learning
+
+- [arXiv 2602.18742](https://arxiv.org/abs/2602.18742) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2602.18742)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2602.18742)
+
+将逆动力学模型预测的动作在仿真器中回放，验证其与生成视频的运动一致性，再用于策略训练。
+
+## When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs
+
+- [arXiv 2602.17659](https://arxiv.org/abs/2602.17659) · v3 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2602.17659)
+- 收录历史: [2026-11-06 (v3, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2602.17659)
+
+LIBERO-CF在相同场景下测试替代指令；CAG对比有语言与无语言分支动作以抑制视觉捷径。
 
 ## From Pixels to Actions - Towards Native Vision-Language-Action Policies
 
@@ -269,13 +402,6 @@ TF²-Steering以预测及观测触觉通过残差专家混合调整flow-matching
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01390)
 
 Path-preserving Time Scaling分离参考路径重规划与延迟感知执行速度，用于冻结动作块策略。
-
-## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
-
-- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.01215)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01215)
-
-JADE每个去噪步把带噪动作latent反馈给VLM，与动作专家共同细化动作。
 
 ## Ripple: Deadline-Aware CPU-GPU Sharing for Embodied Inference
 

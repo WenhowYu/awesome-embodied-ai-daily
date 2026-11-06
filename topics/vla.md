@@ -2,7 +2,140 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-207 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+225 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
+
+- [arXiv 2611.08462](https://arxiv.org/abs/2611.08462) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08462)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08462)
+
+OopsieRecover abduces semantic spatial correction programs from interventions and steers a frozen VLA only when needed.
+
+## VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
+
+- [arXiv 2611.08449](https://arxiv.org/abs/2611.08449) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08449)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08449)
+
+VFlash jointly decodes structured visual primitives instead of serial coordinate tokens.
+
+## Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing
+
+- [arXiv 2611.08425](https://arxiv.org/abs/2611.08425) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08425)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08425)
+
+VLA-Tug uses latent probes and statistical calibration for early failure alarms and failure-mode classification.
+
+## T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models
+
+- [arXiv 2611.08413](https://arxiv.org/abs/2611.08413) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08413)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08413)
+
+T3R combines segmentation-based token pruning with saliency-based attention steering, without VLA retraining.
+
+## SLA: Scaling Spatial-Language-Action Model via Continual Pre-training
+
+- [arXiv 2611.08373](https://arxiv.org/abs/2611.08373) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08373)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08373)
+
+SLA maintains 3D teacher alignment through continual pretraining and downstream adaptation of pi0.5.
+
+## Aligning Policy Encoders with a Shape Teacher
+
+- [arXiv 2611.08275](https://arxiv.org/abs/2611.08275) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08275)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08275)
+
+Shape-teacher alignment transfers Point-MAE object geometry into image-policy features during training only.
+
+## La-JEPA: Compact Robot Policies with Latent World Modeling
+
+- [arXiv 2611.08156](https://arxiv.org/abs/2611.08156) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08156)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08156)
+
+La-JEPA trains compact action/world transformers from scratch over pretrained V-JEPA2.1 features, skipping future prediction at inference.
+
+## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
+
+- [arXiv 2611.08039](https://arxiv.org/abs/2611.08039) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08039)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08039)
+
+HITCH exposes 3D point perception and whole-body command interfaces, then teaches a VLM reusable humanoid operation.
+
+## AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction
+
+- [arXiv 2611.07712](https://arxiv.org/abs/2611.07712) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07712)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07712)
+
+AffectiveVLA adds intent gating, compliance profiles and a voice-triggered stop to humanoid social touch.
+
+## Concertina: Embodying Manipulation and Cognition in One Diffusion Vision-Language Model
+
+- [arXiv 2611.07513](https://arxiv.org/abs/2611.07513) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07513)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07513)
+
+Concertina embeds continuous action tokens and physical-coordinate supervision directly in a shared diffusion VLM, without a separate action-generation transformer.
+
+## Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks
+
+- [arXiv 2611.07411](https://arxiv.org/abs/2611.07411) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07411)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07411)
+
+Robot kinematics provide free shared context for learned video compression on policy uplinks.
+
+## Efficient Diffusion Policy Fine Tuning with Latent Noise Representation Bridging
+
+- [arXiv 2611.07275](https://arxiv.org/abs/2611.07275) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07275)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07275)
+
+LARBRID bridges action-space and initial-noise value representations to adapt diffusion/flow policies.
+
+## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
+
+- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.01215)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01215) · [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.01215)
+
+JADE proposed joint VLM/action-expert denoising; its current arXiv record is withdrawn.
+
+## DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation
+
+- [arXiv 2607.13033](https://arxiv.org/abs/2607.13033) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2607.13033)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2607.13033)
+
+DenseReward learns visual-language progress scores from 27k success/failure trajectories and supplements sparse completion rewards for robot policy RL.
+
+## ActQuant: Sub-4-bit Action-Guided Backbone Weight-Only Quantization for Vision-Language-Action Models
+
+- [arXiv 2605.24011](https://arxiv.org/abs/2605.24011) · v4 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.24011)
+- Coverage history: [2026-11-06 (v4, revised)](../daily/2026-11-06.md#arxiv-2605.24011)
+
+Action-aware sub-4-bit VLA weight-only quantization: HSIC allocates tensor bit widths, Action-Mixed Fisher optimizes scales, and OmniModel.cpp supports native deployment.
+
+## Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies
+
+- [arXiv 2605.17204](https://arxiv.org/abs/2605.17204) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.17204)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2605.17204)
+
+Event-grounded SAE feature ranking and residual-preserving interventions probe causal influences on closed-loop VLA behavior.
+
+## WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes
+
+- [arXiv 2605.15843](https://arxiv.org/abs/2605.15843) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.15843)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2605.15843)
+
+A VLM agent decomposes monolithic generated 3DGS worlds into manipulable objects, restores backgrounds and reconstructs collision geometry for editable simulation scenes.
+
+## RoboCurate: Harnessing Diversity with Action-Verified Synthetic Data for Robot Learning
+
+- [arXiv 2602.18742](https://arxiv.org/abs/2602.18742) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2602.18742)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2602.18742)
+
+Uses simulator replay to verify motion agreement between generated videos and inverse-dynamics action labels before training robot policies.
+
+## When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs
+
+- [arXiv 2602.17659](https://arxiv.org/abs/2602.17659) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2602.17659)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2602.17659)
+
+LIBERO-CF tests alternative instructions in identical scenes; CAG contrasts conditioned and unconditioned actions to reduce visual shortcuts.
 
 ## From Pixels to Actions - Towards Native Vision-Language-Action Policies
 
@@ -269,13 +402,6 @@ A serving study characterizes coupled brain KV-cache residency and VLA action de
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01390)
 
 Path-preserving Time Scaling separates reference-path replanning from latency-aware execution rate for frozen chunking policies.
-
-## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
-
-- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01215)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01215)
-
-JADE feeds noisy action latents back into the VLM at each denoising step to jointly refine actions with the action expert.
 
 ## Ripple: Deadline-Aware CPU-GPU Sharing for Embodied Inference
 

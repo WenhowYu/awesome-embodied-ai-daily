@@ -2,7 +2,175 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-197 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+220 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
+
+- [arXiv 2611.08449](https://arxiv.org/abs/2611.08449) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08449)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08449)
+
+VFlash整体解码结构化视觉原语，而非逐坐标token生成。
+
+## VisionSIM: Beyond Idealized Sensors - A Multi-Modal Simulator for Robot Perception
+
+- [arXiv 2611.08368](https://arxiv.org/abs/2611.08368) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08368)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08368)
+
+VisionSIM模拟传统及新型传感器的原始测量过程与特定失效模式。
+
+## GPWM: Modeling the World as 3D Particle Motion
+
+- [arXiv 2611.08338](https://arxiv.org/abs/2611.08338) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08338)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08338)
+
+GPWM在三维空间预测粒子与刚体运动，并搜索潜在噪声生成接触密集计划。
+
+## La-JEPA: Compact Robot Policies with Latent World Modeling
+
+- [arXiv 2611.08156](https://arxiv.org/abs/2611.08156) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08156)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08156)
+
+La-JEPA 在预训练V-JEPA2.1特征上从头训练紧凑动作/世界Transformer，推理时省去未来预测。
+
+## Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model
+
+- [arXiv 2611.08111](https://arxiv.org/abs/2611.08111) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08111)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08111)
+
+NegWAM 用接近专家但危险的轨迹后训练驾驶 WAM；推理时丢弃辅助安全分支。
+
+## STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion
+
+- [arXiv 2611.08097](https://arxiv.org/abs/2611.08097) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08097)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08097)
+
+STEP 结合跨模态掩码预测及动作条件潜在下一状态预测，训练人形控制表示。
+
+## WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation
+
+- [arXiv 2611.07939](https://arxiv.org/abs/2611.07939) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07939)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07939)
+
+WAM-Sim以姿态对齐道路结构、地理定位背景记忆和一次写入的物体身份令牌约束驾驶视频生成，再用在线流匹配强化学习后训练。
+
+## GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving
+
+- [arXiv 2611.07912](https://arxiv.org/abs/2611.07912) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07912)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07912)
+
+GuidedWAM在冻结驾驶WAM采样时，对干净动作估计施加可微目标能量。
+
+## Structure from Collision via Hypothesis-Space Reasoning
+
+- [arXiv 2611.07900](https://arxiv.org/abs/2611.07900) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07900)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07900)
+
+假设空间碰撞结构推断通过变形识别隐藏空腔，再用可微粒子仿真优化。
+
+## PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State
+
+- [arXiv 2611.07867](https://arxiv.org/abs/2611.07867) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07867)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07867)
+
+PlayGen2把显式3D世界状态预测与渲染分离，以持久占据网格和带身份索引的实体记忆建模，不将生成图像回灌动力学。
+
+## Learning Robotic World Models with Semantic and Visual Feedback
+
+- [arXiv 2611.07850](https://arxiv.org/abs/2611.07850) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07850)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07850)
+
+RoboImagine 通过多样候选未来和语义、视觉偏好反馈后训练机器人视觉世界模型。
+
+## Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes
+
+- [arXiv 2611.07730](https://arxiv.org/abs/2611.07730) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07730)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07730)
+
+训练时由社交与语义世界模型评价动作，将前瞻能力蒸馏进单次前向导航策略。
+
+## ArtCrafter: Feed-Forward Generation of Articulated 3D Object with Analytic Joint Derivation
+
+- [arXiv 2611.07658](https://arxiv.org/abs/2611.07658) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07658)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07658)
+
+ArtCrafter从静止与开启状态的两张图联合生成配对可动网格，再根据刚体变换解析计算URDF关节参数。
+
+## MAC-v2: Long-horizon model-based value expansion from pixels
+
+- [arXiv 2611.07245](https://arxiv.org/abs/2611.07245) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07245)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07245)
+
+MAC-v2结合无需图像重建的潜在动力学与动作分块，在像素输入的离线强化学习中进行长时域模型价值扩展。
+
+## Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation
+
+- [arXiv 2611.07229](https://arxiv.org/abs/2611.07229) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07229)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07229)
+
+以 5B RGB-D 世界动作模型显式学习腕部相机 UMI 示范中的度量几何。
+
+## ZipDrift: Generating Multimodal Short-Horizon MPC Costs with One-Step Drifting Models
+
+- [arXiv 2611.05793](https://arxiv.org/abs/2611.05793) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.05793)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2611.05793)
+
+此记录为内容或状态修正，不代表新的研究进展。
+
+## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
+
+- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.01215)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01215) · [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2611.01215)
+
+JADE 曾提出 VLM 与动作专家联合去噪；当前 arXiv 记录已撤稿。
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.00951)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951) · [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2611.00951)
+
+在仿真 G1 动作跟踪中，对比用想象轨迹梯度训练的双线性 Koopman 与 MLP 世界模型。
+
+## PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models
+
+- [arXiv 2610.31429](https://arxiv.org/abs/2610.31429) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2610.31429)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2610.31429)
+
+PhysTrace使用MLLM、视频—文本嵌入及选择性保留的状态描述，通过历史条件下的预期—观测对齐评估视频物理一致性，无需训练。此次修订新增面向世界—动作模型相关视频骨干的受控参考引导重建实验。
+
+## VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in Model-Based Reinforcement Learning
+
+- [arXiv 2610.02801](https://arxiv.org/abs/2610.02801) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2610.02801)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2610.02801)
+
+VIGOR结合弱强增强、动力学一致性与编码器稳定化，改善潜在世界模型强化学习的零样本视觉泛化。
+
+## World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning
+
+- [arXiv 2607.10630](https://arxiv.org/abs/2607.10630) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2607.10630)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2607.10630)
+
+角色条件对抗交通世界模型学习稀疏协作攻击，再冻结用于regret-CVaR自车规划器适应。
+
+## WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes
+
+- [arXiv 2605.15843](https://arxiv.org/abs/2605.15843) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2605.15843)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2605.15843)
+
+VLM agent 将单体生成 3DGS 世界分解成可操纵物体、补全背景并重建碰撞几何。
+
+## VTAM: Efficient Visuo-Tactile World-Action Models for Contact-Rich Manipulation without Tactile Pretraining
+
+- [arXiv 2603.23481](https://arxiv.org/abs/2603.23481) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2603.23481)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2603.23481)
+
+以共享视频主干学习视觉与触觉预测，并用光流接触代理量监督动作专家；推理无需完整视频去噪。
+
+## WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL
+
+- [arXiv 2602.13977](https://arxiv.org/abs/2602.13977) · v3 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2602.13977)
+- 收录历史: [2026-11-06 (v3, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2602.13977)
+
+此记录为内容或状态修正，不代表新的研究进展。
 
 ## Motion-guided Contrastive Regularization For Latent World Models
 
@@ -297,13 +465,6 @@ RAVEL区分世界模型内策略排序准确与成对真实环境审计是否提
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01039)
 
 pico-WAM分别干预提案生成与轨迹评分，诊断紧凑世界动作规划。
-
-## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
-
-- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
-
-受控负结果用Koopman/动作仿射模型替换人形跟踪中的MLP可微世界模型。
 
 ## Old Is Not False: Valid-Time Memory for Interactive Video World Models
 

@@ -2,7 +2,133 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-277 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+295 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
+
+- [arXiv 2611.08462](https://arxiv.org/abs/2611.08462) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08462)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08462)
+
+OopsieRecover从干预中溯因学习语义空间纠正程序，仅在需要时引导冻结VLA。
+
+## SCALE: Real-Time Latent Communication for Cyber-Physical Agents
+
+- [arXiv 2611.08390](https://arxiv.org/abs/2611.08390) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08390)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08390)
+
+SCALE复用消息间潜在token，并在带宽与截止时间约束下调度通信。
+
+## Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement
+
+- [arXiv 2611.08318](https://arxiv.org/abs/2611.08318) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08318)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08318)
+
+具身自我改进审计区分学习任务与过拟合暴露的成功判据。
+
+## RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines
+
+- [arXiv 2611.08308](https://arxiv.org/abs/2611.08308) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08308)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08308)
+
+RM-VLM把语言任务分解为奖励机命题，用冻结VLM落地视觉状态，并以概率自动机状态处理非马尔可夫奖励学习。
+
+## RoboARCade: Benchmarking Agentic Robot Control
+
+- [arXiv 2611.08209](https://arxiv.org/abs/2611.08209) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08209)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08209)
+
+RoboARCade以22项长时程任务、三形态检验多模态代理直接控制、记忆与上下文改进。
+
+## Leave It Better Than Found: Value-Guided Cooperation in Sequential Tasks
+
+- [arXiv 2611.08075](https://arxiv.org/abs/2611.08075) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08075)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08075)
+
+机器人共享价值函数并使用 KNN 不确定性过滤，实现无需共同训练的顺序协作。
+
+## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
+
+- [arXiv 2611.08039](https://arxiv.org/abs/2611.08039) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08039)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08039)
+
+HITCH 提供三维点感知及全身指令接口，再训练 VLM 学习可复用的人形操作能力。
+
+## Time-Indexed Skill Success Models for Latency-Aware Skill Selection and Timing in Dynamic Manipulation
+
+- [arXiv 2611.07964](https://arxiv.org/abs/2611.07964) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07964)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07964)
+
+按延迟启动时间建模技能成功率，同时规划技能及其启动时机。
+
+## WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation
+
+- [arXiv 2611.07939](https://arxiv.org/abs/2611.07939) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07939)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07939)
+
+WAM-Sim以姿态对齐道路结构、地理定位背景记忆和一次写入的物体身份令牌约束驾驶视频生成，再用在线流匹配强化学习后训练。
+
+## PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State
+
+- [arXiv 2611.07867](https://arxiv.org/abs/2611.07867) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07867)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07867)
+
+PlayGen2把显式3D世界状态预测与渲染分离，以持久占据网格和带身份索引的实体记忆建模，不将生成图像回灌动力学。
+
+## Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents
+
+- [arXiv 2611.07825](https://arxiv.org/abs/2611.07825) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07825)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07825)
+
+Generate-then-Rank微调符号目标生成，再从候选错误学习输出偏好。
+
+## Which Objects Stay? Learning Hierarchical Persistence Beliefs for Lifelong Open-Vocabulary Object Maps
+
+- [arXiv 2611.07662](https://arxiv.org/abs/2611.07662) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07662)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07662)
+
+HiPer按外观和几何检索持久性先验，在线更新物体级贝叶斯存续信念，并在物体换位时迁移已学信念。
+
+## Binding Paraphrased Instructions to Encountered Objects in sLLM Agents under Partial Observability
+
+- [arXiv 2611.07599](https://arxiv.org/abs/2611.07599) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07599)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07599)
+
+ALFWorld-Para诊断指令同义词带来的落地失误；无需训练的BINDIntent在部分可观测环境中，将表达概率性绑定到已见物体标签。
+
+## Embodied RAG++: Retrieval-Augmented Generation From What Exists to What Works in Embodied Scenes
+
+- [arXiv 2611.07517](https://arxiv.org/abs/2611.07517) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07517)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07517)
+
+Embodied RAG++ 将产品手册、场景对象实例与确定性的机器人可达性推理结合。
+
+## Fast and Reliable Open-Vocabulary Object Search with Absence Detection from Robot Memory
+
+- [arXiv 2611.07493](https://arxiv.org/abs/2611.07493) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07493)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07493)
+
+先检索再视觉验证，使机器人记忆能在目标不存在时拒绝返回误匹配。
+
+## MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments
+
+- [arXiv 2611.07417](https://arxiv.org/abs/2611.07417) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07417)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07417)
+
+MessyNav 在 VLM 规划前显式判断可供性，决定移动或绕开障碍物。
+
+## PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models
+
+- [arXiv 2610.31429](https://arxiv.org/abs/2610.31429) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2610.31429)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2610.31429)
+
+PhysTrace使用MLLM、视频—文本嵌入及选择性保留的状态描述，通过历史条件下的预期—观测对齐评估视频物理一致性，无需训练。此次修订新增面向世界—动作模型相关视频骨干的受控参考引导重建实验。
+
+## EmboTeam: Asymmetric State Grounding for Heterogeneous Multi-Robot Collaboration
+
+- [arXiv 2601.11063](https://arxiv.org/abs/2601.11063) · v3 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2601.11063)
+- 收录历史: [2026-11-06 (v3, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2601.11063)
+
+LLM生成状态预期，经PDDL验证后用并行行为树、反应式检查和同步协调异构机器人技能。
 
 ## Rethinking Self-Repair in Code-as-Policy Agents: What Drives Retry Success?
 

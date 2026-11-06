@@ -2,7 +2,252 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-383 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+417 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing
+
+- [arXiv 2611.08425](https://arxiv.org/abs/2611.08425) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08425)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08425)
+
+VLA-Tug uses latent probes and statistical calibration for early failure alarms and failure-mode classification.
+
+## T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models
+
+- [arXiv 2611.08413](https://arxiv.org/abs/2611.08413) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08413)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08413)
+
+T3R combines segmentation-based token pruning with saliency-based attention steering, without VLA retraining.
+
+## VisionSIM: Beyond Idealized Sensors - A Multi-Modal Simulator for Robot Perception
+
+- [arXiv 2611.08368](https://arxiv.org/abs/2611.08368) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08368)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08368)
+
+VisionSIM simulates raw measurement processes and modality-specific failures for conventional and emerging sensors.
+
+## Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement
+
+- [arXiv 2611.08318](https://arxiv.org/abs/2611.08318) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08318)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08318)
+
+An embodied self-improvement audit separates learning the instructed task from overfitting exposed success verifiers.
+
+## Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds
+
+- [arXiv 2611.08286](https://arxiv.org/abs/2611.08286) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08286)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08286)
+
+Interactive Visual Gym evaluates assistants in closed-loop simulated cooking, household and mobile-interface tasks, with persona-conditioned users and controlled errors.
+
+## RoboARCade: Benchmarking Agentic Robot Control
+
+- [arXiv 2611.08209](https://arxiv.org/abs/2611.08209) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08209)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08209)
+
+RoboARCade isolates direct multimodal-agent robot control, memory and in-context improvement across 22 long-horizon tasks and 3 embodiments.
+
+## La-JEPA: Compact Robot Policies with Latent World Modeling
+
+- [arXiv 2611.08156](https://arxiv.org/abs/2611.08156) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08156)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08156)
+
+La-JEPA trains compact action/world transformers from scratch over pretrained V-JEPA2.1 features, skipping future prediction at inference.
+
+## Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning
+
+- [arXiv 2611.08144](https://arxiv.org/abs/2611.08144) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08144)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08144)
+
+A step ledger checks the environment-trainer wire protocol to expose silent RL data faults.
+
+## Time-Indexed Skill Success Models for Latency-Aware Skill Selection and Timing in Dynamic Manipulation
+
+- [arXiv 2611.07964](https://arxiv.org/abs/2611.07964) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07964)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07964)
+
+Time-indexed competence predicts success conditional on delayed skill launch and plans both skill and timing.
+
+## PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion
+
+- [arXiv 2611.07679](https://arxiv.org/abs/2611.07679) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07679)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07679)
+
+PhySA separates VLM aesthetic rewards from state-based physical smoothness corrections.
+
+## Which Objects Stay? Learning Hierarchical Persistence Beliefs for Lifelong Open-Vocabulary Object Maps
+
+- [arXiv 2611.07662](https://arxiv.org/abs/2611.07662) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07662)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07662)
+
+HiPer retrieves appearance/geometry-based persistence priors, updates object-specific Bayesian survival beliefs, and transfers those beliefs when objects relocate.
+
+## GraspBench: Execution-Aware Cross-Robot Evaluation of 6-DoF Grasp Generation in MuJoCo
+
+- [arXiv 2611.07651](https://arxiv.org/abs/2611.07651) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07651)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07651)
+
+GraspBench evaluates complete grasp proposal-to-execution pipelines across robot embodiments.
+
+## Binding Paraphrased Instructions to Encountered Objects in sLLM Agents under Partial Observability
+
+- [arXiv 2611.07599](https://arxiv.org/abs/2611.07599) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07599)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07599)
+
+ALFWorld-Para diagnoses instruction-synonym grounding failures; training-free BINDIntent probabilistically binds phrases to encountered object labels under partial observability.
+
+## Embodied RAG++: Retrieval-Augmented Generation From What Exists to What Works in Embodied Scenes
+
+- [arXiv 2611.07517](https://arxiv.org/abs/2611.07517) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07517)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07517)
+
+Embodied RAG++ joins product manuals with scene instances and deterministic robot-object feasibility.
+
+## Concertina: Embodying Manipulation and Cognition in One Diffusion Vision-Language Model
+
+- [arXiv 2611.07513](https://arxiv.org/abs/2611.07513) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07513)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07513)
+
+Concertina embeds continuous action tokens and physical-coordinate supervision directly in a shared diffusion VLM, without a separate action-generation transformer.
+
+## Fast and Reliable Open-Vocabulary Object Search with Absence Detection from Robot Memory
+
+- [arXiv 2611.07493](https://arxiv.org/abs/2611.07493) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07493)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07493)
+
+Retrieval followed by visual verification lets robot memory abstain when an object is absent.
+
+## Closed-Loop Physics-Based Manipulation Evaluation at a Commodity Price: What 4.4 L4 GPU hours at $3.50 Buys You
+
+- [arXiv 2611.07441](https://arxiv.org/abs/2611.07441) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07441)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07441)
+
+A commodity-GPU harness makes repeated closed-loop manipulation evaluation inexpensive.
+
+## IMUDINO: Self-distilled Foundation Model for Inertial Sensing
+
+- [arXiv 2611.07437](https://arxiv.org/abs/2611.07437) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07437)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07437)
+
+IMUDINO adapts DINO-style self-distillation to inertial signals with motion-preserving augmentations and frequency-aware positions, transferring wearable-IMU features to robot odometry.
+
+## Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks
+
+- [arXiv 2611.07411](https://arxiv.org/abs/2611.07411) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07411)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07411)
+
+Robot kinematics provide free shared context for learned video compression on policy uplinks.
+
+## How do Transformers Perform Low-Level Control In-Context?
+
+- [arXiv 2611.07291](https://arxiv.org/abs/2611.07291) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07291)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07291)
+
+A GPT-2-style controller learns to stabilize unknown nonlinear systems using passive, unforced trajectories as context rather than known system parameters.
+
+## VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations
+
+- [arXiv 2611.07272](https://arxiv.org/abs/2611.07272) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07272)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07272)
+
+Consumer VR head/hand tracking supplies egocentric demonstrations for simulated manipulation.
+
+## Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation
+
+- [arXiv 2611.07229](https://arxiv.org/abs/2611.07229) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07229)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07229)
+
+A 5B RGB-D world-action model makes metric geometry explicit in wrist-camera UMI demonstrations.
+
+## ZipDrift: Generating Multimodal Short-Horizon MPC Costs with One-Step Drifting Models
+
+- [arXiv 2611.05793](https://arxiv.org/abs/2611.05793) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.05793)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.05793)
+
+This record documents a correction or status change, not a new research advance.
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.00951)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951) · [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.00951)
+
+Negative study comparing bilinear Koopman and MLP world models for learning simulated G1 motion tracking through imagined-rollout gradients.
+
+## PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models
+
+- [arXiv 2610.31429](https://arxiv.org/abs/2610.31429) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.31429)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2610.31429)
+
+PhysTrace is a training-free, history-conditioned expectation–observation alignment evaluator for physical consistency in video, using an MLLM, video–text embeddings and selectively retained state descriptions. The revision adds a controlled reference-guided reconstruction experiment for video backbones relevant to world–action models.
+
+## Evo-DexBench: Benchmarking Generalization across Related Tasks for Dexterous Manipulation
+
+- [arXiv 2610.21180](https://arxiv.org/abs/2610.21180) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.21180)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2610.21180)
+
+Core-Gen functional-transfer benchmark with 30 tasks, six families and 1,248 simulated dexterous-hand multimodal demonstrations including tactile signals.
+
+## VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in Model-Based Reinforcement Learning
+
+- [arXiv 2610.02801](https://arxiv.org/abs/2610.02801) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.02801)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2610.02801)
+
+VIGOR combines weak-to-strong augmentation, dynamics consistency and encoder stabilization for zero-shot visual generalization of latent world-model RL.
+
+## CoDiMAD: Diffusion-Based Privileged Distillation for Communication-Free Multi-Robot Coordination
+
+- [arXiv 2607.09587](https://arxiv.org/abs/2607.09587) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2607.09587)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2607.09587)
+
+CoDiMAD distills privileged MAPPO into local-history diffusion policies to avoid averaging distinct cooperative action modes.
+
+## ActQuant: Sub-4-bit Action-Guided Backbone Weight-Only Quantization for Vision-Language-Action Models
+
+- [arXiv 2605.24011](https://arxiv.org/abs/2605.24011) · v4 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.24011)
+- Coverage history: [2026-11-06 (v4, revised)](../daily/2026-11-06.md#arxiv-2605.24011)
+
+Action-aware sub-4-bit VLA weight-only quantization: HSIC allocates tensor bit widths, Action-Mixed Fisher optimizes scales, and OmniModel.cpp supports native deployment.
+
+## Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies
+
+- [arXiv 2605.17204](https://arxiv.org/abs/2605.17204) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.17204)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2605.17204)
+
+Event-grounded SAE feature ranking and residual-preserving interventions probe causal influences on closed-loop VLA behavior.
+
+## WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes
+
+- [arXiv 2605.15843](https://arxiv.org/abs/2605.15843) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.15843)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2605.15843)
+
+A VLM agent decomposes monolithic generated 3DGS worlds into manipulable objects, restores backgrounds and reconstructs collision geometry for editable simulation scenes.
+
+## VTAM: Efficient Visuo-Tactile World-Action Models for Contact-Rich Manipulation without Tactile Pretraining
+
+- [arXiv 2603.23481](https://arxiv.org/abs/2603.23481) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2603.23481)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2603.23481)
+
+Adapts a shared video backbone to visual/tactile prediction and trains an action expert with an optical-flow-derived contact proxy; inference does not fully denoise videos.
+
+## RoboCurate: Harnessing Diversity with Action-Verified Synthetic Data for Robot Learning
+
+- [arXiv 2602.18742](https://arxiv.org/abs/2602.18742) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2602.18742)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2602.18742)
+
+Uses simulator replay to verify motion agreement between generated videos and inverse-dynamics action labels before training robot policies.
+
+## When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs
+
+- [arXiv 2602.17659](https://arxiv.org/abs/2602.17659) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2602.17659)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2602.17659)
+
+LIBERO-CF tests alternative instructions in identical scenes; CAG contrasts conditioned and unconditioned actions to reduce visual shortcuts.
+
+## EmboTeam: Asymmetric State Grounding for Heterogeneous Multi-Robot Collaboration
+
+- [arXiv 2601.11063](https://arxiv.org/abs/2601.11063) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2601.11063)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2601.11063)
+
+LLM-generated state expectations, PDDL verification and parallel behavior trees coordinate heterogeneous robot skills through reactive checks and synchronization.
 
 ## BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
 
@@ -535,13 +780,6 @@ Leap-VLA decouples a slow semantic VLM from a fast visual action expert and expl
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00957)
 
 Multiple pretrained tactile encoders are integrated into Diffusion Policy under common settings, testing fine-tuning and task-specific mid-training.
-
-## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
-
-- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00951)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951)
-
-A controlled negative result replaces an MLP differentiable world model with Koopman/action-affine alternatives for humanoid tracking.
 
 ## Verifying Test-State Identity in Paired Evaluation of Vision-Language-Action Models
 

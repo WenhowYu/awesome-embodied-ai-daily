@@ -2,7 +2,217 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-185 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+214 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
+
+- [arXiv 2611.08462](https://arxiv.org/abs/2611.08462) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08462)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08462)
+
+OopsieRecover abduces semantic spatial correction programs from interventions and steers a frozen VLA only when needed.
+
+## Latent RL Priors for Data-Efficient Dexterous Manipulation
+
+- [arXiv 2611.08458](https://arxiv.org/abs/2611.08458) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08458)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08458)
+
+Latent RL Prior freezes a privileged-RL action decoder and learns an image-to-latent interface from demonstrations.
+
+## SHORE: Stability-Hybrid On-Policy Reinforcement Learning for Online Bin Packing
+
+- [arXiv 2611.08364](https://arxiv.org/abs/2611.08364) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08364)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08364)
+
+SHORE combines learned stability probability with stability-conditioned return for online bin packing.
+
+## RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines
+
+- [arXiv 2611.08308](https://arxiv.org/abs/2611.08308) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08308)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08308)
+
+RM-VLM decomposes language tasks into reward-machine propositions, grounds them with a frozen VLM, and tracks a probabilistic automaton state for non-Markovian reward learning.
+
+## Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds
+
+- [arXiv 2611.08286](https://arxiv.org/abs/2611.08286) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08286)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08286)
+
+Interactive Visual Gym evaluates assistants in closed-loop simulated cooking, household and mobile-interface tasks, with persona-conditioned users and controlled errors.
+
+## Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning
+
+- [arXiv 2611.08144](https://arxiv.org/abs/2611.08144) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08144)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08144)
+
+A step ledger checks the environment-trainer wire protocol to expose silent RL data faults.
+
+## Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model
+
+- [arXiv 2611.08111](https://arxiv.org/abs/2611.08111) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08111)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08111)
+
+NegWAM post-trains driving WAMs against dangerous near-expert trajectories; auxiliary safety branch is discarded at inference.
+
+## STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion
+
+- [arXiv 2611.08097](https://arxiv.org/abs/2611.08097) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08097)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08097)
+
+STEP couples cross-modal masked prediction with action-conditioned latent next-state prediction for humanoid control.
+
+## Leave It Better Than Found: Value-Guided Cooperation in Sequential Tasks
+
+- [arXiv 2611.08075](https://arxiv.org/abs/2611.08075) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08075)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08075)
+
+Robots share value functions and a KNN uncertainty filter for ad hoc sequential cooperation.
+
+## Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour
+
+- [arXiv 2611.08056](https://arxiv.org/abs/2611.08056) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08056)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08056)
+
+Progressive imitation first acquires parkour skills, then relaxes motion priors to adapt hand/knee support.
+
+## WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation
+
+- [arXiv 2611.07939](https://arxiv.org/abs/2611.07939) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07939)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07939)
+
+WAM-Sim anchors driving-video generation with pose-aligned road structure, geolocated background memory and write-once object identity tokens, then applies online flow-matching RL.
+
+## GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving
+
+- [arXiv 2611.07912](https://arxiv.org/abs/2611.07912) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07912)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07912)
+
+GuidedWAM applies differentiable objective energies to clean-action estimates during frozen driving-WAM sampling.
+
+## TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation
+
+- [arXiv 2611.07881](https://arxiv.org/abs/2611.07881) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07881)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07881)
+
+TactileLab approximates shear with rigid-body tactile flow and translates real sensor images into simulation representations.
+
+## Learning Robotic World Models with Semantic and Visual Feedback
+
+- [arXiv 2611.07850](https://arxiv.org/abs/2611.07850) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07850)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07850)
+
+RoboImagine post-trains visual robot world models using diverse candidate futures and semantic/visual preferences.
+
+## Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes
+
+- [arXiv 2611.07730](https://arxiv.org/abs/2611.07730) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07730)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07730)
+
+Social/semantic world models rank actions during training, then distill foresight into a single-pass navigation policy.
+
+## PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion
+
+- [arXiv 2611.07679](https://arxiv.org/abs/2611.07679) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07679)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07679)
+
+PhySA separates VLM aesthetic rewards from state-based physical smoothness corrections.
+
+## Semantics-to-Contact: A Stagewise Framework for Robust Contact-Rich Manipulation
+
+- [arXiv 2611.07532](https://arxiv.org/abs/2611.07532) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07532)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07532)
+
+S2C separates VLM semantic localization from force-aware human-in-the-loop residual RL.
+
+## How do Transformers Perform Low-Level Control In-Context?
+
+- [arXiv 2611.07291](https://arxiv.org/abs/2611.07291) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07291)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07291)
+
+A GPT-2-style controller learns to stabilize unknown nonlinear systems using passive, unforced trajectories as context rather than known system parameters.
+
+## Efficient Diffusion Policy Fine Tuning with Latent Noise Representation Bridging
+
+- [arXiv 2611.07275](https://arxiv.org/abs/2611.07275) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07275)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07275)
+
+LARBRID bridges action-space and initial-noise value representations to adapt diffusion/flow policies.
+
+## An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects
+
+- [arXiv 2611.07261](https://arxiv.org/abs/2611.07261) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07261)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07261)
+
+Studies RL training stacks, relative keypoint observations and randomization for deformable linear objects.
+
+## MAC-v2: Long-horizon model-based value expansion from pixels
+
+- [arXiv 2611.07245](https://arxiv.org/abs/2611.07245) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07245)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07245)
+
+MAC-v2 combines reconstruction-free latent dynamics and action chunking for long-horizon model-based value expansion in pixel-based offline RL.
+
+## ZipDrift: Generating Multimodal Short-Horizon MPC Costs with One-Step Drifting Models
+
+- [arXiv 2611.05793](https://arxiv.org/abs/2611.05793) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.05793)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.05793)
+
+This record documents a correction or status change, not a new research advance.
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.00951)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951) · [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.00951)
+
+Negative study comparing bilinear Koopman and MLP world models for learning simulated G1 motion tracking through imagined-rollout gradients.
+
+## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
+
+- [arXiv 2610.39327](https://arxiv.org/abs/2610.39327) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.39327)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2610.39327)
+
+Adds a real-robot-oriented post-training recipe and matched old/new checkpoint evaluations. Starting from the v0.1 tracker, v1.0 adds 4,000 training iterations with deployment torque limits, 0–40 ms actuation delay, gain randomization, and a near-torque-limit penalty; the new run takes about 9.2 GPU-hours on one RTX PRO 6000.
+
+## VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in Model-Based Reinforcement Learning
+
+- [arXiv 2610.02801](https://arxiv.org/abs/2610.02801) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.02801)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2610.02801)
+
+VIGOR combines weak-to-strong augmentation, dynamics consistency and encoder stabilization for zero-shot visual generalization of latent world-model RL.
+
+## PFM-HR: Pose Flow Matching for Humanoid Robots
+
+- [arXiv 2608.03227](https://arxiv.org/abs/2608.03227) · v4 · [Latest entry](../daily/2026-11-06.md#arxiv-2608.03227)
+- Coverage history: [2026-11-06 (v4, revised)](../daily/2026-11-06.md#arxiv-2608.03227)
+
+PFM-HR learns a frozen unordered-pose flow-matching prior and uses its Jacobian response to shape humanoid tracking rewards.
+
+## DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation
+
+- [arXiv 2607.13033](https://arxiv.org/abs/2607.13033) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2607.13033)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2607.13033)
+
+DenseReward learns visual-language progress scores from 27k success/failure trajectories and supplements sparse completion rewards for robot policy RL.
+
+## World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning
+
+- [arXiv 2607.10630](https://arxiv.org/abs/2607.10630) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2607.10630)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2607.10630)
+
+A role-conditioned adversarial traffic world model trains sparse cooperative attacks, then remains frozen for regret-CVaR ego-planner adaptation.
+
+## CoDiMAD: Diffusion-Based Privileged Distillation for Communication-Free Multi-Robot Coordination
+
+- [arXiv 2607.09587](https://arxiv.org/abs/2607.09587) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2607.09587)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2607.09587)
+
+CoDiMAD distills privileged MAPPO into local-history diffusion policies to avoid averaging distinct cooperative action modes.
+
+## EmboTeam: Asymmetric State Grounding for Heterogeneous Multi-Robot Collaboration
+
+- [arXiv 2601.11063](https://arxiv.org/abs/2601.11063) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2601.11063)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2601.11063)
+
+LLM-generated state expectations, PDDL verification and parallel behavior trees coordinate heterogeneous robot skills through reactive checks and synchronization.
 
 ## Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement
 
@@ -304,13 +514,6 @@ A monocular humanoid dodgeball system combines temporal threat estimation with l
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01139)
 
 RAVEL distinguishes accurate policy ranking inside a learned world model from informative paired real-environment audits.
-
-## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
-
-- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00951)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951)
-
-A controlled negative result replaces an MLP differentiable world model with Koopman/action-affine alternatives for humanoid tracking.
 
 ## Toward Counterfactual Learning for Selective Re-Examination in Agentic Visual Search
 

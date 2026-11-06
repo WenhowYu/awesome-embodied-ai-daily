@@ -2,7 +2,280 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [All topics](README.md)
 
-336 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+374 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Latent RL Priors for Data-Efficient Dexterous Manipulation
+
+- [arXiv 2611.08458](https://arxiv.org/abs/2611.08458) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08458)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08458)
+
+Latent RL Prior freezes a privileged-RL action decoder and learns an image-to-latent interface from demonstrations.
+
+## Social Humanoid: Socially Responsive Human-Humanoid Interaction
+
+- [arXiv 2611.08407](https://arxiv.org/abs/2611.08407) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08407)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08407)
+
+Social Humanoid models human-robot motion jointly and uses contact-preserving adaptive retargeting.
+
+## SLA: Scaling Spatial-Language-Action Model via Continual Pre-training
+
+- [arXiv 2611.08373](https://arxiv.org/abs/2611.08373) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08373)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08373)
+
+SLA maintains 3D teacher alignment through continual pretraining and downstream adaptation of pi0.5.
+
+## MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation
+
+- [arXiv 2611.08372](https://arxiv.org/abs/2611.08372) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08372)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08372)
+
+MOMASPLAT reconstructs static scene and moving object separately to augment full demonstrations from unseen base poses.
+
+## SHORE: Stability-Hybrid On-Policy Reinforcement Learning for Online Bin Packing
+
+- [arXiv 2611.08364](https://arxiv.org/abs/2611.08364) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08364)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08364)
+
+SHORE combines learned stability probability with stability-conditioned return for online bin packing.
+
+## GPWM: Modeling the World as 3D Particle Motion
+
+- [arXiv 2611.08338](https://arxiv.org/abs/2611.08338) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08338)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08338)
+
+GPWM predicts particles and rigid-body motion in 3D and searches latent noise for contact-rich plans.
+
+## RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines
+
+- [arXiv 2611.08308](https://arxiv.org/abs/2611.08308) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08308)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08308)
+
+RM-VLM decomposes language tasks into reward-machine propositions, grounds them with a frozen VLM, and tracks a probabilistic automaton state for non-Markovian reward learning.
+
+## Aligning Policy Encoders with a Shape Teacher
+
+- [arXiv 2611.08275](https://arxiv.org/abs/2611.08275) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08275)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08275)
+
+Shape-teacher alignment transfers Point-MAE object geometry into image-policy features during training only.
+
+## STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion
+
+- [arXiv 2611.08097](https://arxiv.org/abs/2611.08097) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08097)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08097)
+
+STEP couples cross-modal masked prediction with action-conditioned latent next-state prediction for humanoid control.
+
+## Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour
+
+- [arXiv 2611.08056](https://arxiv.org/abs/2611.08056) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08056)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08056)
+
+Progressive imitation first acquires parkour skills, then relaxes motion priors to adapt hand/knee support.
+
+## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
+
+- [arXiv 2611.08039](https://arxiv.org/abs/2611.08039) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08039)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08039)
+
+HITCH exposes 3D point perception and whole-body command interfaces, then teaches a VLM reusable humanoid operation.
+
+## Structure from Collision via Hypothesis-Space Reasoning
+
+- [arXiv 2611.07900](https://arxiv.org/abs/2611.07900) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07900)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07900)
+
+Hypothesis-space Structure from Collision infers hidden cavities from deformation, then refines with differentiable particle simulation.
+
+## TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation
+
+- [arXiv 2611.07881](https://arxiv.org/abs/2611.07881) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07881)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07881)
+
+TactileLab approximates shear with rigid-body tactile flow and translates real sensor images into simulation representations.
+
+## AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction
+
+- [arXiv 2611.07712](https://arxiv.org/abs/2611.07712) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07712)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07712)
+
+AffectiveVLA adds intent gating, compliance profiles and a voice-triggered stop to humanoid social touch.
+
+## ArtCrafter: Feed-Forward Generation of Articulated 3D Object with Analytic Joint Derivation
+
+- [arXiv 2611.07658](https://arxiv.org/abs/2611.07658) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07658)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07658)
+
+ArtCrafter jointly generates paired rest/open articulated meshes from two images, then derives URDF joint parameters analytically from paired rigid transformations.
+
+## GraspBench: Execution-Aware Cross-Robot Evaluation of 6-DoF Grasp Generation in MuJoCo
+
+- [arXiv 2611.07651](https://arxiv.org/abs/2611.07651) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07651)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07651)
+
+GraspBench evaluates complete grasp proposal-to-execution pipelines across robot embodiments.
+
+## Semantics-to-Contact: A Stagewise Framework for Robust Contact-Rich Manipulation
+
+- [arXiv 2611.07532](https://arxiv.org/abs/2611.07532) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07532)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07532)
+
+S2C separates VLM semantic localization from force-aware human-in-the-loop residual RL.
+
+## Concertina: Embodying Manipulation and Cognition in One Diffusion Vision-Language Model
+
+- [arXiv 2611.07513](https://arxiv.org/abs/2611.07513) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07513)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07513)
+
+Concertina embeds continuous action tokens and physical-coordinate supervision directly in a shared diffusion VLM, without a separate action-generation transformer.
+
+## IMUDINO: Self-distilled Foundation Model for Inertial Sensing
+
+- [arXiv 2611.07437](https://arxiv.org/abs/2611.07437) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07437)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07437)
+
+IMUDINO adapts DINO-style self-distillation to inertial signals with motion-preserving augmentations and frequency-aware positions, transferring wearable-IMU features to robot odometry.
+
+## MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments
+
+- [arXiv 2611.07417](https://arxiv.org/abs/2611.07417) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07417)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07417)
+
+MessyNav inserts explicit affordance reasoning before VLM planning to move or avoid obstacles.
+
+## VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations
+
+- [arXiv 2611.07272](https://arxiv.org/abs/2611.07272) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07272)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07272)
+
+Consumer VR head/hand tracking supplies egocentric demonstrations for simulated manipulation.
+
+## An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects
+
+- [arXiv 2611.07261](https://arxiv.org/abs/2611.07261) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07261)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07261)
+
+Studies RL training stacks, relative keypoint observations and randomization for deformable linear objects.
+
+## MAC-v2: Long-horizon model-based value expansion from pixels
+
+- [arXiv 2611.07245](https://arxiv.org/abs/2611.07245) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07245)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07245)
+
+MAC-v2 combines reconstruction-free latent dynamics and action chunking for long-horizon model-based value expansion in pixel-based offline RL.
+
+## Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation
+
+- [arXiv 2611.07229](https://arxiv.org/abs/2611.07229) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07229)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07229)
+
+A 5B RGB-D world-action model makes metric geometry explicit in wrist-camera UMI demonstrations.
+
+## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
+
+- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.01215)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01215) · [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.01215)
+
+JADE proposed joint VLM/action-expert denoising; its current arXiv record is withdrawn.
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.00951)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951) · [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.00951)
+
+Negative study comparing bilinear Koopman and MLP world models for learning simulated G1 motion tracking through imagined-rollout gradients.
+
+## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
+
+- [arXiv 2610.39327](https://arxiv.org/abs/2610.39327) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.39327)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2610.39327)
+
+Adds a real-robot-oriented post-training recipe and matched old/new checkpoint evaluations. Starting from the v0.1 tracker, v1.0 adds 4,000 training iterations with deployment torque limits, 0–40 ms actuation delay, gain randomization, and a near-torque-limit penalty; the new run takes about 9.2 GPU-hours on one RTX PRO 6000.
+
+## OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing
+
+- [arXiv 2610.31661](https://arxiv.org/abs/2610.31661) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.31661)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2610.31661)
+
+Adds a new high-dynamic-range (HDR) tactile-readout method and hardware experiments. Saturated taxels are reread at lower amplifier gains within the same frame. The real-robot manipulation policy results and previous cross-sensor transfer experiments are unchanged.
+
+## Evo-DexBench: Benchmarking Generalization across Related Tasks for Dexterous Manipulation
+
+- [arXiv 2610.21180](https://arxiv.org/abs/2610.21180) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.21180)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2610.21180)
+
+Core-Gen functional-transfer benchmark with 30 tasks, six families and 1,248 simulated dexterous-hand multimodal demonstrations including tactile signals.
+
+## PFM-HR: Pose Flow Matching for Humanoid Robots
+
+- [arXiv 2608.03227](https://arxiv.org/abs/2608.03227) · v4 · [Latest entry](../daily/2026-11-06.md#arxiv-2608.03227)
+- Coverage history: [2026-11-06 (v4, revised)](../daily/2026-11-06.md#arxiv-2608.03227)
+
+PFM-HR learns a frozen unordered-pose flow-matching prior and uses its Jacobian response to shape humanoid tracking rewards.
+
+## DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation
+
+- [arXiv 2607.13033](https://arxiv.org/abs/2607.13033) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2607.13033)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2607.13033)
+
+DenseReward learns visual-language progress scores from 27k success/failure trajectories and supplements sparse completion rewards for robot policy RL.
+
+## AnyDexRT: Calibration-Efficient Dexterous Hand Retargeting with Few-Shot Human Guidance
+
+- [arXiv 2607.08341](https://arxiv.org/abs/2607.08341) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2607.08341)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2607.08341)
+
+Few-shot human anchor guidance, self-supervised fingertip correspondence and a contact classifier support retargeting for multiple dexterous robot hands.
+
+## ActQuant: Sub-4-bit Action-Guided Backbone Weight-Only Quantization for Vision-Language-Action Models
+
+- [arXiv 2605.24011](https://arxiv.org/abs/2605.24011) · v4 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.24011)
+- Coverage history: [2026-11-06 (v4, revised)](../daily/2026-11-06.md#arxiv-2605.24011)
+
+Action-aware sub-4-bit VLA weight-only quantization: HSIC allocates tensor bit widths, Action-Mixed Fisher optimizes scales, and OmniModel.cpp supports native deployment.
+
+## Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies
+
+- [arXiv 2605.17204](https://arxiv.org/abs/2605.17204) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.17204)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2605.17204)
+
+Event-grounded SAE feature ranking and residual-preserving interventions probe causal influences on closed-loop VLA behavior.
+
+## EgoKit: Towards Unified Low-Cost Egocentric Data Collection with Heterogeneous Devices
+
+- [arXiv 2605.16797](https://arxiv.org/abs/2605.16797) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.16797)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2605.16797)
+
+Unified egocentric and wrist-video/tracking collection across six heterogeneous host devices; XR headsets additionally provide head pose and 26-joint hand tracking.
+
+## VTAM: Efficient Visuo-Tactile World-Action Models for Contact-Rich Manipulation without Tactile Pretraining
+
+- [arXiv 2603.23481](https://arxiv.org/abs/2603.23481) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2603.23481)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2603.23481)
+
+Adapts a shared video backbone to visual/tactile prediction and trains an action expert with an optical-flow-derived contact proxy; inference does not fully denoise videos.
+
+## RoboCurate: Harnessing Diversity with Action-Verified Synthetic Data for Robot Learning
+
+- [arXiv 2602.18742](https://arxiv.org/abs/2602.18742) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2602.18742)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2602.18742)
+
+Uses simulator replay to verify motion agreement between generated videos and inverse-dynamics action labels before training robot policies.
+
+## When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs
+
+- [arXiv 2602.17659](https://arxiv.org/abs/2602.17659) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2602.17659)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2602.17659)
+
+LIBERO-CF tests alternative instructions in identical scenes; CAG contrasts conditioned and unconditioned actions to reduce visual shortcuts.
+
+## WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL
+
+- [arXiv 2602.13977](https://arxiv.org/abs/2602.13977) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2602.13977)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2602.13977)
+
+This record documents a correction or status change, not a new research advance.
 
 ## From Pixels to Actions - Towards Native Vision-Language-Action Policies
 
@@ -549,13 +822,6 @@ TF²-Steering uses forecast and observed tactile signals to steer the flow-match
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01250)
 
 SPECTRA learns object-centric pose constraints from oracle demonstrations and scores manipulation quality beyond binary success.
-
-## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
-
-- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.01215)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01215)
-
-JADE feeds noisy action latents back into the VLM at each denoising step to jointly refine actions with the action expert.
 
 ## Learning Agile Humanoid Dodgeball with Onboard Monocular Vision
 

@@ -2,7 +2,252 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-383 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+417 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing
+
+- [arXiv 2611.08425](https://arxiv.org/abs/2611.08425) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08425)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08425)
+
+VLA-Tug以潜在探针及统计校准实现早期失败告警与失败类型识别。
+
+## T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models
+
+- [arXiv 2611.08413](https://arxiv.org/abs/2611.08413) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08413)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08413)
+
+T3R无需重训VLA，结合分割token裁剪与显著性注意力引导。
+
+## VisionSIM: Beyond Idealized Sensors - A Multi-Modal Simulator for Robot Perception
+
+- [arXiv 2611.08368](https://arxiv.org/abs/2611.08368) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08368)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08368)
+
+VisionSIM模拟传统及新型传感器的原始测量过程与特定失效模式。
+
+## Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement
+
+- [arXiv 2611.08318](https://arxiv.org/abs/2611.08318) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08318)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08318)
+
+具身自我改进审计区分学习任务与过拟合暴露的成功判据。
+
+## Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds
+
+- [arXiv 2611.08286](https://arxiv.org/abs/2611.08286) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08286)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08286)
+
+Interactive Visual Gym在烹饪、家居和手机界面仿真中闭环评估助手，引入带个性的模拟用户及可控失误。
+
+## RoboARCade: Benchmarking Agentic Robot Control
+
+- [arXiv 2611.08209](https://arxiv.org/abs/2611.08209) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08209)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08209)
+
+RoboARCade以22项长时程任务、三形态检验多模态代理直接控制、记忆与上下文改进。
+
+## La-JEPA: Compact Robot Policies with Latent World Modeling
+
+- [arXiv 2611.08156](https://arxiv.org/abs/2611.08156) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08156)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08156)
+
+La-JEPA 在预训练V-JEPA2.1特征上从头训练紧凑动作/世界Transformer，推理时省去未来预测。
+
+## Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning
+
+- [arXiv 2611.08144](https://arxiv.org/abs/2611.08144) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08144)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08144)
+
+逐步账本检查环境—训练器通信协议，以发现静默强化学习数据故障。
+
+## Time-Indexed Skill Success Models for Latency-Aware Skill Selection and Timing in Dynamic Manipulation
+
+- [arXiv 2611.07964](https://arxiv.org/abs/2611.07964) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07964)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07964)
+
+按延迟启动时间建模技能成功率，同时规划技能及其启动时机。
+
+## PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion
+
+- [arXiv 2611.07679](https://arxiv.org/abs/2611.07679) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07679)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07679)
+
+PhySA 将 VLM 审美奖励与基于状态的物理平滑度修正分离。
+
+## Which Objects Stay? Learning Hierarchical Persistence Beliefs for Lifelong Open-Vocabulary Object Maps
+
+- [arXiv 2611.07662](https://arxiv.org/abs/2611.07662) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07662)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07662)
+
+HiPer按外观和几何检索持久性先验，在线更新物体级贝叶斯存续信念，并在物体换位时迁移已学信念。
+
+## GraspBench: Execution-Aware Cross-Robot Evaluation of 6-DoF Grasp Generation in MuJoCo
+
+- [arXiv 2611.07651](https://arxiv.org/abs/2611.07651) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07651)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07651)
+
+GraspBench 跨机器人形态评估从抓取候选到实际执行的完整流程。
+
+## Binding Paraphrased Instructions to Encountered Objects in sLLM Agents under Partial Observability
+
+- [arXiv 2611.07599](https://arxiv.org/abs/2611.07599) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07599)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07599)
+
+ALFWorld-Para诊断指令同义词带来的落地失误；无需训练的BINDIntent在部分可观测环境中，将表达概率性绑定到已见物体标签。
+
+## Embodied RAG++: Retrieval-Augmented Generation From What Exists to What Works in Embodied Scenes
+
+- [arXiv 2611.07517](https://arxiv.org/abs/2611.07517) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07517)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07517)
+
+Embodied RAG++ 将产品手册、场景对象实例与确定性的机器人可达性推理结合。
+
+## Concertina: Embodying Manipulation and Cognition in One Diffusion Vision-Language Model
+
+- [arXiv 2611.07513](https://arxiv.org/abs/2611.07513) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07513)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07513)
+
+Concertina将连续动作令牌和物理坐标监督直接放入共享扩散VLM，不另设动作生成Transformer。
+
+## Fast and Reliable Open-Vocabulary Object Search with Absence Detection from Robot Memory
+
+- [arXiv 2611.07493](https://arxiv.org/abs/2611.07493) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07493)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07493)
+
+先检索再视觉验证，使机器人记忆能在目标不存在时拒绝返回误匹配。
+
+## Closed-Loop Physics-Based Manipulation Evaluation at a Commodity Price: What 4.4 L4 GPU hours at $3.50 Buys You
+
+- [arXiv 2611.07441](https://arxiv.org/abs/2611.07441) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07441)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07441)
+
+以低成本 GPU 工具支持重复闭环操作评估。
+
+## IMUDINO: Self-distilled Foundation Model for Inertial Sensing
+
+- [arXiv 2611.07437](https://arxiv.org/abs/2611.07437) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07437)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07437)
+
+IMUDINO以保留运动语义的增强和频率感知位置编码，将DINO式自蒸馏用于惯性信号，并将可穿戴IMU特征迁移到机器人里程计。
+
+## Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks
+
+- [arXiv 2611.07411](https://arxiv.org/abs/2611.07411) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07411)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07411)
+
+利用机器人运动学提供通信双方共享、无需额外码率的上下文，压缩策略上行视频。
+
+## How do Transformers Perform Low-Level Control In-Context?
+
+- [arXiv 2611.07291](https://arxiv.org/abs/2611.07291) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07291)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07291)
+
+GPT-2式控制器以无外力轨迹作为上下文，在未知非线性系统参数下学习稳定控制。
+
+## VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations
+
+- [arXiv 2611.07272](https://arxiv.org/abs/2611.07272) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07272)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07272)
+
+用消费级 VR 头手跟踪采集第一视角示范，训练仿真操作策略。
+
+## Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation
+
+- [arXiv 2611.07229](https://arxiv.org/abs/2611.07229) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07229)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07229)
+
+以 5B RGB-D 世界动作模型显式学习腕部相机 UMI 示范中的度量几何。
+
+## ZipDrift: Generating Multimodal Short-Horizon MPC Costs with One-Step Drifting Models
+
+- [arXiv 2611.05793](https://arxiv.org/abs/2611.05793) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.05793)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2611.05793)
+
+此记录为内容或状态修正，不代表新的研究进展。
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.00951)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951) · [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2611.00951)
+
+在仿真 G1 动作跟踪中，对比用想象轨迹梯度训练的双线性 Koopman 与 MLP 世界模型。
+
+## PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models
+
+- [arXiv 2610.31429](https://arxiv.org/abs/2610.31429) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2610.31429)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2610.31429)
+
+PhysTrace使用MLLM、视频—文本嵌入及选择性保留的状态描述，通过历史条件下的预期—观测对齐评估视频物理一致性，无需训练。此次修订新增面向世界—动作模型相关视频骨干的受控参考引导重建实验。
+
+## Evo-DexBench: Benchmarking Generalization across Related Tasks for Dexterous Manipulation
+
+- [arXiv 2610.21180](https://arxiv.org/abs/2610.21180) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2610.21180)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2610.21180)
+
+Core-Gen 功能相关任务迁移基准：30 tasks、6 families、1,248 模拟双灵巧手多模态示范与 tactile。
+
+## VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in Model-Based Reinforcement Learning
+
+- [arXiv 2610.02801](https://arxiv.org/abs/2610.02801) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2610.02801)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2610.02801)
+
+VIGOR结合弱强增强、动力学一致性与编码器稳定化，改善潜在世界模型强化学习的零样本视觉泛化。
+
+## CoDiMAD: Diffusion-Based Privileged Distillation for Communication-Free Multi-Robot Coordination
+
+- [arXiv 2607.09587](https://arxiv.org/abs/2607.09587) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2607.09587)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2607.09587)
+
+CoDiMAD把特权MAPPO蒸馏为局部历史条件的扩散策略，避免对不同协作动作模式取平均。
+
+## ActQuant: Sub-4-bit Action-Guided Backbone Weight-Only Quantization for Vision-Language-Action Models
+
+- [arXiv 2605.24011](https://arxiv.org/abs/2605.24011) · v4 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2605.24011)
+- 收录历史: [2026-11-06 (v4, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2605.24011)
+
+动作感知低比特 VLA 量化：HSIC 分配张量位宽，Action-Mixed Fisher 优化缩放，并以 OmniModel.cpp 部署。
+
+## Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies
+
+- [arXiv 2605.17204](https://arxiv.org/abs/2605.17204) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2605.17204)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2605.17204)
+
+事件对齐SAE特征排序与保留残差的干预，用于研究VLA闭环行为的因果敏感性。
+
+## WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes
+
+- [arXiv 2605.15843](https://arxiv.org/abs/2605.15843) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2605.15843)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2605.15843)
+
+VLM agent 将单体生成 3DGS 世界分解成可操纵物体、补全背景并重建碰撞几何。
+
+## VTAM: Efficient Visuo-Tactile World-Action Models for Contact-Rich Manipulation without Tactile Pretraining
+
+- [arXiv 2603.23481](https://arxiv.org/abs/2603.23481) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2603.23481)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2603.23481)
+
+以共享视频主干学习视觉与触觉预测，并用光流接触代理量监督动作专家；推理无需完整视频去噪。
+
+## RoboCurate: Harnessing Diversity with Action-Verified Synthetic Data for Robot Learning
+
+- [arXiv 2602.18742](https://arxiv.org/abs/2602.18742) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2602.18742)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2602.18742)
+
+将逆动力学模型预测的动作在仿真器中回放，验证其与生成视频的运动一致性，再用于策略训练。
+
+## When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs
+
+- [arXiv 2602.17659](https://arxiv.org/abs/2602.17659) · v3 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2602.17659)
+- 收录历史: [2026-11-06 (v3, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2602.17659)
+
+LIBERO-CF在相同场景下测试替代指令；CAG对比有语言与无语言分支动作以抑制视觉捷径。
+
+## EmboTeam: Asymmetric State Grounding for Heterogeneous Multi-Robot Collaboration
+
+- [arXiv 2601.11063](https://arxiv.org/abs/2601.11063) · v3 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2601.11063)
+- 收录历史: [2026-11-06 (v3, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2601.11063)
+
+LLM生成状态预期，经PDDL验证后用并行行为树、反应式检查和同步协调异构机器人技能。
 
 ## BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
 
@@ -535,13 +780,6 @@ Leap-VLA将低频语义VLM与高频视觉动作专家解耦，并显式以语义
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00957)
 
 在共同设置下将多种预训练触觉编码器集成到Diffusion Policy，比较微调和任务中训练。
-
-## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
-
-- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
-
-受控负结果用Koopman/动作仿射模型替换人形跟踪中的MLP可微世界模型。
 
 ## Verifying Test-State Identity in Paired Evaluation of Vision-Language-Action Models
 

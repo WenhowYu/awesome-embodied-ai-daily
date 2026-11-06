@@ -2,7 +2,175 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-197 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+220 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
+
+- [arXiv 2611.08449](https://arxiv.org/abs/2611.08449) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08449)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08449)
+
+VFlash jointly decodes structured visual primitives instead of serial coordinate tokens.
+
+## VisionSIM: Beyond Idealized Sensors - A Multi-Modal Simulator for Robot Perception
+
+- [arXiv 2611.08368](https://arxiv.org/abs/2611.08368) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08368)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08368)
+
+VisionSIM simulates raw measurement processes and modality-specific failures for conventional and emerging sensors.
+
+## GPWM: Modeling the World as 3D Particle Motion
+
+- [arXiv 2611.08338](https://arxiv.org/abs/2611.08338) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08338)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08338)
+
+GPWM predicts particles and rigid-body motion in 3D and searches latent noise for contact-rich plans.
+
+## La-JEPA: Compact Robot Policies with Latent World Modeling
+
+- [arXiv 2611.08156](https://arxiv.org/abs/2611.08156) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08156)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08156)
+
+La-JEPA trains compact action/world transformers from scratch over pretrained V-JEPA2.1 features, skipping future prediction at inference.
+
+## Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model
+
+- [arXiv 2611.08111](https://arxiv.org/abs/2611.08111) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08111)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08111)
+
+NegWAM post-trains driving WAMs against dangerous near-expert trajectories; auxiliary safety branch is discarded at inference.
+
+## STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion
+
+- [arXiv 2611.08097](https://arxiv.org/abs/2611.08097) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08097)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08097)
+
+STEP couples cross-modal masked prediction with action-conditioned latent next-state prediction for humanoid control.
+
+## WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation
+
+- [arXiv 2611.07939](https://arxiv.org/abs/2611.07939) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07939)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07939)
+
+WAM-Sim anchors driving-video generation with pose-aligned road structure, geolocated background memory and write-once object identity tokens, then applies online flow-matching RL.
+
+## GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving
+
+- [arXiv 2611.07912](https://arxiv.org/abs/2611.07912) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07912)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07912)
+
+GuidedWAM applies differentiable objective energies to clean-action estimates during frozen driving-WAM sampling.
+
+## Structure from Collision via Hypothesis-Space Reasoning
+
+- [arXiv 2611.07900](https://arxiv.org/abs/2611.07900) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07900)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07900)
+
+Hypothesis-space Structure from Collision infers hidden cavities from deformation, then refines with differentiable particle simulation.
+
+## PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State
+
+- [arXiv 2611.07867](https://arxiv.org/abs/2611.07867) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07867)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07867)
+
+PlayGen2 separates explicit 3D world-state prediction from rendering, using persistent occupancy and identity-indexed entity memory instead of feeding generated images back into dynamics.
+
+## Learning Robotic World Models with Semantic and Visual Feedback
+
+- [arXiv 2611.07850](https://arxiv.org/abs/2611.07850) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07850)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07850)
+
+RoboImagine post-trains visual robot world models using diverse candidate futures and semantic/visual preferences.
+
+## Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes
+
+- [arXiv 2611.07730](https://arxiv.org/abs/2611.07730) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07730)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07730)
+
+Social/semantic world models rank actions during training, then distill foresight into a single-pass navigation policy.
+
+## ArtCrafter: Feed-Forward Generation of Articulated 3D Object with Analytic Joint Derivation
+
+- [arXiv 2611.07658](https://arxiv.org/abs/2611.07658) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07658)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07658)
+
+ArtCrafter jointly generates paired rest/open articulated meshes from two images, then derives URDF joint parameters analytically from paired rigid transformations.
+
+## MAC-v2: Long-horizon model-based value expansion from pixels
+
+- [arXiv 2611.07245](https://arxiv.org/abs/2611.07245) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07245)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07245)
+
+MAC-v2 combines reconstruction-free latent dynamics and action chunking for long-horizon model-based value expansion in pixel-based offline RL.
+
+## Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation
+
+- [arXiv 2611.07229](https://arxiv.org/abs/2611.07229) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07229)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07229)
+
+A 5B RGB-D world-action model makes metric geometry explicit in wrist-camera UMI demonstrations.
+
+## ZipDrift: Generating Multimodal Short-Horizon MPC Costs with One-Step Drifting Models
+
+- [arXiv 2611.05793](https://arxiv.org/abs/2611.05793) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.05793)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.05793)
+
+This record documents a correction or status change, not a new research advance.
+
+## Vision-Language Models Are Joint Denoisers in Robotic Action Generation
+
+- [arXiv 2611.01215](https://arxiv.org/abs/2611.01215) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.01215)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01215) · [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.01215)
+
+JADE proposed joint VLM/action-expert denoising; its current arXiv record is withdrawn.
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.00951)
+- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951) · [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2611.00951)
+
+Negative study comparing bilinear Koopman and MLP world models for learning simulated G1 motion tracking through imagined-rollout gradients.
+
+## PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models
+
+- [arXiv 2610.31429](https://arxiv.org/abs/2610.31429) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.31429)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2610.31429)
+
+PhysTrace is a training-free, history-conditioned expectation–observation alignment evaluator for physical consistency in video, using an MLLM, video–text embeddings and selectively retained state descriptions. The revision adds a controlled reference-guided reconstruction experiment for video backbones relevant to world–action models.
+
+## VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in Model-Based Reinforcement Learning
+
+- [arXiv 2610.02801](https://arxiv.org/abs/2610.02801) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.02801)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2610.02801)
+
+VIGOR combines weak-to-strong augmentation, dynamics consistency and encoder stabilization for zero-shot visual generalization of latent world-model RL.
+
+## World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning
+
+- [arXiv 2607.10630](https://arxiv.org/abs/2607.10630) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2607.10630)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2607.10630)
+
+A role-conditioned adversarial traffic world model trains sparse cooperative attacks, then remains frozen for regret-CVaR ego-planner adaptation.
+
+## WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes
+
+- [arXiv 2605.15843](https://arxiv.org/abs/2605.15843) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2605.15843)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2605.15843)
+
+A VLM agent decomposes monolithic generated 3DGS worlds into manipulable objects, restores backgrounds and reconstructs collision geometry for editable simulation scenes.
+
+## VTAM: Efficient Visuo-Tactile World-Action Models for Contact-Rich Manipulation without Tactile Pretraining
+
+- [arXiv 2603.23481](https://arxiv.org/abs/2603.23481) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2603.23481)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2603.23481)
+
+Adapts a shared video backbone to visual/tactile prediction and trains an action expert with an optical-flow-derived contact proxy; inference does not fully denoise videos.
+
+## WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL
+
+- [arXiv 2602.13977](https://arxiv.org/abs/2602.13977) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2602.13977)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2602.13977)
+
+This record documents a correction or status change, not a new research advance.
 
 ## Motion-guided Contrastive Regularization For Latent World Models
 
@@ -297,13 +465,6 @@ RAVEL distinguishes accurate policy ranking inside a learned world model from in
 - Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.01039)
 
 pico-WAM intervenes separately on proposal generation and trajectory scoring to diagnose compact world-action planning.
-
-## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
-
-- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [Latest entry](../daily/2026-11-03.md#arxiv-2611.00951)
-- Coverage history: [2026-11-03 (v1, new)](../daily/2026-11-03.md#arxiv-2611.00951)
-
-A controlled negative result replaces an MLP differentiable world model with Koopman/action-affine alternatives for humanoid tracking.
 
 ## Old Is Not False: Valid-Time Memory for Interactive Video World Models
 

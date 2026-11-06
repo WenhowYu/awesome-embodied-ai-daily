@@ -2,7 +2,217 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-185 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+214 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
+
+- [arXiv 2611.08462](https://arxiv.org/abs/2611.08462) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08462)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08462)
+
+OopsieRecover从干预中溯因学习语义空间纠正程序，仅在需要时引导冻结VLA。
+
+## Latent RL Priors for Data-Efficient Dexterous Manipulation
+
+- [arXiv 2611.08458](https://arxiv.org/abs/2611.08458) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08458)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08458)
+
+Latent RL Prior冻结由特权状态强化学习得来的动作解码器，再由示范学习图像到潜在接口。
+
+## SHORE: Stability-Hybrid On-Policy Reinforcement Learning for Online Bin Packing
+
+- [arXiv 2611.08364](https://arxiv.org/abs/2611.08364) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08364)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08364)
+
+SHORE将稳定性概率与稳定条件收益结合，用于在线装箱。
+
+## RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines
+
+- [arXiv 2611.08308](https://arxiv.org/abs/2611.08308) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08308)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08308)
+
+RM-VLM把语言任务分解为奖励机命题，用冻结VLM落地视觉状态，并以概率自动机状态处理非马尔可夫奖励学习。
+
+## Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds
+
+- [arXiv 2611.08286](https://arxiv.org/abs/2611.08286) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08286)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08286)
+
+Interactive Visual Gym在烹饪、家居和手机界面仿真中闭环评估助手，引入带个性的模拟用户及可控失误。
+
+## Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning
+
+- [arXiv 2611.08144](https://arxiv.org/abs/2611.08144) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08144)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08144)
+
+逐步账本检查环境—训练器通信协议，以发现静默强化学习数据故障。
+
+## Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model
+
+- [arXiv 2611.08111](https://arxiv.org/abs/2611.08111) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08111)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08111)
+
+NegWAM 用接近专家但危险的轨迹后训练驾驶 WAM；推理时丢弃辅助安全分支。
+
+## STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion
+
+- [arXiv 2611.08097](https://arxiv.org/abs/2611.08097) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08097)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08097)
+
+STEP 结合跨模态掩码预测及动作条件潜在下一状态预测，训练人形控制表示。
+
+## Leave It Better Than Found: Value-Guided Cooperation in Sequential Tasks
+
+- [arXiv 2611.08075](https://arxiv.org/abs/2611.08075) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08075)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08075)
+
+机器人共享价值函数并使用 KNN 不确定性过滤，实现无需共同训练的顺序协作。
+
+## Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour
+
+- [arXiv 2611.08056](https://arxiv.org/abs/2611.08056) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.08056)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.08056)
+
+渐进模仿先学习跑酷技能，再减弱动作先验以适配手膝支撑。
+
+## WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation
+
+- [arXiv 2611.07939](https://arxiv.org/abs/2611.07939) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07939)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07939)
+
+WAM-Sim以姿态对齐道路结构、地理定位背景记忆和一次写入的物体身份令牌约束驾驶视频生成，再用在线流匹配强化学习后训练。
+
+## GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving
+
+- [arXiv 2611.07912](https://arxiv.org/abs/2611.07912) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07912)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07912)
+
+GuidedWAM在冻结驾驶WAM采样时，对干净动作估计施加可微目标能量。
+
+## TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation
+
+- [arXiv 2611.07881](https://arxiv.org/abs/2611.07881) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07881)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07881)
+
+TactileLab 以刚体仿真的触觉流近似剪切，并将真实传感图像转换到仿真表示。
+
+## Learning Robotic World Models with Semantic and Visual Feedback
+
+- [arXiv 2611.07850](https://arxiv.org/abs/2611.07850) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07850)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07850)
+
+RoboImagine 通过多样候选未来和语义、视觉偏好反馈后训练机器人视觉世界模型。
+
+## Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes
+
+- [arXiv 2611.07730](https://arxiv.org/abs/2611.07730) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07730)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07730)
+
+训练时由社交与语义世界模型评价动作，将前瞻能力蒸馏进单次前向导航策略。
+
+## PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion
+
+- [arXiv 2611.07679](https://arxiv.org/abs/2611.07679) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07679)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07679)
+
+PhySA 将 VLM 审美奖励与基于状态的物理平滑度修正分离。
+
+## Semantics-to-Contact: A Stagewise Framework for Robust Contact-Rich Manipulation
+
+- [arXiv 2611.07532](https://arxiv.org/abs/2611.07532) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07532)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07532)
+
+S2C 将 VLM 语义定位与带力反馈的人在环残差强化学习分开。
+
+## How do Transformers Perform Low-Level Control In-Context?
+
+- [arXiv 2611.07291](https://arxiv.org/abs/2611.07291) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07291)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07291)
+
+GPT-2式控制器以无外力轨迹作为上下文，在未知非线性系统参数下学习稳定控制。
+
+## Efficient Diffusion Policy Fine Tuning with Latent Noise Representation Bridging
+
+- [arXiv 2611.07275](https://arxiv.org/abs/2611.07275) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07275)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07275)
+
+LARBRID 对齐动作空间与初始噪声空间价值表示，以适配扩散或流策略。
+
+## An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects
+
+- [arXiv 2611.07261](https://arxiv.org/abs/2611.07261) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07261)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07261)
+
+研究可变形线状物操作的强化学习训练栈、相对关键点观测与随机化。
+
+## MAC-v2: Long-horizon model-based value expansion from pixels
+
+- [arXiv 2611.07245](https://arxiv.org/abs/2611.07245) · v1 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.07245)
+- 收录历史: [2026-11-06 (v1, new)](../daily/2026-11-06.zh-CN.md#arxiv-2611.07245)
+
+MAC-v2结合无需图像重建的潜在动力学与动作分块，在像素输入的离线强化学习中进行长时域模型价值扩展。
+
+## ZipDrift: Generating Multimodal Short-Horizon MPC Costs with One-Step Drifting Models
+
+- [arXiv 2611.05793](https://arxiv.org/abs/2611.05793) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.05793)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2611.05793)
+
+此记录为内容或状态修正，不代表新的研究进展。
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2611.00951)
+- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951) · [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2611.00951)
+
+在仿真 G1 动作跟踪中，对比用想象轨迹梯度训练的双线性 Koopman 与 MLP 世界模型。
+
+## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
+
+- [arXiv 2610.39327](https://arxiv.org/abs/2610.39327) · v3 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2610.39327)
+- 收录历史: [2026-11-06 (v3, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2610.39327)
+
+新增面向真实机器人的后训练配方，以及同设置下新旧检查点对比。从 v0.1 跟踪器出发，v1.0 再训练 4,000 轮，加入部署扭矩限制、0–40 ms 执行延迟、增益随机化及接近扭矩上限的惩罚；单张 RTX PRO 6000 约需 9.2 GPU 小时。
+
+## VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in Model-Based Reinforcement Learning
+
+- [arXiv 2610.02801](https://arxiv.org/abs/2610.02801) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2610.02801)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2610.02801)
+
+VIGOR结合弱强增强、动力学一致性与编码器稳定化，改善潜在世界模型强化学习的零样本视觉泛化。
+
+## PFM-HR: Pose Flow Matching for Humanoid Robots
+
+- [arXiv 2608.03227](https://arxiv.org/abs/2608.03227) · v4 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2608.03227)
+- 收录历史: [2026-11-06 (v4, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2608.03227)
+
+PFM-HR从无序姿态学习冻结流匹配先验，用雅可比响应塑造人形机器人跟踪奖励。
+
+## DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation
+
+- [arXiv 2607.13033](https://arxiv.org/abs/2607.13033) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2607.13033)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2607.13033)
+
+DenseReward用2.7万成功/失败轨迹学习视觉语言进度评分，为机器人策略强化学习补充稀疏完成奖励。
+
+## World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning
+
+- [arXiv 2607.10630](https://arxiv.org/abs/2607.10630) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2607.10630)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2607.10630)
+
+角色条件对抗交通世界模型学习稀疏协作攻击，再冻结用于regret-CVaR自车规划器适应。
+
+## CoDiMAD: Diffusion-Based Privileged Distillation for Communication-Free Multi-Robot Coordination
+
+- [arXiv 2607.09587](https://arxiv.org/abs/2607.09587) · v2 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2607.09587)
+- 收录历史: [2026-11-06 (v2, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2607.09587)
+
+CoDiMAD把特权MAPPO蒸馏为局部历史条件的扩散策略，避免对不同协作动作模式取平均。
+
+## EmboTeam: Asymmetric State Grounding for Heterogeneous Multi-Robot Collaboration
+
+- [arXiv 2601.11063](https://arxiv.org/abs/2601.11063) · v3 · [最新归档](../daily/2026-11-06.zh-CN.md#arxiv-2601.11063)
+- 收录历史: [2026-11-06 (v3, revised)](../daily/2026-11-06.zh-CN.md#arxiv-2601.11063)
+
+LLM生成状态预期，经PDDL验证后用并行行为树、反应式检查和同步协调异构机器人技能。
 
 ## Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement
 
@@ -304,13 +514,6 @@ Agent依据主观反馈、运动结果和肌肉测量修订可执行外骨骼辅
 - 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.01139)
 
 RAVEL区分世界模型内策略排序准确与成对真实环境审计是否提供有效信息。
-
-## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
-
-- [arXiv 2611.00951](https://arxiv.org/abs/2611.00951) · v1 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
-- 收录历史: [2026-11-03 (v1, new)](../daily/2026-11-03.zh-CN.md#arxiv-2611.00951)
-
-受控负结果用Koopman/动作仿射模型替换人形跟踪中的MLP可微世界模型。
 
 ## Toward Counterfactual Learning for Selective Re-Examination in Agentic Visual Search
 

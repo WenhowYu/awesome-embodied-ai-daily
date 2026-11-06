@@ -2,7 +2,133 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-277 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+295 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
+
+- [arXiv 2611.08462](https://arxiv.org/abs/2611.08462) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08462)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08462)
+
+OopsieRecover abduces semantic spatial correction programs from interventions and steers a frozen VLA only when needed.
+
+## SCALE: Real-Time Latent Communication for Cyber-Physical Agents
+
+- [arXiv 2611.08390](https://arxiv.org/abs/2611.08390) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08390)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08390)
+
+SCALE reuses latent tokens across messages and schedules communication under bandwidth/deadline limits.
+
+## Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement
+
+- [arXiv 2611.08318](https://arxiv.org/abs/2611.08318) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08318)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08318)
+
+An embodied self-improvement audit separates learning the instructed task from overfitting exposed success verifiers.
+
+## RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines
+
+- [arXiv 2611.08308](https://arxiv.org/abs/2611.08308) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08308)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08308)
+
+RM-VLM decomposes language tasks into reward-machine propositions, grounds them with a frozen VLM, and tracks a probabilistic automaton state for non-Markovian reward learning.
+
+## RoboARCade: Benchmarking Agentic Robot Control
+
+- [arXiv 2611.08209](https://arxiv.org/abs/2611.08209) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08209)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08209)
+
+RoboARCade isolates direct multimodal-agent robot control, memory and in-context improvement across 22 long-horizon tasks and 3 embodiments.
+
+## Leave It Better Than Found: Value-Guided Cooperation in Sequential Tasks
+
+- [arXiv 2611.08075](https://arxiv.org/abs/2611.08075) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08075)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08075)
+
+Robots share value functions and a KNN uncertainty filter for ad hoc sequential cooperation.
+
+## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
+
+- [arXiv 2611.08039](https://arxiv.org/abs/2611.08039) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.08039)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.08039)
+
+HITCH exposes 3D point perception and whole-body command interfaces, then teaches a VLM reusable humanoid operation.
+
+## Time-Indexed Skill Success Models for Latency-Aware Skill Selection and Timing in Dynamic Manipulation
+
+- [arXiv 2611.07964](https://arxiv.org/abs/2611.07964) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07964)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07964)
+
+Time-indexed competence predicts success conditional on delayed skill launch and plans both skill and timing.
+
+## WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation
+
+- [arXiv 2611.07939](https://arxiv.org/abs/2611.07939) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07939)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07939)
+
+WAM-Sim anchors driving-video generation with pose-aligned road structure, geolocated background memory and write-once object identity tokens, then applies online flow-matching RL.
+
+## PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State
+
+- [arXiv 2611.07867](https://arxiv.org/abs/2611.07867) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07867)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07867)
+
+PlayGen2 separates explicit 3D world-state prediction from rendering, using persistent occupancy and identity-indexed entity memory instead of feeding generated images back into dynamics.
+
+## Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents
+
+- [arXiv 2611.07825](https://arxiv.org/abs/2611.07825) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07825)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07825)
+
+Generate-then-Rank fine-tunes symbolic goal generation and learns output preferences from candidate errors.
+
+## Which Objects Stay? Learning Hierarchical Persistence Beliefs for Lifelong Open-Vocabulary Object Maps
+
+- [arXiv 2611.07662](https://arxiv.org/abs/2611.07662) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07662)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07662)
+
+HiPer retrieves appearance/geometry-based persistence priors, updates object-specific Bayesian survival beliefs, and transfers those beliefs when objects relocate.
+
+## Binding Paraphrased Instructions to Encountered Objects in sLLM Agents under Partial Observability
+
+- [arXiv 2611.07599](https://arxiv.org/abs/2611.07599) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07599)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07599)
+
+ALFWorld-Para diagnoses instruction-synonym grounding failures; training-free BINDIntent probabilistically binds phrases to encountered object labels under partial observability.
+
+## Embodied RAG++: Retrieval-Augmented Generation From What Exists to What Works in Embodied Scenes
+
+- [arXiv 2611.07517](https://arxiv.org/abs/2611.07517) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07517)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07517)
+
+Embodied RAG++ joins product manuals with scene instances and deterministic robot-object feasibility.
+
+## Fast and Reliable Open-Vocabulary Object Search with Absence Detection from Robot Memory
+
+- [arXiv 2611.07493](https://arxiv.org/abs/2611.07493) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07493)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07493)
+
+Retrieval followed by visual verification lets robot memory abstain when an object is absent.
+
+## MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments
+
+- [arXiv 2611.07417](https://arxiv.org/abs/2611.07417) · v1 · [Latest entry](../daily/2026-11-06.md#arxiv-2611.07417)
+- Coverage history: [2026-11-06 (v1, new)](../daily/2026-11-06.md#arxiv-2611.07417)
+
+MessyNav inserts explicit affordance reasoning before VLM planning to move or avoid obstacles.
+
+## PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models
+
+- [arXiv 2610.31429](https://arxiv.org/abs/2610.31429) · v2 · [Latest entry](../daily/2026-11-06.md#arxiv-2610.31429)
+- Coverage history: [2026-11-06 (v2, revised)](../daily/2026-11-06.md#arxiv-2610.31429)
+
+PhysTrace is a training-free, history-conditioned expectation–observation alignment evaluator for physical consistency in video, using an MLLM, video–text embeddings and selectively retained state descriptions. The revision adds a controlled reference-guided reconstruction experiment for video backbones relevant to world–action models.
+
+## EmboTeam: Asymmetric State Grounding for Heterogeneous Multi-Robot Collaboration
+
+- [arXiv 2601.11063](https://arxiv.org/abs/2601.11063) · v3 · [Latest entry](../daily/2026-11-06.md#arxiv-2601.11063)
+- Coverage history: [2026-11-06 (v3, revised)](../daily/2026-11-06.md#arxiv-2601.11063)
+
+LLM-generated state expectations, PDDL verification and parallel behavior trees coordinate heterogeneous robot skills through reactive checks and synchronization.
 
 ## Rethinking Self-Repair in Code-as-Policy Agents: What Drives Retry Success?
 

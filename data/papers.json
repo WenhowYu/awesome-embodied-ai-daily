@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "latest_covered_announcement": "2026-11-05",
+  "latest_covered_announcement": "2026-11-06",
   "results_note": "All numerical results are author-reported; summaries are not independent reproductions.",
   "editions": {
     "2026-10-19": {
@@ -66,6 +66,11 @@
     "2026-11-05": {
       "new": 34,
       "revised": 15,
+      "supplemental": 0
+    },
+    "2026-11-06": {
+      "new": 53,
+      "revised": 22,
       "supplemental": 0
     }
   },
@@ -10977,21 +10982,30 @@
       "id": "2611.00951",
       "title": "Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking",
       "topics": [
-        "world-models",
+        "evaluation",
+        "manipulation-transfer",
         "rl-adaptation",
-        "evaluation"
+        "world-models"
       ],
-      "summary_en": "A controlled negative result replaces an MLP differentiable world model with Koopman/action-affine alternatives for humanoid tracking.",
-      "summary_zh": "受控负结果用Koopman/动作仿射模型替换人形跟踪中的MLP可微世界模型。",
+      "summary_en": "Negative study comparing bilinear Koopman and MLP world models for learning simulated G1 motion tracking through imagined-rollout gradients.",
+      "summary_zh": "在仿真 G1 动作跟踪中，对比用想象轨迹梯度训练的双线性 Koopman 与 MLP 世界模型。",
       "history": [
         {
           "date": "2026-11-03",
           "version": "v1",
           "status": "new",
           "announcement_date": "2026-11-03"
+        },
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
         }
       ],
-      "latest_covered": "2026-11-03"
+      "latest_covered": "2026-11-06"
     },
     {
       "id": "2611.00955",
@@ -11130,20 +11144,31 @@
       "id": "2611.01215",
       "title": "Vision-Language Models Are Joint Denoisers in Robotic Action Generation",
       "topics": [
+        "manipulation-transfer",
         "vla",
-        "manipulation-transfer"
+        "world-models"
       ],
-      "summary_en": "JADE feeds noisy action latents back into the VLM at each denoising step to jointly refine actions with the action expert.",
-      "summary_zh": "JADE每个去噪步把带噪动作latent反馈给VLM，与动作专家共同细化动作。",
+      "summary_en": "JADE proposed joint VLM/action-expert denoising; its current arXiv record is withdrawn.",
+      "summary_zh": "JADE 曾提出 VLM 与动作专家联合去噪；当前 arXiv 记录已撤稿。",
       "history": [
         {
           "date": "2026-11-03",
           "version": "v1",
           "status": "new",
           "announcement_date": "2026-11-03"
+        },
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "withdrawal",
+          "compared_with": "v1"
         }
       ],
-      "latest_covered": "2026-11-03"
+      "latest_covered": "2026-11-06",
+      "current_status": "withdrawn",
+      "withdrawal_date": "2026-11-05T05:41:38Z"
     },
     {
       "id": "2611.01250",
@@ -13701,6 +13726,1445 @@
         }
       ],
       "latest_covered": "2026-11-05"
+    },
+    {
+      "id": "2611.07417",
+      "title": "MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments",
+      "topics": [
+        "manipulation-transfer",
+        "memory-skills"
+      ],
+      "summary_en": "MessyNav inserts explicit affordance reasoning before VLM planning to move or avoid obstacles.",
+      "summary_zh": "MessyNav 在 VLM 规划前显式判断可供性，决定移动或绕开障碍物。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07493",
+      "title": "Fast and Reliable Open-Vocabulary Object Search with Absence Detection from Robot Memory",
+      "topics": [
+        "evaluation",
+        "memory-skills"
+      ],
+      "summary_en": "Retrieval followed by visual verification lets robot memory abstain when an object is absent.",
+      "summary_zh": "先检索再视觉验证，使机器人记忆能在目标不存在时拒绝返回误匹配。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08039",
+      "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+      "topics": [
+        "manipulation-transfer",
+        "memory-skills",
+        "vla"
+      ],
+      "summary_en": "HITCH exposes 3D point perception and whole-body command interfaces, then teaches a VLM reusable humanoid operation.",
+      "summary_zh": "HITCH 提供三维点感知及全身指令接口，再训练 VLM 学习可复用的人形操作能力。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08209",
+      "title": "RoboARCade: Benchmarking Agentic Robot Control",
+      "topics": [
+        "evaluation",
+        "memory-skills"
+      ],
+      "summary_en": "RoboARCade isolates direct multimodal-agent robot control, memory and in-context improvement across 22 long-horizon tasks and 3 embodiments.",
+      "summary_zh": "RoboARCade以22项长时程任务、三形态检验多模态代理直接控制、记忆与上下文改进。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08318",
+      "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+      "topics": [
+        "evaluation",
+        "memory-skills"
+      ],
+      "summary_en": "An embodied self-improvement audit separates learning the instructed task from overfitting exposed success verifiers.",
+      "summary_zh": "具身自我改进审计区分学习任务与过拟合暴露的成功判据。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08462",
+      "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+      "topics": [
+        "memory-skills",
+        "rl-adaptation",
+        "vla"
+      ],
+      "summary_en": "OopsieRecover abduces semantic spatial correction programs from interventions and steers a frozen VLA only when needed.",
+      "summary_zh": "OopsieRecover从干预中溯因学习语义空间纠正程序，仅在需要时引导冻结VLA。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07517",
+      "title": "Embodied RAG++: Retrieval-Augmented Generation From What Exists to What Works in Embodied Scenes",
+      "topics": [
+        "evaluation",
+        "memory-skills"
+      ],
+      "summary_en": "Embodied RAG++ joins product manuals with scene instances and deterministic robot-object feasibility.",
+      "summary_zh": "Embodied RAG++ 将产品手册、场景对象实例与确定性的机器人可达性推理结合。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07599",
+      "title": "Binding Paraphrased Instructions to Encountered Objects in sLLM Agents under Partial Observability",
+      "topics": [
+        "evaluation",
+        "memory-skills"
+      ],
+      "summary_en": "ALFWorld-Para diagnoses instruction-synonym grounding failures; training-free BINDIntent probabilistically binds phrases to encountered object labels under partial observability.",
+      "summary_zh": "ALFWorld-Para诊断指令同义词带来的落地失误；无需训练的BINDIntent在部分可观测环境中，将表达概率性绑定到已见物体标签。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07662",
+      "title": "Which Objects Stay? Learning Hierarchical Persistence Beliefs for Lifelong Open-Vocabulary Object Maps",
+      "topics": [
+        "evaluation",
+        "memory-skills"
+      ],
+      "summary_en": "HiPer retrieves appearance/geometry-based persistence priors, updates object-specific Bayesian survival beliefs, and transfers those beliefs when objects relocate.",
+      "summary_zh": "HiPer按外观和几何检索持久性先验，在线更新物体级贝叶斯存续信念，并在物体换位时迁移已学信念。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07825",
+      "title": "Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents",
+      "topics": [
+        "memory-skills"
+      ],
+      "summary_en": "Generate-then-Rank fine-tunes symbolic goal generation and learns output preferences from candidate errors.",
+      "summary_zh": "Generate-then-Rank微调符号目标生成，再从候选错误学习输出偏好。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07939",
+      "title": "WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation",
+      "topics": [
+        "memory-skills",
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "WAM-Sim anchors driving-video generation with pose-aligned road structure, geolocated background memory and write-once object identity tokens, then applies online flow-matching RL.",
+      "summary_zh": "WAM-Sim以姿态对齐道路结构、地理定位背景记忆和一次写入的物体身份令牌约束驾驶视频生成，再用在线流匹配强化学习后训练。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07964",
+      "title": "Time-Indexed Skill Success Models for Latency-Aware Skill Selection and Timing in Dynamic Manipulation",
+      "topics": [
+        "evaluation",
+        "memory-skills"
+      ],
+      "summary_en": "Time-indexed competence predicts success conditional on delayed skill launch and plans both skill and timing.",
+      "summary_zh": "按延迟启动时间建模技能成功率，同时规划技能及其启动时机。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08075",
+      "title": "Leave It Better Than Found: Value-Guided Cooperation in Sequential Tasks",
+      "topics": [
+        "memory-skills",
+        "rl-adaptation"
+      ],
+      "summary_en": "Robots share value functions and a KNN uncertainty filter for ad hoc sequential cooperation.",
+      "summary_zh": "机器人共享价值函数并使用 KNN 不确定性过滤，实现无需共同训练的顺序协作。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08308",
+      "title": "RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines",
+      "topics": [
+        "manipulation-transfer",
+        "memory-skills",
+        "rl-adaptation"
+      ],
+      "summary_en": "RM-VLM decomposes language tasks into reward-machine propositions, grounds them with a frozen VLM, and tracks a probabilistic automaton state for non-Markovian reward learning.",
+      "summary_zh": "RM-VLM把语言任务分解为奖励机命题，用冻结VLM落地视觉状态，并以概率自动机状态处理非马尔可夫奖励学习。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08390",
+      "title": "SCALE: Real-Time Latent Communication for Cyber-Physical Agents",
+      "topics": [
+        "memory-skills"
+      ],
+      "summary_en": "SCALE reuses latent tokens across messages and schedules communication under bandwidth/deadline limits.",
+      "summary_zh": "SCALE复用消息间潜在token，并在带宽与截止时间约束下调度通信。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07229",
+      "title": "Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer",
+        "world-models"
+      ],
+      "summary_en": "A 5B RGB-D world-action model makes metric geometry explicit in wrist-camera UMI demonstrations.",
+      "summary_zh": "以 5B RGB-D 世界动作模型显式学习腕部相机 UMI 示范中的度量几何。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08156",
+      "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+      "topics": [
+        "evaluation",
+        "vla",
+        "world-models"
+      ],
+      "summary_en": "La-JEPA trains compact action/world transformers from scratch over pretrained V-JEPA2.1 features, skipping future prediction at inference.",
+      "summary_zh": "La-JEPA 在预训练V-JEPA2.1特征上从头训练紧凑动作/世界Transformer，推理时省去未来预测。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08338",
+      "title": "GPWM: Modeling the World as 3D Particle Motion",
+      "topics": [
+        "manipulation-transfer",
+        "world-models"
+      ],
+      "summary_en": "GPWM predicts particles and rigid-body motion in 3D and searches latent noise for contact-rich plans.",
+      "summary_zh": "GPWM在三维空间预测粒子与刚体运动，并搜索潜在噪声生成接触密集计划。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07245",
+      "title": "MAC-v2: Long-horizon model-based value expansion from pixels",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "MAC-v2 combines reconstruction-free latent dynamics and action chunking for long-horizon model-based value expansion in pixel-based offline RL.",
+      "summary_zh": "MAC-v2结合无需图像重建的潜在动力学与动作分块，在像素输入的离线强化学习中进行长时域模型价值扩展。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07730",
+      "title": "Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes",
+      "topics": [
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "Social/semantic world models rank actions during training, then distill foresight into a single-pass navigation policy.",
+      "summary_zh": "训练时由社交与语义世界模型评价动作，将前瞻能力蒸馏进单次前向导航策略。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07850",
+      "title": "Learning Robotic World Models with Semantic and Visual Feedback",
+      "topics": [
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "RoboImagine post-trains visual robot world models using diverse candidate futures and semantic/visual preferences.",
+      "summary_zh": "RoboImagine 通过多样候选未来和语义、视觉偏好反馈后训练机器人视觉世界模型。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07900",
+      "title": "Structure from Collision via Hypothesis-Space Reasoning",
+      "topics": [
+        "manipulation-transfer",
+        "world-models"
+      ],
+      "summary_en": "Hypothesis-space Structure from Collision infers hidden cavities from deformation, then refines with differentiable particle simulation.",
+      "summary_zh": "假设空间碰撞结构推断通过变形识别隐藏空腔，再用可微粒子仿真优化。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07912",
+      "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+      "topics": [
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "GuidedWAM applies differentiable objective energies to clean-action estimates during frozen driving-WAM sampling.",
+      "summary_zh": "GuidedWAM在冻结驾驶WAM采样时，对干净动作估计施加可微目标能量。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08097",
+      "title": "STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "STEP couples cross-modal masked prediction with action-conditioned latent next-state prediction for humanoid control.",
+      "summary_zh": "STEP 结合跨模态掩码预测及动作条件潜在下一状态预测，训练人形控制表示。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08111",
+      "title": "Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model",
+      "topics": [
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "NegWAM post-trains driving WAMs against dangerous near-expert trajectories; auxiliary safety branch is discarded at inference.",
+      "summary_zh": "NegWAM 用接近专家但危险的轨迹后训练驾驶 WAM；推理时丢弃辅助安全分支。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08368",
+      "title": "VisionSIM: Beyond Idealized Sensors - A Multi-Modal Simulator for Robot Perception",
+      "topics": [
+        "evaluation",
+        "world-models"
+      ],
+      "summary_en": "VisionSIM simulates raw measurement processes and modality-specific failures for conventional and emerging sensors.",
+      "summary_zh": "VisionSIM模拟传统及新型传感器的原始测量过程与特定失效模式。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08449",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "topics": [
+        "vla",
+        "world-models"
+      ],
+      "summary_en": "VFlash jointly decodes structured visual primitives instead of serial coordinate tokens.",
+      "summary_zh": "VFlash整体解码结构化视觉原语，而非逐坐标token生成。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08373",
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "topics": [
+        "manipulation-transfer",
+        "vla"
+      ],
+      "summary_en": "SLA maintains 3D teacher alignment through continual pretraining and downstream adaptation of pi0.5.",
+      "summary_zh": "SLA在pi0.5持续预训练及下游适配期间维持三维教师对齐。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08413",
+      "title": "T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models",
+      "topics": [
+        "evaluation",
+        "vla"
+      ],
+      "summary_en": "T3R combines segmentation-based token pruning with saliency-based attention steering, without VLA retraining.",
+      "summary_zh": "T3R无需重训VLA，结合分割token裁剪与显著性注意力引导。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08425",
+      "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
+      "topics": [
+        "evaluation",
+        "vla"
+      ],
+      "summary_en": "VLA-Tug uses latent probes and statistical calibration for early failure alarms and failure-mode classification.",
+      "summary_zh": "VLA-Tug以潜在探针及统计校准实现早期失败告警与失败类型识别。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07275",
+      "title": "Efficient Diffusion Policy Fine Tuning with Latent Noise Representation Bridging",
+      "topics": [
+        "rl-adaptation",
+        "vla"
+      ],
+      "summary_en": "LARBRID bridges action-space and initial-noise value representations to adapt diffusion/flow policies.",
+      "summary_zh": "LARBRID 对齐动作空间与初始噪声空间价值表示，以适配扩散或流策略。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07411",
+      "title": "Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks",
+      "topics": [
+        "evaluation",
+        "vla"
+      ],
+      "summary_en": "Robot kinematics provide free shared context for learned video compression on policy uplinks.",
+      "summary_zh": "利用机器人运动学提供通信双方共享、无需额外码率的上下文，压缩策略上行视频。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07513",
+      "title": "Concertina: Embodying Manipulation and Cognition in One Diffusion Vision-Language Model",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer",
+        "vla"
+      ],
+      "summary_en": "Concertina embeds continuous action tokens and physical-coordinate supervision directly in a shared diffusion VLM, without a separate action-generation transformer.",
+      "summary_zh": "Concertina将连续动作令牌和物理坐标监督直接放入共享扩散VLM，不另设动作生成Transformer。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07712",
+      "title": "AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction",
+      "topics": [
+        "manipulation-transfer",
+        "vla"
+      ],
+      "summary_en": "AffectiveVLA adds intent gating, compliance profiles and a voice-triggered stop to humanoid social touch.",
+      "summary_zh": "AffectiveVLA 为人形社交接触加入意图门控、柔顺控制和语音停止。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08275",
+      "title": "Aligning Policy Encoders with a Shape Teacher",
+      "topics": [
+        "manipulation-transfer",
+        "vla"
+      ],
+      "summary_en": "Shape-teacher alignment transfers Point-MAE object geometry into image-policy features during training only.",
+      "summary_zh": "训练时以Point-MAE物体几何指导图像策略编码器，部署仍只用图像。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07532",
+      "title": "Semantics-to-Contact: A Stagewise Framework for Robust Contact-Rich Manipulation",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "summary_en": "S2C separates VLM semantic localization from force-aware human-in-the-loop residual RL.",
+      "summary_zh": "S2C 将 VLM 语义定位与带力反馈的人在环残差强化学习分开。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07881",
+      "title": "TactileLab: Sim-to-Real Dexterous Robot Manipulation with Efficient Shear-Sensitive Tactile Simulation",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "summary_en": "TactileLab approximates shear with rigid-body tactile flow and translates real sensor images into simulation representations.",
+      "summary_zh": "TactileLab 以刚体仿真的触觉流近似剪切，并将真实传感图像转换到仿真表示。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07261",
+      "title": "An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "summary_en": "Studies RL training stacks, relative keypoint observations and randomization for deformable linear objects.",
+      "summary_zh": "研究可变形线状物操作的强化学习训练栈、相对关键点观测与随机化。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07679",
+      "title": "PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion",
+      "topics": [
+        "evaluation",
+        "rl-adaptation"
+      ],
+      "summary_en": "PhySA separates VLM aesthetic rewards from state-based physical smoothness corrections.",
+      "summary_zh": "PhySA 将 VLM 审美奖励与基于状态的物理平滑度修正分离。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08056",
+      "title": "Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "summary_en": "Progressive imitation first acquires parkour skills, then relaxes motion priors to adapt hand/knee support.",
+      "summary_zh": "渐进模仿先学习跑酷技能，再减弱动作先验以适配手膝支撑。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08144",
+      "title": "Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning",
+      "topics": [
+        "evaluation",
+        "rl-adaptation"
+      ],
+      "summary_en": "A step ledger checks the environment-trainer wire protocol to expose silent RL data faults.",
+      "summary_zh": "逐步账本检查环境—训练器通信协议，以发现静默强化学习数据故障。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08364",
+      "title": "SHORE: Stability-Hybrid On-Policy Reinforcement Learning for Online Bin Packing",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "summary_en": "SHORE combines learned stability probability with stability-conditioned return for online bin packing.",
+      "summary_zh": "SHORE将稳定性概率与稳定条件收益结合，用于在线装箱。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08458",
+      "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "summary_en": "Latent RL Prior freezes a privileged-RL action decoder and learns an image-to-latent interface from demonstrations.",
+      "summary_zh": "Latent RL Prior冻结由特权状态强化学习得来的动作解码器，再由示范学习图像到潜在接口。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08372",
+      "title": "MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation",
+      "topics": [
+        "manipulation-transfer"
+      ],
+      "summary_en": "MOMASPLAT reconstructs static scene and moving object separately to augment full demonstrations from unseen base poses.",
+      "summary_zh": "MOMASPLAT分别重建静态场景与运动物体，从新底座位姿合成完整示范。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07272",
+      "title": "VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Consumer VR head/hand tracking supplies egocentric demonstrations for simulated manipulation.",
+      "summary_zh": "用消费级 VR 头手跟踪采集第一视角示范，训练仿真操作策略。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07651",
+      "title": "GraspBench: Execution-Aware Cross-Robot Evaluation of 6-DoF Grasp Generation in MuJoCo",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "GraspBench evaluates complete grasp proposal-to-execution pipelines across robot embodiments.",
+      "summary_zh": "GraspBench 跨机器人形态评估从抓取候选到实际执行的完整流程。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08407",
+      "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+      "topics": [
+        "manipulation-transfer"
+      ],
+      "summary_en": "Social Humanoid models human-robot motion jointly and uses contact-preserving adaptive retargeting.",
+      "summary_zh": "Social Humanoid联合建模人—机器人运动，并以保接触的自适应重定向构建数据。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07441",
+      "title": "Closed-Loop Physics-Based Manipulation Evaluation at a Commodity Price: What 4.4 L4 GPU hours at $3.50 Buys You",
+      "topics": [
+        "evaluation"
+      ],
+      "summary_en": "A commodity-GPU harness makes repeated closed-loop manipulation evaluation inexpensive.",
+      "summary_zh": "以低成本 GPU 工具支持重复闭环操作评估。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07291",
+      "title": "How do Transformers Perform Low-Level Control In-Context?",
+      "topics": [
+        "evaluation",
+        "rl-adaptation"
+      ],
+      "summary_en": "A GPT-2-style controller learns to stabilize unknown nonlinear systems using passive, unforced trajectories as context rather than known system parameters.",
+      "summary_zh": "GPT-2式控制器以无外力轨迹作为上下文，在未知非线性系统参数下学习稳定控制。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07437",
+      "title": "IMUDINO: Self-distilled Foundation Model for Inertial Sensing",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "IMUDINO adapts DINO-style self-distillation to inertial signals with motion-preserving augmentations and frequency-aware positions, transferring wearable-IMU features to robot odometry.",
+      "summary_zh": "IMUDINO以保留运动语义的增强和频率感知位置编码，将DINO式自蒸馏用于惯性信号，并将可穿戴IMU特征迁移到机器人里程计。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07658",
+      "title": "ArtCrafter: Feed-Forward Generation of Articulated 3D Object with Analytic Joint Derivation",
+      "topics": [
+        "manipulation-transfer",
+        "world-models"
+      ],
+      "summary_en": "ArtCrafter jointly generates paired rest/open articulated meshes from two images, then derives URDF joint parameters analytically from paired rigid transformations.",
+      "summary_zh": "ArtCrafter从静止与开启状态的两张图联合生成配对可动网格，再根据刚体变换解析计算URDF关节参数。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.07867",
+      "title": "PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State",
+      "topics": [
+        "memory-skills",
+        "world-models"
+      ],
+      "summary_en": "PlayGen2 separates explicit 3D world-state prediction from rendering, using persistent occupancy and identity-indexed entity memory instead of feeding generated images back into dynamics.",
+      "summary_zh": "PlayGen2把显式3D世界状态预测与渲染分离，以持久占据网格和带身份索引的实体记忆建模，不将生成图像回灌动力学。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.08286",
+      "title": "Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds",
+      "topics": [
+        "evaluation",
+        "rl-adaptation"
+      ],
+      "summary_en": "Interactive Visual Gym evaluates assistants in closed-loop simulated cooking, household and mobile-interface tasks, with persona-conditioned users and controlled errors.",
+      "summary_zh": "Interactive Visual Gym在烹饪、家居和手机界面仿真中闭环评估助手，引入带个性的模拟用户及可控失误。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v1",
+          "status": "new",
+          "announcement_date": "2026-11-06"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2601.11063",
+      "title": "EmboTeam: Asymmetric State Grounding for Heterogeneous Multi-Robot Collaboration",
+      "topics": [
+        "evaluation",
+        "memory-skills",
+        "rl-adaptation"
+      ],
+      "summary_en": "LLM-generated state expectations, PDDL verification and parallel behavior trees coordinate heterogeneous robot skills through reactive checks and synchronization.",
+      "summary_zh": "LLM生成状态预期，经PDDL验证后用并行行为树、反应式检查和同步协调异构机器人技能。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v3",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v2"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2602.17659",
+      "title": "When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer",
+        "vla"
+      ],
+      "summary_en": "LIBERO-CF tests alternative instructions in identical scenes; CAG contrasts conditioned and unconditioned actions to reduce visual shortcuts.",
+      "summary_zh": "LIBERO-CF在相同场景下测试替代指令；CAG对比有语言与无语言分支动作以抑制视觉捷径。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v3",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v2"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2602.18742",
+      "title": "RoboCurate: Harnessing Diversity with Action-Verified Synthetic Data for Robot Learning",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer",
+        "vla"
+      ],
+      "summary_en": "Uses simulator replay to verify motion agreement between generated videos and inverse-dynamics action labels before training robot policies.",
+      "summary_zh": "将逆动力学模型预测的动作在仿真器中回放，验证其与生成视频的运动一致性，再用于策略训练。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2603.23481",
+      "title": "VTAM: Efficient Visuo-Tactile World-Action Models for Contact-Rich Manipulation without Tactile Pretraining",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer",
+        "world-models"
+      ],
+      "summary_en": "Adapts a shared video backbone to visual/tactile prediction and trains an action expert with an optical-flow-derived contact proxy; inference does not fully denoise videos.",
+      "summary_zh": "以共享视频主干学习视觉与触觉预测，并用光流接触代理量监督动作专家；推理无需完整视频去噪。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2605.15843",
+      "title": "WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes",
+      "topics": [
+        "evaluation",
+        "vla",
+        "world-models"
+      ],
+      "summary_en": "A VLM agent decomposes monolithic generated 3DGS worlds into manipulable objects, restores backgrounds and reconstructs collision geometry for editable simulation scenes.",
+      "summary_zh": "VLM agent 将单体生成 3DGS 世界分解成可操纵物体、补全背景并重建碰撞几何。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2605.16797",
+      "title": "EgoKit: Towards Unified Low-Cost Egocentric Data Collection with Heterogeneous Devices",
+      "topics": [
+        "manipulation-transfer"
+      ],
+      "summary_en": "Unified egocentric and wrist-video/tracking collection across six heterogeneous host devices; XR headsets additionally provide head pose and 26-joint hand tracking.",
+      "summary_zh": "跨六类设备统一自我视角与腕部视频/追踪采集工具；XR 提供头部和 26-joint 手追踪。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2605.17204",
+      "title": "Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer",
+        "vla"
+      ],
+      "summary_en": "Event-grounded SAE feature ranking and residual-preserving interventions probe causal influences on closed-loop VLA behavior.",
+      "summary_zh": "事件对齐SAE特征排序与保留残差的干预，用于研究VLA闭环行为的因果敏感性。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2605.24011",
+      "title": "ActQuant: Sub-4-bit Action-Guided Backbone Weight-Only Quantization for Vision-Language-Action Models",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer",
+        "vla"
+      ],
+      "summary_en": "Action-aware sub-4-bit VLA weight-only quantization: HSIC allocates tensor bit widths, Action-Mixed Fisher optimizes scales, and OmniModel.cpp supports native deployment.",
+      "summary_zh": "动作感知低比特 VLA 量化：HSIC 分配张量位宽，Action-Mixed Fisher 优化缩放，并以 OmniModel.cpp 部署。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v4",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v3"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2607.09587",
+      "title": "CoDiMAD: Diffusion-Based Privileged Distillation for Communication-Free Multi-Robot Coordination",
+      "topics": [
+        "evaluation",
+        "rl-adaptation"
+      ],
+      "summary_en": "CoDiMAD distills privileged MAPPO into local-history diffusion policies to avoid averaging distinct cooperative action modes.",
+      "summary_zh": "CoDiMAD把特权MAPPO蒸馏为局部历史条件的扩散策略，避免对不同协作动作模式取平均。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2610.02801",
+      "title": "VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in Model-Based Reinforcement Learning",
+      "topics": [
+        "evaluation",
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "VIGOR combines weak-to-strong augmentation, dynamics consistency and encoder stabilization for zero-shot visual generalization of latent world-model RL.",
+      "summary_zh": "VIGOR结合弱强增强、动力学一致性与编码器稳定化，改善潜在世界模型强化学习的零样本视觉泛化。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2610.21180",
+      "title": "Evo-DexBench: Benchmarking Generalization across Related Tasks for Dexterous Manipulation",
+      "topics": [
+        "evaluation",
+        "manipulation-transfer"
+      ],
+      "summary_en": "Core-Gen functional-transfer benchmark with 30 tasks, six families and 1,248 simulated dexterous-hand multimodal demonstrations including tactile signals.",
+      "summary_zh": "Core-Gen 功能相关任务迁移基准：30 tasks、6 families、1,248 模拟双灵巧手多模态示范与 tactile。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2610.31661",
+      "title": "OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing",
+      "topics": [
+        "manipulation-transfer"
+      ],
+      "summary_en": "Adds a new high-dynamic-range (HDR) tactile-readout method and hardware experiments. Saturated taxels are reread at lower amplifier gains within the same frame. The real-robot manipulation policy results and previous cross-sensor transfer experiments are unchanged.",
+      "summary_zh": "新增高动态范围（HDR）触觉读出方法与硬件实验：在同一帧内以更低的放大器增益重读饱和触觉单元。原有真实机器人操作策略结果与跨传感器迁移实验不变。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2610.39327",
+      "title": "SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "summary_en": "Adds a real-robot-oriented post-training recipe and matched old/new checkpoint evaluations. Starting from the v0.1 tracker, v1.0 adds 4,000 training iterations with deployment torque limits, 0–40 ms actuation delay, gain randomization, and a near-torque-limit penalty; the new run takes about 9.2 GPU-hours on one RTX PRO 6000.",
+      "summary_zh": "新增面向真实机器人的后训练配方，以及同设置下新旧检查点对比。从 v0.1 跟踪器出发，v1.0 再训练 4,000 轮，加入部署扭矩限制、0–40 ms 执行延迟、增益随机化及接近扭矩上限的惩罚；单张 RTX PRO 6000 约需 9.2 GPU 小时。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v3",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v2"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2610.31429",
+      "title": "PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models",
+      "topics": [
+        "evaluation",
+        "memory-skills",
+        "world-models"
+      ],
+      "summary_en": "PhysTrace is a training-free, history-conditioned expectation–observation alignment evaluator for physical consistency in video, using an MLLM, video–text embeddings and selectively retained state descriptions. The revision adds a controlled reference-guided reconstruction experiment for video backbones relevant to world–action models.",
+      "summary_zh": "PhysTrace使用MLLM、视频—文本嵌入及选择性保留的状态描述，通过历史条件下的预期—观测对齐评估视频物理一致性，无需训练。此次修订新增面向世界—动作模型相关视频骨干的受控参考引导重建实验。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2611.05793",
+      "title": "ZipDrift: Generating Multimodal Short-Horizon MPC Costs with One-Step Drifting Models",
+      "topics": [
+        "evaluation",
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "This record documents a correction or status change, not a new research advance.",
+      "summary_zh": "此记录为内容或状态修正，不代表新的研究进展。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "substantive",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2607.10630",
+      "title": "World Models as Adversaries: Multi-Agent Self-Play Fine-Tuning for Robust Motion Planning",
+      "topics": [
+        "rl-adaptation",
+        "world-models"
+      ],
+      "summary_en": "A role-conditioned adversarial traffic world model trains sparse cooperative attacks, then remains frozen for regret-CVaR ego-planner adaptation.",
+      "summary_zh": "角色条件对抗交通世界模型学习稀疏协作攻击，再冻结用于regret-CVaR自车规划器适应。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "reproducibility",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2602.13977",
+      "title": "WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL",
+      "topics": [
+        "manipulation-transfer",
+        "world-models"
+      ],
+      "summary_en": "This record documents a correction or status change, not a new research advance.",
+      "summary_zh": "此记录为内容或状态修正，不代表新的研究进展。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v3",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "correction",
+          "compared_with": "v2"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2607.08341",
+      "title": "AnyDexRT: Calibration-Efficient Dexterous Hand Retargeting with Few-Shot Human Guidance",
+      "topics": [
+        "manipulation-transfer"
+      ],
+      "summary_en": "Few-shot human anchor guidance, self-supervised fingertip correspondence and a contact classifier support retargeting for multiple dexterous robot hands.",
+      "summary_zh": "少量人体引导 anchor、自监督手指对应与接触分类器用于多种灵巧手遥操作。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "correction",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2607.13033",
+      "title": "DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation",
+        "vla"
+      ],
+      "summary_en": "DenseReward learns visual-language progress scores from 27k success/failure trajectories and supplements sparse completion rewards for robot policy RL.",
+      "summary_zh": "DenseReward用2.7万成功/失败轨迹学习视觉语言进度评分，为机器人策略强化学习补充稀疏完成奖励。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v2",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "correction",
+          "compared_with": "v1"
+        }
+      ],
+      "latest_covered": "2026-11-06"
+    },
+    {
+      "id": "2608.03227",
+      "title": "PFM-HR: Pose Flow Matching for Humanoid Robots",
+      "topics": [
+        "manipulation-transfer",
+        "rl-adaptation"
+      ],
+      "summary_en": "PFM-HR learns a frozen unordered-pose flow-matching prior and uses its Jacobian response to shape humanoid tracking rewards.",
+      "summary_zh": "PFM-HR从无序姿态学习冻结流匹配先验，用雅可比响应塑造人形机器人跟踪奖励。",
+      "history": [
+        {
+          "date": "2026-11-06",
+          "version": "v4",
+          "status": "revised",
+          "announcement_date": "2026-11-06",
+          "revision_kind": "correction",
+          "compared_with": "v3"
+        }
+      ],
+      "latest_covered": "2026-11-06"
     }
   ]
 }
