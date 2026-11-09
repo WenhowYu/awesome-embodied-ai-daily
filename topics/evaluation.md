@@ -2,7 +2,231 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-417 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+448 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## On Agentic Manipulation Policies
+
+- [arXiv 2611.09892](https://arxiv.org/abs/2611.09892) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09892)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09892)
+
+AMP1 lets a generalist model write and execute robot-control code, with optional persistent cross-episode memory.
+
+## Computer-Use Agents Are Embodied Generalists
+
+- [arXiv 2611.09847](https://arxiv.org/abs/2611.09847) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09847)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09847)
+
+Wraps embodied tasks in software interfaces so a single computer-use agent can act through screenshots, clicks and keystrokes.
+
+## BEV3SR: Evidence-Aware 3D Spatial Reasoning from Video
+
+- [arXiv 2611.09816](https://arxiv.org/abs/2611.09816) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09816)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09816)
+
+BEV3SR converts RGB-D video with camera parameters into a metric BEV scene memory. It formalizes each question, computes geometric answers explicitly or retrieves object-consistent views for a VLM. Under a 16-frame budget with Qwen3-VL-8B, SQA3D exact match rises 51.6%→62.6%, and ScanQA exact match 27.8%→30.6%. It offers a potentially useful spatial reasoning layer for embodied systems.
+
+## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
+
+- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09794)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09794)
+
+Tests whether an agent acquires the views needed by its current manipulation command rather than merely describing a scene.
+
+## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
+
+- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09670)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09670)
+
+Studies how stronger search can exploit preference-model errors despite high held-out label accuracy; proposes calibrated regularization.
+
+## DexDICE: Reconciling Safety and Performance via Dual-Expert Offline Imitation Learning
+
+- [arXiv 2611.09433](https://arxiv.org/abs/2611.09433) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09433)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09433)
+
+DexDICE separates safety-compliant and performance-oriented demonstrations, combining distribution correction with safe-support constraints. It evaluates 38 re-curated DSRL tasks and a physical mobile robot trained from teleoperation. The robot reached its goal in all 10 trials with no observed safety violation. This makes it directly relevant to learning robot policies from imperfect demonstrations.
+
+## Can LLMs Debug Robots by Editing Their Weights?
+
+- [arXiv 2611.09376](https://arxiv.org/abs/2611.09376) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09376)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09376)
+
+An LLM edits 65 token-embedding rows using budgeted simulation feedback, without gradients or new demonstrations.
+
+## Probably Safe Sim-to-Real Transfer with Lifetime Validity
+
+- [arXiv 2611.09344](https://arxiv.org/abs/2611.09344) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09344)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09344)
+
+Dejavu certifies each simulation-trained policy before deployment using only trajectories from a safe deployed baseline. Per-decision importance sampling, betting confidence sequences and summable failure budgets aim to preserve statistical validity across an unbounded sequence of promotions. The method targets repeated robot-policy upgrades rather than one-off sim-to-real transfer.
+
+## Horizon-Coupled Obstacle Guidance for Relative-Action Diffusion Policies
+
+- [arXiv 2611.09340](https://arxiv.org/abs/2611.09340) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09340)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09340)
+
+Rolls relative actions into trajectories and propagates SDF obstacle responses across the denoising horizon without retraining.
+
+## EGT: Execution-Grounded Traversability through Learned Closed-Loop Trajectory Distributions
+
+- [arXiv 2611.09270](https://arxiv.org/abs/2611.09270) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09270)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09270)
+
+Predicts closed-loop trajectory distributions to estimate whether a vehicle-controller pair can actually traverse a path.
+
+## Safe Reinforcement Learning via Probabilistic Option Shielding
+
+- [arXiv 2611.09197](https://arxiv.org/abs/2611.09197) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09197)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09197)
+
+Probabilistic Option Shielding learns an option-safety critic from one-step logic-shielding signals, estimating whether temporally extended behaviors finish safely. On LogiCity navigation variants it improves training safety while retaining task performance, providing a long-horizon safety mechanism without a complete environment model.
+
+## Auditing Grasp Feasibility Predictors with Planner-Verified Counterfactuals
+
+- [arXiv 2611.09130](https://arxiv.org/abs/2611.09130) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09130)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09130)
+
+Planner-relabelled obstacle insertions test whether grasp-feasibility predictors actually use collision geometry.
+
+## DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking
+
+- [arXiv 2611.09041](https://arxiv.org/abs/2611.09041) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09041)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09041)
+
+Mask/box grounding and Q-identity history compression preserve target identity and spatial cues in compact historical tokens.
+
+## ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use
+
+- [arXiv 2611.09036](https://arxiv.org/abs/2611.09036) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09036)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09036)
+
+Multi-view human tool-use demonstrations support physical reasoning, reconstruction and robot-policy benchmarks.
+
+## A Controlled Study of Models, Skills, Feedback, and Curriculum in Agentic Robotics
+
+- [arXiv 2611.09030](https://arxiv.org/abs/2611.09030) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09030)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09030)
+
+Controlled experiments vary model capability, skill priors, feedback and curriculum in coding-agent robot self-improvement.
+
+## VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models
+
+- [arXiv 2611.08987](https://arxiv.org/abs/2611.08987) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08987)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08987)
+
+Runs a small onboard VLA and requests a server VLA when failure is predicted.
+
+## Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents
+
+- [arXiv 2611.08946](https://arxiv.org/abs/2611.08946) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08946)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08946)
+
+Benchmarks agents that revise both solutions and their own harness, including prompts, tools, memory and control loops, under fixed budgets.
+
+## HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety
+
+- [arXiv 2611.08914](https://arxiv.org/abs/2611.08914) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08914)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08914)
+
+Benchmarks domestic robot-IoT decisions under ambiguous alerts, residents, and evolving hazards in Isaac Sim.
+
+## Localizing and Editing the Goal Representation of a Vision-Language-Action Model
+
+- [arXiv 2611.08895](https://arxiv.org/abs/2611.08895) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08895)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08895)
+
+Studies OpenVLA failures on negated instructions and localizes editable goal representations.
+
+## ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models
+
+- [arXiv 2611.08827](https://arxiv.org/abs/2611.08827) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08827)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08827)
+
+Uses previous-action geometry to prune fixed-view and wrist-view tokens before visual encoding.
+
+## CS-Pi: Constraint-Satisfying Flow Policy Sampling
+
+- [arXiv 2611.08654](https://arxiv.org/abs/2611.08654) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08654)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08654)
+
+Draw-project-renoise sampling adds deployment-time constraints without retraining the underlying flow policy.
+
+## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
+
+- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v3 · [Latest entry](../daily/2026-11-09.md#arxiv-2610.19683)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.19683) · [2026-11-09 (v3, revised)](../daily/2026-11-09.md#arxiv-2610.19683)
+
+Adds a content-addressable memory bank and slot-diversity objectives to a JEPA-style latent world model for planning.
+
+## RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories
+
+- [arXiv 2610.18699](https://arxiv.org/abs/2610.18699) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2610.18699)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2610.18699)
+
+Uses fitted Q evaluation to estimate robot policy performance without requiring full online evaluation.
+
+## EvoPlan: Evolutionary Neuro-Symbolic Robot Planning with Spatio-Temporal Guarantees
+
+- [arXiv 2607.06724](https://arxiv.org/abs/2607.06724) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2607.06724)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2607.06724)
+
+Combines LLM-generated PDDL plans, validator-guided evolutionary search, and mined temporal constraints for robot navigation.
+
+## Real-Time Execution with Autoregressive Policies
+
+- [arXiv 2606.13355](https://arxiv.org/abs/2606.13355) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2606.13355)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2606.13355)
+
+π0-REALFAST makes autoregressive action policies asynchronous using prefix conditioning, constrained token decoding, and multiple candidate trajectories.
+
+## EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision
+
+- [arXiv 2605.31557](https://arxiv.org/abs/2605.31557) · v3 · [Latest entry](../daily/2026-11-09.md#arxiv-2605.31557)
+- Coverage history: [2026-11-09 (v3, revised)](../daily/2026-11-09.md#arxiv-2605.31557)
+
+Uses answer-validity windows and multiple recall intervals to distinguish forgetting from genuine scene changes in streaming egocentric video.
+
+## Mechanisms of Misgeneralization in Physical Sequence Modeling
+
+- [arXiv 2605.20299](https://arxiv.org/abs/2605.20299) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2605.20299)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2605.20299)
+
+Analyzes how one-step prediction errors induce long-run distribution shifts in diffusion models of physical sequences.
+
+## ObjView-Bench: Rethinking Difficulty and Deployment for Object-Centric View Planning
+
+- [arXiv 2605.10707](https://arxiv.org/abs/2605.10707) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2605.10707)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2605.10707)
+
+Benchmarks object-centric next-best-view planning under geometric difficulty and physical deployment constraints.
+
+## Learning-augmented robotic automation for real-world manufacturing
+
+- [arXiv 2604.22235](https://arxiv.org/abs/2604.22235) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2604.22235)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2604.22235)
+
+Integrates learned cable insertion/soldering controllers and a 3D safety monitor into a conventional manufacturing workflow.
+
+## Spectral Alignment in Forward-Backward Representations via Temporal Abstraction
+
+- [arXiv 2603.20103](https://arxiv.org/abs/2603.20103) · v5 · [Latest entry](../daily/2026-11-09.md#arxiv-2603.20103)
+- Coverage history: [2026-11-09 (v5, revised)](../daily/2026-11-09.md#arxiv-2603.20103)
+
+Uses temporal abstraction to improve spectral alignment in forward-backward representations for reward-free reinforcement learning.
+
+## Vision to Geometry: 3D Spatial Memory for Sequential Embodied MLLM Reasoning and Exploration
+
+- [arXiv 2512.02458](https://arxiv.org/abs/2512.02458) · v3 · [Latest entry](../daily/2026-11-09.md#arxiv-2512.02458)
+- Coverage history: [2026-11-09 (v3, revised)](../daily/2026-11-09.md#arxiv-2512.02458)
+
+Uses field-of-view coverage to gate spatial memory, verify task feasibility and guide exploration across sequential embodied tasks.
+
+## ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making
+
+- [arXiv 2505.20726](https://arxiv.org/abs/2505.20726) · v3 · [Latest entry](../daily/2026-11-09.md#arxiv-2505.20726)
+- Coverage history: [2026-11-09 (v3, revised)](../daily/2026-11-09.md#arxiv-2505.20726)
+
+Generates navigate–pick–place tasks from receptacle-aware scene graphs and uses task feedback for agent reflection.
 
 ## Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing
 
@@ -1914,13 +2138,6 @@ v1→v2 corrects the dataset description by removing the claim of serialized ini
 - Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.20429)
 
 v1→v2 sharpens the interpretation of alternative action tokenizers by comparing complete operating points and distinguishing guided from unguided discrete regression.
-
-## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
-
-- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.19683)
-- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.19683)
-
-MemWM v2 clarifies shared memory/action-conditioned prediction, parameter accounting and planning-budget comparisons.
 
 ## Where Small Mistakes Matter: Quantifying State Criticality for Imitation Learning
 

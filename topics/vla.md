@@ -2,7 +2,112 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-225 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+240 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning
+
+- [arXiv 2611.09684](https://arxiv.org/abs/2611.09684) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09684)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09684)
+
+A probabilistic action decoder and Soft-DTW alignment make VLA supervision tolerant of spatial and timing variation.
+
+## ODEAction: From Predicting Chunks to Evolving Actions
+
+- [arXiv 2611.09672](https://arxiv.org/abs/2611.09672) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09672)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09672)
+
+Learns an action-transition field and integrates an ODE to evolve actions continuously instead of predicting separate chunks.
+
+## Can LLMs Debug Robots by Editing Their Weights?
+
+- [arXiv 2611.09376](https://arxiv.org/abs/2611.09376) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09376)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09376)
+
+An LLM edits 65 token-embedding rows using budgeted simulation feedback, without gradients or new demonstrations.
+
+## HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes
+
+- [arXiv 2611.09355](https://arxiv.org/abs/2611.09355) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09355)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09355)
+
+HiMEM consolidates robot execution episodes into semantic manipulation rules, prunes redundant episodic memories, and composes retrieved memories to condition VLA action generation.
+
+## Toward the Era of Agentic Embodied Intelligence
+
+- [arXiv 2611.09124](https://arxiv.org/abs/2611.09124) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09124)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09124)
+
+A2-MEAS combines correction codes, execution history, MetaBrain guidance and an A2-WLA policy with latent world modeling.
+
+## DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking
+
+- [arXiv 2611.09041](https://arxiv.org/abs/2611.09041) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09041)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09041)
+
+Mask/box grounding and Q-identity history compression preserve target identity and spatial cues in compact historical tokens.
+
+## VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models
+
+- [arXiv 2611.08987](https://arxiv.org/abs/2611.08987) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08987)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08987)
+
+Runs a small onboard VLA and requests a server VLA when failure is predicted.
+
+## PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation
+
+- [arXiv 2611.08917](https://arxiv.org/abs/2611.08917) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08917)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08917)
+
+Stores skills in frozen low-rank action adapters and composes them with chunk-level routing.
+
+## Localizing and Editing the Goal Representation of a Vision-Language-Action Model
+
+- [arXiv 2611.08895](https://arxiv.org/abs/2611.08895) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08895)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08895)
+
+Studies OpenVLA failures on negated instructions and localizes editable goal representations.
+
+## ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models
+
+- [arXiv 2611.08827](https://arxiv.org/abs/2611.08827) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08827)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08827)
+
+Uses previous-action geometry to prune fixed-view and wrist-view tokens before visual encoding.
+
+## VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models
+
+- [arXiv 2611.08698](https://arxiv.org/abs/2611.08698) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08698)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08698)
+
+Retrieves demonstration context by estimated task progress rather than visual similarity alone.
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08577)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577)
+
+MR0 combines three-stage VLA training, Rollback correction data and event-driven persistent memory for task resumption.
+
+## Q-OIL: Optimistic Exploration in Learning from Human Interventions
+
+- [arXiv 2611.08576](https://arxiv.org/abs/2611.08576) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08576)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08576)
+
+Uses progress-aware human intervention modeling and decoupled critics to treat imperfect corrections as exploration guidance.
+
+## CompVLA: A Variable Compliance Vision-Language-Action Model for Contact-rich Manipulation
+
+- [arXiv 2609.23614](https://arxiv.org/abs/2609.23614) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2609.23614)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2609.23614)
+
+A compliance expert predicts stiffness and virtual displacement alongside motion, executed by geometric impedance control without force/torque sensing at inference.
+
+## Real-Time Execution with Autoregressive Policies
+
+- [arXiv 2606.13355](https://arxiv.org/abs/2606.13355) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2606.13355)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2606.13355)
+
+π0-REALFAST makes autoregressive action policies asynchronous using prefix conditioning, constrained token decoding, and multiple candidate trajectories.
 
 ## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
 

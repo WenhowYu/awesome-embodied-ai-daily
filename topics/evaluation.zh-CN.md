@@ -2,7 +2,231 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-417 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+448 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## On Agentic Manipulation Policies
+
+- [arXiv 2611.09892](https://arxiv.org/abs/2611.09892) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09892)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09892)
+
+AMP1 让通用模型编写并执行机器人控制代码，并可加入跨回合持久记忆。
+
+## Computer-Use Agents Are Embodied Generalists
+
+- [arXiv 2611.09847](https://arxiv.org/abs/2611.09847) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09847)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09847)
+
+将具身任务封装为软件界面，使同一计算机使用智能体通过截图、点击与按键操作。
+
+## BEV3SR: Evidence-Aware 3D Spatial Reasoning from Video
+
+- [arXiv 2611.09816](https://arxiv.org/abs/2611.09816) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09816)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09816)
+
+BEV3SR 将带相机参数的 RGB-D 视频转为具有度量信息的 BEV 场景记忆，再形式化问题，通过显式几何计算作答或为 VLM 检索对象一致的视角。采用 Qwen3-VL-8B 和 16 帧预算时，SQA3D 精确匹配率由 51.6% 升至 62.6%，ScanQA 由 27.8% 升至 30.6%。可作为具身系统的空间推理组件。
+
+## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
+
+- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794)
+
+评测智能体能否取得当前操作指令所需视角，而不只是描述场景。
+
+## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
+
+- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09670)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09670)
+
+研究更强搜索如何在偏好标签准确率较高时仍利用奖励模型误差，并提出校准正则化。
+
+## DexDICE: Reconciling Safety and Performance via Dual-Expert Offline Imitation Learning
+
+- [arXiv 2611.09433](https://arxiv.org/abs/2611.09433) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09433)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09433)
+
+DexDICE 将遵守安全规范但可能次优的示范与高性能但可能不安全的示范分开建模，通过分布校正和安全支持集约束学习策略。论文评估了重新整理的 38 个 DSRL 任务及使用遥操作数据训练的实体移动机器人；实体实验 10 次均到达目标，未观察到安全违规。适用于混合质量示范下的机器人策略学习。
+
+## Can LLMs Debug Robots by Editing Their Weights?
+
+- [arXiv 2611.09376](https://arxiv.org/abs/2611.09376) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09376)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09376)
+
+LLM利用有限仿真反馈直接编辑65个词嵌入行，无梯度更新或新增示范，修复指令词汇绑定。
+
+## Probably Safe Sim-to-Real Transfer with Lifetime Validity
+
+- [arXiv 2611.09344](https://arxiv.org/abs/2611.09344) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09344)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09344)
+
+Dejavu 仅利用已部署安全基线策略收集的轨迹，在候选仿真策略部署前进行认证。方法结合逐决策重要性采样、投注置信序列及可求和失败概率预算，使无界次数的策略升级仍具有统计有效性。其目标是持续更新策略过程中的安全认证，而不只是一次性的仿真到现实迁移。
+
+## Horizon-Coupled Obstacle Guidance for Relative-Action Diffusion Policies
+
+- [arXiv 2611.09340](https://arxiv.org/abs/2611.09340) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09340)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09340)
+
+将相对动作累积成轨迹，并在去噪时把SDF障碍反馈传播到整个动作时域，无需重训。
+
+## EGT: Execution-Grounded Traversability through Learned Closed-Loop Trajectory Distributions
+
+- [arXiv 2611.09270](https://arxiv.org/abs/2611.09270) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09270)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09270)
+
+预测闭环轨迹分布，估计特定车辆与控制器是否能够真正完成路径。
+
+## Safe Reinforcement Learning via Probabilistic Option Shielding
+
+- [arXiv 2611.09197](https://arxiv.org/abs/2611.09197) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09197)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09197)
+
+概率选项屏蔽从单步逻辑屏蔽信号学习选项安全评价器，预测具有时间延展的行为能否安全完成。在 LogiCity 导航变体中，它改善训练安全性并保持任务表现，为缺乏完整环境模型的系统提供长时程安全机制。
+
+## Auditing Grasp Feasibility Predictors with Planner-Verified Counterfactuals
+
+- [arXiv 2611.09130](https://arxiv.org/abs/2611.09130) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09130)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09130)
+
+保持抓取姿态不变、向接近路径加入障碍，并由规划器重标可行性，审计预测器是否真正理解碰撞几何。
+
+## DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking
+
+- [arXiv 2611.09041](https://arxiv.org/abs/2611.09041) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09041)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09041)
+
+通过目标掩码/边界框监督及Q-identity历史压缩，在紧凑历史token中保留身份与空间线索。
+
+## ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use
+
+- [arXiv 2611.09036](https://arxiv.org/abs/2611.09036) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09036)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09036)
+
+以同步第一/第三人称多视角记录人类创造性工具使用，并提供推理、重建与机器人策略学习基准。
+
+## A Controlled Study of Models, Skills, Feedback, and Curriculum in Agentic Robotics
+
+- [arXiv 2611.09030](https://arxiv.org/abs/2611.09030) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09030)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09030)
+
+控制比较模型能力、技能先验、反馈结构与课程，分析代码智能体如何通过物理交互改进机器人策略。
+
+## VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models
+
+- [arXiv 2611.08987](https://arxiv.org/abs/2611.08987) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08987)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08987)
+
+机器人先运行小型 VLA，仅在预测失败时切换到服务器大模型。
+
+## Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents
+
+- [arXiv 2611.08946](https://arxiv.org/abs/2611.08946) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08946)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08946)
+
+在固定预算下评测智能体对解法及自身框架的改进，包含提示、工具、记忆与控制循环。
+
+## HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety
+
+- [arXiv 2611.08914](https://arxiv.org/abs/2611.08914) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08914)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08914)
+
+用 Isaac Sim 模拟家庭机器人、物联网、居民和动态危险，评估有歧义警报下的决策。
+
+## Localizing and Editing the Goal Representation of a Vision-Language-Action Model
+
+- [arXiv 2611.08895](https://arxiv.org/abs/2611.08895) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08895)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08895)
+
+分析 OpenVLA 对否定指令的失效，并定位可编辑的目标表征。
+
+## ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models
+
+- [arXiv 2611.08827](https://arxiv.org/abs/2611.08827) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08827)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08827)
+
+利用上一动作块的几何先验，在视觉编码前针对固定与腕部相机分别剪枝。
+
+## CS-Pi: Constraint-Satisfying Flow Policy Sampling
+
+- [arXiv 2611.08654](https://arxiv.org/abs/2611.08654) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08654)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08654)
+
+通过采样、投影、重新加噪，在不重训流策略的情况下施加部署时约束。
+
+## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
+
+- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2610.19683)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683) · [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2610.19683)
+
+在 JEPA 式潜世界模型中加入内容寻址记忆库与槽位多样性目标，用于规划。
+
+## RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories
+
+- [arXiv 2610.18699](https://arxiv.org/abs/2610.18699) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2610.18699)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2610.18699)
+
+通过拟合 Q 评估估计机器人策略表现，以减少完整在线评测需求。
+
+## EvoPlan: Evolutionary Neuro-Symbolic Robot Planning with Spatio-Temporal Guarantees
+
+- [arXiv 2607.06724](https://arxiv.org/abs/2607.06724) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2607.06724)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2607.06724)
+
+将 LLM 生成的 PDDL 计划、验证器引导的进化搜索与挖掘得到的时序约束组合用于机器人导航。
+
+## Real-Time Execution with Autoregressive Policies
+
+- [arXiv 2606.13355](https://arxiv.org/abs/2606.13355) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2606.13355)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2606.13355)
+
+π0-REALFAST 通过前缀条件、约束令牌解码及多候选轨迹，实现自回归动作策略的异步执行。
+
+## EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision
+
+- [arXiv 2605.31557](https://arxiv.org/abs/2605.31557) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2605.31557)
+- 收录历史: [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2605.31557)
+
+以答案有效窗口与多种回忆间隔，区分流式第一视角视频中的模型遗忘和真实场景变化。
+
+## Mechanisms of Misgeneralization in Physical Sequence Modeling
+
+- [arXiv 2605.20299](https://arxiv.org/abs/2605.20299) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2605.20299)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2605.20299)
+
+分析物理序列扩散模型中，单步预测误差如何导致长期分布偏移。
+
+## ObjView-Bench: Rethinking Difficulty and Deployment for Object-Centric View Planning
+
+- [arXiv 2605.10707](https://arxiv.org/abs/2605.10707) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2605.10707)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2605.10707)
+
+在几何难度和物理部署约束下，评估物体中心的下一最佳视角规划。
+
+## Learning-augmented robotic automation for real-world manufacturing
+
+- [arXiv 2604.22235](https://arxiv.org/abs/2604.22235) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2604.22235)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2604.22235)
+
+将学习式线缆插入、焊接控制器及三维安全监测整合到传统制造流程中。
+
+## Spectral Alignment in Forward-Backward Representations via Temporal Abstraction
+
+- [arXiv 2603.20103](https://arxiv.org/abs/2603.20103) · v5 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2603.20103)
+- 收录历史: [2026-11-09 (v5, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2603.20103)
+
+通过时间抽象改善前向-后向表征的谱对齐，以支持无奖励强化学习。
+
+## Vision to Geometry: 3D Spatial Memory for Sequential Embodied MLLM Reasoning and Exploration
+
+- [arXiv 2512.02458](https://arxiv.org/abs/2512.02458) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2512.02458)
+- 收录历史: [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2512.02458)
+
+利用视场覆盖控制空间记忆写入、核验任务可行性，并指导连续具身任务的探索。
+
+## ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making
+
+- [arXiv 2505.20726](https://arxiv.org/abs/2505.20726) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2505.20726)
+- 收录历史: [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2505.20726)
+
+从包含可放置区域的场景图生成导航—抓取—放置任务，并用任务反馈支持代理反思。
 
 ## Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing
 
@@ -1914,13 +2138,6 @@ v1→v2删去数据含可精确重置初始状态的声明，并强调跨域及�
 - 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.20429)
 
 v1→v2按完整运行配置重新解释动作tokenizer结果，并区分有引导与无引导离散回归。
-
-## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
-
-- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683)
-- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683)
-
-MemWM v2 澄清共享的记忆/动作条件预测、参数核算与规划预算比较。
 
 ## Where Small Mistakes Matter: Quantifying State Criticality for Imitation Learning
 

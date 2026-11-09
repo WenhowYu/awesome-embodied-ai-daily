@@ -2,7 +2,77 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-220 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+228 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
+
+- [arXiv 2611.09625](https://arxiv.org/abs/2611.09625) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09625)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09625)
+
+TT-MBRL stores episode-specific memory by updating world-model parameters at test time rather than relying only on recurrent/contextual state. It improves several model architectures on Memory Maze 2D and 3D while maintaining strong DeepMind Control/Atari 100k performance. The approach is relevant to long-horizon navigation and partially observed embodied tasks.
+
+## MDF++: Visuo-Tactile World Action Model with End-to-end Representation Learning
+
+- [arXiv 2611.09293](https://arxiv.org/abs/2611.09293) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09293)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09293)
+
+A visuo-tactile world-action model learns control-relevant representations end-to-end using cross-modal multitask training.
+
+## EGT: Execution-Grounded Traversability through Learned Closed-Loop Trajectory Distributions
+
+- [arXiv 2611.09270](https://arxiv.org/abs/2611.09270) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09270)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09270)
+
+Predicts closed-loop trajectory distributions to estimate whether a vehicle-controller pair can actually traverse a path.
+
+## Toward the Era of Agentic Embodied Intelligence
+
+- [arXiv 2611.09124](https://arxiv.org/abs/2611.09124) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09124)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09124)
+
+A2-MEAS combines correction codes, execution history, MetaBrain guidance and an A2-WLA policy with latent world modeling.
+
+## FATHOM: World-Model-Guided Diffusion Action-Trajectory Selection for Sparse-Marker AUV Tracking
+
+- [arXiv 2611.08898](https://arxiv.org/abs/2611.08898) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08898)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08898)
+
+A recurrent world model fuses markers, inertial sensing, and action history to rank diffusion-generated thruster trajectories.
+
+## WorldBridge: Bridging Video and Action for Task Generalization in World Action Models
+
+- [arXiv 2610.40748](https://arxiv.org/abs/2610.40748) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2610.40748)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40748) · [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2610.40748)
+
+Connects separate video/action experts using structured attention, joint flow matching and two-scale visual memory.
+
+## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
+
+- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v3 · [Latest entry](../daily/2026-11-09.md#arxiv-2610.19683)
+- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.19683) · [2026-11-09 (v3, revised)](../daily/2026-11-09.md#arxiv-2610.19683)
+
+Adds a content-addressable memory bank and slot-diversity objectives to a JEPA-style latent world model for planning.
+
+## CLAW: Continuous Latent Action World Models via Adversarial Regularization
+
+- [arXiv 2606.04130](https://arxiv.org/abs/2606.04130) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2606.04130)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2606.04130)
+
+Jointly learns continuous latent actions and a diffusion world model from action-free video, using adversarial regularization against future-frame leakage; supports imitation and latent-space planning.
+
+## Mechanisms of Misgeneralization in Physical Sequence Modeling
+
+- [arXiv 2605.20299](https://arxiv.org/abs/2605.20299) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2605.20299)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2605.20299)
+
+Analyzes how one-step prediction errors induce long-run distribution shifts in diffusion models of physical sequences.
+
+## RigidFormer: Learning Rigid Dynamics using Transformers
+
+- [arXiv 2605.09196](https://arxiv.org/abs/2605.09196) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2605.09196)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2605.09196)
+
+An object-level Transformer predicts multi-object rigid dynamics from point sets, with geometry-aware attention and rigid projection.
 
 ## VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
 
@@ -662,13 +732,6 @@ SafeWebWorld separates plausible predicted futures, preservation of policy-decis
 
 A coding-agent harness decomposes 4D animation into verified static storyboards and locally authored motion, with explicit physical checks.
 
-## WorldBridge: Bridging Video and Action for Task Generalization in World Action Models
-
-- [arXiv 2610.40748](https://arxiv.org/abs/2610.40748) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.40748)
-- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.40748)
-
-Separates video and action experts with structured attention, joint flow matching and multiscale visual memory.
-
 ## Self-Building Labs
 
 - [arXiv 2610.23826](https://arxiv.org/abs/2610.23826) · v2 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.23826)
@@ -969,13 +1032,6 @@ Policy changes can invalidate fixed world-model uncertainty calibration.
 - Coverage history: [2026-10-27 (v1, new)](../daily/2026-10-27.md#arxiv-2610.33894) · [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.33894)
 
 WMEval v2 expands uncertainty reporting and clarifies causal effects relative to a Unity reference and the treatment of divergent initial conditions.
-
-## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
-
-- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v2 · [Latest entry](../daily/2026-10-28.md#arxiv-2610.19683)
-- Coverage history: [2026-10-28 (v2, revised)](../daily/2026-10-28.md#arxiv-2610.19683)
-
-MemWM v2 clarifies shared memory/action-conditioned prediction, parameter accounting and planning-budget comparisons.
 
 ## FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation
 

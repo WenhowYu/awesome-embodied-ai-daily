@@ -2,7 +2,154 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-214 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+235 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation
+
+- [arXiv 2611.09864](https://arxiv.org/abs/2611.09864) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09864)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09864)
+
+Distills a multi-grasp PPO critic into a utility network that selects grasps for downstream rearrangement goals.
+
+## Autonomous Particle Image Velocimetry Using Zero-Shot Sim-to-Real Reinforcement Learning
+
+- [arXiv 2611.09679](https://arxiv.org/abs/2611.09679) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09679)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09679)
+
+An RL policy moves a camera on a 6-DoF arm to locate and resolve hydrofoil wakes using flow estimates and uncertainty.
+
+## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
+
+- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09670)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09670)
+
+Studies how stronger search can exploit preference-model errors despite high held-out label accuracy; proposes calibrated regularization.
+
+## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
+
+- [arXiv 2611.09625](https://arxiv.org/abs/2611.09625) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09625)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09625)
+
+TT-MBRL stores episode-specific memory by updating world-model parameters at test time rather than relying only on recurrent/contextual state. It improves several model architectures on Memory Maze 2D and 3D while maintaining strong DeepMind Control/Atari 100k performance. The approach is relevant to long-horizon navigation and partially observed embodied tasks.
+
+## DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control
+
+- [arXiv 2611.09605](https://arxiv.org/abs/2611.09605) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09605)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09605)
+
+Combines inverse-dynamics and PD tracking with a learned residual dedicated to balance.
+
+## DexDICE: Reconciling Safety and Performance via Dual-Expert Offline Imitation Learning
+
+- [arXiv 2611.09433](https://arxiv.org/abs/2611.09433) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09433)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09433)
+
+DexDICE separates safety-compliant and performance-oriented demonstrations, combining distribution correction with safe-support constraints. It evaluates 38 re-curated DSRL tasks and a physical mobile robot trained from teleoperation. The robot reached its goal in all 10 trials with no observed safety violation. This makes it directly relevant to learning robot policies from imperfect demonstrations.
+
+## Can LLMs Debug Robots by Editing Their Weights?
+
+- [arXiv 2611.09376](https://arxiv.org/abs/2611.09376) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09376)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09376)
+
+An LLM edits 65 token-embedding rows using budgeted simulation feedback, without gradients or new demonstrations.
+
+## Probably Safe Sim-to-Real Transfer with Lifetime Validity
+
+- [arXiv 2611.09344](https://arxiv.org/abs/2611.09344) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09344)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09344)
+
+Dejavu certifies each simulation-trained policy before deployment using only trajectories from a safe deployed baseline. Per-decision importance sampling, betting confidence sequences and summable failure budgets aim to preserve statistical validity across an unbounded sequence of promotions. The method targets repeated robot-policy upgrades rather than one-off sim-to-real transfer.
+
+## Horizon-Coupled Obstacle Guidance for Relative-Action Diffusion Policies
+
+- [arXiv 2611.09340](https://arxiv.org/abs/2611.09340) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09340)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09340)
+
+Rolls relative actions into trajectories and propagates SDF obstacle responses across the denoising horizon without retraining.
+
+## SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References
+
+- [arXiv 2611.09266](https://arxiv.org/abs/2611.09266) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09266)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09266)
+
+Synthesized interaction references support privileged teachers, visual distillation and reinforcement learning for humanoid loco-manipulation.
+
+## Safe Reinforcement Learning via Probabilistic Option Shielding
+
+- [arXiv 2611.09197](https://arxiv.org/abs/2611.09197) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09197)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09197)
+
+Probabilistic Option Shielding learns an option-safety critic from one-step logic-shielding signals, estimating whether temporally extended behaviors finish safely. On LogiCity navigation variants it improves training safety while retaining task performance, providing a long-horizon safety mechanism without a complete environment model.
+
+## PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation
+
+- [arXiv 2611.08917](https://arxiv.org/abs/2611.08917) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08917)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08917)
+
+Stores skills in frozen low-rank action adapters and composes them with chunk-level routing.
+
+## Localizing and Editing the Goal Representation of a Vision-Language-Action Model
+
+- [arXiv 2611.08895](https://arxiv.org/abs/2611.08895) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08895)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08895)
+
+Studies OpenVLA failures on negated instructions and localizes editable goal representations.
+
+## STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards
+
+- [arXiv 2611.08857](https://arxiv.org/abs/2611.08857) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08857)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08857)
+
+Combines IMU-based acceleration rewards, off-policy RL, high-gain control, and symmetry augmentation.
+
+## It Takes Two to Tangram: Multi-Agent Object Centric Reinforcement Learning for Assembly
+
+- [arXiv 2611.08814](https://arxiv.org/abs/2611.08814) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08814)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08814)
+
+Treats assembly pieces as agents and learns graph-based coordinated planar motions.
+
+## ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing
+
+- [arXiv 2611.08664](https://arxiv.org/abs/2611.08664) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08664)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08664)
+
+Two-stage RL infers force and state latents from onboard observations and coordinates whole-body residual control.
+
+## CS-Pi: Constraint-Satisfying Flow Policy Sampling
+
+- [arXiv 2611.08654](https://arxiv.org/abs/2611.08654) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08654)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08654)
+
+Draw-project-renoise sampling adds deployment-time constraints without retraining the underlying flow policy.
+
+## Q-OIL: Optimistic Exploration in Learning from Human Interventions
+
+- [arXiv 2611.08576](https://arxiv.org/abs/2611.08576) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08576)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08576)
+
+Uses progress-aware human intervention modeling and decoupled critics to treat imperfect corrections as exploration guidance.
+
+## RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories
+
+- [arXiv 2610.18699](https://arxiv.org/abs/2610.18699) · v2 · [Latest entry](../daily/2026-11-09.md#arxiv-2610.18699)
+- Coverage history: [2026-11-09 (v2, revised)](../daily/2026-11-09.md#arxiv-2610.18699)
+
+Uses fitted Q evaluation to estimate robot policy performance without requiring full online evaluation.
+
+## Spectral Alignment in Forward-Backward Representations via Temporal Abstraction
+
+- [arXiv 2603.20103](https://arxiv.org/abs/2603.20103) · v5 · [Latest entry](../daily/2026-11-09.md#arxiv-2603.20103)
+- Coverage history: [2026-11-09 (v5, revised)](../daily/2026-11-09.md#arxiv-2603.20103)
+
+Uses temporal abstraction to improve spectral alignment in forward-backward representations for reward-free reinforcement learning.
+
+## VLD: Visual Learned Distance as an Interface for Reinforcement Learning Navigation
+
+- [arXiv 2512.07976](https://arxiv.org/abs/2512.07976) · v3 · [Latest entry](../daily/2026-11-09.md#arxiv-2512.07976)
+- Coverage history: [2026-11-09 (v3, revised)](../daily/2026-11-09.md#arxiv-2512.07976)
+
+Decouples a video-trained visual goal-distance predictor from an RL navigator trained using geometry-conditioned prediction noise.
 
 ## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
 

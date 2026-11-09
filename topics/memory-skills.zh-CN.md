@@ -2,7 +2,182 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-295 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+320 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## On Agentic Manipulation Policies
+
+- [arXiv 2611.09892](https://arxiv.org/abs/2611.09892) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09892)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09892)
+
+AMP1 让通用模型编写并执行机器人控制代码，并可加入跨回合持久记忆。
+
+## Computer-Use Agents Are Embodied Generalists
+
+- [arXiv 2611.09847](https://arxiv.org/abs/2611.09847) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09847)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09847)
+
+将具身任务封装为软件界面，使同一计算机使用智能体通过截图、点击与按键操作。
+
+## BEV3SR: Evidence-Aware 3D Spatial Reasoning from Video
+
+- [arXiv 2611.09816](https://arxiv.org/abs/2611.09816) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09816)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09816)
+
+BEV3SR 将带相机参数的 RGB-D 视频转为具有度量信息的 BEV 场景记忆，再形式化问题，通过显式几何计算作答或为 VLM 检索对象一致的视角。采用 Qwen3-VL-8B 和 16 帧预算时，SQA3D 精确匹配率由 51.6% 升至 62.6%，ScanQA 由 27.8% 升至 30.6%。可作为具身系统的空间推理组件。
+
+## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
+
+- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794)
+
+评测智能体能否取得当前操作指令所需视角，而不只是描述场景。
+
+## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
+
+- [arXiv 2611.09625](https://arxiv.org/abs/2611.09625) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09625)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09625)
+
+TT-MBRL 在测试时更新世界模型参数以编码当前回合的记忆，而不只依赖循环状态或上下文。论文在二维和三维 Memory Maze 中提升了多种架构的表现，同时在 DeepMind Control 与 Atari 100k 上保持较强性能。该方向与长时程导航和部分可观测具身任务相关。
+
+## HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes
+
+- [arXiv 2611.09355](https://arxiv.org/abs/2611.09355) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09355)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09355)
+
+HiMEM 将机器人执行经历整合为语义操作规则，剪除冗余情节记忆，并组合检索到的记忆以辅助 VLA 动作生成。
+
+## SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References
+
+- [arXiv 2611.09266](https://arxiv.org/abs/2611.09266) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09266)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09266)
+
+用可复用模板合成交互参考，再以特权教师、视觉蒸馏与强化学习获得全身移动操作技能。
+
+## Safe Reinforcement Learning via Probabilistic Option Shielding
+
+- [arXiv 2611.09197](https://arxiv.org/abs/2611.09197) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09197)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09197)
+
+概率选项屏蔽从单步逻辑屏蔽信号学习选项安全评价器，预测具有时间延展的行为能否安全完成。在 LogiCity 导航变体中，它改善训练安全性并保持任务表现，为缺乏完整环境模型的系统提供长时程安全机制。
+
+## Toward the Era of Agentic Embodied Intelligence
+
+- [arXiv 2611.09124](https://arxiv.org/abs/2611.09124) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09124)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09124)
+
+A2-MEAS 结合纠错代码、执行历史、MetaBrain 引导，以及包含潜在世界模型的 A2-WLA 策略。
+
+## DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking
+
+- [arXiv 2611.09041](https://arxiv.org/abs/2611.09041) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09041)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09041)
+
+通过目标掩码/边界框监督及Q-identity历史压缩，在紧凑历史token中保留身份与空间线索。
+
+## ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use
+
+- [arXiv 2611.09036](https://arxiv.org/abs/2611.09036) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09036)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09036)
+
+以同步第一/第三人称多视角记录人类创造性工具使用，并提供推理、重建与机器人策略学习基准。
+
+## A Controlled Study of Models, Skills, Feedback, and Curriculum in Agentic Robotics
+
+- [arXiv 2611.09030](https://arxiv.org/abs/2611.09030) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09030)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09030)
+
+控制比较模型能力、技能先验、反馈结构与课程，分析代码智能体如何通过物理交互改进机器人策略。
+
+## Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents
+
+- [arXiv 2611.08946](https://arxiv.org/abs/2611.08946) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08946)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08946)
+
+在固定预算下评测智能体对解法及自身框架的改进，包含提示、工具、记忆与控制循环。
+
+## HOC2R: Hand-Object Contact Trajectories for Human-to-Robot Motion Transfer
+
+- [arXiv 2611.08920](https://arxiv.org/abs/2611.08920) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08920)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08920)
+
+结合冻结视觉特征与学习头，从人类视频提取可供机器人使用的接触轨迹。
+
+## PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation
+
+- [arXiv 2611.08917](https://arxiv.org/abs/2611.08917) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08917)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08917)
+
+将技能保存为冻结低秩动作适配器，用逐动作块路由组合技能。
+
+## HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety
+
+- [arXiv 2611.08914](https://arxiv.org/abs/2611.08914) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08914)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08914)
+
+用 Isaac Sim 模拟家庭机器人、物联网、居民和动态危险，评估有歧义警报下的决策。
+
+## VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models
+
+- [arXiv 2611.08698](https://arxiv.org/abs/2611.08698) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08698)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08698)
+
+按示范条件下估计的任务进度检索动作上下文，而非只依赖视觉相似性。
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
+
+MR0 结合三阶段 VLA 训练、Rollback 人工纠错数据和事件驱动持久记忆，以支持任务恢复。
+
+## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
+
+- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2610.19683)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683) · [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2610.19683)
+
+在 JEPA 式潜世界模型中加入内容寻址记忆库与槽位多样性目标，用于规划。
+
+## MATE: Asynchronous Multi-Rate Diffusion Policy Composition
+
+- [arXiv 2607.17257](https://arxiv.org/abs/2607.17257) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2607.17257)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2607.17257)
+
+以不同频率组合独立训练的扩散策略，将延迟的去噪引导重映射到共同动作坐标系。
+
+## EvoPlan: Evolutionary Neuro-Symbolic Robot Planning with Spatio-Temporal Guarantees
+
+- [arXiv 2607.06724](https://arxiv.org/abs/2607.06724) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2607.06724)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2607.06724)
+
+将 LLM 生成的 PDDL 计划、验证器引导的进化搜索与挖掘得到的时序约束组合用于机器人导航。
+
+## EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision
+
+- [arXiv 2605.31557](https://arxiv.org/abs/2605.31557) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2605.31557)
+- 收录历史: [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2605.31557)
+
+以答案有效窗口与多种回忆间隔，区分流式第一视角视频中的模型遗忘和真实场景变化。
+
+## Vision to Geometry: 3D Spatial Memory for Sequential Embodied MLLM Reasoning and Exploration
+
+- [arXiv 2512.02458](https://arxiv.org/abs/2512.02458) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2512.02458)
+- 收录历史: [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2512.02458)
+
+利用视场覆盖控制空间记忆写入、核验任务可行性，并指导连续具身任务的探索。
+
+## Predictive Representation Learning for Manipulation via Streaming Egocentric 3D Hand Forecasting
+
+- [arXiv 2511.18127](https://arxiv.org/abs/2511.18127) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2511.18127)
+- 收录历史: [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2511.18127)
+
+以第一视角视频、语言及 ROI 增强记忆自回归预测三维手部状态，预训练可迁移的操作表征。
+
+## ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making
+
+- [arXiv 2505.20726](https://arxiv.org/abs/2505.20726) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2505.20726)
+- 收录历史: [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2505.20726)
+
+从包含可放置区域的场景图生成导航—抓取—放置任务，并用任务反馈支持代理反思。
 
 ## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
 

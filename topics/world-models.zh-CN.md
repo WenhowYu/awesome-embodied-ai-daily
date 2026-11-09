@@ -2,7 +2,77 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-220 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+228 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
+
+- [arXiv 2611.09625](https://arxiv.org/abs/2611.09625) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09625)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09625)
+
+TT-MBRL 在测试时更新世界模型参数以编码当前回合的记忆，而不只依赖循环状态或上下文。论文在二维和三维 Memory Maze 中提升了多种架构的表现，同时在 DeepMind Control 与 Atari 100k 上保持较强性能。该方向与长时程导航和部分可观测具身任务相关。
+
+## MDF++: Visuo-Tactile World Action Model with End-to-end Representation Learning
+
+- [arXiv 2611.09293](https://arxiv.org/abs/2611.09293) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09293)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09293)
+
+视觉触觉世界动作模型端到端学习控制表征，以多任务跨模态训练避免特征坍塌。
+
+## EGT: Execution-Grounded Traversability through Learned Closed-Loop Trajectory Distributions
+
+- [arXiv 2611.09270](https://arxiv.org/abs/2611.09270) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09270)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09270)
+
+预测闭环轨迹分布，估计特定车辆与控制器是否能够真正完成路径。
+
+## Toward the Era of Agentic Embodied Intelligence
+
+- [arXiv 2611.09124](https://arxiv.org/abs/2611.09124) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09124)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09124)
+
+A2-MEAS 结合纠错代码、执行历史、MetaBrain 引导，以及包含潜在世界模型的 A2-WLA 策略。
+
+## FATHOM: World-Model-Guided Diffusion Action-Trajectory Selection for Sparse-Marker AUV Tracking
+
+- [arXiv 2611.08898](https://arxiv.org/abs/2611.08898) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08898)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08898)
+
+循环状态空间模型融合稀疏光标记、惯性与动作历史，再用预测结果选择扩散生成的推进器轨迹。
+
+## WorldBridge: Bridging Video and Action for Task Generalization in World Action Models
+
+- [arXiv 2610.40748](https://arxiv.org/abs/2610.40748) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2610.40748)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40748) · [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2610.40748)
+
+通过结构化注意力、联合流匹配与双尺度视觉记忆连接视频和动作专家。
+
+## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
+
+- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2610.19683)
+- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683) · [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2610.19683)
+
+在 JEPA 式潜世界模型中加入内容寻址记忆库与槽位多样性目标，用于规划。
+
+## CLAW: Continuous Latent Action World Models via Adversarial Regularization
+
+- [arXiv 2606.04130](https://arxiv.org/abs/2606.04130) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2606.04130)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2606.04130)
+
+从无动作标注视频联合学习连续潜动作和扩散世界模型，通过对抗正则抑制未来画面泄漏，支持模仿与潜空间规划。
+
+## Mechanisms of Misgeneralization in Physical Sequence Modeling
+
+- [arXiv 2605.20299](https://arxiv.org/abs/2605.20299) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2605.20299)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2605.20299)
+
+分析物理序列扩散模型中，单步预测误差如何导致长期分布偏移。
+
+## RigidFormer: Learning Rigid Dynamics using Transformers
+
+- [arXiv 2605.09196](https://arxiv.org/abs/2605.09196) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2605.09196)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2605.09196)
+
+用物体级 Transformer、几何感知注意力与刚体投影，从点集预测多物体刚体动力学。
 
 ## VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
 
@@ -662,13 +732,6 @@ SafeWebWorld区分预测未来的合理性、决策关键证据保留和执行/�
 
 代码智能体框架把4D动画拆成经过验证的静态分镜和局部运动，并加入显式物理检查。
 
-## WorldBridge: Bridging Video and Action for Task Generalization in World Action Models
-
-- [arXiv 2610.40748](https://arxiv.org/abs/2610.40748) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.40748)
-- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.40748)
-
-通过结构化注意力连接视频与动作专家，结合联合流匹配及多尺度视觉记忆。
-
 ## Self-Building Labs
 
 - [arXiv 2610.23826](https://arxiv.org/abs/2610.23826) · v2 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.23826)
@@ -969,13 +1032,6 @@ MoGAP 为视频世界模型增加仅训练时使用的运动引导非对称噪�
 - 收录历史: [2026-10-27 (v1, new)](../daily/2026-10-27.zh-CN.md#arxiv-2610.33894) · [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.33894)
 
 WMEval v2 扩展不确定性报告，并澄清相对 Unity 参考的因果效应及初始条件偏离样本处理。
-
-## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
-
-- [arXiv 2610.19683](https://arxiv.org/abs/2610.19683) · v2 · [最新归档](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683)
-- 收录历史: [2026-10-28 (v2, revised)](../daily/2026-10-28.zh-CN.md#arxiv-2610.19683)
-
-MemWM v2 澄清共享的记忆/动作条件预测、参数核算与规划预算比较。
 
 ## FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation
 

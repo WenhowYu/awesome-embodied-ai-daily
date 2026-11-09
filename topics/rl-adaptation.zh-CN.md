@@ -2,7 +2,154 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-214 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+235 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation
+
+- [arXiv 2611.09864](https://arxiv.org/abs/2611.09864) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09864)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09864)
+
+将多抓取 PPO critic 蒸馏为效用网络，按后续重排目标选择抓取点。
+
+## Autonomous Particle Image Velocimetry Using Zero-Shot Sim-to-Real Reinforcement Learning
+
+- [arXiv 2611.09679](https://arxiv.org/abs/2611.09679) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09679)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09679)
+
+强化学习策略控制六自由度机械臂相机，通过流场估计与不确定性定位和解析水翼尾流。
+
+## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
+
+- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09670)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09670)
+
+研究更强搜索如何在偏好标签准确率较高时仍利用奖励模型误差，并提出校准正则化。
+
+## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
+
+- [arXiv 2611.09625](https://arxiv.org/abs/2611.09625) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09625)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09625)
+
+TT-MBRL 在测试时更新世界模型参数以编码当前回合的记忆，而不只依赖循环状态或上下文。论文在二维和三维 Memory Maze 中提升了多种架构的表现，同时在 DeepMind Control 与 Atari 100k 上保持较强性能。该方向与长时程导航和部分可观测具身任务相关。
+
+## DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control
+
+- [arXiv 2611.09605](https://arxiv.org/abs/2611.09605) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09605)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09605)
+
+将逆动力学与 PD 跟踪结合，并用学习残差专门处理平衡。
+
+## DexDICE: Reconciling Safety and Performance via Dual-Expert Offline Imitation Learning
+
+- [arXiv 2611.09433](https://arxiv.org/abs/2611.09433) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09433)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09433)
+
+DexDICE 将遵守安全规范但可能次优的示范与高性能但可能不安全的示范分开建模，通过分布校正和安全支持集约束学习策略。论文评估了重新整理的 38 个 DSRL 任务及使用遥操作数据训练的实体移动机器人；实体实验 10 次均到达目标，未观察到安全违规。适用于混合质量示范下的机器人策略学习。
+
+## Can LLMs Debug Robots by Editing Their Weights?
+
+- [arXiv 2611.09376](https://arxiv.org/abs/2611.09376) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09376)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09376)
+
+LLM利用有限仿真反馈直接编辑65个词嵌入行，无梯度更新或新增示范，修复指令词汇绑定。
+
+## Probably Safe Sim-to-Real Transfer with Lifetime Validity
+
+- [arXiv 2611.09344](https://arxiv.org/abs/2611.09344) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09344)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09344)
+
+Dejavu 仅利用已部署安全基线策略收集的轨迹，在候选仿真策略部署前进行认证。方法结合逐决策重要性采样、投注置信序列及可求和失败概率预算，使无界次数的策略升级仍具有统计有效性。其目标是持续更新策略过程中的安全认证，而不只是一次性的仿真到现实迁移。
+
+## Horizon-Coupled Obstacle Guidance for Relative-Action Diffusion Policies
+
+- [arXiv 2611.09340](https://arxiv.org/abs/2611.09340) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09340)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09340)
+
+将相对动作累积成轨迹，并在去噪时把SDF障碍反馈传播到整个动作时域，无需重训。
+
+## SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References
+
+- [arXiv 2611.09266](https://arxiv.org/abs/2611.09266) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09266)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09266)
+
+用可复用模板合成交互参考，再以特权教师、视觉蒸馏与强化学习获得全身移动操作技能。
+
+## Safe Reinforcement Learning via Probabilistic Option Shielding
+
+- [arXiv 2611.09197](https://arxiv.org/abs/2611.09197) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09197)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09197)
+
+概率选项屏蔽从单步逻辑屏蔽信号学习选项安全评价器，预测具有时间延展的行为能否安全完成。在 LogiCity 导航变体中，它改善训练安全性并保持任务表现，为缺乏完整环境模型的系统提供长时程安全机制。
+
+## PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation
+
+- [arXiv 2611.08917](https://arxiv.org/abs/2611.08917) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08917)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08917)
+
+将技能保存为冻结低秩动作适配器，用逐动作块路由组合技能。
+
+## Localizing and Editing the Goal Representation of a Vision-Language-Action Model
+
+- [arXiv 2611.08895](https://arxiv.org/abs/2611.08895) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08895)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08895)
+
+分析 OpenVLA 对否定指令的失效，并定位可编辑的目标表征。
+
+## STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards
+
+- [arXiv 2611.08857](https://arxiv.org/abs/2611.08857) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08857)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08857)
+
+采用只需 IMU 的加速度奖励，结合离策略 RL、高增益控制与左右对称增强。
+
+## It Takes Two to Tangram: Multi-Agent Object Centric Reinforcement Learning for Assembly
+
+- [arXiv 2611.08814](https://arxiv.org/abs/2611.08814) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08814)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08814)
+
+将每个拼块视为协作智能体，用图网络策略协调平面装配。
+
+## ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing
+
+- [arXiv 2611.08664](https://arxiv.org/abs/2611.08664) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08664)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08664)
+
+两阶段强化学习从机载观测推断力与状态潜变量，协调全身残差控制。
+
+## CS-Pi: Constraint-Satisfying Flow Policy Sampling
+
+- [arXiv 2611.08654](https://arxiv.org/abs/2611.08654) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08654)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08654)
+
+通过采样、投影、重新加噪，在不重训流策略的情况下施加部署时约束。
+
+## Q-OIL: Optimistic Exploration in Learning from Human Interventions
+
+- [arXiv 2611.08576](https://arxiv.org/abs/2611.08576) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08576)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08576)
+
+利用进度感知的人工干预模型和解耦 critic，将不完美纠错用作探索指引。
+
+## RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories
+
+- [arXiv 2610.18699](https://arxiv.org/abs/2610.18699) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2610.18699)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2610.18699)
+
+通过拟合 Q 评估估计机器人策略表现，以减少完整在线评测需求。
+
+## Spectral Alignment in Forward-Backward Representations via Temporal Abstraction
+
+- [arXiv 2603.20103](https://arxiv.org/abs/2603.20103) · v5 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2603.20103)
+- 收录历史: [2026-11-09 (v5, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2603.20103)
+
+通过时间抽象改善前向-后向表征的谱对齐，以支持无奖励强化学习。
+
+## VLD: Visual Learned Distance as an Interface for Reinforcement Learning Navigation
+
+- [arXiv 2512.07976](https://arxiv.org/abs/2512.07976) · v3 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2512.07976)
+- 收录历史: [2026-11-09 (v3, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2512.07976)
+
+将视频训练的视觉目标距离预测器与基于几何条件噪声训练的强化学习导航器解耦。
 
 ## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
 

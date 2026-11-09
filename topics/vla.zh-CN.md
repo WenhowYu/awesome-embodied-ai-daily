@@ -2,7 +2,112 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-225 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+240 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning
+
+- [arXiv 2611.09684](https://arxiv.org/abs/2611.09684) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09684)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09684)
+
+以概率动作解码器和 Soft-DTW 对齐建模空间与时间不确定性，降低对示范姿态及速度的敏感性。
+
+## ODEAction: From Predicting Chunks to Evolving Actions
+
+- [arXiv 2611.09672](https://arxiv.org/abs/2611.09672) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09672)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09672)
+
+通过学习动作转移场并积分ODE，连续递推动作，替代独立动作块预测。
+
+## Can LLMs Debug Robots by Editing Their Weights?
+
+- [arXiv 2611.09376](https://arxiv.org/abs/2611.09376) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09376)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09376)
+
+LLM利用有限仿真反馈直接编辑65个词嵌入行，无梯度更新或新增示范，修复指令词汇绑定。
+
+## HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes
+
+- [arXiv 2611.09355](https://arxiv.org/abs/2611.09355) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09355)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09355)
+
+HiMEM 将机器人执行经历整合为语义操作规则，剪除冗余情节记忆，并组合检索到的记忆以辅助 VLA 动作生成。
+
+## Toward the Era of Agentic Embodied Intelligence
+
+- [arXiv 2611.09124](https://arxiv.org/abs/2611.09124) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09124)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09124)
+
+A2-MEAS 结合纠错代码、执行历史、MetaBrain 引导，以及包含潜在世界模型的 A2-WLA 策略。
+
+## DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking
+
+- [arXiv 2611.09041](https://arxiv.org/abs/2611.09041) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09041)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09041)
+
+通过目标掩码/边界框监督及Q-identity历史压缩，在紧凑历史token中保留身份与空间线索。
+
+## VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models
+
+- [arXiv 2611.08987](https://arxiv.org/abs/2611.08987) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08987)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08987)
+
+机器人先运行小型 VLA，仅在预测失败时切换到服务器大模型。
+
+## PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation
+
+- [arXiv 2611.08917](https://arxiv.org/abs/2611.08917) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08917)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08917)
+
+将技能保存为冻结低秩动作适配器，用逐动作块路由组合技能。
+
+## Localizing and Editing the Goal Representation of a Vision-Language-Action Model
+
+- [arXiv 2611.08895](https://arxiv.org/abs/2611.08895) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08895)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08895)
+
+分析 OpenVLA 对否定指令的失效，并定位可编辑的目标表征。
+
+## ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models
+
+- [arXiv 2611.08827](https://arxiv.org/abs/2611.08827) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08827)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08827)
+
+利用上一动作块的几何先验，在视觉编码前针对固定与腕部相机分别剪枝。
+
+## VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models
+
+- [arXiv 2611.08698](https://arxiv.org/abs/2611.08698) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08698)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08698)
+
+按示范条件下估计的任务进度检索动作上下文，而非只依赖视觉相似性。
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
+
+MR0 结合三阶段 VLA 训练、Rollback 人工纠错数据和事件驱动持久记忆，以支持任务恢复。
+
+## Q-OIL: Optimistic Exploration in Learning from Human Interventions
+
+- [arXiv 2611.08576](https://arxiv.org/abs/2611.08576) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08576)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08576)
+
+利用进度感知的人工干预模型和解耦 critic，将不完美纠错用作探索指引。
+
+## CompVLA: A Variable Compliance Vision-Language-Action Model for Contact-rich Manipulation
+
+- [arXiv 2609.23614](https://arxiv.org/abs/2609.23614) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2609.23614)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2609.23614)
+
+在运动输出之外增加柔顺专家预测刚度与虚拟位移，以几何阻抗控制执行，推理阶段无需力/力矩传感。
+
+## Real-Time Execution with Autoregressive Policies
+
+- [arXiv 2606.13355](https://arxiv.org/abs/2606.13355) · v2 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2606.13355)
+- 收录历史: [2026-11-09 (v2, revised)](../daily/2026-11-09.zh-CN.md#arxiv-2606.13355)
+
+π0-REALFAST 通过前缀条件、约束令牌解码及多候选轨迹，实现自回归动作策略的异步执行。
 
 ## OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions
 
