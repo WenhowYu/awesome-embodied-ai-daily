@@ -2,7 +2,343 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-448 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+495 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Benchmarking Real-World Robotic Manipulation through Stochastic Challenges
+
+- [arXiv 2611.12804](https://arxiv.org/abs/2611.12804) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12804)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12804)
+
+以共同任务分布生成随机真实挑战，而非固定同一场景，实现跨实验室机器人系统比较。
+
+## Embodied First Exam
+
+- [arXiv 2611.12177](https://arxiv.org/abs/2611.12177) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12177)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12177)
+
+Embodied First Exam在明确的信息及时间约束下评测编码代理选择直接控制、代码控制或学习策略。
+
+## GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation
+
+- [arXiv 2611.12175](https://arxiv.org/abs/2611.12175) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12175)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12175)
+
+GeoMind通过桌面操作评测空间推理及身份跟踪记忆。
+
+## Same Physics, Different Gradients: A State-of-the-Art Report on Differentiable Physics Simulation
+
+- [arXiv 2611.12162](https://arxiv.org/abs/2611.12162) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12162)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12162)
+
+可微仿真综述区分导数所针对对象与反向传播实现，并梳理接触引发的梯度失效。
+
+## Motion Belief Action: From a Visual Scene Map to Physical Decisions
+
+- [arXiv 2611.12113](https://arxiv.org/abs/2611.12113) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12113)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12113)
+
+Motion Belief Action在场景地图加入持续性和力学信念，支持成本敏感的感知及操作决策。
+
+## Grasp-Taxonomy Conditioning as a Mode Switch for Dexterous Grasping of Climbing Holds
+
+- [arXiv 2611.12017](https://arxiv.org/abs/2611.12017) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12017)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12017)
+
+BetaGrasp用显式四分类抓型条件控制点云扩散策略。
+
+## The Relative Value of Demonstration Data: Execution Time Limits and Operator Mixtures in Behavior Cloning
+
+- [arXiv 2611.11947](https://arxiv.org/abs/2611.11947) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11947)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11947)
+
+量化不同遥操作员示范的数据等价倍数，揭示评测时限及混合数据的影响。
+
+## An Evaluation of Tabular Foundation Models as Training-Free World Models
+
+- [arXiv 2611.11921](https://arxiv.org/abs/2611.11921) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11921)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11921)
+
+用预训练表格基础模型做上下文下一状态回归，同时比较同等稀缺数据拟合与全数据训练模型。
+
+## Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading
+
+- [arXiv 2611.11894](https://arxiv.org/abs/2611.11894) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11894)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11894)
+
+闭式指令蒸馏编辑策略MLP权重，复现已知有效改写的作用，无需梯度。
+
+## How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens
+
+- [arXiv 2611.11887](https://arxiv.org/abs/2611.11887) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11887)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11887)
+
+以随机码本视角研究冻结DINO token上的nearest-of-m随机预测。
+
+## Action Representation for Spatial Generalization in Robot World Models
+
+- [arXiv 2611.11869](https://arxiv.org/abs/2611.11869) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11869)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11869)
+
+在受控削皮基准比较世界、物体及表面相对动作坐标对空间迁移的影响。
+
+## Fade to... Red? Scheduling Coloured Noise Exploration Supports Efficient Robot Learning with Reduced Movement Jerk
+
+- [arXiv 2611.11868](https://arxiv.org/abs/2611.11868) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11868)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11868)
+
+研究时间相关彩色噪声调度对离策略操作探索平滑性的作用。
+
+## HolidayFactory 1.0: Simulating, Generating, and Evaluating Industrial Robot Tasks
+
+- [arXiv 2611.11789](https://arxiv.org/abs/2611.11789) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11789)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11789)
+
+HolidayFactory结合接触/执行器仿真、验证式场景生成及七项持久工业作业任务。
+
+## Planners Exploit Deterministic Error: Dithered Low-Bit World Models
+
+- [arXiv 2611.11780](https://arxiv.org/abs/2611.11780) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11780)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11780)
+
+每次规划迭代更新的共享抖动，缓解采样规划器利用低比特模型确定性误差的问题。
+
+## Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment
+
+- [arXiv 2611.11688](https://arxiv.org/abs/2611.11688) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11688)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11688)
+
+SFF依据每回合结果更新故障监测器的末层线性读出，保持主干冻结。
+
+## FlowEval: How Much Adaptation Does an Embodied Foundation Model Need at Deployment?
+
+- [arXiv 2611.11650](https://arxiv.org/abs/2611.11650) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11650)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11650)
+
+FlowEval用成功目标域示范上的流匹配预测分歧，无训练诊断模型的适应需求。
+
+## Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents
+
+- [arXiv 2611.11509](https://arxiv.org/abs/2611.11509) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11509)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11509)
+
+SimplEvo从示范写入无坐标任务记忆，并通过训练回合反思更新有限文本工作记忆，不更新权重。
+
+## When Coding Agents Get Arms: Safety Risks Across the Digital-Physical Boundary
+
+- [arXiv 2611.11438](https://arxiv.org/abs/2611.11438) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11438)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11438)
+
+ArmedAgent评测编码代理控制机器人的鲁棒性、滥用及间接提示注入风险。
+
+## HARP-Bench: Benchmarking Robot Manipulation Around Active Humans
+
+- [arXiv 2611.11123](https://arxiv.org/abs/2611.11123) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11123)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11123)
+
+HARP-Bench评测活跃人类的提示、贡献、打断和共处。
+
+## RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning
+
+- [arXiv 2611.10994](https://arxiv.org/abs/2611.10994) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10994)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10994)
+
+RoboMoCap对齐第一视角视频与光学全身动作以支持人形学习。
+
+## Explicitly capturing demonstrator multi-modality for distillation into diffusion policies
+
+- [arXiv 2611.10949](https://arxiv.org/abs/2611.10949) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10949)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10949)
+
+从相同状态重复查询示范者，保留蒸馏扩散策略的条件多模态。
+
+## Learning When to Think: Adaptive Internal Computation for Reinforcement Learning
+
+- [arXiv 2611.10822](https://arxiv.org/abs/2611.10822) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10822)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10822)
+
+Adaptive Internal Computation联合学习动作及何时停止迭代隐状态细化。
+
+## WorldFoundry: Towards Unified Infrastructure for World Intelligence
+
+- [arXiv 2611.10771](https://arxiv.org/abs/2611.10771) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10771)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10771)
+
+统一视频、3D/4D 与具身动作世界系统的模型发现、运行准备、执行、产物和证据评分卡。
+
+## Which Taxels, Not How Many: Tactile Sensor Placement for Dexterous Policies
+
+- [arXiv 2611.10647](https://arxiv.org/abs/2611.10647) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10647)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10647)
+
+受控触觉布置研究分离传感器数量、接触相关性与编码布局。
+
+## HSGNav: Hypothesis Scene Graphs for Multi-Scale Lifelong Navigation under Object Relocation
+
+- [arXiv 2611.10547](https://arxiv.org/abs/2611.10547) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10547)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10547)
+
+持久家具实体与可修订物体假设支持搬移后的记忆失效处理。
+
+## Intra-Option Fitted Q-Evaluation: Evaluating Hierarchical Policies from Non-Hierarchical Data
+
+- [arXiv 2611.10543](https://arxiv.org/abs/2611.10543) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10543)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10543)
+
+在增广状态-选项空间做拟合Q评估，从无选项标注的离线原子动作日志评估层次策略。
+
+## Tactile Sensors Are an Effective Substitute for Wrist Cameras in Contact-Rich or Occluded Manipulation
+
+- [arXiv 2611.10490](https://arxiv.org/abs/2611.10490) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10490)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10490)
+
+受控视触觉ACT比较检验触觉阵列能否替代腕相机。
+
+## Detecting and Explaining Robot Policy Failures from Sparse Internal Features
+
+- [arXiv 2611.10400](https://arxiv.org/abs/2611.10400) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10400)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10400)
+
+稀疏自编码器特征连接策略故障检测与激活诊断。
+
+## Tiresias: Towards Language-Conditioned World Models
+
+- [arXiv 2611.10392](https://arxiv.org/abs/2611.10392) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10392)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10392)
+
+组合语言条件扩散轨迹候选、轨迹筛选与想象视频验证；LCWM-Bench汇集四个领域的15个数据集。
+
+## Who Taught the Robot That? Removing One User's Corrections from a Robot Policy That Learns Online
+
+- [arXiv 2611.10280](https://arxiv.org/abs/2611.10280) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10280)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10280)
+
+研究用有序更新日志从在线机器人策略中移除一位贡献者影响。
+
+## How Many Demonstrations Does a VLA Need? On the Sample Efficiency of VLA Finetuning
+
+- [arXiv 2611.09964](https://arxiv.org/abs/2611.09964) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.09964)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.09964)
+
+在四套LIBERO任务上比较六种VLA的数据与更新效率，包含pi0/pi0.5及GR00T各版本。
+
+## EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
+
+- [arXiv 2611.08477](https://arxiv.org/abs/2611.08477) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.08477)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2611.08477)
+
+补充自我视角姿态恢复的真值初始状态条件消融，主要比较仍采用无初始状态设置。
+
+## IMPULSE: Push First, Then Predict in V-JEPA 2 Feature Space
+
+- [arXiv 2610.23968](https://arxiv.org/abs/2610.23968) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2610.23968)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2610.23968)
+
+为冻结V-JEPA 2特征空间中的接触经验记忆补充事后校准推动次数及更大预测器测试。
+
+## SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices
+
+- [arXiv 2610.13740](https://arxiv.org/abs/2610.13740) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2610.13740)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2610.13740)
+
+补充完整预算的纯动作监督消融，并区分单步推理与架构压缩对Cosmos系小型WAM效率收益的贡献。
+
+## FlowPilot: Real-Time World-Action Modeling for Agile UAV Navigation
+
+- [arXiv 2608.00635](https://arxiv.org/abs/2608.00635) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2608.00635)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2608.00635)
+
+为机载无人机世界动作模型增加受控轨迹表示基线及去噪步数/预测时域消融。
+
+## Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color
+
+- [arXiv 2607.14698](https://arxiv.org/abs/2607.14698) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2607.14698)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2607.14698)
+
+扩展到显式依赖颜色的真机任务，并增加跨模型评估和渲染协议说明。
+
+## RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations
+
+- [arXiv 2606.22142](https://arxiv.org/abs/2606.22142) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2606.22142)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2606.22142)
+
+澄清跨轮再采集统计口径、修正中间轮次数值，并增加机器人数据谱系代理的存储/本地模型成本核算。
+
+## Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation
+
+- [arXiv 2606.20135](https://arxiv.org/abs/2606.20135) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2606.20135)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2606.20135)
+
+为频率感知流匹配动作新增带宽匹配低通滤波对照及系数/损失权重消融。
+
+## Tac-DINO: Learning Tactile Features with Patch Alignment
+
+- [arXiv 2606.12069](https://arxiv.org/abs/2606.12069) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2606.12069)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2606.12069)
+
+将Tac-DINO重构为Touch3D/CoMT-Bench与GeoTAC体系，并增加表征检索之外的下游视觉触觉操作评估。
+
+## RoboWits: Unexpected Challenges for Robotic Creative Problem Solving
+
+- [arXiv 2605.30326](https://arxiv.org/abs/2605.30326) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.30326)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.30326)
+
+增加重复评估、全任务分析、示范规模实验及匹配仿真/真机的种子任务到变体比较；变体数量由208修正为200。
+
+## OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation
+
+- [arXiv 2605.25829](https://arxiv.org/abs/2605.25829) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.25829)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.25829)
+
+新增随机种子波动与解码器注意力分析，并澄清哪些OASIS比较具有匹配训练/评估协议。
+
+## Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning
+
+- [arXiv 2605.19919](https://arxiv.org/abs/2605.19919) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.19919)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.19919)
+
+补充与平滑动作残差基线的成功率—平滑度比较，明确冻结策略瓶颈RL是在离线训练已支持的行为范围内进行引导。
+
+## ALAM: Algebraically Consistent Latent Action Model for Vision-Language-Action Models
+
+- [arXiv 2605.10819](https://arxiv.org/abs/2605.10819) · v3 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.10819)
+- 收录历史: [2026-11-10 (v3, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.10819)
+
+更新ALAM与LAM的匹配代数损失消融检查点，并澄清转移token与码本配置。
+
+## DeformMaster: An Interactive Physics-Neural World Model for Deformable Objects from Videos
+
+- [arXiv 2605.09586](https://arxiv.org/abs/2605.09586) · v3 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.09586)
+- 收录历史: [2026-11-10 (v3, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.09586)
+
+为物理—神经可变形物体世界模型补充可复核的运行时间/内存分解。
+
+## MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation
+
+- [arXiv 2603.16861](https://arxiv.org/abs/2603.16861) · v3 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2603.16861)
+- 收录历史: [2026-11-10 (v3, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2603.16861)
+
+为纯仿真训练操作策略补充等训练预算的历史帧对照与外部零样本基准分析。
+
+## HuMI: Humanoid Whole-Body Manipulation from Humanoid-Free Demonstrations
+
+- [arXiv 2602.06643](https://arxiv.org/abs/2602.06643) · v3 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2602.06643)
+- 收录历史: [2026-11-10 (v3, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2602.06643)
+
+为无需人形机器人在场的全身操作数据采集补充等示范时间比较及更多TWIST2任务对照。
+
+## SyncTwin: Fast Digital Twin Construction and Synchronization for Safe Robotic Manipulation
+
+- [arXiv 2601.09920](https://arxiv.org/abs/2601.09920) · v3 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2601.09920)
+- 收录历史: [2026-11-10 (v3, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2601.09920)
+
+为real-to-sim-to-real数字孪生增加位姿跟踪、内存/延迟比较，并澄清避障评分。
+
+## Tactile MNIST: Benchmarking Active Tactile Perception
+
+- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v4 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2506.06361)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2506.06361) · [2026-11-10 (v4, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2506.06361)
+
+新增从仿真到真实触觉数据的概念验证及四组件迁移消融。
 
 ## On Agentic Manipulation Policies
 
@@ -1305,13 +1641,6 @@ InTAct保护旧域对应的激活区间，而非冻结参数或回放旧数据�
 - 收录历史: [2026-11-03 (v5, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2509.22964)
 
 以策略为条件的函数型 critic 将离策略稳定性与策略空间探索联系起来。
-
-## Tactile MNIST: Benchmarking Active Tactile Perception
-
-- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2506.06361)
-- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2506.06361)
-
-Tactile MNIST评估主动触觉感知与信息收集策略。
 
 ## Towards General Continuous Memory for Vision-Language Models
 

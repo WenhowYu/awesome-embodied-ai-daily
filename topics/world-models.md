@@ -2,7 +2,210 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-228 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+257 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos
+
+- [arXiv 2611.12879](https://arxiv.org/abs/2611.12879) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12879)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12879)
+
+Learns joint wrist, finger and object motion through masked completion and flow matching, using recovered internet-video interactions plus annotated data.
+
+## SWAM: Scaling World Action Models with Cross-Modal Alignment
+
+- [arXiv 2611.12870](https://arxiv.org/abs/2611.12870) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12870)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12870)
+
+SWAM studies preserving language-video alignment during action learning using mixed video, egocentric, UMI and robot supervision.
+
+## $\Sigma$-LeWM: Learning World Models via S-Information for Robot Control
+
+- [arXiv 2611.12732](https://arxiv.org/abs/2611.12732) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12732)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12732)
+
+Sigma-LeWM adds backward dynamics and inverse-action prediction to decoder-free latent world-model learning.
+
+## Library of Hands: Fix the Hands, Not the World Model
+
+- [arXiv 2611.12678](https://arxiv.org/abs/2611.12678) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12678)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12678)
+
+Library of Hands keeps the world model frozen, identifies command-to-action maps from image transitions, and recalls stored maps when interfaces recur.
+
+## Motion Belief Action: From a Visual Scene Map to Physical Decisions
+
+- [arXiv 2611.12113](https://arxiv.org/abs/2611.12113) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12113)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12113)
+
+Motion Belief Action adds persistence and force beliefs to scene maps for cost-sensitive sensing and manipulation decisions.
+
+## An Evaluation of Tabular Foundation Models as Training-Free World Models
+
+- [arXiv 2611.11921](https://arxiv.org/abs/2611.11921) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11921)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11921)
+
+Evaluates in-context next-state regression with a pretrained tabular foundation model, contrasting matched scarce-data fits with full-data trained models.
+
+## How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens
+
+- [arXiv 2611.11887](https://arxiv.org/abs/2611.11887) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11887)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11887)
+
+Studies nearest-of-m stochastic prediction on frozen DINO tokens through a random-codebook interpretation.
+
+## Action Representation for Spatial Generalization in Robot World Models
+
+- [arXiv 2611.11869](https://arxiv.org/abs/2611.11869) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11869)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11869)
+
+Controlled peeling experiments compare world-, object- and surface-relative action coordinates for spatial transfer.
+
+## Planners Exploit Deterministic Error: Dithered Low-Bit World Models
+
+- [arXiv 2611.11780](https://arxiv.org/abs/2611.11780) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11780)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11780)
+
+Shared, iteration-refreshed dither counters deterministic low-bit model errors exploited by sampling-based planners.
+
+## Particle Filtering with Generative Trajectory Models for State Estimation and Control
+
+- [arXiv 2611.11732](https://arxiv.org/abs/2611.11732) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11732)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11732)
+
+Particle filtering reweights state hypotheses and action proposals from a fixed joint diffusion trajectory model.
+
+## Accelerated Reinforcement Learning for Soft Robotics: Hours Instead of Years
+
+- [arXiv 2611.11718](https://arxiv.org/abs/2611.11718) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11718)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11718)
+
+Uses a data-learned low-dimensional aSSM dynamics model as an efficient training environment for soft-robot RL.
+
+## ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation
+
+- [arXiv 2611.11605](https://arxiv.org/abs/2611.11605) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11605)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11605)
+
+ScanDreamer grounds imagined quadrotor navigation in explicit online geometric memory and camera-aware constraints.
+
+## K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation
+
+- [arXiv 2611.11521](https://arxiv.org/abs/2611.11521) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11521)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11521)
+
+K-PWM combines Koopman-bilinear dynamics with probabilistic latent inference and uncertainty-aware MPPI control.
+
+## ForeAct: Geometry-Guided Action Learning from World Representations
+
+- [arXiv 2611.11500](https://arxiv.org/abs/2611.11500) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11500)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11500)
+
+ForeAct reuses a video-world-model backbone in one pass and supervises geometry tokens with next-frame relative depth only during training.
+
+## DeepSoMo: Deformable Object Motion Estimation under Proprioceptive Partial Observability via Predictive Latent Dynamics
+
+- [arXiv 2611.11242](https://arxiv.org/abs/2611.11242) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11242)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11242)
+
+Predictive latent dynamics maintain temporal consistency for partially observed deformable-body state estimation.
+
+## DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight
+
+- [arXiv 2611.11166](https://arxiv.org/abs/2611.11166) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11166)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11166)
+
+Offline action-conditioned spatial dynamics are distilled into policy latents without a world model at deployment.
+
+## ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset
+
+- [arXiv 2611.11085](https://arxiv.org/abs/2611.11085) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11085)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11085)
+
+Predicts full-object3D flow including occluded surfaces from images and task descriptions.
+
+## BAT-WAM: Bridging Action and Touch in World-Action Models for Dexterous Hands
+
+- [arXiv 2611.10967](https://arxiv.org/abs/2611.10967) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10967)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10967)
+
+BAT-WAM bridges tactile and hand-state streams with RGB-conditioned continuous representations.
+
+## WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures
+
+- [arXiv 2611.10806](https://arxiv.org/abs/2611.10806) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10806)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10806)
+
+Trains hierarchical candidate proposers around frozen H-JEPA models, amortizing expensive online gradient planning with rollout-cost and best-of-K imitation objectives.
+
+## WorldFoundry: Towards Unified Infrastructure for World Intelligence
+
+- [arXiv 2611.10771](https://arxiv.org/abs/2611.10771) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10771)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10771)
+
+Unifies model discovery, runtime preparation, execution, artifacts and evidence-aware scorecards across video, 3D/4D and embodied-action world systems.
+
+## REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning
+
+- [arXiv 2611.10748](https://arxiv.org/abs/2611.10748) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10748)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10748)
+
+Learned dynamics grounds and verifies LLM proposals before consolidation into reusable indexed rule memory.
+
+## Dynamics-Informed Action Learning for Goal-Conditioned Latent Planning
+
+- [arXiv 2611.10660](https://arxiv.org/abs/2611.10660) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10660)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10660)
+
+DIAL combines autoregressive rollout alignment and inverse-action supervision, then initializes CEM with dynamics-informed goal-directed actions.
+
+## Tiresias: Towards Language-Conditioned World Models
+
+- [arXiv 2611.10392](https://arxiv.org/abs/2611.10392) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10392)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10392)
+
+Combines language-conditioned diffusion trajectory proposals, trajectory shortlisting and imagined-video verification. LCWM-Bench consolidates 15 datasets across four domains.
+
+## BATCH: Behavior Alignment for Cross-Embodiment Learning from Humans
+
+- [arXiv 2611.10148](https://arxiv.org/abs/2611.10148) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10148)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10148)
+
+Cycle-consistent temporal alignment supports human/robot video-action co-training and style transfer.
+
+## EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
+
+- [arXiv 2611.08477](https://arxiv.org/abs/2611.08477) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.08477)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2611.08477)
+
+Adds a ground-truth-initial-state conditioning ablation for egocentric pose recovery while keeping the main comparison unconditioned.
+
+## IMPULSE: Push First, Then Predict in V-JEPA 2 Feature Space
+
+- [arXiv 2610.23968](https://arxiv.org/abs/2610.23968) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2610.23968)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2610.23968)
+
+Adds post-hoc calibration-push-count and larger-predictor tests to contact-experience memory in frozen V-JEPA 2 feature space.
+
+## SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices
+
+- [arXiv 2610.13740](https://arxiv.org/abs/2610.13740) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2610.13740)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2610.13740)
+
+Adds a full-budget action-only supervision ablation and separates one-step inference savings from architectural compression in a compact Cosmos-derived WAM.
+
+## FlowPilot: Real-Time World-Action Modeling for Agile UAV Navigation
+
+- [arXiv 2608.00635](https://arxiv.org/abs/2608.00635) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2608.00635)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2608.00635)
+
+Adds a controlled trajectory-representation baseline and denoising/horizon ablations to an onboard UAV world-action model.
+
+## DeformMaster: An Interactive Physics-Neural World Model for Deformable Objects from Videos
+
+- [arXiv 2605.09586](https://arxiv.org/abs/2605.09586) · v3 · [Latest entry](../daily/2026-11-10.md#arxiv-2605.09586)
+- Coverage history: [2026-11-10 (v3, revised)](../daily/2026-11-10.md#arxiv-2605.09586)
+
+Adds a reproducible runtime/memory breakdown to the physics-neural deformable-object world model.
 
 ## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
 

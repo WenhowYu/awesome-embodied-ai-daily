@@ -2,7 +2,147 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-320 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+340 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## World In-Context Learning for Agentic Robot Manipulation
+
+- [arXiv 2611.12885](https://arxiv.org/abs/2611.12885) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12885)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12885)
+
+RoboScript实现World In-Context Learning：冻结模型在仿真排练单示范任务、编辑Task Memory，再以冻结记忆部署新场景。
+
+## Library of Hands: Fix the Hands, Not the World Model
+
+- [arXiv 2611.12678](https://arxiv.org/abs/2611.12678) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12678)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12678)
+
+Library of Hands冻结世界模型，通过图像变化辨识指令到动作映射，并在接口再次出现时调用保存的映射。
+
+## Bridging Task Planning and Execution for Language-Conditioned Bimanual Manipulation
+
+- [arXiv 2611.12409](https://arxiv.org/abs/2611.12409) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12409)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12409)
+
+执行约束场景图及分层前后条件检查支持双臂规划和局部恢复。
+
+## VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation
+
+- [arXiv 2611.12286](https://arxiv.org/abs/2611.12286) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12286)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12286)
+
+VLA-MOPD在学生访问的观测及中间ODE状态查询专家流策略，以可选保留正则整合技能。
+
+## Embodied First Exam
+
+- [arXiv 2611.12177](https://arxiv.org/abs/2611.12177) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12177)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12177)
+
+Embodied First Exam在明确的信息及时间约束下评测编码代理选择直接控制、代码控制或学习策略。
+
+## GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation
+
+- [arXiv 2611.12175](https://arxiv.org/abs/2611.12175) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12175)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12175)
+
+GeoMind通过桌面操作评测空间推理及身份跟踪记忆。
+
+## Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular RGB Videos
+
+- [arXiv 2611.12087](https://arxiv.org/abs/2611.12087) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12087)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12087)
+
+Compass1结合稀疏视觉历史、显式历史地图与结构化VQA监督，实现持续导航。
+
+## Flip Anything with Agentic Robotics Self-Learning
+
+- [arXiv 2611.11941](https://arxiv.org/abs/2611.11941) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11941)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11941)
+
+编码代理在物理仿真中迭代开发图结构的双臂翻转策略。
+
+## ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation
+
+- [arXiv 2611.11605](https://arxiv.org/abs/2611.11605) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11605)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11605)
+
+ScanDreamer以在线几何记忆和相机视野约束支撑四旋翼导航的想象训练。
+
+## Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents
+
+- [arXiv 2611.11509](https://arxiv.org/abs/2611.11509) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11509)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11509)
+
+SimplEvo从示范写入无坐标任务记忆，并通过训练回合反思更新有限文本工作记忆，不更新权重。
+
+## When Coding Agents Get Arms: Safety Risks Across the Digital-Physical Boundary
+
+- [arXiv 2611.11438](https://arxiv.org/abs/2611.11438) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11438)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11438)
+
+ArmedAgent评测编码代理控制机器人的鲁棒性、滥用及间接提示注入风险。
+
+## Zero-Shot VLA Adaptation with Retrieved Guidance
+
+- [arXiv 2611.10894](https://arxiv.org/abs/2611.10894) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10894)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10894)
+
+RAGu几何变换检索示范，以相容稠密轨迹引导冻结VLA流推理。
+
+## REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning
+
+- [arXiv 2611.10748](https://arxiv.org/abs/2611.10748) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10748)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10748)
+
+学习动力学约束并验证LLM提议，再固化为可复用索引规则记忆。
+
+## HSGNav: Hypothesis Scene Graphs for Multi-Scale Lifelong Navigation under Object Relocation
+
+- [arXiv 2611.10547](https://arxiv.org/abs/2611.10547) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10547)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10547)
+
+持久家具实体与可修订物体假设支持搬移后的记忆失效处理。
+
+## Intra-Option Fitted Q-Evaluation: Evaluating Hierarchical Policies from Non-Hierarchical Data
+
+- [arXiv 2611.10543](https://arxiv.org/abs/2611.10543) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10543)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10543)
+
+在增广状态-选项空间做拟合Q评估，从无选项标注的离线原子动作日志评估层次策略。
+
+## ReSkill: Selective Self-Improvement for Robot Manipulation
+
+- [arXiv 2611.10510](https://arxiv.org/abs/2611.10510) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10510)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10510)
+
+开发时编码代理定位能力缺口、验证局部技能修订，并部署无需运行时代理调用的冻结程序。
+
+## Deploying Physically and Epistemically Compliant Agents by Distilling Belief-Space Task and Motion Planners
+
+- [arXiv 2611.10430](https://arxiv.org/abs/2611.10430) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10430)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10430)
+
+将信念空间规划器蒸馏为历史条件策略，结合双重平均和轨迹强化。
+
+## IMPULSE: Push First, Then Predict in V-JEPA 2 Feature Space
+
+- [arXiv 2610.23968](https://arxiv.org/abs/2610.23968) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2610.23968)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2610.23968)
+
+为冻结V-JEPA 2特征空间中的接触经验记忆补充事后校准推动次数及更大预测器测试。
+
+## RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations
+
+- [arXiv 2606.22142](https://arxiv.org/abs/2606.22142) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2606.22142)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2606.22142)
+
+澄清跨轮再采集统计口径、修正中间轮次数值，并增加机器人数据谱系代理的存储/本地模型成本核算。
+
+## RoboWits: Unexpected Challenges for Robotic Creative Problem Solving
+
+- [arXiv 2605.30326](https://arxiv.org/abs/2605.30326) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.30326)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.30326)
+
+增加重复评估、全任务分析、示范规模实验及匹配仿真/真机的种子任务到变体比较；变体数量由208修正为200。
 
 ## On Agentic Manipulation Policies
 

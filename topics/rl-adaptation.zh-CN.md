@@ -2,7 +2,203 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-235 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+262 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Library of Hands: Fix the Hands, Not the World Model
+
+- [arXiv 2611.12678](https://arxiv.org/abs/2611.12678) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12678)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12678)
+
+Library of Hands冻结世界模型，通过图像变化辨识指令到动作映射，并在接口再次出现时调用保存的映射。
+
+## VLA Adaptation with Real and Simulated Data: A Case Study on Robotic Chess
+
+- [arXiv 2611.12676](https://arxiv.org/abs/2611.12676) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12676)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12676)
+
+使用真实示范与脚本仿真数据，研究pi0.5在SO-101象棋移动任务上的适配。
+
+## Simulation-aided Reinforcement Learning with Control Variates
+
+- [arXiv 2611.12643](https://arxiv.org/abs/2611.12643) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12643)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12643)
+
+将仿真经验作为控制变量减少RL估计方差，而非直接混合仿真数据改变学习目标。
+
+## VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation
+
+- [arXiv 2611.12286](https://arxiv.org/abs/2611.12286) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12286)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12286)
+
+VLA-MOPD在学生访问的观测及中间ODE状态查询专家流策略，以可选保留正则整合技能。
+
+## RAIL: Representation-Aligned Imitation Learning for Student-Compatible Teacher Policies
+
+- [arXiv 2611.12251](https://arxiv.org/abs/2611.12251) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12251)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12251)
+
+RAIL在师生对比对齐表征上训练特权教师，使动作可由学生传感器观测复现。
+
+## GAP: Generalized Adaptation Prior for Dexterous Piano Playing
+
+- [arXiv 2611.12111](https://arxiv.org/abs/2611.12111) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12111)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12111)
+
+GAP在仿真学习动作调整先验，利用钢琴演奏回合间反馈进行适应。
+
+## Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading
+
+- [arXiv 2611.11894](https://arxiv.org/abs/2611.11894) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11894)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11894)
+
+闭式指令蒸馏编辑策略MLP权重，复现已知有效改写的作用，无需梯度。
+
+## Fade to... Red? Scheduling Coloured Noise Exploration Supports Efficient Robot Learning with Reduced Movement Jerk
+
+- [arXiv 2611.11868](https://arxiv.org/abs/2611.11868) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11868)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11868)
+
+研究时间相关彩色噪声调度对离策略操作探索平滑性的作用。
+
+## Accelerated Reinforcement Learning for Soft Robotics: Hours Instead of Years
+
+- [arXiv 2611.11718](https://arxiv.org/abs/2611.11718) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11718)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11718)
+
+以数据学习的低维aSSM动力学作为软体机器人RL的高效训练环境。
+
+## Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment
+
+- [arXiv 2611.11688](https://arxiv.org/abs/2611.11688) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11688)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11688)
+
+SFF依据每回合结果更新故障监测器的末层线性读出，保持主干冻结。
+
+## Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge
+
+- [arXiv 2611.11464](https://arxiv.org/abs/2611.11464) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11464)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11464)
+
+结合pi0.5离策略强化学习、Thompson采样推理参数调优及生成/恢复示范。
+
+## DPDP: Diffusion Policy-Steered Diffusion Planner for Offline Reinforcement Learning
+
+- [arXiv 2611.10993](https://arxiv.org/abs/2611.10993) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10993)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10993)
+
+将价值优化的扩散动作先验与扩散规划器的逆动力学执行器结合，采用采样组合或偏好微调实现。
+
+## Explicitly capturing demonstrator multi-modality for distillation into diffusion policies
+
+- [arXiv 2611.10949](https://arxiv.org/abs/2611.10949) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10949)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10949)
+
+从相同状态重复查询示范者，保留蒸馏扩散策略的条件多模态。
+
+## Zero-Shot VLA Adaptation with Retrieved Guidance
+
+- [arXiv 2611.10894](https://arxiv.org/abs/2611.10894) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10894)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10894)
+
+RAGu几何变换检索示范，以相容稠密轨迹引导冻结VLA流推理。
+
+## DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies
+
+- [arXiv 2611.10872](https://arxiv.org/abs/2611.10872) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10872)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10872)
+
+生成人体动作引导RL专家和参考条件DAgger训练人形VLA。
+
+## MoE-DAgger: Transition-Aware Router-Entropy Gating for Selective Human Correction in Phase-Structured Manipulation
+
+- [arXiv 2611.10825](https://arxiv.org/abs/2611.10825) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10825)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10825)
+
+利用路由历史区分正常阶段过渡与持续不确定性，以选择人工纠正。
+
+## Learning When to Think: Adaptive Internal Computation for Reinforcement Learning
+
+- [arXiv 2611.10822](https://arxiv.org/abs/2611.10822) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10822)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10822)
+
+Adaptive Internal Computation联合学习动作及何时停止迭代隐状态细化。
+
+## WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures
+
+- [arXiv 2611.10806](https://arxiv.org/abs/2611.10806) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10806)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10806)
+
+围绕冻结H-JEPA训练层次候选生成器，以rollout代价和best-of-K模仿目标摊销昂贵在线梯度规划。
+
+## Look Ahead: Search-Driven Reasoning in Embodied AI
+
+- [arXiv 2611.10769](https://arxiv.org/abs/2611.10769) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10769)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10769)
+
+在 PushT 对冻结 ACT 动作块进行选择性束搜索；One Step Ahead 先检查名义动作块，只在预测覆盖率恶化时触发更大搜索。
+
+## Intra-Option Fitted Q-Evaluation: Evaluating Hierarchical Policies from Non-Hierarchical Data
+
+- [arXiv 2611.10543](https://arxiv.org/abs/2611.10543) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10543)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10543)
+
+在增广状态-选项空间做拟合Q评估，从无选项标注的离线原子动作日志评估层次策略。
+
+## Grip, Trace, Write: Force-Aware Imitation and Reinforcement Learning for High-DoF Robotic Handwriting
+
+- [arXiv 2611.10451](https://arxiv.org/abs/2611.10451) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10451)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10451)
+
+通过力感知模仿与强化学习分离保笔抓握和手臂书写控制。
+
+## Deploying Physically and Epistemically Compliant Agents by Distilling Belief-Space Task and Motion Planners
+
+- [arXiv 2611.10430](https://arxiv.org/abs/2611.10430) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10430)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10430)
+
+将信念空间规划器蒸馏为历史条件策略，结合双重平均和轨迹强化。
+
+## SimDuoReal: Object-Centric Bimanual Policy for Emergent Dexterity
+
+- [arXiv 2611.10410](https://arxiv.org/abs/2611.10410) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10410)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10410)
+
+将物体中心强化学习专家蒸馏为统一双臂灵巧策略。
+
+## GUARD: Anomaly-Informed Q-Steering for Generative Robot Policies in Dexterous Manipulation
+
+- [arXiv 2611.10343](https://arxiv.org/abs/2611.10343) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10343)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10343)
+
+异常信号训练的Q梯度在推理时引导冻结生成策略。
+
+## Who Taught the Robot That? Removing One User's Corrections from a Robot Policy That Learns Online
+
+- [arXiv 2611.10280](https://arxiv.org/abs/2611.10280) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10280)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10280)
+
+研究用有序更新日志从在线机器人策略中移除一位贡献者影响。
+
+## Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation
+
+- [arXiv 2606.20135](https://arxiv.org/abs/2606.20135) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2606.20135)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2606.20135)
+
+为频率感知流匹配动作新增带宽匹配低通滤波对照及系数/损失权重消融。
+
+## Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning
+
+- [arXiv 2605.19919](https://arxiv.org/abs/2605.19919) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.19919)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.19919)
+
+补充与平滑动作残差基线的成功率—平滑度比较，明确冻结策略瓶颈RL是在离线训练已支持的行为范围内进行引导。
+
+## Tactile MNIST: Benchmarking Active Tactile Perception
+
+- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v4 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2506.06361)
+- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2506.06361) · [2026-11-10 (v4, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2506.06361)
+
+新增从仿真到真实触觉数据的概念验证及四组件迁移消融。
 
 ## Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation
 
@@ -738,13 +934,6 @@ InTAct保护旧域对应的激活区间，而非冻结参数或回放旧数据�
 - 收录历史: [2026-11-03 (v5, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2509.22964)
 
 以策略为条件的函数型 critic 将离策略稳定性与策略空间探索联系起来。
-
-## Tactile MNIST: Benchmarking Active Tactile Perception
-
-- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v3 · [最新归档](../daily/2026-11-03.zh-CN.md#arxiv-2506.06361)
-- 收录历史: [2026-11-03 (v3, revised)](../daily/2026-11-03.zh-CN.md#arxiv-2506.06361)
-
-Tactile MNIST评估主动触觉感知与信息收集策略。
 
 ## Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments
 

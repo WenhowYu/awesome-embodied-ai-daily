@@ -2,7 +2,413 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [All topics](README.md)
 
-416 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+473 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## World In-Context Learning for Agentic Robot Manipulation
+
+- [arXiv 2611.12885](https://arxiv.org/abs/2611.12885) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12885)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12885)
+
+RoboScript implements World In-Context Learning: a frozen model rehearses one demonstrated task in simulation, edits Task Memory, then deploys frozen memory in new scenes.
+
+## Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos
+
+- [arXiv 2611.12879](https://arxiv.org/abs/2611.12879) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12879)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12879)
+
+Learns joint wrist, finger and object motion through masked completion and flow matching, using recovered internet-video interactions plus annotated data.
+
+## SWAM: Scaling World Action Models with Cross-Modal Alignment
+
+- [arXiv 2611.12870](https://arxiv.org/abs/2611.12870) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12870)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12870)
+
+SWAM studies preserving language-video alignment during action learning using mixed video, egocentric, UMI and robot supervision.
+
+## Learning Heterogeneous Tactile Representation for General Dexterous Manipulation
+
+- [arXiv 2611.12806](https://arxiv.org/abs/2611.12806) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12806)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12806)
+
+LingBot-Touch unifies piezoresistive, magnetic and visuotactile observations into plug-in tactile tokens for Diffusion Policy and pi0.5/LingBot-VLA.
+
+## Benchmarking Real-World Robotic Manipulation through Stochastic Challenges
+
+- [arXiv 2611.12804](https://arxiv.org/abs/2611.12804) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12804)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12804)
+
+Stochastic physical challenges aim to compare robot systems across labs via a common task distribution rather than identical fixed scenes.
+
+## VLA Adaptation with Real and Simulated Data: A Case Study on Robotic Chess
+
+- [arXiv 2611.12676](https://arxiv.org/abs/2611.12676) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12676)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12676)
+
+Studies pi0.5 adaptation on SO-101 chess moves using real demonstrations and scripted simulation data.
+
+## Simulation-aided Reinforcement Learning with Control Variates
+
+- [arXiv 2611.12643](https://arxiv.org/abs/2611.12643) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12643)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12643)
+
+Uses simulated experience as control variates to reduce RL estimation variance rather than bias targets by direct simulation mixing.
+
+## Bridging Task Planning and Execution for Language-Conditioned Bimanual Manipulation
+
+- [arXiv 2611.12409](https://arxiv.org/abs/2611.12409) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12409)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12409)
+
+Execution-aware scene graphs and hierarchical pre/post-condition validation support bimanual plans and local recovery.
+
+## PCTac: Mechanochromic Photonic-Crystal Tactile Sensor for Dexterous Manipulation
+
+- [arXiv 2611.12383](https://arxiv.org/abs/2611.12383) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12383)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12383)
+
+PCTac encodes loading as photonic-crystal hue fields and feeds them directly to Diffusion Policy.
+
+## Be My Eye: Learning to See Beyond a Robot's Own Perspective
+
+- [arXiv 2611.12295](https://arxiv.org/abs/2611.12295) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12295)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12295)
+
+Task-conditioned compressed context exchange augments a pretrained VLA with complementary observations from another robot.
+
+## RAIL: Representation-Aligned Imitation Learning for Student-Compatible Teacher Policies
+
+- [arXiv 2611.12251](https://arxiv.org/abs/2611.12251) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12251)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12251)
+
+RAIL trains privileged teachers in a contrastively aligned teacher/student representation to make their actions reproducible from student sensors.
+
+## Same Physics, Different Gradients: A State-of-the-Art Report on Differentiable Physics Simulation
+
+- [arXiv 2611.12162](https://arxiv.org/abs/2611.12162) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12162)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12162)
+
+Differentiable-simulation survey separates derivative target from backward-pass implementation and catalogs contact-related gradient failures.
+
+## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
+
+- [arXiv 2611.12136](https://arxiv.org/abs/2611.12136) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12136)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12136)
+
+LHNav coordinates task reasoning, VLA motion-token generation and whole-body execution at separate timescales.
+
+## Motion Belief Action: From a Visual Scene Map to Physical Decisions
+
+- [arXiv 2611.12113](https://arxiv.org/abs/2611.12113) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12113)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12113)
+
+Motion Belief Action adds persistence and force beliefs to scene maps for cost-sensitive sensing and manipulation decisions.
+
+## GAP: Generalized Adaptation Prior for Dexterous Piano Playing
+
+- [arXiv 2611.12111](https://arxiv.org/abs/2611.12111) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12111)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12111)
+
+GAP learns a simulator-trained action-adjustment prior that uses feedback between piano-playing executions.
+
+## SPARK: Simple Post-training for Adapting pRetrained Knowledge to Robot Control
+
+- [arXiv 2611.12102](https://arxiv.org/abs/2611.12102) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12102)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12102)
+
+SPARK post-trains visual foundation models using temporal abstraction while preserving pretrained patch-level semantics.
+
+## Learning Contextual Motion Constraints for Object Rearrangement Exploration
+
+- [arXiv 2611.12072](https://arxiv.org/abs/2611.12072) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12072)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12072)
+
+MoCo-Net jointly predicts articulated-part motion ranges and obstacle constraints from partial point clouds for rearrangement planning.
+
+## Grasp-Taxonomy Conditioning as a Mode Switch for Dexterous Grasping of Climbing Holds
+
+- [arXiv 2611.12017](https://arxiv.org/abs/2611.12017) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12017)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12017)
+
+BetaGrasp conditions a point-cloud diffusion policy on an explicit four-class grasp taxonomy.
+
+## Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation
+
+- [arXiv 2611.11981](https://arxiv.org/abs/2611.11981) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11981)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11981)
+
+Thermo-VLA injects hot/cold attributes through language-conditioned residual modulation for thermal manipulation.
+
+## The Relative Value of Demonstration Data: Execution Time Limits and Operator Mixtures in Behavior Cloning
+
+- [arXiv 2611.11947](https://arxiv.org/abs/2611.11947) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11947)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11947)
+
+Quantifies demonstration-data equivalence across teleoperator groups and shows dependence on evaluation timeouts and data mixing.
+
+## Flip Anything with Agentic Robotics Self-Learning
+
+- [arXiv 2611.11941](https://arxiv.org/abs/2611.11941) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11941)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11941)
+
+A coding agent iteratively develops graph-based bimanual flipping strategies in physics simulation.
+
+## Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation
+
+- [arXiv 2611.11854](https://arxiv.org/abs/2611.11854) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11854)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11854)
+
+DASH asynchronously decouples slow semantic inference from a fast action head using fresh vision and staleness-aware training.
+
+## PAIR: Proprioception-Aligned Image-Ray Representations for Viewpoint-Robust Manipulation
+
+- [arXiv 2611.11798](https://arxiv.org/abs/2611.11798) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11798)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11798)
+
+PAIR aligns image-ray representations across viewpoints with proprioceptive contrastive supervision.
+
+## HolidayFactory 1.0: Simulating, Generating, and Evaluating Industrial Robot Tasks
+
+- [arXiv 2611.11789](https://arxiv.org/abs/2611.11789) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11789)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11789)
+
+HolidayFactory combines contact/actuator simulation, verified world construction and seven persistent industrial-work tasks.
+
+## Particle Filtering with Generative Trajectory Models for State Estimation and Control
+
+- [arXiv 2611.11732](https://arxiv.org/abs/2611.11732) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11732)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11732)
+
+Particle filtering reweights state hypotheses and action proposals from a fixed joint diffusion trajectory model.
+
+## Accelerated Reinforcement Learning for Soft Robotics: Hours Instead of Years
+
+- [arXiv 2611.11718](https://arxiv.org/abs/2611.11718) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11718)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11718)
+
+Uses a data-learned low-dimensional aSSM dynamics model as an efficient training environment for soft-robot RL.
+
+## Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation
+
+- [arXiv 2611.11554](https://arxiv.org/abs/2611.11554) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11554)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11554)
+
+Kimodo-Policy uses a frozen text-to-motion backbone and lightweight visual ControlNet to learn humanoid loco-manipulation.
+
+## ForeAct: Geometry-Guided Action Learning from World Representations
+
+- [arXiv 2611.11500](https://arxiv.org/abs/2611.11500) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11500)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11500)
+
+ForeAct reuses a video-world-model backbone in one pass and supervises geometry tokens with next-frame relative depth only during training.
+
+## DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight
+
+- [arXiv 2611.11166](https://arxiv.org/abs/2611.11166) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11166)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11166)
+
+Offline action-conditioned spatial dynamics are distilled into policy latents without a world model at deployment.
+
+## HARP-Bench: Benchmarking Robot Manipulation Around Active Humans
+
+- [arXiv 2611.11123](https://arxiv.org/abs/2611.11123) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11123)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11123)
+
+HARP-Bench tests cueing, contribution, interruption and co-presence of active humans.
+
+## Control-Aware Command Generation for Asynchronous Control and Action Inference with Vision-Based Policies towards Fast Execution
+
+- [arXiv 2611.11089](https://arxiv.org/abs/2611.11089) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11089)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11089)
+
+Control-aware target interpolation and adaptive action skipping support asynchronous visual policies.
+
+## SoftPAT3D: Physics-Augmented Text-to-3D Scene Generation with Deformables
+
+- [arXiv 2611.11087](https://arxiv.org/abs/2611.11087) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11087)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11087)
+
+SoftPAT3D makes generated deformable scenes simulation-ready through rest-shape/material construction and contact-aware equilibrium.
+
+## ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset
+
+- [arXiv 2611.11085](https://arxiv.org/abs/2611.11085) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11085)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11085)
+
+Predicts full-object3D flow including occluded surfaces from images and task descriptions.
+
+## RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning
+
+- [arXiv 2611.10994](https://arxiv.org/abs/2611.10994) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10994)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10994)
+
+RoboMoCap aligns egocentric vision with optical whole-body motion for humanoid learning.
+
+## BAT-WAM: Bridging Action and Touch in World-Action Models for Dexterous Hands
+
+- [arXiv 2611.10967](https://arxiv.org/abs/2611.10967) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10967)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10967)
+
+BAT-WAM bridges tactile and hand-state streams with RGB-conditioned continuous representations.
+
+## Sampling-based Model Predictive Control as Sequential Monte Carlo Inference
+
+- [arXiv 2611.10877](https://arxiv.org/abs/2611.10877) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10877)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10877)
+
+Unifies sampling-based MPC via sequential Monte Carlo proposals, update rules and resampling.
+
+## MoE-DAgger: Transition-Aware Router-Entropy Gating for Selective Human Correction in Phase-Structured Manipulation
+
+- [arXiv 2611.10825](https://arxiv.org/abs/2611.10825) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10825)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10825)
+
+Router history distinguishes legitimate phase transitions from persistent uncertainty for selective human correction.
+
+## Look Ahead: Search-Driven Reasoning in Embodied AI
+
+- [arXiv 2611.10769](https://arxiv.org/abs/2611.10769) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10769)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10769)
+
+Applies selective beam search to frozen ACT action chunks in PushT. One Step Ahead checks the nominal chunk and triggers broader search only when predicted coverage deteriorates.
+
+## Task-Critical Part Alignment Improves Imitation of Object Interactions
+
+- [arXiv 2611.10664](https://arxiv.org/abs/2611.10664) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10664)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10664)
+
+Task-relevant part matching and RANSAC improve DINOBot interaction imitation.
+
+## Which Taxels, Not How Many: Tactile Sensor Placement for Dexterous Policies
+
+- [arXiv 2611.10647](https://arxiv.org/abs/2611.10647) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10647)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10647)
+
+A controlled tactile placement study separates sensor count, contact relevance and encoder layout.
+
+## ReSkill: Selective Self-Improvement for Robot Manipulation
+
+- [arXiv 2611.10510](https://arxiv.org/abs/2611.10510) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10510)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10510)
+
+Development-time coding agents locate capability gaps, validate local skill revisions and deploy frozen programs without runtime agent calls.
+
+## Tactile Sensors Are an Effective Substitute for Wrist Cameras in Contact-Rich or Occluded Manipulation
+
+- [arXiv 2611.10490](https://arxiv.org/abs/2611.10490) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10490)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10490)
+
+Controlled visuotactile ACT comparisons test tactile arrays as wrist-camera alternatives.
+
+## Grip, Trace, Write: Force-Aware Imitation and Reinforcement Learning for High-DoF Robotic Handwriting
+
+- [arXiv 2611.10451](https://arxiv.org/abs/2611.10451) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10451)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10451)
+
+Separates grasp retention and arm-writing control with force-aware imitation and RL.
+
+## SimDuoReal: Object-Centric Bimanual Policy for Emergent Dexterity
+
+- [arXiv 2611.10410](https://arxiv.org/abs/2611.10410) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10410)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10410)
+
+Object-centric RL experts are distilled into one bimanual dexterous policy.
+
+## GUARD: Anomaly-Informed Q-Steering for Generative Robot Policies in Dexterous Manipulation
+
+- [arXiv 2611.10343](https://arxiv.org/abs/2611.10343) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10343)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10343)
+
+Anomaly-trained Q gradients steer frozen generative policies at inference.
+
+## BATCH: Behavior Alignment for Cross-Embodiment Learning from Humans
+
+- [arXiv 2611.10148](https://arxiv.org/abs/2611.10148) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10148)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10148)
+
+Cycle-consistent temporal alignment supports human/robot video-action co-training and style transfer.
+
+## UniLatent: Cross-Embodiment Transfer via Latent Observation Alignment
+
+- [arXiv 2611.10061](https://arxiv.org/abs/2611.10061) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10061)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10061)
+
+Pairs simulated source/target observations to align latent encoders across robot embodiments.
+
+## Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color
+
+- [arXiv 2607.14698](https://arxiv.org/abs/2607.14698) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2607.14698)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2607.14698)
+
+Extends illumination-robustness evaluation to explicitly color-dependent hardware tasks and adds cross-model evaluation and rendering-protocol detail.
+
+## RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations
+
+- [arXiv 2606.22142](https://arxiv.org/abs/2606.22142) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2606.22142)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2606.22142)
+
+Clarifies cross-round recollection statistics, corrects intermediate-round values, and adds operational storage/local-model accounting for robot data-lineage agents.
+
+## Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation
+
+- [arXiv 2606.20135](https://arxiv.org/abs/2606.20135) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2606.20135)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2606.20135)
+
+Adds bandwidth-matched low-pass-filter controls and coefficient/loss-weight ablations to frequency-aware flow-matching actions.
+
+## Tac-DINO: Learning Tactile Features with Patch Alignment
+
+- [arXiv 2606.12069](https://arxiv.org/abs/2606.12069) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2606.12069)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2606.12069)
+
+Reframes Tac-DINO around Touch3D/CoMT-Bench and GeoTAC, and adds downstream vision-tactile manipulation evaluation beyond representation retrieval.
+
+## RoboWits: Unexpected Challenges for Robotic Creative Problem Solving
+
+- [arXiv 2605.30326](https://arxiv.org/abs/2605.30326) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2605.30326)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2605.30326)
+
+Expands benchmark evidence with repeated runs, full-suite analysis, demonstration scaling, and matched simulation/hardware seed-to-mutation comparisons; corrects the mutation count from 208 to 200.
+
+## OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation
+
+- [arXiv 2605.25829](https://arxiv.org/abs/2605.25829) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2605.25829)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2605.25829)
+
+Adds seed-variance reporting and decoder-attention analysis, while clarifying which OASIS comparisons share training/evaluation protocols.
+
+## Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning
+
+- [arXiv 2605.19919](https://arxiv.org/abs/2605.19919) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2605.19919)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2605.19919)
+
+Adds success–smoothness comparisons to smoothed action-residual baselines and explicitly scopes frozen-policy bottleneck RL to steering behaviors already supported by offline training.
+
+## MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation
+
+- [arXiv 2603.16861](https://arxiv.org/abs/2603.16861) · v3 · [Latest entry](../daily/2026-11-10.md#arxiv-2603.16861)
+- Coverage history: [2026-11-10 (v3, revised)](../daily/2026-11-10.md#arxiv-2603.16861)
+
+Adds compute-controlled history-conditioning and external zero-shot benchmark analyses to the simulation-only-trained manipulation policy.
+
+## HuMI: Humanoid Whole-Body Manipulation from Humanoid-Free Demonstrations
+
+- [arXiv 2602.06643](https://arxiv.org/abs/2602.06643) · v3 · [Latest entry](../daily/2026-11-10.md#arxiv-2602.06643)
+- Coverage history: [2026-11-10 (v3, revised)](../daily/2026-11-10.md#arxiv-2602.06643)
+
+Adds matched-demonstration-time comparisons and further TWIST2 tasks to humanoid-free whole-body manipulation data collection.
+
+## SyncTwin: Fast Digital Twin Construction and Synchronization for Safe Robotic Manipulation
+
+- [arXiv 2601.09920](https://arxiv.org/abs/2601.09920) · v3 · [Latest entry](../daily/2026-11-10.md#arxiv-2601.09920)
+- Coverage history: [2026-11-10 (v3, revised)](../daily/2026-11-10.md#arxiv-2601.09920)
+
+Adds pose-tracking and memory/latency comparisons and clarifies obstacle-avoidance scoring in the real-to-sim-to-real digital twin.
+
+## Tactile MNIST: Benchmarking Active Tactile Perception
+
+- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v4 · [Latest entry](../daily/2026-11-10.md#arxiv-2506.06361)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2506.06361) · [2026-11-10 (v4, revised)](../daily/2026-11-10.md#arxiv-2506.06361)
+
+Adds an explicit simulation-to-real-tactile-data proof of concept and four-component transfer ablation.
 
 ## On Agentic Manipulation Policies
 
@@ -1333,13 +1739,6 @@ Force-aware imitation is refined with a reward combining peeling-thickness label
 - Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2511.00917)
 
 A coding-agent harness composes perception, planning and control modules, with outcome verification and code repair.
-
-## Tactile MNIST: Benchmarking Active Tactile Perception
-
-- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2506.06361)
-- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2506.06361)
-
-Tactile MNIST benchmarks active tactile perception and information-gathering policies.
 
 ## Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space
 

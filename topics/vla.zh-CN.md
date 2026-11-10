@@ -2,7 +2,196 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-240 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+267 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## SWAM: Scaling World Action Models with Cross-Modal Alignment
+
+- [arXiv 2611.12870](https://arxiv.org/abs/2611.12870) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12870)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12870)
+
+SWAM利用通用视频、第一人称视频、UMI与机器人监督混合，研究动作学习中保持语言视频对齐。
+
+## Learning Heterogeneous Tactile Representation for General Dexterous Manipulation
+
+- [arXiv 2611.12806](https://arxiv.org/abs/2611.12806) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12806)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12806)
+
+LingBot-Touch将压阻、磁性与视觉触觉统一成可接入Diffusion Policy及pi0.5/LingBot-VLA的触觉token。
+
+## VLA Adaptation with Real and Simulated Data: A Case Study on Robotic Chess
+
+- [arXiv 2611.12676](https://arxiv.org/abs/2611.12676) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12676)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12676)
+
+使用真实示范与脚本仿真数据，研究pi0.5在SO-101象棋移动任务上的适配。
+
+## Be My Eye: Learning to See Beyond a Robot's Own Perspective
+
+- [arXiv 2611.12295](https://arxiv.org/abs/2611.12295) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12295)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12295)
+
+以任务条件压缩表征交换另一机器人的互补观测，接入预训练VLA。
+
+## VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation
+
+- [arXiv 2611.12286](https://arxiv.org/abs/2611.12286) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12286)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12286)
+
+VLA-MOPD在学生访问的观测及中间ODE状态查询专家流策略，以可选保留正则整合技能。
+
+## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
+
+- [arXiv 2611.12136](https://arxiv.org/abs/2611.12136) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12136)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12136)
+
+LHNav以不同时间尺度协调任务推理、VLA运动token生成和全身执行。
+
+## Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation
+
+- [arXiv 2611.11981](https://arxiv.org/abs/2611.11981) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11981)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11981)
+
+Thermo-VLA以语言条件残差调制注入冷/热属性，实现热感知操作。
+
+## Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading
+
+- [arXiv 2611.11894](https://arxiv.org/abs/2611.11894) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11894)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11894)
+
+闭式指令蒸馏编辑策略MLP权重，复现已知有效改写的作用，无需梯度。
+
+## Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation
+
+- [arXiv 2611.11854](https://arxiv.org/abs/2611.11854) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11854)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11854)
+
+DASH以新鲜视觉和陈旧信息感知训练，将慢语义推理与快动作头异步解耦。
+
+## PAIR: Proprioception-Aligned Image-Ray Representations for Viewpoint-Robust Manipulation
+
+- [arXiv 2611.11798](https://arxiv.org/abs/2611.11798) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11798)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11798)
+
+PAIR以本体感知对比监督，跨视角对齐图像-射线表征。
+
+## Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment
+
+- [arXiv 2611.11688](https://arxiv.org/abs/2611.11688) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11688)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11688)
+
+SFF依据每回合结果更新故障监测器的末层线性读出，保持主干冻结。
+
+## FlowEval: How Much Adaptation Does an Embodied Foundation Model Need at Deployment?
+
+- [arXiv 2611.11650](https://arxiv.org/abs/2611.11650) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11650)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11650)
+
+FlowEval用成功目标域示范上的流匹配预测分歧，无训练诊断模型的适应需求。
+
+## Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation
+
+- [arXiv 2611.11554](https://arxiv.org/abs/2611.11554) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11554)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11554)
+
+Kimodo-Policy以冻结文本到运动主干及轻量视觉ControlNet学习人形移动操作。
+
+## ForeAct: Geometry-Guided Action Learning from World Representations
+
+- [arXiv 2611.11500](https://arxiv.org/abs/2611.11500) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11500)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11500)
+
+ForeAct单次前向复用视频世界模型骨干，仅训练时用下一帧相对深度监督几何token。
+
+## Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge
+
+- [arXiv 2611.11464](https://arxiv.org/abs/2611.11464) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11464)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11464)
+
+结合pi0.5离策略强化学习、Thompson采样推理参数调优及生成/恢复示范。
+
+## Efficient VLA Inference via Retrieval-Based Speculation and Hardware Acceleration
+
+- [arXiv 2611.11098](https://arxiv.org/abs/2611.11098) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11098)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11098)
+
+Zora以检索草稿、运动学接受规则与共享KV缓存加速自回归VLA，并设计专用硬件支持。
+
+## Control-Aware Command Generation for Asynchronous Control and Action Inference with Vision-Based Policies towards Fast Execution
+
+- [arXiv 2611.11089](https://arxiv.org/abs/2611.11089) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11089)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11089)
+
+控制感知目标插值与自适应动作跳过支持异步视觉策略。
+
+## Zero-Shot VLA Adaptation with Retrieved Guidance
+
+- [arXiv 2611.10894](https://arxiv.org/abs/2611.10894) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10894)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10894)
+
+RAGu几何变换检索示范，以相容稠密轨迹引导冻结VLA流推理。
+
+## DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies
+
+- [arXiv 2611.10872](https://arxiv.org/abs/2611.10872) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10872)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10872)
+
+生成人体动作引导RL专家和参考条件DAgger训练人形VLA。
+
+## Spatial Representation Distillation and Knowledge Routing for Vision-Language-Action Models
+
+- [arXiv 2611.10443](https://arxiv.org/abs/2611.10443) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10443)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10443)
+
+SPARK-VLA向并行视觉分支蒸馏空间知识并路由动作相关token。
+
+## Tiresias: Towards Language-Conditioned World Models
+
+- [arXiv 2611.10392](https://arxiv.org/abs/2611.10392) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10392)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10392)
+
+组合语言条件扩散轨迹候选、轨迹筛选与想象视频验证；LCWM-Bench汇集四个领域的15个数据集。
+
+## How Many Demonstrations Does a VLA Need? On the Sample Efficiency of VLA Finetuning
+
+- [arXiv 2611.09964](https://arxiv.org/abs/2611.09964) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.09964)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.09964)
+
+在四套LIBERO任务上比较六种VLA的数据与更新效率，包含pi0/pi0.5及GR00T各版本。
+
+## SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices
+
+- [arXiv 2610.13740](https://arxiv.org/abs/2610.13740) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2610.13740)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2610.13740)
+
+补充完整预算的纯动作监督消融，并区分单步推理与架构压缩对Cosmos系小型WAM效率收益的贡献。
+
+## Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color
+
+- [arXiv 2607.14698](https://arxiv.org/abs/2607.14698) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2607.14698)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2607.14698)
+
+扩展到显式依赖颜色的真机任务，并增加跨模型评估和渲染协议说明。
+
+## OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation
+
+- [arXiv 2605.25829](https://arxiv.org/abs/2605.25829) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.25829)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.25829)
+
+新增随机种子波动与解码器注意力分析，并澄清哪些OASIS比较具有匹配训练/评估协议。
+
+## ALAM: Algebraically Consistent Latent Action Model for Vision-Language-Action Models
+
+- [arXiv 2605.10819](https://arxiv.org/abs/2605.10819) · v3 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.10819)
+- 收录历史: [2026-11-10 (v3, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.10819)
+
+更新ALAM与LAM的匹配代数损失消融检查点，并澄清转移token与码本配置。
+
+## MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation
+
+- [arXiv 2603.16861](https://arxiv.org/abs/2603.16861) · v3 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2603.16861)
+- 收录历史: [2026-11-10 (v3, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2603.16861)
+
+为纯仿真训练操作策略补充等训练预算的历史帧对照与外部零样本基准分析。
 
 ## SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning
 

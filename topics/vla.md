@@ -2,7 +2,196 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-240 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+267 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## SWAM: Scaling World Action Models with Cross-Modal Alignment
+
+- [arXiv 2611.12870](https://arxiv.org/abs/2611.12870) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12870)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12870)
+
+SWAM studies preserving language-video alignment during action learning using mixed video, egocentric, UMI and robot supervision.
+
+## Learning Heterogeneous Tactile Representation for General Dexterous Manipulation
+
+- [arXiv 2611.12806](https://arxiv.org/abs/2611.12806) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12806)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12806)
+
+LingBot-Touch unifies piezoresistive, magnetic and visuotactile observations into plug-in tactile tokens for Diffusion Policy and pi0.5/LingBot-VLA.
+
+## VLA Adaptation with Real and Simulated Data: A Case Study on Robotic Chess
+
+- [arXiv 2611.12676](https://arxiv.org/abs/2611.12676) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12676)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12676)
+
+Studies pi0.5 adaptation on SO-101 chess moves using real demonstrations and scripted simulation data.
+
+## Be My Eye: Learning to See Beyond a Robot's Own Perspective
+
+- [arXiv 2611.12295](https://arxiv.org/abs/2611.12295) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12295)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12295)
+
+Task-conditioned compressed context exchange augments a pretrained VLA with complementary observations from another robot.
+
+## VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation
+
+- [arXiv 2611.12286](https://arxiv.org/abs/2611.12286) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12286)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12286)
+
+VLA-MOPD consolidates specialist flow policies using teacher targets at student-visited observations and intermediate ODE states, with optional retention regularization.
+
+## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
+
+- [arXiv 2611.12136](https://arxiv.org/abs/2611.12136) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12136)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12136)
+
+LHNav coordinates task reasoning, VLA motion-token generation and whole-body execution at separate timescales.
+
+## Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation
+
+- [arXiv 2611.11981](https://arxiv.org/abs/2611.11981) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11981)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11981)
+
+Thermo-VLA injects hot/cold attributes through language-conditioned residual modulation for thermal manipulation.
+
+## Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading
+
+- [arXiv 2611.11894](https://arxiv.org/abs/2611.11894) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11894)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11894)
+
+Closed-form instruction distillation edits policy MLP weights to reproduce a known-good rewording, without gradients.
+
+## Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation
+
+- [arXiv 2611.11854](https://arxiv.org/abs/2611.11854) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11854)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11854)
+
+DASH asynchronously decouples slow semantic inference from a fast action head using fresh vision and staleness-aware training.
+
+## PAIR: Proprioception-Aligned Image-Ray Representations for Viewpoint-Robust Manipulation
+
+- [arXiv 2611.11798](https://arxiv.org/abs/2611.11798) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11798)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11798)
+
+PAIR aligns image-ray representations across viewpoints with proprioceptive contrastive supervision.
+
+## Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment
+
+- [arXiv 2611.11688](https://arxiv.org/abs/2611.11688) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11688)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11688)
+
+SFF updates only a failure monitor's final linear layer after each outcome while keeping its backbone fixed.
+
+## FlowEval: How Much Adaptation Does an Embodied Foundation Model Need at Deployment?
+
+- [arXiv 2611.11650](https://arxiv.org/abs/2611.11650) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11650)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11650)
+
+FlowEval uses flow-matching predictive disagreement on successful target demonstrations to diagnose adaptation needs without training.
+
+## Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation
+
+- [arXiv 2611.11554](https://arxiv.org/abs/2611.11554) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11554)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11554)
+
+Kimodo-Policy uses a frozen text-to-motion backbone and lightweight visual ControlNet to learn humanoid loco-manipulation.
+
+## ForeAct: Geometry-Guided Action Learning from World Representations
+
+- [arXiv 2611.11500](https://arxiv.org/abs/2611.11500) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11500)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11500)
+
+ForeAct reuses a video-world-model backbone in one pass and supervises geometry tokens with next-frame relative depth only during training.
+
+## Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge
+
+- [arXiv 2611.11464](https://arxiv.org/abs/2611.11464) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11464)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11464)
+
+Combines off-policy RL on a pi0.5 policy with Thompson-sampling inference-parameter tuning and generated/recovery demonstrations.
+
+## Efficient VLA Inference via Retrieval-Based Speculation and Hardware Acceleration
+
+- [arXiv 2611.11098](https://arxiv.org/abs/2611.11098) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11098)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11098)
+
+Zora accelerates autoregressive VLA decoding with retrieved drafts, kinematic acceptance and shared KV caches, plus specialized hardware support.
+
+## Control-Aware Command Generation for Asynchronous Control and Action Inference with Vision-Based Policies towards Fast Execution
+
+- [arXiv 2611.11089](https://arxiv.org/abs/2611.11089) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11089)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11089)
+
+Control-aware target interpolation and adaptive action skipping support asynchronous visual policies.
+
+## Zero-Shot VLA Adaptation with Retrieved Guidance
+
+- [arXiv 2611.10894](https://arxiv.org/abs/2611.10894) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10894)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10894)
+
+RAGu geometrically warps retrieved demonstrations and guides frozen VLA flow inference with compatible dense trajectories.
+
+## DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies
+
+- [arXiv 2611.10872](https://arxiv.org/abs/2611.10872) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10872)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10872)
+
+Generated human motions guide RL experts and reference-conditioned DAgger for humanoid VLA training.
+
+## Spatial Representation Distillation and Knowledge Routing for Vision-Language-Action Models
+
+- [arXiv 2611.10443](https://arxiv.org/abs/2611.10443) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10443)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10443)
+
+SPARK-VLA distills spatial knowledge into a parallel visual branch and routes action-relevant tokens.
+
+## Tiresias: Towards Language-Conditioned World Models
+
+- [arXiv 2611.10392](https://arxiv.org/abs/2611.10392) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10392)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10392)
+
+Combines language-conditioned diffusion trajectory proposals, trajectory shortlisting and imagined-video verification. LCWM-Bench consolidates 15 datasets across four domains.
+
+## How Many Demonstrations Does a VLA Need? On the Sample Efficiency of VLA Finetuning
+
+- [arXiv 2611.09964](https://arxiv.org/abs/2611.09964) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.09964)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.09964)
+
+Compares data and update efficiency of six VLAs across four LIBERO suites, including pi0/pi0.5 and GR00T variants.
+
+## SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices
+
+- [arXiv 2610.13740](https://arxiv.org/abs/2610.13740) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2610.13740)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2610.13740)
+
+Adds a full-budget action-only supervision ablation and separates one-step inference savings from architectural compression in a compact Cosmos-derived WAM.
+
+## Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color
+
+- [arXiv 2607.14698](https://arxiv.org/abs/2607.14698) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2607.14698)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2607.14698)
+
+Extends illumination-robustness evaluation to explicitly color-dependent hardware tasks and adds cross-model evaluation and rendering-protocol detail.
+
+## OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation
+
+- [arXiv 2605.25829](https://arxiv.org/abs/2605.25829) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2605.25829)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2605.25829)
+
+Adds seed-variance reporting and decoder-attention analysis, while clarifying which OASIS comparisons share training/evaluation protocols.
+
+## ALAM: Algebraically Consistent Latent Action Model for Vision-Language-Action Models
+
+- [arXiv 2605.10819](https://arxiv.org/abs/2605.10819) · v3 · [Latest entry](../daily/2026-11-10.md#arxiv-2605.10819)
+- Coverage history: [2026-11-10 (v3, revised)](../daily/2026-11-10.md#arxiv-2605.10819)
+
+Updates the matched ALAM-versus-LAM algebraic-loss ablation checkpoint and corrects the transition-token/codebook specification.
+
+## MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation
+
+- [arXiv 2603.16861](https://arxiv.org/abs/2603.16861) · v3 · [Latest entry](../daily/2026-11-10.md#arxiv-2603.16861)
+- Coverage history: [2026-11-10 (v3, revised)](../daily/2026-11-10.md#arxiv-2603.16861)
+
+Adds compute-controlled history-conditioning and external zero-shot benchmark analyses to the simulation-only-trained manipulation policy.
 
 ## SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning
 

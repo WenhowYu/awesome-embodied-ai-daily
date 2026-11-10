@@ -2,7 +2,203 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-235 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+262 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Library of Hands: Fix the Hands, Not the World Model
+
+- [arXiv 2611.12678](https://arxiv.org/abs/2611.12678) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12678)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12678)
+
+Library of Hands keeps the world model frozen, identifies command-to-action maps from image transitions, and recalls stored maps when interfaces recur.
+
+## VLA Adaptation with Real and Simulated Data: A Case Study on Robotic Chess
+
+- [arXiv 2611.12676](https://arxiv.org/abs/2611.12676) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12676)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12676)
+
+Studies pi0.5 adaptation on SO-101 chess moves using real demonstrations and scripted simulation data.
+
+## Simulation-aided Reinforcement Learning with Control Variates
+
+- [arXiv 2611.12643](https://arxiv.org/abs/2611.12643) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12643)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12643)
+
+Uses simulated experience as control variates to reduce RL estimation variance rather than bias targets by direct simulation mixing.
+
+## VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation
+
+- [arXiv 2611.12286](https://arxiv.org/abs/2611.12286) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12286)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12286)
+
+VLA-MOPD consolidates specialist flow policies using teacher targets at student-visited observations and intermediate ODE states, with optional retention regularization.
+
+## RAIL: Representation-Aligned Imitation Learning for Student-Compatible Teacher Policies
+
+- [arXiv 2611.12251](https://arxiv.org/abs/2611.12251) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12251)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12251)
+
+RAIL trains privileged teachers in a contrastively aligned teacher/student representation to make their actions reproducible from student sensors.
+
+## GAP: Generalized Adaptation Prior for Dexterous Piano Playing
+
+- [arXiv 2611.12111](https://arxiv.org/abs/2611.12111) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12111)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12111)
+
+GAP learns a simulator-trained action-adjustment prior that uses feedback between piano-playing executions.
+
+## Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading
+
+- [arXiv 2611.11894](https://arxiv.org/abs/2611.11894) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11894)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11894)
+
+Closed-form instruction distillation edits policy MLP weights to reproduce a known-good rewording, without gradients.
+
+## Fade to... Red? Scheduling Coloured Noise Exploration Supports Efficient Robot Learning with Reduced Movement Jerk
+
+- [arXiv 2611.11868](https://arxiv.org/abs/2611.11868) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11868)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11868)
+
+Studies temporal noise-color schedules for smoother off-policy exploration on manipulation tasks.
+
+## Accelerated Reinforcement Learning for Soft Robotics: Hours Instead of Years
+
+- [arXiv 2611.11718](https://arxiv.org/abs/2611.11718) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11718)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11718)
+
+Uses a data-learned low-dimensional aSSM dynamics model as an efficient training environment for soft-robot RL.
+
+## Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment
+
+- [arXiv 2611.11688](https://arxiv.org/abs/2611.11688) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11688)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11688)
+
+SFF updates only a failure monitor's final linear layer after each outcome while keeping its backbone fixed.
+
+## Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge
+
+- [arXiv 2611.11464](https://arxiv.org/abs/2611.11464) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11464)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11464)
+
+Combines off-policy RL on a pi0.5 policy with Thompson-sampling inference-parameter tuning and generated/recovery demonstrations.
+
+## DPDP: Diffusion Policy-Steered Diffusion Planner for Offline Reinforcement Learning
+
+- [arXiv 2611.10993](https://arxiv.org/abs/2611.10993) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10993)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10993)
+
+Combines a value-optimized diffusion action prior with the inverse-dynamics executor of a diffusion planner, using sampling composition or preference fine-tuning.
+
+## Explicitly capturing demonstrator multi-modality for distillation into diffusion policies
+
+- [arXiv 2611.10949](https://arxiv.org/abs/2611.10949) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10949)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10949)
+
+Repeated demonstrator queries from identical states preserve conditional multimodality in distilled diffusion policies.
+
+## Zero-Shot VLA Adaptation with Retrieved Guidance
+
+- [arXiv 2611.10894](https://arxiv.org/abs/2611.10894) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10894)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10894)
+
+RAGu geometrically warps retrieved demonstrations and guides frozen VLA flow inference with compatible dense trajectories.
+
+## DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies
+
+- [arXiv 2611.10872](https://arxiv.org/abs/2611.10872) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10872)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10872)
+
+Generated human motions guide RL experts and reference-conditioned DAgger for humanoid VLA training.
+
+## MoE-DAgger: Transition-Aware Router-Entropy Gating for Selective Human Correction in Phase-Structured Manipulation
+
+- [arXiv 2611.10825](https://arxiv.org/abs/2611.10825) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10825)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10825)
+
+Router history distinguishes legitimate phase transitions from persistent uncertainty for selective human correction.
+
+## Learning When to Think: Adaptive Internal Computation for Reinforcement Learning
+
+- [arXiv 2611.10822](https://arxiv.org/abs/2611.10822) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10822)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10822)
+
+Adaptive Internal Computation jointly learns actions and when to stop iterative latent refinement.
+
+## WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures
+
+- [arXiv 2611.10806](https://arxiv.org/abs/2611.10806) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10806)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10806)
+
+Trains hierarchical candidate proposers around frozen H-JEPA models, amortizing expensive online gradient planning with rollout-cost and best-of-K imitation objectives.
+
+## Look Ahead: Search-Driven Reasoning in Embodied AI
+
+- [arXiv 2611.10769](https://arxiv.org/abs/2611.10769) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10769)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10769)
+
+Applies selective beam search to frozen ACT action chunks in PushT. One Step Ahead checks the nominal chunk and triggers broader search only when predicted coverage deteriorates.
+
+## Intra-Option Fitted Q-Evaluation: Evaluating Hierarchical Policies from Non-Hierarchical Data
+
+- [arXiv 2611.10543](https://arxiv.org/abs/2611.10543) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10543)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10543)
+
+Evaluates option-based hierarchical policies from offline primitive-action logs without option annotations using augmented state-option fitted Q-evaluation.
+
+## Grip, Trace, Write: Force-Aware Imitation and Reinforcement Learning for High-DoF Robotic Handwriting
+
+- [arXiv 2611.10451](https://arxiv.org/abs/2611.10451) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10451)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10451)
+
+Separates grasp retention and arm-writing control with force-aware imitation and RL.
+
+## Deploying Physically and Epistemically Compliant Agents by Distilling Belief-Space Task and Motion Planners
+
+- [arXiv 2611.10430](https://arxiv.org/abs/2611.10430) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10430)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10430)
+
+Distills belief-space planners into history-conditioned policies with dual averaging and rollout reinforcement.
+
+## SimDuoReal: Object-Centric Bimanual Policy for Emergent Dexterity
+
+- [arXiv 2611.10410](https://arxiv.org/abs/2611.10410) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10410)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10410)
+
+Object-centric RL experts are distilled into one bimanual dexterous policy.
+
+## GUARD: Anomaly-Informed Q-Steering for Generative Robot Policies in Dexterous Manipulation
+
+- [arXiv 2611.10343](https://arxiv.org/abs/2611.10343) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10343)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10343)
+
+Anomaly-trained Q gradients steer frozen generative policies at inference.
+
+## Who Taught the Robot That? Removing One User's Corrections from a Robot Policy That Learns Online
+
+- [arXiv 2611.10280](https://arxiv.org/abs/2611.10280) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10280)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10280)
+
+Studies removal of one contributor from an online-adapted robot policy using ordered update logs.
+
+## Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation
+
+- [arXiv 2606.20135](https://arxiv.org/abs/2606.20135) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2606.20135)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2606.20135)
+
+Adds bandwidth-matched low-pass-filter controls and coefficient/loss-weight ablations to frequency-aware flow-matching actions.
+
+## Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning
+
+- [arXiv 2605.19919](https://arxiv.org/abs/2605.19919) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2605.19919)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2605.19919)
+
+Adds success–smoothness comparisons to smoothed action-residual baselines and explicitly scopes frozen-policy bottleneck RL to steering behaviors already supported by offline training.
+
+## Tactile MNIST: Benchmarking Active Tactile Perception
+
+- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v4 · [Latest entry](../daily/2026-11-10.md#arxiv-2506.06361)
+- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2506.06361) · [2026-11-10 (v4, revised)](../daily/2026-11-10.md#arxiv-2506.06361)
+
+Adds an explicit simulation-to-real-tactile-data proof of concept and four-component transfer ablation.
 
 ## Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation
 
@@ -738,13 +934,6 @@ InTAct protects activation regions of earlier domains rather than freezing param
 - Coverage history: [2026-11-03 (v5, revised)](../daily/2026-11-03.md#arxiv-2509.22964)
 
 Policy-conditioned functional critics connect off-policy stability with policy-space exploration.
-
-## Tactile MNIST: Benchmarking Active Tactile Perception
-
-- [arXiv 2506.06361](https://arxiv.org/abs/2506.06361) · v3 · [Latest entry](../daily/2026-11-03.md#arxiv-2506.06361)
-- Coverage history: [2026-11-03 (v3, revised)](../daily/2026-11-03.md#arxiv-2506.06361)
-
-Tactile MNIST benchmarks active tactile perception and information-gathering policies.
 
 ## Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments
 

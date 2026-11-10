@@ -2,7 +2,210 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-228 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+257 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos
+
+- [arXiv 2611.12879](https://arxiv.org/abs/2611.12879) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12879)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12879)
+
+通过掩码补全和流匹配联合学习手腕、手指与物体运动，结合互联网视频恢复轨迹和标注数据。
+
+## SWAM: Scaling World Action Models with Cross-Modal Alignment
+
+- [arXiv 2611.12870](https://arxiv.org/abs/2611.12870) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12870)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12870)
+
+SWAM利用通用视频、第一人称视频、UMI与机器人监督混合，研究动作学习中保持语言视频对齐。
+
+## $\Sigma$-LeWM: Learning World Models via S-Information for Robot Control
+
+- [arXiv 2611.12732](https://arxiv.org/abs/2611.12732) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12732)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12732)
+
+Sigma-LeWM为无解码器潜空间世界模型增加逆向动力学和逆动作预测。
+
+## Library of Hands: Fix the Hands, Not the World Model
+
+- [arXiv 2611.12678](https://arxiv.org/abs/2611.12678) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12678)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12678)
+
+Library of Hands冻结世界模型，通过图像变化辨识指令到动作映射，并在接口再次出现时调用保存的映射。
+
+## Motion Belief Action: From a Visual Scene Map to Physical Decisions
+
+- [arXiv 2611.12113](https://arxiv.org/abs/2611.12113) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.12113)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.12113)
+
+Motion Belief Action在场景地图加入持续性和力学信念，支持成本敏感的感知及操作决策。
+
+## An Evaluation of Tabular Foundation Models as Training-Free World Models
+
+- [arXiv 2611.11921](https://arxiv.org/abs/2611.11921) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11921)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11921)
+
+用预训练表格基础模型做上下文下一状态回归，同时比较同等稀缺数据拟合与全数据训练模型。
+
+## How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens
+
+- [arXiv 2611.11887](https://arxiv.org/abs/2611.11887) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11887)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11887)
+
+以随机码本视角研究冻结DINO token上的nearest-of-m随机预测。
+
+## Action Representation for Spatial Generalization in Robot World Models
+
+- [arXiv 2611.11869](https://arxiv.org/abs/2611.11869) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11869)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11869)
+
+在受控削皮基准比较世界、物体及表面相对动作坐标对空间迁移的影响。
+
+## Planners Exploit Deterministic Error: Dithered Low-Bit World Models
+
+- [arXiv 2611.11780](https://arxiv.org/abs/2611.11780) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11780)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11780)
+
+每次规划迭代更新的共享抖动，缓解采样规划器利用低比特模型确定性误差的问题。
+
+## Particle Filtering with Generative Trajectory Models for State Estimation and Control
+
+- [arXiv 2611.11732](https://arxiv.org/abs/2611.11732) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11732)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11732)
+
+粒子滤波对固定联合扩散轨迹模型的状态假设与动作候选重新加权。
+
+## Accelerated Reinforcement Learning for Soft Robotics: Hours Instead of Years
+
+- [arXiv 2611.11718](https://arxiv.org/abs/2611.11718) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11718)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11718)
+
+以数据学习的低维aSSM动力学作为软体机器人RL的高效训练环境。
+
+## ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation
+
+- [arXiv 2611.11605](https://arxiv.org/abs/2611.11605) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11605)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11605)
+
+ScanDreamer以在线几何记忆和相机视野约束支撑四旋翼导航的想象训练。
+
+## K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation
+
+- [arXiv 2611.11521](https://arxiv.org/abs/2611.11521) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11521)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11521)
+
+K-PWM将Koopman双线性动力学、概率隐状态推断和不确定性感知MPPI控制结合。
+
+## ForeAct: Geometry-Guided Action Learning from World Representations
+
+- [arXiv 2611.11500](https://arxiv.org/abs/2611.11500) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11500)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11500)
+
+ForeAct单次前向复用视频世界模型骨干，仅训练时用下一帧相对深度监督几何token。
+
+## DeepSoMo: Deformable Object Motion Estimation under Proprioceptive Partial Observability via Predictive Latent Dynamics
+
+- [arXiv 2611.11242](https://arxiv.org/abs/2611.11242) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11242)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11242)
+
+预测隐动力学维持部分可观测变形体状态估计的时间一致性。
+
+## DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight
+
+- [arXiv 2611.11166](https://arxiv.org/abs/2611.11166) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11166)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11166)
+
+将离线动作条件空间动力学蒸馏到策略隐表示，部署时不保留世界模型。
+
+## ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset
+
+- [arXiv 2611.11085](https://arxiv.org/abs/2611.11085) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.11085)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.11085)
+
+从图像与任务描述预测含遮挡表面的完整物体三维流。
+
+## BAT-WAM: Bridging Action and Touch in World-Action Models for Dexterous Hands
+
+- [arXiv 2611.10967](https://arxiv.org/abs/2611.10967) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10967)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10967)
+
+BAT-WAM以RGB条件连续表示连接触觉和手状态流。
+
+## WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures
+
+- [arXiv 2611.10806](https://arxiv.org/abs/2611.10806) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10806)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10806)
+
+围绕冻结H-JEPA训练层次候选生成器，以rollout代价和best-of-K模仿目标摊销昂贵在线梯度规划。
+
+## WorldFoundry: Towards Unified Infrastructure for World Intelligence
+
+- [arXiv 2611.10771](https://arxiv.org/abs/2611.10771) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10771)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10771)
+
+统一视频、3D/4D 与具身动作世界系统的模型发现、运行准备、执行、产物和证据评分卡。
+
+## REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning
+
+- [arXiv 2611.10748](https://arxiv.org/abs/2611.10748) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10748)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10748)
+
+学习动力学约束并验证LLM提议，再固化为可复用索引规则记忆。
+
+## Dynamics-Informed Action Learning for Goal-Conditioned Latent Planning
+
+- [arXiv 2611.10660](https://arxiv.org/abs/2611.10660) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10660)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10660)
+
+DIAL结合自回归rollout对齐与逆动作监督，再以动力学感知目标动作初始化CEM。
+
+## Tiresias: Towards Language-Conditioned World Models
+
+- [arXiv 2611.10392](https://arxiv.org/abs/2611.10392) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10392)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10392)
+
+组合语言条件扩散轨迹候选、轨迹筛选与想象视频验证；LCWM-Bench汇集四个领域的15个数据集。
+
+## BATCH: Behavior Alignment for Cross-Embodiment Learning from Humans
+
+- [arXiv 2611.10148](https://arxiv.org/abs/2611.10148) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.10148)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.10148)
+
+循环一致时序对齐支持人类与机器人视频动作联合训练及风格迁移。
+
+## EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
+
+- [arXiv 2611.08477](https://arxiv.org/abs/2611.08477) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.08477)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2611.08477)
+
+补充自我视角姿态恢复的真值初始状态条件消融，主要比较仍采用无初始状态设置。
+
+## IMPULSE: Push First, Then Predict in V-JEPA 2 Feature Space
+
+- [arXiv 2610.23968](https://arxiv.org/abs/2610.23968) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2610.23968)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2610.23968)
+
+为冻结V-JEPA 2特征空间中的接触经验记忆补充事后校准推动次数及更大预测器测试。
+
+## SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices
+
+- [arXiv 2610.13740](https://arxiv.org/abs/2610.13740) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2610.13740)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2610.13740)
+
+补充完整预算的纯动作监督消融，并区分单步推理与架构压缩对Cosmos系小型WAM效率收益的贡献。
+
+## FlowPilot: Real-Time World-Action Modeling for Agile UAV Navigation
+
+- [arXiv 2608.00635](https://arxiv.org/abs/2608.00635) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2608.00635)
+- 收录历史: [2026-11-10 (v2, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2608.00635)
+
+为机载无人机世界动作模型增加受控轨迹表示基线及去噪步数/预测时域消融。
+
+## DeformMaster: An Interactive Physics-Neural World Model for Deformable Objects from Videos
+
+- [arXiv 2605.09586](https://arxiv.org/abs/2605.09586) · v3 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2605.09586)
+- 收录历史: [2026-11-10 (v3, revised)](../daily/2026-11-10.zh-CN.md#arxiv-2605.09586)
+
+为物理—神经可变形物体世界模型补充可复核的运行时间/内存分解。
 
 ## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
 

@@ -2,7 +2,147 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-320 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+340 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## World In-Context Learning for Agentic Robot Manipulation
+
+- [arXiv 2611.12885](https://arxiv.org/abs/2611.12885) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12885)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12885)
+
+RoboScript implements World In-Context Learning: a frozen model rehearses one demonstrated task in simulation, edits Task Memory, then deploys frozen memory in new scenes.
+
+## Library of Hands: Fix the Hands, Not the World Model
+
+- [arXiv 2611.12678](https://arxiv.org/abs/2611.12678) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12678)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12678)
+
+Library of Hands keeps the world model frozen, identifies command-to-action maps from image transitions, and recalls stored maps when interfaces recur.
+
+## Bridging Task Planning and Execution for Language-Conditioned Bimanual Manipulation
+
+- [arXiv 2611.12409](https://arxiv.org/abs/2611.12409) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12409)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12409)
+
+Execution-aware scene graphs and hierarchical pre/post-condition validation support bimanual plans and local recovery.
+
+## VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation
+
+- [arXiv 2611.12286](https://arxiv.org/abs/2611.12286) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12286)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12286)
+
+VLA-MOPD consolidates specialist flow policies using teacher targets at student-visited observations and intermediate ODE states, with optional retention regularization.
+
+## Embodied First Exam
+
+- [arXiv 2611.12177](https://arxiv.org/abs/2611.12177) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12177)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12177)
+
+Embodied First Exam evaluates coding agents choosing direct control, control code or learned policies under explicit information and timing constraints.
+
+## GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation
+
+- [arXiv 2611.12175](https://arxiv.org/abs/2611.12175) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12175)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12175)
+
+GeoMind evaluates spatial reasoning and identity-tracking memory through tabletop manipulation.
+
+## Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular RGB Videos
+
+- [arXiv 2611.12087](https://arxiv.org/abs/2611.12087) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.12087)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.12087)
+
+Compass1 couples sparse visual history and an explicit history map with structured VQA supervision for persistent navigation.
+
+## Flip Anything with Agentic Robotics Self-Learning
+
+- [arXiv 2611.11941](https://arxiv.org/abs/2611.11941) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11941)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11941)
+
+A coding agent iteratively develops graph-based bimanual flipping strategies in physics simulation.
+
+## ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation
+
+- [arXiv 2611.11605](https://arxiv.org/abs/2611.11605) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11605)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11605)
+
+ScanDreamer grounds imagined quadrotor navigation in explicit online geometric memory and camera-aware constraints.
+
+## Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents
+
+- [arXiv 2611.11509](https://arxiv.org/abs/2611.11509) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11509)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11509)
+
+SimplEvo writes coordinate-free task memories and refines bounded text working memories from training episodes without weight updates.
+
+## When Coding Agents Get Arms: Safety Risks Across the Digital-Physical Boundary
+
+- [arXiv 2611.11438](https://arxiv.org/abs/2611.11438) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.11438)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.11438)
+
+ArmedAgent evaluates coding-agent robot safety across robustness, misuse and indirect prompt injection.
+
+## Zero-Shot VLA Adaptation with Retrieved Guidance
+
+- [arXiv 2611.10894](https://arxiv.org/abs/2611.10894) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10894)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10894)
+
+RAGu geometrically warps retrieved demonstrations and guides frozen VLA flow inference with compatible dense trajectories.
+
+## REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning
+
+- [arXiv 2611.10748](https://arxiv.org/abs/2611.10748) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10748)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10748)
+
+Learned dynamics grounds and verifies LLM proposals before consolidation into reusable indexed rule memory.
+
+## HSGNav: Hypothesis Scene Graphs for Multi-Scale Lifelong Navigation under Object Relocation
+
+- [arXiv 2611.10547](https://arxiv.org/abs/2611.10547) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10547)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10547)
+
+Persistent furniture entities and revisable object hypotheses support memory invalidation after relocation.
+
+## Intra-Option Fitted Q-Evaluation: Evaluating Hierarchical Policies from Non-Hierarchical Data
+
+- [arXiv 2611.10543](https://arxiv.org/abs/2611.10543) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10543)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10543)
+
+Evaluates option-based hierarchical policies from offline primitive-action logs without option annotations using augmented state-option fitted Q-evaluation.
+
+## ReSkill: Selective Self-Improvement for Robot Manipulation
+
+- [arXiv 2611.10510](https://arxiv.org/abs/2611.10510) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10510)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10510)
+
+Development-time coding agents locate capability gaps, validate local skill revisions and deploy frozen programs without runtime agent calls.
+
+## Deploying Physically and Epistemically Compliant Agents by Distilling Belief-Space Task and Motion Planners
+
+- [arXiv 2611.10430](https://arxiv.org/abs/2611.10430) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.10430)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.10430)
+
+Distills belief-space planners into history-conditioned policies with dual averaging and rollout reinforcement.
+
+## IMPULSE: Push First, Then Predict in V-JEPA 2 Feature Space
+
+- [arXiv 2610.23968](https://arxiv.org/abs/2610.23968) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2610.23968)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2610.23968)
+
+Adds post-hoc calibration-push-count and larger-predictor tests to contact-experience memory in frozen V-JEPA 2 feature space.
+
+## RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations
+
+- [arXiv 2606.22142](https://arxiv.org/abs/2606.22142) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2606.22142)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2606.22142)
+
+Clarifies cross-round recollection statistics, corrects intermediate-round values, and adds operational storage/local-model accounting for robot data-lineage agents.
+
+## RoboWits: Unexpected Challenges for Robotic Creative Problem Solving
+
+- [arXiv 2605.30326](https://arxiv.org/abs/2605.30326) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2605.30326)
+- Coverage history: [2026-11-10 (v2, revised)](../daily/2026-11-10.md#arxiv-2605.30326)
+
+Expands benchmark evidence with repeated runs, full-suite analysis, demonstration scaling, and matched simulation/hardware seed-to-mutation comparisons; corrects the mutation count from 208 to 200.
 
 ## On Agentic Manipulation Policies
 
