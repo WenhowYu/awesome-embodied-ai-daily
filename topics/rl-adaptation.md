@@ -2,7 +2,84 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-262 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+273 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Koopman Model-Based Reinforcement Learning
+
+- [arXiv 2611.14186](https://arxiv.org/abs/2611.14186) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14186)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14186)
+
+K-MBRL combines a learned linear Koopman representation, one-step dynamics propagation and a critic for efficient policy gradients without online optimization at deployment.
+
+## Model-Free Runtime Measurement of Task-Relevant Information
+
+- [arXiv 2611.14111](https://arxiv.org/abs/2611.14111) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14111)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14111)
+
+Acquisition-State Telemetry maps observations to declared task requirements and monitors progress and unproductive recurrence with a fixed causal monitor.
+
+## Integrating Action Prefix Prediction and Alignment Across Modalities for Multimodal Reinforcement Learning
+
+- [arXiv 2611.13782](https://arxiv.org/abs/2611.13782) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13782)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13782)
+
+IPR trains SAC observation encoders through direct action-prefix prediction of future latents and contrastive cross-modal alignment at the observed anchor, avoiding recursively predicted anchors.
+
+## Few-Shot Residual Adaptation of Pretrained Latent World Models
+
+- [arXiv 2611.13592](https://arxiv.org/abs/2611.13592) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13592)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13592)
+
+Fits internal and output residual adapters from latent prediction errors while keeping a pretrained DUET-DINO world model frozen, enabling few-shot adaptation to changed pushing dynamics.
+
+## ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control
+
+- [arXiv 2611.13482](https://arxiv.org/abs/2611.13482) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13482)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13482)
+
+ExRL learns how many actions of each predicted chunk to execute using off-policy RL, reducing adaptation to a scalar/discrete decision conditioned on state and the proposed chunk. Optional simulation online BC distills successful stitched behavior.
+
+## Latent Barrier Steering: Hierarchical Safety for Generative Planning
+
+- [arXiv 2611.13227](https://arxiv.org/abs/2611.13227) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13227)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13227)
+
+Latent Barrier Steering changes a flow planner’s behavior latent to increase safety margin, then applies a path-space control-barrier-function QP for residual violations.
+
+## Building World Models from Intrinsic Motivation
+
+- [arXiv 2611.13113](https://arxiv.org/abs/2611.13113) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13113)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13113)
+
+Compares 24 intrinsic objectives and 3 representation-learning strategies in a shared model-based RL framework, asking which reward-free experience produces reusable world models. Episodic and lifelong novelty provide memory beyond recurrent latent state.
+
+## FaST: Factored Synthesis of Transitions for Offline Reinforcement Learning
+
+- [arXiv 2611.13013](https://arxiv.org/abs/2611.13013) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13013)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13013)
+
+FaST factors synthetic offline-RL transitions into state, action, dynamics, reward and termination models. Its explicit action conditional supports best-of-N action synthesis without redrawing the state.
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.08577)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.08577)
+
+Clarifies Meituan-Robotics-0 Rollback data construction and the supervision available to different post-training methods.
+
+## Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration
+
+- [arXiv 2607.00033](https://arxiv.org/abs/2607.00033) · v3 · [Latest entry](../daily/2026-11-11.md#arxiv-2607.00033)
+- Coverage history: [2026-11-11 (v3, revised)](../daily/2026-11-11.md#arxiv-2607.00033)
+
+Clarifies CHORD contact-wrench imitation evaluation and baseline adaptations for cross-embodiment dexterous manipulation.
+
+## Safe Approximate Nonlinear Model Predictive Control Without Expert Demonstrations
+
+- [arXiv 2603.24503](https://arxiv.org/abs/2603.24503) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2603.24503)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2603.24503)
+
+Expands safe label-free sequential approximate MPC with acceptance-aligned training and tests from suboptimal feasible initial plans.
 
 ## Library of Hands: Fix the Hands, Not the World Model
 

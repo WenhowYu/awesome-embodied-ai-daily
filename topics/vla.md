@@ -2,7 +2,140 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-267 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+284 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
+
+- [arXiv 2611.14488](https://arxiv.org/abs/2611.14488) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14488)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14488)
+
+Pauses and wrist fidgets expose phantom progress in time-indexed VLA memory. Frame-hiding, timestamp rescaling and no-clock controls distinguish temporal shortcuts from genuine event memory; event indexing partly repairs the failure without retraining.
+
+## One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.14432](https://arxiv.org/abs/2611.14432) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14432)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14432)
+
+A BEHAVIOR Challenge system scales a pi0.5-derived policy to 100 tasks and routes 14 weak tasks to an Astra coding agent initialized from frozen training-practice sessions.
+
+## From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models
+
+- [arXiv 2611.14365](https://arxiv.org/abs/2611.14365) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14365)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14365)
+
+MetaWAM packs proprioception, actions and values into disjoint DCT coefficient bands in one robot meta-frame, preserving a video-model-compatible interface without learned signal encoders or architectural changes.
+
+## DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning
+
+- [arXiv 2611.14092](https://arxiv.org/abs/2611.14092) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14092)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14092)
+
+DexSeed expands human hand-object sequences through interaction-preserving retargeting and arm-trajectory augmentation; RL finger control generates executable simulation demonstrations for dexterous VLA finetuning.
+
+## LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning
+
+- [arXiv 2611.14048](https://arxiv.org/abs/2611.14048) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14048)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14048)
+
+LaST0.5 inserts an interaction-supervised latent expert between world and action experts, then uses predicted task progress to adapt execution and trigger future resampling.
+
+## Game-Enhanced Embodied Learning with Event and Foresight Pretraining
+
+- [arXiv 2611.13819](https://arxiv.org/abs/2611.13819) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13819)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13819)
+
+Adds gameplay event prediction and frozen-video-model foresight pretraining before InternVLA-A1.5 robot finetuning, without translating game commands into robot actions.
+
+## Camera equalisation of an 11.5x drop in environmental illuminance: four imitation-learning policies on an SO-101 arm
+
+- [arXiv 2611.13810](https://arxiv.org/abs/2611.13810) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13810)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13810)
+
+A real-robot lighting audit shows why room lux alone is an inadequate descriptor of visuomotor-policy visual shift when camera exposure is automatic.
+
+## CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation
+
+- [arXiv 2611.13732](https://arxiv.org/abs/2611.13732) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13732)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13732)
+
+CIALLO aligns action, visual-change, and grounded-language intent and decodes it using embodiment-conditioned parameters. A new robot first calibrates its codec; a VLM policy then learns to select intents.
+
+## Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos
+
+- [arXiv 2611.13685](https://arxiv.org/abs/2611.13685) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13685)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13685)
+
+SPAR couples action prediction with future visual-representation prediction in a Mixture-of-Transformers, using action-free egocentric video as auxiliary supervision. It studies target representations, video curation, and scale.
+
+## ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control
+
+- [arXiv 2611.13482](https://arxiv.org/abs/2611.13482) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13482)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13482)
+
+ExRL learns how many actions of each predicted chunk to execute using off-policy RL, reducing adaptation to a scalar/discrete decision conditioned on state and the proposed chunk. Optional simulation online BC distills successful stitched behavior.
+
+## One Trajectory, Two Requirements: Accuracy and Local Stability in Euler Sampling for Flow Matching Policies
+
+- [arXiv 2611.13311](https://arxiv.org/abs/2611.13311) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13311)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13311)
+
+Separates trajectory accuracy from local Euler stability requirements for flow-matching samplers using analytic and controlled learned-flow tests, then audits a frozen pi0.5 checkpoint.
+
+## How Much of Your VLA Is kNN
+
+- [arXiv 2611.13160](https://arxiv.org/abs/2611.13160) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13160)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13160)
+
+Action-chunk retrieval provides a strong training-free LIBERO baseline; Local Action Consistency measures whether nearby representation vectors imply similar future actions and can train retrieval keys.
+
+## Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks
+
+- [arXiv 2611.13039](https://arxiv.org/abs/2611.13039) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13039)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13039)
+
+Robo-MLT combines a protocol-based skill plan, explicit skill pointer, learned multiframe completion/recovery monitor, and skill-conditioned VLA in an asynchronous laboratory controller.
+
+## RoboACE: Adversarial Co-Evolution for Robot Self-Improvement
+
+- [arXiv 2611.13034](https://arxiv.org/abs/2611.13034) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13034)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13034)
+
+RoboACE alternately revises curriculum and execution harnesses around frozen models. Admitted challenges become fixed comparison snapshots; reusable prompts, skills, interfaces, and accessible memory persist across rounds.
+
+## APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models
+
+- [arXiv 2611.13030](https://arxiv.org/abs/2611.13030) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13030)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13030)
+
+APS-VLA trains a visual-token selector using action imitation and a training-only future-feature objective while freezing the VLA. Inference packs selected current tokens and preserves the native action head.
+
+## How Many Demonstrations Does a VLA Need? On the Sample Efficiency of VLA Finetuning
+
+- [arXiv 2611.09964](https://arxiv.org/abs/2611.09964) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.09964)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.09964) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.09964)
+
+Narrows claims in the VLA sample-efficiency study and removes the earlier validation-loss proxy analysis.
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.08577)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.08577)
+
+Clarifies Meituan-Robotics-0 Rollback data construction and the supervision available to different post-training methods.
+
+## XS-VLA: Teaching Tiny Vision-Language-Action Models with Spatial Supervision and Demonstration Conditioning
+
+- [arXiv 2607.04171](https://arxiv.org/abs/2607.04171) · v5 · [Latest entry](../daily/2026-11-11.md#arxiv-2607.04171)
+- Coverage history: [2026-11-11 (v5, revised)](../daily/2026-11-11.md#arxiv-2607.04171)
+
+Corrects model-size labeling and clarifies matched versus published baselines for the compact XS-VLA policy.
+
+## HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation
+
+- [arXiv 2606.31682](https://arxiv.org/abs/2606.31682) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2606.31682)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2606.31682)
+
+Adds reproducibility and generalization tests for HABIT human-present robot demonstrations, including event-level behavior metrics and retraining on released face-anonymized data.
 
 ## SWAM: Scaling World Action Models with Cross-Modal Alignment
 
@@ -151,13 +284,6 @@ SPARK-VLA distills spatial knowledge into a parallel visual branch and routes ac
 
 Combines language-conditioned diffusion trajectory proposals, trajectory shortlisting and imagined-video verification. LCWM-Bench consolidates 15 datasets across four domains.
 
-## How Many Demonstrations Does a VLA Need? On the Sample Efficiency of VLA Finetuning
-
-- [arXiv 2611.09964](https://arxiv.org/abs/2611.09964) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.09964)
-- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.09964)
-
-Compares data and update efficiency of six VLAs across four LIBERO suites, including pi0/pi0.5 and GR00T variants.
-
 ## SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices
 
 - [arXiv 2610.13740](https://arxiv.org/abs/2610.13740) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2610.13740)
@@ -269,13 +395,6 @@ Uses previous-action geometry to prune fixed-view and wrist-view tokens before v
 - Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08698)
 
 Retrieves demonstration context by estimated task progress rather than visual similarity alone.
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08577)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577)
-
-MR0 combines three-stage VLA training, Rollback correction data and event-driven persistent memory for task resumption.
 
 ## Q-OIL: Optimistic Exploration in Learning from Human Interventions
 

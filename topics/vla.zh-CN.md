@@ -2,7 +2,140 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-267 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+284 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
+
+- [arXiv 2611.14488](https://arxiv.org/abs/2611.14488) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14488)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14488)
+
+暂停和手腕晃动揭示按时间索引的 VLA 记忆会产生虚假进度。隐藏帧、时间戳缩放及移除时钟对照区分时间捷径与事件记忆；事件索引无需重训即可部分修复。
+
+## One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.14432](https://arxiv.org/abs/2611.14432) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14432)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14432)
+
+BEHAVIOR 挑战系统将 π0.5 衍生策略扩展至100任务，并将14个薄弱任务交给 Astra 编码代理，部署回合从训练练习的冻结副本启动。
+
+## From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models
+
+- [arXiv 2611.14365](https://arxiv.org/abs/2611.14365) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14365)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14365)
+
+MetaWAM 将本体状态、动作和价值编码到单个机器人 meta-frame 的互斥 DCT 频带，无需额外学习式信号编码器或修改视频模型架构。
+
+## DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning
+
+- [arXiv 2611.14092](https://arxiv.org/abs/2611.14092) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14092)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14092)
+
+DexSeed 以保留交互关系的重定向和手臂轨迹增强扩展人手物体序列，再用 RL 手指控制产生可执行仿真示教，微调灵巧 VLA。
+
+## LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning
+
+- [arXiv 2611.14048](https://arxiv.org/abs/2611.14048) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14048)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14048)
+
+LaST0.5 在世界专家与动作专家间加入交互监督的潜在专家，并以预测任务进度调整执行、触发未来重采样。
+
+## Game-Enhanced Embodied Learning with Event and Foresight Pretraining
+
+- [arXiv 2611.13819](https://arxiv.org/abs/2611.13819) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13819)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13819)
+
+在 InternVLA-A1.5 机器人微调前增加游戏事件预测与冻结视频模型的前瞻监督，不将游戏指令直接转换为机器人动作。
+
+## Camera equalisation of an 11.5x drop in environmental illuminance: four imitation-learning policies on an SO-101 arm
+
+- [arXiv 2611.13810](https://arxiv.org/abs/2611.13810) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13810)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13810)
+
+真机光照审计指出：相机自动曝光时，房间照度 lux 不能单独描述视觉运动策略承受的图像分布变化。
+
+## CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation
+
+- [arXiv 2611.13732](https://arxiv.org/abs/2611.13732) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13732)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13732)
+
+CIALLO 对齐动作、视觉变化与落地语言的意图，以本体条件参数解码动作；先为新机器人校准编码器，再训练 VLM 策略选择意图。
+
+## Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos
+
+- [arXiv 2611.13685](https://arxiv.org/abs/2611.13685) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13685)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13685)
+
+SPAR 以 MoT 联合动作预测和未来视觉表征预测，将无动作标签的第一视角视频用作辅助监督，考察目标表征、视频筛选与规模。
+
+## ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control
+
+- [arXiv 2611.13482](https://arxiv.org/abs/2611.13482) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13482)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13482)
+
+ExRL 用离策略RL学习每个预测动作块执行多长，将适配化为依赖状态和候选动作块的标量/离散决策；可选的仿真在线BC将成功拼接行为蒸馏回基础策略。
+
+## One Trajectory, Two Requirements: Accuracy and Local Stability in Euler Sampling for Flow Matching Policies
+
+- [arXiv 2611.13311](https://arxiv.org/abs/2611.13311) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13311)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13311)
+
+通过解析系统与受控学习流实验区分 flow-matching 采样的轨迹精度和局部 Euler 稳定性要求，再审查冻结 π0.5。
+
+## How Much of Your VLA Is kNN
+
+- [arXiv 2611.13160](https://arxiv.org/abs/2611.13160) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13160)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13160)
+
+动作块检索构成强免策略训练 LIBERO 基线；局部动作一致性衡量邻近表征是否对应相似未来动作，并可用于训练检索键。
+
+## Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks
+
+- [arXiv 2611.13039](https://arxiv.org/abs/2611.13039) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13039)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13039)
+
+Robo-MLT 将协议生成的技能计划、显式技能指针、学习式多帧完成/恢复监控与技能条件 VLA 结合为异步实验室控制器。
+
+## RoboACE: Adversarial Co-Evolution for Robot Self-Improvement
+
+- [arXiv 2611.13034](https://arxiv.org/abs/2611.13034) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13034)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13034)
+
+RoboACE 围绕冻结模型交替修订课程与执行 Harness，将通过检查的挑战固定为比较快照，并跨轮次保留可复用提示、技能、接口及可检索记忆。
+
+## APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models
+
+- [arXiv 2611.13030](https://arxiv.org/abs/2611.13030) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13030)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13030)
+
+APS-VLA 冻结 VLA，通过动作模仿与仅训练时使用的未来特征目标训练视觉 token 选择器；部署只打包当前选中 token，保留原生动作头。
+
+## How Many Demonstrations Does a VLA Need? On the Sample Efficiency of VLA Finetuning
+
+- [arXiv 2611.09964](https://arxiv.org/abs/2611.09964) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.09964)
+- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.09964) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.09964)
+
+收窄VLA样本效率研究的结论，并移除前版的验证损失代理分析。
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577)
+
+澄清Meituan-Robotics-0的Rollback数据构造及不同后训练方法获得的监督。
+
+## XS-VLA: Teaching Tiny Vision-Language-Action Models with Spatial Supervision and Demonstration Conditioning
+
+- [arXiv 2607.04171](https://arxiv.org/abs/2607.04171) · v5 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2607.04171)
+- 收录历史: [2026-11-11 (v5, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2607.04171)
+
+修正紧凑XS-VLA的模型规模标注，澄清匹配基线与引用已发表基线的区别。
+
+## HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation
+
+- [arXiv 2606.31682](https://arxiv.org/abs/2606.31682) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2606.31682)
+- 收录历史: [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2606.31682)
+
+为HABIT人类在场机器人示教补充可复现性与泛化检验，包括事件级行为指标及在人脸匿名化发布数据上的复训。
 
 ## SWAM: Scaling World Action Models with Cross-Modal Alignment
 
@@ -151,13 +284,6 @@ SPARK-VLA向并行视觉分支蒸馏空间知识并路由动作相关token。
 
 组合语言条件扩散轨迹候选、轨迹筛选与想象视频验证；LCWM-Bench汇集四个领域的15个数据集。
 
-## How Many Demonstrations Does a VLA Need? On the Sample Efficiency of VLA Finetuning
-
-- [arXiv 2611.09964](https://arxiv.org/abs/2611.09964) · v1 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2611.09964)
-- 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.09964)
-
-在四套LIBERO任务上比较六种VLA的数据与更新效率，包含pi0/pi0.5及GR00T各版本。
-
 ## SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices
 
 - [arXiv 2610.13740](https://arxiv.org/abs/2610.13740) · v2 · [最新归档](../daily/2026-11-10.zh-CN.md#arxiv-2610.13740)
@@ -269,13 +395,6 @@ A2-MEAS 结合纠错代码、执行历史、MetaBrain 引导，以及包含潜�
 - 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08698)
 
 按示范条件下估计的任务进度检索动作上下文，而非只依赖视觉相似性。
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
-- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
-
-MR0 结合三阶段 VLA 训练、Rollback 人工纠错数据和事件驱动持久记忆，以支持任务恢复。
 
 ## Q-OIL: Optimistic Exploration in Learning from Human Interventions
 

@@ -2,7 +2,98 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-257 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+270 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## OnlyAct: Extracting Action Representations from Foundation Models for World Models
+
+- [arXiv 2611.14420](https://arxiv.org/abs/2611.14420) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14420)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14420)
+
+OnlyAct 对 V-JEPA 2 帧对表征进行对比适配，以光流引导的场景替换正样本和同视频负样本保留运动、减少场景信息，为视频世界模型提供潜在动作接口。
+
+## From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models
+
+- [arXiv 2611.14365](https://arxiv.org/abs/2611.14365) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14365)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14365)
+
+MetaWAM 将本体状态、动作和价值编码到单个机器人 meta-frame 的互斥 DCT 频带，无需额外学习式信号编码器或修改视频模型架构。
+
+## From Prediction to Action: Learning Physical Context for Deformable Linear Object Manipulation
+
+- [arXiv 2611.14274](https://arxiv.org/abs/2611.14274) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14274)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14274)
+
+Geometry-Pointer-Flow 将抓取位置选择与条件动作生成分离，在平面线状柔性物操作中对比显式物性参数和交互历史，检验预测价值与控制价值是否一致。
+
+## Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control
+
+- [arXiv 2611.14257](https://arxiv.org/abs/2611.14257) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14257)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14257)
+
+Elastic-WAM 学习时空细化需求场，联合决定视频细化何时停止、去噪步幅及哪些未来 token 要刷新，并复用缓存。
+
+## LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning
+
+- [arXiv 2611.14048](https://arxiv.org/abs/2611.14048) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14048)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14048)
+
+LaST0.5 在世界专家与动作专家间加入交互监督的潜在专家，并以预测任务进度调整执行、触发未来重采样。
+
+## Game-Enhanced Embodied Learning with Event and Foresight Pretraining
+
+- [arXiv 2611.13819](https://arxiv.org/abs/2611.13819) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13819)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13819)
+
+在 InternVLA-A1.5 机器人微调前增加游戏事件预测与冻结视频模型的前瞻监督，不将游戏指令直接转换为机器人动作。
+
+## WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.13818](https://arxiv.org/abs/2611.13818) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13818)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13818)
+
+BEHAVIOR 挑战技术报告在 Cosmos 3 上加入视觉历史、进度条件、任务/技能 LoRA 路由及执行启发式，不使用 agentic harness 或递归自改进。
+
+## Integrating Action Prefix Prediction and Alignment Across Modalities for Multimodal Reinforcement Learning
+
+- [arXiv 2611.13782](https://arxiv.org/abs/2611.13782) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13782)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13782)
+
+IPR 通过直接以动作前缀预测未来潜变量、并在真实观测锚点进行跨模态对比对齐来训练 SAC 编码器，避免递归预测锚点。
+
+## Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos
+
+- [arXiv 2611.13685](https://arxiv.org/abs/2611.13685) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13685)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13685)
+
+SPAR 以 MoT 联合动作预测和未来视觉表征预测，将无动作标签的第一视角视频用作辅助监督，考察目标表征、视频筛选与规模。
+
+## Few-Shot Residual Adaptation of Pretrained Latent World Models
+
+- [arXiv 2611.13592](https://arxiv.org/abs/2611.13592) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13592)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13592)
+
+冻结预训练 DUET-DINO 世界模型，从潜在预测误差学习内部与输出两处残差适配器，以少量交互适应推物动力学变化。
+
+## Building World Models from Intrinsic Motivation
+
+- [arXiv 2611.13113](https://arxiv.org/abs/2611.13113) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13113)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13113)
+
+在统一模型式 RL 框架内比较24种内在目标和3种表征学习策略，考察无外部奖励经验如何形成可复用世界模型；回合内与终身新颖性提供循环潜状态之外的记忆。
+
+## FaST: Factored Synthesis of Transitions for Offline Reinforcement Learning
+
+- [arXiv 2611.13013](https://arxiv.org/abs/2611.13013) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13013)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13013)
+
+FaST 将离线 RL 合成转移分解为状态、动作、动力学、奖励和终止模型；显式动作条件分布可在固定状态下执行 best-of-N 动作合成。
+
+## Self-supervised Physics-Informed Manipulation of Deformable Linear Objects with Non-negligible Dynamics
+
+- [arXiv 2602.03623](https://arxiv.org/abs/2602.03623) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2602.03623)
+- 收录历史: [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2602.03623)
+
+澄清SPiD可微物理自监督绳索控制及离线自校正的模型、感知与泛化边界。
 
 ## Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos
 

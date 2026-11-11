@@ -2,7 +2,105 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-340 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+352 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
+
+- [arXiv 2611.14488](https://arxiv.org/abs/2611.14488) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14488)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14488)
+
+暂停和手腕晃动揭示按时间索引的 VLA 记忆会产生虚假进度。隐藏帧、时间戳缩放及移除时钟对照区分时间捷径与事件记忆；事件索引无需重训即可部分修复。
+
+## One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.14432](https://arxiv.org/abs/2611.14432) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14432)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14432)
+
+BEHAVIOR 挑战系统将 π0.5 衍生策略扩展至100任务，并将14个薄弱任务交给 Astra 编码代理，部署回合从训练练习的冻结副本启动。
+
+## From Prediction to Action: Learning Physical Context for Deformable Linear Object Manipulation
+
+- [arXiv 2611.14274](https://arxiv.org/abs/2611.14274) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14274)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14274)
+
+Geometry-Pointer-Flow 将抓取位置选择与条件动作生成分离，在平面线状柔性物操作中对比显式物性参数和交互历史，检验预测价值与控制价值是否一致。
+
+## LEASH: Stay Safe in Agentic Robotics
+
+- [arXiv 2611.14115](https://arxiv.org/abs/2611.14115) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14115)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14115)
+
+RoboRisk 覆盖拒止、计划修复、执行期危险、注入抵抗和序列记忆；LEASH 用共享安全策略与任务、动作、不可逆操作三类审核门约束机器人 Agent。
+
+## Model-Free Runtime Measurement of Task-Relevant Information
+
+- [arXiv 2611.14111](https://arxiv.org/abs/2611.14111) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14111)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14111)
+
+将观测映射为预先声明的任务需求，以固定因果监测器区分信息进展与无效重复，为机器人 Agent 的停滞检测提供接口。
+
+## Curie's Jarvis: Autonomous Robotic Chemistry Experiments from Printed Protocols
+
+- [arXiv 2611.13251](https://arxiv.org/abs/2611.13251) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13251)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13251)
+
+Curie’s Jarvis 将拍摄的纸质实验协议转为机器人技能执行，通过四视角标签投票区分相似容器，并在每步动作前重新定位。
+
+## How Much of Your VLA Is kNN
+
+- [arXiv 2611.13160](https://arxiv.org/abs/2611.13160) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13160)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13160)
+
+动作块检索构成强免策略训练 LIBERO 基线；局部动作一致性衡量邻近表征是否对应相似未来动作，并可用于训练检索键。
+
+## Building World Models from Intrinsic Motivation
+
+- [arXiv 2611.13113](https://arxiv.org/abs/2611.13113) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13113)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13113)
+
+在统一模型式 RL 框架内比较24种内在目标和3种表征学习策略，考察无外部奖励经验如何形成可复用世界模型；回合内与终身新颖性提供循环潜状态之外的记忆。
+
+## Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks
+
+- [arXiv 2611.13039](https://arxiv.org/abs/2611.13039) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13039)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13039)
+
+Robo-MLT 将协议生成的技能计划、显式技能指针、学习式多帧完成/恢复监控与技能条件 VLA 结合为异步实验室控制器。
+
+## RoboACE: Adversarial Co-Evolution for Robot Self-Improvement
+
+- [arXiv 2611.13034](https://arxiv.org/abs/2611.13034) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13034)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13034)
+
+RoboACE 围绕冻结模型交替修订课程与执行 Harness，将通过检查的挑战固定为比较快照，并跨轮次保留可复用提示、技能、接口及可检索记忆。
+
+## CAFE: Closed-Loop Autonomous Task Formulation and Execution without Instance-Specific Instructions
+
+- [arXiv 2611.12983](https://arxiv.org/abs/2611.12983) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.12983)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.12983)
+
+CAFE 以对象、功能区域和执行状态的共享记忆触发任务发现，通过补全、审核及执行反馈持续调整后续目标。
+
+## Embodied Science Agents: Making Embodied Experimental Design Learnable
+
+- [arXiv 2611.12958](https://arxiv.org/abs/2611.12958) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.12958)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.12958)
+
+ESA 将基于记忆的数字代理、贝叶斯实验设计与 ACT 视觉运动策略相结合，通过统一接口协调 API、GUI 和物理仪器，展示实验室具身闭环。
+
+## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
+
+- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.09794)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.09794)
+
+修订任务条件可执行空间信念评估的跨域评估器和观测预算。
+
+## Evaluating Long-Horizon Robot Planning under Uncertainty
+
+- [arXiv 2610.17326](https://arxiv.org/abs/2610.17326) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2610.17326)
+- 收录历史: [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2610.17326)
+
+更新不完美记忆与场景不确定条件下的长程家庭规划基准结果。
 
 ## World In-Context Learning for Agentic Robot Manipulation
 
@@ -165,13 +263,6 @@ AMP1 让通用模型编写并执行机器人控制代码，并可加入跨回合
 
 BEV3SR 将带相机参数的 RGB-D 视频转为具有度量信息的 BEV 场景记忆，再形式化问题，通过显式几何计算作答或为 VLM 检索对象一致的视角。采用 Qwen3-VL-8B 和 16 帧预算时，SQA3D 精确匹配率由 51.6% 升至 62.6%，ScanQA 由 27.8% 升至 30.6%。可作为具身系统的空间推理组件。
 
-## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
-
-- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794)
-- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794)
-
-评测智能体能否取得当前操作指令所需视角，而不只是描述场景。
-
 ## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
 
 - [arXiv 2611.09625](https://arxiv.org/abs/2611.09625) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09625)
@@ -262,13 +353,6 @@ A2-MEAS 结合纠错代码、执行历史、MetaBrain 引导，以及包含潜�
 - 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08698)
 
 按示范条件下估计的任务进度检索动作上下文，而非只依赖视觉相似性。
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
-- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
-
-MR0 结合三阶段 VLA 训练、Rollback 人工纠错数据和事件驱动持久记忆，以支持任务恢复。
 
 ## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
 

@@ -2,7 +2,105 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-340 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+352 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
+
+- [arXiv 2611.14488](https://arxiv.org/abs/2611.14488) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14488)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14488)
+
+Pauses and wrist fidgets expose phantom progress in time-indexed VLA memory. Frame-hiding, timestamp rescaling and no-clock controls distinguish temporal shortcuts from genuine event memory; event indexing partly repairs the failure without retraining.
+
+## One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.14432](https://arxiv.org/abs/2611.14432) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14432)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14432)
+
+A BEHAVIOR Challenge system scales a pi0.5-derived policy to 100 tasks and routes 14 weak tasks to an Astra coding agent initialized from frozen training-practice sessions.
+
+## From Prediction to Action: Learning Physical Context for Deformable Linear Object Manipulation
+
+- [arXiv 2611.14274](https://arxiv.org/abs/2611.14274) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14274)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14274)
+
+Geometry-Pointer-Flow separates grasp-site selection from conditioned motion and compares explicit physical parameters with interaction-history context for planar deformable-object control.
+
+## LEASH: Stay Safe in Agentic Robotics
+
+- [arXiv 2611.14115](https://arxiv.org/abs/2611.14115) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14115)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14115)
+
+RoboRisk evaluates refusal, plan repair, runtime hazards, injection resistance and sequential memory. LEASH places task, action and irreversible-operation review gates around an agentic robot using a shared safety policy.
+
+## Model-Free Runtime Measurement of Task-Relevant Information
+
+- [arXiv 2611.14111](https://arxiv.org/abs/2611.14111) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14111)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14111)
+
+Acquisition-State Telemetry maps observations to declared task requirements and monitors progress and unproductive recurrence with a fixed causal monitor.
+
+## Curie's Jarvis: Autonomous Robotic Chemistry Experiments from Printed Protocols
+
+- [arXiv 2611.13251](https://arxiv.org/abs/2611.13251) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13251)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13251)
+
+Curie’s Jarvis turns photographed printed protocols into robot skill execution, uses four-view label voting to distinguish similar containers, and re-localizes targets before each action.
+
+## How Much of Your VLA Is kNN
+
+- [arXiv 2611.13160](https://arxiv.org/abs/2611.13160) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13160)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13160)
+
+Action-chunk retrieval provides a strong training-free LIBERO baseline; Local Action Consistency measures whether nearby representation vectors imply similar future actions and can train retrieval keys.
+
+## Building World Models from Intrinsic Motivation
+
+- [arXiv 2611.13113](https://arxiv.org/abs/2611.13113) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13113)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13113)
+
+Compares 24 intrinsic objectives and 3 representation-learning strategies in a shared model-based RL framework, asking which reward-free experience produces reusable world models. Episodic and lifelong novelty provide memory beyond recurrent latent state.
+
+## Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks
+
+- [arXiv 2611.13039](https://arxiv.org/abs/2611.13039) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13039)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13039)
+
+Robo-MLT combines a protocol-based skill plan, explicit skill pointer, learned multiframe completion/recovery monitor, and skill-conditioned VLA in an asynchronous laboratory controller.
+
+## RoboACE: Adversarial Co-Evolution for Robot Self-Improvement
+
+- [arXiv 2611.13034](https://arxiv.org/abs/2611.13034) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13034)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13034)
+
+RoboACE alternately revises curriculum and execution harnesses around frozen models. Admitted challenges become fixed comparison snapshots; reusable prompts, skills, interfaces, and accessible memory persist across rounds.
+
+## CAFE: Closed-Loop Autonomous Task Formulation and Execution without Instance-Specific Instructions
+
+- [arXiv 2611.12983](https://arxiv.org/abs/2611.12983) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.12983)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.12983)
+
+CAFE uses shared object, zone, and execution-state memory to trigger task discovery, complete and audit plans, and feed execution outcomes into subsequent goals.
+
+## Embodied Science Agents: Making Embodied Experimental Design Learnable
+
+- [arXiv 2611.12958](https://arxiv.org/abs/2611.12958) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.12958)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.12958)
+
+ESA combines a memory-based digital agent, Bayesian experimental design, and ACT visuomotor policies through a unified interface for APIs, GUIs and physical instruments. It demonstrates embodied laboratory experimentation.
+
+## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
+
+- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.09794)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09794) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.09794)
+
+Revises the cross-domain evaluator and observation budget for task-conditioned actionable spatial-belief evaluation.
+
+## Evaluating Long-Horizon Robot Planning under Uncertainty
+
+- [arXiv 2610.17326](https://arxiv.org/abs/2610.17326) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2610.17326)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2610.17326)
+
+Updates long-horizon household planning benchmark results under imperfect memory and uncertain scene configuration.
 
 ## World In-Context Learning for Agentic Robot Manipulation
 
@@ -165,13 +263,6 @@ Wraps embodied tasks in software interfaces so a single computer-use agent can a
 
 BEV3SR converts RGB-D video with camera parameters into a metric BEV scene memory. It formalizes each question, computes geometric answers explicitly or retrieves object-consistent views for a VLM. Under a 16-frame budget with Qwen3-VL-8B, SQA3D exact match rises 51.6%→62.6%, and ScanQA exact match 27.8%→30.6%. It offers a potentially useful spatial reasoning layer for embodied systems.
 
-## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
-
-- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09794)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09794)
-
-Tests whether an agent acquires the views needed by its current manipulation command rather than merely describing a scene.
-
 ## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
 
 - [arXiv 2611.09625](https://arxiv.org/abs/2611.09625) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09625)
@@ -262,13 +353,6 @@ Benchmarks domestic robot-IoT decisions under ambiguous alerts, residents, and e
 - Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08698)
 
 Retrieves demonstration context by estimated task progress rather than visual similarity alone.
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08577)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577)
-
-MR0 combines three-stage VLA training, Rollback correction data and event-driven persistent memory for task resumption.
 
 ## MemWM: Associative Memory-Enhanced Latent World Models for Long-Horizon Planning
 

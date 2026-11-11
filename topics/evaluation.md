@@ -2,7 +2,168 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-495 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+516 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
+
+- [arXiv 2611.14488](https://arxiv.org/abs/2611.14488) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14488)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14488)
+
+Pauses and wrist fidgets expose phantom progress in time-indexed VLA memory. Frame-hiding, timestamp rescaling and no-clock controls distinguish temporal shortcuts from genuine event memory; event indexing partly repairs the failure without retraining.
+
+## One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.14432](https://arxiv.org/abs/2611.14432) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14432)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14432)
+
+A BEHAVIOR Challenge system scales a pi0.5-derived policy to 100 tasks and routes 14 weak tasks to an Astra coding agent initialized from frozen training-practice sessions.
+
+## LEASH: Stay Safe in Agentic Robotics
+
+- [arXiv 2611.14115](https://arxiv.org/abs/2611.14115) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14115)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14115)
+
+RoboRisk evaluates refusal, plan repair, runtime hazards, injection resistance and sequential memory. LEASH places task, action and irreversible-operation review gates around an agentic robot using a shared safety policy.
+
+## Model-Free Runtime Measurement of Task-Relevant Information
+
+- [arXiv 2611.14111](https://arxiv.org/abs/2611.14111) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14111)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14111)
+
+Acquisition-State Telemetry maps observations to declared task requirements and monitors progress and unproductive recurrence with a fixed causal monitor.
+
+## WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.13818](https://arxiv.org/abs/2611.13818) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13818)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13818)
+
+A BEHAVIOR Challenge technical report augments Cosmos 3 with visual history, progress conditioning, task/skill LoRA routing, and execution heuristics without an agentic harness or recursive self-improvement.
+
+## Camera equalisation of an 11.5x drop in environmental illuminance: four imitation-learning policies on an SO-101 arm
+
+- [arXiv 2611.13810](https://arxiv.org/abs/2611.13810) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13810)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13810)
+
+A real-robot lighting audit shows why room lux alone is an inadequate descriptor of visuomotor-policy visual shift when camera exposure is automatic.
+
+## Joint-State Inference for Autonomous Excavators Using Cab-View Vision-Control Fusion
+
+- [arXiv 2611.13690](https://arxiv.org/abs/2611.13690) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13690)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13690)
+
+Infers excavator joint states from cab-view images, joystick history, and a rolling inferred-state buffer, then supplies them to an ACT policy for closed-loop excavation.
+
+## From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence
+
+- [arXiv 2611.13610](https://arxiv.org/abs/2611.13610) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13610)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13610)
+
+A survey organizes egocentric-human-video-to-robot learning into embodiment transfer, explicit action/task supervision, representation pretraining, and latent action/dynamics modeling.
+
+## One Trajectory, Two Requirements: Accuracy and Local Stability in Euler Sampling for Flow Matching Policies
+
+- [arXiv 2611.13311](https://arxiv.org/abs/2611.13311) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13311)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13311)
+
+Separates trajectory accuracy from local Euler stability requirements for flow-matching samplers using analytic and controlled learned-flow tests, then audits a frozen pi0.5 checkpoint.
+
+## Latent Barrier Steering: Hierarchical Safety for Generative Planning
+
+- [arXiv 2611.13227](https://arxiv.org/abs/2611.13227) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13227)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13227)
+
+Latent Barrier Steering changes a flow planner’s behavior latent to increase safety margin, then applies a path-space control-barrier-function QP for residual violations.
+
+## How Much of Your VLA Is kNN
+
+- [arXiv 2611.13160](https://arxiv.org/abs/2611.13160) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13160)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13160)
+
+Action-chunk retrieval provides a strong training-free LIBERO baseline; Local Action Consistency measures whether nearby representation vectors imply similar future actions and can train retrieval keys.
+
+## RoboACE: Adversarial Co-Evolution for Robot Self-Improvement
+
+- [arXiv 2611.13034](https://arxiv.org/abs/2611.13034) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13034)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13034)
+
+RoboACE alternately revises curriculum and execution harnesses around frozen models. Admitted challenges become fixed comparison snapshots; reusable prompts, skills, interfaces, and accessible memory persist across rounds.
+
+## APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models
+
+- [arXiv 2611.13030](https://arxiv.org/abs/2611.13030) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13030)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13030)
+
+APS-VLA trains a visual-token selector using action imitation and a training-only future-feature objective while freezing the VLA. Inference packs selected current tokens and preserves the native action head.
+
+## How Many Demonstrations Does a VLA Need? On the Sample Efficiency of VLA Finetuning
+
+- [arXiv 2611.09964](https://arxiv.org/abs/2611.09964) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.09964)
+- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.09964) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.09964)
+
+Narrows claims in the VLA sample-efficiency study and removes the earlier validation-loss proxy analysis.
+
+## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
+
+- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.09794)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09794) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.09794)
+
+Revises the cross-domain evaluator and observation budget for task-conditioned actionable spatial-belief evaluation.
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.08577)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.08577)
+
+Clarifies Meituan-Robotics-0 Rollback data construction and the supervision available to different post-training methods.
+
+## Evaluating Long-Horizon Robot Planning under Uncertainty
+
+- [arXiv 2610.17326](https://arxiv.org/abs/2610.17326) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2610.17326)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2610.17326)
+
+Updates long-horizon household planning benchmark results under imperfect memory and uncertain scene configuration.
+
+## XS-VLA: Teaching Tiny Vision-Language-Action Models with Spatial Supervision and Demonstration Conditioning
+
+- [arXiv 2607.04171](https://arxiv.org/abs/2607.04171) · v5 · [Latest entry](../daily/2026-11-11.md#arxiv-2607.04171)
+- Coverage history: [2026-11-11 (v5, revised)](../daily/2026-11-11.md#arxiv-2607.04171)
+
+Corrects model-size labeling and clarifies matched versus published baselines for the compact XS-VLA policy.
+
+## Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration
+
+- [arXiv 2607.00033](https://arxiv.org/abs/2607.00033) · v3 · [Latest entry](../daily/2026-11-11.md#arxiv-2607.00033)
+- Coverage history: [2026-11-11 (v3, revised)](../daily/2026-11-11.md#arxiv-2607.00033)
+
+Clarifies CHORD contact-wrench imitation evaluation and baseline adaptations for cross-embodiment dexterous manipulation.
+
+## HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation
+
+- [arXiv 2606.31682](https://arxiv.org/abs/2606.31682) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2606.31682)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2606.31682)
+
+Adds reproducibility and generalization tests for HABIT human-present robot demonstrations, including event-level behavior metrics and retraining on released face-anonymized data.
+
+## Safe Approximate Nonlinear Model Predictive Control Without Expert Demonstrations
+
+- [arXiv 2603.24503](https://arxiv.org/abs/2603.24503) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2603.24503)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2603.24503)
+
+Expands safe label-free sequential approximate MPC with acceptance-aligned training and tests from suboptimal feasible initial plans.
+
+## Self-supervised Physics-Informed Manipulation of Deformable Linear Objects with Non-negligible Dynamics
+
+- [arXiv 2602.03623](https://arxiv.org/abs/2602.03623) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2602.03623)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2602.03623)
+
+Clarifies the modeling, perception and generalization scope of SPiD, a differentiable-physics self-supervised rope controller with offline self-correction.
+
+## Learning Beyond Rigid Manipulation with Hybrid Soft-Rigid Robots
+
+- [arXiv 2410.07787](https://arxiv.org/abs/2410.07787) · v4 · [Latest entry](../daily/2026-11-11.md#arxiv-2410.07787)
+- Coverage history: [2026-11-11 (v4, revised)](../daily/2026-11-11.md#arxiv-2410.07787)
+
+Reframes single-demonstration soft–rigid manipulation and adds explicit perception-noise comparisons with rigid and soft alternatives.
 
 ## Benchmarking Real-World Robotic Manipulation through Stochastic Challenges
 
@@ -214,13 +375,6 @@ Combines language-conditioned diffusion trajectory proposals, trajectory shortli
 
 Studies removal of one contributor from an online-adapted robot policy using ordered update logs.
 
-## How Many Demonstrations Does a VLA Need? On the Sample Efficiency of VLA Finetuning
-
-- [arXiv 2611.09964](https://arxiv.org/abs/2611.09964) · v1 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.09964)
-- Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.09964)
-
-Compares data and update efficiency of six VLAs across four LIBERO suites, including pi0/pi0.5 and GR00T variants.
-
 ## EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
 
 - [arXiv 2611.08477](https://arxiv.org/abs/2611.08477) · v2 · [Latest entry](../daily/2026-11-10.md#arxiv-2611.08477)
@@ -360,13 +514,6 @@ Wraps embodied tasks in software interfaces so a single computer-use agent can a
 - Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09816)
 
 BEV3SR converts RGB-D video with camera parameters into a metric BEV scene memory. It formalizes each question, computes geometric answers explicitly or retrieves object-consistent views for a VLM. Under a 16-frame budget with Qwen3-VL-8B, SQA3D exact match rises 51.6%→62.6%, and ScanQA exact match 27.8%→30.6%. It offers a potentially useful spatial reasoning layer for embodied systems.
-
-## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
-
-- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09794)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09794)
-
-Tests whether an agent acquires the views needed by its current manipulation command rather than merely describing a scene.
 
 ## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
 

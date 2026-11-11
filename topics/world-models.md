@@ -2,7 +2,98 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-257 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+270 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## OnlyAct: Extracting Action Representations from Foundation Models for World Models
+
+- [arXiv 2611.14420](https://arxiv.org/abs/2611.14420) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14420)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14420)
+
+OnlyAct contrastively adapts V-JEPA 2 frame-pair embeddings to retain motion while reducing scene information, using flow-guided scene-swapped positives and same-video negatives. It provides a latent-action interface for video world models.
+
+## From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models
+
+- [arXiv 2611.14365](https://arxiv.org/abs/2611.14365) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14365)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14365)
+
+MetaWAM packs proprioception, actions and values into disjoint DCT coefficient bands in one robot meta-frame, preserving a video-model-compatible interface without learned signal encoders or architectural changes.
+
+## From Prediction to Action: Learning Physical Context for Deformable Linear Object Manipulation
+
+- [arXiv 2611.14274](https://arxiv.org/abs/2611.14274) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14274)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14274)
+
+Geometry-Pointer-Flow separates grasp-site selection from conditioned motion and compares explicit physical parameters with interaction-history context for planar deformable-object control.
+
+## Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control
+
+- [arXiv 2611.14257](https://arxiv.org/abs/2611.14257) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14257)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14257)
+
+Elastic-WAM learns a spatiotemporal refinement-demand field deciding when to stop video refinement, how far to advance denoising, and which future tokens to refresh, with cache reuse.
+
+## LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning
+
+- [arXiv 2611.14048](https://arxiv.org/abs/2611.14048) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14048)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14048)
+
+LaST0.5 inserts an interaction-supervised latent expert between world and action experts, then uses predicted task progress to adapt execution and trigger future resampling.
+
+## Game-Enhanced Embodied Learning with Event and Foresight Pretraining
+
+- [arXiv 2611.13819](https://arxiv.org/abs/2611.13819) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13819)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13819)
+
+Adds gameplay event prediction and frozen-video-model foresight pretraining before InternVLA-A1.5 robot finetuning, without translating game commands into robot actions.
+
+## WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.13818](https://arxiv.org/abs/2611.13818) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13818)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13818)
+
+A BEHAVIOR Challenge technical report augments Cosmos 3 with visual history, progress conditioning, task/skill LoRA routing, and execution heuristics without an agentic harness or recursive self-improvement.
+
+## Integrating Action Prefix Prediction and Alignment Across Modalities for Multimodal Reinforcement Learning
+
+- [arXiv 2611.13782](https://arxiv.org/abs/2611.13782) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13782)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13782)
+
+IPR trains SAC observation encoders through direct action-prefix prediction of future latents and contrastive cross-modal alignment at the observed anchor, avoiding recursively predicted anchors.
+
+## Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos
+
+- [arXiv 2611.13685](https://arxiv.org/abs/2611.13685) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13685)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13685)
+
+SPAR couples action prediction with future visual-representation prediction in a Mixture-of-Transformers, using action-free egocentric video as auxiliary supervision. It studies target representations, video curation, and scale.
+
+## Few-Shot Residual Adaptation of Pretrained Latent World Models
+
+- [arXiv 2611.13592](https://arxiv.org/abs/2611.13592) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13592)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13592)
+
+Fits internal and output residual adapters from latent prediction errors while keeping a pretrained DUET-DINO world model frozen, enabling few-shot adaptation to changed pushing dynamics.
+
+## Building World Models from Intrinsic Motivation
+
+- [arXiv 2611.13113](https://arxiv.org/abs/2611.13113) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13113)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13113)
+
+Compares 24 intrinsic objectives and 3 representation-learning strategies in a shared model-based RL framework, asking which reward-free experience produces reusable world models. Episodic and lifelong novelty provide memory beyond recurrent latent state.
+
+## FaST: Factored Synthesis of Transitions for Offline Reinforcement Learning
+
+- [arXiv 2611.13013](https://arxiv.org/abs/2611.13013) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13013)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13013)
+
+FaST factors synthetic offline-RL transitions into state, action, dynamics, reward and termination models. Its explicit action conditional supports best-of-N action synthesis without redrawing the state.
+
+## Self-supervised Physics-Informed Manipulation of Deformable Linear Objects with Non-negligible Dynamics
+
+- [arXiv 2602.03623](https://arxiv.org/abs/2602.03623) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2602.03623)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2602.03623)
+
+Clarifies the modeling, perception and generalization scope of SPiD, a differentiable-physics self-supervised rope controller with offline self-correction.
 
 ## Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos
 

@@ -2,7 +2,196 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [All topics](README.md)
 
-473 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+498 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## OnlyAct: Extracting Action Representations from Foundation Models for World Models
+
+- [arXiv 2611.14420](https://arxiv.org/abs/2611.14420) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14420)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14420)
+
+OnlyAct contrastively adapts V-JEPA 2 frame-pair embeddings to retain motion while reducing scene information, using flow-guided scene-swapped positives and same-video negatives. It provides a latent-action interface for video world models.
+
+## From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models
+
+- [arXiv 2611.14365](https://arxiv.org/abs/2611.14365) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14365)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14365)
+
+MetaWAM packs proprioception, actions and values into disjoint DCT coefficient bands in one robot meta-frame, preserving a video-model-compatible interface without learned signal encoders or architectural changes.
+
+## From Prediction to Action: Learning Physical Context for Deformable Linear Object Manipulation
+
+- [arXiv 2611.14274](https://arxiv.org/abs/2611.14274) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14274)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14274)
+
+Geometry-Pointer-Flow separates grasp-site selection from conditioned motion and compares explicit physical parameters with interaction-history context for planar deformable-object control.
+
+## Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control
+
+- [arXiv 2611.14257](https://arxiv.org/abs/2611.14257) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14257)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14257)
+
+Elastic-WAM learns a spatiotemporal refinement-demand field deciding when to stop video refinement, how far to advance denoising, and which future tokens to refresh, with cache reuse.
+
+## Koopman Model-Based Reinforcement Learning
+
+- [arXiv 2611.14186](https://arxiv.org/abs/2611.14186) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14186)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14186)
+
+K-MBRL combines a learned linear Koopman representation, one-step dynamics propagation and a critic for efficient policy gradients without online optimization at deployment.
+
+## DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning
+
+- [arXiv 2611.14092](https://arxiv.org/abs/2611.14092) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14092)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14092)
+
+DexSeed expands human hand-object sequences through interaction-preserving retargeting and arm-trajectory augmentation; RL finger control generates executable simulation demonstrations for dexterous VLA finetuning.
+
+## LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning
+
+- [arXiv 2611.14048](https://arxiv.org/abs/2611.14048) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.14048)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.14048)
+
+LaST0.5 inserts an interaction-supervised latent expert between world and action experts, then uses predicted task progress to adapt execution and trigger future resampling.
+
+## Game-Enhanced Embodied Learning with Event and Foresight Pretraining
+
+- [arXiv 2611.13819](https://arxiv.org/abs/2611.13819) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13819)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13819)
+
+Adds gameplay event prediction and frozen-video-model foresight pretraining before InternVLA-A1.5 robot finetuning, without translating game commands into robot actions.
+
+## WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.13818](https://arxiv.org/abs/2611.13818) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13818)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13818)
+
+A BEHAVIOR Challenge technical report augments Cosmos 3 with visual history, progress conditioning, task/skill LoRA routing, and execution heuristics without an agentic harness or recursive self-improvement.
+
+## Camera equalisation of an 11.5x drop in environmental illuminance: four imitation-learning policies on an SO-101 arm
+
+- [arXiv 2611.13810](https://arxiv.org/abs/2611.13810) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13810)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13810)
+
+A real-robot lighting audit shows why room lux alone is an inadequate descriptor of visuomotor-policy visual shift when camera exposure is automatic.
+
+## CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation
+
+- [arXiv 2611.13732](https://arxiv.org/abs/2611.13732) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13732)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13732)
+
+CIALLO aligns action, visual-change, and grounded-language intent and decodes it using embodiment-conditioned parameters. A new robot first calibrates its codec; a VLM policy then learns to select intents.
+
+## Joint-State Inference for Autonomous Excavators Using Cab-View Vision-Control Fusion
+
+- [arXiv 2611.13690](https://arxiv.org/abs/2611.13690) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13690)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13690)
+
+Infers excavator joint states from cab-view images, joystick history, and a rolling inferred-state buffer, then supplies them to an ACT policy for closed-loop excavation.
+
+## Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos
+
+- [arXiv 2611.13685](https://arxiv.org/abs/2611.13685) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13685)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13685)
+
+SPAR couples action prediction with future visual-representation prediction in a Mixture-of-Transformers, using action-free egocentric video as auxiliary supervision. It studies target representations, video curation, and scale.
+
+## From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence
+
+- [arXiv 2611.13610](https://arxiv.org/abs/2611.13610) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13610)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13610)
+
+A survey organizes egocentric-human-video-to-robot learning into embodiment transfer, explicit action/task supervision, representation pretraining, and latent action/dynamics modeling.
+
+## Few-Shot Residual Adaptation of Pretrained Latent World Models
+
+- [arXiv 2611.13592](https://arxiv.org/abs/2611.13592) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13592)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13592)
+
+Fits internal and output residual adapters from latent prediction errors while keeping a pretrained DUET-DINO world model frozen, enabling few-shot adaptation to changed pushing dynamics.
+
+## ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control
+
+- [arXiv 2611.13482](https://arxiv.org/abs/2611.13482) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13482)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13482)
+
+ExRL learns how many actions of each predicted chunk to execute using off-policy RL, reducing adaptation to a scalar/discrete decision conditioned on state and the proposed chunk. Optional simulation online BC distills successful stitched behavior.
+
+## Curie's Jarvis: Autonomous Robotic Chemistry Experiments from Printed Protocols
+
+- [arXiv 2611.13251](https://arxiv.org/abs/2611.13251) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13251)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13251)
+
+Curie’s Jarvis turns photographed printed protocols into robot skill execution, uses four-view label voting to distinguish similar containers, and re-localizes targets before each action.
+
+## Latent Barrier Steering: Hierarchical Safety for Generative Planning
+
+- [arXiv 2611.13227](https://arxiv.org/abs/2611.13227) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13227)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13227)
+
+Latent Barrier Steering changes a flow planner’s behavior latent to increase safety margin, then applies a path-space control-barrier-function QP for residual violations.
+
+## Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks
+
+- [arXiv 2611.13039](https://arxiv.org/abs/2611.13039) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.13039)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13039)
+
+Robo-MLT combines a protocol-based skill plan, explicit skill pointer, learned multiframe completion/recovery monitor, and skill-conditioned VLA in an asynchronous laboratory controller.
+
+## CAFE: Closed-Loop Autonomous Task Formulation and Execution without Instance-Specific Instructions
+
+- [arXiv 2611.12983](https://arxiv.org/abs/2611.12983) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.12983)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.12983)
+
+CAFE uses shared object, zone, and execution-state memory to trigger task discovery, complete and audit plans, and feed execution outcomes into subsequent goals.
+
+## Embodied Science Agents: Making Embodied Experimental Design Learnable
+
+- [arXiv 2611.12958](https://arxiv.org/abs/2611.12958) · v1 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.12958)
+- Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.12958)
+
+ESA combines a memory-based digital agent, Bayesian experimental design, and ACT visuomotor policies through a unified interface for APIs, GUIs and physical instruments. It demonstrates embodied laboratory experimentation.
+
+## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
+
+- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.09794)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09794) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.09794)
+
+Revises the cross-domain evaluator and observation budget for task-conditioned actionable spatial-belief evaluation.
+
+## Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration
+
+- [arXiv 2607.00033](https://arxiv.org/abs/2607.00033) · v3 · [Latest entry](../daily/2026-11-11.md#arxiv-2607.00033)
+- Coverage history: [2026-11-11 (v3, revised)](../daily/2026-11-11.md#arxiv-2607.00033)
+
+Clarifies CHORD contact-wrench imitation evaluation and baseline adaptations for cross-embodiment dexterous manipulation.
+
+## HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation
+
+- [arXiv 2606.31682](https://arxiv.org/abs/2606.31682) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2606.31682)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2606.31682)
+
+Adds reproducibility and generalization tests for HABIT human-present robot demonstrations, including event-level behavior metrics and retraining on released face-anonymized data.
+
+## Safe Approximate Nonlinear Model Predictive Control Without Expert Demonstrations
+
+- [arXiv 2603.24503](https://arxiv.org/abs/2603.24503) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2603.24503)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2603.24503)
+
+Expands safe label-free sequential approximate MPC with acceptance-aligned training and tests from suboptimal feasible initial plans.
+
+## Self-supervised Physics-Informed Manipulation of Deformable Linear Objects with Non-negligible Dynamics
+
+- [arXiv 2602.03623](https://arxiv.org/abs/2602.03623) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2602.03623)
+- Coverage history: [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2602.03623)
+
+Clarifies the modeling, perception and generalization scope of SPiD, a differentiable-physics self-supervised rope controller with offline self-correction.
+
+## Learning Beyond Rigid Manipulation with Hybrid Soft-Rigid Robots
+
+- [arXiv 2410.07787](https://arxiv.org/abs/2410.07787) · v4 · [Latest entry](../daily/2026-11-11.md#arxiv-2410.07787)
+- Coverage history: [2026-11-11 (v4, revised)](../daily/2026-11-11.md#arxiv-2410.07787)
+
+Reframes single-demonstration soft–rigid manipulation and adds explicit perception-noise comparisons with rigid and soft alternatives.
 
 ## World In-Context Learning for Agentic Robot Manipulation
 
@@ -424,13 +613,6 @@ AMP1 lets a generalist model write and execute robot-control code, with optional
 
 Distills a multi-grasp PPO critic into a utility network that selects grasps for downstream rearrangement goals.
 
-## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
-
-- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09794)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09794)
-
-Tests whether an agent acquires the views needed by its current manipulation command rather than merely describing a scene.
-
 ## SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning
 
 - [arXiv 2611.09684](https://arxiv.org/abs/2611.09684) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09684)
@@ -605,13 +787,6 @@ Two-stage RL infers force and state latents from onboard observations and coordi
 - Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08654)
 
 Draw-project-renoise sampling adds deployment-time constraints without retraining the underlying flow policy.
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.08577)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577)
-
-MR0 combines three-stage VLA training, Rollback correction data and event-driven persistent memory for task resumption.
 
 ## Q-OIL: Optimistic Exploration in Learning from Human Interventions
 

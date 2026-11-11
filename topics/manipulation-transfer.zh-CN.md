@@ -2,7 +2,196 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-473 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+498 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## OnlyAct: Extracting Action Representations from Foundation Models for World Models
+
+- [arXiv 2611.14420](https://arxiv.org/abs/2611.14420) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14420)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14420)
+
+OnlyAct 对 V-JEPA 2 帧对表征进行对比适配，以光流引导的场景替换正样本和同视频负样本保留运动、减少场景信息，为视频世界模型提供潜在动作接口。
+
+## From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models
+
+- [arXiv 2611.14365](https://arxiv.org/abs/2611.14365) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14365)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14365)
+
+MetaWAM 将本体状态、动作和价值编码到单个机器人 meta-frame 的互斥 DCT 频带，无需额外学习式信号编码器或修改视频模型架构。
+
+## From Prediction to Action: Learning Physical Context for Deformable Linear Object Manipulation
+
+- [arXiv 2611.14274](https://arxiv.org/abs/2611.14274) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14274)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14274)
+
+Geometry-Pointer-Flow 将抓取位置选择与条件动作生成分离，在平面线状柔性物操作中对比显式物性参数和交互历史，检验预测价值与控制价值是否一致。
+
+## Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control
+
+- [arXiv 2611.14257](https://arxiv.org/abs/2611.14257) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14257)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14257)
+
+Elastic-WAM 学习时空细化需求场，联合决定视频细化何时停止、去噪步幅及哪些未来 token 要刷新，并复用缓存。
+
+## Koopman Model-Based Reinforcement Learning
+
+- [arXiv 2611.14186](https://arxiv.org/abs/2611.14186) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14186)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14186)
+
+K-MBRL 结合 Koopman 线性表示、单步动力学传播与 critic，以降低策略梯度计算和长滚动误差，部署时无需在线优化。
+
+## DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning
+
+- [arXiv 2611.14092](https://arxiv.org/abs/2611.14092) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14092)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14092)
+
+DexSeed 以保留交互关系的重定向和手臂轨迹增强扩展人手物体序列，再用 RL 手指控制产生可执行仿真示教，微调灵巧 VLA。
+
+## LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning
+
+- [arXiv 2611.14048](https://arxiv.org/abs/2611.14048) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14048)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14048)
+
+LaST0.5 在世界专家与动作专家间加入交互监督的潜在专家，并以预测任务进度调整执行、触发未来重采样。
+
+## Game-Enhanced Embodied Learning with Event and Foresight Pretraining
+
+- [arXiv 2611.13819](https://arxiv.org/abs/2611.13819) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13819)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13819)
+
+在 InternVLA-A1.5 机器人微调前增加游戏事件预测与冻结视频模型的前瞻监督，不将游戏指令直接转换为机器人动作。
+
+## WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge
+
+- [arXiv 2611.13818](https://arxiv.org/abs/2611.13818) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13818)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13818)
+
+BEHAVIOR 挑战技术报告在 Cosmos 3 上加入视觉历史、进度条件、任务/技能 LoRA 路由及执行启发式，不使用 agentic harness 或递归自改进。
+
+## Camera equalisation of an 11.5x drop in environmental illuminance: four imitation-learning policies on an SO-101 arm
+
+- [arXiv 2611.13810](https://arxiv.org/abs/2611.13810) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13810)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13810)
+
+真机光照审计指出：相机自动曝光时，房间照度 lux 不能单独描述视觉运动策略承受的图像分布变化。
+
+## CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation
+
+- [arXiv 2611.13732](https://arxiv.org/abs/2611.13732) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13732)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13732)
+
+CIALLO 对齐动作、视觉变化与落地语言的意图，以本体条件参数解码动作；先为新机器人校准编码器，再训练 VLM 策略选择意图。
+
+## Joint-State Inference for Autonomous Excavators Using Cab-View Vision-Control Fusion
+
+- [arXiv 2611.13690](https://arxiv.org/abs/2611.13690) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13690)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13690)
+
+从驾驶舱图像、操纵杆历史及推断状态缓存估计挖掘机关节状态，再接入 ACT 策略闭环挖掘。
+
+## Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos
+
+- [arXiv 2611.13685](https://arxiv.org/abs/2611.13685) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13685)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13685)
+
+SPAR 以 MoT 联合动作预测和未来视觉表征预测，将无动作标签的第一视角视频用作辅助监督，考察目标表征、视频筛选与规模。
+
+## From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence
+
+- [arXiv 2611.13610](https://arxiv.org/abs/2611.13610) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13610)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13610)
+
+综述将第一视角人类视频到机器人学习分为本体迁移、显式动作/任务监督、表征预训练、潜在动作/动力学建模四条路线。
+
+## Few-Shot Residual Adaptation of Pretrained Latent World Models
+
+- [arXiv 2611.13592](https://arxiv.org/abs/2611.13592) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13592)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13592)
+
+冻结预训练 DUET-DINO 世界模型，从潜在预测误差学习内部与输出两处残差适配器，以少量交互适应推物动力学变化。
+
+## ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control
+
+- [arXiv 2611.13482](https://arxiv.org/abs/2611.13482) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13482)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13482)
+
+ExRL 用离策略RL学习每个预测动作块执行多长，将适配化为依赖状态和候选动作块的标量/离散决策；可选的仿真在线BC将成功拼接行为蒸馏回基础策略。
+
+## Curie's Jarvis: Autonomous Robotic Chemistry Experiments from Printed Protocols
+
+- [arXiv 2611.13251](https://arxiv.org/abs/2611.13251) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13251)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13251)
+
+Curie’s Jarvis 将拍摄的纸质实验协议转为机器人技能执行，通过四视角标签投票区分相似容器，并在每步动作前重新定位。
+
+## Latent Barrier Steering: Hierarchical Safety for Generative Planning
+
+- [arXiv 2611.13227](https://arxiv.org/abs/2611.13227) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13227)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13227)
+
+Latent Barrier Steering 先调整流匹配规划器的行为潜变量以增加安全裕量，再用轨迹空间控制障碍函数 QP 修复残余违规。
+
+## Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks
+
+- [arXiv 2611.13039](https://arxiv.org/abs/2611.13039) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13039)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13039)
+
+Robo-MLT 将协议生成的技能计划、显式技能指针、学习式多帧完成/恢复监控与技能条件 VLA 结合为异步实验室控制器。
+
+## CAFE: Closed-Loop Autonomous Task Formulation and Execution without Instance-Specific Instructions
+
+- [arXiv 2611.12983](https://arxiv.org/abs/2611.12983) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.12983)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.12983)
+
+CAFE 以对象、功能区域和执行状态的共享记忆触发任务发现，通过补全、审核及执行反馈持续调整后续目标。
+
+## Embodied Science Agents: Making Embodied Experimental Design Learnable
+
+- [arXiv 2611.12958](https://arxiv.org/abs/2611.12958) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.12958)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.12958)
+
+ESA 将基于记忆的数字代理、贝叶斯实验设计与 ACT 视觉运动策略相结合，通过统一接口协调 API、GUI 和物理仪器，展示实验室具身闭环。
+
+## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
+
+- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.09794)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.09794)
+
+修订任务条件可执行空间信念评估的跨域评估器和观测预算。
+
+## Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration
+
+- [arXiv 2607.00033](https://arxiv.org/abs/2607.00033) · v3 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2607.00033)
+- 收录历史: [2026-11-11 (v3, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2607.00033)
+
+澄清CHORD接触力旋量模仿在跨本体灵巧操作中的评估与基线适配。
+
+## HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation
+
+- [arXiv 2606.31682](https://arxiv.org/abs/2606.31682) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2606.31682)
+- 收录历史: [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2606.31682)
+
+为HABIT人类在场机器人示教补充可复现性与泛化检验，包括事件级行为指标及在人脸匿名化发布数据上的复训。
+
+## Safe Approximate Nonlinear Model Predictive Control Without Expert Demonstrations
+
+- [arXiv 2603.24503](https://arxiv.org/abs/2603.24503) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2603.24503)
+- 收录历史: [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2603.24503)
+
+扩展安全无标签序列近似MPC，加入与接受条件对齐的训练及次优可行初始计划测试。
+
+## Self-supervised Physics-Informed Manipulation of Deformable Linear Objects with Non-negligible Dynamics
+
+- [arXiv 2602.03623](https://arxiv.org/abs/2602.03623) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2602.03623)
+- 收录历史: [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2602.03623)
+
+澄清SPiD可微物理自监督绳索控制及离线自校正的模型、感知与泛化边界。
+
+## Learning Beyond Rigid Manipulation with Hybrid Soft-Rigid Robots
+
+- [arXiv 2410.07787](https://arxiv.org/abs/2410.07787) · v4 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2410.07787)
+- 收录历史: [2026-11-11 (v4, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2410.07787)
+
+重新组织单示教软硬混合操作研究，并加入与刚性及软性替代方案的感知噪声对照。
 
 ## World In-Context Learning for Agentic Robot Manipulation
 
@@ -424,13 +613,6 @@ AMP1 让通用模型编写并执行机器人控制代码，并可加入跨回合
 
 将多抓取 PPO critic 蒸馏为效用网络，按后续重排目标选择抓取点。
 
-## Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation
-
-- [arXiv 2611.09794](https://arxiv.org/abs/2611.09794) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794)
-- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09794)
-
-评测智能体能否取得当前操作指令所需视角，而不只是描述场景。
-
 ## SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning
 
 - [arXiv 2611.09684](https://arxiv.org/abs/2611.09684) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09684)
@@ -605,13 +787,6 @@ A2-MEAS 结合纠错代码、执行历史、MetaBrain 引导，以及包含潜�
 - 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08654)
 
 通过采样、投影、重新加噪，在不重训流策略的情况下施加部署时约束。
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
-- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577)
-
-MR0 结合三阶段 VLA 训练、Rollback 人工纠错数据和事件驱动持久记忆，以支持任务恢复。
 
 ## Q-OIL: Optimistic Exploration in Learning from Human Interventions
 

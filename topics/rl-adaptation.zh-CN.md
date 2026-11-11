@@ -2,7 +2,84 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-262 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+273 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Koopman Model-Based Reinforcement Learning
+
+- [arXiv 2611.14186](https://arxiv.org/abs/2611.14186) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14186)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14186)
+
+K-MBRL 结合 Koopman 线性表示、单步动力学传播与 critic，以降低策略梯度计算和长滚动误差，部署时无需在线优化。
+
+## Model-Free Runtime Measurement of Task-Relevant Information
+
+- [arXiv 2611.14111](https://arxiv.org/abs/2611.14111) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.14111)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.14111)
+
+将观测映射为预先声明的任务需求，以固定因果监测器区分信息进展与无效重复，为机器人 Agent 的停滞检测提供接口。
+
+## Integrating Action Prefix Prediction and Alignment Across Modalities for Multimodal Reinforcement Learning
+
+- [arXiv 2611.13782](https://arxiv.org/abs/2611.13782) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13782)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13782)
+
+IPR 通过直接以动作前缀预测未来潜变量、并在真实观测锚点进行跨模态对比对齐来训练 SAC 编码器，避免递归预测锚点。
+
+## Few-Shot Residual Adaptation of Pretrained Latent World Models
+
+- [arXiv 2611.13592](https://arxiv.org/abs/2611.13592) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13592)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13592)
+
+冻结预训练 DUET-DINO 世界模型，从潜在预测误差学习内部与输出两处残差适配器，以少量交互适应推物动力学变化。
+
+## ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control
+
+- [arXiv 2611.13482](https://arxiv.org/abs/2611.13482) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13482)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13482)
+
+ExRL 用离策略RL学习每个预测动作块执行多长，将适配化为依赖状态和候选动作块的标量/离散决策；可选的仿真在线BC将成功拼接行为蒸馏回基础策略。
+
+## Latent Barrier Steering: Hierarchical Safety for Generative Planning
+
+- [arXiv 2611.13227](https://arxiv.org/abs/2611.13227) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13227)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13227)
+
+Latent Barrier Steering 先调整流匹配规划器的行为潜变量以增加安全裕量，再用轨迹空间控制障碍函数 QP 修复残余违规。
+
+## Building World Models from Intrinsic Motivation
+
+- [arXiv 2611.13113](https://arxiv.org/abs/2611.13113) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13113)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13113)
+
+在统一模型式 RL 框架内比较24种内在目标和3种表征学习策略，考察无外部奖励经验如何形成可复用世界模型；回合内与终身新颖性提供循环潜状态之外的记忆。
+
+## FaST: Factored Synthesis of Transitions for Offline Reinforcement Learning
+
+- [arXiv 2611.13013](https://arxiv.org/abs/2611.13013) · v1 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.13013)
+- 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13013)
+
+FaST 将离线 RL 合成转移分解为状态、动作、动力学、奖励和终止模型；显式动作条件分布可在固定状态下执行 best-of-N 动作合成。
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577)
+
+澄清Meituan-Robotics-0的Rollback数据构造及不同后训练方法获得的监督。
+
+## Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration
+
+- [arXiv 2607.00033](https://arxiv.org/abs/2607.00033) · v3 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2607.00033)
+- 收录历史: [2026-11-11 (v3, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2607.00033)
+
+澄清CHORD接触力旋量模仿在跨本体灵巧操作中的评估与基线适配。
+
+## Safe Approximate Nonlinear Model Predictive Control Without Expert Demonstrations
+
+- [arXiv 2603.24503](https://arxiv.org/abs/2603.24503) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2603.24503)
+- 收录历史: [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2603.24503)
+
+扩展安全无标签序列近似MPC，加入与接受条件对齐的训练及次优可行初始计划测试。
 
 ## Library of Hands: Fix the Hands, Not the World Model
 
