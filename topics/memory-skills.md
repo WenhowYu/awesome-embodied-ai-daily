@@ -2,7 +2,175 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [All topics](README.md)
 
-352 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+375 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## HEIR: Harness Egocentric Intent for Human-Robot Interactions
+
+- [arXiv 2611.17238](https://arxiv.org/abs/2611.17238) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17238)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17238)
+
+Pairs egocentric video, gaze and speech with successive robot navigation–manipulation demonstrations.
+
+## Skill Adapter: Personalized Modification and Online Routing of General-Purpose Skills
+
+- [arXiv 2611.17007](https://arxiv.org/abs/2611.17007) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17007)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17007)
+
+Separates local skill adapters from reusable base skills and learns online skill applicability, routing, and modification with GRPO while keeping the executor frozen.
+
+## ACE-CaP-0: Real-World Code-as-Policies in the Era of Experience
+
+- [arXiv 2611.16872](https://arxiv.org/abs/2611.16872) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16872)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16872)
+
+A coding agent requests demonstrations and uses simulation selectively while revising real-robot programs, then freezes one program per task.
+
+## Reins: Frontier Multimodal Models Driving Real Robot Arms on Long-Horizon Tasks, Zero-Shot
+
+- [arXiv 2611.16632](https://arxiv.org/abs/2611.16632) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16632)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16632)
+
+A frontier model chains guarded arm actions with contact/grip feedback; a concurrent narrator tracks scene changes.
+
+## STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models
+
+- [arXiv 2611.16589](https://arxiv.org/abs/2611.16589) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16589)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16589)
+
+Geometry features are stored alongside visual tokens and selected for relevant, complementary history.
+
+## HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse
+
+- [arXiv 2611.16487](https://arxiv.org/abs/2611.16487) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16487)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16487)
+
+Structures declarative, procedural, and working memory, reusing compatible KV states and selectively recomputing changed memory chunks and their dependencies.
+
+## Remember What Changes the Odds: Critic-Gated Event Memory for Long-Horizon Manipulation
+
+- [arXiv 2611.16386](https://arxiv.org/abs/2611.16386) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16386)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16386)
+
+CGEM writes progress and failure memories when a critic predicts a large change in eventual success, dropping a failure record after its subtask is completed.
+
+## What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation
+
+- [arXiv 2611.16246](https://arxiv.org/abs/2611.16246) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16246)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16246)
+
+H2E distills successful LLM-orchestrated navigation sessions into a VLA, retaining the original task instruction, masking detours and relabeling stop states.
+
+## BWM-Forge: Agentic World Programming for Embodied Intelligence
+
+- [arXiv 2611.16221](https://arxiv.org/abs/2611.16221) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16221)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16221)
+
+BWM-Forge uses a coding-agent harness to build editable Blender scene programs and retrieves reusable rendering rules before video generation.
+
+## Visibility-Aware Task and Motion Planning with Task-Centric Perception
+
+- [arXiv 2611.16213](https://arxiv.org/abs/2611.16213) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16213)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16213)
+
+Extends deterministic task and motion planning with interleaved sensing and persistent object-based memory of mesh hypotheses and occupancy.
+
+## PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control
+
+- [arXiv 2611.16188](https://arxiv.org/abs/2611.16188) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16188)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16188)
+
+PERA adds an expert and routing score for each new whole-body task while freezing the base mixture-of-experts policy.
+
+## JustRUA: A Controlled Study of GPT-6 Robot-Use Agents
+
+- [arXiv 2611.16009](https://arxiv.org/abs/2611.16009) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16009)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16009)
+
+JustRUA controls four design axes for a GPT-6 Astra robot-use agent: harness, action interface, experience reuse, and geometry. The final stack retains episode history, short motion execution, grip feedback, RGB-predicted depth and code-based 3D coordinate solving.
+
+## Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction
+
+- [arXiv 2611.15651](https://arxiv.org/abs/2611.15651) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15651)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15651)
+
+Embodied-Corrector trains a failure-diagnosis and recovery brain on controlled perturbations, then distills its planning under correct diagnostic prefixes into planning from its own prefixes.
+
+## Marginal-Preserving Coupled Diffusion Composition for Long-Horizon Planning
+
+- [arXiv 2611.15585](https://arxiv.org/abs/2611.15585) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15585)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15585)
+
+MCDC correlates initial Gaussian noises across trajectory chunks while preserving each marginal, aligning overlap modes without changing the pretrained denoiser, reverse process, or stitching rule.
+
+## ActionCodec2: A Streaming Action Tokenizer
+
+- [arXiv 2611.15490](https://arxiv.org/abs/2611.15490) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15490)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15490)
+
+A streaming geometric action tokenizer bounds reconstruction error and permits within-chunk feedback; agents can retain token sequences as reusable macros.
+
+## BiPOP: Partial-Order Planning for Long-Horizon Bimanual Robotic Manipulation
+
+- [arXiv 2611.15317](https://arxiv.org/abs/2611.15317) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15317)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15317)
+
+LLM-generated PDDL and temporal partial-order planning coordinate reusable bimanual skills and concurrent execution.
+
+## SPIRE: Task-agnostic embodied continual learning through autonomous situation inference and causal motor-primitive reuse
+
+- [arXiv 2611.14840](https://arxiv.org/abs/2611.14840) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.14840)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.14840)
+
+Infers recurring situations from action outcomes and reuses protected motor actors with a new residual.
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.08577)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.08577) · [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2611.08577)
+
+MR0 combines multisource VLA training, intervention data and event-driven task memory.
+
+## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
+
+- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.41216)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41216) · [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2610.41216)
+
+TinyAstral first evolves a frozen teacher’s harness and then distills interaction traces into a 4B agent.
+
+## EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution
+
+- [arXiv 2610.10498](https://arxiv.org/abs/2610.10498) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.10498)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2610.10498)
+
+EmbodiedRSI links M1 experience, M2 skill/code hypotheses and M3 cognition to physical experiment selection.
+
+## BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
+
+- [arXiv 2610.07594](https://arxiv.org/abs/2610.07594) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.07594)
+- Coverage history: [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2610.07594)
+
+BiGym 2.0 compares learned policies and agent-written programs for humanoid household manipulation over frozen whole-body control.
+
+## On-Device Robotic Planning: Eliminating Inference Redundancy for Efficient Decision-Making
+
+- [arXiv 2605.31460](https://arxiv.org/abs/2605.31460) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2605.31460)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2605.31460)
+
+REIS reduces robot-agent overhead with structural-change checks, KV-steered semantic routing and full reasoning only when needed.
+
+## NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models
+
+- [arXiv 2603.09542](https://arxiv.org/abs/2603.09542) · v4 · [Latest entry](../daily/2026-11-13.md#arxiv-2603.09542)
+- Coverage history: [2026-11-13 (v4, revised)](../daily/2026-11-13.md#arxiv-2603.09542)
+
+NS-VLA combines symbolic plans, a monotone stage pointer and segment-conditioned VLA control for long-horizon manipulation.
+
+## Joint Learning of Hierarchical Neural Options and Abstract World Model
+
+- [arXiv 2602.02799](https://arxiv.org/abs/2602.02799) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2602.02799)
+- Coverage history: [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2602.02799)
+
+AgentOWL jointly learns hierarchical options and an abstract world model for compositional skill acquisition.
 
 ## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
 
@@ -1179,13 +1347,6 @@ Combines validated skill packages, tool selection, human teaching and execution-
 - Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41320)
 
 LEXP adapts a frozen reasoner's context using planning and retained condition-specific lessons; this is not weight-updating RL.
-
-## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
-
-- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41216)
-- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41216)
-
-Statistically gated harness evolution improves a frozen teacher; reasoning/recovery trajectories distill gains into a 4B student.
 
 ## Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization
 

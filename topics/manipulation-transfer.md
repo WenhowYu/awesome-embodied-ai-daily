@@ -2,7 +2,259 @@
 
 [English](manipulation-transfer.md) | [简体中文](manipulation-transfer.zh-CN.md) | [All topics](README.md)
 
-498 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+533 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## HEIR: Harness Egocentric Intent for Human-Robot Interactions
+
+- [arXiv 2611.17238](https://arxiv.org/abs/2611.17238) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17238)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17238)
+
+Pairs egocentric video, gaze and speech with successive robot navigation–manipulation demonstrations.
+
+## Inner Product Regularization for Imitation Learning
+
+- [arXiv 2611.17159](https://arxiv.org/abs/2611.17159) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17159)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17159)
+
+InneR regularizes nearby policy Jacobians to share insensitive directions rather than penalizing every perturbation.
+
+## FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation
+
+- [arXiv 2611.17142](https://arxiv.org/abs/2611.17142) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17142)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17142)
+
+A proprioceptive force estimator with simulator-supervised correction supports compliant wrist control and residual whole-body stabilization.
+
+## SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models
+
+- [arXiv 2611.17110](https://arxiv.org/abs/2611.17110) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17110)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17110)
+
+Language-derived semantic neighborhoods align latent actions across unpaired human and robot videos, with robot action reconstruction grounding control.
+
+## Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors
+
+- [arXiv 2611.17060](https://arxiv.org/abs/2611.17060) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17060)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17060)
+
+Releases metric environments and human behavior recordings for real-to-sim conversion, motion retargeting, virtual teleoperation, and synthetic long-horizon trajectory generation.
+
+## ACE-CaP-0: Real-World Code-as-Policies in the Era of Experience
+
+- [arXiv 2611.16872](https://arxiv.org/abs/2611.16872) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16872)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16872)
+
+A coding agent requests demonstrations and uses simulation selectively while revising real-robot programs, then freezes one program per task.
+
+## EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming
+
+- [arXiv 2611.16728](https://arxiv.org/abs/2611.16728) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16728)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16728)
+
+Embodiment-specific tokenizers and action experts surround a shared trunk trained to predict latent future observations.
+
+## Rethinking Actions: Continuity-Aware Priors for World-Model Planning
+
+- [arXiv 2611.16645](https://arxiv.org/abs/2611.16645) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16645)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16645)
+
+A locality-gated GP learns demonstration-consistent continuations and proposes trajectories for a frozen visual world model.
+
+## Reins: Frontier Multimodal Models Driving Real Robot Arms on Long-Horizon Tasks, Zero-Shot
+
+- [arXiv 2611.16632](https://arxiv.org/abs/2611.16632) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16632)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16632)
+
+A frontier model chains guarded arm actions with contact/grip feedback; a concurrent narrator tracks scene changes.
+
+## HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse
+
+- [arXiv 2611.16487](https://arxiv.org/abs/2611.16487) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16487)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16487)
+
+Structures declarative, procedural, and working memory, reusing compatible KV states and selectively recomputing changed memory chunks and their dependencies.
+
+## HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation
+
+- [arXiv 2611.16439](https://arxiv.org/abs/2611.16439) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16439)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16439)
+
+HALO uses kinesthetic end-effector guidance and a low-resistance platform, then aligns base motion and removes demonstrator hands from training images.
+
+## VOKE: Visual Object Kinematics Estimator for Dexterous In-Hand Manipulation
+
+- [arXiv 2611.16423](https://arxiv.org/abs/2611.16423) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16423)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16423)
+
+VOKE augments visual pose estimators with motion and acceleration estimates, then feeds those estimates to a dexterous RL policy.
+
+## I See What You Want: Decoding Hierarchical Operator Intent from Visual Teleoperation History
+
+- [arXiv 2611.16419](https://arxiv.org/abs/2611.16419) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16419)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16419)
+
+VI AMO/VIM infer action and mission from a short teleoperation history so that a VLA can take over during execution.
+
+## Remember What Changes the Odds: Critic-Gated Event Memory for Long-Horizon Manipulation
+
+- [arXiv 2611.16386](https://arxiv.org/abs/2611.16386) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16386)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16386)
+
+CGEM writes progress and failure memories when a critic predicts a large change in eventual success, dropping a failure record after its subtask is completed.
+
+## ManiLadder: Benchmarking Robot Manipulation Through a Categorized and Multi-Difficulty Level Task Ladder
+
+- [arXiv 2611.16374](https://arxiv.org/abs/2611.16374) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16374)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16374)
+
+ManiLadder calibrates a 112-task manipulation ladder across four levels with matched data budgets and a common flow-matching policy.
+
+## Alloy: A Multi-Material Physics Engine for Robot Learning
+
+- [arXiv 2611.16312](https://arxiv.org/abs/2611.16312) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16312)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16312)
+
+Alloy couples rigid, cloth, cable, liquid, granular and soft-body simulation in parallel and exposes training tools to coding agents.
+
+## Visibility-Aware Task and Motion Planning with Task-Centric Perception
+
+- [arXiv 2611.16213](https://arxiv.org/abs/2611.16213) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16213)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16213)
+
+Extends deterministic task and motion planning with interleaved sensing and persistent object-based memory of mesh hypotheses and occupancy.
+
+## Imitating the Imperfect: Offline-to-Online Robust Imitation Learning from Heterogeneous Demonstrators
+
+- [arXiv 2611.16020](https://arxiv.org/abs/2611.16020) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16020)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16020)
+
+LEOS-IL infers demonstrator expertise and state-action optimality from mixed offline data, then updates its scoring model during online policy improvement.
+
+## JustRUA: A Controlled Study of GPT-6 Robot-Use Agents
+
+- [arXiv 2611.16009](https://arxiv.org/abs/2611.16009) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16009)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16009)
+
+JustRUA controls four design axes for a GPT-6 Astra robot-use agent: harness, action interface, experience reuse, and geometry. The final stack retains episode history, short motion execution, grip feedback, RGB-predicted depth and code-based 3D coordinate solving.
+
+## DexRemo: A Force-Sensing Hand Platform and Task Suite for Contact-Rich Removal Manipulation
+
+- [arXiv 2611.15981](https://arxiv.org/abs/2611.15981) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15981)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15981)
+
+DexRemo combines a three-finger force-sensing hand with a real-robot removal suite and ACT-based imitation policies.
+
+## Video-Action Models for Data-Efficient Industrial Manipulation
+
+- [arXiv 2611.15974](https://arxiv.org/abs/2611.15974) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15974)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15974)
+
+FLUX-mimic jointly trains video prediction and action generation using a backbone pretrained on web and industrial videos.
+
+## MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes
+
+- [arXiv 2611.15937](https://arxiv.org/abs/2611.15937) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15937)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15937)
+
+MOSAIC adds role-specific masks, estimated 3D geometry and obstacle attention to the action expert of a pretrained VLA.
+
+## RUMI: A Robotiq-Matched Universal Manipulation Interface for Robot Learning with Augmented Reality and Haptic Feedback
+
+- [arXiv 2611.15802](https://arxiv.org/abs/2611.15802) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15802)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15802)
+
+RUMI matches a Robotiq 2F-85 gripper, combining interchangeable sensing, AR feasibility feedback and haptic teleoperation.
+
+## GraSLA: A Lightweight Spatial-Language-Action Model with Grasp Hypotheses as Geometric Priors
+
+- [arXiv 2611.15659](https://arxiv.org/abs/2611.15659) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15659)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15659)
+
+GraSLA uses spatial/language encoders and bidirectional fusion with candidate grasps to generate continuous control.
+
+## Embedded Sim-to-Real Visual Servoing: Learned Reaching and Force-Guided Placement
+
+- [arXiv 2611.15658](https://arxiv.org/abs/2611.15658) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15658)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15658)
+
+Runs segmentation and learned reaching on embedded hardware, with explicit force-guided contact correction.
+
+## Marginal-Preserving Coupled Diffusion Composition for Long-Horizon Planning
+
+- [arXiv 2611.15585](https://arxiv.org/abs/2611.15585) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15585)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15585)
+
+MCDC correlates initial Gaussian noises across trajectory chunks while preserving each marginal, aligning overlap modes without changing the pretrained denoiser, reverse process, or stitching rule.
+
+## Interactive Perception of Granular Materials via Robotic Scooping and Force-Torque Sensing
+
+- [arXiv 2611.15339](https://arxiv.org/abs/2611.15339) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15339)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15339)
+
+Latent Filter++ estimates granular-material properties from force-torque histories during scooping and adapts property mappings with few samples.
+
+## PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach
+
+- [arXiv 2611.15117](https://arxiv.org/abs/2611.15117) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15117)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15117)
+
+Uses morphology-conditioned base coordination, arm IK and a frozen locomotion backend to execute end-effector trajectories across arm families.
+
+## CrowdMAPS: Crowdsourcing Multiple Actions per State for Real-World Imitation Learning
+
+- [arXiv 2611.15078](https://arxiv.org/abs/2611.15078) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15078)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15078)
+
+CrowdMAPS collects multiple valid remote goal-pose annotations for each visited robot state.
+
+## From a Single RGB Image to Robot Execution: Metric Scene Alignment and Contact-Guided Retargeting
+
+- [arXiv 2611.14981](https://arxiv.org/abs/2611.14981) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.14981)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.14981)
+
+Combines metric image-to-scene alignment with contact-guided retargeting for humanoid interaction references.
+
+## Robust Task-Aware State Estimation from Pre-trained Perception
+
+- [arXiv 2611.14781](https://arxiv.org/abs/2611.14781) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.14781)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.14781)
+
+PRaVaSS combines calibrated perception-feature probabilities with task constraints to enumerate compact plausible belief states, enabling robust planning instead of relying on a single point estimate.
+
+## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
+
+- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.41216)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41216) · [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2610.41216)
+
+TinyAstral first evolves a frozen teacher’s harness and then distills interaction traces into a 4B agent.
+
+## BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
+
+- [arXiv 2610.07594](https://arxiv.org/abs/2610.07594) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.07594)
+- Coverage history: [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2610.07594)
+
+BiGym 2.0 compares learned policies and agent-written programs for humanoid household manipulation over frozen whole-body control.
+
+## Diffusion Guidance Is a Controllable Policy Improvement Operator
+
+- [arXiv 2505.23458](https://arxiv.org/abs/2505.23458) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2505.23458)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2505.23458)
+
+CFGRL uses classifier-free guidance for offline policy extraction, adjusting improvement versus data adherence at test time.
+
+## OPA-Pack: Object-Property-Aware Robotic Bin Packing
+
+- [arXiv 2505.13339](https://arxiv.org/abs/2505.13339) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2505.13339)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2505.13339)
+
+OPA-Pack combines semantic properties and deep Q-learning to balance packing compactness, fragile-object load and incompatible-object separation.
+
+## A Tactile-Informed Bi-Level Framework with Complementary Motion-Contact Planning and Tracking for Robust Model-Based In-Hand Manipulation
+
+- [arXiv 2505.04978](https://arxiv.org/abs/2505.04978) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2505.04978)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2505.04978)
+
+Combines tactile low-level tracking with contact-implicit MPC for multifinger in-hand manipulation.
 
 ## OnlyAct: Extracting Action Representations from Foundation Models for World Models
 
@@ -1984,13 +2236,6 @@ Learns object-centric dexterous skills from RGB-D demonstrations using correspon
 - Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41320)
 
 LEXP adapts a frozen reasoner's context using planning and retained condition-specific lessons; this is not weight-updating RL.
-
-## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
-
-- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v1 · [Latest entry](../daily/2026-11-02.md#arxiv-2610.41216)
-- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41216)
-
-Statistically gated harness evolution improves a frozen teacher; reasoning/recovery trajectories distill gains into a 4B student.
 
 ## Contact Imitation Interface: Transferring Dexterous Skills by Showing How Contact Unfolds
 

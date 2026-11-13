@@ -2,7 +2,203 @@
 
 [English](evaluation.md) | [简体中文](evaluation.zh-CN.md) | [All topics](README.md)
 
-516 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+542 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors
+
+- [arXiv 2611.17060](https://arxiv.org/abs/2611.17060) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17060)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17060)
+
+Releases metric environments and human behavior recordings for real-to-sim conversion, motion retargeting, virtual teleoperation, and synthetic long-horizon trajectory generation.
+
+## A Recipe for Physical Action Model Training
+
+- [arXiv 2611.16450](https://arxiv.org/abs/2611.16450) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16450)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16450)
+
+Connects model capacity, data composition, representation, optimization, and deployment through conditional-distribution risk accounting and information-design criteria.
+
+## PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning
+
+- [arXiv 2611.16424](https://arxiv.org/abs/2611.16424) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16424)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16424)
+
+Evaluates physical caption accuracy and coverage along seven dimensions using 1,500 human-verified videos: 500 each for third-person, egocentric manipulation, and handheld-gripper demonstrations.
+
+## Remember What Changes the Odds: Critic-Gated Event Memory for Long-Horizon Manipulation
+
+- [arXiv 2611.16386](https://arxiv.org/abs/2611.16386) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16386)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16386)
+
+CGEM writes progress and failure memories when a critic predicts a large change in eventual success, dropping a failure record after its subtask is completed.
+
+## ManiLadder: Benchmarking Robot Manipulation Through a Categorized and Multi-Difficulty Level Task Ladder
+
+- [arXiv 2611.16374](https://arxiv.org/abs/2611.16374) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16374)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16374)
+
+ManiLadder calibrates a 112-task manipulation ladder across four levels with matched data budgets and a common flow-matching policy.
+
+## JustRUA: A Controlled Study of GPT-6 Robot-Use Agents
+
+- [arXiv 2611.16009](https://arxiv.org/abs/2611.16009) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16009)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16009)
+
+JustRUA controls four design axes for a GPT-6 Astra robot-use agent: harness, action interface, experience reuse, and geometry. The final stack retains episode history, short motion execution, grip feedback, RGB-predicted depth and code-based 3D coordinate solving.
+
+## DexRemo: A Force-Sensing Hand Platform and Task Suite for Contact-Rich Removal Manipulation
+
+- [arXiv 2611.15981](https://arxiv.org/abs/2611.15981) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15981)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15981)
+
+DexRemo combines a three-finger force-sensing hand with a real-robot removal suite and ACT-based imitation policies.
+
+## What World Model Does Active Object Search Need? A Study under Imperfect Detection
+
+- [arXiv 2611.15689](https://arxiv.org/abs/2611.15689) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15689)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15689)
+
+BAMOS separates target belief, occupancy and detector error in a Bayesian model of active object search.
+
+## Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction
+
+- [arXiv 2611.15651](https://arxiv.org/abs/2611.15651) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15651)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15651)
+
+Embodied-Corrector trains a failure-diagnosis and recovery brain on controlled perturbations, then distills its planning under correct diagnostic prefixes into planning from its own prefixes.
+
+## What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation
+
+- [arXiv 2611.15491](https://arxiv.org/abs/2611.15491) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15491)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15491)
+
+Studies pi0.5 dynamic manipulation by varying action horizons, asynchronous execution, continuity mechanisms and targeted adaptation.
+
+## Low-Cost Mobile Bimanual Manipulation for Long-Horizon Toilet Cleaning
+
+- [arXiv 2611.15381](https://arxiv.org/abs/2611.15381) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15381)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15381)
+
+A low-cost mobile bimanual platform compares VLA policies, task-progress signals and short observation history on toilet cleaning.
+
+## Prediction or Persistence? What Future-Prediction Scores Miss About World Models
+
+- [arXiv 2611.15082](https://arxiv.org/abs/2611.15082) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15082)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15082)
+
+Pairs each future-retrieval score with the same encoder and a predictor-free persistence control.
+
+## Genie Sim Benchmark: Real-to-Sim Fidelity and Evaluation
+
+- [arXiv 2611.15020](https://arxiv.org/abs/2611.15020) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15020)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15020)
+
+Pairs task outcomes with system-identification and physical-response checks to assess real-to-simulation fidelity.
+
+## Robust Task-Aware State Estimation from Pre-trained Perception
+
+- [arXiv 2611.14781](https://arxiv.org/abs/2611.14781) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.14781)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.14781)
+
+PRaVaSS combines calibrated perception-feature probabilities with task constraints to enumerate compact plausible belief states, enabling robust planning instead of relying on a single point estimate.
+
+## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
+
+- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.09670)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09670) · [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2611.09670)
+
+Studies how sampling planners exploit learned preference rewards, separating true return from label accuracy.
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.08577)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.08577) · [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2611.08577)
+
+MR0 combines multisource VLA training, intervention data and event-driven task memory.
+
+## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
+
+- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.41216)
+- Coverage history: [2026-11-02 (v1, new)](../daily/2026-11-02.md#arxiv-2610.41216) · [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2610.41216)
+
+TinyAstral first evolves a frozen teacher’s harness and then distills interaction traces into a 4B agent.
+
+## HAVANA: A Hierarchical Video-Action Model for Vision-Language Navigation
+
+- [arXiv 2610.24122](https://arxiv.org/abs/2610.24122) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.24122)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2610.24122)
+
+HAVANA separates slow latent video planning from fast trajectory response, studying world-model navigation under delayed updates.
+
+## EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution
+
+- [arXiv 2610.10498](https://arxiv.org/abs/2610.10498) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.10498)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2610.10498)
+
+EmbodiedRSI links M1 experience, M2 skill/code hypotheses and M3 cognition to physical experiment selection.
+
+## BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
+
+- [arXiv 2610.07594](https://arxiv.org/abs/2610.07594) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.07594)
+- Coverage history: [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2610.07594)
+
+BiGym 2.0 compares learned policies and agent-written programs for humanoid household manipulation over frozen whole-body control.
+
+## WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models
+
+- [arXiv 2609.03681](https://arxiv.org/abs/2609.03681) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2609.03681)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2609.03681)
+
+WISE schedules world-model imagination for VLA post-training.
+
+## TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models
+
+- [arXiv 2608.07314](https://arxiv.org/abs/2608.07314) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2608.07314)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2608.07314)
+
+TEMPO freezes the vision-language backbone and updates semantic projections and the action expert at different rates.
+
+## On-Device Robotic Planning: Eliminating Inference Redundancy for Efficient Decision-Making
+
+- [arXiv 2605.31460](https://arxiv.org/abs/2605.31460) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2605.31460)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2605.31460)
+
+REIS reduces robot-agent overhead with structural-change checks, KV-steered semantic routing and full reasoning only when needed.
+
+## NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models
+
+- [arXiv 2603.09542](https://arxiv.org/abs/2603.09542) · v4 · [Latest entry](../daily/2026-11-13.md#arxiv-2603.09542)
+- Coverage history: [2026-11-13 (v4, revised)](../daily/2026-11-13.md#arxiv-2603.09542)
+
+NS-VLA combines symbolic plans, a monotone stage pointer and segment-conditioned VLA control for long-horizon manipulation.
+
+## AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models
+
+- [arXiv 2603.05868](https://arxiv.org/abs/2603.05868) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2603.05868)
+- Coverage history: [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2603.05868)
+
+AnyCamVLA studies camera-view adaptation without target-view demonstrations.
+
+## Diffusion Guidance Is a Controllable Policy Improvement Operator
+
+- [arXiv 2505.23458](https://arxiv.org/abs/2505.23458) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2505.23458)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2505.23458)
+
+CFGRL uses classifier-free guidance for offline policy extraction, adjusting improvement versus data adherence at test time.
+
+## OPA-Pack: Object-Property-Aware Robotic Bin Packing
+
+- [arXiv 2505.13339](https://arxiv.org/abs/2505.13339) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2505.13339)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2505.13339)
+
+OPA-Pack combines semantic properties and deep Q-learning to balance packing compactness, fragile-object load and incompatible-object separation.
+
+## A Tactile-Informed Bi-Level Framework with Complementary Motion-Contact Planning and Tracking for Robust Model-Based In-Hand Manipulation
+
+- [arXiv 2505.04978](https://arxiv.org/abs/2505.04978) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2505.04978)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2505.04978)
+
+Combines tactile low-level tracking with contact-implicit MPC for multifinger in-hand manipulation.
 
 ## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
 
@@ -108,13 +304,6 @@ Narrows claims in the VLA sample-efficiency study and removes the earlier valida
 - Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09794) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.09794)
 
 Revises the cross-domain evaluator and observation budget for task-conditioned actionable spatial-belief evaluation.
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.08577)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.08577)
-
-Clarifies Meituan-Robotics-0 Rollback data construction and the supervision available to different post-training methods.
 
 ## Evaluating Long-Horizon Robot Planning under Uncertainty
 
@@ -514,13 +703,6 @@ Wraps embodied tasks in software interfaces so a single computer-use agent can a
 - Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09816)
 
 BEV3SR converts RGB-D video with camera parameters into a metric BEV scene memory. It formalizes each question, computes geometric answers explicitly or retrieves object-consistent views for a VLM. Under a 16-frame budget with Qwen3-VL-8B, SQA3D exact match rises 51.6%→62.6%, and ScanQA exact match 27.8%→30.6%. It offers a potentially useful spatial reasoning layer for embodied systems.
-
-## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
-
-- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09670)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09670)
-
-Studies how stronger search can exploit preference-model errors despite high held-out label accuracy; proposes calibrated regularization.
 
 ## DexDICE: Reconciling Safety and Performance via Dual-Expert Offline Imitation Learning
 

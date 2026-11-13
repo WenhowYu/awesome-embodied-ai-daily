@@ -2,7 +2,119 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-270 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+286 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming
+
+- [arXiv 2611.16728](https://arxiv.org/abs/2611.16728) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16728)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16728)
+
+本体专用分词器与动作专家围绕共享主干，训练时预测未来观测潜变量。
+
+## Rethinking Actions: Continuity-Aware Priors for World-Model Planning
+
+- [arXiv 2611.16645](https://arxiv.org/abs/2611.16645) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16645)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16645)
+
+以局部门控高斯过程学习符合示教动作时序的延续，为冻结视觉世界模型提出候选轨迹。
+
+## BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU
+
+- [arXiv 2611.16422](https://arxiv.org/abs/2611.16422) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16422)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16422)
+
+BlinkMimic 通过可微世界模型训练人形跟踪策略，加入部署失败重置和 GPU 图捕获。
+
+## BWM-Forge: Agentic World Programming for Embodied Intelligence
+
+- [arXiv 2611.16221](https://arxiv.org/abs/2611.16221) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16221)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16221)
+
+BWM-Forge 以编码代理 Harness 构建可编辑 Blender 场景程序，并在生成视频前检索复用渲染规则。
+
+## Video-Action Models for Data-Efficient Industrial Manipulation
+
+- [arXiv 2611.15974](https://arxiv.org/abs/2611.15974) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15974)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15974)
+
+FLUX-mimic 使用经网页及工业视频预训练的骨干，联合学习视频预测与动作生成。
+
+## Latent Imagination for Parameterized Action Spaces
+
+- [arXiv 2611.15744](https://arxiv.org/abs/2611.15744) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15744)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15744)
+
+HyLI 在潜在世界模型想象中学习离散—连续混合动作，结合反事实模式评估与成功窗口回放，部署时使用前馈策略而非在线规划。
+
+## What World Model Does Active Object Search Need? A Study under Imperfect Detection
+
+- [arXiv 2611.15689](https://arxiv.org/abs/2611.15689) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15689)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15689)
+
+BAMOS 在主动找物的贝叶斯模型中分离目标信念、占据状态与检测误差。
+
+## Bind-WAM: Binding-Uncertainty-Guided Selective Future Imagination in World Action Models
+
+- [arXiv 2611.15368](https://arxiv.org/abs/2611.15368) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15368)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15368)
+
+根据离线绑定伪标签训练路由器，在语言物体绑定不确定时选择联合未来/动作预测。
+
+## AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention
+
+- [arXiv 2611.15215](https://arxiv.org/abs/2611.15215) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15215)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15215)
+
+快衰减和持久误差驱动状态改变冻结专家的混合权重，以适应动力学变化。
+
+## Prediction or Persistence? What Future-Prediction Scores Miss About World Models
+
+- [arXiv 2611.15082](https://arxiv.org/abs/2611.15082) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15082)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15082)
+
+为未来片段检索成绩配对同编码器、不调用预测器的持久性对照。
+
+## Does Your World Model Know Actions Have Consequences?
+
+- [arXiv 2611.15048](https://arxiv.org/abs/2611.15048) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15048)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15048)
+
+主张用动作敏感度审计世界模型，而非仅看重建或任务分数。
+
+## Fast Inference-Time Policy Refinement via Action-Affine World Models
+
+- [arXiv 2611.15011](https://arxiv.org/abs/2611.15011) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15011)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15011)
+
+离线动作仿射世界模型预测局部动作修正效应，使每步只需一次模型求值与凸QP。
+
+## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
+
+- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.09670)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09670) · [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2611.09670)
+
+研究偏好奖励模型被采样规划器过度优化后，真实回报与标签准确率脱节。
+
+## HAVANA: A Hierarchical Video-Action Model for Vision-Language Navigation
+
+- [arXiv 2610.24122](https://arxiv.org/abs/2610.24122) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2610.24122)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2610.24122)
+
+HAVANA将慢速视频潜在规划与快速轨迹响应解耦，研究世界模型在延迟条件下的导航控制。
+
+## WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models
+
+- [arXiv 2609.03681](https://arxiv.org/abs/2609.03681) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2609.03681)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2609.03681)
+
+WISE以世界模型想象调度VLA后训练。
+
+## Joint Learning of Hierarchical Neural Options and Abstract World Model
+
+- [arXiv 2602.02799](https://arxiv.org/abs/2602.02799) · v3 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2602.02799)
+- 收录历史: [2026-11-13 (v3, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2602.02799)
+
+AgentOWL联合学习层次选项与抽象世界模型，实现技能组合和累积。
 
 ## OnlyAct: Extracting Action Representations from Foundation Models for World Models
 

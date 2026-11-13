@@ -2,7 +2,126 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [All topics](README.md)
 
-284 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+300 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models
+
+- [arXiv 2611.17110](https://arxiv.org/abs/2611.17110) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17110)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17110)
+
+Language-derived semantic neighborhoods align latent actions across unpaired human and robot videos, with robot action reconstruction grounding control.
+
+## STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models
+
+- [arXiv 2611.16589](https://arxiv.org/abs/2611.16589) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16589)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16589)
+
+Geometry features are stored alongside visual tokens and selected for relevant, complementary history.
+
+## A Recipe for Physical Action Model Training
+
+- [arXiv 2611.16450](https://arxiv.org/abs/2611.16450) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16450)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16450)
+
+Connects model capacity, data composition, representation, optimization, and deployment through conditional-distribution risk accounting and information-design criteria.
+
+## PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning
+
+- [arXiv 2611.16424](https://arxiv.org/abs/2611.16424) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16424)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16424)
+
+Evaluates physical caption accuracy and coverage along seven dimensions using 1,500 human-verified videos: 500 each for third-person, egocentric manipulation, and handheld-gripper demonstrations.
+
+## I See What You Want: Decoding Hierarchical Operator Intent from Visual Teleoperation History
+
+- [arXiv 2611.16419](https://arxiv.org/abs/2611.16419) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16419)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16419)
+
+VI AMO/VIM infer action and mission from a short teleoperation history so that a VLA can take over during execution.
+
+## What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation
+
+- [arXiv 2611.16246](https://arxiv.org/abs/2611.16246) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16246)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16246)
+
+H2E distills successful LLM-orchestrated navigation sessions into a VLA, retaining the original task instruction, masking detours and relabeling stop states.
+
+## Video-Action Models for Data-Efficient Industrial Manipulation
+
+- [arXiv 2611.15974](https://arxiv.org/abs/2611.15974) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15974)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15974)
+
+FLUX-mimic jointly trains video prediction and action generation using a backbone pretrained on web and industrial videos.
+
+## MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes
+
+- [arXiv 2611.15937](https://arxiv.org/abs/2611.15937) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15937)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15937)
+
+MOSAIC adds role-specific masks, estimated 3D geometry and obstacle attention to the action expert of a pretrained VLA.
+
+## GraSLA: A Lightweight Spatial-Language-Action Model with Grasp Hypotheses as Geometric Priors
+
+- [arXiv 2611.15659](https://arxiv.org/abs/2611.15659) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15659)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15659)
+
+GraSLA uses spatial/language encoders and bidirectional fusion with candidate grasps to generate continuous control.
+
+## Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction
+
+- [arXiv 2611.15651](https://arxiv.org/abs/2611.15651) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15651)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15651)
+
+Embodied-Corrector trains a failure-diagnosis and recovery brain on controlled perturbations, then distills its planning under correct diagnostic prefixes into planning from its own prefixes.
+
+## Scaling VLA Serving Under Robotic Execution Constraints
+
+- [arXiv 2611.14969](https://arxiv.org/abs/2611.14969) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.14969)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.14969)
+
+XInfer schedules heterogeneous VLA computations around robot execution deadlines.
+
+## Learning Low-Latency Action Verification for Frozen Vision-Language-Action Models
+
+- [arXiv 2611.14834](https://arxiv.org/abs/2611.14834) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.14834)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.14834)
+
+Uses autonomous outcomes to train a task-specific verifier that ranks two action chunks from a frozen VLA.
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.08577)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.08577) · [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2611.08577)
+
+MR0 combines multisource VLA training, intervention data and event-driven task memory.
+
+## WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models
+
+- [arXiv 2609.03681](https://arxiv.org/abs/2609.03681) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2609.03681)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2609.03681)
+
+WISE schedules world-model imagination for VLA post-training.
+
+## TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models
+
+- [arXiv 2608.07314](https://arxiv.org/abs/2608.07314) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2608.07314)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2608.07314)
+
+TEMPO freezes the vision-language backbone and updates semantic projections and the action expert at different rates.
+
+## NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models
+
+- [arXiv 2603.09542](https://arxiv.org/abs/2603.09542) · v4 · [Latest entry](../daily/2026-11-13.md#arxiv-2603.09542)
+- Coverage history: [2026-11-13 (v4, revised)](../daily/2026-11-13.md#arxiv-2603.09542)
+
+NS-VLA combines symbolic plans, a monotone stage pointer and segment-conditioned VLA control for long-horizon manipulation.
+
+## AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models
+
+- [arXiv 2603.05868](https://arxiv.org/abs/2603.05868) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2603.05868)
+- Coverage history: [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2603.05868)
+
+AnyCamVLA studies camera-view adaptation without target-view demonstrations.
 
 ## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
 
@@ -115,13 +234,6 @@ APS-VLA trains a visual-token selector using action imitation and a training-onl
 - Coverage history: [2026-11-10 (v1, new)](../daily/2026-11-10.md#arxiv-2611.09964) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.09964)
 
 Narrows claims in the VLA sample-efficiency study and removes the earlier validation-loss proxy analysis.
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.08577)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.08577)
-
-Clarifies Meituan-Robotics-0 Rollback data construction and the supervision available to different post-training methods.
 
 ## XS-VLA: Teaching Tiny Vision-Language-Action Models with Spatial Supervision and Demonstration Conditioning
 

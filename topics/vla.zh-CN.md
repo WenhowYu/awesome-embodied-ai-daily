@@ -2,7 +2,126 @@
 
 [English](vla.md) | [简体中文](vla.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-284 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+300 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models
+
+- [arXiv 2611.17110](https://arxiv.org/abs/2611.17110) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.17110)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.17110)
+
+通过语言构造语义邻域，对齐非配对人类和机器人视频的动作潜变量，并用机器人动作重建锚定控制。
+
+## STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models
+
+- [arXiv 2611.16589](https://arxiv.org/abs/2611.16589) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16589)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16589)
+
+将几何特征与视觉标记共同存入记忆，检索相关且互补的历史。
+
+## A Recipe for Physical Action Model Training
+
+- [arXiv 2611.16450](https://arxiv.org/abs/2611.16450) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16450)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16450)
+
+通过条件分布风险分解与信息设计准则，联系动作模型容量、数据配比、表征、优化与部署决策。
+
+## PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning
+
+- [arXiv 2611.16424](https://arxiv.org/abs/2611.16424) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16424)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16424)
+
+用1500段人工核验视频，按第三人称、第一人称操作、手持夹爪演示各500段，评估七类物理信息的描述准确性与覆盖率。
+
+## I See What You Want: Decoding Hierarchical Operator Intent from Visual Teleoperation History
+
+- [arXiv 2611.16419](https://arxiv.org/abs/2611.16419) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16419)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16419)
+
+VI AMO/VIM 从短期遥操作历史推断动作和任务意图，使 VLA 可在任务中途接手。
+
+## What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation
+
+- [arXiv 2611.16246](https://arxiv.org/abs/2611.16246) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16246)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16246)
+
+H2E 将 LLM 调度成功的导航经历蒸馏进 VLA，保留原任务指令，屏蔽绕路动作损失并重标停止状态。
+
+## Video-Action Models for Data-Efficient Industrial Manipulation
+
+- [arXiv 2611.15974](https://arxiv.org/abs/2611.15974) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15974)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15974)
+
+FLUX-mimic 使用经网页及工业视频预训练的骨干，联合学习视频预测与动作生成。
+
+## MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes
+
+- [arXiv 2611.15937](https://arxiv.org/abs/2611.15937) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15937)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15937)
+
+MOSAIC 将角色掩码、估计的三维几何及障碍注意力引入预训练 VLA 动作专家。
+
+## GraSLA: A Lightweight Spatial-Language-Action Model with Grasp Hypotheses as Geometric Priors
+
+- [arXiv 2611.15659](https://arxiv.org/abs/2611.15659) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15659)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15659)
+
+GraSLA 将空间与语言表征通过双向融合与候选抓姿结合，生成连续控制动作。
+
+## Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction
+
+- [arXiv 2611.15651](https://arxiv.org/abs/2611.15651) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15651)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15651)
+
+Embodied-Corrector 以受控扰动训练故障诊断和恢复模块，再将正确诊断前缀下的规划能力蒸馏到自生成前缀。
+
+## Scaling VLA Serving Under Robotic Execution Constraints
+
+- [arXiv 2611.14969](https://arxiv.org/abs/2611.14969) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.14969)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.14969)
+
+XInfer围绕机器人执行时限调度异构VLA计算。
+
+## Learning Low-Latency Action Verification for Frozen Vision-Language-Action Models
+
+- [arXiv 2611.14834](https://arxiv.org/abs/2611.14834) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.14834)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.14834)
+
+以自主执行结果训练逐任务验证器，对冻结 VLA 的两个动作块候选排序。
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v3 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.08577)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577) · [2026-11-13 (v3, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2611.08577)
+
+MR0结合多源VLA训练、干预数据和事件驱动任务记忆。
+
+## WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models
+
+- [arXiv 2609.03681](https://arxiv.org/abs/2609.03681) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2609.03681)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2609.03681)
+
+WISE以世界模型想象调度VLA后训练。
+
+## TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models
+
+- [arXiv 2608.07314](https://arxiv.org/abs/2608.07314) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2608.07314)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2608.07314)
+
+TEMPO冻结视觉语言骨干，以不同频率更新语义投影与动作专家。
+
+## NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models
+
+- [arXiv 2603.09542](https://arxiv.org/abs/2603.09542) · v4 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2603.09542)
+- 收录历史: [2026-11-13 (v4, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2603.09542)
+
+NS-VLA以符号计划、单调阶段指针和分段VLA控制完成长程操作。
+
+## AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models
+
+- [arXiv 2603.05868](https://arxiv.org/abs/2603.05868) · v3 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2603.05868)
+- 收录历史: [2026-11-13 (v3, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2603.05868)
+
+AnyCamVLA研究无需目标视角示教的相机视角适配。
 
 ## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
 
@@ -115,13 +234,6 @@ APS-VLA 冻结 VLA，通过动作模仿与仅训练时使用的未来特征目�
 - 收录历史: [2026-11-10 (v1, new)](../daily/2026-11-10.zh-CN.md#arxiv-2611.09964) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.09964)
 
 收窄VLA样本效率研究的结论，并移除前版的验证损失代理分析。
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577)
-- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577)
-
-澄清Meituan-Robotics-0的Rollback数据构造及不同后训练方法获得的监督。
 
 ## XS-VLA: Teaching Tiny Vision-Language-Action Models with Spatial Supervision and Demonstration Conditioning
 

@@ -2,7 +2,175 @@
 
 [English](memory-skills.md) | [简体中文](memory-skills.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-352 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+375 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## HEIR: Harness Egocentric Intent for Human-Robot Interactions
+
+- [arXiv 2611.17238](https://arxiv.org/abs/2611.17238) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.17238)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.17238)
+
+将第一视角视频、注视与语言同连续机器人导航操作示教配对。
+
+## Skill Adapter: Personalized Modification and Online Routing of General-Purpose Skills
+
+- [arXiv 2611.17007](https://arxiv.org/abs/2611.17007) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.17007)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.17007)
+
+将局部技能适配器与可复用基础技能分离，使用 GRPO 学习在线适用性判断、路由和修改，执行器保持冻结；关注技能库扩展与任务适配。
+
+## ACE-CaP-0: Real-World Code-as-Policies in the Era of Experience
+
+- [arXiv 2611.16872](https://arxiv.org/abs/2611.16872) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16872)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16872)
+
+编码代理在修订真机程序时按需请求示教、选择性调用仿真，随后每个任务冻结一个程序。
+
+## Reins: Frontier Multimodal Models Driving Real Robot Arms on Long-Horizon Tasks, Zero-Shot
+
+- [arXiv 2611.16632](https://arxiv.org/abs/2611.16632) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16632)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16632)
+
+前沿模型串联带条件检查的机械臂动作并接收接触、抓持反馈；并行叙述器追踪场景变化。
+
+## STVLA: Spatial-aware and Temporal-memory forVision-Language-Action Models
+
+- [arXiv 2611.16589](https://arxiv.org/abs/2611.16589) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16589)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16589)
+
+将几何特征与视觉标记共同存入记忆，检索相关且互补的历史。
+
+## HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse
+
+- [arXiv 2611.16487](https://arxiv.org/abs/2611.16487) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16487)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16487)
+
+区分陈述性、程序性与工作记忆，复用兼容 KV 状态，仅重算发生变化的记忆块及其依赖；连接经验记忆更新与具身代理推理效率。
+
+## Remember What Changes the Odds: Critic-Gated Event Memory for Long-Horizon Manipulation
+
+- [arXiv 2611.16386](https://arxiv.org/abs/2611.16386) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16386)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16386)
+
+CGEM 在 critic 预测最终成功概率明显改变时写入进展或失败记忆，并在对应子任务完成后删除失败记录。
+
+## What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation
+
+- [arXiv 2611.16246](https://arxiv.org/abs/2611.16246) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16246)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16246)
+
+H2E 将 LLM 调度成功的导航经历蒸馏进 VLA，保留原任务指令，屏蔽绕路动作损失并重标停止状态。
+
+## BWM-Forge: Agentic World Programming for Embodied Intelligence
+
+- [arXiv 2611.16221](https://arxiv.org/abs/2611.16221) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16221)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16221)
+
+BWM-Forge 以编码代理 Harness 构建可编辑 Blender 场景程序，并在生成视频前检索复用渲染规则。
+
+## Visibility-Aware Task and Motion Planning with Task-Centric Perception
+
+- [arXiv 2611.16213](https://arxiv.org/abs/2611.16213) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16213)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16213)
+
+为确定性任务与运动规划加入交错感知，以及保存物体网格假设和占据状态的持久记忆。
+
+## PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control
+
+- [arXiv 2611.16188](https://arxiv.org/abs/2611.16188) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16188)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16188)
+
+PERA 冻结原混合专家策略，为每项新增全身控制任务训练专家及路由分数。
+
+## JustRUA: A Controlled Study of GPT-6 Robot-Use Agents
+
+- [arXiv 2611.16009](https://arxiv.org/abs/2611.16009) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16009)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16009)
+
+JustRUA 在同一 GPT-6 Astra 机器人代理框架内对照 Harness、动作接口、经验复用和几何信息。最终方案保留完整回合历史、短步执行、夹持读数、RGB 预测深度及代码解算三维坐标。
+
+## Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding and Correction
+
+- [arXiv 2611.15651](https://arxiv.org/abs/2611.15651) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15651)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15651)
+
+Embodied-Corrector 以受控扰动训练故障诊断和恢复模块，再将正确诊断前缀下的规划能力蒸馏到自生成前缀。
+
+## Marginal-Preserving Coupled Diffusion Composition for Long-Horizon Planning
+
+- [arXiv 2611.15585](https://arxiv.org/abs/2611.15585) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15585)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15585)
+
+MCDC 对轨迹块初始高斯噪声施加相关性并保留各自边缘分布，对齐重叠模式；无需改变预训练去噪器、逆过程或拼接规则。
+
+## ActionCodec2: A Streaming Action Tokenizer
+
+- [arXiv 2611.15490](https://arxiv.org/abs/2611.15490) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15490)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15490)
+
+流式几何动作分词约束重建误差并支持块内反馈，代理可将序列保存为可复用宏。
+
+## BiPOP: Partial-Order Planning for Long-Horizon Bimanual Robotic Manipulation
+
+- [arXiv 2611.15317](https://arxiv.org/abs/2611.15317) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15317)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15317)
+
+LLM生成PDDL并结合时间偏序规划，协调可复用双臂技能及并行执行。
+
+## SPIRE: Task-agnostic embodied continual learning through autonomous situation inference and causal motor-primitive reuse
+
+- [arXiv 2611.14840](https://arxiv.org/abs/2611.14840) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.14840)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.14840)
+
+从动作结果推断重复情境，结合受保护运动策略与新残差复用旧技能。
+
+## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+
+- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v3 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.08577)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577) · [2026-11-13 (v3, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2611.08577)
+
+MR0结合多源VLA训练、干预数据和事件驱动任务记忆。
+
+## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
+
+- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2610.41216)
+- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41216) · [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2610.41216)
+
+TinyAstral先演化冻结教师的Harness，再将交互轨迹蒸馏到4B代理。
+
+## EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution
+
+- [arXiv 2610.10498](https://arxiv.org/abs/2610.10498) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2610.10498)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2610.10498)
+
+EmbodiedRSI把M1经验、M2技能/代码假设与M3认知连接到物理试验选择。
+
+## BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
+
+- [arXiv 2610.07594](https://arxiv.org/abs/2610.07594) · v3 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2610.07594)
+- 收录历史: [2026-11-13 (v3, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2610.07594)
+
+BiGym 2.0在冻结全身控制器上比较学习策略和代理编写程序的人形家务操作。
+
+## On-Device Robotic Planning: Eliminating Inference Redundancy for Efficient Decision-Making
+
+- [arXiv 2605.31460](https://arxiv.org/abs/2605.31460) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2605.31460)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2605.31460)
+
+REIS用结构变化筛查、KV引导的语义路由和必要时完整推理降低机器人代理开销。
+
+## NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models
+
+- [arXiv 2603.09542](https://arxiv.org/abs/2603.09542) · v4 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2603.09542)
+- 收录历史: [2026-11-13 (v4, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2603.09542)
+
+NS-VLA以符号计划、单调阶段指针和分段VLA控制完成长程操作。
+
+## Joint Learning of Hierarchical Neural Options and Abstract World Model
+
+- [arXiv 2602.02799](https://arxiv.org/abs/2602.02799) · v3 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2602.02799)
+- 收录历史: [2026-11-13 (v3, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2602.02799)
+
+AgentOWL联合学习层次选项与抽象世界模型，实现技能组合和累积。
 
 ## Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
 
@@ -1179,13 +1347,6 @@ GeoReasoner结合地理空间假设、主动取证、探索记忆与对抗一致
 - 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41320)
 
 LEXP通过规划及带适用条件的交互经验调整冻结模型上下文，并非更新权重的强化学习。
-
-## TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
-
-- [arXiv 2610.41216](https://arxiv.org/abs/2610.41216) · v1 · [最新归档](../daily/2026-11-02.zh-CN.md#arxiv-2610.41216)
-- 收录历史: [2026-11-02 (v1, new)](../daily/2026-11-02.zh-CN.md#arxiv-2610.41216)
-
-用统计检验筛选执行框架修改，提升冻结教师，再通过推理与恢复轨迹蒸馏至4B学生。
 
 ## Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization
 

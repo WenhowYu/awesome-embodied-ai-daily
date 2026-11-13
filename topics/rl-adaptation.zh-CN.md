@@ -2,7 +2,154 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [所有主题](README.zh-CN.md)
 
-273 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+292 篇独立论文。以下为导航摘要；完整数值、实验限制与代码状态见每日归档。
+
+## Inner Product Regularization for Imitation Learning
+
+- [arXiv 2611.17159](https://arxiv.org/abs/2611.17159) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.17159)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.17159)
+
+InneR 使邻近状态的策略雅可比共享不敏感方向，而非惩罚所有扰动。
+
+## FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation
+
+- [arXiv 2611.17142](https://arxiv.org/abs/2611.17142) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.17142)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.17142)
+
+以仿真监督校正本体感觉力估计，支持柔顺腕部控制及残差全身稳定。
+
+## Skill Adapter: Personalized Modification and Online Routing of General-Purpose Skills
+
+- [arXiv 2611.17007](https://arxiv.org/abs/2611.17007) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.17007)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.17007)
+
+将局部技能适配器与可复用基础技能分离，使用 GRPO 学习在线适用性判断、路由和修改，执行器保持冻结；关注技能库扩展与任务适配。
+
+## VOKE: Visual Object Kinematics Estimator for Dexterous In-Hand Manipulation
+
+- [arXiv 2611.16423](https://arxiv.org/abs/2611.16423) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16423)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16423)
+
+VOKE 在视觉位姿估计上加入运动及加速度估计，并将其输入灵巧操作强化学习策略。
+
+## BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU
+
+- [arXiv 2611.16422](https://arxiv.org/abs/2611.16422) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16422)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16422)
+
+BlinkMimic 通过可微世界模型训练人形跟踪策略，加入部署失败重置和 GPU 图捕获。
+
+## Alloy: A Multi-Material Physics Engine for Robot Learning
+
+- [arXiv 2611.16312](https://arxiv.org/abs/2611.16312) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16312)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16312)
+
+Alloy 将刚体、布料、线缆、液体、颗粒及软体耦合仿真并行化，并为编码代理提供训练接口。
+
+## What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation
+
+- [arXiv 2611.16246](https://arxiv.org/abs/2611.16246) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16246)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16246)
+
+H2E 将 LLM 调度成功的导航经历蒸馏进 VLA，保留原任务指令，屏蔽绕路动作损失并重标停止状态。
+
+## PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control
+
+- [arXiv 2611.16188](https://arxiv.org/abs/2611.16188) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16188)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16188)
+
+PERA 冻结原混合专家策略，为每项新增全身控制任务训练专家及路由分数。
+
+## Imitating the Imperfect: Offline-to-Online Robust Imitation Learning from Heterogeneous Demonstrators
+
+- [arXiv 2611.16020](https://arxiv.org/abs/2611.16020) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.16020)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.16020)
+
+LEOS-IL 从混合离线示教估计示教者水平及状态–动作优度，并随在线策略优化更新评分模型。
+
+## Latent Imagination for Parameterized Action Spaces
+
+- [arXiv 2611.15744](https://arxiv.org/abs/2611.15744) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15744)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15744)
+
+HyLI 在潜在世界模型想象中学习离散—连续混合动作，结合反事实模式评估与成功窗口回放，部署时使用前馈策略而非在线规划。
+
+## Embedded Sim-to-Real Visual Servoing: Learned Reaching and Force-Guided Placement
+
+- [arXiv 2611.15658](https://arxiv.org/abs/2611.15658) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15658)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15658)
+
+在嵌入式硬件上运行分割与学习式接近，并以显式力反馈完成接触纠偏。
+
+## AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention
+
+- [arXiv 2611.15215](https://arxiv.org/abs/2611.15215) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15215)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15215)
+
+快衰减和持久误差驱动状态改变冻结专家的混合权重，以适应动力学变化。
+
+## Elastra: A Simulation Framework for Elastic Bodies
+
+- [arXiv 2611.15112](https://arxiv.org/abs/2611.15112) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.15112)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.15112)
+
+弹性表面仿真支持在冻结人形起身与跟踪控制器上训练残差RL。
+
+## ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking
+
+- [arXiv 2611.14985](https://arxiv.org/abs/2611.14985) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.14985)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.14985)
+
+仿真训练的接口适配器修正参考运动，在复用冻结跟踪器时实现顺应引导。
+
+## SPIRE: Task-agnostic embodied continual learning through autonomous situation inference and causal motor-primitive reuse
+
+- [arXiv 2611.14840](https://arxiv.org/abs/2611.14840) · v1 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.14840)
+- 收录历史: [2026-11-13 (v1, new)](../daily/2026-11-13.zh-CN.md#arxiv-2611.14840)
+
+从动作结果推断重复情境，结合受保护运动策略与新残差复用旧技能。
+
+## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
+
+- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2611.09670)
+- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09670) · [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2611.09670)
+
+研究偏好奖励模型被采样规划器过度优化后，真实回报与标签准确率脱节。
+
+## EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution
+
+- [arXiv 2610.10498](https://arxiv.org/abs/2610.10498) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2610.10498)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2610.10498)
+
+EmbodiedRSI把M1经验、M2技能/代码假设与M3认知连接到物理试验选择。
+
+## TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models
+
+- [arXiv 2608.07314](https://arxiv.org/abs/2608.07314) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2608.07314)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2608.07314)
+
+TEMPO冻结视觉语言骨干，以不同频率更新语义投影与动作专家。
+
+## Joint Learning of Hierarchical Neural Options and Abstract World Model
+
+- [arXiv 2602.02799](https://arxiv.org/abs/2602.02799) · v3 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2602.02799)
+- 收录历史: [2026-11-13 (v3, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2602.02799)
+
+AgentOWL联合学习层次选项与抽象世界模型，实现技能组合和累积。
+
+## Diffusion Guidance Is a Controllable Policy Improvement Operator
+
+- [arXiv 2505.23458](https://arxiv.org/abs/2505.23458) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2505.23458)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2505.23458)
+
+CFGRL把分类器自由引导用于离线策略提取，可在测试时调节改进与数据约束。
+
+## OPA-Pack: Object-Property-Aware Robotic Bin Packing
+
+- [arXiv 2505.13339](https://arxiv.org/abs/2505.13339) · v2 · [最新归档](../daily/2026-11-13.zh-CN.md#arxiv-2505.13339)
+- 收录历史: [2026-11-13 (v2, revised)](../daily/2026-11-13.zh-CN.md#arxiv-2505.13339)
+
+OPA-Pack用语义属性与深度Q学习共同优化包装紧凑度、易碎品负载和不相容物体隔离。
 
 ## Koopman Model-Based Reinforcement Learning
 
@@ -59,13 +206,6 @@ Latent Barrier Steering 先调整流匹配规划器的行为潜变量以增加�
 - 收录历史: [2026-11-11 (v1, new)](../daily/2026-11-11.zh-CN.md#arxiv-2611.13013)
 
 FaST 将离线 RL 合成转移分解为状态、动作、动力学、奖励和终止模型；显式动作条件分布可在固定状态下执行 best-of-N 动作合成。
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [最新归档](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577)
-- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.zh-CN.md#arxiv-2611.08577)
-
-澄清Meituan-Robotics-0的Rollback数据构造及不同后训练方法获得的监督。
 
 ## Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration
 
@@ -290,13 +430,6 @@ Adaptive Internal Computation联合学习动作及何时停止迭代隐状态细
 - 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09679)
 
 强化学习策略控制六自由度机械臂相机，通过流场估计与不确定性定位和解析水翼尾流。
-
-## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
-
-- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v1 · [最新归档](../daily/2026-11-09.zh-CN.md#arxiv-2611.09670)
-- 收录历史: [2026-11-09 (v1, new)](../daily/2026-11-09.zh-CN.md#arxiv-2611.09670)
-
-研究更强搜索如何在偏好标签准确率较高时仍利用奖励模型误差，并提出校准正则化。
 
 ## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
 

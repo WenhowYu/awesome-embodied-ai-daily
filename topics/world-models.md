@@ -2,7 +2,119 @@
 
 [English](world-models.md) | [简体中文](world-models.zh-CN.md) | [All topics](README.md)
 
-270 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+286 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming
+
+- [arXiv 2611.16728](https://arxiv.org/abs/2611.16728) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16728)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16728)
+
+Embodiment-specific tokenizers and action experts surround a shared trunk trained to predict latent future observations.
+
+## Rethinking Actions: Continuity-Aware Priors for World-Model Planning
+
+- [arXiv 2611.16645](https://arxiv.org/abs/2611.16645) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16645)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16645)
+
+A locality-gated GP learns demonstration-consistent continuations and proposes trajectories for a frozen visual world model.
+
+## BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU
+
+- [arXiv 2611.16422](https://arxiv.org/abs/2611.16422) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16422)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16422)
+
+BlinkMimic trains a humanoid tracking policy by differentiating through a world model, with deployment-failure resets and GPU graph capture.
+
+## BWM-Forge: Agentic World Programming for Embodied Intelligence
+
+- [arXiv 2611.16221](https://arxiv.org/abs/2611.16221) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16221)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16221)
+
+BWM-Forge uses a coding-agent harness to build editable Blender scene programs and retrieves reusable rendering rules before video generation.
+
+## Video-Action Models for Data-Efficient Industrial Manipulation
+
+- [arXiv 2611.15974](https://arxiv.org/abs/2611.15974) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15974)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15974)
+
+FLUX-mimic jointly trains video prediction and action generation using a backbone pretrained on web and industrial videos.
+
+## Latent Imagination for Parameterized Action Spaces
+
+- [arXiv 2611.15744](https://arxiv.org/abs/2611.15744) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15744)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15744)
+
+HyLI learns hybrid discrete-continuous actions through latent world-model imagination, counterfactual mode evaluation, and success-window replay, deploying a feed-forward actor rather than online planning.
+
+## What World Model Does Active Object Search Need? A Study under Imperfect Detection
+
+- [arXiv 2611.15689](https://arxiv.org/abs/2611.15689) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15689)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15689)
+
+BAMOS separates target belief, occupancy and detector error in a Bayesian model of active object search.
+
+## Bind-WAM: Binding-Uncertainty-Guided Selective Future Imagination in World Action Models
+
+- [arXiv 2611.15368](https://arxiv.org/abs/2611.15368) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15368)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15368)
+
+A router learned from offline binding pseudo-labels selectively runs joint future/action prediction when language-object binding is uncertain.
+
+## AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention
+
+- [arXiv 2611.15215](https://arxiv.org/abs/2611.15215) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15215)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15215)
+
+Fast-decaying and persistent error-driven states adapt mixtures of frozen experts to changed robot dynamics.
+
+## Prediction or Persistence? What Future-Prediction Scores Miss About World Models
+
+- [arXiv 2611.15082](https://arxiv.org/abs/2611.15082) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15082)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15082)
+
+Pairs each future-retrieval score with the same encoder and a predictor-free persistence control.
+
+## Does Your World Model Know Actions Have Consequences?
+
+- [arXiv 2611.15048](https://arxiv.org/abs/2611.15048) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15048)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15048)
+
+Proposes auditing action sensitivity rather than judging world models only by reconstruction or task scores.
+
+## Fast Inference-Time Policy Refinement via Action-Affine World Models
+
+- [arXiv 2611.15011](https://arxiv.org/abs/2611.15011) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15011)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15011)
+
+An offline action-affine world model predicts local correction effects, enabling one model evaluation and a convex QP per step.
+
+## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
+
+- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.09670)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09670) · [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2611.09670)
+
+Studies how sampling planners exploit learned preference rewards, separating true return from label accuracy.
+
+## HAVANA: A Hierarchical Video-Action Model for Vision-Language Navigation
+
+- [arXiv 2610.24122](https://arxiv.org/abs/2610.24122) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.24122)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2610.24122)
+
+HAVANA separates slow latent video planning from fast trajectory response, studying world-model navigation under delayed updates.
+
+## WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models
+
+- [arXiv 2609.03681](https://arxiv.org/abs/2609.03681) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2609.03681)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2609.03681)
+
+WISE schedules world-model imagination for VLA post-training.
+
+## Joint Learning of Hierarchical Neural Options and Abstract World Model
+
+- [arXiv 2602.02799](https://arxiv.org/abs/2602.02799) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2602.02799)
+- Coverage history: [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2602.02799)
+
+AgentOWL jointly learns hierarchical options and an abstract world model for compositional skill acquisition.
 
 ## OnlyAct: Extracting Action Representations from Foundation Models for World Models
 

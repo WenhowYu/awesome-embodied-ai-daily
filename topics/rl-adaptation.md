@@ -2,7 +2,154 @@
 
 [English](rl-adaptation.md) | [简体中文](rl-adaptation.zh-CN.md) | [All topics](README.md)
 
-273 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+292 unique papers. These are navigation summaries; consult the daily entries for full metrics, caveats, and code status.
+
+## Inner Product Regularization for Imitation Learning
+
+- [arXiv 2611.17159](https://arxiv.org/abs/2611.17159) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17159)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17159)
+
+InneR regularizes nearby policy Jacobians to share insensitive directions rather than penalizing every perturbation.
+
+## FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation
+
+- [arXiv 2611.17142](https://arxiv.org/abs/2611.17142) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17142)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17142)
+
+A proprioceptive force estimator with simulator-supervised correction supports compliant wrist control and residual whole-body stabilization.
+
+## Skill Adapter: Personalized Modification and Online Routing of General-Purpose Skills
+
+- [arXiv 2611.17007](https://arxiv.org/abs/2611.17007) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.17007)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.17007)
+
+Separates local skill adapters from reusable base skills and learns online skill applicability, routing, and modification with GRPO while keeping the executor frozen.
+
+## VOKE: Visual Object Kinematics Estimator for Dexterous In-Hand Manipulation
+
+- [arXiv 2611.16423](https://arxiv.org/abs/2611.16423) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16423)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16423)
+
+VOKE augments visual pose estimators with motion and acceleration estimates, then feeds those estimates to a dexterous RL policy.
+
+## BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU
+
+- [arXiv 2611.16422](https://arxiv.org/abs/2611.16422) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16422)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16422)
+
+BlinkMimic trains a humanoid tracking policy by differentiating through a world model, with deployment-failure resets and GPU graph capture.
+
+## Alloy: A Multi-Material Physics Engine for Robot Learning
+
+- [arXiv 2611.16312](https://arxiv.org/abs/2611.16312) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16312)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16312)
+
+Alloy couples rigid, cloth, cable, liquid, granular and soft-body simulation in parallel and exposes training tools to coding agents.
+
+## What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation
+
+- [arXiv 2611.16246](https://arxiv.org/abs/2611.16246) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16246)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16246)
+
+H2E distills successful LLM-orchestrated navigation sessions into a VLA, retaining the original task instruction, masking detours and relabeling stop states.
+
+## PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control
+
+- [arXiv 2611.16188](https://arxiv.org/abs/2611.16188) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16188)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16188)
+
+PERA adds an expert and routing score for each new whole-body task while freezing the base mixture-of-experts policy.
+
+## Imitating the Imperfect: Offline-to-Online Robust Imitation Learning from Heterogeneous Demonstrators
+
+- [arXiv 2611.16020](https://arxiv.org/abs/2611.16020) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.16020)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.16020)
+
+LEOS-IL infers demonstrator expertise and state-action optimality from mixed offline data, then updates its scoring model during online policy improvement.
+
+## Latent Imagination for Parameterized Action Spaces
+
+- [arXiv 2611.15744](https://arxiv.org/abs/2611.15744) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15744)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15744)
+
+HyLI learns hybrid discrete-continuous actions through latent world-model imagination, counterfactual mode evaluation, and success-window replay, deploying a feed-forward actor rather than online planning.
+
+## Embedded Sim-to-Real Visual Servoing: Learned Reaching and Force-Guided Placement
+
+- [arXiv 2611.15658](https://arxiv.org/abs/2611.15658) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15658)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15658)
+
+Runs segmentation and learned reaching on embedded hardware, with explicit force-guided contact correction.
+
+## AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention
+
+- [arXiv 2611.15215](https://arxiv.org/abs/2611.15215) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15215)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15215)
+
+Fast-decaying and persistent error-driven states adapt mixtures of frozen experts to changed robot dynamics.
+
+## Elastra: A Simulation Framework for Elastic Bodies
+
+- [arXiv 2611.15112](https://arxiv.org/abs/2611.15112) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.15112)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.15112)
+
+Elastic-surface simulation supports residual RL on frozen humanoid stand-up and tracking controllers.
+
+## ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking
+
+- [arXiv 2611.14985](https://arxiv.org/abs/2611.14985) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.14985)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.14985)
+
+A simulation-trained interface adapter corrects reference motions for compliant guidance while reusing frozen trackers.
+
+## SPIRE: Task-agnostic embodied continual learning through autonomous situation inference and causal motor-primitive reuse
+
+- [arXiv 2611.14840](https://arxiv.org/abs/2611.14840) · v1 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.14840)
+- Coverage history: [2026-11-13 (v1, new)](../daily/2026-11-13.md#arxiv-2611.14840)
+
+Infers recurring situations from action outcomes and reuses protected motor actors with a new residual.
+
+## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
+
+- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2611.09670)
+- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09670) · [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2611.09670)
+
+Studies how sampling planners exploit learned preference rewards, separating true return from label accuracy.
+
+## EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution
+
+- [arXiv 2610.10498](https://arxiv.org/abs/2610.10498) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2610.10498)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2610.10498)
+
+EmbodiedRSI links M1 experience, M2 skill/code hypotheses and M3 cognition to physical experiment selection.
+
+## TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models
+
+- [arXiv 2608.07314](https://arxiv.org/abs/2608.07314) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2608.07314)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2608.07314)
+
+TEMPO freezes the vision-language backbone and updates semantic projections and the action expert at different rates.
+
+## Joint Learning of Hierarchical Neural Options and Abstract World Model
+
+- [arXiv 2602.02799](https://arxiv.org/abs/2602.02799) · v3 · [Latest entry](../daily/2026-11-13.md#arxiv-2602.02799)
+- Coverage history: [2026-11-13 (v3, revised)](../daily/2026-11-13.md#arxiv-2602.02799)
+
+AgentOWL jointly learns hierarchical options and an abstract world model for compositional skill acquisition.
+
+## Diffusion Guidance Is a Controllable Policy Improvement Operator
+
+- [arXiv 2505.23458](https://arxiv.org/abs/2505.23458) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2505.23458)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2505.23458)
+
+CFGRL uses classifier-free guidance for offline policy extraction, adjusting improvement versus data adherence at test time.
+
+## OPA-Pack: Object-Property-Aware Robotic Bin Packing
+
+- [arXiv 2505.13339](https://arxiv.org/abs/2505.13339) · v2 · [Latest entry](../daily/2026-11-13.md#arxiv-2505.13339)
+- Coverage history: [2026-11-13 (v2, revised)](../daily/2026-11-13.md#arxiv-2505.13339)
+
+OPA-Pack combines semantic properties and deep Q-learning to balance packing compactness, fragile-object load and incompatible-object separation.
 
 ## Koopman Model-Based Reinforcement Learning
 
@@ -59,13 +206,6 @@ Compares 24 intrinsic objectives and 3 representation-learning strategies in a s
 - Coverage history: [2026-11-11 (v1, new)](../daily/2026-11-11.md#arxiv-2611.13013)
 
 FaST factors synthetic offline-RL transitions into state, action, dynamics, reward and termination models. Its explicit action conditional supports best-of-N action synthesis without redrawing the state.
-
-## Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
-
-- [arXiv 2611.08577](https://arxiv.org/abs/2611.08577) · v2 · [Latest entry](../daily/2026-11-11.md#arxiv-2611.08577)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.08577) · [2026-11-11 (v2, revised)](../daily/2026-11-11.md#arxiv-2611.08577)
-
-Clarifies Meituan-Robotics-0 Rollback data construction and the supervision available to different post-training methods.
 
 ## Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration
 
@@ -290,13 +430,6 @@ Distills a multi-grasp PPO critic into a utility network that selects grasps for
 - Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09679)
 
 An RL policy moves a camera on a 6-DoF arm to locate and resolve hydrofoil wakes using flow estimates and uncertainty.
-
-## Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences
-
-- [arXiv 2611.09670](https://arxiv.org/abs/2611.09670) · v1 · [Latest entry](../daily/2026-11-09.md#arxiv-2611.09670)
-- Coverage history: [2026-11-09 (v1, new)](../daily/2026-11-09.md#arxiv-2611.09670)
-
-Studies how stronger search can exploit preference-model errors despite high held-out label accuracy; proposes calibrated regularization.
 
 ## Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning
 
